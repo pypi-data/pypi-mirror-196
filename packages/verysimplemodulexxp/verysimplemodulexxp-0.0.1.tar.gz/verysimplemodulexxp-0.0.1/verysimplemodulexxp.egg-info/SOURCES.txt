@@ -1,0 +1,7 @@
+setup.py
+verysimplemodulexxp/__init__.py
+verysimplemodulexxp/add.py
+verysimplemodulexxp.egg-info/PKG-INFO
+verysimplemodulexxp.egg-info/SOURCES.txt
+verysimplemodulexxp.egg-info/dependency_links.txt
+verysimplemodulexxp.egg-info/top_level.txt
