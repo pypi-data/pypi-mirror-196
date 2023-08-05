@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+procobserver/LICENSE
+procobserver/README.MD
+procobserver/__init__.py
+procobserver/requirements.txt
+procobserver/thirdparty.json
+procobserver.egg-info/PKG-INFO
+procobserver.egg-info/SOURCES.txt
+procobserver.egg-info/dependency_links.txt
+procobserver.egg-info/requires.txt
+procobserver.egg-info/top_level.txt

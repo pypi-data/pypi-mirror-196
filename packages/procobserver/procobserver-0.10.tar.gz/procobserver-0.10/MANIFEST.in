@@ -1,0 +1,4 @@
+include procobserver/requirements.txt
+include procobserver/thirdparty.json
+include procobserver/README.MD
+include procobserver/LICENSE
