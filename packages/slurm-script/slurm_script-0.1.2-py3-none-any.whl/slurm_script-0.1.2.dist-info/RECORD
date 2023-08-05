@@ -1,0 +1,8 @@
+slurm_script/.gitignore,sha256=CU1Ow-zw9BWWzw2DhoFC9CmU0NRs0ZfW2sMDd1dtOtU,3086
+slurm_script/__init__.py,sha256=ukRi52GfClBzpB3Via-HNF7tqQ2OJRyvo3aBLa2Dukk,46
+slurm_script/__main__.py,sha256=NZotDsXzER-e8itfIh2x-KsVPJtlmFk3aSVma3ABUZQ,98
+slurm_script/main.py,sha256=egKP0r86T628A_pj0CfhLtN2Klbtjb3NgLlhZBnrqjo,2066
+slurm_script-0.1.2.dist-info/entry_points.txt,sha256=tqiNf-6EHCEQ8GbyS4ivcLr_q6XqAmNqrnFFuo3mEYg,45
+slurm_script-0.1.2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+slurm_script-0.1.2.dist-info/METADATA,sha256=LDS6f2-iziAc-sTDwTjRFKKiXqLAE2xmGwIEUrEE2AI,467
+slurm_script-0.1.2.dist-info/RECORD,,

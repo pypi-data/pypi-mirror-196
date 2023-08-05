@@ -1,0 +1,3 @@
+[console_scripts]
+ss=slurm_script.main:main
+
