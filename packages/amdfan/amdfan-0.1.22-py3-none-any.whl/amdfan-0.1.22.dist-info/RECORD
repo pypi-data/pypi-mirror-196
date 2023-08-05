@@ -1,0 +1,9 @@
+LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+amdfan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amdfan/amdfan.py,sha256=79gekM8-xkRgRDoS1T2iLRfr5YtQXTKGmBZaORX_GO8,12639
+amdfan/amdfan.service,sha256=T-aKGGubM0sdyU0fXFWdLhlMF2sk4I80pDH2tHDlG0c,136
+amdfan-0.1.22.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+amdfan-0.1.22.dist-info/METADATA,sha256=_OsX09Sg1L2vd_Togf0bpw6O8vRhGJVBnF2oMK2hij8,7764
+amdfan-0.1.22.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+amdfan-0.1.22.dist-info/entry_points.txt,sha256=Mq7SU1v3G91luhoOs5aL5iUcVr7paQ90ioJIZgg7XLk,44
+amdfan-0.1.22.dist-info/RECORD,,
