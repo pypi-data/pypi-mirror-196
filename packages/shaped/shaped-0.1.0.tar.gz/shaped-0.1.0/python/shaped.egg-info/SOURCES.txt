@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+python/shaped.egg-info/PKG-INFO
+python/shaped.egg-info/SOURCES.txt
+python/shaped.egg-info/dependency_links.txt
+python/shaped.egg-info/entry_points.txt
+python/shaped.egg-info/requires.txt
+python/shaped.egg-info/top_level.txt
+python/shaped.egg-info/zip-safe
