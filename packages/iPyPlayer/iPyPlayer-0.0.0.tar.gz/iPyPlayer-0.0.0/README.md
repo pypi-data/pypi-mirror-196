@@ -1,0 +1,40 @@
+
+# iPyPlayer
+
+
+### ============================================================
+### Overview
+### ============================================================
+
+
+### ============================================================
+### PyCharm를 이용한 파이썬64비트 가상환경 구성
+### ============================================================
+
+6. 64비트 가상환경 구성
+6.0 python3.9-64bit Installer 로 설치
+6.1 PyChar실행
+6.2 File / Settings / Python Interpreter
+- ipp_env_py39_64bit 폴더명 설정
+- C:\Python39\python.exe 선택
+cd "C:\pypjts\iPyPlayer"
+6.3 .\ipp_env_py39_64bit\Scripts\activate
+6.4 pip install --upgrade pip
+6.5 pip install -r requirements.txt
+
+<!-- 쥬피터 환경설정 -->
+6.6 pip install jupyter
+6.7 pip install ipykernel
+6.8 python -m ipykernel install --name=env_py39_64bit
+6.9 jupyter notebook
+6.10 메뉴 / Kernel / Change kernel
+
+
+### ============================================================
+### PyPi 패키지 업로드
+### ============================================================
+1. py -m pip install --upgrade build
+2. py -m build
+3. py -m pip install --upgrade twine
+4. setup.py 파일내용변경
+5. py -m twine upload --repository pypi dist/*
