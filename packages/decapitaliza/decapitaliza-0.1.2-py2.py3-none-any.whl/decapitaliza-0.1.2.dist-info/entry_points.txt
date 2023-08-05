@@ -1,0 +1,2 @@
+[console_scripts]
+decapitaliza = decapitaliza.decapitaliza:cli
