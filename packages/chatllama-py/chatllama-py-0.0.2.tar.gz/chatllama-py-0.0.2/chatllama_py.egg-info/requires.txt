@@ -1,0 +1,10 @@
+beartype
+deepspeed
+einops
+fairscale
+langchain
+torch
+tqdm
+transformers
+datasets
+openai
