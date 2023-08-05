@@ -1,0 +1,10 @@
+opengeode_io/__init__.py,sha256=4s1RTPPmsZI2o0TMsuP-CuvtK2OpAP2mmRfLU_3u2tc,1253
+opengeode_io/libOpenGeode-IO_image.so,sha256=OLHjJ54nLwwfHfGl8oY4WvGoF_sbXZpc4hs-w74dzrk,1487712
+opengeode_io/libOpenGeode-IO_mesh.so,sha256=KcgxtYSbH9lSVwUvS-3gyt4e1XB9tdQWuLZKZ5qnGko,2644576
+opengeode_io/libOpenGeode-IO_model.so,sha256=5nqvUuIDg5xXq8kj0zXFWm-812SeeEXluxusRD1qfSY,754120
+opengeode_io/opengeode_io_py_mesh.cpython-37m-x86_64-linux-gnu.so,sha256=fwyKxuA0ho3MKf_oeOM6rvZNs_eMUNdCzsrRcZYQHy8,192376
+opengeode_io/opengeode_io_py_model.cpython-37m-x86_64-linux-gnu.so,sha256=EuAFTgCW6Lv-vlMAm0VLPW7a1YaSUjLYRR9H1vQ3xZk,204776
+OpenGeode_IO-5.24.2.dist-info/METADATA,sha256=0rR4WI_YX_cTaHHpiJzTdxeGQt4ZBifAji8U_fj_ANQ,3046
+OpenGeode_IO-5.24.2.dist-info/WHEEL,sha256=VFy1EzBg9VBWCg6bpqQYyHoeotVPQ3hrQBWcnIPsDBM,104
+OpenGeode_IO-5.24.2.dist-info/top_level.txt,sha256=UbHospLC99KjjzaIpg_8PZkv87pJ67SRlIyMrWV58CY,13
+OpenGeode_IO-5.24.2.dist-info/RECORD,,
