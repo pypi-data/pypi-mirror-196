@@ -1,0 +1,15 @@
+zetl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zetl/mysql_export.py,sha256=vTCPxfhAbJRI1hF89pgbOpyQfECirf-SfHslDfAxZB0,1314
+zetl/mysql_import.py,sha256=CJ0f23Hiz578SSsSvi-19V63koZtsDpt35kgfEAs90U,1610
+zetl/postgres_export.py,sha256=NWgLDeODxvzOOe6uBkn9nGvpzAMbosWozlDqGQxmk2c,1254
+zetl/postgres_import.py,sha256=I_FZHXbaSBmHR7KZ4NlKne2a2UeXDht0mzUOvci2Ov8,1635
+zetl/run.py,sha256=BED9bLaAaE7ltof3o0PaW736bGyImw05U5BgGmDcoLQ,20539
+zetl/zetl_scripts/test/1.mysqlcheck.sql,sha256=Mk0vmN5YRinlre6uY_U3bvQs7E9z6_e8d9cD5kTOozI,162
+zetl/zetl_scripts/test/2.postgrescheck.sql,sha256=Yl9Je1Ac1uW6ujSh95qyYLXQPxRRtkuGrssiaNlzoH8,181
+zetl/zetl_scripts/test/3.another_mysqlcheck.sql,sha256=LZ-Pt_sBuifcLCLBfs952DKiv9Wv1QyO1WBfYUUlz-E,270
+zetl/zetl_scripts/test/4.another_postgrescheck.sql,sha256=U-IRZ1_BNwaZ3F8Sy0z1gLMQemaA8f8CYb6KKYYQC7k,284
+zetl/zetl_scripts/test/z_etl.csv,sha256=Rn_I8D-Vr7sOJD7OKuogl8V0Cc4MxITXYlxVfKcTol0,173
+zetl-1.0.0.dist-info/METADATA,sha256=zyEQ3bVVn5eDV5Uji-vLt6GdGyTSz6Nuk5wzeqeq8cQ,3586
+zetl-1.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+zetl-1.0.0.dist-info/licenses/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+zetl-1.0.0.dist-info/RECORD,,
