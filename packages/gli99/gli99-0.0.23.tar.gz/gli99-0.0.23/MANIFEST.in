@@ -1,0 +1,2 @@
+include src/gli99/browser_options.json
+include src/gli99/gli99.py
