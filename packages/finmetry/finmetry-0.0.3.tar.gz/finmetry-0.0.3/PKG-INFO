@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: finmetry
+Version: 0.0.3
+Summary: Stock market data analysis
+Home-page: https://github.com/ddrathod121294/finmetry
+Author: Darshan Rathod, Sachin K S
+Author-email: darshan.rathod1994@gmail.com, sachinks@gmail.com
+Keywords: stock market,market,finanace,investment
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Natural Language :: English
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# Finmetry
+
+This is the project on stock market data analysis using modern data anlysis tools, AI and ML.
+
+In depth tests on various stock market tools are conducted.
+
+---
+---
