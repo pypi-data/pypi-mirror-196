@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = [
+    "*.py",
+    "*.pyui",
+]
+
+[project]
+name = "handie_utils_package_wander99"
+version = "3.0"
+description = "Handie utilities especially for POTA/SOTA operators"
+readme = "README.md"
+requires-python = ">=3.7"
+license-file = "LICENSE"
+authors = [
+     {name = "George", email = "georgefennLT@gmail.com"},
+]
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: iOS",
+] 

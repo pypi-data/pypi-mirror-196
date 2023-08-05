@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{66, 36}, {222, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "dms_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "From Degrees Mins Secs",
+          "uuid" : "62264F60-A60F-4312-AED2-39359AA6B8E0",
+          "class" : "Button",
+          "name" : "park_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{66, 96}, {222, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "dd_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "From Decimal Degrees",
+          "class" : "Button",
+          "uuid" : "62264F60-A60F-4312-AED2-39359AA6B8E0",
+          "font_size" : 20,
+          "name" : "summit_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{36, 156}, {262, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ddm_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "From Degrees Decimal Mins",
+          "uuid" : "62264F60-A60F-4312-AED2-39359AA6B8E0",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{66, 216}, {222, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "gs_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "To Grid Square",
+          "class" : "Button",
+          "uuid" : "62264F60-A60F-4312-AED2-39359AA6B8E0",
+          "font_size" : 20,
+          "name" : "convert_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{137, 276}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "convert_done_button_pressed",
+          "border_width" : 2,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Done",
+          "uuid" : "8A29769A-EF12-4A9F-BED5-0F275143F178",
+          "class" : "Button",
+          "custom_attributes" : "{\"font\":('<system-bold>',20),\"tint_color\":(1.0,0.0,0.0)}",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "button1",
+          "font_size" : 20
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Convert Coordinates",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

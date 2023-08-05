@@ -1,0 +1,137 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{47, 179}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "dms_lat_button_pressed",
+          "border_width" : 2,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Latitude",
+          "uuid" : "39EA2439-E2E4-49DB-A67F-5128A45F76E6",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.266667,0.803922,0.266667,1.000000)",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{197, 179}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "dms_lon_button_pressed",
+          "border_width" : 2,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Longitude",
+          "uuid" : "03CAF4A9-F549-4ED2-BDB1-F8FE91846C19",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.266667,0.803922,0.266667,1.000000)",
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{124, 122}, {100, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C8B0455C-791A-431D-835E-76135677F4CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 44}, {127, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "133CE746-2239-461B-A97E-5BEC0AF4F9E2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "HH MM SS Dir",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{124, 236}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "dms_done_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Done",
+          "uuid" : "9A668192-2427-4C0A-98F8-04B7D76DF7A3",
+          "class" : "Button",
+          "custom_attributes" : "{\"font\":('<system-bold>',20),\"tint_color\":(1.0,0.0,0.0)}",
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{88, 86}, {150, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "8298E96E-2630-4D84-A0DF-03A2673DEC24",
+          "corner_radius" : 0,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "border_color" : "RGBA(0.784314,0.784314,0.784314,1.000000)",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "action" : "dms_text_received",
+          "text" : "",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "dms_inp",
+          "font_size" : 17
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "custom_class" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Degrees Minutes Seconds Direction"
+    },
+    "selected" : false
+  }
+]
