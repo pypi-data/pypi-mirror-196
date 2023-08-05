@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orm-2-sql-visualizer"
+version = "1.0.1"
+description = "Visualize your ORM queries as SQL queries and get additional stats about your queries."
+readme = "README.rst"
+license = { text = "MIT" }
+authors = [
+    { name = "Erol Gelbul" },
+]
+
+dependencies = [
+  "Pygments>=2.14.0","sqlparse>=0.4.3",
+]
+
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["orm-2-sql-visualizer"]
+
+[project.urls]
+Homepage = "https://github.com/erolgelbul"

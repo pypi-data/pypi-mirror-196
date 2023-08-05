@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: orm-2-sql-visualizer
+Version: 1.0.1
+Summary: Visualize your ORM queries as SQL queries and get additional stats about your queries.
+Author: Erol Gelbul
+License: MIT
+Project-URL: Homepage, https://github.com/erolgelbul
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Django Middleware Package
+=========================
+
+Visualize what SQL Query is being executed with additional stats.
+
+
+Installation
+------------
+1. Install the package using pip:
+
+    pip install django-orm-2-sql-visualizer
+
+2. Add the middleware to your settings.py file:
+
+    'orm-2-sql-visualizer.middleware.new_middleware',
+

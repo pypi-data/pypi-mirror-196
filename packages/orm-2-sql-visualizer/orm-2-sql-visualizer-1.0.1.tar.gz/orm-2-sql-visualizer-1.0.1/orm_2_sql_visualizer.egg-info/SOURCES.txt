@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+orm-2-sql-visualizer/__init__.py
+orm-2-sql-visualizer/middleware.py
+orm_2_sql_visualizer.egg-info/PKG-INFO
+orm_2_sql_visualizer.egg-info/SOURCES.txt
+orm_2_sql_visualizer.egg-info/dependency_links.txt
+orm_2_sql_visualizer.egg-info/requires.txt
+orm_2_sql_visualizer.egg-info/top_level.txt
+tests/test_new.py
