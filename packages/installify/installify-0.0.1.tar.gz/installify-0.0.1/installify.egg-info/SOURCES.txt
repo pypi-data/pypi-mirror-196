@@ -1,0 +1,8 @@
+README.md
+setup.py
+installify/__init__.py
+installify.egg-info/PKG-INFO
+installify.egg-info/SOURCES.txt
+installify.egg-info/dependency_links.txt
+installify.egg-info/requires.txt
+installify.egg-info/top_level.txt
