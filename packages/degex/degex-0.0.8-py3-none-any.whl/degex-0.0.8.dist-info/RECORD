@@ -1,0 +1,15 @@
+degex/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+degex/_modidx.py,sha256=WQwrUW-XO6wnW5jq-lutaahJ5s6XHlqx5Bxlr9eCpzI,12924
+degex/adata.py,sha256=VXCKvfCKTuVSHNnn-iAE2RrTsAExNf57XqPz9hdPPQU,19521
+degex/branches.py,sha256=scJZX1R0wvN_PV4MQIcX8rFo-8LJaY0qkuJNwo4Gopk,19455
+degex/core.py,sha256=e-A50cQQexxLl1KtfsEomaDJ-ml5CMMIEbbGnbO5f30,570
+degex/plots.py,sha256=MDKt4zHyW9hyhUI2CgRBBJ3Ltu80KyBi67grkQ8Od9I,3347
+degex/preprocessing.py,sha256=_8XvXSuNQg-y2cQdByBxGQfB2pnZPkt50rBKQorRXro,4922
+degex/types.py,sha256=RxQDnOwfKx7ZqiKCet7cHthylePUXnLzOL5gWpsT5sE,5257
+degex/utils.py,sha256=Sv9W8RBAFHpmeq6wDtYvWDUbo5OXj7J-2GnRPCMOHaY,2540
+degex-0.0.8.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+degex-0.0.8.dist-info/METADATA,sha256=2T9_R_1TK3un1_qJ6iGMJ073rfGKbsdvZz1OISJtiZI,1330
+degex-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+degex-0.0.8.dist-info/entry_points.txt,sha256=i0Yk1NT_k4swA4hctKxJCVrZ89IlTX4REAQcGGuF148,32
+degex-0.0.8.dist-info/top_level.txt,sha256=GHF7qUGrvwHOa1_gdRmipB90QLwJBMpSksUPyQIyYrY,6
+degex-0.0.8.dist-info/RECORD,,
