@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: crowdpy
+Version: 1.1.0
+Summary: A Python library for Atlassian Crowd REST API
+Home-page: https://github.com/yoobato/crowdpy
+Author: Daeyeol Ryu
+Author-email: yoobato@gmail.com
+License: Apache-2.0
+Keywords: atlassian,crowd
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# crowdpy
+A Python library for Atlassian Crowd REST API
+
+## Requirements
+- Python >= 3.9
+
+## Installation
+```sh
+pip install crowdpy
+```
+
+## Usage
+```python
+from crowd import Crowd
+
+# Initialize Crowd
+crowd = Crowd(base_url: 'https://example.com/crowd', account: (ADMIN_ID, ADMIN_PW))
+
+# Get Directories
+directories = crowd.get_managed_directories()
+print('Directories :', directories)
+
+# Generate Group ID
+group_id = crowd.generate_group_id(directory_id=directories[0]['id'], group_name='TestGroup')
+print('Group ID :', group_id)
+
+# Get Users by Group
+users = crowd.get_users_by_group(group_id=group_id)
+print(f'Users in Group [{group_id}] :', users)
+```
+
+## Authors
+- [Daeyeol Ryu](https://yoobato.com)
+
+## License
+- [Apache License 2.0](./LICENSE)

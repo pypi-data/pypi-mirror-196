@@ -1,0 +1,10 @@
+LICENSE
+README.md
+crowd.py
+pyproject.toml
+setup.py
+crowdpy.egg-info/PKG-INFO
+crowdpy.egg-info/SOURCES.txt
+crowdpy.egg-info/dependency_links.txt
+crowdpy.egg-info/requires.txt
+crowdpy.egg-info/top_level.txt
