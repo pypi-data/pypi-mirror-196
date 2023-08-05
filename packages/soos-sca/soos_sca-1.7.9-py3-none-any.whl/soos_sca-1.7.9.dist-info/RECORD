@@ -1,0 +1,9 @@
+cli/VERSION.txt,sha256=pM8wxNG-OsTVsIvsOb5bVcxNiToH24QmL7s_6kiYNCQ,6
+cli/__init__.py,sha256=6IvMzAmr0-Z6oqTkZcgXgrkJrQXVMjBih2AZvLdDgOE,27
+cli/soos.py,sha256=bgd_vIHOtxkqe3mBb4QavVIktuaccygQ_D172j5wEwI,77178
+soos_sca-1.7.9.dist-info/LICENSE,sha256=DrFazcW85Pcd_ACT1Cee9vaPwxPfyTBrORrRsEXn0ZE,1065
+soos_sca-1.7.9.dist-info/METADATA,sha256=1T8LB4o_23Z_4Sd5g0IV6qwaNr5XCZHe2Yd2slBz5zc,6155
+soos_sca-1.7.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+soos_sca-1.7.9.dist-info/entry_points.txt,sha256=0GRZ0GOqxupUl0gUzIVEX9iYoLXG_9pQXxmGLFPDEVk,50
+soos_sca-1.7.9.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+soos_sca-1.7.9.dist-info/RECORD,,
