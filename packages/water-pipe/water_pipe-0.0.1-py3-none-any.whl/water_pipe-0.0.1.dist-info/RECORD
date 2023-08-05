@@ -1,0 +1,17 @@
+data-channel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data-channel/__version__.py,sha256=zTsK0eMsWhQM_J498JkPKagt-JSb3mUYRSG5GT1rn-4,352
+data-channel/base.py,sha256=kjeeHsSAgiVUSvGNRLgJMeqlG1lcb8JV4TnX_bHZnt4,849
+data-channel/channel.py,sha256=BUjg9k_odFrMVPyONi3zaqLjwkIz_NAfSwRBXaXMCEY,4432
+data-channel/db_csv.py,sha256=xCd7F4TaWamlgKEiXEfFAXlytKHzk_B1JOWprKjpDYY,2756
+data-channel/db_excel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data-channel/db_greenplum.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data-channel/db_hive.py,sha256=hFIFDEj3GKIXUp-CoHBFde2DjVJ1BylD-5fPraicbck,241
+data-channel/db_impala.py,sha256=7YqxeP4_EXTOnMxKslR8ZB1p6oh7sE7TuTt0x6x9dEw,5249
+data-channel/db_mysql.py,sha256=YQ35Eu0xj00daSGKzwI_z6Tp26q0d8kTFQWpPAobRoM,236
+data-channel/db_postgres.py,sha256=EwjulgXDEjtyXuQMlwCogSY3XTJIaNeAwat9--Lla0E,6406
+data-channel/test.py,sha256=k4FGt07mujg7o10dPW3-kdPKnB98ijZctawLzsq4bzc,1557
+water_pipe-0.0.1.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+water_pipe-0.0.1.dist-info/METADATA,sha256=PIN-Kz90hOpQSd9MZXJhfyWxSp7j1OScgViFf3vZNeA,837
+water_pipe-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+water_pipe-0.0.1.dist-info/top_level.txt,sha256=yUSRNvGEcP4dBvYxBq3N5wpAMNmP1rSeUyutEINVaiE,13
+water_pipe-0.0.1.dist-info/RECORD,,
