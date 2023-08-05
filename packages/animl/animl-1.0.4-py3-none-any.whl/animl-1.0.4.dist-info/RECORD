@@ -1,0 +1,16 @@
+animl/FileManagement.py,sha256=r6W_OW9GfzeBq3z2oDj6Ajk-ccDYGgK7HzbtpAaY55I,1533
+animl/ImageCropGenerator.py,sha256=cZKKIMHeh4Bt-ePmnMT16O_m62SZbFUuFZ8J_rBlMAo,2551
+animl/TFDetector.py,sha256=vXBEPzxDaPgtgOmydQiOQkF13rqd7prv6ozRaKYKLBI,9479
+animl/Workflow.py,sha256=gIUEFRbFKJ6SPIdI3Ci2WpA9e3GyBoaoFIZEqTFhAjo,4586
+animl/ZooniverseAPI.py,sha256=4Os652TgUO3Rux_o0UFBAm6hemWV5wac3tzwKa-9Y8Y,6620
+animl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animl/detectMD.py,sha256=wQby6r5Vsx-hnGgyjFh3ZpJwF7eZr6Fu3xDeZdBLguY,2298
+animl/extractFrames.py,sha256=f-s-4m6no-I3XzblMd0Pk7gkX5s7jTpIjNi2nfBLx9s,2753
+animl/parseResults.py,sha256=mVP9Z-FJ9k4haWJ54SECzp6Xy9DSZ4qRgZ3dhu3RepQ,1114
+animl/splitData.py,sha256=Vyu_g418DYifb2ie_heUgo6Rgl1LOO9GiJNm7IpYvo8,671
+animl/symlink.py,sha256=pP91JYvWk50v_ytxykr3WEwEmywE6XRpuArfVSROZ5s,674
+animl-1.0.4.dist-info/LICENSE,sha256=z4uEi-3qbG0qhVtBrM8m_Ty4PEn5I10mH-hsCOyj6UQ,1084
+animl-1.0.4.dist-info/METADATA,sha256=ARQ3p3XZpWOXvwxZv3Agm7igT5bITAUu-XJMfuSMJ7Q,788
+animl-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+animl-1.0.4.dist-info/top_level.txt,sha256=enKcf_A6El-P12-annv6AeXC_LGuxqXgHH5qRkFThIQ,6
+animl-1.0.4.dist-info/RECORD,,
