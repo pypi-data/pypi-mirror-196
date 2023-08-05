@@ -1,0 +1,19 @@
+name: macos-latest
+channels:
+  - conda-forge
+  - mantid
+  - scipp
+dependencies:
+  - h5py
+  - hypothesis
+  - mantid=6.5.*
+  - matplotlib
+  - ninja
+  - plopp >= 22.12.1
+  - pooch
+  - pytest
+  - pytest-asyncio
+  - pythreejs
+  - scipp=23.01.1
+  - scippnexus>=23.01.1
+  - scipy>=1.7.0
