@@ -1,0 +1,17 @@
+[project]
+name = "testpypisszczygielski"
+version = "0.0.1"
+description = "My test package"
+keywords = ["testpypisszczygielski", "name", "sufname", "fun"]
+authors = [{name = "Seba", email = "sebastianszczy@gmail.com"}]
+#licence = {file = "LICENCE.txt"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+    ]

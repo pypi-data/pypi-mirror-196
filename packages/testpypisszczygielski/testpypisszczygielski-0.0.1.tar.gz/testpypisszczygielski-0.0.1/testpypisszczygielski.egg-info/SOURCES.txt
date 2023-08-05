@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypissszczygielski/__init__.py
+testpypissszczygielski/m_mod_sszczygielski.py
+testpypisszczygielski.egg-info/PKG-INFO
+testpypisszczygielski.egg-info/SOURCES.txt
+testpypisszczygielski.egg-info/dependency_links.txt
+testpypisszczygielski.egg-info/requires.txt
+testpypisszczygielski.egg-info/top_level.txt
