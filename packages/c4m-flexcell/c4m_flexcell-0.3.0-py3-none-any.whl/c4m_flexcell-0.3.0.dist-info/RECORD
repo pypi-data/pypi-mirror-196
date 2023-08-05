@@ -1,0 +1,11 @@
+c4m/__init__.py,sha256=pzSBKtHjyGt7th440xmejvIOtmBL4IJM_GI68IoRZ4E,149
+c4m/cell_canvas.ipynb,sha256=6EUsmM3LtK3XfChV4UVaB4twOCers2gjxZNEXHsCNk8,2247
+c4m/flexcell/__init__.py,sha256=0JWiUYw25MRm05iGpoFArLy2EGT8x9Wx-Z8WCqU1sSI,107
+c4m/flexcell/_cells.py,sha256=Z41WL7yg3OlUWvK3e7P9f_9TwT0YRJUNiYiY0__T73I,622096
+c4m/flexcell/factory.py,sha256=3Sf0K8mvqpMkMkt2tO3Cm3Z6i0-hihbd0_FTgmpnxlE,106579
+c4m/flexcell/stdcell.py,sha256=Ns97BweKZzT97qzOgbjjFBOHUEXjmQRcjG_sKp2dtOI,52730
+c4m_flexcell-0.3.0.dist-info/LICENSE.md,sha256=FUQTmhfDE79wU3U4Q3y_1A4hkGzAienKyTWpnAgdxv0,782
+c4m_flexcell-0.3.0.dist-info/METADATA,sha256=a4CStWAjGRMEnaPHR-CSGHoR6wtg3JIAl4cwZmI6iMI,4159
+c4m_flexcell-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+c4m_flexcell-0.3.0.dist-info/top_level.txt,sha256=rwsscmrPhblhsY8BXBBAgsXrnjsrBphkOHEG6SBIvLE,4
+c4m_flexcell-0.3.0.dist-info/RECORD,,
