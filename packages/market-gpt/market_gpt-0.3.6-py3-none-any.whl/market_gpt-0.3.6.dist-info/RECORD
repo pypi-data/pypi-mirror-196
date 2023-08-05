@@ -1,0 +1,12 @@
+market_gpt/ChatGPT.py,sha256=Ja0OO80JhxAD_oV4XbZ3O7AYdKMVHimPe9PqmeQSsYg,957
+market_gpt/__init__.py,sha256=AUQVoWcw9msCDeApukD29UyTSf9MmuODXaj9H9ZHbYw,83
+market_gpt/__main__.py,sha256=LfjFGZN1bF5LOXfLSxZtuwEPS2RWKxZFdKm5htvqQiQ,1362
+market_gpt/prompt.py,sha256=ScJVbzJ2JtRBgAIb-jqRxCwMeJdX3RNHqyqsggvn9Jc,339
+market_gpt/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+market_gpt-0.3.6.dist-info/LICENSE,sha256=99zaQluw5ItLy3EuuMRkgY5l0wvZpHJ3XZ5prMeN2jg,1061
+market_gpt-0.3.6.dist-info/METADATA,sha256=bXGaqKAeGELMnsaYvycGpd72Ch3Vsiv6kGpIIevSG7s,5311
+market_gpt-0.3.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+market_gpt-0.3.6.dist-info/entry_points.txt,sha256=j5rsS4K8MJF8y8bY9vEwhm_pvnXEtUdu5z4Ooia4O8Q,56
+market_gpt-0.3.6.dist-info/top_level.txt,sha256=bMKiHaQZktJ8HjsbRUZ11PapaKXBbqEFVW3sentPGCY,11
+market_gpt-0.3.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+market_gpt-0.3.6.dist-info/RECORD,,
