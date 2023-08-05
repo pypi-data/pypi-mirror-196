@@ -1,0 +1,15 @@
+numpy>=1.23.5
+scipy>=1.9.3
+pandas>=1.5.2
+openpyxl
+tables
+openseespy
+sklearn
+jpype1
+tqdm
+gpy
+pydoe
+emukit
+
+[testing]
+pytest
