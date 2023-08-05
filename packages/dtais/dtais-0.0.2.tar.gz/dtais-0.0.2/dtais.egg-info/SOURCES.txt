@@ -1,0 +1,11 @@
+setup.py
+dtais/__init__.py
+dtais/img_aug.py
+dtais.egg-info/PKG-INFO
+dtais.egg-info/SOURCES.txt
+dtais.egg-info/dependency_links.txt
+dtais.egg-info/top_level.txt
+dtais/AugTools/__init__.py
+dtais/AugTools/audio_aug_tools.py
+dtais/AugTools/eda.py
+dtais/AugTools/img_aug_tools.py
