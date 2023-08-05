@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: web-stable-diffusion
+Version: 0.1.0
+Summary: Stable diffusion on browser
+Home-page: https://github.com/mlc-ai/web-stable-diffusion
+Author: Web stable diffusion contributors
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
