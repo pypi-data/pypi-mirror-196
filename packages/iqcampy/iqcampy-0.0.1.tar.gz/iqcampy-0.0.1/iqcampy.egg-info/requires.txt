@@ -1,0 +1,7 @@
+wget
+treelib
+pathlib
+numpy
+matplotlib
+
+[dev]
