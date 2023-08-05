@@ -1,0 +1,13 @@
+aiosftp/__init__.py,sha256=f79OvCcZXRB8jQyXsufiN9SIlbxQPUY91Rgst0Nlkqw,93
+aiosftp/__main__.py,sha256=P3rT7qw9PnOH5MdkHWZ0JIrw_Wlm5l-SIkD6XVxnP4A,2505
+aiosftp/conf.py,sha256=IXek4CrC5nPgBQJ6UPuaJ9oX4CfsT59JMdqlgg59azQ,2006
+aiosftp/ftp.py,sha256=FCncl7DgOFc10PUG4_vRqWkxVW6e5rudqAR8hj0O9CQ,5894
+aiosftp/scp.py,sha256=oPE7Xrrzv5mvMtkgzR1fvH-77GA7S-ssN16638tpX0g,6792
+aiosftp/user.py,sha256=jL8oxFzxePys0hLmM6-Wkgf7sceWvc19xt867bOCLW8,1992
+aiosftp/version.py,sha256=bvZnLF0nNgiKKx-qMaezuPQ6CZ-RzWvp2pLZPiBH7hE,546
+aiosftp-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiosftp-0.2.1.dist-info/METADATA,sha256=_OJLt-G6Q-awhja-5aqS0OZYw0TvTV9qiJbbReljpWo,3273
+aiosftp-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiosftp-0.2.1.dist-info/entry_points.txt,sha256=csM0gCSxAvs5NKY2PK5JUuhbCXmaqe1wp6CGukqxtL4,49
+aiosftp-0.2.1.dist-info/top_level.txt,sha256=8sy3PUV4S3mY2tlcGZHwqHe0zRNLYcn2gmfe9Ht1Sxc,8
+aiosftp-0.2.1.dist-info/RECORD,,
