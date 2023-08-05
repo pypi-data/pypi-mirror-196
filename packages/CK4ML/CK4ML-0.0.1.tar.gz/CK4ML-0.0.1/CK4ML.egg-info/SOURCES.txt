@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CK4ML/__init__.py
+CK4ML/imgconv.py
+CK4ML/kernels.py
+CK4ML.egg-info/PKG-INFO
+CK4ML.egg-info/SOURCES.txt
+CK4ML.egg-info/dependency_links.txt
+CK4ML.egg-info/top_level.txt
