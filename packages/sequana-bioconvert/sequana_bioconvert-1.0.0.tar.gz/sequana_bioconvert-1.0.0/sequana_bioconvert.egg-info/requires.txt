@@ -1,0 +1,13 @@
+sequana_pipetools>=0.7.2
+tqdm
+bioconvert
+snakemake
+
+[testing]
+pytest
+pytest-cov
+pytest-xdist
+pytest-mock
+pytest-timeout
+pytest-runner
+coveralls
