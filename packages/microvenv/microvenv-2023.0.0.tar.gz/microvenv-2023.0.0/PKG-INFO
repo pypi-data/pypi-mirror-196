@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: microvenv
+Version: 2023.0.0
+Summary: A minimal re-implementation of Python's venv module
+Keywords: virtual environments,venv
+Author-email: Brett Cannon <brett@python.org>
+Maintainer-email: Brett Cannon <brett@python.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black ; extra == "lint"
+Requires-Dist: ruff ; extra == "lint"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: changelog, https://github.com/brettcannon/microvenv/releases
+Project-URL: source, https://github.com/brettcannon/microvenv
+Provides-Extra: lint
+Provides-Extra: test
+
+# `microvenv`
+
+Create a minimal virtual environment.
+
+This module is meant for when the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) has been removed from the standard library by your Python distribution. Because `venv` is not available on PyPI and is developed in the stdlib, it is not possible to install it using `pip` or simply copy the code and expect it to work with older versions of Python. This module then attempts to be that portable alternative for creating virtual environments.
+
+In general, though, using the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) should be preferred and this module is only used as a fallback.
+
+
+## Usage
+
+```console
+python microvenv.py [path=".venv"]
+```
+
+If an argument is provided to the script, it is used as the path to create the virtual environment in. Otherwise, the virtual environment is created in `.venv`.
+
+For programmatic usage, use the [`runpy` module](https://docs.python.org/3/library/runpy.html#module-runpy) to execute the script:
+
+```python
+runpy.run_path("microvenv.py", run_name="__main__")
+```
+
+The contents of `microvenv.py` is also small enough to be passed in via the `-c` flag to `python`.
+
+## Differences compared to the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv)
+
+The module operates similarly to `py -m venv --symlinks --without-pip .venv`,
+except that:
+
+- There are no activation scripts (execute `python` in the virtual environment directly).
+- Windows is not supported.
+
