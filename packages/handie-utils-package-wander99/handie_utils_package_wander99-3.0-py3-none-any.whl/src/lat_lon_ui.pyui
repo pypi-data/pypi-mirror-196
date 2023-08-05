@@ -1,0 +1,276 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{27, 144}, {130, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C8B0455C-791A-431D-835E-76135677F4CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Use Kilometers",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 49}, {270, 90}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "133CE746-2239-461B-A97E-5BEC0AF4F9E2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{141, 355}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "lat_lon_done_button_pressed",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Done",
+          "uuid" : "9A668192-2427-4C0A-98F8-04B7D76DF7A3",
+          "class" : "Button",
+          "custom_attributes" : "{\"font\":('<system-bold>',20),\"tint_color\":(1.0,0.0,0.0)}",
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{54, 14}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "lat_lon_dms_button_pressed",
+          "border_width" : 2,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "DMS",
+          "uuid" : "7564B605-581F-48B5-8030-8B833FD12183",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.268082,0.804245,0.268082,1.000000)",
+          "name" : "button4",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 14}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "lat_lon_dd_button_pressed",
+          "border_width" : 2,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "DD",
+          "uuid" : "F7F068CA-8AED-4709-B8B9-EA0A357B445B",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.266667,0.803922,0.266667,1.000000)",
+          "name" : "button5",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{211, 144}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "lat_lon_km_switch",
+          "frame" : "{{135, 225}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switch1",
+          "uuid" : "C1B67012-A01E-4DCA-9A5A-52A315FF7924"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 195}, {110, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "9640A5D3-B8DB-4801-B46D-9611609C9723",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "First Latitude",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 235}, {120, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "26A84CB9-8BEF-492E-9CD7-98CAE2286831",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "First Longitude",
+          "name" : "label4",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 275}, {132, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "D36EEF71-C62C-49FA-8F50-A6DAC9DE2639",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Second Latitude",
+          "name" : "label5",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 315}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C8518AB3-51BF-4D5E-A1B9-FE1B6BC6366E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Second Longitude",
+          "name" : "label6",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{173, 195}, {145, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "DFA0C97D-B912-4BEB-88D0-E8BC201E43C8",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "lat1_inp",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{173, 233}, {145, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "ABB540AE-D124-456E-9C88-AC1724E4B007",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "lon1_inp",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{173, 275}, {145, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "1D39C593-B290-4065-96A9-8B47E1C4BFCC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "lat2_inp",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{173, 315}, {145, 33}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "lon2_inp",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "2D6518BE-1C68-4B9A-B963-E4B74F883BC8",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "custom_class" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Distance Calculator"
+    },
+    "selected" : false
+  }
+]

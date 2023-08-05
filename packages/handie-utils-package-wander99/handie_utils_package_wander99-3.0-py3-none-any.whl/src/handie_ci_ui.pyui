@@ -1,0 +1,62 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{137, 96}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ci_done_button_pressed",
+          "border_width" : 0,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Done",
+          "uuid" : "8A29769A-EF12-4A9F-BED5-0F275143F178",
+          "class" : "Button",
+          "custom_attributes" : "{\"font\":('<system-bold>',20),\"tint_color\":(1.0,0.0,0.0)}",
+          "corner_radius" : 0,
+          "name" : "button1",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{67, 36}, {220, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "75BF2AC0-7B2C-49B6-A228-02BE0DA8CF2D",
+          "corner_radius" : 0,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "border_color" : "RGBA(0.784314,0.784314,0.784314,1.000000)",
+          "border_width" : 1,
+          "action" : "ci_text_received",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "placeholder" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "ci_inp",
+          "font_size" : 17
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Select Utility",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: handie_utils_package_wander99
+Version: 3.0
+Summary: Handie utilities especially for POTA/SOTA operators
+Author-email: George <georgefennLT@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: iOS
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# HANDIE UTILS - HAM RADIO UTILITIES
+
+This application is a simple utility to access different functions that may be of particular interest to POTA/SOTA Amateur Radio operators. This application is not glitzy, but provides the functionality desired. One of the goals for this app is that it could run without a need for Internet or cell service when it is used in the field. The only functions that require the Internet is Call Sign Lookup and the map display of home QTH. Since Call Sign Lookup is using XML data from qrz.com, it doesn't require the bandwidth that would be required by a full page render in a web browser, so it may be possible even with spotty cell service. The home QTH display does go to Safari for the map display, but there is a link back to Pythonista in the upper left corner of the screen in standard iOS convention.
+
+This application is comprised of several Python scripts to perform the following functions :
+
+- Park Lookup
+- Summit Lookup
+- Calculate Distance
+- Coordinates Conversion
+- Call Sign Lookup
+
+
+## REQUIREMENTS
+
+- The Python scripts in this package run only on an iOS platform
+- The Pythonista app is required for run-time interpretation. This app is available from the App Store.
+- It is necessary to have a qrz.com XML data subscription for Call Sign Lookup to function.
+- The parks CSV file must be downloaded from [POTA](https://POTA.app). If you want to see personal stats for My Activations and My Hunter QSOs for park entities, make sure you are signed in on POTA.app so that your personal stats will be downloaded for display. An account is not a requirement for the download, though.
+- The summits CSV file must be downloaded from [SOTA](https://www.SOTAdata.org.uk/en/)
+
+
+## INSTALLATION
+
+- The **handie_install_util** script is used to pull the current distribution from pypi. This script will be provided by George. The Python scripts and .pyui files will be installed under
+ **Python Modules->site-packages** in the src folder.
+- If registered with qrz.com for XML data, then run the **arctic_init** shortcut to create the credentials file for qrz.com access.
+- There is a shortcut available from George to quickly and easily access the application.
+
+
+## CONFIGURATION
+
+- In iOS settings under **Privacy&Security - > Location Services** find Pythonista and select While Using.
