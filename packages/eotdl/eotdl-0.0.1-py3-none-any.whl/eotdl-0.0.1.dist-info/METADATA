@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: eotdl
+Version: 0.0.1
+Summary: Earth Obsertvation Training Datasets Lab
+License: MIT
+Author: EarthPulse
+Author-email: it@earthpulse.es
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: auth0-python (>=4.0.0,<5.0.0)
+Requires-Dist: pydantic (>=1.10.5,<2.0.0)
+Requires-Dist: pymongo (>=4.3.3,<5.0.0)
+Description-Content-Type: text/markdown
+
+# eotdl 
+
+This is the main library for EOTDL.
+
+
