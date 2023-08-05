@@ -1,0 +1,9 @@
+_pybind11_fast_crossing.cp38-win_amd64.pyd,sha256=Qm1r5jjteYAUFzJ6Hfm2h1AEAr5J7UgfKZhW3Mr6YGI,379392
+fast_crossing/__init__.py,sha256=kTUNwZvwYhgAVck6M61BeXoTYpMvAEpmMGGaDEWaosk,104
+fast_crossing/spatial.py,sha256=flrmrfqrZMP1Kl9UuhWf2VO5fidW9yCHIBmwMsb9uPY,3494
+fast_crossing/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_crossing-0.0.5.dist-info/LICENSE,sha256=N_R9-5l0U5HZyk0-el1LtB0nxSXttAIy78h4x_w_bgk,2218
+fast_crossing-0.0.5.dist-info/METADATA,sha256=IYn30-TZopTHlOxx5pUR6yU3K-6ES9gHUx4LFQIppBE,7380
+fast_crossing-0.0.5.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+fast_crossing-0.0.5.dist-info/top_level.txt,sha256=z-z9SA1-2Gfy7W0tnsoXkob1Rwej_RSii221S8tgR4g,14
+fast_crossing-0.0.5.dist-info/RECORD,,
