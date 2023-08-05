@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/VERSION
+src/example_package_jdroldan/__init__.py
+src/example_package_jdroldan/example.py
+src/example_package_jdroldan.egg-info/PKG-INFO
+src/example_package_jdroldan.egg-info/SOURCES.txt
+src/example_package_jdroldan.egg-info/dependency_links.txt
+src/example_package_jdroldan.egg-info/requires.txt
+src/example_package_jdroldan.egg-info/top_level.txt
