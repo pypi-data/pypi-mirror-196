@@ -1,0 +1,2 @@
+class UnknownErrorOccured(Exception):
+    pass
