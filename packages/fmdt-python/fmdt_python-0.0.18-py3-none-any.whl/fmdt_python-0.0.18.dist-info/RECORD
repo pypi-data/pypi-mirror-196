@@ -1,0 +1,15 @@
+ground_truth.py,sha256=PKnFcWh2fQwdDQ0DcWKsArSsxaFYV07QNuTHnt_nX5A,487
+is_human_detected.py,sha256=ONul9ERekUqJA2vTYmkxW8e067L9lKmveNnTeL0hIA0,670
+light_min_max.py,sha256=DjuB_tos8XK8kLUJsGcY42tq3NuW9b_NXES8UIYalr8,1040
+setup.py,sha256=VoRyY9amhUCM3npwDJv6JjTPoqQH8PeHkNqFIyVyVq8,117
+fmdt/__init__.py,sha256=xjm8nhP9A1W2UThstHDjA8cUbFjr7godPAlJ5AE1hlc,487
+fmdt/__test__.py,sha256=FXbpPO1x5EatXgegxcJLGb1iUpWMCz9xuSvOWc0zr8A,1919
+fmdt/api.py,sha256=HV_l3qC7yyF7FVkuFXNKuGj7ifSymKLzZgKPisajhJM,6062
+fmdt/args.py,sha256=6W8w-eLhPeHoHXBjCCNDXoSkmGQbelnN8jVM8kCB3BQ,14379
+fmdt/core.py,sha256=dgX1e-Kmw44HBnPrq3lE4J5Y4J-w5ed7bJF6dXKjzD8,14139
+fmdt/truth.py,sha256=_bbwCrYhkcftEoyPqDN67KKVGJi8VdOk1iG5xPw3ckA,12783
+fmdt/utils.py,sha256=z8JxlReuIE0iJ0Oh0Pc1p_pQALSaXt-9sypKbgintuk,7262
+fmdt_python-0.0.18.dist-info/METADATA,sha256=S8ea5D36-jbgA9ELJVeMApoI7H_7f17yWBJfTQSv-v4,1439
+fmdt_python-0.0.18.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+fmdt_python-0.0.18.dist-info/licenses/LICENSE,sha256=7oPhtg5rNNa1IVBDV-A7WY-TVhhBIwuaT4dKmd9sqMY,1068
+fmdt_python-0.0.18.dist-info/RECORD,,
