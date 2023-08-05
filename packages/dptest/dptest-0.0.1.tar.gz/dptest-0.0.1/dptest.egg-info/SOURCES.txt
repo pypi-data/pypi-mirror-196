@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dptest.egg-info/PKG-INFO
+dptest.egg-info/SOURCES.txt
+dptest.egg-info/dependency_links.txt
+dptest.egg-info/top_level.txt
+libname/__init__.py
+libname/sayhello.py
