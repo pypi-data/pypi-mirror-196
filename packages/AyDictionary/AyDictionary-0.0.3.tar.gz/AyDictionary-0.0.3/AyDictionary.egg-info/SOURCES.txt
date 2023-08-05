@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+AyDictionary/__init__.py
+AyDictionary/core.py
+AyDictionary/script.py
+AyDictionary/test.py
+AyDictionary/test_aydictionary.py
+AyDictionary/utils.py
+AyDictionary.egg-info/PKG-INFO
+AyDictionary.egg-info/SOURCES.txt
+AyDictionary.egg-info/dependency_links.txt
+AyDictionary.egg-info/requires.txt
+AyDictionary.egg-info/top_level.txt
