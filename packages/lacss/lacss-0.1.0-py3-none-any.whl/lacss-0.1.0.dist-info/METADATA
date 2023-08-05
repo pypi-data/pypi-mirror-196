@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lacss
+Version: 0.1.0
+Summary: Cell segmentation and tracking
+License: MIT
+Author: Ji Yu
+Author-email: jyu@uchc.edu
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: cloudpickle (>=2.2.1,<3.0.0)
+Requires-Dist: flax (>=0.6.6,<0.7.0)
+Requires-Dist: imageio (>=2.26.0,<3.0.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: scikit-image (>=0.20.0,<0.21.0)
+Requires-Dist: tensorflow-cpu (>=2.8.0,<3.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# lacss_jax
+The JAX version of LACSS
+
