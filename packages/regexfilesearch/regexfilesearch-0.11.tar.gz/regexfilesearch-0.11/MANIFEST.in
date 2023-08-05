@@ -1,0 +1,4 @@
+include regexfilesearch/requirements.txt
+include regexfilesearch/thirdparty.json
+include regexfilesearch/README.MD
+include regexfilesearch/LICENSE
