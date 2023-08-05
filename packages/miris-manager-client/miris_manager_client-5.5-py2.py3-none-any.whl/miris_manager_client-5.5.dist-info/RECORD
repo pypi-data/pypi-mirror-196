@@ -1,0 +1,14 @@
+mm_client/__init__.py,sha256=SaQJNrXG_K9XzF1_EdAjtI4ofqlbEx1_3NVzjR-GkAY,20
+mm_client/client.py,sha256=QDEUk7l8y6EYltY-EUBRQ978I05LRIMs8VWzI0kaWWQ,9651
+mm_client/conf.py,sha256=ta1wS5tzB7pBrsepqNvDTvmYwNOmwkMlrxKsgS-n3RU,2900
+mm_client/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mm_client/lib/configuration.py,sha256=8Dd688yzNfhI7-EiRzl3EmVwzYC8X2Y0xkx3OavIDbI,2722
+mm_client/lib/info.py,sha256=ZSBKwW9uVSYsnCse2XmW5_9ufymw4-Im0OhpDJe2yyc,1472
+mm_client/lib/long_polling.py,sha256=qCHNZLwaq5t1L6hNLREBqLCulMtJAhe5lXOk9CT86IQ,3757
+mm_client/lib/signing.py,sha256=WRjJD442te7qDpH2wqaz6FUFktuvSpqwnORkcA8YgSc,1907
+mm_client/lib/ssh_tunnel.py,sha256=R68g5XK12-clEdqQOADSnpW-d_GITLTlqznm24brOok,13191
+miris_manager_client-5.5.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+miris_manager_client-5.5.dist-info/METADATA,sha256=oCIhZyKFgBjUJx0WgHd9DPpePexbeeHFWdGgeXwkVXQ,4003
+miris_manager_client-5.5.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+miris_manager_client-5.5.dist-info/top_level.txt,sha256=Dmd7qvTMEX3kNZas4ciQ_D2Z-OmBUC6H06PR_T-5nYY,10
+miris_manager_client-5.5.dist-info/RECORD,,
