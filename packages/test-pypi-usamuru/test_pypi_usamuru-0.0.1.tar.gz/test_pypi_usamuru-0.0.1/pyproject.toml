@@ -1,0 +1,16 @@
+[project]
+name = 'test_pypi_usamuru'
+version = '0.0.1'
+description = 'my test package'
+keywords = ['test_pypi_usamuru', 'name','surname','funfunction']
+authors = [{name = 'Usamuru', email = 'maciejgrodzki.py@gmail.com'}]
+license = { file = 'LICENSE.txt'}
+readme = 'README.md'
+classifiers = [
+    'Environment :: GPU :: NVIDIA CUDA :: 11.6',
+    'Environment :: MacOS X :: Carbon'
+]
+requires-python = '>=3.0'
+dependencies = [
+    'numpy'
+]

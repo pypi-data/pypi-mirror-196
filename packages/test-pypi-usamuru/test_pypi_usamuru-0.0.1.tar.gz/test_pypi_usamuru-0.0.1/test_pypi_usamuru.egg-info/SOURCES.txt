@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+test_pypi_usamuru/__init__.py
+test_pypi_usamuru/m_mod_usamuru.py
+test_pypi_usamuru.egg-info/PKG-INFO
+test_pypi_usamuru.egg-info/SOURCES.txt
+test_pypi_usamuru.egg-info/dependency_links.txt
+test_pypi_usamuru.egg-info/requires.txt
+test_pypi_usamuru.egg-info/top_level.txt
