@@ -1,0 +1,2 @@
+[console_scripts]
+ifind = imgfind.ifind:main
