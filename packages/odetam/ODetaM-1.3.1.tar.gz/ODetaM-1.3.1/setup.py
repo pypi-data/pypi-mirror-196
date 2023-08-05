@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['odetam']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['deta[async]==1.1.0a2', 'pydantic>=1.7,<2.0', 'ujson>=4.0,<5.0']
+
+setup_kwargs = {
+    'name': 'odetam',
+    'version': '1.3.1',
+    'description': 'A simple ODM (Object Document Mapper) for Deta Base, based on pydantic.',
+    'long_description': '# ODetaM\n\n[![Test](https://github.com/rickh94/ODetaM/actions/workflows/test.yml/badge.svg)](https://github.com/rickh94/ODetaM/actions/workflows/test.yml)\n[![codecov](https://codecov.io/gh/rickh94/odetam/branch/main/graph/badge.svg?token=BLDIMHU9FB)](https://codecov.io/gh/rickh94/odetam)\n\nA simple ODM (Object Document Mapper) for [Deta Base](https://deta.sh) base on\n[pydantic](https://github.com/samuelcolvin/pydantic/).\n\n## Installation\n\n`pip install odetam`\n\n## Usage\n\nCreate pydantic models as normal, but inherit from `DetaModel` instead of \npydantic BaseModel. You will need to set the environment variable \n`DETA_PROJECT_KEY` to your Deta project key so that databases can be \naccessed/created, instead you are working under deta initialized project. This \nis a secret key, so handle it appropriately (hence the environment variable).\n\nBases will be automatically created based on model names (changed from \nPascalCase/CamelCase case to snake_case). A `key` field (Deta\'s unique id) will \nbe automatically added to any model. You can supply the key on creation, or \nDeta will generate one automatically and it will be added to the object when it \nis saved.\n\n## Async Support\n\nAsync/await is now supported! As of version 1.2.0, you can now \n`from odetam.async_model import AsyncDetaModel`, inherit from that, and run all \nthe examples below just the same, but with `await` in front of the calls.\n\nYou must `pip install deta[async]`, to use asynchronous base.\n\n\n### Get All\n\n`DetaModel.get_all()` should handle large bases better now, but you should \nconsider querying instead of getting everything if possible, because it is\nunlikely to perform well on large bases.\n\n\n## Example\n\n```python\nimport datetime\nfrom typing import List\n\nfrom odetam import DetaModel\n\n\nclass Captain(DetaModel):\n    name: str\n    joined: datetime.date\n    ships: List[str]\n\n\n# create\n    kirk = Captain(\n            name="James T. Kirk",\n            joined=datetime.date(2252, 1, 1),\n            ships=["Enterprise"],\n            )\n\n    sisko = Captain(\n            name="Benjamin Sisko",\n            joined=datetime.date(2350, 1, 1),\n            ships=["Deep Space 9", "Defiant"],\n            )\n\n# initial save, key is now set\nkirk.save()\n\n# update the object\n    kirk.ships.append("Enterprise-A")\n\n# save again, this will be an update\nkirk.save()\n\nsisko.save()\n\nCaptain.get_all()\n# [\n#     Captain(\n#         name="James T. Kirk", \n#         joined=datetime.date(2252, 01, 01), \n#         ships=["Enterprise", "Enterprise-A"],\n#         key="key1",\n#     ),\n#     Captain(\n#         name="Benjamin Sisko",\n#         joined=datetime.date(2350, 01, 01), \n#         ships=["Deep Space 9", "Defiant"],\n#         key="key2",\n#     ),\n# ]\n\n    Captain.get("key1")\n# Captain(\n#     name="James T. Kirk", \n#     joined=datetime.date(2252, 01, 01), \n#     ships=["Enterprise", "Enterprise-A"],\n#     key="key1",\n# )\n\n    Captain.query(Captain.name == "James T. Kirk")\n# Captain(\n#     name="James T. Kirk", \n#     joined=datetime.date(2252, 01, 01), \n#     ships=["Enterprise", "Enterprise-A"],\n#     key="key1",\n# )\n\n    Captain.query(Captain.ships.contains("Defiant"))\n# Captain(\n#     name="Benjamin Sisko",\n#     joined=datetime.date(2350, 01, 01),\n#     ships=["Deep Space 9", "Defiant"],\n# )\n\n    Captain.query(Captain.name.prefix("Ben"))\n# Captain(\n#     name="Benjamin Sisko",\n#     joined=datetime.date(2350, 01, 01),\n#     ships=["Deep Space 9", "Defiant"],\n# )\n\nkirk.delete()\n    Captain.delete_key("key2")\n\nCaptain.get_all()\n# []\n\n# you can also save several at once for better speed\nCaptain.put_many([kirk, sisko])\n# [\n#     Captain(\n#         name="James T. Kirk", \n#         joined=datetime.date(2252, 01, 01), \n#         ships=["Enterprise", "Enterprise-A"],\n#         key="key1",\n#     ),\n#     Captain(\n#         name="Benjamin Sisko",\n#         joined=datetime.date(2350, 01, 01), \n#         ships=["Deep Space 9", "Defiant"],\n#         key="key2",\n#     ),\n# ]\n\n    ```\n\n## Save\n\nModels have the `.save()` method which will always behave as an upsert, \nupdating a record if it has a key, otherwise creating it and setting a key. \nDeta has pure insert behavior, but it\'s less performant. If you need it, please \nopen a pull request.\n\n## Querying\n\nAll basic comparison operators are implemented to map to their equivalents as \n`(Model.field >= comparison_value)`. There is also a `.contains()` and \n`.not_contains()` method for strings and lists of strings, as well as a \n`.prefix()` method for strings. There is also a `.range()` for number types \nthat takes a lower and upper bound. You can also use `&`  as AND and `|` as OR. \nORs cannot be nested within ands, use a list of options as comparison instead. \nYou can use as many ORs as you want, as long as they execute after the ANDs in \nthe order of operations. This is due to how the Deta Base api works.\n\n## Deta Base\n\nDirect access to the base is available in the dunder attribute `__db__`, though \nthe point is to avoid that.\n\n## Exceptions\n\n - `DetaError`: Base exception when anything goes wrong.\n - `ItemNotFound`: Fairly self-explanatory...\n - `InvalidDetaQuery`: Something is wrong with queries. Make sure you aren\'t using\n queries with unsupported types\n',
+    'author': 'Rick Henry',
+    'author_email': 'rickhenry@rickhenry.dev',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/rickh94/odetam',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.7,<4.0',
+}
+
+
+setup(**setup_kwargs)
