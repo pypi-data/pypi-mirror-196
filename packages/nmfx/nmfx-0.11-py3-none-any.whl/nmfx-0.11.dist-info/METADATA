@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nmfx
+Version: 0.11
+Summary: Stochastic Non-Negative Matrix Factorization
+Home-page: https://github.com/vrutten/nmfx
+Author: Virginia MS Rutten, Jan Funke
+Author-email: ruttenv@janelia.hhmi.org, funkej@janelia.hhmi.org
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: jax
+Requires-Dist: tqdm
+
+# Jaxed NMF
+
+NMF optimized through stochastic gradient descent with the option of adding l2 or l1 penalities on weight matrices. 
+
+NMF minimizes: 
+`L(W, H) = ||X-WH||_2 subject to W>0, H>0`
+
+
+
+
