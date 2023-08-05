@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: testpypiMP
+Version: 0.0.1
+Summary: My test package
+Author-email: MP <puchal71@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2023] [Maciej Puchalski]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: testpypiMP,name,surname,fun funkction
+Classifier: Framework :: Ansible
+Classifier: Framework :: Zope2
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+# "testpypiMP" - My Simple Project
+
+* Opt1
+* Opt2
+* Opt3
+
+## Install
+
+```python
+pip install testpypiMP
+```
+
+### Usage
+
+``` python
+from testpypiMP.m_mod_mp import name as n
+from testpypiMP.m_mod_mp import get_numpy_arr
+>>> n("Name", "Surname")
+Name Surname
+>>> get_numpy_arr([1, 2, 3, 4, 5])
+[1 2 3 4 5
+```
