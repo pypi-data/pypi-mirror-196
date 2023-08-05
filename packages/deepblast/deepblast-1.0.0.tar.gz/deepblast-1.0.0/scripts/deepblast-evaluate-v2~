@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+
+import argparse
+import pickle
+import os
+import pandas as pd
+import torch
+from pytorch_lightning import Trainer
+from transformers import T5EncoderModel, T5Tokenizer
+from deepblast.trainer import DeepBLAST
+from pytorch_lightning.strategies import DDPStrategy
+from torch.multiprocessing import Pool
+
+
+def main(args):
+    print('args', args)
+    tokenizer = T5Tokenizer.from_pretrained(
+        args.pretrain_path, do_lower_case=False)
+    lm = T5EncoderModel.from_pretrained(args.pretrain_path)
+    model = DeepBLAST.load_from_checkpoint(
+        args.load_from_checkpoint, lm=lm, tokenizer=tokenizer,
+        alignment_mode=args.alignment_mode)
+
+    #if args.accelerator == 'gpu':
+    #    model = model.cuda()
+
+    trainer = Trainer(
+        max_epochs=0,
+        devices=args.devices,
+        accelerator=args.accelerator,
+        num_nodes=args.nodes,
+        # check_val_every_n_epoch=1,
+        val_check_interval=1.0,
+        fast_dev_run=False,
+        strategy=DDPStrategy(find_unused_parameters=True),
+        limit_train_batches=1,
+        limit_val_batches=1,
+        inference_mode=False,
+        # strategy='ddp',
+        # auto_scale_batch_size='power',
+        # profiler=profiler,
+    )
+    # trainer.fit(model)
+    # test_res = []
+    # for b, i in enumerate(model.test_dataloader()):
+    #     test_res.append(
+    #         model.validation_step(b, i)
+    #     )
+    test_res = trainer.validate(model)
+
+    # something weird is going on with the test function
+    # test_res = trainer.validate(model)
+    fname = os.path.basename(args.test_pairs)
+    fname = f'{args.output_directory}/{fname}-results.pkl'
+    with open(fname, 'wb') as f:
+        pickle.dump(test_res, f)
+    # test_res = list(map(pd.DataFrame, test_res))
+    # test_res = pd.concat(test_res, axis=0)
+    # test_res.to_csv(fname)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument('--accelerator', type=str, default=None)
+    parser.add_argument('--devices', type=int, default=None)
+    parser.add_argument('--grad-accum', type=int, default=1)
+    parser.add_argument('--grad-clip', type=int, default=10)
+    parser.add_argument('--nodes', type=int, default=1)
+    parser.add_argument('--num-workers', type=int, default=1)
+    parser.add_argument('--limit-train-batches', type=int, default=5000)
+    parser.add_argument('--limit-val-batches', type=int, default=50)
+    parser.add_argument('--precision', type=int, default=32)
+    parser.add_argument('--load-from-checkpoint', type=str, default=None)
+    parser.add_argument('--alignment-mode', type=str, default='needleman-wunsch')
+    # options include ddp_cpu, dp, ddp
+    parser = DeepBLAST.add_model_specific_args(parser)
+    hparams = parser.parse_args()
+    main(hparams)
