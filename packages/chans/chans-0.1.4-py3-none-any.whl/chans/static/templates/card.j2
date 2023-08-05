@@ -1,0 +1,14 @@
+<code class='board'>{{ post.board }}</code>
+<code>{{ post.derivative }}</code>
+<code>{{ post.timestamp | format_time }}</code>
+<span>sleep time: <code>{{ post.sleep_time | round(1) }}</code></span>
+<span><code>{{ post.n_replies }}</code> comments</span>
+<a href="{{ post.url }}">{{ post.url }}</a>
+<div>{{ post.comment }}</div>
+{% if post.viral_replies %}
+<h4 class='viral-comments'>viral comments</h4>
+<ul>
+{% for comment in post.viral_replies %}
+<li>{{ comment.comment }} {{ comment.n_replies }} replies</li>
+{% endfor %}
+{% endif %}
