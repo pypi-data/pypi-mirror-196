@@ -1,0 +1,16 @@
+minepython/__init__.py,sha256=Y0IMhLNxo1HfW8-Gr2a1yfnT35lTFqzqJK-BCep_WQ8,157
+minepython/__init__.pyi,sha256=yIMgG116pQelUHofgr1g1imU19iYCh623_m7gWraEGE,144
+minepython/block.cp38-win_amd64.pyd,sha256=-dvJHywX8HA-BjUwL5EQB6fUHNYODjlHg8VJBiwTvYY,37376
+minepython/connection.cp38-win_amd64.pyd,sha256=TPfXHsUB-6H-tauaDGQs4C-Uhi9iZRO0vCPfXxvneac,59392
+minepython/event.cp38-win_amd64.pyd,sha256=40g1yS8D1MT9Uii7bEKtT24_l-40Vtx0tvlxUt5tdXU,66048
+minepython/keyhandle.cp38-win_amd64.pyd,sha256=I7JHMPL1cGlHyHGN_lsmznc7bbfOnD1eeLqzjjIyj4Q,54272
+minepython/minecollection.py,sha256=Q7fxj4Aj9moYnXln4PAwJTZhBuEF3mffGxhMqka4l-g,106573
+minepython/minecraft.cp38-win_amd64.pyd,sha256=QQCuKoLYkpMGezelKHKkT_VJMm0RSmNkKhwmH8WN9hA,514560
+minepython/minecraft.pyi,sha256=EZptdhU1lOE9TaFPjjPXsavUvZLr37woZKLGJEhCmlY,3289
+minepython/util.cp38-win_amd64.pyd,sha256=7oSITF6H31V6c3Hz14BR8RVYHxOG96Opki8DoXaSqLw,53760
+minepython/vec3.cp38-win_amd64.pyd,sha256=vg0X5dqddhpVK3Pnp75wPHzzKzp3RclljJoRtC9euXw,91648
+minepython/verifysign.cp38-win_amd64.pyd,sha256=39tVTaY34w_7WnLcvXJ4Wihl5F1HhMgzJgCcp924ris,115712
+minepython-0.0.5.dist-info/METADATA,sha256=gyXjDbZYRnLA1W-qIR6sGLpXAFQGDY5wpqulEep5GL4,448
+minepython-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+minepython-0.0.5.dist-info/top_level.txt,sha256=EGECxrFQOjRh4shrKWokYxsQx6UdV8BgLR03lKpdbsY,11
+minepython-0.0.5.dist-info/RECORD,,
