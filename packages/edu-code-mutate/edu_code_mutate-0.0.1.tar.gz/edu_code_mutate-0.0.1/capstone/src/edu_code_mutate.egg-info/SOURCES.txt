@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+capstone/src/edu_code_mutate.py
+capstone/src/edu_code_mutate.egg-info/PKG-INFO
+capstone/src/edu_code_mutate.egg-info/SOURCES.txt
+capstone/src/edu_code_mutate.egg-info/dependency_links.txt
+capstone/src/edu_code_mutate.egg-info/top_level.txt
