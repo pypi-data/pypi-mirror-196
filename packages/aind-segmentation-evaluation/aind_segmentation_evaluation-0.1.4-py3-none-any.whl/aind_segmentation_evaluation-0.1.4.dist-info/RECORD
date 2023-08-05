@@ -1,0 +1,12 @@
+aind_segmentation_evaluation/__init__.py,sha256=sgrLFCypLE-QGafuqPk_KwxKSbZtb3uFoSKahbXfC0o,76
+aind_segmentation_evaluation/evaluate.py,sha256=lDBe3ON6ndWcmNVR-bdY1Qh067Z5ZVS8VqY1tIrio64,7695
+aind_segmentation_evaluation/graph_routines.py,sha256=v-5PUfIUWBRPsWFAHrVaaVNToO31VTAxfMU68C9EqJ0,10929
+aind_segmentation_evaluation/merge_metric.py,sha256=QVA3UDvt0Xrq1cXM9DL21fz66jQUzBlwPQoXk_IWpFY,9910
+aind_segmentation_evaluation/seg_metrics.py,sha256=vVBAmQG-F1fmOw0aYCLsYMYXjQlhmAC8OxsLeIaqAoE,8380
+aind_segmentation_evaluation/split_metric.py,sha256=wvq1Fd05YZ0JxbQzNoUClnOml4JX2Z4LWKV_owRbgxk,8032
+aind_segmentation_evaluation/utils.py,sha256=JOWNsh5kaUHV81Ft-oYGcNRbYZkeoUdbAPkmlavf794,5923
+aind_segmentation_evaluation-0.1.4.dist-info/LICENSE,sha256=U0Y7B3gZJHXpjJVLgTQjM8e_c8w4JJpLgGhIdsoFR1Y,1092
+aind_segmentation_evaluation-0.1.4.dist-info/METADATA,sha256=1SewVYtgqn4fymxTpjBdNrShc-1D4rlsqFLtNVI3OO4,3724
+aind_segmentation_evaluation-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aind_segmentation_evaluation-0.1.4.dist-info/top_level.txt,sha256=RMzdk-tUL77XEMJ1SwjIrVKPN84noMWN7Amleb6_XOw,29
+aind_segmentation_evaluation-0.1.4.dist-info/RECORD,,
