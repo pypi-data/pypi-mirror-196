@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: point3d
+Version: 0.1
+Summary: A package for converting 3d points to 2d pixel coordinates
+Home-page: https://github.com/Lucas8448/point3d
+Download-URL: https://github.com/Lucas8448/point3d/archive/refs/tags/v_0.1.tar.gz
+Author: Lucas Bateson
+Author-email: lucas.bateson@gmail.com
+License: MIT
+Keywords: 3d,2d,matrix,conversion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: license.txt

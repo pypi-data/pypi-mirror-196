@@ -1,0 +1,11 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+point3d/__init__.py
+point3d/convert.py
+point3d.egg-info/PKG-INFO
+point3d.egg-info/SOURCES.txt
+point3d.egg-info/dependency_links.txt
+point3d.egg-info/requires.txt
+point3d.egg-info/top_level.txt
