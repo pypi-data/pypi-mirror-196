@@ -1,0 +1,8 @@
+
+[dev]
+bumpver
+pre-commit
+hypothesis
+mypy
+pytest
+pytest-cov
