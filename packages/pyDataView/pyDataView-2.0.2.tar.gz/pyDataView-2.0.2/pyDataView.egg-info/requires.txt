@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+wxpython
+vispy
+
+[Channelflow_plots]
+h5py
+
+[cpl_plots]
+scikit-image

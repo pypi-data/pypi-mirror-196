@@ -1,0 +1,3 @@
+[console_scripts]
+pyDataView = pyDataView:main
+
