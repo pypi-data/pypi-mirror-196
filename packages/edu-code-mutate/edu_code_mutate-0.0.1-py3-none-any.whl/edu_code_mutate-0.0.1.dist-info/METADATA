@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: edu-code-mutate
+Version: 0.0.1
+Summary: Capstone app
+Author: Pranjal Naringrekar
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The concept of writing a program as we know it is being replaced by AI systems that are trained rather than coded. With CoPilot and other AI coding assistance tools, the future of computing will involve AIs creating all programs, while humans have minimal supervisory roles. The new atomic unit of computing will be a sizable, previously trained and highly adaptive AI model. In the future, computer science will resemble education more than engineering, focusing on how to best teach the machines, rather than how to construct them. These AI systems will be running our infrastructure, aircraft and governing entire nations.
+
+Now, in introductory computing science courses that is offered at University of Alberta, like CMPUT 174, in order to assess studentâ€™s knowledge, instructors prepare exam questions that often include code snippets. Since preparing good quality questions requires significant time and effort, often, only a single version of an exam is used, so each student receives the same questions, which increases the chances of plagiarism. Therefore, the primary goal of this capstone project is to propose a tool that would allow CS instructors to generate unique code snippets based on their needs, where the semantics of the code will remain the same but the code will be mutated (e.g., input and output may change). That would allow the instructors to automatically generate a large (potentially, unlimited) number of questions testing the same concept. Hence, the main objective of this library is that CS course instructors can use it to generate different code snippets based on a given code snippet for exams and quizzes.
+
+The library code can be found at: https://github.com/pranjal080598/Education_Code_Mutation 
+
+
+
