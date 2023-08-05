@@ -1,0 +1,10 @@
+egrid/__init__.py,sha256=bnql2moB5JWkLVVBvSpsKNe7tMtJPqzUy2fyLcDPV9Q,1960
+egrid/_types.py,sha256=zndRIsYMFTHcf-AgZ42GvO53b4fvU0kzDPopQwlQwHI,18883
+egrid/builder.py,sha256=VML_13d7IgRATrjsLvXGyliyLHtrt1SpVlMJ7g_0pUk,18454
+egrid/check.py,sha256=GD24YtTeaA0R8TEzPQoBk6GcAQ5RFtUzpjqullSqKEQ,13357
+egrid/model.py,sha256=eFwWkazbFSSzUCll_-QjUqs-G9GvhB0gDrp7uErEvqY,32253
+egrid-0.0.4.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+egrid-0.0.4.dist-info/METADATA,sha256=Bfsfshll1tbilgoGe8Y97fH2PN2-Xk8Cx-wkoFEtXtM,10508
+egrid-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+egrid-0.0.4.dist-info/top_level.txt,sha256=py-2IFy0kVAEAmXyc7_Rw2dfrNGiypjRSUKJ0ksNL14,6
+egrid-0.0.4.dist-info/RECORD,,
