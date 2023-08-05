@@ -1,0 +1,16 @@
+.containers-sugar.yaml,sha256=8Rjsdgbh1q328jWogCdV5ZSEg5xNI_FcySyhsyi0GPM,897
+.gitignore,sha256=ebb4BU-O9ennjBgXS_V8rymxFBAWa5Jo1pI-h1IOuI8,1799
+.pre-commit-config.yaml,sha256=YZ_g72-TSP6tIP0hnvi0H2QRCqgles6UJbRyEnxGgiw,1106
+.releaserc.json,sha256=iShj1Aj1QX4hDGLg1mIKn-2--nOj7E0LmTULM_iBOvk,1887
+Makefile,sha256=BtfggE9n7SLJ6yGOCHciZsj4K6guUedKYW9-cjreIc0,3191
+README.md,sha256=MP-H6BKtjauFo2WkWS-hUoAZzsJmmrn-LY6xwOrJkqY,2832
+containers_sugar/__init__.py,sha256=nY3Zlcq9TALaqYDUaIJG-InLukV18uUynM4J3_JbLbo,216
+containers_sugar/__main__.py,sha256=f8KYCFxzcsvQg0ceFaX6BsK3uwuRKRbGm26A7aD3W4E,2103
+containers_sugar/sugar.py,sha256=9ISfae_B4wKt6JqLPkLFTv3Z7inM8Vpd8cUPf_Q1zXg,8756
+poetry.lock,sha256=_9oLEIk7RcUvHxkh3pA_JXqan-JVczp8CYXi8Jwppo8,158993
+pyproject.toml,sha256=vFGS5DXG7ClYAmDS9mYj4Wfa4r8jKKJqVmJrCMFkmaw,1571
+containers_sugar-1.4.2.dist-info/LICENSE,sha256=VdNe-RCjB8ySHZb0705-5jspey66C9W1Fj5-cJ2Vfjo,1514
+containers_sugar-1.4.2.dist-info/METADATA,sha256=JcnP9qF0YUnyJzjPyyEWd28iMIECL0rO0vCfdQP5Yyc,764
+containers_sugar-1.4.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+containers_sugar-1.4.2.dist-info/entry_points.txt,sha256=b35VUoV4xqk-gDnpG7Wz1Ax8HCICoXZcN7KZeqMo6Q8,66
+containers_sugar-1.4.2.dist-info/RECORD,,
