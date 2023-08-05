@@ -1,0 +1,15 @@
+---
+{{ md_header }}
+---
+
+{{ content }}
+{% for image in images %}
+  ![]({{ image[0] }})
+{% endfor %}
+{% for video in videos %}
+  <div class="video">
+    <video controls autoplay muted loop>
+      <source src="{{ video[0] }}" type="{{ video[1] }}" />
+    </video>
+  </div>
+{% endfor %}
