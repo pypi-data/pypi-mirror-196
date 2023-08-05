@@ -1,0 +1,1 @@
+from .._agg import _radq8 as this_dir, _eHPwt as cie_1931_2, _rKui8 as cie_1964_10, _mypVE as wws_cie_1931_2, _HdT4I as wws_cie_1964_10, _kStba as SpectralData
