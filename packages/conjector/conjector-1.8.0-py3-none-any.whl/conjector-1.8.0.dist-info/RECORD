@@ -1,0 +1,11 @@
+conjector/__init__.py,sha256=1I8hzgDIFQsOAt6ptj57SWW_caUKd9IU8s5bWMvVYFI,142
+conjector/config_handler.py,sha256=e5iKTTIdchEogLhACMq2GYW-4RAptdqOzNYwS3Bdjlo,6414
+conjector/entities.py,sha256=eQSfDrGcdNHfgoL1dnyAyxVLi1OKu2O5sA2gTWe31BA,771
+conjector/main.py,sha256=sEShf3fPKV_Rr_sQT1YYAir8Fwd5cbCH6T68DOV6shk,9608
+conjector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conjector/type_converter.py,sha256=v0rVzT48fFh_nVlF8B1DP0SXL7omSODXKQ_LaxIQ7U4,10542
+conjector-1.8.0.dist-info/LICENSE,sha256=azbasDNmV0AoWGRGF0EhG7angM2Byu7BcrvRD0PTkDQ,1074
+conjector-1.8.0.dist-info/METADATA,sha256=hulvR2jKU-K3avLfpw8bdjfjLdcWFlbIYi5iNvHCE5c,6239
+conjector-1.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+conjector-1.8.0.dist-info/top_level.txt,sha256=F3DMDHUM60Q86CiRHrcBbez9zDqT7N8g6jaAwstQRnA,10
+conjector-1.8.0.dist-info/RECORD,,
