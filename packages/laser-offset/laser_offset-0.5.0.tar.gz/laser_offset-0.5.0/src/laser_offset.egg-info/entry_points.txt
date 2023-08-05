@@ -1,0 +1,2 @@
+[console_scripts]
+laser_offset = laser_offset:laser_offset
