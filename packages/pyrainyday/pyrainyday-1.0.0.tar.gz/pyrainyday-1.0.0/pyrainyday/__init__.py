@@ -1,0 +1,1 @@
+from pyrainyday.pyrainyday import Weather
