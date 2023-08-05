@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sea-serpent-python
+Version: 0.0.1
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# sea-serpent-python
+Python bindings for [sea-serpent](https://github.com/jo1gi/sea-serpent)
+
+## Installation
+sea-serpent-python can be installed by compiling manually or by downloading from
+pypi.
+
+```shell
+pip install sea-serpent
+```
+
+### Manual
+```shell
+git clone https://github.com/jo1gi/sea-serpent-python.git
+cd sea-serpent-python
+maturin build --release
+```
+This will create a python wheel in target/wheel
+
+
