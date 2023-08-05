@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+cjk_commons/__about__.py
+cjk_commons/__init__.py
+cjk_commons/logging_.py
+cjk_commons/settings.py
+cjk_commons/zip.py
+cjk_commons.egg-info/PKG-INFO
+cjk_commons.egg-info/SOURCES.txt
+cjk_commons.egg-info/dependency_links.txt
+cjk_commons.egg-info/requires.txt
+cjk_commons.egg-info/top_level.txt
+tests/test_commons.py
