@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: console-gpt
+Version: 0.4
+Summary: A package to interact with ChatbotGPT
+Home-page: UNKNOWN
+Author: Pranav Chandran
+Author-email: pranav.chandran@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+### Package helps to interact with Chatgpt 
+
+### How to use
+# import console_gpt
+# key = "<password: apikey>"
+# bot = console_gpt.ChatbotGPT(key)
+# bot.ask()
+
+### Changes : v2 = "Calling the bot"
+
+### Changes : v3 = "Package problems"
+
+### Changes : v4 = "Issue solved of new lines"
+
+### Don't have api key? contact: pranav.chandran@gmail.com
+
+
