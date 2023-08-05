@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+devopstesting/__init__.py
+devopstesting/package.py
+devopstesting_cltj.egg-info/PKG-INFO
+devopstesting_cltj.egg-info/SOURCES.txt
+devopstesting_cltj.egg-info/dependency_links.txt
+devopstesting_cltj.egg-info/requires.txt
+devopstesting_cltj.egg-info/top_level.txt
