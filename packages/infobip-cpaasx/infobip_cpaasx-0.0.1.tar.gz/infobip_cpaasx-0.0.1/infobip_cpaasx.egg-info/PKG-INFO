@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: infobip-cpaasx
+Version: 0.0.1
+Summary: Infobip CPAASX Python Client Library
+Home-page: https://pypi.org/project/infobip-cpaasx-python-client
+Author: Infobip Ltd.
+Author-email: support@infobip.com
+License: MIT
+Keywords: sms,mms,numbers,cpaas,infobip
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+    Infobip CPAASX Python Client Library.  # noqa: E501
+    
