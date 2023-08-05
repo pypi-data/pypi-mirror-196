@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypimkarakula/__init__.py
+testpypimkarakula/m_mod_mkarakula.py
+testpypimkarakula.egg-info/PKG-INFO
+testpypimkarakula.egg-info/SOURCES.txt
+testpypimkarakula.egg-info/dependency_links.txt
+testpypimkarakula.egg-info/requires.txt
+testpypimkarakula.egg-info/top_level.txt

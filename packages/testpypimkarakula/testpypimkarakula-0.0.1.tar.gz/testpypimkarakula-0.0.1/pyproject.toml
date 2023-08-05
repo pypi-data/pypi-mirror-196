@@ -1,0 +1,14 @@
+[project]
+name = "testpypimkarakula"
+version ="0.0.1"
+description = "My test package"
+keywords = ["testpypimkarakula","name"]
+authors = [{name = "michalkarakula007", email = "michalkarakula007@gmial.com"}]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = ["Development Status :: 1 - Planning"]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy'
+]
+
