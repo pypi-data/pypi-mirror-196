@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypippietruszka/__init__.py
+testpypippietruszka/m_mod_pp.py
+testpypippietruszka.egg-info/PKG-INFO
+testpypippietruszka.egg-info/SOURCES.txt
+testpypippietruszka.egg-info/dependency_links.txt
+testpypippietruszka.egg-info/requires.txt
+testpypippietruszka.egg-info/top_level.txt
