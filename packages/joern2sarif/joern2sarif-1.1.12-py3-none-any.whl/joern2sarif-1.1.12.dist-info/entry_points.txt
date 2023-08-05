@@ -1,0 +1,2 @@
+[console_scripts]
+joern2sarif = joern2sarif.cli:main
