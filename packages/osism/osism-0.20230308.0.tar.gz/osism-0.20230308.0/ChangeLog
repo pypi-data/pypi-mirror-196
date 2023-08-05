@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20230308.0
+-------------
+
+* Fix "name 'hide' is not defined" (#386)
