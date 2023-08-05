@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: rastvectpy
+Version: 0.0.1
+Summary: A python package for raster and vector data visualization and analysis.
+Home-page: https://github.com/lukmanfash/rastvectpy
+Author: Lukman Fashina
+Author-email: lukmanfashina@yahoo.com
+License: MIT license
+Keywords: rastvectpy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rastvectpy
+
+
+[![image](https://img.shields.io/pypi/v/rastvectpy.svg)](https://pypi.python.org/pypi/rastvectpy)
+[![image](https://img.shields.io/conda/vn/conda-forge/rastvectpy.svg)](https://anaconda.org/conda-forge/rastvectpy)
+
+
+**A python package for raster and vector data visualization and analysis.**
+
+
+-   Free software: MIT license
+-   Documentation: https://lukmanfash.github.io/rastvectpy
+    
+
+## Features
+
+-   TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
+
+

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+rastvectpy/__init__.py
+rastvectpy/rastvectpy.py
+rastvectpy.egg-info/PKG-INFO
+rastvectpy.egg-info/SOURCES.txt
+rastvectpy.egg-info/dependency_links.txt
+rastvectpy.egg-info/not-zip-safe
+rastvectpy.egg-info/top_level.txt
