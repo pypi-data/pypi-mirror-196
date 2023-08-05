@@ -1,0 +1,16 @@
+uvicorn
+fastapi
+websockets
+aiofiles
+Jinja2
+humanize
+requests
+redis[hiredis]
+pipe21>=1.5.0
+tqdm
+tenacity
+
+[dev]
+bumpver
+pre-commit
+pytest
