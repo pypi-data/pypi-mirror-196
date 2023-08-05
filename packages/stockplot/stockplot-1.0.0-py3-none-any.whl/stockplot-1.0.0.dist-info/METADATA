@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: stockplot
+Version: 1.0.0
+Author: Thomas Mcinally
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: yfinance
+Requires-Dist: mplfinance
+
