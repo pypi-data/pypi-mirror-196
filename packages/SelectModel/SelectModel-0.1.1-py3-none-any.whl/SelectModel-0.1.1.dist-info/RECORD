@@ -1,0 +1,7 @@
+SelectModel/__init__.py,sha256=6Y7cjZ5gG0wV9X9M_IReKl9crtM6VwYsrXIS9j3U3dM,70
+SelectModel/mysql.py,sha256=XbbXq13lgXZGy-2EyIHe6rJ7lYqmK3gMIJwzARu8v4w,11121
+SelectModel/sqlite.py,sha256=UOHlYdXaQVWKav-N6GcaJld2xEUQASLC1pSC4lFSkI4,11051
+SelectModel-0.1.1.dist-info/METADATA,sha256=5ca3UnGc9r5ydGBdQWVzlq-8pLp5k-otDfGQlHnMJPQ,237
+SelectModel-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SelectModel-0.1.1.dist-info/top_level.txt,sha256=kQhBtGj-80OtUEaTZXMauCizAh_fSAo3gOCCEc5O4uM,12
+SelectModel-0.1.1.dist-info/RECORD,,
