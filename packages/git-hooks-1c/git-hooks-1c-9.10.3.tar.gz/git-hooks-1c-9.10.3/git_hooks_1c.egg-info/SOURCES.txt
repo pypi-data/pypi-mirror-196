@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+git_hooks_1c/__about__.py
+git_hooks_1c/__init__.py
+git_hooks_1c/__main__.py
+git_hooks_1c/cli.py
+git_hooks_1c/core.py
+git_hooks_1c/install.py
+git_hooks_1c/pre_commit.py
+git_hooks_1c/uninstall.py
+git_hooks_1c.egg-info/PKG-INFO
+git_hooks_1c.egg-info/SOURCES.txt
+git_hooks_1c.egg-info/dependency_links.txt
+git_hooks_1c.egg-info/entry_points.txt
+git_hooks_1c.egg-info/requires.txt
+git_hooks_1c.egg-info/top_level.txt
+tests/test_pre_commit.py
