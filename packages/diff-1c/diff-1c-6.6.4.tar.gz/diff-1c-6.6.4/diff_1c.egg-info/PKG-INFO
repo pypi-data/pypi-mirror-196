@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: diff-1c
+Version: 6.6.4
+Summary: Diff utility for 1C:Enterprise
+Author-email: Cujoko <cujoko@gmail.com>
+License: MIT
+Project-URL: repository, https://github.com/Cujoko-Dev/diff-1c
+Keywords: 1c,diff,v8reader,v8unpack,gcomp
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Утилита для сравнения *epf*-, *erf*-, *ert*- и *md*-файлов
+===
+
+Что делает
+---
+
+Файлы разбираются с помощью пакета [parse-1c-build][1] в каталоги, которые затем сравниваются указанной в аргументах 
+командной строки утилитой сравнения. Поддерживаются AraxisMerge, ExamDiff, KDiff3, WinMerge.
+
+При установке пакета в каталоге скриптов интерпретатора Python создаётся исполняемый файл *diff1c.exe*.
+
+Требования
+---
+
+- Windows
+- Python 3.7 и выше. Каталоги интерпретатора и скриптов Python должны быть прописаны в переменной окружения Path
+- Пакет [parse-1c-build][1] с необходимыми настройками
+
+[1]: https://github.com/Cujoko/parse-1c-build
