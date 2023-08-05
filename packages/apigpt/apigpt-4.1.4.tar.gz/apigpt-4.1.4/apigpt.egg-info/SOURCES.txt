@@ -1,0 +1,7 @@
+setup.py
+apigpt.egg-info/PKG-INFO
+apigpt.egg-info/SOURCES.txt
+apigpt.egg-info/dependency_links.txt
+apigpt.egg-info/entry_points.txt
+apigpt.egg-info/requires.txt
+apigpt.egg-info/top_level.txt
