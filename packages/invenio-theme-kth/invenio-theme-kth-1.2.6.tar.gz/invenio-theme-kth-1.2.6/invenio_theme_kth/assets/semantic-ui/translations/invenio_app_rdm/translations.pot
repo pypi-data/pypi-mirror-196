@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2023-02-15T22:01:21.256Z\n"
+"PO-Revision-Date: 2023-02-15T22:01:21.256Z\n"
+"Language: en\n"
+
+msgid "Community"
+msgstr "Community"
+
+msgid "Files"
+msgstr "Files"
+
+msgid "The record has no files."
+msgstr "The record has no files."
+
+msgid "Basic information"
+msgstr "Basic information"
+
+msgid "Creators"
+msgstr "Creators"
+
+msgid "Recommended information"
+msgstr "Recommended information"
+
+msgid "Add contributor"
+msgstr "Add contributor"
+
+msgid "Contributors"
+msgstr "Contributors"
+
+msgid "Alternate identifiers"
+msgstr "Alternate identifiers"
+
+msgid "Related works"
+msgstr "Related works"
+
+msgid "Visibility"
+msgstr "Visibility"
+
+msgid "Community is required in order to submit your data."
+msgstr "Community is required in order to submit your data."
