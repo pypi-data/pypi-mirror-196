@@ -1,0 +1,9 @@
+README.md
+setup.py
+scan_3d_by_xxp/__init__.py
+scan_3d_by_xxp/scan3d.py
+scan_3d_by_xxp.egg-info/PKG-INFO
+scan_3d_by_xxp.egg-info/SOURCES.txt
+scan_3d_by_xxp.egg-info/dependency_links.txt
+scan_3d_by_xxp.egg-info/requires.txt
+scan_3d_by_xxp.egg-info/top_level.txt
