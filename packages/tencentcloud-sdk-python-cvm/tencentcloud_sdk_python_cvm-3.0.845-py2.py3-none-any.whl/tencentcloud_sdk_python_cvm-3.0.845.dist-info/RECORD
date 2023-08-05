@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=bf0V7stWdqBX5C84CPCrYQnOSvVKbwNfzJfXnAL3TBA,630
+tencentcloud/cvm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cvm/v20170312/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cvm/v20170312/cvm_client.py,sha256=QfavyEET70TfW_5WP_Ezrf2jzYKfYuyixWzB98XIcmg,116261
+tencentcloud/cvm/v20170312/errorcodes.py,sha256=EPRDKhN2GooKL9kSdoBNxtLEwZldy2Y-nRWN70kdld0,42434
+tencentcloud/cvm/v20170312/models.py,sha256=WDOtU1W3hANao_hbPQlNdg13kVkQ36U3RWC8uVZRHcc,413792
+tencentcloud_sdk_python_cvm-3.0.845.dist-info/METADATA,sha256=zEPnw3JCYVK-4rDsBX43_SJ8MOgXgNgG3_u7Y8PolJQ,1432
+tencentcloud_sdk_python_cvm-3.0.845.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_cvm-3.0.845.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_cvm-3.0.845.dist-info/RECORD,,
