@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+pyproject.toml
+testPipMK/__init__.py
+testPipMK/m_modMK.py
+testPipMK.egg-info/PKG-INFO
+testPipMK.egg-info/SOURCES.txt
+testPipMK.egg-info/dependency_links.txt
+testPipMK.egg-info/requires.txt
+testPipMK.egg-info/top_level.txt

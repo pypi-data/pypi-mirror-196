@@ -1,0 +1,17 @@
+[project]
+name = "testPipMK"
+version = "0.0.1"
+description = "My test packages"
+keywords = ["testyPipMK", "name", "surname"]
+authors = [{name = "MK", email = "m.kobialka@healthpharm.pl"}]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "License :: OSI Approved :: Python Software Foundation License"
+]
+
+requires-python = ">=3.0"
+dependencies = [
+    'numpy'
+]
