@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ssc-dsai-pii-removal
+Version: 0.0.2
+Summary: Removal of PII from .docx files.
+Author: Peter Boyd
+License-File: LICENSE

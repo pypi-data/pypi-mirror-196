@@ -1,0 +1,2 @@
+[console_scripts]
+ssc-dsai-pii-remove = ssc_dsai_pii_removal.ssc_dsai_pii_removal:cli
