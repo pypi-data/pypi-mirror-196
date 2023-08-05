@@ -1,0 +1,9 @@
+githuby/__init__.py,sha256=ayGxTAUTOQYmNFX-oZ4BbBMYACfLihCU-lmHLMbGkRk,382
+githuby/__main__.py,sha256=R-kKVLSgpLJsXKpRhSLxtyB8cj2sLSay5KrV_DomdDY,1745
+githuby/fetch.py,sha256=Fa5QTdbIC888PVwcPB0eyZ5c8NyOAQz4pN8DavIog7c,2769
+githuby/repository.py,sha256=YehsJy2AH2VsqZikr5SW2N0prhZ_U3Kv0HHDtZaHyJc,7725
+githuby/user.py,sha256=_qIUEKBPY6FlF1KJuM3odSpok4GPxvhvq4yqKNpxPFo,6145
+githuby-0.1.1.dist-info/LICENSE,sha256=LUsesdxzYgOorRgcgusaqG_jxm1Lrfgtpiv1G4TW-jA,1066
+githuby-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+githuby-0.1.1.dist-info/METADATA,sha256=r8C2ciZIc9XV6OvEaR82wJ1L2M2lkYoyCpO41MOKS-I,1908
+githuby-0.1.1.dist-info/RECORD,,
