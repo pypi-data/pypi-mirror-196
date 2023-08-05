@@ -1,0 +1,12 @@
+imdm/__init__.py,sha256=_njilqEWBE9rOrcDqhChAH1jEdzgpSrCaylhztKba8Y,26
+imdm/data_models/__init__.py,sha256=NpxvrFGZCW4ut1cNZKa7wFWgMryGII6VyCGSglIj-Dc,70
+imdm/data_models/generic_models.py,sha256=5nUsdtBbAchrX8ZNEF_j2275rQU9BBHLtEoIAupP1xo,13938
+imdm/data_models/image_specific_structures.py,sha256=XvJeK913omARVk174N0WQPSKe6cNMvbgN3zsuBL--sQ,4388
+imdm/data_models/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imdm/data_models/testing/test_generics.py,sha256=9hp2-Jj5KeFMgom5CD2N1XGISsAq9p0ADxsJLcI6Lpw,830
+imdm/data_models/testing/test_mri.py,sha256=yvDYgdeAM6L5CV_aV7D4PuziiSE35T_9Oyz9B2fZ1bs,821
+imdm/data_models/testing/test_print.py,sha256=-C-Gpy88VNglCreOgoHBVOIt0hiVCw6O-wp4cUNK-Sk,166
+imdm-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+imdm-0.1.0.dist-info/LICENSE,sha256=WtliplDT5pWC-X7h58kZPfj2BhItrEzrsu7byunbOp4,1084
+imdm-0.1.0.dist-info/METADATA,sha256=jtxfmA_5SkpmjOozo7ln4QQ6kZDd93ZO7grAyC6QyAo,4427
+imdm-0.1.0.dist-info/RECORD,,
