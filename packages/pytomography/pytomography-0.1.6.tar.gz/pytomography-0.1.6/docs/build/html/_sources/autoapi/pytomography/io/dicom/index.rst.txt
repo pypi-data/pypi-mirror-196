@@ -1,0 +1,94 @@
+:py:mod:`pytomography.io.dicom`
+===============================
+
+.. py:module:: pytomography.io.dicom
+
+.. autoapi-nested-parse::
+
+   Note: This module is still being built and is not yet finished.
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   pytomography.io.dicom.get_radii_and_angles
+   pytomography.io.dicom.dicom_projections_to_data
+   pytomography.io.dicom.HU_to_mu
+   pytomography.io.dicom.get_affine_spect
+   pytomography.io.dicom.get_affine_CT
+   pytomography.io.dicom.dicom_CT_to_data
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   pytomography.io.dicom.a1
+   pytomography.io.dicom.b1
+   pytomography.io.dicom.a2
+   pytomography.io.dicom.b2
+
+
+.. py:function:: get_radii_and_angles(ds)
+
+   Gets projections with corresponding radii and angles corresponding to projection data from a DICOM dataset.
+
+   :param ds: pydicom dataset object.
+   :type ds: Dataset
+
+   :returns: Required image data for reconstruction.
+   :rtype: (torch.tensor[1,Ltheta, Lr, Lz], np.array, np.array)
+
+
+.. py:function:: dicom_projections_to_data(file)
+
+   Obtains ObjectMeta, ImageMeta, and projections from a .dcm file.
+
+   :param file: Path to the .dcm file
+   :type file: str
+
+   :returns: Required information for reconstruction in PyTomography.
+   :rtype: (ObjectMeta, ImageMeta, torch.Tensor[1, Ltheta, Lr, Lz])
+
+
+.. py:data:: a1
+   :value: 0.00014376
+
+   
+
+.. py:data:: b1
+   :value: 0.1352
+
+   
+
+.. py:data:: a2
+   :value: 8.787e-05
+
+   
+
+.. py:data:: b2
+   :value: 0.1352
+
+   
+
+.. py:function:: HU_to_mu(HU)
+
+
+.. py:function:: get_affine_spect(ds)
+
+
+.. py:function:: get_affine_CT(ds, max_z)
+
+
+.. py:function:: dicom_CT_to_data(files_CT, file_NM=None)
+
+
