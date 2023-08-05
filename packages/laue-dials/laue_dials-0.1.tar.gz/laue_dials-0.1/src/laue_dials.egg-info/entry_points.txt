@@ -1,0 +1,2 @@
+[console_scripts]
+initial_solution = laue_dials.initial_solution:run
