@@ -1,0 +1,15 @@
+README.md
+setup.py
+sandt.egg-info/PKG-INFO
+sandt.egg-info/SOURCES.txt
+sandt.egg-info/dependency_links.txt
+sandt.egg-info/entry_points.txt
+sandt.egg-info/top_level.txt
+sandtt/__init__.py
+sandtt/__main__.py
+sandtt/newEmbeddings.json
+sandtt.egg-info/PKG-INFO
+sandtt.egg-info/SOURCES.txt
+sandtt.egg-info/dependency_links.txt
+sandtt.egg-info/entry_points.txt
+sandtt.egg-info/top_level.txt

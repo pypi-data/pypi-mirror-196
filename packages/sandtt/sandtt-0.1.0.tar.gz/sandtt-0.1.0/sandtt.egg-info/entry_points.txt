@@ -1,0 +1,2 @@
+[console_scripts]
+sandtt = sandtt.__main__:main
