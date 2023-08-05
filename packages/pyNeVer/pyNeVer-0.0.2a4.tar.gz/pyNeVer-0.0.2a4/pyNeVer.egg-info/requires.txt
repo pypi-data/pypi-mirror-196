@@ -1,0 +1,8 @@
+numpy
+scipy
+ortools
+onnx
+torch
+torchvision
+tensorflow
+pysmt
