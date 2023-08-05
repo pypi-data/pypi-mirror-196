@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+commons_1c/__about__.py
+commons_1c/__init__.py
+commons_1c/platform_.py
+commons_1c/version.py
+commons_1c.egg-info/PKG-INFO
+commons_1c.egg-info/SOURCES.txt
+commons_1c.egg-info/dependency_links.txt
+commons_1c.egg-info/requires.txt
+commons_1c.egg-info/top_level.txt
+tests/test_commons_1c.py
