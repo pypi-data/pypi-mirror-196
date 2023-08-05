@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: atflagger
+Version: 0.4.1
+Summary: Simple method for flagging UWL data.
+License: MIT
+Author: Alec Thomson
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (>=5,<6)
+Requires-Dist: bokeh
+Requires-Dist: dask (>=2022,<2023)
+Requires-Dist: distributed (>=2022,<2023)
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Description-Content-Type: text/markdown
+
+# atflagger
+
+A simple flagger for continuum UWL data. Flag persistent RFI first, then run this auto-flagger.
+
+## Installation
+
+Installing requires `pip` and `python3` (3.8 and up).
+
+Stable version:
+```
+pip install atflagger
+```
+
+Latest version:
+```
+pip install git+https://github.com/AlecThomson/atflagger
+```
+
+## Usage
+```
+❯ atflagger -h
+usage: atflagger [-h] [-b BEAM] [-s SIGMA] [-n N_WINDOWS] [-w] [-r REPORT] filenames [filenames ...]
+
+atflagger - Automatic flagging of UWL data.
+
+positional arguments:
+  filenames             Input SDHDF file(s)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BEAM, --beam BEAM  Beam label
+  -s SIGMA, --sigma SIGMA
+                        Sigma clipping threshold
+  -n N_WINDOWS, --n-windows N_WINDOWS
+                        Number of windows to use in box filter
+  -w, --use-weights     Use weights table instead of flag table
+  -r REPORT, --report REPORT
+                        Optionally save the Dask (html) report to a file
+```
+
