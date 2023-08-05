@@ -1,0 +1,17 @@
+pgmenu/GlobalFunctions.py,sha256=2LRG31rS2mVd2WEHwreKuKKoUxXOlNWRclgEBIGY5fQ,3520
+pgmenu/README.md,sha256=Dq4XsXW6cD3MWNzcCze9J1JiGjqZBGx1quJ-KDI6HFA,5822
+pgmenu/VarelaRound.ttf,sha256=H1NvR_6CcIzFHaMGqAnncdT56Jniw5FDVl8KiU56Mfo,84028
+pgmenu/__init__.py,sha256=YHj_9kTefW6jz_8tDCKg07NwkFIo7qHoI0nzhFsfWng,883
+pgmenu/button.py,sha256=TZl0v6Z9yfDnaGaG5MomNHCNAb-sXjDH9jdJLpPoY9Y,7486
+pgmenu/checkbox.py,sha256=7Pmj1lTZxVJzAfKJ2QpOqWxY5TY7hJRQ_jF1juix8Kc,8599
+pgmenu/frame.py,sha256=s6YL7Bn8POFxOL_i48uyqFN4i3lQUIjAkgB29LaBTFQ,7957
+pgmenu/image.py,sha256=cag_tzO8SnNu9WtVmRmA9MiY-kmliwUgNmtINmEe5Dw,1874
+pgmenu/main.py,sha256=qyPiuIfgEAf_4UEYau1bUc1wyqop5tkJsWSzU3UKj3A,26952
+pgmenu/menu.py,sha256=UBuD8tfpiXewX4RpNdVOPhjDpNZFAzf1-ez3c3QgyFQ,2701
+pgmenu/text.py,sha256=NlJvWN-QEb3UPwzSNDQU7DrmepCtOIODuUgUgDdukas,2923
+pgmenu/textbox.py,sha256=vMiqh83m8VI_T6BFo8jbSaSSzZ8MOzFvvV6j5Ojz7Rg,17088
+pgmenu/theme.py,sha256=2qV9C_x7zhoqrVLs-_ext4YjEbyr7IY3Qi4CiTfYI2I,4076
+pgmenu-1.5.1.dist-info/METADATA,sha256=XXp7NDyvvzmI0cjlRqUD2FNHUOzoE8ccIqEiay4MAmw,6371
+pgmenu-1.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pgmenu-1.5.1.dist-info/top_level.txt,sha256=8RmzVpXrX0qAjMllIUPTGFx86ynEGlzjQx5aLWYfEb4,7
+pgmenu-1.5.1.dist-info/RECORD,,
