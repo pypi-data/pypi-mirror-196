@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pgn-filter
+Version: 0.1.0
+Summary: A small program to query for games inside PGN documents
+Author-email: Sam Ezeh <sam@ezeh.uk>
+Project-URL: Homepage, https://github.com/dignissimus/pgn-filter
+Project-URL: Bug Tracker, https://github.com/dignissimus/pgn-filter/issues
+License-File: LICENSE
+
