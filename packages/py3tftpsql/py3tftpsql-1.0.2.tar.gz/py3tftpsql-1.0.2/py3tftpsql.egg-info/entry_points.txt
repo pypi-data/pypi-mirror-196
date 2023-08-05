@@ -1,0 +1,2 @@
+[console_scripts]
+py3tftpsql = py3tftpsql.__main__:main
