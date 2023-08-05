@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pytekla
+Version: 0.1.0b0
+Summary: Bringing CPython power to Tekla
+Project-URL: Documentation, https://efdiloreto.github.io/PyTekla
+Project-URL: Issues, https://github.com/efdiloreto/PyTekla/issues
+Project-URL: Source, https://github.com/efdiloreto/pytekla
+Author-email: Natalia Alvarado Alvarado <mnaa85@gmail.com>, Eduardo Di Loreto <efdiloreto@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: engineering,tekla
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.11
+Requires-Dist: pythonnet==3.0.1
+Provides-Extra: data
+Requires-Dist: pandas==1.5.3; extra == 'data'
+Provides-Extra: dev
+Requires-Dist: mkdocs-material==9.1.1; extra == 'dev'
+Requires-Dist: mkdocstrings-python==0.8.3; extra == 'dev'
+Requires-Dist: mkdocstrings==0.20.0; extra == 'dev'
+Requires-Dist: pandas==1.5.3; extra == 'dev'
+Requires-Dist: pytest==7.2.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# PyTekla
+Bringing CPython power to Tekla
+
+
+Check out the documentation at [https://efdiloreto.github.io/PyTekla/](https://efdiloreto.github.io/PyTekla/)
