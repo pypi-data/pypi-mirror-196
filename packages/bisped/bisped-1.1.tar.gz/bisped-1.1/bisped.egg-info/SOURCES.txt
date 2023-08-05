@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+bisped/__init__.py
+bisped/bisped.py
+bisped.egg-info/PKG-INFO
+bisped.egg-info/SOURCES.txt
+bisped.egg-info/dependency_links.txt
+bisped.egg-info/top_level.txt

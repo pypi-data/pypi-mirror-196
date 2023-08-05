@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bisped
+Version: 1.1
+Summary: Python script for binary spectroscopic disentangling
+Home-page: https://github.com/israelmarti/BiSpeD
+Download-URL: https://github.com/israelmarti/BiSpeD/tarball/v1.1
+Author: Cristian I. Martinez
+Author-email: cmartinez@conicet.gov.ar
+Keywords: astronomy,spectroscopy
+License-File: LICENSE.txt
