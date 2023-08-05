@@ -1,0 +1,16 @@
+sparkql/__init__.py,sha256=xzc7aL8q1OYbS67pK47eK6_c4w1dXdNh1OHTTUwG3v0,952
+sparkql/accessors.py,sha256=ewrKnSGR6bGCjJu0g_LMVAMBLLkptIK5ocVWGF8meJU,1066
+sparkql/exceptions.py,sha256=0FGr4ovBr8BljF81OwlefQrnjri3JDpv9RrUnf8tSn0,2387
+sparkql/fields/__init__.py,sha256=f_Fsam8W9QpAvHfaSKvyev_-WeRlLW2dV0Tmehy60mM,491
+sparkql/fields/array.py,sha256=gAxbrfnH-N215RHlYj-1-vT09tnWbThyCO1BJy03GrQ,5913
+sparkql/fields/atomic.py,sha256=neJENLcbhoclh_Fn6a_VojfXegtvcALrM074Uzv5F6A,3822
+sparkql/fields/base.py,sha256=WJuDT4-BQPoN5DvSwM2s1KI3nk_xIlZyNyi6OU6loBs,12199
+sparkql/fields/struct.py,sha256=T9iZ_qCu6rWgatINd3c9KYdBLM6G270WY-6FJPwDAU0,26425
+sparkql/formatters.py,sha256=6D6O6WVFO8ECeHSUWsas7FpQAY_UiYqGPTFTz5E-6SU,3436
+sparkql/schema_builder.py,sha256=QAeLdPAm1X8ump0-3KhqpGU5Widr1xqcvrxchanEvSw,351
+sparkql/schema_merger.py,sha256=Z3tU18ZeAZTkTWRoacALy8RB5vNcuniQ9W72wU6wHXw,5762
+sparkql-0.6.0.dist-info/LICENSE,sha256=U6gkiaWA3Lt_DOP4GrBr84fCne4EttS1DSTqImYt4-k,1087
+sparkql-0.6.0.dist-info/METADATA,sha256=Tf5W6361T2w03nd9PDEWkaIkYUDG7uYuoZOYXwvMBsU,15434
+sparkql-0.6.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+sparkql-0.6.0.dist-info/entry_points.txt,sha256=nvUxEee3At-AaUPQVOC-wKgi95sP0g08YRX3T2NpIJM,221
+sparkql-0.6.0.dist-info/RECORD,,
