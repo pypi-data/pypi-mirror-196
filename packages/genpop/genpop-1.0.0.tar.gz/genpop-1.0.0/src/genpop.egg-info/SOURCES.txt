@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/genpop.egg-info/PKG-INFO
+src/genpop.egg-info/SOURCES.txt
+src/genpop.egg-info/dependency_links.txt
+src/genpop.egg-info/requires.txt
+src/genpop.egg-info/top_level.txt
+src/popgen/__init__.py
+src/popgen/config.py
+src/popgen/data.py
+src/popgen/draw.py
+src/popgen/ipf.py
+src/popgen/output.py
+src/popgen/project.py
+src/popgen/reweighting.py
