@@ -1,0 +1,16 @@
+[project]
+name='testpypipekuk'
+version = '0.0.1'
+description = 'My test package'
+keywords = ['testpypipekuk','name']
+authors=[{name='EK',email='ewelina1018@gmail.com'}]
+license={file='License.txt'}
+readme='README.md'
+classifiers=[
+    'Framework :: Pytest',
+    'Framework :: Trac'
+]
+requires-python='>=3.0'
+dependencies=[
+    'numpy'
+]

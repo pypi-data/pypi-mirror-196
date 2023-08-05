@@ -1,0 +1,11 @@
+License.txt.py
+MANIFEST.in
+README.md
+pyproject.toml
+testpypipekuk/__init__.py
+testpypipekuk/m_mod_ek.py
+testpypipekuk.egg-info/PKG-INFO
+testpypipekuk.egg-info/SOURCES.txt
+testpypipekuk.egg-info/dependency_links.txt
+testpypipekuk.egg-info/requires.txt
+testpypipekuk.egg-info/top_level.txt
