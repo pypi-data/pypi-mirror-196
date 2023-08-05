@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: testpypipekuk
+Version: 0.0.1
+Summary: My test package
+Author-email: EK <ewelina1018@gmail.com>
+Keywords: testpypipekuk,name
+Classifier: Framework :: Pytest
+Classifier: Framework :: Trac
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License.txt.py
+Requires-Dist: numpy
+
+# `testpypipekuk` - My Simple Project
+
+* Opt1
+* Opt2
+* Opt3
+
+## Instal
+```python
+pip install testpypipekuk
+```
+### Usage
+
+```python
+from testpypipekuk.m_mod_ek import name as n
+from testpypipekuk.m_mod_ek import get_numpy_arr
+>>> n('Name', 'Surname')
+Name Surname
+>>> get_numpy_arr(([1,2,3,4,5]))
+[1 2 3 4 5 ]
+```
