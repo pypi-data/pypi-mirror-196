@@ -1,0 +1,37 @@
+Index: src/fishnet_cod/deployer.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/fishnet_cod/deployer.py b/src/fishnet_cod/deployer.py
+new file mode 100644
+--- /dev/null	(date 1678293027726)
++++ b/src/fishnet_cod/deployer.py	(date 1678293027726)
+@@ -0,0 +1,27 @@
++# Deployment script for fishnet_cod
++# Path: src/fishnet_cod/deployer.py
++
++import asyncio
++from core.deployment import *
++from src.fishnet_cod.core.deployment import build_and_upload_requirements, SourceType
++
++
++def main():
++    module_path = Path(__file__).parent
++    requirements_path = module_path.parent.parent / "requirements.txt"
++    print(requirements_path)
++
++    requirements = await build_and_upload_requirements(
++        requirements_path,
++        deployer_session,
++        source_type=SourceType.REQUIREMENTS,
++    )
++    executors = asyncio.run(
++        deployment.deploy_executors(
++            Path(__file__) / "executor",
++        )
++    )
++
++
++if __name__ == "__main__":
++    main()

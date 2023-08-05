@@ -1,0 +1,13 @@
+Index: src/fishnet_cod/core/session.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/fishnet_cod/core/session.py b/src/fishnet_cod/core/session.py
+new file mode 100644
+--- /dev/null	(date 1678293730579)
++++ b/src/fishnet_cod/core/session.py	(date 1678293730579)
+@@ -0,0 +1,2 @@
++from aleph.sdk import AuthenticatedAlephClient
++from aleph.sdk.
+\ No newline at end of file
