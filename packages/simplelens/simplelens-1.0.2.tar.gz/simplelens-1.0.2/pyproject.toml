@@ -1,0 +1,5 @@
+[project]
+description = "Implementation of the lens functional pattern"
+name = "simplelens"
+version = "1.0.2"
+readme = "README.md"
