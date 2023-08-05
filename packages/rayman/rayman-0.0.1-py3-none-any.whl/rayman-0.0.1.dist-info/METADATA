@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rayman
+Version: 0.0.1
+Summary: A tool to create Ray clusters on Kubernetes with the help of KubeRay.
+Project-URL: Documentation, https://github.com/gabrielmbmb/rayman#readme
+Project-URL: Issues, https://github.com/gabrielmbmb/rayman/issues
+Project-URL: Source, https://github.com/gabrielmbmb/rayman
+Author-email: Gabriel Martín Blázquez <gmartinbdev@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: kuberay,kubernetes,ray,ray-cluster,ray-cluster-on-kubernetes
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: <3.12,>=3.8
+Provides-Extra: dev
+Requires-Dist: black>=23.1.0; extra == 'dev'
+Requires-Dist: coverage[toml]>=7.0.0; extra == 'dev'
+Requires-Dist: mypy>=0.991; extra == 'dev'
+Requires-Dist: pre-commit>=3.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.2.0; extra == 'dev'
+Requires-Dist: ruff>=0.0.254; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# rayman
+RayMan - A tool to create Ray clusters on Kubernetes
