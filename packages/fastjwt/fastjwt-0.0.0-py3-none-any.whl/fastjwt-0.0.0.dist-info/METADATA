@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fastjwt
+Version: 0.0.0
+Summary: FastAPI Plugin for reusable JWT Authentication Management
+Home-page: https://github.com/ocarinow/fastjwt
+License: MIT
+Keywords: fastapi,jwt,JSON-Web-Token,authentication,security,api
+Author: Walid BENBIHI
+Author-email: contact@ocarinow.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.5,<2.0.0)
+Requires-Dist: pyjwt[crypto] (>=2.6.0,<3.0.0)
+Requires-Dist: typing-extensions (>=4.5.0,<5.0.0) ; python_full_version <= "3.9.0"
+Project-URL: Repository, https://github.com/ocarinow/fastjwt
+Description-Content-Type: text/markdown
+
+# fastjwt
+FastAPI Plugin for reusable JWT Authentication Management
+
+![](./reports/docstr-badge.svg)
