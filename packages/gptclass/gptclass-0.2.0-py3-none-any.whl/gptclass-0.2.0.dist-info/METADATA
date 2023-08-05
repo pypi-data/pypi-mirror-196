@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: gptclass
+Version: 0.2.0
+Summary: A Python class that does what you need
+Home-page: https://github.com/jaume-ferrarons/GPTClass
+License: MIT
+Keywords: gpt,openai
+Author: Jaume Ferrarons
+Author-email: jaume.ferrarons@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: diskcache (>=5.4.0,<6.0.0)
+Requires-Dist: openai (>=0.27.0,<0.28.0)
+Project-URL: Repository, https://github.com/jaume-ferrarons/GPTClass
+Description-Content-Type: text/markdown
+
+# GPTClass
+**GPTClass** is a Python class that uses OpenAI's GPT to do what you need with minimal information.
+
+## Installation
+```bash
+pip install gptclass
+```
+
+## Usage
+```python
+>>> import openai
+>>> openai.api_key = "..."
+
+>>> from gptclass import GPTClass
+>>> jack = GPTClass()
+
+>>> jack.add(1, 2)
+3
+>>> jack.n_unique([1, 2, 5, 5])
+3
+>>> jack.prime_numbers_below(10)
+[2, 3, 5, 7]
+>>> jack.count_vowels("Today I had a nice coffee!")
+10
+>>> jack.from_celsius_to_fahrenheit(25)
+77.0
+```
+
+## Notes
+- Inspired on: [davinci-functions](https://github.com/odashi/davinci-functions/tree/main)
+
+## Warning
+- The code produced may not be reliable and should be validated before executing it.
