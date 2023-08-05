@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./torchgs/__init__.py
+./torchgs/grid_search.py
+./torchgs/metrics.py
+./torchgs/optimizers.py
+./torchgs/trainer.py
+torchgs.egg-info/PKG-INFO
+torchgs.egg-info/SOURCES.txt
+torchgs.egg-info/dependency_links.txt
+torchgs.egg-info/requires.txt
+torchgs.egg-info/top_level.txt
