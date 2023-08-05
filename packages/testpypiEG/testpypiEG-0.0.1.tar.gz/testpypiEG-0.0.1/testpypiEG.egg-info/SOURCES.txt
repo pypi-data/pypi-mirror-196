@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypiEG/__init__.py
+testpypiEG/m_mod_EG.py
+testpypiEG.egg-info/PKG-INFO
+testpypiEG.egg-info/SOURCES.txt
+testpypiEG.egg-info/dependency_links.txt
+testpypiEG.egg-info/requires.txt
+testpypiEG.egg-info/top_level.txt

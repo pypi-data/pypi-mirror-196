@@ -1,0 +1,16 @@
+[project]
+name = "testpypiEG"
+version = "0.0.1"
+description = "My test package"
+keywords = ["testpypiEG", "name", "surname"]
+authors = [{name = "EG", email = "elizaganca@gmail.com"}]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "Framework :: Ansible",
+    "Environment :: Plugins"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy'
+]
