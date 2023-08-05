@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+arachnio/__init__.py
+arachnio/client.py
+arachnio.egg-info/PKG-INFO
+arachnio.egg-info/SOURCES.txt
+arachnio.egg-info/dependency_links.txt
+arachnio.egg-info/requires.txt
+arachnio.egg-info/top_level.txt
+tests/test_client.py
