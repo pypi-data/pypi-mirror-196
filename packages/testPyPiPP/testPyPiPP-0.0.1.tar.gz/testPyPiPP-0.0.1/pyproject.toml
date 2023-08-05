@@ -1,0 +1,14 @@
+[project]
+name = 'testPyPiPP'
+version = '0.0.1'
+description = 'My test package'
+keywords = ['testPyPiPP', 'name', 'surname', 'fun function']
+authors = [{name = 'AZ', email = 'pawel.przybyla@gmail.com'}]
+license = {file = 'license.txt'}
+readme = 'README.md'
+classifiers = [
+    'Framework :: Odoo',
+    'Framework :: Pytest'
+]
+requires-python = '>=3.0'
+dependencies = ['numpy']

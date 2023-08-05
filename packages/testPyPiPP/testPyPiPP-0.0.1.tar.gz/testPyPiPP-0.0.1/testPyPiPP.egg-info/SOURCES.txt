@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+license.txt
+pyproject.toml
+testPyPiPP/__init__.py
+testPyPiPP/m_mod_pp.py
+testPyPiPP.egg-info/PKG-INFO
+testPyPiPP.egg-info/SOURCES.txt
+testPyPiPP.egg-info/dependency_links.txt
+testPyPiPP.egg-info/requires.txt
+testPyPiPP.egg-info/top_level.txt
