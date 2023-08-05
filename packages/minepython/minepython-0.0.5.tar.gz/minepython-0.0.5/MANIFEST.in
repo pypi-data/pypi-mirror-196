@@ -1,0 +1,2 @@
+recursive-include minepython *.pyd
+recursive-include minepython *.pyi
