@@ -1,0 +1,12 @@
+urlexpander_test/__init__.py,sha256=w85HuhWmJkWdtMRHD7M5m3_Fm76sQVoGLOpqoRK7G8k,238
+urlexpander_test/core/__init__.py,sha256=0q1R4821R0LohjlAfg6dXR6ohNMP4UZNFllIW3v6aao,160
+urlexpander_test/core/api.py,sha256=hvFTp3hm90gLgNh3RnVdx3i3np5BcUDLkJqK4rMifKs,12825
+urlexpander_test/core/constants.py,sha256=0GXpnDEe5xYHSbgES-tuDu6HbOzKbmV6ZAc-nahBeik,3150
+urlexpander_test/core/datasets.py,sha256=JE02X2_JoarrbGywTWlrzJT8sXf1qCsBEqhi7ncTdZQ,1374
+urlexpander_test/core/html_utils.py,sha256=WDGk1Y8b31GcKsIELAd-TGo77oZJcvs5jjSWtWARTu4,4515
+urlexpander_test/core/tweet_utils.py,sha256=yRDL63Bs7PktTZZ2e318ppZGZfi5LoVjzH4YYx0WYIc,6529
+urlexpander_test-0.0.37.dist-info/LICENSE,sha256=jisoYhCIunGpiPGG7JL9W78dUy67rO6uom3jcBNIs_E,1062
+urlexpander_test-0.0.37.dist-info/METADATA,sha256=npC3f1nD3qUH32QCXj5o2ZKfvZUvbh4DnLWq7Y17oVU,1006
+urlexpander_test-0.0.37.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+urlexpander_test-0.0.37.dist-info/top_level.txt,sha256=WYPGpXIRcMfsDOKE8hbcNxn_4I-nY7R81lMzkqax2Z0,17
+urlexpander_test-0.0.37.dist-info/RECORD,,
