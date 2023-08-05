@@ -1,0 +1,9 @@
+flet/__init__.py,sha256=q7RxsaBbK0U-GbmLhU5lQz_tcPn05YREnF1-7YPdYb8,101
+flet/flet.py,sha256=gxq96j0bh7DgESsrVkJEhlXrskCQQ1ROWCW27Y8axkw,2377
+flet/matplotlib_chart.py,sha256=6mc37-oo1GcLX8VxBvWnoBz8ZKbLy7jM-nwjrsz2COo,55
+flet/plotly_chart.py,sha256=qNJbipGODhFOaWmPjFx3-vAf9wcEqqilG4ehZBCXahE,47
+flet/pyodide_connection.py,sha256=yazRd3LSW7KvTr7EdCzw86GsaBG1RzD0lgphbwD67gs,3861
+flet/version.py,sha256=nneL2W7hGeSfTxKbJA_OGvBU4jbvNkZ2DfRtrGo6Xrs,103
+flet_pyodide-0.5.0.dev1250.dist-info/METADATA,sha256=npQUz7828m2ZAfwgzRF8bjd2gi0x819YeYLS8Li-VnY,3007
+flet_pyodide-0.5.0.dev1250.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+flet_pyodide-0.5.0.dev1250.dist-info/RECORD,,
