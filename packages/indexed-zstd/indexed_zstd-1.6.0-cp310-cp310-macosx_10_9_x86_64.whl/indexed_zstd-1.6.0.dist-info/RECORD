@@ -1,0 +1,7 @@
+indexed_zstd.cpython-310-darwin.so,sha256=VlBw852Ja5K8s6WQ5WImV2FCyiWJYRdp3TbHbfHk7UE,155600
+indexed_zstd.dylibs/libzstd.1.5.4.dylib,sha256=epTJ3zt4maqljlXj-LovivMInzwY3DISNbmAmv_BUvA,850528
+indexed_zstd-1.6.0.dist-info/RECORD,,
+indexed_zstd-1.6.0.dist-info/LICENSE,sha256=QUjPOoQuYP2bjG2DGVd6KdRlqXZZIEzoqcMrI5GlaBA,1073
+indexed_zstd-1.6.0.dist-info/WHEEL,sha256=85XxqUmZLCpAUbyN5ViL3rgA5Dw0b1knnC4gtrrtDjE,111
+indexed_zstd-1.6.0.dist-info/top_level.txt,sha256=tkkGypvUTCsF8ay222j7gttRUTht3qmfqTsTGmJeriY,13
+indexed_zstd-1.6.0.dist-info/METADATA,sha256=hxr6oj4T2ArSTqEY_0tJp_xqg1qiPcuq9sNl3C5uOD8,3083
