@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+spacy_syllables/__init__.py
+spacy_syllables.egg-info/PKG-INFO
+spacy_syllables.egg-info/SOURCES.txt
+spacy_syllables.egg-info/dependency_links.txt
+spacy_syllables.egg-info/requires.txt
+spacy_syllables.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py

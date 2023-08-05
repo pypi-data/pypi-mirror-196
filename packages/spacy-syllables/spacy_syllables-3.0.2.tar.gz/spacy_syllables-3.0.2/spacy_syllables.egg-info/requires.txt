@@ -1,0 +1,6 @@
+spacy>=3.0.3
+pyphen>=0.10.0
+
+[dev]
+black>=23.1.0
+pytest
