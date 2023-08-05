@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: excore
+Version: 0.1.1
+Summary: Build your own development toolkit efficiently.
+Home-page: https://github.com/Asthestarsfalll/excore
+License: MIT
+Author: Asthestarsfalll
+Author-email: 1186454801@qq.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/Asthestarsfalll/excore
+Description-Content-Type: text/markdown
+
+# ExCore
+
