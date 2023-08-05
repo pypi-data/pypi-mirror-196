@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "natsu"
+version = "1.0.0"
+description = "Use sum() with objects of any class"
+authors = ["celsius narhwal <hello@celsiusnarhwal.dev>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/celsiusnarhwal/natsu"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+rich-tracebacks = "^1.2.1"
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
