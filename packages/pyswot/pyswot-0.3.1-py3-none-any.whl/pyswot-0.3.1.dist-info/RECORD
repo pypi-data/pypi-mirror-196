@@ -1,0 +1,11 @@
+pyswot/__init__.py,sha256=Zr_yMsstjtfBKfK0aZlK3cCVvntFTKTqAEfTsTnA1uc,99
+pyswot/pyswot.py,sha256=IK5z3RpOLQL6V4YDuGXju_XoBLvZaw9tLlutC7HsdW4,1262
+pyswot/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyswot/vendor/domains.py,sha256=BISv1KE8Xpi7omp3kQ_ZWX75JqsvPPkHFvHvzU3j5R4,1468329
+pyswot/vendor/license.txt,sha256=pRCl3Ql5cTgLMu9jsyIl7_TuscHD16reY9dcQ8eqFQw,1077
+pyswot/vendor/stoplist.py,sha256=ly9STZDC94ddH-XgRNkQmAYqrVatvGjtZHLx4qCKscI,27542
+pyswot/vendor/tlds.py,sha256=NXBVmjdY0OGhfEcJcglvwtMXwSsSQvDgziDZ0b7Ki3Q,1773
+pyswot-0.3.1.dist-info/LICENSE,sha256=ooS_vbTGwa0r7AArDpI9mrfUmKl1zFLudjbE6kJY8K0,11363
+pyswot-0.3.1.dist-info/METADATA,sha256=yNRtogFRVI6AOnqqRGGLeXwQblrs4pplBKZxYz--zsg,1797
+pyswot-0.3.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pyswot-0.3.1.dist-info/RECORD,,
