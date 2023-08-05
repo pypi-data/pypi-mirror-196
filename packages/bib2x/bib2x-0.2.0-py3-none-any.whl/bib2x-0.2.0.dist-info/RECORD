@@ -1,0 +1,16 @@
+bib2x/__init__.py,sha256=gH_7BctQ0TzfFmbmdlIeJZsiLv_1NrEYsL2h-NhgjmA,537
+bib2x/bib2json.py,sha256=Ym01kCCLvpq2aHHGvtvMD6V8xobMBUDx_HCyHDLRcaM,23482
+bib2x/bib2x.py,sha256=uicqRhgaFd6BVSwFc1WrCQ5V-1v542jFSgOxoHEFHCk,2842
+bib2x/texfile.py,sha256=LrYpTLHAXwMgUftpQq8R3lwuNaYjufQ-wHOa4yaGXTs,18560
+bib2x/texhandler/__init__.py,sha256=Utzw6YzqnqtVMwmMSdAFE4oXeVou4GR3MlVLAq9jFOY,544
+bib2x/texhandler/handler.py,sha256=X-5g4QfmYypREorLbGZvqrdsD0PA-izj1rBIx9WNprA,2674
+bib2x/texhandler/json.py,sha256=OYo5_kVkInBcyHA8EucrYcGgZhCF63d7Q47X96C0utk,4497
+bib2x/texhandler/memory.py,sha256=551pYjwLl4KVOiTKWG_xR_C5em-upyx3RmE5Sz7iPI0,5255
+tests/__init__.py,sha256=9VNrh0fBQq73fd4yvoO_E2f5mF6Y-lUxEaRJii2fn94,398
+tests/test_bib2x.py,sha256=aVY2N7xnDfR2HOfbeadciWoUS4kiGMVrRDX_WWdk1s4,7614
+bib2x-0.2.0.dist-info/LICENSE,sha256=J0qd3ybV8wBmu_HChDoD4FlEuUBCmKOJwYkR7asr304,1520
+bib2x-0.2.0.dist-info/METADATA,sha256=cajGtsiATVVmKZREuO_awymBqoqLDcsrU1VBASMBTkA,5132
+bib2x-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bib2x-0.2.0.dist-info/entry_points.txt,sha256=PSFhNUm6ZETiG208fOl6be21hqoBqhzOs1SleGhKkB4,37
+bib2x-0.2.0.dist-info/top_level.txt,sha256=oAdcN9YFcIfyRjwMYKkysAqVb8DxMfE0-8NirSHTPL4,12
+bib2x-0.2.0.dist-info/RECORD,,
