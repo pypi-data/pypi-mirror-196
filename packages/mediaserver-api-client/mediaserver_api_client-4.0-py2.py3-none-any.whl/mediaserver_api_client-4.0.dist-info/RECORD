@@ -1,0 +1,13 @@
+ms_client/__init__.py,sha256=nxutbKazezSjjyhCyiA0W0PGFdZJ2x9g1brG-NdlAHU,20
+ms_client/client.py,sha256=OBLvf8QMU6TpuD63LTBR-H1YFettmE22PCMAvcQ_47c,11704
+ms_client/conf.py,sha256=l5YA7p3te4KXfZYM2pLZaUmwuxURnUDzkXOVS2rYWkU,1399
+ms_client/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms_client/lib/configuration.py,sha256=aiDh8z7W0tlk9vzl_zrBPgPGUBqh2wsIr2plp-sdu20,4651
+ms_client/lib/content.py,sha256=mYpK3A509G2roYJQJnmlxKrQhMLtbl3kYBIq5em2EK8,3291
+ms_client/lib/upload.py,sha256=M1M3216ozgs-oT3BKxWCeq1DwGBiI6eigXyBAMRRcOE,8615
+ms_client/lib/users_csv.py,sha256=3AgVnMCwQhj-zyEfrL24X5iKpZh8J8TiJLBZH1odCgQ,1770
+mediaserver_api_client-4.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+mediaserver_api_client-4.0.dist-info/METADATA,sha256=kxzVMQOqCMEkGn9s-lPRD1Lp-Yxx_rlbtUQ6HOXYNd0,7825
+mediaserver_api_client-4.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+mediaserver_api_client-4.0.dist-info/top_level.txt,sha256=NQh6MugbIZeLfOFcO2pvWeBvXcN1hJm9kVyY_zpM0qw,10
+mediaserver_api_client-4.0.dist-info/RECORD,,
