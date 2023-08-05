@@ -1,0 +1,8 @@
+setup.py
+queues_master_new/__init__.py
+queues_master_new/queues.py
+queues_master_new.egg-info/PKG-INFO
+queues_master_new.egg-info/SOURCES.txt
+queues_master_new.egg-info/dependency_links.txt
+queues_master_new.egg-info/requires.txt
+queues_master_new.egg-info/top_level.txt
