@@ -1,0 +1,15 @@
+pic_rucio-0.0.9.data/scripts/pic_rucio,sha256=TQXMWoztMcDghpYKEJ41u4cyh8dSayz4iA4OrOBFO84,2013
+transfer_agents/__init__.py,sha256=BXMU0SoJywfZtkeWhk253z5EenFKUYXBFAk-s_BMqHg,174
+transfer_agents/commons.py,sha256=m5qy3_TR-A8G4lKH8Nr6pC5RWBjkn_keQIsvuGTBC7U,1755
+transfer_agents/db_functions.py,sha256=T38azV8Z1YvNYFJwGpX5RR7uFA8HPgvIO4otCrP7Qbk,6852
+transfer_agents/es_body.json,sha256=HITEk7oT_0rFsG7JXwrWjrQqpkkq84pJxXFyAcswdtU,1397
+transfer_agents/es_query.py,sha256=xUwKXansHbGQ05bmQ3BZ0IykIHiLFvG5PJcPuKXuhqo,10752
+transfer_agents/metadata.py,sha256=Z5aWI-uaobnvwxhqDCsfqR_5Sh27f2dyPx32qX-kQdU,10146
+transfer_agents/requirements.txt,sha256=auoUxPaBjzX3eGV3HMuKPAVIip15GnNLYdfj2nHp__c,147
+transfer_agents/rucio_functions.py,sha256=48EXbTaGjE2dKPwm7h_8HnNnvjvW4yNVrY4jD8PU8-U,27745
+transfer_agents/sample.yaml,sha256=7byGXuGCh9GyMZLkm-7zj4R8lum9PMqXNfWbft9jdxs,31999
+pic_rucio-0.0.9.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+pic_rucio-0.0.9.dist-info/METADATA,sha256=sVDKcl7arr9VbC-CZzm2ed0j0qPn_qDvIK4pYCurbkk,1716
+pic_rucio-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pic_rucio-0.0.9.dist-info/top_level.txt,sha256=XiOn502fTf5gjAlVYarBmZhXER2pjujhDQSVC00cgBg,34
+pic_rucio-0.0.9.dist-info/RECORD,,
