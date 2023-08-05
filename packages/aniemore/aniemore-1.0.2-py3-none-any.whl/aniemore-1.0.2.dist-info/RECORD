@@ -1,0 +1,15 @@
+aniemore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aniemore/custom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aniemore/custom/models.py,sha256=2G_ALIpCt2ttzVp7T34ej_dYhImH7WsQ8Z8pnEdQyAE,4865
+aniemore/datasets.py,sha256=a21WbuwluqFoAOtZ1kiMXlrFOSEfoPXNc6PvgEMMXjs,441
+aniemore/models.py,sha256=-yAkSHE_qKIwd9ikQM7HG-NA4IOn5hthZPfLsn1kW3Q,1544
+aniemore/recognizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aniemore/recognizers/text.py,sha256=Z_NfyK0xfd0DAh3Yjg6EbzCRnE4TGp3H8NgqpoOK2Ug,6502
+aniemore/recognizers/voice.py,sha256=RMKvtTuIvrQqcGfDGhdMkFa3lk2m-SNOe8dKsFwhFEU,3798
+aniemore/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aniemore/utils/classes.py,sha256=1F97lF1cXqJyPC7g6J5giihJ14gkGfhz2fE4DtqAjak,12365
+aniemore/utils/speech2text.py,sha256=Dl1iWmAsDUeTWHZpye25fDY-5WFqUAKj5Ly6d7le6TQ,2730
+aniemore-1.0.2.dist-info/LICENSE,sha256=hW5-fX226ow_ZgGlx8Y27HHmUUawAIp2XbpZRNqZgSs,1104
+aniemore-1.0.2.dist-info/METADATA,sha256=6ut_q3yRWn5cGjmNUQPSAuVSWfFOiOQN9CDd--cSKQA,4211
+aniemore-1.0.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+aniemore-1.0.2.dist-info/RECORD,,
