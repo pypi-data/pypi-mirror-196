@@ -1,0 +1,1 @@
+from .._agg import _GMEb3 as this_dir, _XxmNl as cie_1931_2, _OX0yj as cie_1964_10, _IyPf6 as wws_cie_1931_2, _xMjCO as wws_cie_1964_10, _KXBla as SpectralData

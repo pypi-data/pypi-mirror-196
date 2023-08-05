@@ -1,0 +1,1 @@
+from .._agg import _6P3p6 as cmccat2000
