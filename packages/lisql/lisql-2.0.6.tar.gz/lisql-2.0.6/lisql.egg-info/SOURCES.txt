@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+lisql.egg-info/PKG-INFO
+lisql.egg-info/SOURCES.txt
+lisql.egg-info/dependency_links.txt
+lisql.egg-info/top_level.txt
