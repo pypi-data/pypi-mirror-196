@@ -1,0 +1,4 @@
+pypdf2
+fpdf2
+pytesseract
+googletrans==4.0.0-rc1
