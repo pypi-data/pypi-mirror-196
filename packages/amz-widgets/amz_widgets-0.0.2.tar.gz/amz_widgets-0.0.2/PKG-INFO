@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: amz_widgets
+Version: 0.0.2
+Summary: Collection of useful tkinter widgets
+Project-URL: Homepage, https://github.com/dmalves/amz_widgets
+Project-URL: Bug Tracker, https://github.com/dmalves/amz_widgets/issues
+Author-email: Daniel de Matos Alves <dmalves.programmer@outlook.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: ttkbootstrap>=1.10.1
+Description-Content-Type: text/markdown
+
+
+# AMZ_Widgets
+A collection of useful tkinter widgets. 
+
+
+# Widgets
+
+* FormEntry: Entry widget with top label. It should be used in forms.
+![](https://raw.githubusercontent.com/dmalves/amz_widgets/main/docs/images/form_entry_example.png)
