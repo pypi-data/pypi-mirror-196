@@ -1,0 +1,2 @@
+[console_scripts]
+cars_rasterize = cars_rasterize.cli:main
