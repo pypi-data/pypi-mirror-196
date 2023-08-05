@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "githuby"
+version = "0.1.0"
+description = "Simple package to get data about GitHub users"
+authors = ["Christian <64144555+chr3st5an@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/chr3st5an/githuby"
+keywords = [
+    "github",
+    "api",
+    "asyncio",
+    "async",
+    "aiohttp",
+    "user"
+]
+classifiers = [
+    "Framework :: aiohttp",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.4"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = ">=3.8.1,<4.0"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/chr3st5an/githuby/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
