@@ -1,0 +1,3 @@
+[console_scripts]
+pyside6-uic-extended = pyside6_uic_extended.uic:start
+

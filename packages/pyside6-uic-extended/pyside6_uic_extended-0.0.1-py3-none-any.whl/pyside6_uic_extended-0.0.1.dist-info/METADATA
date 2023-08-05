@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyside6-uic-extended
+Version: 0.0.1
+Summary: Extended functionality for pyside6-uic
+Home-page: https://github.com/twyleg/pyside6-uic-extended
+Author: Torsten Wylegala
+Author-email: mail@twyleg.de
+License: GPL 3.0
+Keywords: pyside6 uic
+Platform: UNKNOWN
+Requires-Dist: PySide6
+
+# PySide6 uic extended
+
+Extended functionality for pyside6-uic
+
+

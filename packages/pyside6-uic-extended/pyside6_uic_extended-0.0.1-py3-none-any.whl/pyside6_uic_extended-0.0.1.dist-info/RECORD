@@ -1,0 +1,9 @@
+pyside6_uic_extended/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyside6_uic_extended/uic.py,sha256=BDsD1e53fS9a4A6jlV_dLvgaU7OyAUhDBZMp09bU0mI,1276
+unittests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unittests/test_uic.py,sha256=bX8e7zOPeXn4_ChC-1EXwW2ZVgzEXlBsd56xrcmawKc,2247
+pyside6_uic_extended-0.0.1.dist-info/METADATA,sha256=ATRpQlZD7EiyWAlgXur8u4qyBIhSnhQc3rakP9419y0,370
+pyside6_uic_extended-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyside6_uic_extended-0.0.1.dist-info/entry_points.txt,sha256=z4MwsYaYZ_c8U_Qox60if6Iwf4JQo9HHbVNXjQ30TSw,73
+pyside6_uic_extended-0.0.1.dist-info/top_level.txt,sha256=RfehCl_ioEVse9cxuouXVFsYmrHTS5C3K4d7eyXK7Xg,31
+pyside6_uic_extended-0.0.1.dist-info/RECORD,,
