@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: otlib
+Version: 0.0.2
+Summary: A one time pad library
+Home-page: https://git.james-clarke.ynh.fr/impulse/otlib
+Author: James Clarke
+Author-email: James <james@james-clarke.ynh.fr>
+License: LGPLv3
+Project-URL: Homepage, https://git.james-clarke.ynh.fr/impulse/otlib
+Project-URL: Bug Tracker, https://git.james-clarke.ynh.fr/impulse/otlib/-/issues
+Keywords: cryptography,security,one-time-pad
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pynacl
+
+# OTlib
+A one time pad library
