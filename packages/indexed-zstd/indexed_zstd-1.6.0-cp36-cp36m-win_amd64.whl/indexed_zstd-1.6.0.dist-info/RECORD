@@ -1,0 +1,12 @@
+indexed_zstd.cp36-win_amd64.pyd,sha256=_dumRR2UpmCvP8KDKcICdy0lfZRlQL_bJ1zeqvOQm3A,80896
+indexed_zstd-1.6.0.data/platlib/.load-order-indexed_zstd-1.6.0,sha256=OrN3jGfd16ZT97WovlFv3uPvMlyPMRwIp6zriUUu45k,95
+indexed_zstd-1.6.0.data/platlib/concrt140.dll,sha256=LcInbOOJ48oiQJhNg6uGn79KmboUrzdf7ihwkGPmVKc,316816
+indexed_zstd-1.6.0.data/platlib/libzstd-318fd6a8c92b7fa47454ffff434c1f7b.dll,sha256=XKF6Z_tkbwQea30xByZ_Df-SctMLv85bey2fwxNvTOE,830348
+indexed_zstd-1.6.0.data/platlib/msvcp140.dll,sha256=2ExkDbO80wjmHYuP056wph8qowp8J4dldxx7VAEWp_U,621960
+indexed_zstd-1.6.0.data/platlib/vcruntime140_1.dll,sha256=4LZmAcwo7LFxw9S3rGkMZn9H2mthg7_4BgTITADSZas,49488
+indexed_zstd-1.6.0.dist-info/DELVEWHEEL,sha256=fDxoZY5Wbt2sZ6-4mK2-ZLJshPPxFWiOZmrSDDR5JMk,382
+indexed_zstd-1.6.0.dist-info/LICENSE,sha256=iz4euWk84nPnREZc-ccGrTDrzSyhEMHs1PEiigKt81I,1094
+indexed_zstd-1.6.0.dist-info/METADATA,sha256=Sj5_z27WU9Y75-948PL4kdYq1m2dEy-hOwZAyz9hPCU,3103
+indexed_zstd-1.6.0.dist-info/RECORD,,
+indexed_zstd-1.6.0.dist-info/top_level.txt,sha256=tkkGypvUTCsF8ay222j7gttRUTht3qmfqTsTGmJeriY,13
+indexed_zstd-1.6.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
