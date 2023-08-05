@@ -1,0 +1,11 @@
+.card {
+    background-color: var(--background-alt);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.5);
+}
+
+.viral-comments {
+    color: var(--highlight);
+}
