@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: FoxitPDFSDKPython3
+Version: 9.0.0
+Summary: Foxit PDF SDK For Python3
+Home-page: https://www.developers.foxit.com
+Author: Foxit Software Inc.
+Author-email: support@foxitsoftware.com
+License: Other/Proprietary License (Commercial)
+Keywords: PDF SDK,PDF Library,PDF render,PDF view,PDF print,PDF Edit,PDF convert
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/plain
+License-File: legal.txt
+
+Foxit PDF SDK v9.0.0
+==================================================================
+This is a major release
+
+____New APIs/Platforms____
+* The OCR engine now supports Linux 64 platform.
+* Expands language support for Mac ARM M1 chip from C++ to Java, DotNetCore, Object-C and Python.
+
+____New Features/Enhancements____
+* Foxit's proprietary PDF2Office is available in SDK as an addon.
+  Relevant API: foxit::addon::conversion::pdf2office 
+* Cross-platform MAUI POC project now available in the form of SDK package, Nuget package and Github repository. 
+* Find and replace text easily with new Search and Replace feature.
+  Relevant API: foxit::addon::pageeditor
+* Use MRC Compression technique to compress image objects.
+  Relevant APIs: addon::optimization::ImageSettings::SetBackgroundDownScale(), ***SetForegroundDownScale(), ***SetTextSensitivity()
+* Enhance table generator to fill in data in cells responsively.
+  Relevant API: static bool foxit::addon::tablegenerator::TableGenerator::InsertTablePagesToDocument()
+* Clone a new appearance for form widget annotations.
+  Relevant API: pdf::annots::Annot::ResetAppearanceStream()  
+* New function to set image to XFA form field. 
+  Relevant API: void foxit::addon::xfa::XFAWidget::SetImage() 
+* Embed all unembedded fonts in PDF.
+  Relevant APIs: foxit::pdf::PDFDoc::StartEmbedAllFonts()
+* Font class adds new functions to get and set font encoding.  
+  Relevant API: bool foxit::common::Font::SetEncoding () , ***GetEncoding()
+* Manage visibility of signature's state when rendering.
+  Relevant API: Renderer::SetRenderSignatureState()
+* Get all elements of the current paging seal signature.
+  Relevant API: SignatureArray foxit::pdf::Signature::GetPagingSealGroupElements()
+* Add a custom dictionary to a signature field while singing
+  Relevant API: void foxit::pdf::Signature::SetCustomObject() 	
+* Form XObject image object supports CloneBitmap(). 
+  Relevant API: pdf::graphics::ImageObject::CloneBitmap()
+* Supporting Repeat Overlay Text for PDF Redaction.
+  Relevant API: void foxit::pdf::annots::Redact::EnableRepeatOverlayText()
+* New option for Annot.Move to decide if to reset ap.
+  Relevant API: bool foxit::pdf::annots::Annot::Move()
+* Metadata adds functions to get and set xmpMM identifier
+  Relevant API: bool foxit::pdf::Metadata::SetValues(), ***GetValues() 
+* Optimize text watermarks to prevent an increase in file size.
+  Relevant API: foxit::pdf::WatermarkSettings
+* PDF TIFF bitmap supports LWZ compression.
+* Supporting more PDF JavaScript objects to enhance PDF interactivity.
+* Updated OCR engine to improve recognition of text and font.
+* Improvements to rendering on sharp angles of Bezier curves.
+
+____Demo____
+* New Simple Demo for Foxit's PDF2Office 
+* New Simple demo for Search and Replace
+* New Simple Demo for PDF2XML
+* New Simple Demo for Annotation Summary
+* New Simple demo for Form Combination to a Sheet
+* Update simple demo HTML2PDF to demonstrate on how to get HTML data from stream or memory. 
+
+____Documentation____
+* Deliver Python API Reference.
+
+____Bug Fixes____
+* Calling StartRender multiple times with a specific PDF document threw unexpected an exception.
+* Merging specific document through StartImportPagesFromFilePath() caused crashes when saving after optimization.
+* Calling Field::SetDefaultAppearance() to change the text font and size did not update the signature appearance.
+* [PrintManager] The output margins increased when printing a PDF document.
+* [C API] Calling SetRichTextStyle() to align text caused a crash.
+* The XFAWidget::SetValue() could not be set an empty string ("") on any field. 
+* Fixed security vulnerabilities in two JavaScript functions "Doc.exportXFAData" and "app.setInterval".
+
