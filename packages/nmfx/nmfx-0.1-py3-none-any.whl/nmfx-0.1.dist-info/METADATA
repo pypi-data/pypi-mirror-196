@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nmfx
+Version: 0.1
+Summary: Stochastic Non-Negative Matrix Factorization
+Home-page: https://github.com/vrutten/nmfx
+Author: Virginia MS Rutten, Jan Funke
+Author-email: ruttenv@janelia.hhmi.org, funkej@janelia.hhmi.org
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: jax
+Requires-Dist: tqdm
+
