@@ -1,0 +1,30 @@
+{% extends 'base.j2' %}
+{% block extra_css %}
+<link rel="stylesheet" href="/static/css/posts.css"/>
+{% endblock %}
+{% block title %}posts{% endblock %}
+{% block content %}
+<h1>top posts</h1>
+<table>
+<thead>
+    <tr>
+        <th class='text-col'>comment</th>
+        <th>time_ago</th>
+        <th>n_replies</th>
+        <th>chan</th>
+        <th>board</th>
+    </tr>
+</thead>
+<tbody>
+{% for post in posts %}
+    <tr>
+        <th><a href='{{ post.url }}'>{{ post.comment }}</a></th>
+        <th>{{ post.timestamp | format_time }}</th>
+        <th>{{ post.n_replies }}</th>
+        <th>{{ post.chan }}</th>
+        <th><a href='https://2ch.hk/{{ post.board }}'>{{ post.board }}</a></th>
+    </tr>
+{% endfor%}
+</tbody>
+</table>
+{% endblock %}
