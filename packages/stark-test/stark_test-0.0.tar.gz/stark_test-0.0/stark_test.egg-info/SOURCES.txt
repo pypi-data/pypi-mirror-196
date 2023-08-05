@@ -1,0 +1,7 @@
+README.md
+setup.py
+stark_test.egg-info/PKG-INFO
+stark_test.egg-info/SOURCES.txt
+stark_test.egg-info/dependency_links.txt
+stark_test.egg-info/entry_points.txt
+stark_test.egg-info/top_level.txt
