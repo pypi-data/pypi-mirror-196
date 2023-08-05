@@ -1,0 +1,4 @@
+networkx>=2.0
+
+[xxhash]
+xxhash>=2.0.0
