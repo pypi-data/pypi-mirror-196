@@ -1,0 +1,13 @@
+parse_1c_build/__about__.py,sha256=yySMQ_aspkreyXruD3RzeqCIvs74xoiiVFJ90teFS1Y,133
+parse_1c_build/__init__.py,sha256=2V4H9rKKq2PC47c6jTWBxlAunCarca9dHKejf4kOlxk,181
+parse_1c_build/__main__.py,sha256=U-IcpVUlNMKP7M4emA3_qTCHvMewv0KrL1ANmLyK8Oo,185
+parse_1c_build/base.py,sha256=bl9E8-DXhWarBvrS-SEAqao3C-f0gVW350VR8uvicZk,1575
+parse_1c_build/build.py,sha256=pJ7ccavMylF1Nkv35fiwaZzbm-LrBtgoj_iApJNrpJA,5734
+parse_1c_build/cli.py,sha256=_lHLBctz-hjMzFfcF_PAzfWqCer5r68Qghd1WUzHws4,799
+parse_1c_build/core.py,sha256=I___rq4Tb0qvr9KSunFShAK2BZAs9Yx3u-WBiRjg8vM,310
+parse_1c_build/parse.py,sha256=iqJVPA88CW1wWHtixehP15TV4q7LXnwHm3m6Ap6vOGo,4437
+parse_1c_build-5.15.4.dist-info/METADATA,sha256=Gm3kQfsxoE-XTuQcbcY-HZNzS38IrH4Wo2o_yH3R2yc,2860
+parse_1c_build-5.15.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parse_1c_build-5.15.4.dist-info/entry_points.txt,sha256=lFN-C2w6v0vYambkoa7Fd-FIa7mVWqkQXxnXSMntQdA,53
+parse_1c_build-5.15.4.dist-info/top_level.txt,sha256=8Z0JRcXNx6TzEnEEL5oFbTNuLrUpOnLH6A6LccnLNEQ,15
+parse_1c_build-5.15.4.dist-info/RECORD,,
