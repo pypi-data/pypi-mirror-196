@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ib-web-api
+Version: 202303081339
+Summary: Client Portal Web API
+Home-page: 
+Author-email: 
+Keywords: Swagger,Client Portal Web API
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Client Poral Web API  # noqa: E501
+    
