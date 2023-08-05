@@ -1,0 +1,12 @@
+clidat/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+clidat/auth.py,sha256=tlTsSMBNFA4e6w4i3rL1E_KEXfnZVAPaGkJOBuESko8,725
+clidat/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clidat/commands/accounting.py,sha256=K1nHAm3oQ61WEh08z09YxLxEw4mb4t6OujJeCHeI3mE,5230
+clidat/commands/platform.py,sha256=7kopFoSKu9cQYY2MNogr4SC155uGwLV9Sai0r8sRFo8,2838
+clidat/main.py,sha256=3ctCTftYhHP1tWuyy9OwNoq9TWSzG8hOcyT1bxPpRsg,1448
+clidat/meta.py,sha256=4OkGXhGx8OrseichLBSGR4feuzgMPnuqXFX2ti8887s,2018
+clidat-0.1.1.dist-info/LICENSE.md,sha256=YYsGDWcpdxqwyxW_m6GK7mTVg98CYgBcrFx50fSyxUI,1080
+clidat-0.1.1.dist-info/METADATA,sha256=WX_ZG-P-MMqetPoBfj2IuxEwoDtJD9_4gu2isnNE-7I,1467
+clidat-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+clidat-0.1.1.dist-info/entry_points.txt,sha256=fL05qcw_g6b8adTRJH7l768QtyYisR033gRHnX-t4N4,42
+clidat-0.1.1.dist-info/RECORD,,

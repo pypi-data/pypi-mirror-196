@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: clidat
+Version: 0.1.1
+Summary: CLI Tool for inspecting JSON Data from the Codat API
+License: MIT
+Author: Peter Simpson
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pycompanydata (>=0.1.2,<0.2.0)
+Requires-Dist: python-fx (>=0.2.0,<0.3.0)
+Description-Content-Type: text/markdown
+
+# CLIdat
+
+CLIdat is a tool for inspecting Data from Codat.
+
+The Command Line Interface itself is written with [Click](https://github.com/pallets/click),
+whilst the output of the different commands is passed to
+a TUI from the [Pyfx](https://github.com/cielong/pyfx) package.
+
+## Installation
+
+```console
+pip install clidat
+```
+## Quick Start
+
+```console
+foo@bar:~$ clidat auth
+Your Codat API Key:
+
+foo@bar:~$ clidat --get-companies
+```
+
+## Docs
+
+To see a list of all avaliable commands run:
+```console
+foo@bar:~$ run clidat --help
+
+  auth
+  get-account
+  get-account-transaction
+  get-account-transactions
+  ...
+
+```
+To get details on a particular command, just append the --help 
+flag  onto the end of the command, for example: 
+
+```console
+foo@bar:~$ clidat get-payment --help
+Options:
+  --payment TEXT          [required]
+  -id, --company-id TEXT  [required]
+  --help                  Show this message and exit.
+
+
+```
+
+
