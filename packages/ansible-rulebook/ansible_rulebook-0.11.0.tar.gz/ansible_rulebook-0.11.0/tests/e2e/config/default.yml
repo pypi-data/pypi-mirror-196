@@ -1,0 +1,6 @@
+default_event_delay: 1
+default_shutdown_after: 5
+operators_shutdown_after: 1
+cmd_timeout: 25
+controller_url: http://localhost:8080
+controller_token: secret
