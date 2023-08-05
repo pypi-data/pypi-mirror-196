@@ -1,0 +1,2 @@
+[console_scripts]
+pgn-filter = search:__main__.main
