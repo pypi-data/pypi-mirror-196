@@ -1,0 +1,16 @@
+[project]
+name = "testpypiMP"
+version = "0.0.1"
+description = "My test package"
+keywords = ["testpypiMP", "name", "surname", "fun funkction"]
+authors = [{name = "MP", email = "puchal71@gmail.com"}]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "Framework :: Ansible",
+    "Framework :: Zope2"
+]
+requires-python = ">=3.0"
+dependencies = [
+    "numpy"
+]

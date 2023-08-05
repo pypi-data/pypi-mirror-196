@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypiMP/__init__.py
+testpypiMP/m_mod_mp.py
+testpypiMP.egg-info/PKG-INFO
+testpypiMP.egg-info/SOURCES.txt
+testpypiMP.egg-info/dependency_links.txt
+testpypiMP.egg-info/requires.txt
+testpypiMP.egg-info/top_level.txt
