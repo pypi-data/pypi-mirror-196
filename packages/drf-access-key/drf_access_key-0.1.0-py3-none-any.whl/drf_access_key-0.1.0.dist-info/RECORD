@@ -1,0 +1,13 @@
+rest_framework_access_key/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_access_key/admin.py,sha256=lzUyfPXfZHYGdIiFMin8SA8iGJ68vjandQ2oUkkVtTo,1512
+rest_framework_access_key/apps.py,sha256=eqoLWNgiRhubcpT-cHTlIX6D-kcIoesj70mzlZw2UOU,275
+rest_framework_access_key/authentication.py,sha256=HjDvHKu-56vACymwAhRcCE3vRVNkLsdlU3lM_MTwVzY,4995
+rest_framework_access_key/models.py,sha256=oc1hdREJMg0DI2y3wMpo4SoBaRgsMkmb7YLDVxBPqv4,1051
+rest_framework_access_key/settings.py,sha256=AmDSsAt6ErOWMFMRYcnmyhi9MTXmpHsgmEGI4_2mkXk,390
+rest_framework_access_key/migrations/0001_initial.py,sha256=z-7SQxhFOic9-j40HZjYoOxC5oVlF6Kl6hmd_qAUGKk,1238
+rest_framework_access_key/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_access_key-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+drf_access_key-0.1.0.dist-info/METADATA,sha256=NLGXdepF_UAvNLgOBoQquxwfhfGlqa4VINVt9yVV5nk,3572
+drf_access_key-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_access_key-0.1.0.dist-info/top_level.txt,sha256=xl8chBaO7UYY7mKGVGrcaMvwODa-8_ZihCUGIIKJXs4,26
+drf_access_key-0.1.0.dist-info/RECORD,,
