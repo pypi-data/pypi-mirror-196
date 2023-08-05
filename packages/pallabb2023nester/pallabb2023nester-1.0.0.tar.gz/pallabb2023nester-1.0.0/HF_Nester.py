@@ -1,0 +1,24 @@
+"""
+This is the “nester.py" module, and it provides one function called
+print_lol() which prints lists that may or may not include nested lists.
+"""
+
+def print_lol(the_list):
+    """
+    This function takes a positional argument called “the_list", which is any
+    Python list (of, possibly, nested lists). Each data item in the provided list
+    is (recursively) printed to the screen on its own line
+    :param the_list:
+    :return:
+    """
+    for each_item in the_list:
+        if isinstance(each_item, list):
+            print_lol(each_item)
+        else:
+            print(each_item)
+
+movies = ["the holy grail", 1975, "terry jones & Terry gilliam", 91,
+          ["graham chapman",
+           ["michial pilin", "john cena", "terry gilliam", "eric idle"]]]
+
+print_lol(movies)
