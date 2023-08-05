@@ -1,0 +1,1 @@
+from .._agg import _9gia6 as cmccat2000
