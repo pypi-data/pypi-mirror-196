@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/magicmapper.py
+src/magicmapper.egg-info/PKG-INFO
+src/magicmapper.egg-info/SOURCES.txt
+src/magicmapper.egg-info/dependency_links.txt
+src/magicmapper.egg-info/requires.txt
+src/magicmapper.egg-info/top_level.txt
+tests/test_magic.py
