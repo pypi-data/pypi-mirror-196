@@ -1,0 +1,26 @@
+
+[dev]
+build
+chardet
+flake8
+flake8-pyproject
+pytest
+pytest-cov
+pytest-dependency
+Pygments
+tomli
+
+[hard-encoding-detection]
+chardet
+
+[toml]
+
+[toml:python_version < "3.11"]
+tomli
+
+[types]
+chardet>=5.1.0
+mypy
+pytest
+pytest-cov
+pytest-dependency
