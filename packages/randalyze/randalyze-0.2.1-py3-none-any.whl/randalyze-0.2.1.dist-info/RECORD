@@ -1,0 +1,11 @@
+randalyze/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+randalyze/__main__.py,sha256=jeksYVyaoGSqgobgn3OVmHfWjn-oFcvCBLvStoR4lk4,7680
+randalyze/analyzers/__init__.py,sha256=vtvwThePs_mY0dn2YrE_aKRos5to1gVUh3MeuiHTQ18,38
+randalyze/analyzers/benford.py,sha256=gH7JhrYdBmx8KpXjfj90D13ZWXfUAz1eoTTno1ZhVVs,8702
+randalyze/generators/__init__.py,sha256=K5-p_2KSSCzZd3CkjJAxfQAxbIipSB65Yk_UEoxGicw,36
+randalyze/generators/benford.py,sha256=lmrMYVGnYz5FaY3Po-qSgFHxdznNVCmzlxB7cvcO2_Q,707
+randalyze-0.2.1.dist-info/entry_points.txt,sha256=nHDbG-E01kV39l4_0NBJ5oDKVJ4ZJD0dLqSYU3bChgs,53
+randalyze-0.2.1.dist-info/METADATA,sha256=S66_Y6IuOmiCyDGlkAoj2BBUHTjJuXEyAh6m6yQGdTE,9201
+randalyze-0.2.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+randalyze-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+randalyze-0.2.1.dist-info/RECORD,,
