@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bluepy3
+Version: 0.0.17
+Summary: Python module for interfacing with BLE devices through Bluez
+Home-page: https://github.com/Mausy5043/bluepy3
+Download-URL: https://github.com/Mausy5043/bluepy3
+Author: mausy5043
+Keywords: Bluetooth,Bluetooth Smart,BLE,Bluetooth Low Energy
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
