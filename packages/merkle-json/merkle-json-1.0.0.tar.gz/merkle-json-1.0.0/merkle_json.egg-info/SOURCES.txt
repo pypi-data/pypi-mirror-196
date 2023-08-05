@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+merkle_json/MerkleJson.py
+merkle_json/__init__.py
+merkle_json.egg-info/PKG-INFO
+merkle_json.egg-info/SOURCES.txt
+merkle_json.egg-info/dependency_links.txt
+merkle_json.egg-info/top_level.txt
