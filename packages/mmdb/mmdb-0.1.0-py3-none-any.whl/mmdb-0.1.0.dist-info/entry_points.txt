@@ -1,0 +1,3 @@
+[console_scripts]
+mmdb=mmdb.cli:app
+
