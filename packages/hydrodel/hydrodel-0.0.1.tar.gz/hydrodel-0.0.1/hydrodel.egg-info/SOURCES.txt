@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+hydrodel/__init__.py
+hydrodel/hydrodel.py
+hydrodel.egg-info/PKG-INFO
+hydrodel.egg-info/SOURCES.txt
+hydrodel.egg-info/dependency_links.txt
+hydrodel.egg-info/not-zip-safe
+hydrodel.egg-info/top_level.txt
