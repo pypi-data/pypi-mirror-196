@@ -1,0 +1,16 @@
+data_inclusion/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_inclusion/schema/__main__.py,sha256=U0OISLOJclej2qkGLvXLLQXZ039Y4rwALE8KHa8gHYo,1352
+data_inclusion/schema/base.py,sha256=i9Ejqg6Ysy4Wx4Zq7Cvh2SKCQiuScfnoAL0UXUjI8us,1217
+data_inclusion/schema/code_officiel_geographique.py,sha256=5d2RIEOptlLb2Iwji_Z-BtFvxOgwDW7b0wl3Rg3Vt34,316
+data_inclusion/schema/frais.py,sha256=W5FHXGD8pnZ9sCqwkJtGNhD7XGOI4yUmEc6iLhE7mzk,912
+data_inclusion/schema/labels_nationaux.py,sha256=LPiYaUCJq1jUJEmUukahQnfEnl3rCgeA6Etkt8ljkVk,7575
+data_inclusion/schema/models.py,sha256=yzgrbmmOsJUM8GsZC7bydYRCsHyc2dS6SQNTC4Ovo6s,4779
+data_inclusion/schema/modes_accueil.py,sha256=mncU2_JXl_eI6IxdFNeTzE7OsoLqeXCcGqkKGkt0jqE,264
+data_inclusion/schema/profils.py,sha256=nKgEzDuBWLbYlkFXVBqIQHWBITwO9FIB7pLg05P4-KI,1430
+data_inclusion/schema/thematiques.py,sha256=H9jRlvvQjENleoVcdT7wj8BppS59rc2cqvtaGfFuJgg,22946
+data_inclusion/schema/typologies_de_services.py,sha256=oip0P_K-zIH2Km1LiWU0CCltjhKSI5G0_tu6kUHm_GE,1955
+data_inclusion/schema/typologies_de_structures.py,sha256=bbdf1N3DF3SgechWzcwD2jPjHanvr16GaJMhAPBtO-o,7464
+data_inclusion_schema-0.8.0.dist-info/entry_points.txt,sha256=QOaELvqTDnrcY8UZKSTm-wrVFdH5gSVG_f6rm2AQce4,77
+data_inclusion_schema-0.8.0.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+data_inclusion_schema-0.8.0.dist-info/METADATA,sha256=l1HM4lox3SV093KaZ-yDEE1vvpclSbAlUPUWgbiNXRU,3156
+data_inclusion_schema-0.8.0.dist-info/RECORD,,
