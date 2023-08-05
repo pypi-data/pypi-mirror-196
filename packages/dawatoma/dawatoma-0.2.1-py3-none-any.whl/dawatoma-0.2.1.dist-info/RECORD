@@ -1,0 +1,11 @@
+dawatoma/__init__.py,sha256=mOZ8debSscQPV7gnqU3SdRhAp80hd2zihv2-gT0gYFQ,1713
+dawatoma/fp_sequence.py,sha256=ELjnZc524RV29dGqbo1clZLguD7VhGbEMSjnjoN2XlQ,5035
+dawatoma/melody.py,sha256=k-hC1D7TT3A5vPCCSBPnRYh_fQpsAzr-v3mx2nlzniI,1527
+dawatoma/note_dict.py,sha256=VH0_XngxmciCyrSaSlFUjYROFEI8Y2yFR6TpmWWsv6A,726
+dawatoma/sequence.py,sha256=fmKQUkFZQa9Hj-8N-cprq5I0dswCuSjmRgqhezfQfyA,1664
+dawatoma/sgen.py,sha256=AA19tBp0NDriQ8JcfHZNA7a6g00UhleT0BcZg1-Zjbw,13087
+dawatoma-0.2.1.dist-info/LICENSE.txt,sha256=WC-5d-BQlN-T2ZNSdJQqQom-2kBoVI340FmasCFWBFI,1072
+dawatoma-0.2.1.dist-info/METADATA,sha256=kb0OmpxpMz_vH4MCkKNVwOVEasz3Bj-xO6LQa2OiRsQ,1929
+dawatoma-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dawatoma-0.2.1.dist-info/top_level.txt,sha256=IauL-8YumcEZ7tlUjASL-M5KV7YvCFCzZdJTdgEo1h0,9
+dawatoma-0.2.1.dist-info/RECORD,,
