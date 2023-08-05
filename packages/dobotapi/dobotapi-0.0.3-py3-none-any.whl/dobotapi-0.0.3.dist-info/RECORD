@@ -1,0 +1,15 @@
+dobotapi/__init__.py,sha256=bzEvII7TXlx9OWuTpR2e_8K3MouXxfLoVUlSV7QfGeQ,193
+dobotapi/conveyor_belt/belt.py,sha256=D-5O4LJqBpQVA_EDniwae6PZJkJ0gEentTsBaXHOaok,1708
+dobotapi/dobot.py,sha256=N9EYwFfL2se06zlmlo7IfFT3H3Wx7eH3TBQ1vC_OhkU,11275
+dobotapi/dobot_interfaces.py,sha256=_gaHOE-tzExI5Z04JVf6e2KGOGBB67e-OUnHLWWPg2k,4573
+dobotapi/dobot_message.py,sha256=EBMVwAtqARynCOTIFxQFPkEjp3yRFDtdIDuHTf5UC0I,1674
+dobotapi/drawing/svg_handler.py,sha256=dTS-iJy5t0cYDXcxkZHNFbUcA5Qr8uFmboVxlQtDvSc,2359
+dobotapi/effectors/gripper.py,sha256=uWqRdXLHg-w6_cs5-7YBYvWxF2S1oxNzSn99EQ4RQb8,759
+dobotapi/effectors/suctioncup.py,sha256=jPeg2Ajw8XzTuYTA_bXV0dHpLRqWkvDQAhyR3QWOiHo,1377
+dobotapi/exceptions.py,sha256=heTFNkuFm9ftoV8NY3AzYXOnWoF7xIsrK5GrUrIBCcI,91
+dobotapi/shell.py,sha256=6RevjbvQXlqn10WA5vdUfB8shSLtaoqWou1FGF1-7dA,4751
+dobotapi/utils.py,sha256=SvRzrvjuqVExsGcY3u2VIJ2o33OzbakToME4fvOsL0A,299
+dobotapi-0.0.3.dist-info/LICENSE,sha256=ZyZCmeMw6SnFjbZ4aaIBA-jsASmSBKBvthJSsZqvwG4,1098
+dobotapi-0.0.3.dist-info/METADATA,sha256=8DZtbKl85ceaBl8LJjhk1HZs5p_y5lfuT6AONzHaBf0,4244
+dobotapi-0.0.3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+dobotapi-0.0.3.dist-info/RECORD,,
