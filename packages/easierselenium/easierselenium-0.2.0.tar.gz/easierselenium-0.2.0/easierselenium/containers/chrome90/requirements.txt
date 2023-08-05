@@ -1,0 +1,11 @@
+# requirements.txt
+
+Flask==1.0.2
+gunicorn==19.9.0
+selenium==3.141.0
+chromedriver-binary==90.0.4430.24.0
+Eugenium==0.0.3
+pandas==1.2.4
+PyYAML==5.4.1
+SQLAlchemy==1.2.7
+PyMySQL==1.0.2
