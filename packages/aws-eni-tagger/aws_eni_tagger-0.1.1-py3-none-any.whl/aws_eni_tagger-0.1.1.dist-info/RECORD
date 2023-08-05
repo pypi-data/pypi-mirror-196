@@ -1,0 +1,8 @@
+aws_eni_tagger/main.py,sha256=6_qF-rfOyVs1393jCMcGpqCci2IVh-wKwsiRu_WAhP4,2498
+aws_eni_tagger/table.py,sha256=3LDzPrFL25e0XQfXQG3dl5FQySnSkVfbK8S7aCfenTA,795
+aws_eni_tagger/tags.py,sha256=vfkGoP8TD4TvRTbNniFBAo1H7VpA1CWYvB4JgQT0RUs,1423
+aws_eni_tagger-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aws_eni_tagger-0.1.1.dist-info/METADATA,sha256=usfDHhL6DJPo13w0STbLeP0v2lqrKUp7lWIql85mPEM,2093
+aws_eni_tagger-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+aws_eni_tagger-0.1.1.dist-info/entry_points.txt,sha256=WwaqKbijwjzRBry7b0kQ_9KP_dn7XAvRA8TiPmc-Xe4,58
+aws_eni_tagger-0.1.1.dist-info/RECORD,,
