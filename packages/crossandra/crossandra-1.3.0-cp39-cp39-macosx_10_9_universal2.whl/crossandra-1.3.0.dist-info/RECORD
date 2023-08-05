@@ -1,0 +1,14 @@
+3219a501864e4a26eb38__mypyc.cpython-39-darwin.so,sha256=DBjYiFkc-RRVQWYF28Jrz6gcnG49LaqmuC-UvDaUWtI,486269
+crossandra/__init__.cpython-39-darwin.so,sha256=s94Kbxlktdcxo5pysV3E9hbgEDXWIlfctfcfL2hJts8,116090
+crossandra/common.cpython-39-darwin.so,sha256=cu3buyB9s_Y5xnV7n_4q_p3mSWbt2tHqhpJOOJvBm9o,116088
+crossandra/lib.cpython-39-darwin.so,sha256=PHo0-D0-V7lm9o75tA-P6QZqMJQbnaTN7_V0fH-E83g,116069
+crossandra/rule.cpython-39-darwin.so,sha256=To8D-nZYSo45xsoB26oJbJbaFiNDgA3ID-TzGN9z1-4,116070
+src/crossandra/__init__.py,sha256=zop6sc3zwKwhyQuOPspl_PvMb4Z45vSojZZI7XQw19k,176
+src/crossandra/common.py,sha256=-viUf8W7UHM-OgGJQL1mPezkJsCya01_ESbfW3wzoyo,1082
+src/crossandra/lib.py,sha256=JaGFu87HSpfFS2gYxs6ao0YiPDNBRxaJ-ruueFZYSR0,4414
+src/crossandra/rule.py,sha256=7gbnAPECsIIfIF0pk3pfP9OdHaZafYopRNFs6s8BAwo,1815
+crossandra-1.3.0.dist-info/LICENSE,sha256=YsknWupMmJiefJtRIRo9E_URl4b6sWEyhS0s7iwJUwQ,1056
+crossandra-1.3.0.dist-info/METADATA,sha256=wtTsAOMR1dy8pM4x_ji3-CK7vZpNEtsXVrTdw6KLi-0,4792
+crossandra-1.3.0.dist-info/WHEEL,sha256=3CvWwwrveU6DPPAN5tRMQqrJUeYk31ia0U1Qy22JNO4,113
+crossandra-1.3.0.dist-info/top_level.txt,sha256=liue53kF5Oo7WwiAjHGQmUXhFkM2oY8M05g_84_5GqM,54
+crossandra-1.3.0.dist-info/RECORD,,
