@@ -1,0 +1,17 @@
+{% extends 'base.j2' %}
+{% block extra_css %}
+<link rel="stylesheet" href="/static/css/stream.css"/>
+{% endblock %}
+{% block title %}stream{% endblock %}
+{% block content %}
+<h1>Stream</h1>
+<form action="" onsubmit="sendMessage(event)">
+    <input type="text" id="messageText" autocomplete="off"/>
+    <button>Send</button>
+</form>
+
+<div id='cards'>
+</div>
+
+<script src="/static/js/stream.js"></script>
+{% endblock %}
