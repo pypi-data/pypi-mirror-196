@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: fma-django
+Version: 0.0.1
+Summary: Federated Model Aggregation's Django Connectors
+Home-page: https://github.com/capitalone/federated-model-aggregation
+Author: Kenny Bean, Tyler Farnan, Taylor Turner, Michael Davis, Jeremy Goodsitt
+License: Apache License, Version 2.0
+Keywords: Federated Learning
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (==4.1.3)
+Requires-Dist: django-q (==1.3.9)
+Requires-Dist: django-mptt (==0.13.4)
+Requires-Dist: numpy (==1.22.2)
+Requires-Dist: jsonschema (==4.4.0)
+Requires-Dist: django-storages (==1.12.3)
+Requires-Dist: boto3 (==1.26.11)
+Requires-Dist: psycopg2-binary (==2.9.3)
+Provides-Extra: api
+Requires-Dist: djangorestframework (==3.13.1) ; extra == 'api'
+Requires-Dist: jsonschema (==4.4.0) ; extra == 'api'
+Requires-Dist: django-filter (==22.1) ; extra == 'api'
+Requires-Dist: apig-wsgi (==2.15.0) ; extra == 'api'
+
+# FMA-Django
+
+The FMA-Django component is a Django app that connects the FMA to django controlled databases or storage devices.
+Detailed documentation is in the `./docs` directory.
+
+Quick start
+-----------
+1. For installation, choose between just installing the db components or including the API as well.
+
+```console
+# install just the db / model connection component
+pip install fma-django
+
+# install the db / model / API connection component
+pip install "fma-django[api]"
+```
+
+2. Add "fma-django" and "fma-django-api" to your INSTALLED_APPS setting like this:
+```
+    INSTALLED_APPS = [
+        ...
+        'fma_django',
+        'fma_django_api',  # if the API is needed as well
+    ]
+```
+
+
+3. Run ``python manage.py migrate`` to create the polls models (Django database tables).
+
+
+Testing
+-------
+
+Inside a virtualenv:
+```
+make install
+make test
+```
+
+For testing and coverage reports:
+```
+make test-and-coverage
+```
