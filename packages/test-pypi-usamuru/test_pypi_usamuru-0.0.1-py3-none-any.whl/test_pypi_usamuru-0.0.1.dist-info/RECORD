@@ -1,0 +1,7 @@
+test_pypi_usamuru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pypi_usamuru/m_mod_usamuru.py,sha256=sQZdcB_3hqzGRdAqXM5yFYdQIRtoUhR6-rBD4vivQZQ,251
+test_pypi_usamuru-0.0.1.dist-info/LICENSE.txt,sha256=GMgSy4ux6bRIkshvsmR76rGw--SkHfMFtDv5mNqeyh0,1067
+test_pypi_usamuru-0.0.1.dist-info/METADATA,sha256=Q9-vlndUvluCv4RVyW08suIlkqXlQytBFIMEMwH709s,1979
+test_pypi_usamuru-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+test_pypi_usamuru-0.0.1.dist-info/top_level.txt,sha256=k-rzuZyvCGEnTALgh8uWnwgOS0JKh2B2Wc3Cm6BxgIk,18
+test_pypi_usamuru-0.0.1.dist-info/RECORD,,
