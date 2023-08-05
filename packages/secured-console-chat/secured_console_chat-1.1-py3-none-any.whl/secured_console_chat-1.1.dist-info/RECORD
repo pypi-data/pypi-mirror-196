@@ -1,0 +1,13 @@
+cmd_chat/__init__.py,sha256=fpREh7K2JToBw8SriyTDBliLYgemg5yrQq47UDc19qI,923
+cmd_chat/client/client.py,sha256=vZuuqUZkVkkMdKpxIMk0jbCnqF3nbdOFZDsB5Ux63FU,5121
+cmd_chat/client/config.py,sha256=Gc2QDD2USoJ-ncwJaWsBxTauTIDSiaABuNEP9TthfE4,178
+cmd_chat/client/core/crypto.py,sha256=sTM01wOivb1uvlEp-pt4qXA0F79Qv6HTcIEnYlvTckM,2255
+cmd_chat/client/core/abs/abs_crypto.py,sha256=YuBXOLygH7GJcczowqxG9fTBNwhVBBksY0CbryW6h_E,912
+cmd_chat/server/models.py,sha256=_7-pULYGdQ2iF1hCeCOYjea_pfgX9GVK-1TKazAjMWM,81
+cmd_chat/server/server.py,sha256=ibI-nVJcI_egfr-pfELBv1Mc6omaQnJmAbgoDhqT8Fs,1902
+cmd_chat/server/services.py,sha256=bvt3r4JN21oSTjZ59J2TkA-kWjI0O98Ht8ahQ7pIMpo,743
+secured_console_chat-1.1.dist-info/LICENSE,sha256=JCGHDQwNM9LZh4rzJl292P7kh9DgQX0jX-le4erc4NY,1066
+secured_console_chat-1.1.dist-info/METADATA,sha256=sUltbzrN5XccPVeeKflDxzgvwcjfK7rqeudbFc-nuzY,2166
+secured_console_chat-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+secured_console_chat-1.1.dist-info/top_level.txt,sha256=s_hL4ybjoh-T9bGU7EpbBWIVVfs1RzAntF9KaUbf5n8,87
+secured_console_chat-1.1.dist-info/RECORD,,
