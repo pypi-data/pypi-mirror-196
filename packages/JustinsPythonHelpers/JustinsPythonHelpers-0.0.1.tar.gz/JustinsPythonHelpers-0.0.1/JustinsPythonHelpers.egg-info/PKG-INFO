@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: JustinsPythonHelpers
+Version: 0.0.1
+Summary: A collection of Python helpers for my projects.
+Author-email: Justin Chase <justin@justinwritescode.com>
+License: MIT
+Project-URL: Homepage, https://github.com/justinwritescode/PythonHelpers
+Keywords: python,helpers,justinwritescode
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+License-File: LICENSE.md

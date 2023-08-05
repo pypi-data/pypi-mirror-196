@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+py-modules = []
+[project]
+name = "JustinsPythonHelpers"
+version = "0.0.1"
+authors = [
+    {name = "Justin Chase", email = "justin@justinwritescode.com"},
+]
+description = "A collection of Python helpers for my projects."
+requires-python = ">=3.9"
+keywords = ["python", "helpers", "justinwritescode"]
+license = {text = "MIT"}
+classifiers = [
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Education',
+        'Intended Audience :: Information Technology',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
+        'Natural Language :: English',
+        'Topic :: Software Development :: Libraries',
+        'Topic :: Software Development :: Libraries :: Python Modules'
+]
+[project.urls]
+"Homepage" = "https://github.com/justinwritescode/PythonHelpers"
