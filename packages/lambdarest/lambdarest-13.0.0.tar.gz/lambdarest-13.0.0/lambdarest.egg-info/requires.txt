@@ -1,0 +1,10 @@
+jsonschema>=4.4.0
+strict_rfc3339>=0.7
+werkzeug>=2.0.0
+
+[dev]
+pytest>=7.1.0
+PyYaml>=5.3.1
+mock>=4.0.2
+pytest-readme>=1.0.1
+black>=22.3.0
