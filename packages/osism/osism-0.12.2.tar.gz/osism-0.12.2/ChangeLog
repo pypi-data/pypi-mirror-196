@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.12.2
+-------
+
+* Fix "name 'hide' is not defined" (#386)
