@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: onelinevalidation
+Version: 0.4.1
+Summary: onelinevalidation It is a simple library in the Python language that performs validate in an easy and simple way
+Home-page: https://github.com/amr2018/onelinevalidation
+Author: Amr Elgarhy
+Author-email: amr.ee@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.1.0
+Description-Content-Type: text/markdown
+
+
+# onelinevalidation
+onelinevalidation It is a simple library in the Python language that performs validate in an easy and simple way
+
+## Installation
+
+* From PyPi
+```
+python pip install onelinevalidation
+````
+
+## Examples
+
+```python
+
+In default sanitize = True
+in validate_form
+and custom_validate
+This is to prevent a Cross-site Scripting vulnerability
+For more https://owasp.org/www-community/attacks/xss/
+
+
+from onelinevalidation import validate_form
+
+
+userData = {"username": "amr123", "email": "amr.@aol.com", "password": "123Ab#"}
+print(validate_form(userData))
+-------------------------
+{'error': {'username': 'Invalid username should be like this abc_123 or abc. abc', 'email': 'This email address is not valid', 'password': 'The password length must be at least 8 uppercase, lowercase letters, numbers, symbols like @aA123#*'}
+}
+
+------------------------
+userData = {"username": "amr_123", "email": "amr@aol.com", "password": "123---Ab#"}
+print(validate_form(userData))
+------------------------
+{'good': {'username': 'amr_123', 'email': 'amr@aol.com', 'password': '123---Ab#'}}
+
+
+
+## If you want more control use custom_validate 
+
+from onelinevalidation import custom_validate
+
+
+pattrens = [
+	"[a-zA-Z]+[_.]+[a-zA-Z0-9]+", 
+	"[a-zA-Z0-9_-]+[@](aol|gmail|yahoo|outlook)+(.com)+",
+	"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
+]
+
+
+messages = [
+	"Invalid username should be like this abc_123 or abc. abc",
+	"This email address is not valid",
+	"The password length must be at least 8 uppercase, lowercase letters, numbers, symbols like @aA123#*"
+]
+
+
+print(custom_validate(userData, pattrens, messages))
+--------------
+{'good': {'username': 'amr_123', 'email': 'amr@aol.com', 'password': '123---Ab#'}}
+```
+
