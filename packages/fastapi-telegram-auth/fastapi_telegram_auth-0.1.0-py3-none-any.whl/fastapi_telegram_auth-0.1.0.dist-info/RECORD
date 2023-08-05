@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=M0waxuzybeKjGWfJqOhD596wPlKx4E_MTZmXZCXwJ1Q,45
+README.md,sha256=Bx7vgafQrF7IDhYyMAcMgqWWpqrnGJN355CEp-2Zizc,727
+fastapi_telegram_auth/__init__.py,sha256=QOW8ogyjx_H2MCAWPlLc-3xucRXuYylvS5pQgx70B6I,54
+fastapi_telegram_auth/auth.py,sha256=2puOKafJabSoYotO0F833YNlhavj82rJ9Jl3NU5QLl4,5181
+fastapi_telegram_auth/types.py,sha256=rUtZwZRSRPRMI7nQEAHJXosGGVTyIKbdEbhRM7eyjpk,226
+fastapi_telegram_auth/utils.py,sha256=EB0wSSkpw-n-a1g9pMq7_4M7o2_7QjhHSK40hqVqlxk,995
+fastapi_telegram_auth-0.1.0.dist-info/LICENSE,sha256=QLrrwUb6Q0inpNeDEODERjF90HAhx0Q9sPo_Saf_FOc,1064
+fastapi_telegram_auth-0.1.0.dist-info/METADATA,sha256=hDreYwCb8A4a2mXZLsCg8zTl21t0Wb2eG1vWI1hmJzg,1588
+fastapi_telegram_auth-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+fastapi_telegram_auth-0.1.0.dist-info/RECORD,,
