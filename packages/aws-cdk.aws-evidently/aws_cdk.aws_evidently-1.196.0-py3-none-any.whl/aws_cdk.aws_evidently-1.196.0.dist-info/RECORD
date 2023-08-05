@@ -1,0 +1,10 @@
+aws_cdk/aws_evidently/__init__.py,sha256=GEJdGyKCB0yGTvL9a-WxgfY7bu9pIKUdsCvQe9vTALg,257679
+aws_cdk/aws_evidently/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_evidently/_jsii/__init__.py,sha256=SzvDUzlzlSdr1aXqK5a_xAF51nndDxwrI1BN4y1eejs,400
+aws_cdk/aws_evidently/_jsii/aws-evidently@1.196.0.jsii.tgz,sha256=WZF8qVm2Jd2Ag4elUMI_1Nu9cphDKxCgk30aAsPZjHs,102654
+aws_cdk.aws_evidently-1.196.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_evidently-1.196.0.dist-info/METADATA,sha256=g2C90X1A6D5KPi-obOp7w-OAPoQmcYCwLr_5tewUWGo,3130
+aws_cdk.aws_evidently-1.196.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_evidently-1.196.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_evidently-1.196.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_evidently-1.196.0.dist-info/RECORD,,
