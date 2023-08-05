@@ -1,0 +1,7 @@
+README.md
+setup.py
+trash123.egg-info/PKG-INFO
+trash123.egg-info/SOURCES.txt
+trash123.egg-info/dependency_links.txt
+trash123.egg-info/not-zip-safe
+trash123.egg-info/top_level.txt
