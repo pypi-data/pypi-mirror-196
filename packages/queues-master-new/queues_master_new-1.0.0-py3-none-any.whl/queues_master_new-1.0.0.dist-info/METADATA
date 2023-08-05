@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: queues-master-new
+Version: 1.0.0
+Author: itskekoff
+Requires-Dist: requests
+
