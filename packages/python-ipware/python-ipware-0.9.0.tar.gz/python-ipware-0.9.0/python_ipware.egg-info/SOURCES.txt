@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ipware/__init__.py
+ipware/__version__.py
+ipware/ipware.py
+python_ipware.egg-info/PKG-INFO
+python_ipware.egg-info/SOURCES.txt
+python_ipware.egg-info/dependency_links.txt
+python_ipware.egg-info/not-zip-safe
+python_ipware.egg-info/top_level.txt
