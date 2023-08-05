@@ -1,0 +1,10 @@
+setup.py
+com/__init__.py
+com/baseus/__init__.py
+com/baseus/detect/__init__.py
+com/baseus/detect/test.py
+yolov8_detect.egg-info/PKG-INFO
+yolov8_detect.egg-info/SOURCES.txt
+yolov8_detect.egg-info/dependency_links.txt
+yolov8_detect.egg-info/requires.txt
+yolov8_detect.egg-info/top_level.txt
