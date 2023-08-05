@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+
+clean_dir()
+{
+    prefix_print "Cleaning $1"
+    # find . -name 'build.ninja' -delete
+    if [[ -f $DRAGON_DIR/DragonMake ]]; then
+        cp $DRAGON_DIR/DragonMake .DragonMake
+    fi
+    rm -rf $DRAGON_DIR/*
+    if [[ -f .DragonMake ]]; then
+        mv .DragonMake $DRAGON_DIR/DragonMake
+    fi
+    touch $DRAGON_DIR/.clean
+}
+
+build()
+{
+    # shellcheck disable=SC2046
+    cd $(python3 -c "print('.' if '$1.ninja' in '$(ls | xargs)' else '$1')") || drexit
+    python3 -c "exit(0 if ('${project_dirs}'.count('.')<2) else 1)" && mv "$(ls *.ninja | xargs | cut -d' ' -f1)" ./build.ninja
+    if ! [[ -d $DRAGON_DIR/_/.dragonbuilding ]]; then
+        rm -rf $DRAGON_DIR/_
+    fi
+
+    if [[ $1 == "." ]]; then
+        DNAME=${TWEAK_NAME}
+    else
+        DNAME=$1
+    fi
+
+    if [[ $clean -eq 1 && ! -f $DRAGON_DIR/.clean ]]; then
+        clean_dir $DNAME
+    fi
+
+    mkdir -p $DRAGON_DIR/_/.dragonbuilding $DRAGON_DIR/modules
+
+    prefix_print "Building ${DNAME}"
+
+    if ! [[ -e build.ninja ]]; then
+        mv "${i}.ninja" build.ninja
+    fi
+
+    JOBS=1
+    if [[ -x $(command -v nproc) ]]; then
+        JOBS=$(nproc --all)
+    elif [[ -x $(command -v sysctl) ]]; then
+        JOBS=$(sysctl -n hw.ncpu)
+    fi
+
+    projroot="$(dirname "$DRAGON_DATA_DIR")"
+    env $'NINJA_STATUS=\x1b[1;34m[Dragon] \x1b[35m[%f/%t] \x1b[34m(%e)\x1b[0m ' CLICOLOR_FORCE=1 ninja -j$JOBS $NINJA_ARGS || cleanbuildfail $projroot
+    env $'NINJA_STATUS=\x1b[1;34m[Dragon] \x1b[34m>>>\x1b[0m ' CLICOLOR_FORCE=1 ninja -j$JOBS stage $NINJA_ARGS || cleanbuildfail $projroot
+
+    if [[ $exportt -eq 1 ]]; then
+        prefix_print "Generating compile_commands.json"
+        ninja -t compdb > compile_commands.json
+    fi
+
+    cp -R layout/* $DRAGON_DIR/_/ 2>/dev/null
+
+    # mv build.ninja $DRAGON_DIR/ninja # Was this renamed "ninja" for use elsewhere?
+    mv build.ninja $DRAGON_DIR/build.ninja
+    if [[ $1 == "." ]]; then
+        true
+    else
+        cp -R $DRAGON_DIR/_ "$DRAGON_DATA_DIR" 2>/dev/null
+    fi
+
+    cd "$projroot" || drexit
+}
