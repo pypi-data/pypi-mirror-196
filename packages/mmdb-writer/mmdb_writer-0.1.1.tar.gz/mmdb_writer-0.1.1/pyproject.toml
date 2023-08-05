@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mmdb-writer"
+version = "0.1.1"
+description = "Make mmdb format ip library file which can be read by maxmind official language reader"
+authors = ["VimT"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mmdb_writer.py"}]
+homepage = "https://github.com/vimt/MaxMind-DB-Writer-python"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+maxminddb = ">=2.0,<3.0"
+netaddr = ">=0.7.0,<1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
