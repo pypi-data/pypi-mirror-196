@@ -1,0 +1,3 @@
+include LICENSE.txt
+include README.md
+include src/gli99/browser_options.json
