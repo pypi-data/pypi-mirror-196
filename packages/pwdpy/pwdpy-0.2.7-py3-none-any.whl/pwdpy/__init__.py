@@ -1,0 +1,3 @@
+from .pwdpy import (
+    generate,
+)
