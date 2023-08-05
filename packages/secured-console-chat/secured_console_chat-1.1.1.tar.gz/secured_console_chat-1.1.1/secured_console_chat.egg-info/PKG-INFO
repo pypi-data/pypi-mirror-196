@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: secured-console-chat
+Version: 1.1.1
+Summary: Secured console chat with RSA & Fernet
+Home-page: https://github.com/dinosaurtirex/cmd-chat
+Author: dinosaurtirex
+Author-email: sneakybeaky18@gmail.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+```
+ ██████╗███╗   ███╗██████╗  ██████╗██╗  ██╗ █████╗ ████████╗
+██╔════╝████╗ ████║██╔══██╗██╔════╝██║  ██║██╔══██╗╚══██╔══╝
+██║     ██╔████╔██║██║  ██║██║     ███████║███████║   ██║   
+██║     ██║╚██╔╝██║██║  ██║██║     ██╔══██║██╔══██║   ██║   
+╚██████╗██║ ╚═╝ ██║██████╔╝╚██████╗██║  ██║██║  ██║   ██║   
+ ╚═════╝╚═╝     ╚═╝╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝                                            
+```
+
+![Alt Text](example.gif)
+
+# What is this?
+
+It is console chat with encrypting your messages
+
+# How it works?
+
+All you need it's to run web-server and connect to them via client
+
+# Run 
+
+### Create and activate virtual environment python
+
+```
+pip install secured_console_chat
+```
+
+```
+import asyncio 
+import cmd_chat
+
+if __name__ == '__main__':
+    asyncio.run(
+        cmd_chat.run()
+    )
+```
+
+# How crypting works? 
+
+* Client making priv key
+* Server making symmetric key 
+* Client sending public key to server
+* Server crypting symmetric key and sending to client 
+* Client encrypting private key 
+* And than communicate with server via symmetric key
