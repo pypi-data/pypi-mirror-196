@@ -1,0 +1,16 @@
+aiohttp
+nest-asyncio
+pandas
+geopandas
+requests
+bokeh
+fewspy
+
+[docs]
+mkdocs
+
+[test]
+pytest
+coverage
+pytest-flakes
+pytest-black
