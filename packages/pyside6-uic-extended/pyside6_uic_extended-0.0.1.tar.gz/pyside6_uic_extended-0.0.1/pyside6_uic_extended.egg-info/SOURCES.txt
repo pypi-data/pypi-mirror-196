@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyside6_uic_extended/__init__.py
+pyside6_uic_extended/uic.py
+pyside6_uic_extended.egg-info/PKG-INFO
+pyside6_uic_extended.egg-info/SOURCES.txt
+pyside6_uic_extended.egg-info/dependency_links.txt
+pyside6_uic_extended.egg-info/entry_points.txt
+pyside6_uic_extended.egg-info/requires.txt
+pyside6_uic_extended.egg-info/top_level.txt
+unittests/__init__.py
+unittests/test_uic.py
