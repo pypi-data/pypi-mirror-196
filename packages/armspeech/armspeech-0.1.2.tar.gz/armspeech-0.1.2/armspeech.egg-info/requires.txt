@@ -1,0 +1,5 @@
+PyAudio>0.2.11
+halo>=0.0.31
+numpy>=1.17.3
+stt-tflite>=0.10.0a10
+webrtcvad>=2.0.10
