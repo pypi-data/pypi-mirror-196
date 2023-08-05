@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: slark
+Version: 1.2.0
+Summary: Simple Database
+Home-page: https://github.com/alirn76/slark
+Author: Ali RajabNezhad
+Author-email: alirn76@yahoo.com
+License: MIT
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: orjson (>=3.8.6)
+
+## Introduction
+
+SlarkDB is a <b>Simple</b>, <b>FileBase</b> and <b>Document Oriented</b> database that you can use it in your projects.
+
+### Features:
+- Document Oriented
+- Easy to use
+- Written in pure Python +3.10 based on standard type hints
+- 99% Test coverage
+
+
+## Usage
+
+### Database:
+- #### Create database:
+    ```python
+    db: SlarkDB = SlarkDB('database.json')
+    ```
+
+- #### Access to a table:
+    ```python
+    user_table: SlarkTable = db.table('User')
+    ```
+### Create:
+- #### Insert object:
+    ```python
+    user: SlarkObject = db.table('User').create(first_name='Ali', last_name='Rn')
+    ```
+
+### Get:
+- #### Get object:
+    ```python
+    user: SlarkObject = db.table('User').get(first_name='Ali', last_name='Rn')
+    ```
+
+- #### Get first object:
+    ```python
+    user: SlarkObject = db.table('User').first(last_name='Rn')
+    ```
+    or
+    ```python
+    user: SlarkObject = db.table('User').first()
+    ```
+
+- #### Get last object:
+    ```python
+    user: SlarkObject = db.table('User').last(last_name='Rn')
+    ```
+    or
+    ```python
+    user: SlarkObject = db.table('User').last()
+    ```
+
+- #### All objects:
+    ```python
+    users: list[SlarkObject] = db.table('User').all()
+    ```
+
+- #### Filter objects:
+    ```python
+    users: list[SlarkObject] = db.table('User').filter(first_name='Ali')
+    ```
+
+- #### Count objects:
+    ```python
+    users_count: int = db.table('User').count(first_name='Ali')
+    ```
+
+### Update:
+- #### Update object:
+  ```python
+  user: SlarkObject = db.table('User').get(first_name='Ali', last_name='Rn')
+  user.update(name='Saba')
+  ```
+
+- #### Filter and Update one:
+  ```python
+  _filter = {'first_name': 'Ali', 'last_name': 'Rn'}
+  is_updated: bool = db.table('User').update_one(_filter, first_name='Saba')
+  ```
+
+- #### Filter and Update many:
+  ```python
+  _filter = {'first_name': 'Ali'}
+  updated_count: int = db.table('User').update_many(_filter, first_name='Saba')
+  ```
+  
+### Delete:
+- #### Delete object:
+  ```python
+  user: SlarkObject = db.table('User').get(first_name='Ali', last_name='Rn')
+  user.delete()
+  ```
+
+- #### Filter and Delete object:
+  ```python
+  is_deleted: bool = db.table('User').delete_one(first_name='Ali', last_name='Rn')
+  ```
+
+- #### Filter and Delete many:
+  ```python
+  deleted_count: int = db.table('User').delete_many(last_name='Rn')
+  ```
