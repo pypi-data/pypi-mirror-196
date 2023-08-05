@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: magicregex
+Version: 0.1.0
+Summary: Readable regular expressions in Python
+Home-page: https://github.com/thomaswollmann/magicregex
+License: Apache 2.0
+Author: Thomas Wollmann
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: regex (>=2022.10.31,<2023.0.0)
+Project-URL: Repository, https://github.com/thomaswollmann/magicregex
+Description-Content-Type: text/markdown
+
+# 🦄 Magic RegEx
+**Readable Regular Expressions for Python**
+
+1. Runtime is ultra-minimal
+2. Compiles to pure RegEx
+3. Automatically typed capture groups
+4. Natural language syntax
+
+This library is a port of the [magic-regexp](https://regexp.dev) JavaScript module by [Daniel Roe](https://roe.dev/).
+
+## Quickstart
+
+First, install `magicregex` by (WIP)
+```shell
+pip install magicregex
+```
+
+Second, find e-mails in text by
+```python
+import magicregex as mre
+
+reg = mre.createRegEx(
+    mre.exactly(
+        mre.letter.TimesAtLeast(1)
+        .And(mre.exactly('@'))
+        .And(mre.letter.TimesAtLeast(1))
+        .And(mre.exactly('.'))
+        .And(mre.letter.TimesAtLeast(2))
+    )
+)
+reg.findall('daniel@roe.uk lore ipsum thomas@wollmann.de') 
+# Result: ['daniel@roe.uk', 'thomas@wollmann.de']
+```
+
+## Documentation
+
+Up to now, this module is compatible with [magic-regexp](https://regexp.dev/getting-started/usage)'s documentation.
+
+## Contribute
+
+Made with ❤️. If you want to support:
+
+- Clone this repository
+- Install dependencies using `poetry install --with dev`
+- Run tests using `pytest`
+- Run code checks using `pre-commit run`
