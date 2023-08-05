@@ -1,0 +1,9 @@
+setup.py
+johndeere/__init__.py
+johndeere/client.py
+johndeere/enum.py
+johndeere.egg-info/PKG-INFO
+johndeere.egg-info/SOURCES.txt
+johndeere.egg-info/dependency_links.txt
+johndeere.egg-info/requires.txt
+johndeere.egg-info/top_level.txt

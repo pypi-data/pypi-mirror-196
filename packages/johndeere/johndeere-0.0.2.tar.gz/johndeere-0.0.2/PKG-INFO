@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: johndeere
+Version: 0.0.2
+Summary: John Deere API wrapper.
+Author: Arbyn Acosta
+Author-email: arbyn.acosta@gmail.com
+Keywords: john deere,john-deere,john deere api,john-deere-api,john deere client,john-deere-client
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
