@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fma-connect
+Version: 0.0.1
+Summary: Federated Model Aggregation's Python Clients
+Home-page: https://github.com/capitalone/federated-model-aggregation
+Author: Kenny Bean, Tyler Farnan, Taylor Turner, Michael Davis, Jeremy Goodsitt
+License: Apache License, Version 2.0
+Keywords: Federated Learning
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.27.1)
+
+# Clients
+## Description
+This directory is reserved for webclients that are ready-made to connect to the FMA service
+with little to no modification
+
+## Install and Test
+To install the requirements to test the client:
+```
+make install
+```
+
+To run the tests:
+```
+make test
+```
+
+For testing and coverage reports:
+```
+make test-and-coverage
+```
