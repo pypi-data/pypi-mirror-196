@@ -1,0 +1,4 @@
+cffi
+typing
+tabulate
+typing-inspect
