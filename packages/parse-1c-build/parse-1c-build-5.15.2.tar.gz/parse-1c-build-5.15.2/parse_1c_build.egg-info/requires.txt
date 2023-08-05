@@ -1,0 +1,3 @@
+cjk-commons==3.6.3
+commons-1c==3.6.3
+loguru==0.6.0
