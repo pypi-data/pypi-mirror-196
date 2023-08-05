@@ -1,0 +1,5 @@
+setup.py
+tencirchem.egg-info/PKG-INFO
+tencirchem.egg-info/SOURCES.txt
+tencirchem.egg-info/dependency_links.txt
+tencirchem.egg-info/top_level.txt
