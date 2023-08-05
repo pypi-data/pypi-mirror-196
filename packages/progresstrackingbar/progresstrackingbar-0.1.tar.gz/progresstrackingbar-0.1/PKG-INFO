@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: progresstrackingbar
+Version: 0.1
+Summary: Track Progress of Your Script Execution
+Author: Lone Walker
+Author-email: lonewalkerns@gmail.com
+License: MIT
+Keywords: progress
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A package that helps you track the execution of your pyton script by showing a progress bar.

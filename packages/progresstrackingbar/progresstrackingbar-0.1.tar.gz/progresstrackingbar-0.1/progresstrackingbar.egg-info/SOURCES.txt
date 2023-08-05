@@ -1,0 +1,9 @@
+Setup.py
+setup.py
+progressbar/__init__.py
+progressbar/progresstrackingbar.py
+progresstrackingbar.egg-info/PKG-INFO
+progresstrackingbar.egg-info/SOURCES.txt
+progresstrackingbar.egg-info/dependency_links.txt
+progresstrackingbar.egg-info/requires.txt
+progresstrackingbar.egg-info/top_level.txt
