@@ -1,0 +1,16 @@
+[project]
+name = "testpypiazapala"
+version = "0.0.1"
+description = "My test package"
+keywords = ["testpypiazapala", "name", "surname", "fun function"]
+authors = [{name = "AZ", email = "algobitpl@gmail.com"}]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "Operating System :: POSIX :: Other",
+    "Programming Language :: Python :: 3.12"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy'
+]

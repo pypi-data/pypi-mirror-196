@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypiazapala/__init__.py
+testpypiazapala/m_mod_azapala.py
+testpypiazapala.egg-info/PKG-INFO
+testpypiazapala.egg-info/SOURCES.txt
+testpypiazapala.egg-info/dependency_links.txt
+testpypiazapala.egg-info/requires.txt
+testpypiazapala.egg-info/top_level.txt
