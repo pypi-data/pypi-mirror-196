@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+gendoc
+localbin.py
+pyproject.toml
+setup.cfg
+localbin.egg-info/PKG-INFO
+localbin.egg-info/SOURCES.txt
+localbin.egg-info/dependency_links.txt
+localbin.egg-info/entry_points.txt
+localbin.egg-info/requires.txt
+localbin.egg-info/top_level.txt

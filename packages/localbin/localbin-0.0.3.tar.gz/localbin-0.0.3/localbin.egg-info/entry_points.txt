@@ -1,0 +1,2 @@
+[console_scripts]
+lbin-install = localbin:main
