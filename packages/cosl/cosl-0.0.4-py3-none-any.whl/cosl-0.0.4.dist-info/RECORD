@@ -1,0 +1,10 @@
+cosl/__init__.py,sha256=ZhB3JinMp0nme8kc7JDvMxph-KvwGTpqaOWBy-GnyC0,228
+cosl/cos_tool.py,sha256=4_R8CS8FPtcv5j2Jm0XqxMvP2_H4-3SFVbnIk7uUzQM,7387
+cosl/juju_topology.py,sha256=C2Ki_VMYtXjJ8oIzIWWUM9mwkjDCV1BY1GTPrjD3U9U,9811
+cosl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cosl/rules.py,sha256=u-nqpoT6s97ESUAOYur-qQGvtBseRelY2uz4GYY69ZI,16537
+cosl/types.py,sha256=gd-lOXyUp4m61CbAInU-Wr2iexIl59rthm6iva6GrEI,1176
+cosl-0.0.4.dist-info/METADATA,sha256=uEWqzmGbfz6dXzCo92yJFXAVztN89pjL7S9r3DsG3I0,1138
+cosl-0.0.4.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+cosl-0.0.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cosl-0.0.4.dist-info/RECORD,,
