@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: timefold
+Version: 0.0.1
+Summary: Planning optimization made easy
+Home-page: https://timefold.ai
+License: Apache License Version 2.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Java Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Planning optimization made easy

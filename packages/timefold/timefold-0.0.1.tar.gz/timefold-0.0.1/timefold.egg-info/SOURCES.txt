@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+timefold/__init__.py
+timefold/timefold.py
+timefold.egg-info/PKG-INFO
+timefold.egg-info/SOURCES.txt
+timefold.egg-info/dependency_links.txt
+timefold.egg-info/top_level.txt
