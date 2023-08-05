@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyCGM2
+Version: 4.3
+Summary: Conventional Gait models and Gait analysis
+Home-page: https://github.com/pyCGM2/pyCGM2
+Author: Fabien Leboeuf
+Author-email: fabien.leboeuf@gmail.com
+License: CC-BY-SA
+Keywords: python CGM Vicon PluginGait CGM Gait
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+License-File: licence
+
+A python implementation of the conventional gait models and methods for processing gait motion capture data
