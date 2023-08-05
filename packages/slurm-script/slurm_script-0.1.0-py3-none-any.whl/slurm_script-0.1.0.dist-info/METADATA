@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: slurm-script
+Version: 0.1.0
+Summary: Python Slurm script interface
+Author: Kyoungseoun Chung
+Author-email: kyoungseoun.chung@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# `slurm_script` Python Slurm command generator
+
+This package is designed to generate slurm script to submit `mpi` jobs to a cluster.
+
