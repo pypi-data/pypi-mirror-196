@@ -1,0 +1,11 @@
+xmipp_metadata/__init__.py,sha256=eUQ3rEnIiemiK0OTsx80N28aXfb8y43GX2Xnm4biqWk,1144
+xmipp_metadata/image_handler/__init__.py,sha256=OBtN_VgZNCpOsuI1rBTPPuM2vHRCxGoyMXfyZooln-M,1200
+xmipp_metadata/image_handler/image_handler.py,sha256=qdJbCrQbEHmJ7T0RXE4fH5WCv_Cwf_l6kVtKDiaBfeI,3046
+xmipp_metadata/image_handler/image_spider.py,sha256=LOeNVaJuwfJpgaTdx4MKhA66lOf4HwWN72BlGM9lP7c,4492
+xmipp_metadata/metadata/__init__.py,sha256=wllz8WX83FFkha3kipgOSgxmE4WN7KDKA8yrZbaGx9c,1164
+xmipp_metadata/metadata/xmipp_metadata.py,sha256=b-q0RJS_ihyONveUioN4XYIRkj_dPUHTFF-CVfiUG9E,7107
+xmipp_metadata-1.0.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+xmipp_metadata-1.0.2.dist-info/METADATA,sha256=Zr2Z4-qsda5G0GYKaK6lOhxYz_MWzfM27CP5_yVhvyo,1029
+xmipp_metadata-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xmipp_metadata-1.0.2.dist-info/top_level.txt,sha256=pDHLMU4pDaU_pS6johwqLwGQTVfDpqhQzTarvbkRnKk,15
+xmipp_metadata-1.0.2.dist-info/RECORD,,
