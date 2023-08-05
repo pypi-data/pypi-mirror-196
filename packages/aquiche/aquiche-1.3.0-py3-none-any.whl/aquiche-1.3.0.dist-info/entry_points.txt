@@ -1,0 +1,4 @@
+[console_scripts]
+lint=ci:lint
+test=ci:test
+
