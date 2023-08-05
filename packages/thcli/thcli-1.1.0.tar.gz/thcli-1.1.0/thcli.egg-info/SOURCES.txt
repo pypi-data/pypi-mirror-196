@@ -1,0 +1,8 @@
+README.md
+setup.py
+thcli.egg-info/PKG-INFO
+thcli.egg-info/SOURCES.txt
+thcli.egg-info/dependency_links.txt
+thcli.egg-info/entry_points.txt
+thcli.egg-info/requires.txt
+thcli.egg-info/top_level.txt
