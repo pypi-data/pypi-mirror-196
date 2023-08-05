@@ -1,0 +1,4 @@
+spdx-tools>=0.7.0
+
+[test]
+pytest
