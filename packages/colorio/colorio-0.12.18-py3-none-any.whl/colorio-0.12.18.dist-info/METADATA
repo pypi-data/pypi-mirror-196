@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: colorio
+Version: 0.12.18
+Summary: Tools for color models
+Author-email: Nico Schlömer <nico.schloemer@gmail.com>
+Project-URL: Homepage, https://github.com/colorio-dev/colorio
+Project-URL: Issues, https://github.com/colorio-dev/colorio/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: x21 (>=0.4.10,<0.5.0)
+Requires-Dist: python-license-manager (>=0.1.17)
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: npx
+Provides-Extra: all
+Requires-Dist: meshio (<6,>=4) ; extra == 'all'
+Requires-Dist: meshzoo ; extra == 'all'
+Requires-Dist: scipy ; extra == 'all'
+Requires-Dist: scipyx ; extra == 'all'
+Requires-Dist: pyvista ; (python_version < "3.10") and extra == 'all'
+
+<p align="center">
+  <b>colorio has been renamed <a href="https://pypi.org/project/coloria/">Coloria</a></b>
+</p>
