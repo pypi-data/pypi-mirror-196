@@ -1,0 +1,20 @@
+on: [push, pull_request]
+name: Test on macOS
+jobs:
+  test:
+    strategy:
+      matrix:
+        python-version: [2.7, 3.9]
+        os: [macos-10.15, macos-11, macos-12]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install ImageMagick
+        run: brew install imagemagick
+      - name: make test
+        run: make test
