@@ -1,0 +1,3 @@
+[console_scripts]
+aws-eni-tagger=aws_eni_tagger.main:app
+
