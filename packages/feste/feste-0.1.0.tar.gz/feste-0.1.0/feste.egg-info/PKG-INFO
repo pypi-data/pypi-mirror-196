@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: feste
+Version: 0.1.0
+Summary: Scalable NLP compositions with graph optimizations.
+Home-page: https://github.com/perone/feste
+Author: Christian S. Perone
+Author-email: christian.perone@gmail.com
+Project-URL: Bug Tracker, https://github.com/perone/feste/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+Scalable NLP compositions with graph optimizations
