@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: snakeddos
+Version: 0.0.3
+Summary: DDoS library
+Project-URL: Homepage, https://github.com/shimon-d/snakeddos
+Project-URL: Bug Tracker, https://github.com/shimon-d/snakeddos/issues
+Author-email: Victor deMatos <vvrmatos@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Snake DDoS
+A Python DDoS library
+Python version: 3.11
