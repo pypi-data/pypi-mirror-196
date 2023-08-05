@@ -1,0 +1,12 @@
+astropy>=4.1
+requests
+
+[all]
+pillow
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
+requests-mock
