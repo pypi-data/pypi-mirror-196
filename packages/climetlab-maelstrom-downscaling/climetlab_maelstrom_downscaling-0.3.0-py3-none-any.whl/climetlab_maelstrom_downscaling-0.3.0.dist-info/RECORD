@@ -1,0 +1,10 @@
+climetlab_maelstrom_downscaling/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+climetlab_maelstrom_downscaling/downscaling.py,sha256=TE4IGNM0m_ImLpXnroK8Yp70EtdMy-gWqBXMzodWORg,5949
+climetlab_maelstrom_downscaling/downscaling_tier2.py,sha256=HV3g6bYz3_orOMkSgUIIsDWgDtRSy49K0WOOgjhRHg8,5334
+climetlab_maelstrom_downscaling-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+climetlab_maelstrom_downscaling-0.3.0.dist-info/METADATA,sha256=n-EuMcwpJqazPV5sxYZK8faDk9BhsPgyux0yD0XmKdY,9110
+climetlab_maelstrom_downscaling-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+climetlab_maelstrom_downscaling-0.3.0.dist-info/entry_points.txt,sha256=JJzWg7G-TWnbJXDZ0E4X4gjOIr_YzxvqifWXjVhYDMo,193
+climetlab_maelstrom_downscaling-0.3.0.dist-info/top_level.txt,sha256=PJTwmRhR1_lSEcdYfFZ75ROxs9Ko9rWidpkfmN82Ulg,32
+climetlab_maelstrom_downscaling-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+climetlab_maelstrom_downscaling-0.3.0.dist-info/RECORD,,
