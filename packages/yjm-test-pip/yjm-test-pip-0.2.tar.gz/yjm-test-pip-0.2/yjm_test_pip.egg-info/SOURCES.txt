@@ -1,0 +1,7 @@
+setup.py
+yjm-test/__init__.py
+yjm-test/yjm.py
+yjm_test_pip.egg-info/PKG-INFO
+yjm_test_pip.egg-info/SOURCES.txt
+yjm_test_pip.egg-info/dependency_links.txt
+yjm_test_pip.egg-info/top_level.txt
