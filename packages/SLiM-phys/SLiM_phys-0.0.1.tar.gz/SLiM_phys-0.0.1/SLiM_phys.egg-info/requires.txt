@@ -1,0 +1,14 @@
+scipy
+numpy
+pandas
+matplotlib
+tqdm
+sys
+csv
+math
+re
+os
+cmath
+optparse
+tkinter
+traceback
