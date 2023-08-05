@@ -1,0 +1,9 @@
+gitlab_fs/__init__.py,sha256=A5Fcee4ZZJyEucK11VMm-PNSwtn-U_XjQn120i0R-wc,55
+gitlab_fs/gitlab_filestream.py,sha256=slsXrA51XkoT17trXYUB6EeQhPgBWmlvth9bmLhlAE4,6938
+gitlab_fs/gitlab_fs.py,sha256=HSGhP8f5-0u2JUbzDogSpjsVNVM2Hb-BbuPmGB_ToX8,24949
+gitlab_fs/opener.py,sha256=rDTexVdG1F-ld6K8rxgx2qsG7GJYLWf3RffjZmbSJw8,1011
+gitlab_arc_fs-0.0.1.dev1.dist-info/METADATA,sha256=borfXT7ZLjz0Oqhltauf-VWQAbZZSw8Pvejo0ujfJA8,458
+gitlab_arc_fs-0.0.1.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitlab_arc_fs-0.0.1.dev1.dist-info/entry_points.txt,sha256=_DiZ2XAt_Ck0-oOXOJcLog6WzoK8n73fRfmxBYTadYA,53
+gitlab_arc_fs-0.0.1.dev1.dist-info/top_level.txt,sha256=WB_mggiAe6ZlGz0-7OctDMDMOBFOd64KKVH5eW-29cQ,10
+gitlab_arc_fs-0.0.1.dev1.dist-info/RECORD,,
