@@ -1,0 +1,6 @@
+fpdf
+PyPDF2
+pdf2docx
+tqdm
+reportlab
+PyMuPDF
