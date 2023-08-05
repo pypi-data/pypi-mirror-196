@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pykmindex
+Version: 0.2.0
+Summary: Python API to query kmindex server.
+Home-page: https://github/tlemane/kmindex
+License: MIT
+Keywords: k-mer,indexing,kmindex
+Author: Teo Lemane
+Author-email: teo.lemane@proton.me
+Maintainer: Teo Lemane
+Maintainer-email: teo.lemane@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Lnaguage :: Python :: 3
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: uplink (>=0.9.7,<0.10.0)
+Project-URL: Documentation, https://github.io/tlemane/kmindex
+Description-Content-Type: text/markdown
+
+# pykmindex
+
+Python API to query kmindex-server. See [documentation](https://tlemane.github.io/kmindex/python-api/).
+
