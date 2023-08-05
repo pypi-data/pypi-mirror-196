@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "magicregex"
+version = "0.1.0"
+description = "Readable regular expressions in Python"
+authors = ["Thomas Wollmann"]
+readme = "README.md"
+license = "Apache 2.0"
+
+repository = "https://github.com/thomaswollmann/magicregex"
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+packages = [
+    { include = "magicregex", from = "src" }
+]
+include = [
+    { path = "tests", format = "sdist" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+regex = "^2022.10.31"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.1.0"
+
+[tool.poetry.group.test.dependencies]
+pre-commit = "^3.1.0"
+pytest = "^7.2.1"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
