@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/catbase/__init__.py
+src/catbase.egg-info/PKG-INFO
+src/catbase.egg-info/SOURCES.txt
+src/catbase.egg-info/dependency_links.txt
+src/catbase.egg-info/top_level.txt
