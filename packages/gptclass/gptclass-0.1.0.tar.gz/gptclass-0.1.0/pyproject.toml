@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gptclass"
+version = "0.1.0"
+description = "A Python that does what you need"
+authors = ["Jaume Ferrarons <jaume.ferrarons@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.0"
+diskcache = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.21.3"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

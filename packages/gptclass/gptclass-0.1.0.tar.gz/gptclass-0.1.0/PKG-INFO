@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gptclass
+Version: 0.1.0
+Summary: A Python that does what you need
+Author: Jaume Ferrarons
+Author-email: jaume.ferrarons@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: diskcache (>=5.4.0,<6.0.0)
+Requires-Dist: openai (>=0.27.0,<0.28.0)
