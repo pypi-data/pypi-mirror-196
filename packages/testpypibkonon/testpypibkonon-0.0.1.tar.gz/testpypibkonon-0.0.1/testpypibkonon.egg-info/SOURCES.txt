@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+testpypibkonon/__init__.py
+testpypibkonon/m_mod_bkonon.py
+testpypibkonon.egg-info/PKG-INFO
+testpypibkonon.egg-info/SOURCES.txt
+testpypibkonon.egg-info/dependency_links.txt
+testpypibkonon.egg-info/requires.txt
+testpypibkonon.egg-info/top_level.txt
