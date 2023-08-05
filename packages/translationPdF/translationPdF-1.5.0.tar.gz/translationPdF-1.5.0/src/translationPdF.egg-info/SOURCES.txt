@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/pdftools/__init__.py
+src/pdftools/pdftools.py
+src/translationPdF.egg-info/PKG-INFO
+src/translationPdF.egg-info/SOURCES.txt
+src/translationPdF.egg-info/dependency_links.txt
+src/translationPdF.egg-info/top_level.txt
