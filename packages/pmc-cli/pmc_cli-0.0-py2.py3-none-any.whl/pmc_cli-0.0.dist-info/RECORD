@@ -1,0 +1,6 @@
+pmc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pmc/main.py,sha256=NzgvFOGTBaBZlMBesQxweaLh-qgMd3GkgFTkwjT4yT0,194
+pmc_cli-0.0.dist-info/WHEEL,sha256=SlW3K6T2LNPbN9-QzFT1pS72PIuYOJEoe_9_lIJkxrk,92
+pmc_cli-0.0.dist-info/entry_points.txt,sha256=MOx364xlQHkSJO7ASa2oaAiIQQ9hXXuH5gM6KeVfEYk,36
+pmc_cli-0.0.dist-info/METADATA,sha256=aoa2v5jhaEWoXTHGwBeOI9gOPDEJa_VbYWsgrxFwpgw,607
+pmc_cli-0.0.dist-info/RECORD,,
