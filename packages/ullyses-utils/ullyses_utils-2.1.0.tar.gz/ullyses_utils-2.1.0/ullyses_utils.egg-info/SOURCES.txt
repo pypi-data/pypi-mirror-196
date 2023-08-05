@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+ullyses_utils.egg-info/PKG-INFO
+ullyses_utils.egg-info/SOURCES.txt
+ullyses_utils.egg-info/dependency_links.txt
+ullyses_utils.egg-info/requires.txt
+ullyses_utils.egg-info/top_level.txt
