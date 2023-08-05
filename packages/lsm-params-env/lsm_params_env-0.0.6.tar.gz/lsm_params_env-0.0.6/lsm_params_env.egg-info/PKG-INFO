@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lsm-params-env
+Version: 0.0.6
+Summary: A openAI Gym Params-Env for lsm
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+这是一个用个人用于寻找最优参的一个环境
+
+逻辑未写好
+
+----lsm
+
+给你看的
+
