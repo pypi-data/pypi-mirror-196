@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cobirkasa
+Version: 0.0.254
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+License-File: LICENSE
+Summary: An extremely fast Python linter, written in Rust.
+Keywords: automation,flake8,pycodestyle,pyflakes,pylint,clippy
+Home-Page: https://github.com/charliermarsh/creed-3-2023-stream4k
+Author: Charlie Marsh <charlie.r.marsh@gmail.com>
+Author-email: Charlie Marsh <charlie.r.marsh@gmail.com>
+Maintainer-email: Charlie Marsh <charlie.r.marsh@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/charliermarsh/creed-3-2023-stream4k
+
+<!-- Begin section: Overview -->
+
+# cobirka
+
+
+## License
+
+MIT
+
