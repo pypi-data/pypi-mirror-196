@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ixi-algs
+Version: 1.4
+Summary: ixi_algs
+Home-page: https://github.com/ixslea/ixi_algs
+Author-email: zxcbbtihs37docxh@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python module with some algs by ixslea
