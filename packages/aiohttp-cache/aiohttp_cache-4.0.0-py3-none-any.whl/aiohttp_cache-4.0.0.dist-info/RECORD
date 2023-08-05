@@ -1,0 +1,11 @@
+aiohttp_cache/__init__.py,sha256=IBJK0m_w4ta03qX4hrJZrAhwhxVVqdTUlZYvbAPBxdM,325
+aiohttp_cache/backends.py,sha256=GjCtNahPZ5IJykJ78rIyFX_uQEs84k6FZnY6M4afFQk,7621
+aiohttp_cache/decorators.py,sha256=jbM-e-Dph-JMb4UKCkMp4_M3ohJcOcAVYqp7IhIAOnE,403
+aiohttp_cache/exceptions.py,sha256=0wFwb2xetBtp2NCsyPLGblcFT8f2nKA83hnHXPNE0sE,65
+aiohttp_cache/middleware.py,sha256=FTzu0yGMZk0qI27b7S02-IeBvmJa0JwzDJo9NREsCkM,2542
+aiohttp_cache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_cache/setup.py,sha256=yyZddn-h_mpjsJleRQfiXLP8Dbegb1MJ_2iGgkw_r1E,1935
+aiohttp_cache-4.0.0.dist-info/LICENSE,sha256=bKuemMvXWWpUmaOt-SLgzPHkDfvmD_haB5_3BuwGtYk,1602
+aiohttp_cache-4.0.0.dist-info/METADATA,sha256=NUVox1q43tk-DvApOLLeUJySQx8mzUKy4uIEumzpLos,4754
+aiohttp_cache-4.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+aiohttp_cache-4.0.0.dist-info/RECORD,,
