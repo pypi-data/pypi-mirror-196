@@ -1,0 +1,3 @@
+[pytest11]
+gitlabci-parallelized = pytest_gitlabci_parallelized
+
