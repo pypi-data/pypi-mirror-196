@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: S3bkt
+Version: 0.4.0
+Summary: S3 bucket utility
+Home-page: https://github.com/muckamuck/s3bkt
+Author: Chuck Muckamuck
+Author-email: Chuck.Muckamuck@gmail.com
+License-File: LICENSE
+Requires-Dist: boto3 (>=1.9)
+Requires-Dist: Click (>=7.0)
+
