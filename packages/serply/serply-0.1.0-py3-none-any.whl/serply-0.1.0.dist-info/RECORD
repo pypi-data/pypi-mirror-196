@@ -1,0 +1,6 @@
+serply/__init__.py,sha256=o4qSI9wV2EYZ22fixKDC93XvfckQpm-tPDFdPvr4JDE,50
+serply/consts.py,sha256=8apZT3H-38NvvuBcaa3OpaJqt4serQpY_JVPL6yTUXo,152
+serply/serply.py,sha256=5lMUpKddXCi2not8RQPqYgMGQr0l0krbTaY_tsopKZM,28329
+serply-0.1.0.dist-info/METADATA,sha256=tNm_rT3NMXYrKn29O2zX9aJghOxrTFBZOPpQ_Z4YM1Y,9368
+serply-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+serply-0.1.0.dist-info/RECORD,,
