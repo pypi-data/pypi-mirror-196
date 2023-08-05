@@ -1,0 +1,10 @@
+arithmetica.cp310-win_amd64.pyd,sha256=BBawTxTxmDR6wmQLFRth-njsgStoakjdsnpBaJkf5vQ,52736
+arithmetica_py-1.0.174.data/data/src/python-module/libarithmetica.a,sha256=0tzl73TluVmUXW5JufT1E8YK-dWs6dn9gb9gmaxtXTo,103904
+arithmetica_py-1.0.174.data/data/src/python-module/libbasic_math_operations.a,sha256=5ZzQq-DeCAqmMWElfEfqbGDWmLuo3j9CT4sARaVTBKQ,41686
+arithmetica_py-1.0.174.data/data/src/python-module/version.txt,sha256=Rx7AlM9opOLBqDge1O7om0HPy673RrRWUK_6LK3Rnvs,7
+src/python-module/module.c,sha256=rdkykIjHaHyt6orHiDIeBWATdih7q74neeWUSRwzJSM,10610
+arithmetica_py-1.0.174.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+arithmetica_py-1.0.174.dist-info/METADATA,sha256=vo2vIZ0-4RR6DzTyw5-6ZkvaSmGKKYXR9rDILWBFzqA,217
+arithmetica_py-1.0.174.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+arithmetica_py-1.0.174.dist-info/top_level.txt,sha256=izrQOku72EsRDOPr5vEMkgLEmKn2mtDWOW54wnlRm84,30
+arithmetica_py-1.0.174.dist-info/RECORD,,
