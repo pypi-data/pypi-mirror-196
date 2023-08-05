@@ -1,0 +1,2 @@
+[console_scripts]
+pmscreen = pubmed_screen.main:main
