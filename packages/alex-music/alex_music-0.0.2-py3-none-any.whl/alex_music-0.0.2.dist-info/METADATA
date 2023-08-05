@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: alex_music
+Version: 0.0.2
+Summary: A terminal music player
+Project-URL: Homepage, https://github.com/Sand199/alex
+Project-URL: Bug Tracker, https://github.com/Sand199/alex/issues
+Author: Mr_Sandman
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Alex
+Alex is a cli youtube music player
+
+## How to install
+- Have pip installed
+- Requirements: mpv, yt-dlp, youtube-search-python
+- Install Alex: 
+    `pip install alex-music`
+
+## Usage
+#### Launching:
+```
+python -m alex_music
+```
+
+Also,
+You can add an alias for alex_music in your .bashrc file
+```
+echo "alias alex='python -m alex_music'" >> ~/.bashrc
+```
+Then, alex_music can be launched by:
+```
+alex
+```
+
+#### Play some music
+```
+play despacito
+```
+
+#### Add to playlist
+```
+add baby shark tu tu ru
+```
+and 
+```
+play
+```
+
+#### For more commands
+```
+help
+```
