@@ -1,0 +1,3 @@
+[console_scripts]
+darkcoin_server = darkcoins.server.script:darkcoin_server
+darkcoin_worker = darkcoins.server.script:darkcoin_worker
