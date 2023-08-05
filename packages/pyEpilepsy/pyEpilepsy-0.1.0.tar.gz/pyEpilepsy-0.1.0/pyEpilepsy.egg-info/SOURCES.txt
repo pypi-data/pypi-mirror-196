@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+pyEpilepsy.egg-info/PKG-INFO
+pyEpilepsy.egg-info/SOURCES.txt
+pyEpilepsy.egg-info/dependency_links.txt
+pyEpilepsy.egg-info/requires.txt
+pyEpilepsy.egg-info/top_level.txt
+pyepilepsy/__init__.py
+pyepilepsy/metrics.py
