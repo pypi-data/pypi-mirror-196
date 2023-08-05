@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    'cma',
+    'gymnasium[box2d]',
+    'imageio',
+    'ipython',
+    'ipywidgets',
+    'nnfigs',
+    'numpy',
+    'pandas',
+    'pygame',
+    'seaborn',
+    'torch',
+    'tqdm',
+]
