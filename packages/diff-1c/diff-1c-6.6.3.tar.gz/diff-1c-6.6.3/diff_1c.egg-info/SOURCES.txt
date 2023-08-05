@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+diff_1c/__about__.py
+diff_1c/__init__.py
+diff_1c/__main__.py
+diff_1c/cli.py
+diff_1c/core.py
+diff_1c/main.py
+diff_1c.egg-info/PKG-INFO
+diff_1c.egg-info/SOURCES.txt
+diff_1c.egg-info/dependency_links.txt
+diff_1c.egg-info/entry_points.txt
+diff_1c.egg-info/requires.txt
+diff_1c.egg-info/top_level.txt
+tests/test_diff_1c.py
