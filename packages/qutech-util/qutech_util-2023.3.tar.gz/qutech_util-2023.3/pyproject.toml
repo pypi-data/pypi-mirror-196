@@ -1,0 +1,108 @@
+[build-system]
+requires = [
+    "hatchling>=1.10.0",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "qutech-util"
+dynamic = [
+    "version",
+]
+description = "Utility package of the Quantum Technology group of RWTH Aachen"
+readme = "README.md"
+license = "GPL-3.0"
+requires-python = ">= 3.8"
+authors = [
+    { name = "Quantum Technology Group, RWTH Aachen University" },
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "packaging",
+    "hdf5storage",
+    "matplotlib",
+    "more-itertools",
+    "numpy",
+    "pandas",
+    "typeguard",
+    "scipy",
+    "lazy-loader",
+    "dill",
+]
+
+[project.optional-dependencies]
+# backwards compability alias for complete
+all = [
+    "qutech-util[complete]",
+]
+fancy_progressbar = [
+    "tqdm",
+    "ipynbname",
+]
+gl = [
+    "ezdxf",
+]
+hardware = [
+    "pyserial",
+]
+electronics = [
+    "fastz",
+]
+qcodes = [
+    "qcodes",
+]
+image = [
+    "moviepy",
+    "tifffile[all]"
+]
+doc = [
+    "sphinx",
+    "pydata-sphinx-theme",
+    "myst-parser",
+]
+# "complete" is a key that is typically used for all features i.e. by xarray and flask
+complete = [
+    "qutech-util[fancy_progressbar]",
+    "qutech-util[gl]",
+    "qutech-util[hardware]",
+    "qutech-util[electronics]",
+    "qutech-util[qcodes]",
+    "qutech-util[image]",
+    "qutech-util[doc]",
+]
+
+[project.urls]
+Homepage = "https://git.rwth-aachen.de/qutech/qutil"
+
+[tool.hatch.version]
+path = "qutil/__init__.py"
+
+[tool.hatch.build]
+include = [
+    "qutech_util",
+    "qutil",
+]
+
+[tool.hatch.envs.test]
+features = [
+    "all"
+]
+dependencies = [
+  "pytest",
+  "qopt"
+]
+
+[tool.hatch.envs.test.scripts]
+run = [
+    "python -m pytest --doctest-modules"
+]
