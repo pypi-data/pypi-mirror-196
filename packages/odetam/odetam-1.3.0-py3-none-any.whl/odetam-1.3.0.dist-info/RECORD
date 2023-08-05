@@ -1,0 +1,10 @@
+odetam/__init__.py,sha256=uJBpMq7N815AUmgcnIWdGNSnQM7eHvdKiN6kimu5vdA,51
+odetam/async_model.py,sha256=FfNVMjHY7TSJQiES2TVe5j6dg6qRlRF9oWYnFf9jh0U,3806
+odetam/exceptions.py,sha256=mHwPJGQ4-l0uN_iRNf2jzDDnLOZeX4fJlJHn3Dg8TJg,129
+odetam/field.py,sha256=XY66xlmbz3fdimkTFp5y3iv0N8yF9sYNNjawmydBUtU,3567
+odetam/model.py,sha256=jfctW2jyzq4dt9_JDfLtqLo3djXFuJ6xgWA75OnmIlw,7403
+odetam/query.py,sha256=RP7LZsFfSiFm-UBEEiSFOgJm70GzT__NIUUfmusUjAg,1787
+odetam-1.3.0.dist-info/LICENSE,sha256=4hKcGEf6fhDag2JefGV_8MNW49pcuglDmn4cHbI8Iwg,1067
+odetam-1.3.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+odetam-1.3.0.dist-info/METADATA,sha256=RfJ839w5sWEHT2Wha30QNMPiIwLjt782DmmqrqY6XtM,5932
+odetam-1.3.0.dist-info/RECORD,,
