@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nemesispy
+Version: 0.0.6
+Summary: Tools for modelling exoplanet spectra
+Home-page: https://github.com/Jingxuan97/nemesispy2022
+Author: Jingxuan Yang
+Author-email: jingxuanyang15@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package contains tool for simulating exoplanet atmospheric
+emmission spectra with the correlated-k method.
+
+In order to install the package but still make it editable, type the
+following in the terminal:
+
+pip install --editable .
