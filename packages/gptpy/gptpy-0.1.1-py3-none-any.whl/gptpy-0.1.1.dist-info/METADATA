@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gptpy
+Version: 0.1.1
+Summary: GPTPy: Your kind Python guide, powered by AI to fix errors and explain code
+Home-page: https://github.com/beomi/gptpy
+Author: Junbum Lee
+Author-email: junbumlee@icloud.com
+Requires-Dist: requests
+
