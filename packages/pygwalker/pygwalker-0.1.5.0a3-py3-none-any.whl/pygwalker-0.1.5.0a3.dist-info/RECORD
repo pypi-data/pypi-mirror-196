@@ -1,0 +1,17 @@
+LICENSE,sha256=FbSDIKjjCSUM5ENhZ0iI_ItiN8nPSLooVLiVD8KJLBo,11353
+README.md,sha256=tkc_5N2NHlxwHDxFWzumJSRLmkQBDN2FURTNbekPiOA,10590
+pygwalker/__init__.py,sha256=dbPLCrvfPp6BPpOU2zt5qOJKs3-y_jUNlnj46wb6MjY,565
+pygwalker/base.py,sha256=HGiv3XwTv-m3a0A73qlES4-moPR_idtEjlVtYecKpMA,204
+pygwalker/gwalker.py,sha256=4lNy9BujJmGcKGYLB7Ui0h4-H24ykrKsZQrPf6iyWmA,3021
+pygwalker/templates/dist/index.d.ts,sha256=QYXgGPcBR5p5imWBNu679iahv_fNqMlonnvnJg2cMEs,139
+pygwalker/templates/dist/pygwalker-app.iife.js,sha256=HrppCm7F8HMlc9_IOanmdFCQ8fFuySM2nvbp8LuN2ow,1854129
+pygwalker/templates/index.html,sha256=r4CMU14FquGYFGdt2Tx4t77DuPMAclTfruCbBkQErVs,455
+pygwalker/templates/walk.js,sha256=fP5dwdqO9SfBqu9GTEiZiayVHIRU-wCxYtaJ2ojApmY,185
+pygwalker/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygwalker/utils/fname_encodings.py,sha256=51HdLcy2K0UzeJA_A8F0VUC7jt1_S3cGIhIZN4eewdI,312
+pygwalker/utils/gwalker_props.py,sha256=y2ntVRrnFFTH0QyzSH8zTqswYzoCQdaeDoluk0uuYIY,7840
+pygwalker/utils/render.py,sha256=9IAQ3tXYVPT10rKlToKDLPHQUDR3UGQCZ3LXkEdS1Bs,1382
+pygwalker-0.1.5.0a3.dist-info/LICENSE,sha256=FbSDIKjjCSUM5ENhZ0iI_ItiN8nPSLooVLiVD8KJLBo,11353
+pygwalker-0.1.5.0a3.dist-info/METADATA,sha256=er_6YGOrS48vB02k27Rt80_SwGKZF_CX0-nZmeMOliM,11548
+pygwalker-0.1.5.0a3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pygwalker-0.1.5.0a3.dist-info/RECORD,,
