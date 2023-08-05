@@ -1,0 +1,13 @@
+setup.py
+src/xclientai/__init__.py
+src/xclientai/config.py
+src/xclientai/datatypes.py
+src/xclientai/jobs.py
+src/xclientai.egg-info/PKG-INFO
+src/xclientai.egg-info/SOURCES.txt
+src/xclientai.egg-info/dependency_links.txt
+src/xclientai.egg-info/requires.txt
+src/xclientai.egg-info/top_level.txt
+src/xclientai/utils/__init__.py
+src/xclientai/utils/logging.py
+src/xclientai/utils/requests_utils.py
