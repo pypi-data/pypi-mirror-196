@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pipenv-d
+Version: 0.0.2
+Summary: dirty hack of pipenv
+Home-page: https://github.com/dboyliao/pipenv-d
+Author: dboyliao
+Description-Content-Type: text/markdown
+
+# `pipenv-d`: A `d`irty hack of `pipenv`
+
+## Installation
+
+- via `pip`
+```bash
+$ python3 -m pip install pipenv-d
+```
