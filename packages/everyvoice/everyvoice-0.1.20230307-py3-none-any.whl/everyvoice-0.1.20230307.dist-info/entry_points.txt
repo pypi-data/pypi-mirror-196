@@ -1,0 +1,3 @@
+[console_scripts]
+everyvoice = everyvoice.cli:app
+
