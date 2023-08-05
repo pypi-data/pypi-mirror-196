@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: cushy-socket
+Version: 1.2.0
+Summary: A lightweight socket library
+Home-page: https://github.com/Undertone0809/cushy-socket
+Author: Zeeland
+Author-email: zeeland@foxmail.com
+License: Apache 2.0
+Keywords: socket,tcp,udp,cushy-socket
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">
+    cushy-socket
+</h1>
+<p align="center">
+  <strong>A lightweight python socket library. You can create a TCP/UDP connection easily.</strong>
+</p>
+
+<p align="center">
+    <a target="_blank" href="">
+        <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?label=license" />
+    </a>
+   <a target="_blank" href=''>
+        <img src="https://img.shields.io/github/stars/Undertone0809/cushy-socket.svg" alt="github stars"/>
+   </a>
+    <a target="_blank" href=''>
+        <img src="https://static.pepy.tech/personalized-badge/broadcast-service?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads/Total"/>
+   </a>
+    <a target="_blank" href=''>
+        <img src="https://static.pepy.tech/personalized-badge/broadcast-service?period=month&units=international_system&left_color=grey&right_color=blue&left_text=Downloads/Week"/>
+   </a>
+</p>
+
+
+# Features
+- send socket message easily
+- listen socket message and support ballback
+- support sending group messages to clients
+- support decorator version listening
+- listen topic message and callback
+
+
+# Usage
+
+```bash
+pip install cushy-socket --upgrade 
+```
+
+Here are some minimal example programs using the `cushy-socket`: a server that echoes all data that it receives back(servicing only one client), and a client using it.
+
+- Now let's build a easy echo demo.The first example support IPv4 only.
+
+```python
+# echo tcp server program
+import socket
+from cushy_socket.tcp import CushyTCPServer
+
+cushy_tcp_server = CushyTCPServer(host='localhost', port=7777)
+cushy_tcp_server.run()
+
+
+@cushy_tcp_server.on_connected()
+def handle_on_connected(sock: socket.socket):
+    print(f"[server decorator callback] new client connected.")
+    print(sock)
+
+
+@cushy_tcp_server.on_disconnected()
+def handle_on_disconnected(sock: socket.socket):
+    print(f"[server decorator callback] a client disconnected.")
+    print(sock)
+
+
+@cushy_tcp_server.on_message()
+def handle_msg_from_client(msg: str):
+    print(f"[server decorator callback] cushy_tcp_server rec msg: {msg}")
+    cushy_tcp_server.send("hello, I am server")
+
+
+```
+
+```python
+# echo tcp client program
+from cushy_socket.tcp import CushyTCPClient
+
+cushy_tcp_client = CushyTCPClient(host='localhost', port=7777)
+cushy_tcp_client.run()
+
+
+@cushy_tcp_client.on_connected()
+def handle_on_connected():
+    print(f"[client decorator callback] connect to server.")
+
+
+@cushy_tcp_client.on_disconnected()
+def handle_on_disconnected():
+    print(f"[client decorator callback] server disconnected.")
+
+
+@cushy_tcp_client.on_message()
+def handle_msg_from_server(msg: str):
+    print(f"[client decorator callback] cushy_tcp_client rec msg: {msg}")
+
+
+cushy_tcp_client.send("hello, here is CSTCP client")
+cushy_tcp_client.close()
+
+```
+
+
+
+# TODO
+- [ ] support for more lifecycle callbacks
+- [ ] optimize the handle of socket closing
+- [ ] optimize syntax expressions
+- [ ] add UDP server/client support
+- [ ] provide more solutions
+- [ ] provide more async supports
+- [ ] provide more decorator support
+- [ ] optimize unittest
+- [ ] send and listen topic message
+
+# Contribution
+If you want to contribute to this project, you can submit pr or issue. I am glad to see more people involved and optimize it.
