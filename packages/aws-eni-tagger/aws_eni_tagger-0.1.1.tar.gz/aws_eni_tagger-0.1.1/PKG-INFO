@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: aws-eni-tagger
+Version: 0.1.1
+Summary: Add meaningful tags to your AWS Elastic Network Interfaces
+Author: EreminAnton
+Author-email: mobessona2@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aws-eni-identifier (>=0.1.3,<0.2.0)
+Requires-Dist: boto3 (>=1.26.77,<2.0.0)
+Requires-Dist: boto3-stubs[ec2] (>=1.26.77,<2.0.0)
+Requires-Dist: hypothesis (>=6.68.2,<7.0.0)
+Requires-Dist: pytest (>=7.2.1,<8.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+[![FivexL](https://releases.fivexl.io/fivexlbannergit.jpg)](https://fivexl.io/)
+# AWS ENI Tagger
+This CLI tool adds meaningful tags to your AWS Elastic Network Interfaces (ENIs) based on information obtained from [aws-eni-idetifier](https://github.com/fivexl/aws-eni-identifier).
+
+#### Before:
+![before.png](https://github.com/fivexl/aws-eni-tagger/raw/master/docs/before.jpg?raw=true)
+
+#### After:
+![after.png](https://github.com/fivexl/aws-eni-tagger/raw/master/docs/after.png?raw=true)
+
+# Installation
+
+```bash
+pip install aws-eni-tagger
+```
+
+# Usage
+```bash
+aws-eni-tagger --profile my-aws-profile
+```
+## Arguments:
+
+The CLI takes the following arguments:
+
+  * **--profile**: AWS profile name. Required.
+    
+  * **--owner-service-tag-name**: Key for tag with information about the ENI owner service. Default is 'OwnerService'.
+    
+  * **--owner-service-name-tag-name**: Key for tag with information about the ENI owner service name. Default is 'OwnerServiceName'.
+  
+  * **--overwrite**: If set, the tags with the keys with name specified above/config will be overwritten. Default is False.
+
+For example:
+
+```bash
+aws-eni-tagger --profile my_aws_profile --overwrite
+```
+
+This will run the aws-eni-tagger with the specified AWS profile and will overwrite existing tags.
+
+# Developing
+
+Install the package:
+```bash
+poetry install
+```
+Run tests:
+```bash
+poetry run pytest
+```
+
