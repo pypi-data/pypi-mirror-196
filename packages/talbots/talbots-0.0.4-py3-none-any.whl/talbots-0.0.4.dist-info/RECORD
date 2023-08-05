@@ -1,0 +1,11 @@
+talbots/__init__.py,sha256=_yISNBjo1X4NCfCtTPmOScsk27AwB2sbKxDSAkYCZds,215
+talbots/bibtext.py,sha256=esdo_9m1qsHtwZbmbs8VnyUFTkN0f6IWN622YW3MXKo,1815
+talbots/download.py,sha256=PBoT-hgqwRX0a8uXrofNGv6LTslJLZms9E1knG_cQU4,6720
+talbots/extraction.py,sha256=4ldqdGZ2do0TJ83OI77kiI7vrvfSRf8ACk6i0J0HpFI,2948
+talbots/filters.py,sha256=slpdMmDCSrx9_Dng6M0O5um57cc9HjMIi9XrrLy40J4,1787
+talbots/paths.py,sha256=sAKDm7dVqVAjPGHfcqgfgd2imus-qdRZ-mrKH8bX9Ro,5338
+talbots-0.0.4.dist-info/LICENSE,sha256=hOiCrcwxIN2sVlq-NThkLN2bZwe9WTypfdTOFnJIY2g,748
+talbots-0.0.4.dist-info/METADATA,sha256=pUWTqYg7N43xZDIeKSUAVHl3e9mmSWpSiKOH2gckZXk,4351
+talbots-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+talbots-0.0.4.dist-info/top_level.txt,sha256=dLlnX4hn-0Mf7jCyWvg_i-h78-oIcR1L6AdA3Ed7pXM,8
+talbots-0.0.4.dist-info/RECORD,,
