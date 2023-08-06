@@ -1,0 +1,11 @@
+precondition/__init__.py,sha256=LraTVxLgeNx5W2woiFP9oYus5-64Y0MsWY0GFmQOvUc,761
+precondition/distributed_shampoo.py,sha256=2dFHT6vwskkUhrWZIXQxKKT-QxPkjm_carTPigP1aAQ,139619
+precondition/distributed_shampoo_test.py,sha256=Ab_78-glzIt-gsatFQdtSWIN_RrwxoBFdU5Fh5LKJJU,28877
+precondition/precondition_test.py,sha256=POV-9LGEVzrXZhfnXf3_Pib8-d5i5D4uVweJThp88mI,795
+precondition/quantization_utils.py,sha256=LkL5pe05lZJmtNcZycezTafZT-1dA_xhsWyroFA15mc,4219
+precondition/sm3.py,sha256=J6QUJlNvvHZbS9NEqshvgCgjPVr7Kc2GZzyVWuI50xg,5939
+precondition/sm3_test.py,sha256=o7tp53bM7whs2ymw92tVtDMF5cAKNoniOnmLJcp4JVs,1537
+precondition_opt-0.2.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+precondition_opt-0.2.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+precondition_opt-0.2.0.dist-info/METADATA,sha256=H5LTkAvIRyHHRBF2JRQXIYbiSUZs1Jfo1pgzxHnAXGE,2770
+precondition_opt-0.2.0.dist-info/RECORD,,
