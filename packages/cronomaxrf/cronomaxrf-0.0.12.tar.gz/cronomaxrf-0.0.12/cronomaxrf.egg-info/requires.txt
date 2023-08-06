@@ -1,0 +1,12 @@
+h5py
+dask
+zarr
+matplotlib
+numpy
+IPython
+wget
+dask_ndfilters
+filehash
+
+[dev]
+matplotlib
