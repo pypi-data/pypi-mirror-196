@@ -1,0 +1,5 @@
+lona>=1.10.5
+
+[packaging]
+build
+twine
