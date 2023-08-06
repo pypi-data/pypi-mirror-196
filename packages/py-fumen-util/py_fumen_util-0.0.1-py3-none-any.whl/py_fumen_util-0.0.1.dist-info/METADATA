@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py_fumen_util
+Version: 0.0.1
+Summary: Python implementation of the JavaScript package 'FumenUtil'
+Project-URL: Source, https://github.com/OctupusTea/py-fumen-util
+Author: Octupus Tea
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# py-fumen-util
+Python implementation of [swng's FumenUtil](https://github.com/swng/FumenUtil), using [hsohliyt105's py-fumen](https://github.com/hsohliyt105/py-fumen)
+
+# Dependency
+- `py-fumen`: Python implementation of knewjade's `tetris-fumen` node module
