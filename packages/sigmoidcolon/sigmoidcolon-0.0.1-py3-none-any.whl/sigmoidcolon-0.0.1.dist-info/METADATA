@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sigmoidcolon
+Version: 0.0.1
+Summary: The biologically inspired sigmoid activation function.
+Home-page: http://github.com/poopingface/sigmoidcolon
+Author: Pooping Face
+Author-email: poopingface.co@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: torch
+
