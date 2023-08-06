@@ -1,0 +1,7 @@
+setup.py
+apache_server_log_parser.egg-info/PKG-INFO
+apache_server_log_parser.egg-info/SOURCES.txt
+apache_server_log_parser.egg-info/dependency_links.txt
+apache_server_log_parser.egg-info/entry_points.txt
+apache_server_log_parser.egg-info/requires.txt
+apache_server_log_parser.egg-info/top_level.txt

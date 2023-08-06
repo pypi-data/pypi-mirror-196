@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: apache-server-log-parser
+Version: 1.0.0
+Summary: A simple script to parse apache logs
