@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: myke
+Version: 0.0.1a19
+Summary: WIP
+Home-page: https://github.com/fresh2dev/myke
+Author: Donald Mellenbruch
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://github.com/fresh2dev/myke
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/myke/i
+Project-URL: License, https://www.Fresh2.dev/code/r/myke/i/license
+Project-URL: Issues, https://github.com/fresh2dev/myke/issues
+Project-URL: Funding, https://www.Fresh2.dev/funding
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: io
+Provides-Extra: pydantic
+Provides-Extra: extras
+License-File: LICENSE
+
+# myke
+
+*None*
+
+|               |                           |
+| ------------- | ------------------------- |
+| Code Repo     | https://github.com/fresh2dev/myke              |
+| Mirror Repo   | https://www.Fresh2.dev/code/r/myke           |
