@@ -1,0 +1,5 @@
+{
+  "quicky1test.py::test_answer": true,
+  "quicky1test.py::testanswer": true,
+  "test_class.py::TestClass::test_two": true
+}
