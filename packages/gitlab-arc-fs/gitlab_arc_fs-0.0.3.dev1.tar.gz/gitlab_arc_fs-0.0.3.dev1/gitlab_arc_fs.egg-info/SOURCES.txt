@@ -1,0 +1,12 @@
+README.md
+setup.py
+gitlab_arc_fs/__init__.py
+gitlab_arc_fs/gitlab_filestream.py
+gitlab_arc_fs/gitlab_fs.py
+gitlab_arc_fs/opener.py
+gitlab_arc_fs.egg-info/PKG-INFO
+gitlab_arc_fs.egg-info/SOURCES.txt
+gitlab_arc_fs.egg-info/dependency_links.txt
+gitlab_arc_fs.egg-info/entry_points.txt
+gitlab_arc_fs.egg-info/requires.txt
+gitlab_arc_fs.egg-info/top_level.txt
