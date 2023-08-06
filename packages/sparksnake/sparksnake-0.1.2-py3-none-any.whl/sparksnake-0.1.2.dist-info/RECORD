@@ -1,0 +1,13 @@
+snakespark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snakespark/glue.py,sha256=OxC-bje4MyfV4Ehf1Ca3hBPWEn4Lj4-pvu7maKQTQas,25128
+snakespark/manager.py,sha256=ZlY_mj4sVLf9RT2h3P-7C4bJadYW5eG7GRARmeL0_CE,27126
+snakespark/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snakespark/utils/log.py,sha256=-lUHXcM3dDSwzJN5MhlfEz8anTosGLc1b7sQHVtv2rs,1810
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=AV3RIKThmMiFEXfTxmSscqPsYsAi50MYnNl2qHcvbzM,779
+tests/test_01_job_manager.py,sha256=fX_gzV37LSrjr4QgHAU9xMxvnkuZ0ZsG5rHHFXG9jKU,7249
+sparksnake-0.1.2.dist-info/LICENSE,sha256=ganalcao1VqjRiExR-Mq4yFL3hDtHAsf7CUGgnTkrmQ,1091
+sparksnake-0.1.2.dist-info/METADATA,sha256=5ZId7T1K95IBL6AfO-0F7eoWeKL0RQYjpwj06r9sg9c,5291
+sparksnake-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sparksnake-0.1.2.dist-info/top_level.txt,sha256=hZ9Q00LLPhJ9048O0cYj5WD6xOPGl-b8dptnK2WaX-8,17
+sparksnake-0.1.2.dist-info/RECORD,,
