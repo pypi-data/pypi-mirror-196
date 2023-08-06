@@ -1,0 +1,3 @@
+[console_scripts]
+pyxyfy=pyxyfy.__main__:launch
+
