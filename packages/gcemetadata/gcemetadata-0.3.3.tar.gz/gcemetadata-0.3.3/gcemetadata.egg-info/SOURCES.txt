@@ -1,0 +1,7 @@
+MANIFEST.in
+reporter.py
+setup.py
+gcemetadata.egg-info/PKG-INFO
+gcemetadata.egg-info/SOURCES.txt
+gcemetadata.egg-info/dependency_links.txt
+gcemetadata.egg-info/top_level.txt
