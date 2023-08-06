@@ -1,0 +1,3 @@
+[console_scripts]
+spidermatch=spidermatch.main:run
+

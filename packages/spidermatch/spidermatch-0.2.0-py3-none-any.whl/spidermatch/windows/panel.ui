@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PanelWindow</class>
+ <widget class="QMainWindow" name="PanelWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1500</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Main Panel | SpiderMatch</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../assets/icon_teal.png</normaloff>../assets/icon_teal.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1500</width>
+     <height>800</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="config_group_box">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Configuracion</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QTabWidget" name="config_tabs">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>700</width>
+         <height>330</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="searchTab">
+        <attribute name="title">
+         <string>Busqueda</string>
+        </attribute>
+        <widget class="QWidget" name="formLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>751</width>
+           <height>291</height>
+          </rect>
+         </property>
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Pais:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="country_input">
+            <property name="text">
+             <string>CL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Dominio:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="domain_input">
+            <property name="text">
+             <string>google.cl</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Lenguaje:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="language_input">
+            <property name="text">
+             <string>es-419</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Limite de Resultados (profundidad):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="limit_input">
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Granularidad (meses):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QSpinBox" name="granularity_input">
+            <property name="suffix">
+             <string> mes(es)</string>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>600</number>
+            </property>
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="start_search_button">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>400</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Comenzar busqueda</string>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progress_bar">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>400</y>
+         <width>571</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="sites_group_box">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Sitios y Fuentes (0)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>700</width>
+         <height>400</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QListWidget" name="site_list_view"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="site_import_button">
+            <property name="text">
+             <string>Importar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="site_export_button">
+            <property name="text">
+             <string>Exportar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="site_add_button">
+            <property name="text">
+             <string>Agregar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="site_delete_button">
+            <property name="text">
+             <string>Eliminar</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="rules_group_box">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Reglas de Busqueda (0)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>700</width>
+         <height>400</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QListWidget" name="rule_list_view"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="rule_import_button">
+            <property name="text">
+             <string>Importar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rule_export_button">
+            <property name="text">
+             <string>Exportar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rule_add_button">
+            <property name="text">
+             <string>Agregar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rule_edit_button">
+            <property name="text">
+             <string>Editar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rule_delete_button">
+            <property name="text">
+             <string>Eliminar</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="hits_group_box">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Resultados (0)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>700</width>
+         <height>400</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="export_results_button">
+          <property name="text">
+           <string>Exportar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QListWidget" name="hits_list_view"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Guardar como</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
