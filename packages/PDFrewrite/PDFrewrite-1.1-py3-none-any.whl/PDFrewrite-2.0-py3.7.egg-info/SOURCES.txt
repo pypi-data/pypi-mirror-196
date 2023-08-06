@@ -1,0 +1,6 @@
+setup.py
+PDFrewrite.egg-info/PKG-INFO
+PDFrewrite.egg-info/SOURCES.txt
+PDFrewrite.egg-info/dependency_links.txt
+PDFrewrite.egg-info/entry_points.txt
+PDFrewrite.egg-info/top_level.txt

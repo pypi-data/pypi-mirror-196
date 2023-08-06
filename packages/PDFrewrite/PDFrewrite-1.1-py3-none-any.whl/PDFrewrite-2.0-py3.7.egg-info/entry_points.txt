@@ -1,0 +1,3 @@
+[console_scripts]
+PDFrewrite = PDF.__main__:pdfrewrite
+
