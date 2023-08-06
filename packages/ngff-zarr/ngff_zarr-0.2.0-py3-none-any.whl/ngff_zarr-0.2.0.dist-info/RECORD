@@ -1,0 +1,15 @@
+ngff_zarr/__about__.py,sha256=JiOIQnUkMnVswdHnnZBF3iHi-HGYSIetyb6UvK-_C1w,138
+ngff_zarr/__init__.py,sha256=1KSf3ERkDDTkVbq5R3nAJd3DSLdGJFo-nw_J7hk5EKo,591
+ngff_zarr/itk_image_to_ngff_image.py,sha256=5FfnLvEy9noI5VQU-3EBwDbCrjHc9tHfS_TOcUN5oDs,2580
+ngff_zarr/ngff_image.py,sha256=wT61VQsB4qimNydeEb6kv8pkk9NagGe9y2yJm5dj8Aw,381
+ngff_zarr/to_multiscales.py,sha256=gbYj1Y97yXC-SiAoTkrJJBQcuC61q-91NXfypVVWXOo,6321
+ngff_zarr/to_ngff_image.py,sha256=lowdjdAN1UxF6B7LMltbWDnAbBlM-UsCfaSvwsUhoo0,3211
+ngff_zarr/to_ngff_zarr.py,sha256=N57d0vQ-BW9RaeQxnx6kaBG2YNqRyun2d0Ho6oxJedM,2254
+ngff_zarr/zarr_metadata.py,sha256=tJ_FawALZfCPPrWwj8O9srpfF77pxTVRiFzRWDjtqOw,2296
+ngff_zarr/methods/__init__.py,sha256=NvnHdkYzarN31w9FOkd57idmN0W2NYSBALERJr_gQSA,179
+ngff_zarr/methods/_dask_image.py,sha256=p2Q2d46iBXccRBW2UgwJ1MXDQXTI6Bgz4MOdfWBZO38,6532
+ngff_zarr/methods/_support.py,sha256=Pgjs_rLJ8_9mvgJ8BD5iT55DYvUWHwijktHbIuZjyjI,2176
+ngff_zarr-0.2.0.dist-info/METADATA,sha256=UfHOm5sZsxObsh_8fUuWID4f_jJPEy0o9niMMkGke-4,2932
+ngff_zarr-0.2.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+ngff_zarr-0.2.0.dist-info/licenses/LICENSE.txt,sha256=rYtGCVBzeTz5mZh8tIX-4JnYoj8oEMwoRzTp7rpIaYg,1093
+ngff_zarr-0.2.0.dist-info/RECORD,,
