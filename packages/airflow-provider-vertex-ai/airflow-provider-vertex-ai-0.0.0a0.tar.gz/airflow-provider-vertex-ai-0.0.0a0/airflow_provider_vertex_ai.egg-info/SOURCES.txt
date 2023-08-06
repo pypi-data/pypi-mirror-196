@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+airflow_provider_vertex_ai/__init__.py
+airflow_provider_vertex_ai.egg-info/PKG-INFO
+airflow_provider_vertex_ai.egg-info/SOURCES.txt
+airflow_provider_vertex_ai.egg-info/dependency_links.txt
+airflow_provider_vertex_ai.egg-info/not-zip-safe
+airflow_provider_vertex_ai.egg-info/requires.txt
+airflow_provider_vertex_ai.egg-info/top_level.txt
+airflow_provider_vertex_ai/hooks/__init__.py
+airflow_provider_vertex_ai/operators/__init__.py
+airflow_provider_vertex_ai/sensors/__init__.py
+airflow_provider_vertex_ai/triggers/__init__.py
