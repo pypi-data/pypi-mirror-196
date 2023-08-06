@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pintless
+Version: 0.1.0
+Summary: Simple and performant unit library for python
+Home-page: https://github.com/StephenWattam/pintless
+Author: Steve Wattam
+Author-email: steve@watt.am
+Provides-Extra: dev
+Provides-Extra: test
