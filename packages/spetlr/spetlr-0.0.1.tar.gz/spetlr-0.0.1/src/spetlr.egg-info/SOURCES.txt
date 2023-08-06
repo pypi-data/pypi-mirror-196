@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/spetlr/__init__.py
+src/spetlr/version.py
+src/spetlr.egg-info/PKG-INFO
+src/spetlr.egg-info/SOURCES.txt
+src/spetlr.egg-info/dependency_links.txt
+src/spetlr.egg-info/not-zip-safe
+src/spetlr.egg-info/requires.txt
+src/spetlr.egg-info/top_level.txt

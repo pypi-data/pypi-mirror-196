@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: spetlr
+Version: 0.0.1
+Summary: A common set of python libraries for Production ready Spark ETL
+Home-page: https://github.com/spetlr/spetlr
+Author: Spetlr.Org
+Author-email: spetlr.org@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/spetlr/spetlr
+Project-URL: Bug Reports, https://github.com/spetlr/spetlr/issues
+Project-URL: Source Code, https://github.com/spetlr/spetlr
+Description: Placeholder Spetlr readme.
+Keywords: databricks,pyspark
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
