@@ -1,0 +1,14 @@
+whispercpp-0.0.13.dist-info/RECORD,,
+whispercpp-0.0.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+whispercpp-0.0.13.dist-info/WHEEL,sha256=r8vYl5khRkKGsmXL9VvGCIC8PM9Hr8MIu1BY6q1Ukbs,110
+whispercpp-0.0.13.dist-info/top_level.txt,sha256=cKR_N6NZugBGiuvgIyVDsqg4AqMC_yhDu8KNzNTH6fU,11
+whispercpp-0.0.13.dist-info/METADATA,sha256=J0O6Pm0BzrxFI1hlt4DndTfcLIB8L8js_5YTfTNHmwA,6790
+whispercpp/audio.pyi,sha256=_LcyW7F8zLPoryeDHuMVnRlbKQZm8s7A4p_1Xnqwsj4,1016
+whispercpp/__init__.pyi,sha256=KIjxbO5HiyLMF0VOi5FM7epOIxZqJMf0DjXQzcO5Vsc,1734
+whispercpp/__init__.py,sha256=gd-6bHWXy6WRNRybrh5vWOwrh2ItUjwsKI5sQcUOGCk,8918
+whispercpp/api.pyi,sha256=lm2vyxYdDJf7RqRnY-znjRslgNcEgdnGJZdjiVebQ48,8276
+whispercpp/audio_cpp2py_export.so,sha256=zHdXmYa6LS6T54MBlFnwhcRmS-heDu6mnuRDf87dLsk,2397064
+whispercpp/utils.py,sha256=soAnQJCwZ7wMDgQ7dQdnRcRPWA4ZcM0LRVGe3OeElSo,5350
+whispercpp/__about__.py,sha256=hFF7tqYJ7eYZR_Ae6XErILfdXmw4giGBpShfPqnr5tg,162
+whispercpp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whispercpp/api_cpp2py_export.so,sha256=t-WmJck93VmhixUTbtyRGJDaIjqCixGWL29KjZOcoUo,1288624
