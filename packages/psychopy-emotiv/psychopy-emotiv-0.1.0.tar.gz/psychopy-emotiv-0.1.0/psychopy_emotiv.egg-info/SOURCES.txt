@@ -1,0 +1,45 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+docs/conf.py
+docs/favicon.png
+docs/utils.py
+docs/_build/html/_static/file.png
+docs/_build/html/_static/minus.png
+docs/_build/html/_static/plus.png
+docs/themes/__init__.py
+docs/themes/psychopy_bootstrap/static/psychopyLogoType3_h240.png
+docs/themes/psychopy_bootstrap/static/psychopyLogoType3_h480.png
+docs/themes/psychopy_bootstrap/static/psychopyLogoTypeAndStraps_h480.png
+docs/themes/psychopy_bootstrap/static/psychopyLogoType_h480.png
+docs/themes/psychopy_bootstrap/static/psychopyOnly3_h480.png
+docs/themes/psychopy_bootstrap/static/psychopyStrapEasy.png
+docs/themes/psychopy_bootstrap/static/psychopyStrapFlexible.png
+docs/themes/psychopy_bootstrap/static/psychopyStrapOnline3.png
+docs/themes/psychopy_bootstrap/static/psychopyStrapPrecise.png
+docs/themes/psychopy_plugin/static/Nottingham Supported.png
+docs/themes/psychopy_plugin/static/Psychopy Plugin Header Large.png
+docs/themes/psychopy_plugin/static/Psychopy Plugin Header Small.png
+psychopy_emotiv/__init__.py
+psychopy_emotiv/emotiv.py
+psychopy_emotiv.egg-info/PKG-INFO
+psychopy_emotiv.egg-info/SOURCES.txt
+psychopy_emotiv.egg-info/dependency_links.txt
+psychopy_emotiv.egg-info/entry_points.txt
+psychopy_emotiv.egg-info/requires.txt
+psychopy_emotiv.egg-info/top_level.txt
+psychopy_emotiv/emotiv_marking/__init__.py
+psychopy_emotiv/emotiv_marking/classic/emotiv_mark@2x.png
+psychopy_emotiv/emotiv_marking/classic/emotiv_marking.png
+psychopy_emotiv/emotiv_marking/dark/emotiv_marking.png
+psychopy_emotiv/emotiv_marking/dark/emotiv_marking@2x.png
+psychopy_emotiv/emotiv_marking/light/emotiv_marking.png
+psychopy_emotiv/emotiv_marking/light/emotiv_marking@2x.png
+psychopy_emotiv/emotiv_record/__init__.py
+psychopy_emotiv/emotiv_record/classic/emotiv_record.png
+psychopy_emotiv/emotiv_record/classic/emotiv_record@2x.png
+psychopy_emotiv/emotiv_record/dark/emotiv_record.png
+psychopy_emotiv/emotiv_record/dark/emotiv_record@2x.png
+psychopy_emotiv/emotiv_record/light/emotiv_record.png
+psychopy_emotiv/emotiv_record/light/emotiv_record@2x.png
