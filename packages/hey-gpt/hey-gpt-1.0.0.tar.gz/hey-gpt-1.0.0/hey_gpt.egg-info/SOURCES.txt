@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hey/__init__.py
+hey/cli.py
+hey/prompt.chat.txt
+hey/prompt.command.txt
+hey/prompt.start.txt
+hey_gpt.egg-info/PKG-INFO
+hey_gpt.egg-info/SOURCES.txt
+hey_gpt.egg-info/dependency_links.txt
+hey_gpt.egg-info/entry_points.txt
+hey_gpt.egg-info/requires.txt
+hey_gpt.egg-info/top_level.txt
