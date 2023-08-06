@@ -1,0 +1,13 @@
+critparse/CriterionMiniSeriesParse.py,sha256=9gJ7bZ8Ps9MxtBByZxDuCE5ufBBZl2f7tJnKbPMSvMM,2459
+critparse/CriterionMovieParse.py,sha256=-I36x-8C7VoQxlufd5bvsKyv5ODZlTXt37Fq8AEfVrI,7446
+critparse/CriterionParser.py,sha256=p-H-3GpV4l64hCesuxb824LeYy4P8klATAx2fixado8,15030
+critparse/OutApi.py,sha256=StqzSWU8QocMU1GpHB-tJo6Hy5bARFwKfZV5xjfJC4k,1172
+critparse/OutText.py,sha256=y5WSJjlM-E8uJT33TN-dL8ICnOgu3ViMJZZP-Ax6-4s,3273
+critparse/__init__.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+critparse/__main__.py,sha256=JUsyjMrkDYkgYYIO9h8YNeNEe0r9LKiFOP0TdnMAzF4,1149
+testcritparse/test_CriterionMovieParse.py,sha256=i_XpyjRGbhLSpbEkAAgPwN4I8Z97jxrecAC7z_fQb7A,10878
+testcritparse/test_CriterionParser.py,sha256=wWZ3qKFDdgj5XBUHdPpwOHQOGc3wEN7mcq8TkUEoR4c,679272
+criterion_site_parser-1.4.dist-info/METADATA,sha256=VZ415usvBJqPt5leQzOGRKz6d3zekt8LZa9Z6AaT7Mc,1814
+criterion_site_parser-1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+criterion_site_parser-1.4.dist-info/top_level.txt,sha256=J3Pv1Hxj0D7gloWzc7fcE0gojgmNXvWnQZsjDqvWlNc,24
+criterion_site_parser-1.4.dist-info/RECORD,,
