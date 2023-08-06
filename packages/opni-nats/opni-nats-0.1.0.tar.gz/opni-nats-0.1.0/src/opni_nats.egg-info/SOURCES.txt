@@ -1,0 +1,15 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/opni_nats/__init__.py
+src/opni_nats/jetstream-example.py
+src/opni_nats/nats_wrapper.py
+src/opni_nats.egg-info/PKG-INFO
+src/opni_nats.egg-info/SOURCES.txt
+src/opni_nats.egg-info/dependency_links.txt
+src/opni_nats.egg-info/requires.txt
+src/opni_nats.egg-info/top_level.txt
