@@ -1,0 +1,13 @@
+voluxexamplemodule/__init__.py,sha256=-ImjZHgZle0hg7BoCyaNvR-9MXJRdswoU3T8YkLSf8c,271
+voluxexamplemodule/__version__.py,sha256=OTGhrqyJG88jtSVlhLYuzAnAOtvv0FhL1wkleZ5so0A,113
+voluxexamplemodule/destination/__init__.py,sha256=HsTcdxlhXXPO_18v-S9dDnnu3nwE6y2G3srnnAw5mdQ,32
+voluxexamplemodule/destination/clibar.py,sha256=R43u0r2fgceLFBGDLuIMY2GBeoQDpSawZpynerHP6sE,2578
+voluxexamplemodule/source/__init__.py,sha256=P7uvAGC3XfGqoMYIaRNBAp7_9IY-aeqiL19jANN7gnM,32
+voluxexamplemodule/source/number.py,sha256=mgrxLg9qmR_BFFLrb0PkFzzORFdPWmzqntzJlAFYMik,736
+voluxexamplemodule/transformer/__init__.py,sha256=gjBNgcFLJ4yr8Vln3XyePnQAimXMPI5Wem-wzS9_EQE,36
+voluxexamplemodule/transformer/movingaverage.py,sha256=_BK-K5BHr4alIvcGq_Hlme0YgKpEzAZYcDISUKGULWc,812
+voluxexamplemodule/transformer/multiply.py,sha256=job57E5dN_HJZszLBAyM2x9nQKOkG_NsKmz_NOCBYPk,761
+voluxexamplemodule/util.py,sha256=qHSYvIz1G3Jqe25yFiH7H5bEo-Sj79qRqrZl4KEpCyg,396
+voluxexamplemodule-0.10.1.dist-info/METADATA,sha256=CLSIyWsV4jzTePwtPR-txEb6lekHE0rRhTZhjwCZVm0,733
+voluxexamplemodule-0.10.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+voluxexamplemodule-0.10.1.dist-info/RECORD,,
