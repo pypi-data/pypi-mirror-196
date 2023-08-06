@@ -1,0 +1,5 @@
+pytest
+Xponge
+MDAnalysis
+numpy
+scipy
