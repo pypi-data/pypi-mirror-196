@@ -1,0 +1,6 @@
+setup.py
+py4fuzzy/__init__.py
+py4fuzzy.egg-info/PKG-INFO
+py4fuzzy.egg-info/SOURCES.txt
+py4fuzzy.egg-info/dependency_links.txt
+py4fuzzy.egg-info/top_level.txt
