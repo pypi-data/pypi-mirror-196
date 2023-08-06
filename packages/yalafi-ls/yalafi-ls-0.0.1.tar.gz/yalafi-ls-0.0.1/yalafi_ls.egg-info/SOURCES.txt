@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+yalafi_ls/__init__.py
+yalafi_ls/__main__.py
+yalafi_ls/server.py
+yalafi_ls.egg-info/PKG-INFO
+yalafi_ls.egg-info/SOURCES.txt
+yalafi_ls.egg-info/dependency_links.txt
+yalafi_ls.egg-info/requires.txt
+yalafi_ls.egg-info/top_level.txt

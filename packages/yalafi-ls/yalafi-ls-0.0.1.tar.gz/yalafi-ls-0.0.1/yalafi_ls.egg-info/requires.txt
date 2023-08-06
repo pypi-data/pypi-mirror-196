@@ -1,0 +1,3 @@
+lsprotocol
+pygls~=1.0
+yalafi

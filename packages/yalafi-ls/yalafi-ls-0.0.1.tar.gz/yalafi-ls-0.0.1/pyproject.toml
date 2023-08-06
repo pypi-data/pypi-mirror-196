@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yalafi-ls"
+version = "0.0.1"
+authors = [{"name" = "torik42"}]
+description = "YaLafi LSP server for spellchecking LaTeX documents"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+]
+dependencies = [
+    "lsprotocol",
+    "pygls ~= 1.0",
+    "yalafi",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/torik42/YaLafi-LS"
+"Changelog" = "https://github.com/torik42/YaLafi-LS/blob/main/HISTORY.md"
+"Documentation" = "https://github.com/torik42/YaLafi-LS"
+"Issue Tracker" = "https://github.com/torik42/YaLafi-LS/issues"
+
+[tool.setuptools.packages.find]
+include = ["yalafi_ls*"]
+
+[tool.pylint.main]
+disable = [
+    "unused-argument",
+]
