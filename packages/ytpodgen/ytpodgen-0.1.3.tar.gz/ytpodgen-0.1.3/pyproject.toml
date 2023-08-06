@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ytpodgen"
+version = "0.1.3"
+description = "turns YouTube live streams into podcasts"
+authors = ["harupong <harupong@gmail.com>"]
+readme = "README.md"
+include = [
+    "ytpodgen/channel.rss.erb",
+    "ytpodgen/channel.yml.example"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+click = "^8.1.3"
+loguru = "^0.6.0"
+boto3 = "^1.26.89"
+yt-dlp = "^2023.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ytpodgen = "ytpodgen.ytpodgen:cli"
