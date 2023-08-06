@@ -1,0 +1,45 @@
+![Coverage](https://gitlab.ics.muni.cz/cryton/cryton-worker/badges/master/coverage.svg)
+
+[//]: # (TODO: add badges for python versions, black, pylint, flake8, unit tests, integration tests)
+
+# Cryton Worker
+Cryton Worker is used for executing attack modules remotely. It utilizes [RabbitMQ](https://www.rabbitmq.com/) 
+as its asynchronous remote procedures call protocol. It connects to the Rabbit MQ server and consumes messages from 
+the Core component or any other app that implements its RabbitMQ API.
+
+Cryton toolset is tested and targeted primarily on **Debian** and **Kali Linux**. Please keep in mind that **only 
+the latest version is supported** and issues regarding different OS or distributions may **not** be resolved.
+
+For more information see the [documentation](https://cryton.gitlab-pages.ics.muni.cz/cryton-documentation/).
+
+## Quick-start
+To be able to execute attack scenarios, you also need to install **[Cryton Core](https://gitlab.ics.muni.cz/cryton/cryton-core)**.  
+Modules provided by Cryton can be found [here](https://gitlab.ics.muni.cz/cryton/cryton-modules). **Their installation will
+be covered in this section**.
+
+Make sure Git, Docker, and Docker Compose plugin are installed:
+- [Git](https://git-scm.com/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+Optionally, check out these Docker [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
+
+The following script clones the necessary repositories (Worker and modules), updates Worker's settings, and runs the 
+Docker Compose configuration which starts the Worker, and its prerequisites (Metasploit and Empire framework).
+```shell
+git clone https://gitlab.ics.muni.cz/cryton/cryton-modules.git
+cd cryton-modules
+git checkout $(git tag --list "2023.1.*" | tail -n 1)
+cd ..
+export CRYTON_MODULES_PATH=$(pwd)/cryton-modules/modules
+git clone https://gitlab.ics.muni.cz/cryton/cryton-worker.git
+cd cryton-worker
+git checkout $(git tag --list "2023.1.*" | tail -n 1)
+sed -i "s|CRYTON_WORKER_MODULES_DIR=CHANGE_ME|CRYTON_WORKER_MODULES_DIR=$CRYTON_MODULES_PATH|" .env
+docker compose up -d
+```
+
+For more information see the [documentation](https://cryton.gitlab-pages.ics.muni.cz/cryton-documentation/).
+
+## Contributing
+Contributions are welcome. Please **contribute to the [project mirror](https://gitlab.com/cryton-toolset)** on gitlab.com.
+For more information see the [contribution page](https://cryton.gitlab-pages.ics.muni.cz/cryton-documentation/latest/contribution-guide/).
