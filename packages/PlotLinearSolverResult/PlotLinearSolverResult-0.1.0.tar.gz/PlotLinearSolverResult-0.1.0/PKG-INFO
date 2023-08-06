@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: PlotLinearSolverResult
+Version: 0.1.0
+Summary: This project is for plot LinearMSTMM solver result that is write with hdf5.
+Author: Zhengquan Liu
+License: MIT
+License-File: LICENSE
