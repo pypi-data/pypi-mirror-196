@@ -1,0 +1,9 @@
+typer
+boto3
+python-dotenv
+pandas
+python-dotenv
+bcrypt
+python-jose
+fastapi
+requests
