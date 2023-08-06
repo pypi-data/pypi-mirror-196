@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: sunsynkloggerapi
+Version: 0.0.22
+Summary: SynSynk Logger API Python Library
+Home-page: https://github.com/StickeyTape/sunsynkloggerapi
+Author: Jacques Coetzer
+Project-URL: Bug Reports, https://github.com/StickeyTape/sunsynkloggerapi/issues
+Project-URL: Source, https://github.com/StickeyTape/sunsynkloggerapi/
+Keywords: inverter,sunsynk,logger,python,library
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: voluptuous
+Requires-Dist: python-dateutil
+
+# SunSynk Logger API
+This Python library retrieves data on your Sunsynk Inverter (with SunSynk Logger), photovoltaic panels, and battery if you have one.
+
+See <https://www.sunsynk.org/> for more information on Sunsynk inverters.
+
+This code was developed on a Single SunSynk 5k with Panels and 1x BMS Connected and has not been tested against any other combinations.
+
+This implementation does not interface directly with the SunSynk logger. Instead it connects to the SunSynk API and collects the information from there.
+
+> DISCLAIMER: Use at your own risk!
+
+## SunSynk Python Library
+
+The Python library is available through pip:
+
+```bash
+pip install sunsynkloggerapi
+```
+
+## Example Usage
+
+```python
+import sunsynkloggerapi
+
+sunsynk = sunsynkloggerapi.SunSynkLoggerAPI()
+username = ""   # https://www.sunsynk.net Username
+password = ""   # https://www.sunsynk.net Pasword
+
+if  not sunsynk._isAuthenticated:
+  await sunsynk.Login(username, password)
+  await sunsynk.read()
+  for i in sunsynk.inverters:
+	  print("Inverter : (" + str(i.sn) +") " + i.alias)
+```
+
+## Credits
+
+This library has been inspired by the amazing work of the following projects
+
+https://github.com/kellerza/sunsynk
