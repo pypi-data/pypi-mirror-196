@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+main.py
+requirements.txt
+setup.py
+cryptolibrary.egg-info/PKG-INFO
+cryptolibrary.egg-info/SOURCES.txt
+cryptolibrary.egg-info/dependency_links.txt
+cryptolibrary.egg-info/requires.txt
+cryptolibrary.egg-info/top_level.txt
