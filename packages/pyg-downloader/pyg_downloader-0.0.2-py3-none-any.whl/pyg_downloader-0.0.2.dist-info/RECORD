@@ -1,0 +1,12 @@
+pyg_downloader/__init__.py,sha256=6JeeiFyWciqZJeq3Kv1T08tFyO6-MwdLQHWAAhBvFZo,60
+pyg_downloader/downloader.py,sha256=rJo58vDFK7zXs5URLqC6CTRNPBU0uKnYMQdjNf2pcrA,1444
+pyg_manager/__init__.py,sha256=s1BZnA_AyL7p5Fmi2KFD8nkDH6yOVkHnucHwHfaPrhA,67
+pyg_manager/manager.py,sha256=cSH8JorR6p3F8Lijq2jGuYK71eyEvOiZKu8HdKY5CzQ,4923
+pygcli/__init__.py,sha256=RhDt2t9Fr_d8UTVmpev-2yd5HrcdU1TCUnfa1pnVFEk,37
+pygcli/cli.py,sha256=Lx-fVvxsQTg0sgTaWl5LBEcHEYLs7LJyL80_R7tbIsM,1113
+pyg_downloader-0.0.2.dist-info/LICENSE,sha256=1HKmXNsd4kCCiZ1IoIKdZFGsbGFom21mkFtfLBSBaWI,1064
+pyg_downloader-0.0.2.dist-info/METADATA,sha256=37_yhpRgyeMiyIuK5yQdXJmNJQ6mfmrD_eBEstlJMio,2019
+pyg_downloader-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyg_downloader-0.0.2.dist-info/entry_points.txt,sha256=mwgb2M6RX2IwqiNL0TkYIlEn1Rjw6J0DIKxNnkVgYAY,46
+pyg_downloader-0.0.2.dist-info/top_level.txt,sha256=XOowWHBCA8IXLmgqZqnvBcBoN-F1GobSGb177QaGZns,34
+pyg_downloader-0.0.2.dist-info/RECORD,,
