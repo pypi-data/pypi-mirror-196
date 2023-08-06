@@ -1,0 +1,13 @@
+djreviews/__init__.py,sha256=p_cbjnOdzdkirDYJRmTSszSnabneP1gRIKJU5dD8tTg,19
+djreviews/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djreviews/app.py,sha256=TOy461IcI7kBSvGZQp4eRqQB1EG3H6For0WUX_Dm62Q,160
+djreviews/models.py,sha256=ktQgXgNmg-40WWTKN-mUeebt30B_ItV0lGKGJgmzjkI,2923
+djreviews/settings.py,sha256=fUMbx0y6JKvHWzwZ4inswABr0-nPKmal1mw1lsuS6i0,89
+djreviews/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djreviews/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djreviews/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djreviews/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djreviews-0.0.1.dist-info/METADATA,sha256=NJBEy-INOvy7SnIkjnT-L8YOqNFc8Jk0alnjsbApsMQ,1685
+djreviews-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+djreviews-0.0.1.dist-info/top_level.txt,sha256=teckHotODkP3O5gHInst78NSeJospjzDcwcE8vW8hqg,10
+djreviews-0.0.1.dist-info/RECORD,,
