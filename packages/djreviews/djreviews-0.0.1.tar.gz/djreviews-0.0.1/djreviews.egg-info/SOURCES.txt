@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+djreviews/__init__.py
+djreviews/admin.py
+djreviews/app.py
+djreviews/models.py
+djreviews/settings.py
+djreviews/tests.py
+djreviews/urls.py
+djreviews/utils.py
+djreviews/views.py
+djreviews.egg-info/PKG-INFO
+djreviews.egg-info/SOURCES.txt
+djreviews.egg-info/dependency_links.txt
+djreviews.egg-info/requires.txt
+djreviews.egg-info/top_level.txt
