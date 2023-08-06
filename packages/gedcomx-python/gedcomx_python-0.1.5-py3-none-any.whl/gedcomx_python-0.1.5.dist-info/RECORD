@@ -1,0 +1,12 @@
+gedcomx/__init__.py,sha256=ATF41KRnjXwFAoqjKVoENE4yq-DWXgE_tmFZ_GoF_EQ,54
+gedcomx/date.py,sha256=9tZ3qMP46oU2U7K2I4LmPA9AP2o5eNNX8iTSX1mvZDY,3579
+gedcomx/enums.py,sha256=YA1L_d20JKPKDG6sn_ctnJxC5pbLqxLUKh1krjROpw4,13772
+gedcomx/fileformat.py,sha256=3JIWz5w6OhbWQ4WxnNbX-EEVVjKH43cHPvy-GzmBkik,1038
+gedcomx/models.py,sha256=_aoErXs0DbS2yBcYcaJq4VTfLBXDy_w0NENrXRqfde8,9089
+gedcomx/reader.py,sha256=Xq2Q6iM2LiEpDclldUhA732KOAI_5f6A7IXIiJ96fJM,264
+gedcomx/record.py,sha256=qwmnMb9vhNvg2WdIepB9E9TCllfBsQI88ISLueuSZtQ,2508
+gedcomx/utils.py,sha256=GgsEhPBdng-ZEev00_bpD__az21zxvM2aCqZ747bIxg,7698
+gedcomx_python-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gedcomx_python-0.1.5.dist-info/METADATA,sha256=-G21cwP8Jb4CAZh-DQy43dGxCrP_n11NUHTcTGRcKbE,2173
+gedcomx_python-0.1.5.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+gedcomx_python-0.1.5.dist-info/RECORD,,
