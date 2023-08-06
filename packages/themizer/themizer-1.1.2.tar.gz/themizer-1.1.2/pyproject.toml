@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "themizer"
+version = "1.1.2"
+description = "An easy and fast CLI app to change between custom themes in Unix-like systems."
+authors = ["kutu-dev"]
+license = "MIT License"
+readme = "README.md"
+keywords = ["themes", "utility", "manager"]
+homepage = "https://github.com/kutu-dev/themizer"
+repository = "https://github.com/kutu-dev/themizer"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.scripts]
+themizer = "themizer.args:process_args"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
