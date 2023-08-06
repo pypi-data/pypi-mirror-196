@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/report_generation.py
+challenge.report_generation.egg-info/PKG-INFO
+challenge.report_generation.egg-info/SOURCES.txt
+challenge.report_generation.egg-info/dependency_links.txt
+challenge.report_generation.egg-info/requires.txt
+challenge.report_generation.egg-info/top_level.txt
