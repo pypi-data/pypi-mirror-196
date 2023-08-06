@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: molSim
+Version: 0.0.7
+Summary: This package has been renamed to AIMSim, please use `pip install aimsim`
+Author-email: Jackson Burns <jwburns@mit.edu>, Himaghna Bhattacharjee <himaghna@udel.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/VlachosGroup/AIMSim
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# This project has been renamed to AIMSim and moved to github.com/VlachosGroup/AIMSim
+## Please install using `pip install aimsim`

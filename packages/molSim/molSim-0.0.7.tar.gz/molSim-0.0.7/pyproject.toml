@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molSim"
+version = "0.0.7"
+authors = [
+    { name = "Jackson Burns", email = "jwburns@mit.edu" },
+    { name = "Himaghna Bhattacharjee", email = "himaghna@udel.edu" },
+]
+license = { text = "MIT" }
+description = "This package has been renamed to AIMSim, please use `pip install aimsim`"
+classifiers = ["Programming Language :: Python :: 3"]
+urls = { Homepage = "https://github.com/VlachosGroup/AIMSim" }
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools]
+packages = ["molSim"]
