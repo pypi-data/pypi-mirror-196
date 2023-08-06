@@ -1,0 +1,9 @@
+setup.py
+bwslib/__init__.py
+bwslib/bws_auth.py
+bwslib/sseclient.py
+lineage_bwslib.egg-info/PKG-INFO
+lineage_bwslib.egg-info/SOURCES.txt
+lineage_bwslib.egg-info/dependency_links.txt
+lineage_bwslib.egg-info/requires.txt
+lineage_bwslib.egg-info/top_level.txt

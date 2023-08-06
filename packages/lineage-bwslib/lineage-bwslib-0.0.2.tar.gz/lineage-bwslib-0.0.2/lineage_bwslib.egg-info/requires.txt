@@ -1,0 +1,4 @@
+jwt
+requests
+retrying
+urllib3

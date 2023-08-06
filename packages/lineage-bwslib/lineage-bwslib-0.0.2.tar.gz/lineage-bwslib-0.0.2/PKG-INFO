@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lineage-bwslib
+Version: 0.0.2
+Summary: BWS auth lib package
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
