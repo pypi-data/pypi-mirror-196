@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a3faker/__init__.py
+a3faker/faker_proxy.py
+a3faker.egg-info/PKG-INFO
+a3faker.egg-info/SOURCES.txt
+a3faker.egg-info/dependency_links.txt
+a3faker.egg-info/not-zip-safe
+a3faker.egg-info/requires.txt
+a3faker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_a3faker.py

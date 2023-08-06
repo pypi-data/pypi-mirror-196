@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: a3faker
+Version: 0.1.0
+Summary: It's just a thin wrapper of Faker, because PyCharm cannot autocomplete Faker related code.
+Home-page: https://gitee.com/three-kinds/a3faker
+Author: three-kinds
+Author-email: 3179158552@qq.com
+License: Apache 2.0
+Project-URL: Documentation, https://gitee.com/three-kinds/a3faker
+Project-URL: Source, https://gitee.com/three-kinds/a3faker
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# a3faker
+
+* It's just a thin wrapper of [Faker](https://pypi.org/project/Faker/), because PyCharm cannot autocomplete Faker related code.
+
+## Install
+
+```shell script
+pip install a3faker
+
+```
+
+## Examples
+
+### 1. Autocomplete
+
+```python
+from faker import Faker
+from a3faker import TypePersonFaker, TypeAllFakers
+
+# But there is a warning here，the solution is below.
+f: TypePersonFaker = Faker()
+f.name()
+
+f: TypeAllFakers = Faker()
+f.past_date()
+
+```
+
+### 2. `FakerProxy` get LOCALE from environment variable
+
+
+```python
+import os
+from a3faker import FakerProxy, TypePersonFaker
+
+os.environ['FAKER_LOCALE'] = 'zh_CN'
+f: TypePersonFaker = FakerProxy.get_faker()
+f.name()
+
+```
