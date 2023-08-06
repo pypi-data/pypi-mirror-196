@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kannon
+Version: 0.1.0
+Summary: Kannon is a wrapper for the gokart library that allows gokart tasks to be easily executed in a distributed and parallel manner on multiple kubernetes jobs.
+License: MIT
+Author: M3, inc.
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fire (>=0.5.0,<0.6.0)
+Requires-Dist: gokart (>=1.2.2,<2.0.0)
+Requires-Dist: kubernetes (>=26.1.0,<27.0.0)
+Description-Content-Type: text/markdown
+
+# kannon
+
+Kannon is a wrapper for the [gokart](https://github.com/m3dev/gokart) library that allows gokart tasks to be easily executed in a distributed and parallel manner on multiple [kubernetes](https://kubernetes.io/) jobs.
+
+# Thanks
+
+Kannon is a wrapper for gokart. Thanks to gokart and dependent projects!
+
+- [gokart](https://github.com/m3dev/gokart)
+
