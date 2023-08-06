@@ -1,0 +1,14 @@
+name: fewspy
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - aiohttp
+  - nest-asyncio
+  - requests
+  - pandas
+  - geopandas
+  - pip:
+    - fewspy

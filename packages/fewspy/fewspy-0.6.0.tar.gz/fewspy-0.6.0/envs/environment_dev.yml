@@ -1,0 +1,23 @@
+name: fewspy
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - aiohttp
+  - nest-asyncio
+  - black
+  - jupyter
+  - pandas
+  - mkdocs
+  - mkdocstrings
+  - mkdocstrings-python
+  - mkdocs-material
+  - geopandas
+  - requests
+  - pytest
+  - pytest-cov
+  - pytest-black
+  - pytest-flakes
+  - twine
