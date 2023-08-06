@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiomoney
+Version: 1.0.2
+Summary: Простая асинхонная библитека для работы с API ЮMoney
+Home-page: https://github.com/fofmow/aiomoney
+Download-URL: https://github.com/fofmow/aiomoney
+Author: fofmow
+Author-email: fofmow@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+aiomoney/README.md
