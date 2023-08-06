@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+scrapy_settings_log/__init__.py
+scrapy_settings_log/scrapy_settings_log.py
+scrapy_settings_log.egg-info/PKG-INFO
+scrapy_settings_log.egg-info/SOURCES.txt
+scrapy_settings_log.egg-info/dependency_links.txt
+scrapy_settings_log.egg-info/requires.txt
+scrapy_settings_log.egg-info/top_level.txt
+tests/__init__.py
+tests/test_code.py
