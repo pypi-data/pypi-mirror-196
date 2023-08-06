@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cunitpy.egg-info/PKG-INFO
+src/cunitpy.egg-info/SOURCES.txt
+src/cunitpy.egg-info/dependency_links.txt
+src/cunitpy.egg-info/top_level.txt
