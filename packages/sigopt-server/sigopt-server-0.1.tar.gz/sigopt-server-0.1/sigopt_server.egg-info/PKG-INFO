@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sigopt-server
+Version: 0.1
+Summary: SigOpt Server
+Home-page: https://sigopt.com/
+Author: SigOpt
+Author-email: sigopt.support@intel.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
