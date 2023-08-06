@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdock"
+version = "0.0.1"
+description = "Matplotlib figure dock based on QT"
+readme = "README.md"
+authors = [{ name = "Mikkel N. Schmidt", email = "mnsc@dtu.dk" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["matplotlib", "figure", "dock"]
+dependencies = [
+    "matplotlib",
+    "pyqtads",
+]
+requires-python = ">=3.9"
+
+#[project.urls]
+#Homepage = "https://github.com/"
+
