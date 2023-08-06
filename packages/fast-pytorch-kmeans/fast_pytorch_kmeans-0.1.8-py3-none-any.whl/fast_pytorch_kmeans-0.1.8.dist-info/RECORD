@@ -1,0 +1,8 @@
+fast_pytorch_kmeans/__init__.py,sha256=XFBxdEf8o4qTcb3isWusr_8vVc94Uhbg0pDEfGX8-wc,105
+fast_pytorch_kmeans/kmeans.py,sha256=MNA0ZjNztjtzGBRW0lwown9i0yVVDvI7GdSJPwfCrFg,6980
+fast_pytorch_kmeans/multi_kmeans.py,sha256=joGizg4TkkjjKgXmKpDvLvpbFKSOhC0rlpMAXXMwXu0,5851
+fast_pytorch_kmeans-0.1.8.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+fast_pytorch_kmeans-0.1.8.dist-info/METADATA,sha256=J59bAfaAMG0FtX3sKgz4IMp6C8_43BWhThaFwsOFduc,1002
+fast_pytorch_kmeans-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fast_pytorch_kmeans-0.1.8.dist-info/top_level.txt,sha256=4CC8v5SL6v6ZMa3EBNqQtxZWkTxPWuEzUQ7PbTcplWM,20
+fast_pytorch_kmeans-0.1.8.dist-info/RECORD,,
