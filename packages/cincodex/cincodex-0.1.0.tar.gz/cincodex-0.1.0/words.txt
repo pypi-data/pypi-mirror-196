@@ -1,0 +1,20 @@
+cincodex
+cincodex's
+issubclass
+pytest
+mypy
+isort
+subclassing
+unopinionated
+noqa
+isatty
+modname
+codexes
+
+# sphinx / autodoc words
+autoclass
+toctree
+maxdepth
+genindex
+modindex
+autofunction

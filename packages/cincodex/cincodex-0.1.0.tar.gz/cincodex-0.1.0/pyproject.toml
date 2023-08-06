@@ -1,0 +1,114 @@
+[tool.poetry]
+name = "cincodex"
+version = "0.1.0"
+description = "Simple, flexible, and unopinionated plugin system for Python projects."
+authors = ["Adam Meily"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://gitlab.com/ameily/cincodex"
+repository = "https://gitlab.com/ameily/cincodex"
+documentation = "https://cincodex.readthedocs.io/en/latest/"
+keywords = ["plugin", "pluggable", "extension", "extensible"]
+include = [
+    { path = "example_app", format = "sdist" },
+    { path = "docs", format = "sdist" },
+    { path = ".flake8", format = "sdist" },
+    { path = "cspell.json", format = "sdist" },
+    { path = "words.txt", format = "sdist" },
+    { path = "CHANGELOG.md", format = "sdist" },
+    { path = "CONTRIBUTING.md", format = "sdist" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.0.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+flake8 = "^4.0.1"
+bandit = "^1.7.4"
+pytest = "^7.2.1"
+###################################################################################################
+# NOTE:
+# when updating Sphinx and any Sphinx extension, make sure to update the docs/rtd-requirements.txt
+# as well, which is used by readthedocs.org to setup the build environment. This only applied to
+# extensions and does not apply to the Sphinx HTML theme.
+sphinx = "^6.1.3"
+sphinx-autodoc-typehints = "^1.22"
+###################################################################################################
+sphinx-rtd-theme = "^1.2.0"
+flake8-docstrings = "^1.7.0"
+coverage = "^7.1.0"
+poethepoet = "^0.18.1"
+
+[tool.blue]
+line-length = 99
+
+[tool.isort]
+profile = "black"
+
+[tool.coverage.report]
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    'pragma: no cover',
+
+    # Don't complain about missing debug-only code:
+    'def __repr__',
+
+    # Don't complain if tests don't hit defensive assertion code:
+    'raise AssertionError',
+    'raise NotImplementedError',
+
+    # Don't complain if non-runnable code isn't run:
+    'if __name__ == .__main__.:',
+
+    # Don't complain about abstract methods, they aren't run:
+    '@(abc\.)?abstractmethod'
+]
+
+
+[tool.poe.tasks]
+"build-docs" = "sphinx-build docs/source docs/build"
+"check-format" = [
+    { cmd = "blue --check cincodex.py test docs/source/conf.py example_app" },
+    { cmd = "isort --check cincodex.py test docs/source/conf.py example_app" }
+]
+"check-security" = "bandit cincodex"
+"check-spelling" = { shell = "npx cspell lint README.md cincodex.py docs/source/*.rst example_app/**/*.py" }
+"check-typing" = "mypy cincodex.py"
+checks = [
+    "check-format",
+    "lint",
+    "check-typing",
+    "check-security"
+]
+ci = [
+    "checks",
+    "tests",
+    "build-docs"
+]
+format = [
+    { cmd = "blue cincodex.py test docs/source/conf.py example_app" },
+    { cmd = "isort cincodex.py test docs/source/conf.py example_app" }
+]
+lint = "flake8 cincodex.py example_app"
+tests = [
+    { cmd = "coverage run --source cincodex -m pytest" },
+    { cmd = "coverage report -m" }
+]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

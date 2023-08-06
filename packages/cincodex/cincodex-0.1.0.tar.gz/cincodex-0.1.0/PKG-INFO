@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: cincodex
+Version: 0.1.0
+Summary: Simple, flexible, and unopinionated plugin system for Python projects.
+Home-page: https://gitlab.com/ameily/cincodex
+License: MIT
+Keywords: plugin,pluggable,extension,extensible
+Author: Adam Meily
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Documentation, https://cincodex.readthedocs.io/en/latest/
+Project-URL: Repository, https://gitlab.com/ameily/cincodex
+Description-Content-Type: text/markdown
+
+# cincodex
+
+[![Build Status](https://gitlab.com/ameily/cincodex/badges/main/pipeline.svg)](https://gitlab.com/ameily/cincodex/-/pipelines/main/latest)
+[![Test Coverage](https://gitlab.com/ameily/cincodex/badges/main/coverage.svg)](https://gitlab.com/ameily/cincodex/-/pipelines/main/latest)
+[![Read The Docs](https://readthedocs.org/projects/cincodex/badge/?version=latest&style=flat)](https://cincodex.readthedocs.io/en/latest/)
+[![Latest Release](https://gitlab.com/ameily/cincodex/-/badges/release.svg)](https://gitlab.com/ameily/cincodex/-/releases)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blueviolet)](https://www.python.org/downloads/release/python-31010/)
+[![MIT License](https://img.shields.io/badge/license-MIT-9cf)](/ameily/cincodex/-/blob/main/LICENSE)
+
+Cincodex is a simple, flexible, and unopinionated plugin system for Python projects. Cincodex is designed for both applications and libraries that wish to be extensible at runtime. Plugins can be any Python object including a class, a function, or an instance of an object. The following is a very basic example showing that the application creates a Codex, which is the plugin system, then discovers all available plugins within the `./plugins` directory, and the `./plugins/foo/bar.py` source file registers a function with the codex.
+
+```python
+# app.py
+from cincodex import Codex, register_codex
+
+codex = Codex('my_app')
+register_codex(codex)
+
+# discover all plugins
+codex.discover_plugins('./plugins')
+
+# after this, the `foo.bar` plugin is available and we can call it.
+plugin = codex.get('foo.bar')
+plugin()
+# 'Hello world!'
+
+
+# ./plugins/foo/bar.py
+from app import codex
+
+@codex.register
+@codex.metadata(id='foo.bar')
+def foo_bar_plugin():
+    print('Hello world!')
+```
+
+Cincodex has been tested on Linux and Windows systems but should support other operating systems as well. Cincodex supports Python 3.10 and newer.
+
+## Installation
+
+```bash
+pip install cincodex
+```
+
+## Features
+
+* Cincodex is designed to work with multiple Python packages within a single project. For example, an application can have its own plugin system a multiple dependencies can have their own plugin system and they will not interfere with each other.
+* Cincodex automatically discovers and registers all available plugins within one or more root directories.
+* The method of finding and loading plugins and registering their metadata are all extensible within cincodex. Easily customize the plugin metadata and change how plugins are loaded.
+* The `import` statement and machinery continues to work properly for discovered plugins, supporting both relative and absolute imports within plugins.
+* A plugin is anything: a class, a function, or an object instance. Cincodex works seamlessly with all plugin types.
+
+### A more complete example
+
+The following is a cincodex plugin system where:
+
+* A plugin base class that all plugin must implement. Each plugin says "hello" in a different language.
+* A custom plugin metadata class
+* Loading plugin from multiple directories
+
+**`hello.py`**
+
+This module defines the plugin metadata, plugin base class, and codex.
+
+```python
+#
+# hello.py
+#
+from cincodex import Codex, PluginMetadata, register_codex
+
+
+# First we create a custom plugin metadata class, inheriting from cincodex `PluginMetadata`
+class HelloPluginMetadata(PluginMetadata):
+    def __init__(self, id: str, *, lang: str):
+        super().__init__(id)
+        self.lang = lang
+
+
+# Our plugin system will be class based. So, next we create a base class that all plugins must
+# inherit from and implement the `say_hello` method.
+class HelloPlugin:
+    # __plugin_metadata__ is always set by cincodex with the call to `Codex.register`. We include
+    # the field here so that the IDE / type checking knows that __plugin_metadata__ is a class
+    # attribute.
+    __plugin_metadata__: HelloPluginMetadata
+
+    def say_hello(self) -> None:
+        raise NotImplementedError()
+
+
+# Create and register the codex
+codex: Codex[type[HelloPlugin], HelloPluginMetadata] = Codex('hello', HelloPluginMetadata)
+register_codex(codex)
+```
+
+**`builtin_plugins/english.py`**
+
+Defines a plugin that says "hello" in English.
+
+```python
+#
+# ./builtin_plugins/english.py
+#
+from hello import HelloPlugin, codex
+
+
+@codex.register
+@codex.metadata('lang.english', lang='en-us')
+class EnglishHello(HelloPlugin):
+    def say_hello(self):
+        name = input('What is your name? > ')
+        print('Hello,', name)
+```
+
+**`./contrib_plugins/german.py`**
+
+Defines a plugin that says "hello" in German.
+
+```python
+#
+# ./contrib_plugins/german.py
+#
+from hello import HelloPlugin
+
+from cincodex import get_codex
+
+# We registered the codex so we don't technically need to import it
+codex = get_codex('hello')
+
+
+@codex.register
+@codex.metadata('lang.german', lang='de')
+class GermanLang(HelloPlugin):
+    def say_hello(self):
+        name = input('Wie heissen sie? > ')
+        print('Guten tag,', name)
+```
+
+**`app.py`**
+
+Application script that discovers both builtin and contributed plugins and runs each sequentially.
+
+```python
+#
+# app.py
+#
+if __name__ == '__main__':
+    from hello import HelloPluginMetadata, codex
+
+    # Discover builtin and contributed plugins
+    codex.discover_plugins('./builtin_plugins')
+    codex.discover_plugins('./contrib_plugins')
+
+    # iterate over all available plugins
+    for plugin_cls in codex:
+        # `plugin_cls` is a type[HelloPlugin]
+        # get the plugin metadata
+        metadata = HelloPluginMetadata.get(plugin_cls)
+        # our codex registers plugin *classes*, so we need to first instantiate an instance of this
+        # plugin
+        plugin = plugin_cls()
+        print(f'Running plugin: {metadata.id} (lang: {metadata.lang})')
+        plugin.say_hello()
+        print()
+
+```
+
+In this example, running `python app.py` will output the following:
+
+```
+$ python app.py
+
+Running plugin: lang.english (lang: en-us)
+What is your name? > Adam
+Hello, Adam
+
+Running plugin: lang.german (lang: de)
+Wie heissen sie? > Wolfgang
+Guten tag, Wolfgang
+```
+
+This example is available in the `example_app` directory.
+
+### API Documentation
+
+Cincodex API documentation is generated by Sphinx and hosted on [Read the Docs](https://cincodex.readthedocs.io/en/latest/). The API documentation includes more detailed and complex examples and information on how to extend cincodex.
+
+## License
+
+Cincodex is licensed under the MIT permissive license.
+
+<!--
+cspell:ignore heissen Guten
+-->
+
