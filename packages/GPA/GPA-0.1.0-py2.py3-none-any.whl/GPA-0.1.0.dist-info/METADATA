@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: GPA
+Version: 0.1.0
+Summary: Python Library for Graph Program Analysis
+Home-page: https://github.com/shuwang127/libgpa
+Author: Shu Wang
+Keywords: gpa graph program analysis
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Security
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GPA
+
+![badge1](https://img.shields.io/pypi/v/GPA) ![badge2](https://img.shields.io/pypi/l/GPA) ![badge3](https://img.shields.io/pypi/pyversions/GPA) ![badge4](https://img.shields.io/pypi/wheel/GPA)
+<!-- (https://img.shields.io/pypi/dm/GPA) -->
+
+Graph Program Analysis Library in Python. 
+
+`GPA` package aims to provide better functions for researchers to analyze the code graphs.
+
+### Installation
+
+First, install the pre-required dependencies.
+
+```bash
+pip install -r requirements.tx
+```
+
+Then install our graph program analysis package.
+
+```bash
+pip install GPA
+```
+
+### Usage
+
+For example, the following `BinarySearch` code can be represented as a graph using tools like `joern`, then we can analyze the code graph via `GPA`.
+
+```C++
+int BinarySearch(int x, int a[], int length) {
+    int L = 0;
+    int R = length - 1;
+    do {
+        int m = (L + R) / 2;
+        if (x == a[n]){
+            return m;
+        } else if (x > a[m]){
+            L = m + 1;
+        } else {
+            R = m - 1;
+        }
+    } while (L <= R);
+    return -1;
+}
+```
+
+**STEP 1: Generate a code graph**
+
+```python
+from GPA.graphs import CodePropGraph
+g = CodePropGraph(name="example")
+```
+
+**STEP 2: Add nodes to the graph**
+
+```python
+g.addnodes("N1", "int L=0; int R=length-1;")
+g.addnodes("N2", "int m=(L+R)/2;")
+g.addnodes("N3", "if(x==a[n])")
+g.addnodes("N4", "return m;")
+g.addnodes("N5", "if (x<a[m])")
+g.addnodes("N6", "L=m+1;")
+g.addnodes("N7", "R=m-1;")
+g.addnodes("N8", "while(L<=R)")
+g.addnodes("N9", "return -1;")
+print(g.nodes[0], g.num_nodes)
+```
+
+You will see the graph contains 9 nodes:
+
+```python
+<GPA.modules.basic.CodeNode object at 0x7f7df8583dc0> 9
+```
+
+**STEP 3: Add edges to the graph**
+
+```python
+g.addedges("N1", "N2")
+g.addedges("N2", "N3")
+g.addedges("N3", "N4", edge_attr="True")
+g.addedges("N3", "N5", edge_attr="False")
+g.addedges("N5", "N6", edge_attr="True")
+g.addedges("N5", "N7", edge_attr="False")
+g.addedges("N6", "N8")
+g.addedges("N7", "N8")
+g.addedges("N8", "N2", edge_attr="True")
+g.addedges("N8", "N9", edge_attr="False")
+print(g.edges[0], g.num_edges)
+```
+
+You will see the graph contains 10 edges.
+
+```python
+<GPA.modules.basic.CodeEdge object at 0x7f7df857d5e0> 10
+```
+
+**Example 1: control flow graph walk**
+
+* set the initial node. 
+
+```python
+start_node = "N1"
+```
+
+* start walk through the graph. Note that all the possible nodes will be marked.
+
+```python
+start_node = g.nextstep(start_node, direction='forward')
+dot = g.draw(g.nodes2mask(start_node))
+display(dot)
+```
+
+Then you can see the next node(s). 
+
+Keep running the above code in [tests/test_cpg.ipynb](https://github.com/shuwang127/libgpa/blob/main/tests/test_cpg.ipynb) to see the execution paths.
+
+![Results-of-Graph-Walk](imgs/graph_walk.svg)
+
+**Example 2: code slicing**
+
+code slicing is a way to analyze the local block of specific statements.
+
+In this example, we show the 2-hop neighbors of control flow relationship with statement `if (x < a[m])`.
+
+```python
+slice_mask = [1 if 4 == idx else 0 for idx in range(g.num_nodes)]
+mask = g.slicing(slice_mask, neighbor=2, direction='bidirect')
+dot = g.draw(mask)
+display(dot)
+```
+
+We can see all the relevant statement are marked. 
+
+We can choose to use `forward`, `backward`, or `bidirect` slicing methods.
+
+![Results-of-Code-Slicing](imgs/code_slicing.svg)
+
+**License**
+
+This package is under GNU General Public License v3 (GPLv3).
+
+**Notes:**
+
+If you find any issues on the package or have any ideas to share, please contact us.
