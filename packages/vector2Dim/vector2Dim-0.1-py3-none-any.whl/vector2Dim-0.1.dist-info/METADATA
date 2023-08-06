@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vector2Dim
+Version: 0.1
+Summary: Vector2Dim is a python library to manage operations between vectors in 2D in a simple and intuitive way
+Author: Pasquale Mainolfi
+License: LICENSE.txt
+Keywords: vector,2D,numpy,development
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+
