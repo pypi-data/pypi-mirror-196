@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+bayesian_models/__init__.py
+bayesian_models.egg-info/PKG-INFO
+bayesian_models.egg-info/SOURCES.txt
+bayesian_models.egg-info/dependency_links.txt
+bayesian_models.egg-info/top_level.txt
