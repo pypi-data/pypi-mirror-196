@@ -1,0 +1,10 @@
+{
+  "test_compiler.py::test_str_escaping_single_quotes": true,
+  "test_compiler.py::test_str_templating": true,
+  "test_compiler.py::test_homogeneous_list_one_liner": true,
+  "test_compiler.py::test_list_heterogeneous_one_liner": true,
+  "test_compiler.py::test_list_nesting": true,
+  "test_lexer.py::test_multilist": true,
+  "test_compiler.py::test_set_heterogeneous": true,
+  "test_compiler.py::test_set_at_root": true
+}
