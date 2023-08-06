@@ -1,0 +1,23 @@
+{% extends theme('base.html') %}
+{% import "macro/table.html" as table %}
+
+{% block title %}
+    {% trans %}Tokens{% endtrans %}
+{% endblock %}
+
+{% block script %}
+    <script src="/static/js/users.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="ui attached segment">
+        <h2 class="ui center aligned header">
+            <div class="content">
+                {% trans %}Tokens{% endtrans %}
+            </div>
+        </h2>
+
+        {{ table.search(table_form, "table.tokens") }}
+    </div>
+    {% include "partial/oidc/admin/token_list.html" %}
+{% endblock %}
