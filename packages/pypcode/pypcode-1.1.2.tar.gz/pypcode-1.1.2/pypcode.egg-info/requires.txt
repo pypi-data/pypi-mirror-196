@@ -1,0 +1,8 @@
+cffi
+types-cffi
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+myst-parser
+furo
