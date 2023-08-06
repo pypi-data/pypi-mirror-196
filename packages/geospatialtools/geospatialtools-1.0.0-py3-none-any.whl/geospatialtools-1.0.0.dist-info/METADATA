@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: geospatialtools
+Version: 1.0.0
+Summary: Python modules that support ahndling geospatial data
+Author-email: Alaa Khamis <alaakhamis@gmail.com>
+Project-URL: Homepage, https://github.com/Optimization-Algorithms-Book/Code-Listings
+Project-URL: Bug Tracker, https://github.com/Optimization-Algorithms-Book/Code-Listings/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Geospatial Tools
+
+Python modules that support ahndling geospatial data
