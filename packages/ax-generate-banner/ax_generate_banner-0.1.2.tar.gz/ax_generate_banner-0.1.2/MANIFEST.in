@@ -1,0 +1,3 @@
+include core/requirements.txt
+include fonts/*
+include fonts
