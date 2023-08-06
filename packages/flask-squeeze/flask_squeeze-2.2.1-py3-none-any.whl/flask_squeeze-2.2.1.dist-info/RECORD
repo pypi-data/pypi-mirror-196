@@ -1,0 +1,11 @@
+flask_squeeze/__init__.py,sha256=5pEgeQp7Uh1IG_FNhzFcupOYzBRQjNoVrDCARm5_em8,36
+flask_squeeze/cache.py,sha256=k7vBItBJHsG5h7vfLPXZxiLu92GV1x72q-jtjiuyJME,875
+flask_squeeze/debugging.py,sha256=xRb04lNLg8HSJeX2Oop418SisnNgSUxKXE7ScLKP_j4,1506
+flask_squeeze/flask_squeeze.py,sha256=X4dZd__DPV_1aOZoLg-sU8c1V7C1DLuiHNDHXP0rjXc,7687
+flask_squeeze/logging.py,sha256=tXQsCbLShAEFOp2UQwfzrYS171m_E1Nx8dbNKyG_oHs,1719
+flask_squeeze/minifiers.py,sha256=AUK2eLpHWOZY2l9G8vbVh657MN217B1wFvD22WwDJPY,1817
+flask_squeeze/utils.py,sha256=cCUhsMbRBs64FVovCc_AS6g0T_koovCkQR9zy9dLV6Y,1049
+flask_squeeze-2.2.1.dist-info/LICENSE,sha256=K5UtC48AYqnFvsyehrIGmeQuulWtwct7euvR2o9nWwM,1061
+flask_squeeze-2.2.1.dist-info/METADATA,sha256=w07J8EF6fK-ql54FC8UpdNzPv_LUIJl9xeQkr-L-c_s,4633
+flask_squeeze-2.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+flask_squeeze-2.2.1.dist-info/RECORD,,
