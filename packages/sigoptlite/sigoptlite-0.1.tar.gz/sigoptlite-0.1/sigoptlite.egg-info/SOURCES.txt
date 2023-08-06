@@ -1,0 +1,5 @@
+setup.py
+sigoptlite.egg-info/PKG-INFO
+sigoptlite.egg-info/SOURCES.txt
+sigoptlite.egg-info/dependency_links.txt
+sigoptlite.egg-info/top_level.txt
