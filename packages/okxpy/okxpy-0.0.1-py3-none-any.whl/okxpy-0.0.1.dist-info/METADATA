@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: okxpy
+Version: 0.0.1
+Summary: A pip package for a Python wrapper that provides an interface to the OKX API
+Author: Enkh-Amar Ganbat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+# okxpy
