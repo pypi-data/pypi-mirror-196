@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: OASYS1-HALF-SRW
+Version: 0.0.1
+Summary: OASYS1-HALF-SRW: for attempt only in oasys
+Author: LYJ
+Author-email: luyujie_nsrl@mail.ustc.edu.cn
+License: GPLv3
+Keywords: X-ray wavefront,HALF,simulator,oasys1
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+License-File: LICENSE
+Requires-Dist: oasys1 (>=1.2.62)
+Requires-Dist: wofrysrw (>=1.1.22)
+Requires-Dist: scikit-image
+
+
+This is the project for HALF-SRW under OASYS
