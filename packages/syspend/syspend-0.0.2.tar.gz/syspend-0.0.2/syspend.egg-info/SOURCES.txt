@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+syspend/__init__.py
+syspend/syspend.py
+syspend.egg-info/PKG-INFO
+syspend.egg-info/SOURCES.txt
+syspend.egg-info/dependency_links.txt
+syspend.egg-info/top_level.txt
