@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+nisupply/__init__.py
+nisupply/bids.py
+nisupply/io.py
+nisupply/utils.py
+nisupply.egg-info/PKG-INFO
+nisupply.egg-info/SOURCES.txt
+nisupply.egg-info/dependency_links.txt
+nisupply.egg-info/requires.txt
+nisupply.egg-info/top_level.txt
