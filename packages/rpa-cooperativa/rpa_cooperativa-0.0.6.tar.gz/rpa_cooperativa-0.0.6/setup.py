@@ -1,0 +1,32 @@
+import setuptools
+from setuptools import setup
+
+with open("README.md", "r") as arq:
+    readme = arq.read()
+
+setup(
+    name="rpa_cooperativa",
+    version="0.0.6",
+    license='MIT License',
+    author="Edenilson Fernandes dos Santos",
+    author_email='santoeen@gmail.com',
+    description="Classe com métodos referente automação com python, e api fluid",
+    long_description=readme,
+    long_description_content_type="text/markdown",
+    keywords='rpa cooperativa fluid api automação sql sqlalchemy',
+    include_package_data=True,
+    package_data={'': ['img/*']},
+    packages=setuptools.find_packages(),
+    zip_safe=False,
+    url = "https://github.com/edenilsonsantos/rpa_cooperativa",
+    project_urls = {
+        "repository": "https://github.com/edenilsonsantos/rpa_cooperativa",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.8',
+    install_requires=['requests', 'pandas', 'sqlalchemy']
+)
