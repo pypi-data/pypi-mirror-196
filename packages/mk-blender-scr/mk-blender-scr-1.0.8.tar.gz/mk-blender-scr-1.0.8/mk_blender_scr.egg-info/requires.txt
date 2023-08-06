@@ -1,0 +1,8 @@
+ase
+ipywidgets<8.0
+Jinja2
+click
+nglview
+pandas
+ipython
+numpy

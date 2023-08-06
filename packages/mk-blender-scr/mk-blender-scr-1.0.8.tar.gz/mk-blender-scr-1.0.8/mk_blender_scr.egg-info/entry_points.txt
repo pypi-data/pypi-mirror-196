@@ -1,0 +1,3 @@
+[console_scripts]
+mk-blender-scr = mk_blender_scr.command.cli:main
+
