@@ -1,0 +1,107 @@
+[tool.poetry]
+name = "newrelic-sb-sdk"
+version = "0.2.0"
+description = "New Relic SDK to interact with API for data retrieving"
+authors = [
+  "SoftButterfly Development Team <dev@softbutterfly.io>",
+  "zodiacfireworks <martin.vuelta@gmail.com>"
+]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://gitlab.com/softbutterfly/open-source/wagtail-sb-admin-interface"
+repository = "https://gitlab.com/softbutterfly/open-source/wagtail-sb-admin-interface"
+documentation = "https://gitlab.com/softbutterfly/open-source/wagtail-sb-admin-interface/wiki"
+keywords = ["Softbutterfly", "New Relic", "SDK"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [
+    { include = "newrelic_sb_sdk", from = "src" },
+]
+include = [
+  "LICENSE.txt",
+  "CHANGELOG.md",
+]
+
+[tool.poetry.urls]
+"Download" = "https://gitlab.com/softbutterfly/open-source/newrelic-sb-sdk/archive/v0.2.0.tar.gz"
+"Bug Tracker" = "https://gitlab.com/softbutterfly/open-source/newrelic-sb-sdk/issues"
+
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0.0"
+enforce-typing = "^1.0.0.post1"
+python-dotenv = "^1.0.0"
+requests = "^2.28.2"
+semver = "^2.13.0"
+sgqlc = "^16.1"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+bandit = "^1.7.4"
+black = "^23.1.0"
+codecov = "^2.1.12"
+coverage = "^7.2.1"
+flake8 = "^6.0.0"
+flake8-black = "^0.3.6"
+ipylab = "^0.6.0"
+ipywidgets = "<8"
+isort = "^5.12.0"
+jupyter-book = "^0.13.2"
+jupyterlab = "^3.6.1"
+jupyterlab-widgets = "^3.0.5"
+mypy = "^1.0.1"
+nbdev = "^2.3.12"
+nbqa = {extras = ["toolchain"], version = "^1.6.3"}
+pandas = "^1.5.3"
+panel = "^0.14.3"
+pre-commit = "^3.1.0"
+pycodestyle = "^2.10.0"
+pydocstyle = "^6.3.0"
+pylint = "^2.16.2"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+pytest-vcr = "^1.0.2"
+schemdraw = "^0.15"
+tbump = "^6.9.0"
+tox = "^4.4.6"
+tqdm = "^4.64.1"
+twine = "^4.0.2"
+types-requests = "^2.28.11.15"
+importnb = "^2023.1.7"
+nbmake = ">=1"
+pytest-xdist = "^3.2.0"
+
+[tool.black]
+target_version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(\.git/
+  |\.eggs
+  |\.hg
+  |__pycache__
+  |\.cache
+  |\.ipynb_checkpoints
+  |\.mypy_cache
+  |\.pytest_cache
+  |\.tox
+  |\.venv
+  |_build
+  |buck-out
+  |build
+  |dist
+  |legacy
+)/
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
