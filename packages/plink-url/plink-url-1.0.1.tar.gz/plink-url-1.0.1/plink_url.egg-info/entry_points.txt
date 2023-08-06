@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = plink.__main__:main
