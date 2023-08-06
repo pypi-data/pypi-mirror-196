@@ -1,0 +1,9 @@
+jax_smi/__init__.py,sha256=vhoBrL4tMnIU7ZrZe6FM_wdI6Dd42JDbCZzdBINf6lg,53
+jax_smi/cli_tool.py,sha256=G7KL9K0PVQftvjYWNXAGuR8d9HvORi94STS5ZTIWr7M,623
+jax_smi/initialise_tracking.py,sha256=jSB0ITbeigo6x0CWbPyptNwerSHVBF_DW1YgXnJa6N4,488
+jax_smi-1.0.3.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+jax_smi-1.0.3.dist-info/METADATA,sha256=--kZu34FfItWewl6RaEw80tCcc1Tqg-ZMAyVLOsiwWg,3396
+jax_smi-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jax_smi-1.0.3.dist-info/entry_points.txt,sha256=vhs8cWVFKwBZBSL9EsTSTbrnlRcrLlOvDA0QxTN2J1U,51
+jax_smi-1.0.3.dist-info/top_level.txt,sha256=hVwxQYw33s59CXiIqNRpS1OvjTO_X62XT8liuohcGik,8
+jax_smi-1.0.3.dist-info/RECORD,,
