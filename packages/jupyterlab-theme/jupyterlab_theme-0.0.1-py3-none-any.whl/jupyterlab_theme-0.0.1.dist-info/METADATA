@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: jupyterlab-theme
+Version: 0.0.1
+Summary: Custom package for NayaOne theme
+Author-email: Matt Allan <matt@nayaone.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# jupyterlab-theme
+
+A theme extension for JupyterLab with the NayaOne logo and colors
+
+## Prerequisites
+
+* JupyterLab >= 3.0.0
+
+## Installation
+
+```bash
+jupyter labextension install @nayaone/jupyterlab-theme
+```
+
+## Development
+
+For a development install (requires npm version 4 or later), do the following in the repository directory:
+
+```bash
+npm install
+jupyter labextension link .
+jupyter labextension install .
+```
+
+To rebuild the package and the JupyterLab app:
+
+```bash
+npm run build
+jupyter lab build
+```
+
+
+## Building and Uploading a new Package
+python3 -m build
+python3 -m twine upload --repository jupyterlab-theme dist/*
