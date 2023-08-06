@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: psycopmlutils
+Version: 0.8.2
+Summary: A collection of machine-learning utilities used across the psycop-projects.
+Author: Kenneth Enevoldsen
+Author-email: Martin Bernstorff <martinbernstorff@gmail.com>, Lasse Hansen <lasseh0310@gmail.com>
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.0
+Provides-Extra: dev
