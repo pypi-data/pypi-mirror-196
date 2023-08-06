@@ -1,0 +1,41 @@
+- job:
+    name: heat-functional-zed
+    parent: heat-functional
+    nodeset: openstack-single-node-focal
+    override-checkout: stable/zed
+
+- job:
+    name: heat-functional-yoga
+    parent: heat-functional
+    nodeset: openstack-single-node-focal
+    override-checkout: stable/yoga
+
+- job:
+    name: heat-functional-xena
+    parent: heat-functional
+    nodeset: openstack-single-node-focal
+    override-checkout: stable/xena
+
+- job:
+    name: heat-functional-wallaby
+    parent: heat-functional
+    nodeset: openstack-single-node-focal
+    override-checkout: stable/wallaby
+
+- project:
+    queue: heat
+    templates:
+      - check-requirements
+      - tempest-plugin-jobs
+    check:
+      jobs:
+        - heat-functional
+        - heat-functional-legacy
+        - heat-functional-zed
+        - heat-functional-yoga
+        - heat-functional-xena
+        - heat-functional-wallaby
+    gate:
+      jobs:
+        - heat-functional
+        - heat-functional-legacy
