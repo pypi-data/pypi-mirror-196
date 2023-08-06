@@ -1,0 +1,9 @@
+langwhat/__init__.py,sha256=kBM8jwQ9r_ZMq7P43-SvMT6w6DhdPd9jFFTBA3HEZdg,21
+langwhat/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+langwhat/cli.py,sha256=2imGGaFFhdj21fuDZnxg29FEc9ji1NfRj2_4PrE4TmM,1548
+langwhat/langwhat.py,sha256=fZHauyHBG4EMPjZ20hCKn6Ltew1oLLAt8nni7Pt24MY,1215
+langwhat-0.1.6.dist-info/LICENSE,sha256=i3elsWrNBsAxcqmOCBxO4p5B9sEa0WF0Sdxx4tZTqi0,1106
+langwhat-0.1.6.dist-info/METADATA,sha256=IJ_simazvJdu4sxiPeCX3FqwtL0bYJAnjZTf1mDZnpw,2606
+langwhat-0.1.6.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+langwhat-0.1.6.dist-info/entry_points.txt,sha256=MOWcfneYBkPJDgBmonBfjX4UucAUX9X8jrNeOmkEdck,67
+langwhat-0.1.6.dist-info/RECORD,,
