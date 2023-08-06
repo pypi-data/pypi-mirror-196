@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_text.py
+thaibraille/__init__.py
+thaibraille.egg-info/PKG-INFO
+thaibraille.egg-info/SOURCES.txt
+thaibraille.egg-info/dependency_links.txt
+thaibraille.egg-info/not-zip-safe
+thaibraille.egg-info/requires.txt
+thaibraille.egg-info/top_level.txt
+thaibraille/text/__init__.py
+thaibraille/text/core.py
