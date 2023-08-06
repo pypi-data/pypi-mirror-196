@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: jamorasep
+Version: 0.0.1a1
+Summary: Japanese mora separator
+Home-page: https://github.com/tachi-hi/jamorasep
+Author: Hideyuki Tachibana
+Author-email: h_tachibana@pkshatec.com
+License: MIT
+Keywords: jpyomi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Japanese
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: typeguard
+
+
+py2shpss
+========
+
+
+.. image:: https://img.shields.io/pypi/v/jamorasep.svg
+   :target: https://pypi.python.org/pypi/jamorasep
+   :alt:
+
+.. image:: https://github.com/tachi-hi/jamorasep/workflows/CI/badge.svg
+   :target: https://github.com/tachi-hi/jamorasep/actions?query=workflow%3ACI
+   :alt: Build Status
+
+.. image:: https://img.shields.io/pypi/l/jamorasep.svg
+   :target: https://opensource.org/licenses/MIT
+   :alt:
+
+Japanese text parser to separate Hiragana/Katakana string into morae (syllables).
+
+License
+-------
+
+Copyright (c) 2023 Hideyuki Tachibana, `MIT License <https://github.com/tachi-hi/jamorasep/blob/master/LICENSE>`_
+
+Usage
+-----
+Install
+^^^^^^^
+
+.. code-block:: bash
+
+    pip install jamorasep
+
+Code Example
+^^^^^^^^^^^^
+
+.. code-block:: python
+
+	# import
+	import jamorasep
+
+   jamorasep.parse("こんにちは", output_format="katakana")
+   jamorasep.parse("こんにちは", output_format="simple-ipa")
+   jamorasep.parse("こんにちは", output_format="kunrei")
+   jamorasep.parse("こんにちは", output_format="hepburn")
+
+External Link
+^^^^^^^^^^^^^
+https://clrd.ninjal.ac.jp/unidic/UNIDIC_manual.pdf
