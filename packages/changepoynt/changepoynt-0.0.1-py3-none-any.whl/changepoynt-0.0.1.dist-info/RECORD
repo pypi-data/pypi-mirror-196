@@ -1,0 +1,11 @@
+changepoynt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changepoynt/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changepoynt/algorithms/sst.py,sha256=16m8ZEziehhq5_YYiaZZqR70z16vB2Pm9NGDIjgQNwQ,23304
+changepoynt/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changepoynt/utils/linalg.py,sha256=Kyd0kCFf2D9GegIhlDgjPPIkN8ER9_wdPHfuUbqNaDo,10828
+changepoynt/utils/normalization.py,sha256=0lJuBuAtT00hMJsyLI8nQs4HXnuxDrHsRR1E10qJPGA,1569
+changepoynt-0.0.1.dist-info/LICENSE,sha256=z-VjOA4wBErCiKN3Irl4IFb_NCOWe7QWcghwMtrkUH8,1339
+changepoynt-0.0.1.dist-info/METADATA,sha256=egOmFhEe8KXLIEbS2ra9IzK2940TBGG6HWjN7k9VYHA,982
+changepoynt-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+changepoynt-0.0.1.dist-info/top_level.txt,sha256=TbNv6wIbVmtoJFvEMrtR_vs_Cq7KpiE7J9XM3vYHxbo,12
+changepoynt-0.0.1.dist-info/RECORD,,
