@@ -1,0 +1,11 @@
+zxvcv/__init__.py,sha256=qEFeq3yuf3lQKVseALmL8aPM8fpCS54B_5pry00M3hk,76
+zxvcv/util_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zxvcv/util_cli/__main__.py,sha256=EfScoHlS3G-s_lkUB11iElRsf8PJTNXnOt9Rl52XyMs,159
+zxvcv/util_cli/datatypes.py,sha256=pct3qvhtdvZGo2W0T32w4MvqvoIwFcrtXi3Ayz_tmtI,1352
+zxvcv/util_cli/vscreens.py,sha256=_U82gnMSdEseivRgaBVSrgDSLtKCn0kc790wntJunA0,7303
+zxvcv.util_cli-0.2.6.dist-info/LICENSE,sha256=7XyFbSG-DF9VXwF91PKJXVvIypTrQoKvuR-p6k7fDOM,1071
+zxvcv.util_cli-0.2.6.dist-info/METADATA,sha256=gu5peKsz7Ck8v2V_RhybOOEmZ3NmXgjmVGhS8lvl4q0,1784
+zxvcv.util_cli-0.2.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zxvcv.util_cli-0.2.6.dist-info/top_level.txt,sha256=GsKzKxmDAYGd7t-d3odRoamMPQEMgGzobA9nr8I147g,6
+zxvcv.util_cli-0.2.6.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+zxvcv.util_cli-0.2.6.dist-info/RECORD,,
