@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tr0nz0d
+Version: 0.1.5
+Summary: TR0NZ0D Lib is a library created in python to facilitate the use of some tools.
+Home-page: https://tr0nz0d.com/
+Author: Gabriel Menezes de Antonio
+Author-email: tr0nz0d@tr0nz0d.com
+License: MIT
+Project-URL: Source, https://github.com/TR0NZ0D/TR0NZ0D_Lib
+Project-URL: Project Info, https://tr0nz0d.com/projetos/tr0nz0d-lib-python-library
+Project-URL: Bug Tracker, https://github.com/TR0NZ0D/TR0NZ0D_Lib/issues
+Project-URL: Documentation (PT-BR), https://tr0nz0d.com/docs/tr0nz0d-lib-python-library/
+Project-URL: Change Log (PT-BR), https://tr0nz0d.com/docs/changes/tr0nz0d-lib-python-library/
+Keywords: tronzod,tr0nz0d,TR0NZ0D,TRONZOD,tools
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Printing
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+
+# TR0NZ0D Lib
+
+[![Pylint](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/pylint.yml)
+[![CodeQL](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/github-code-scanning/codeql)
+[![Unittest QA](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/python-app.yml)
+[![Upload Package to PyPI](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/python-publish.yml/badge.svg)](https://github.com/TR0NZ0D/TR0NZ0D_Lib/actions/workflows/python-publish.yml)
+
+***
+
+## O que é?
+
+TR0NZ0D Lib é uma biblioteca criada em python para facilitar o uso de algumas ferramentas. O projeto está em versão Beta, melhorias e novas funcionalidades serão adicionadas futuramente.
+
+O idioma principal da biblioteca é português, traduções serão adicionadas no futuro.
+
+## Documentação
+
+* [Português](https://tr0nz0d.com/docs/tr0nz0d-lib-python-library/)
+
+## Módulos existentes
+
+* Tools
+* Security
+* Discord
+* Django
