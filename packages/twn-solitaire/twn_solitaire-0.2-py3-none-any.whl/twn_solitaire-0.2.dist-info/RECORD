@@ -1,0 +1,12 @@
+twn_solitaire/__init__.py,sha256=q5Z19iBh1Z8Lx061q1_tJdFTzNf1t3-QHvivP29U5W0,331
+twn_solitaire/assets/Jellee-Roman/Jellee-Roman.otf,sha256=M67C_9RQv4zkEJIYoiSr9Do982p9fukJR4Y8kd_OLxY,23184
+twn_solitaire/assets/Jellee-Roman/OFL-FAQ.txt,sha256=rpkOa_0vMC1rEKzlS-dReOeW3d0WKw5mTSggx60_cKo,58073
+twn_solitaire/assets/Jellee-Roman/OFL.txt,sha256=qbEeKmc7MrjuXB8eW3fyBS7EQG9RTiB0AdsnJ74ARQI,4377
+twn_solitaire/config.py,sha256=xTriMKXgSJBmKvrmBViYBSYlcrh5cI86aZJG3VRWz4c,2327
+twn_solitaire/constants.py,sha256=d7zuTJVHEOxjizQCWv7LUf5OVrlRGVueJsJ60DaVQpI,1421
+twn_solitaire/game.py,sha256=2gDDs7ls3vgVTAk5u5agzFV8BdrfWYl3ujPG0tOFeZc,13849
+twn_solitaire/run.py,sha256=76xR6ioKbUdgI7jEm4HKNbxN4XRqgQYR7s4jhkudccI,1684
+twn_solitaire-0.2.dist-info/METADATA,sha256=2h5g_36wScmukeqz11hCAmpLaWmQx831BBLeq8PU5Jw,4037
+twn_solitaire-0.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+twn_solitaire-0.2.dist-info/entry_points.txt,sha256=NZC5cptGGhr6wBW_JIebkZXaMBjZJy6I304WpGn-Qms,56
+twn_solitaire-0.2.dist-info/RECORD,,
