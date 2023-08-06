@@ -1,0 +1,11 @@
+xclientai/__init__.py,sha256=OjcdnR7FCg_sw9wfP_yqNfHq4KRW4pMrmoiwdBnCFUw,268
+xclientai/config.py,sha256=TZ_4bHuuij7ALXdJsk2M0WH9AQObEP9fuhYt25O3MJI,393
+xclientai/datatypes.py,sha256=P3IqJjWRl-h9bAX8351Cvieu7Lxyx6UeGjIQytdAxsI,7158
+xclientai/jobs.py,sha256=UCo-h-E0SUewSsoq8zQfm4KrDcjrLr0yuFu-qjH-z2I,2659
+xclientai/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xclientai/utils/logging.py,sha256=6Dq5QhTURbzEMOuQXX5AgFdK8BnD3w6hkUQ08BeIB44,1768
+xclientai/utils/requests_utils.py,sha256=MNHPWA2Zlgi3Mokn67d6NwO5VjHXc2em2ZsvSLCa_T4,1232
+xclientai-0.0.5.dist-info/METADATA,sha256=-chW-MQ-ZeAQpOFkPnvVNxvwKk-hMBuSXWkQ3Y7SPCA,503
+xclientai-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xclientai-0.0.5.dist-info/top_level.txt,sha256=V3WVVc2V1oPiczlpJ5tdbVmB8yXrcHA9q0g8K9sIU4Y,10
+xclientai-0.0.5.dist-info/RECORD,,
