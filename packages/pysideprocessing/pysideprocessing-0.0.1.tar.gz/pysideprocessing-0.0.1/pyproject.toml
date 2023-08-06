@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pysideprocessing"
+#version = "0.0.1"
+dynamic = ["version"]
+authors = [
+  { name="nomisge", email="nomisge@live.de" },
+]
+description = "A python implementation of processing using pyside6"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pyside6",
+  "numpy",
+  "numba",
+  "makefun",
+]
+
+[tool.hatch.version]
+path = "src/pysideprocessing/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["src/pysideprocessing"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[project.urls]
+"Home" = "https://edugit.org/nomisge/pysideprocessing"

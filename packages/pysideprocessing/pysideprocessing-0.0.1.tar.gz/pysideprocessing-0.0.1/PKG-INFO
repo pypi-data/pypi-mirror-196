@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pysideprocessing
+Version: 0.0.1
+Summary: A python implementation of processing using pyside6
+Project-URL: Home, https://edugit.org/nomisge/pysideprocessing
+Author-email: nomisge <nomisge@live.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: makefun
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pyside6
+Description-Content-Type: text/markdown
+
+# pysideprocessing
+
+Pysideprocessing implements processing.org in the python language with pyside6 as gui component.
+
+Processing.org is a wonderful tool, but it's python version builds upon jython, which lacks a lot of features introduced since python 3 release.
+
+It is intended for educational purposes, so for now only features used in my classes have been implemented. More features will follow, but some might never be implemented.
+
