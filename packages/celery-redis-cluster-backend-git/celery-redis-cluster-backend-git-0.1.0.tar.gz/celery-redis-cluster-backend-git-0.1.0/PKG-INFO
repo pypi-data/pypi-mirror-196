@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: celery-redis-cluster-backend-git
+Version: 0.1.0
+Summary: Celery redis cluster backend
+Home-page: http://github.com/hbasria/celery-redis-cluster-backend
+Author: Hasan Basri
+Author-email: hbasria@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: celery redis cluster
+Platform: UNKNOWN

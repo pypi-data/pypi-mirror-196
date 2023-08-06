@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+celery_redis_cluster_backend/__init__.py
+celery_redis_cluster_backend/redis_cluster.py
+celery_redis_cluster_backend_git.egg-info/PKG-INFO
+celery_redis_cluster_backend_git.egg-info/SOURCES.txt
+celery_redis_cluster_backend_git.egg-info/dependency_links.txt
+celery_redis_cluster_backend_git.egg-info/top_level.txt
+celery_redis_cluster_backend_git.egg-info/zip-safe
