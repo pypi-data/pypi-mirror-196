@@ -1,0 +1,6 @@
+README.md
+setup.py
+aip_model_repo.egg-info/PKG-INFO
+aip_model_repo.egg-info/SOURCES.txt
+aip_model_repo.egg-info/dependency_links.txt
+aip_model_repo.egg-info/top_level.txt
