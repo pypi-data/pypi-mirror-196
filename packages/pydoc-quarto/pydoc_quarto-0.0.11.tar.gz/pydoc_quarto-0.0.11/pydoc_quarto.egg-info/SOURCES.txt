@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+pydoc_quarto/__init__.py
+pydoc_quarto/_modidx.py
+pydoc_quarto/core.py
+pydoc_quarto.egg-info/PKG-INFO
+pydoc_quarto.egg-info/SOURCES.txt
+pydoc_quarto.egg-info/dependency_links.txt
+pydoc_quarto.egg-info/entry_points.txt
+pydoc_quarto.egg-info/not-zip-safe
+pydoc_quarto.egg-info/requires.txt
+pydoc_quarto.egg-info/top_level.txt
