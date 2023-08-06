@@ -1,0 +1,53 @@
+upstream k8s_entuc {
+    {% if k8s_hosts %}{% for ip in k8s_hosts %}
+    server {{ ip }}:31380 max_fails=1 fail_timeout=10s;{% endfor %}{% endif %}
+}
+server {
+    listen {{ nginx.entuc_proxy_port }};
+    {% if config.deploy_https %}
+    ssl on;
+    ssl_certificate {% if config.self_signed_ca %}/usr/local/laipvt/certs/server.crt{% else %}{{ config.ca_crt_path }}{% endif %};
+    ssl_certificate_key {% if config.self_signed_ca %}/usr/local/laipvt/certs/server.key{% else %}{{ config.ca_key_path }}{% endif %};
+    sl_session_timeout 5m;
+    {% endif %}
+
+    if ($request_uri = /management ) {
+       return 302 $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/management/;
+    }
+
+    if ($request_uri = /usercenter ) {
+       return 302  $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/usercenter/;
+    }
+
+    if ($request_uri = /view/commander ) {
+       return 302  $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/portal/;
+    }
+
+    if ($request_uri = /view/commander/ ) {
+       return 302  $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/portal/;
+    }
+
+
+    if ($request_uri = /identity/view  ) {
+       return 302  $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/usercenter/;
+    }
+
+    if ($request_uri = /identity/view/ ) {
+       return 302  $scheme://{{nginx.lb}}:{{nginx.entuc_proxy_port}}/usercenter/;
+    }
+
+
+    location / {
+        if ($request_uri ~* / ) {
+            rewrite ^/$ /portal/ permanent;
+        }
+        proxy_set_header X-Forwarded-Host $http_host;
+        proxy_set_header X-Forwarded-Proto  $scheme;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host "ent.laiye.com";
+        proxy_pass http://k8s_entuc;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_connect_timeout 5s;
+    }
+}

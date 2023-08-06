@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: laipvt
+Version: 3.0.4
+Summary: laiye private deploy basement
+Home-page: https://laiye.com
+Author: ye
+Author-email: liye@laiye.com
+License: MIT
+Keywords: laipvt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paramiko (==2.6.0)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: docker (==4.4.1)
+Requires-Dist: rich (==9.4.0)
+Requires-Dist: ruamel.base (==1.0.0)
+Requires-Dist: ruamel.yaml (==0.16.12)
+Requires-Dist: kubernetes (==12.0.0)
+Requires-Dist: IPy (==1.1)
+Requires-Dist: netifaces (==0.10.9)
+Requires-Dist: minio (==7.0.1)
+Requires-Dist: pymysql (==1.0.2)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: redis (==3.2.1)
+Requires-Dist: prettytable (==0.7.2)
+Requires-Dist: tenacity (==7.0.0)
+Requires-Dist: googleapis-common-protos (==1.6.0)
+Requires-Dist: grpcio (==1.36.1)
+Requires-Dist: fuzzywuzzy (==0.18.0)
+Requires-Dist: protobuf (==3.6.1)
+Requires-Dist: go-proto-validators (==0.0.4)
+Requires-Dist: pymongo (==3.9.0)
+
+laiye private deploy basement
