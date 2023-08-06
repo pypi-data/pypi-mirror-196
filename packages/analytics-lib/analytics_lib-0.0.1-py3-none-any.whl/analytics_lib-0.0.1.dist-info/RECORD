@@ -1,0 +1,9 @@
+analytics_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+analytics_lib/nlp_texts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+analytics_lib/nlp_texts/for_dict_processing.py,sha256=1dGVyfYHUSq31ZuVCc2v4ZN-yAgiLfqnlEFwoZMlsdc,5440
+analytics_lib/nlp_texts/psychotype.py,sha256=6dhZPZKY_cCqs-9tkABIExZ-uprxMR1LYDduCYLQn84,84504
+analytics_lib/nlp_texts/text.py,sha256=Jm-v4YIhSEyyOQdS34wiIJXnGZIL-W3qMsPgedf2_Sk,153811
+analytics_lib-0.0.1.dist-info/METADATA,sha256=ledw5JYTaKXTUIo8nxTwy1KGAhUMf9dpj3x4AMaqv5E,3063
+analytics_lib-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+analytics_lib-0.0.1.dist-info/top_level.txt,sha256=1gJLp07juywoyf4gIVwAwDu6xX4vh7itO7D6bWsHT-0,14
+analytics_lib-0.0.1.dist-info/RECORD,,
