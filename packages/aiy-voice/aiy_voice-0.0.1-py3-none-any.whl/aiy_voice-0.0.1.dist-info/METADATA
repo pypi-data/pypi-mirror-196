@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiy-voice
+Version: 0.0.1
+Summary: Scripts from google-aiyprojects collected into voice package
+Home-page: https://github.com/builderjer/aiy-voice-python
+Author: builderjer
+Author-email: builderjer@gmail.com
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: requirements.txt
+
+Scripts from google-aiyprojects without google-assistant requirements

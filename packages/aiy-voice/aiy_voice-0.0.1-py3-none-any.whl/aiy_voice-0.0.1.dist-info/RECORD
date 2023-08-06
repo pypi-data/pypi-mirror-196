@@ -1,0 +1,11 @@
+aiy_voice/.board.py.kate-swp,sha256=IOyy1eaFpYvKH_cZpkrl9oyW-MNtrDPTv7Me_mOKhm0,99
+aiy_voice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiy_voice/board.py,sha256=RIRiwFWpEFRFgKXdJo6lC6AIqZI4jPOXtRH8KV9ckP8,11647
+aiy_voice/leds.py,sha256=kijnhsa6UjjQov-b-20VNs11VRxgT2oQnzEIyxUua84,13802
+aiy_voice/pins.py,sha256=dnDkAfxcejdrXSFwZwiFpWwK4HdPLRuk4nFQhnSo-eY,23252
+aiy_voice/version.py,sha256=WtW-o8RmKeUTLBMNb6Sc-XkAluG5ZCHt7eOS6NplYtg,177
+aiy_voice-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiy_voice-0.0.1.dist-info/METADATA,sha256=TnmP_MPNqzc_o3TN0gTHL7wLvDiknylMaeyAZCz91DA,380
+aiy_voice-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiy_voice-0.0.1.dist-info/top_level.txt,sha256=hf1AsEGzVH-8iIOLMrcp-LRtBgduOU41KV0DLsf9LMI,10
+aiy_voice-0.0.1.dist-info/RECORD,,
