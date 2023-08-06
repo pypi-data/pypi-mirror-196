@@ -1,0 +1,14 @@
+lsp/__init__.py,sha256=G8I8MS12aqyXJ4db0YSQbdo1qGJ64xqoTzXLNDWmbXU,14576
+lsp/__main__.py,sha256=XGdVPun_KQOTzH9UD0--FMvklBj4KFt0Y8vM2QyB338,484
+lsp/protocol.py,sha256=5AduvDI3zvNpLDuMMJnBnL6bC8z1NVZIztDsV9CrkRs,5568
+lsp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsp/lsp/__init__.py,sha256=D_HmHkkFBkq3XGfquRnQjALwua7ceRr-uP-u7VoK6-0,116
+lsp/lsp/client.py,sha256=Eyz0QYynFpJx-6xuaNpfruTU1Fn2WhUba4JmW4S4SDY,45947
+lsp/lsp/common.py,sha256=wfT1ymaAyBG_KqLWaDgfa1H0jNJBX3wFjcTMGwgh7N4,6471
+lsp/lsp/messages.py,sha256=xcV4IVWfx2gCI15LnbvfcGiAfPA_zx3oBaIGJGZMYpc,2259
+lsp/lsp/server.py,sha256=pti7kv4Cym_AuapPfjB2bzMrcAfR30BN5kZ4V5kDrMc,77980
+language_server_protocol-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+language_server_protocol-0.0.6.dist-info/METADATA,sha256=BZLD2in6L3xJ7-X23nPanUQwuc0Dno8X0lEyuKsTFA4,13867
+language_server_protocol-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+language_server_protocol-0.0.6.dist-info/top_level.txt,sha256=6qzeLzH_YWo2zU_PuDHj5YH2c7Muxf8fHrTlNbAPJlo,4
+language_server_protocol-0.0.6.dist-info/RECORD,,
