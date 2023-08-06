@@ -1,0 +1,2 @@
+include circe/data/*.json
+include circe/java/*.jar
