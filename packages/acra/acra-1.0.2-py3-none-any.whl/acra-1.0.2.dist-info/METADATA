@@ -1,0 +1,423 @@
+Metadata-Version: 2.1
+Name: acra
+Version: 1.0.2
+Summary: Generic ACRA test utilities
+Author: An amazing developer
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Framework :: Sphinx
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Python3_pep8_updates
+
+Branch of Python 3 library with library modules passed through pylint and mostly complying with pep8 coding styleguide
+
+Not for general use. Will be merged with the main Python 3 branch when debugging is complete.
+Will need wrappers to ensure backwards compatability with existing tests which use the current code/library before it can be merged back with the main Python 3 branch
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Library tools for use in DV, Production test and general scripting
+
+Regularly updated, with bug fixes and new features.
+The best way to find out what is contained in this liibrary is to 
+
+1) install it (as administator)
+2) create an acra_help.py file with the following contents:
+
+import acra;help(acra)
+
+
+Run acra_help.py and redirect the output to a file. The file will list all the 
+components of the ACRA library and all of the functions/classes/methods 
+available
+
+This of course means that if you have a function/module/class that you 
+think should be added to the library the code must properly documented,
+i.e. file headers, class/method/function headers, and they must all have 
+meaningful contents.
+
+Whilst compact code is appreciated, it should be easily understood
+and easy to understand.
+
+
+----------------------------------------------------------------------
+REVISION HISTORY & RELEASE NOTES FOR *ACRA UTILS* PYTHON DISTRIBUTION.
+----------------------------------------------------------------------
+
+ACRA_Utils-3.73.N-py3-none-any.whl
+*******************
+			Python 3 only compatible library. All instruments can now be controlled using Python 3
+			portchecker utility added.
+			Function/method names harmonised across the instruments.
+			Not backwards compatible with 1.73
+
+
+# Here endeth Python 2 Support!
+
+
+------------------------------------------
+Python 2 versions of the libraries.
+------------------------------------------
+
+ACRA_Utils-1.73-py2-none-any.whl
+*******************
+			# Here endeth Python 2 Support!
+			
+ABI.py 		
+ABIPackets.py		The listed files are being used in multiple tests and should have been.
+ABI_WRAPPER.py          added as library files rather than copied from project_to_project.
+ACRA_NET_PROTS.py       They have now been added to the ACRA utils library
+IENA.PY
+IENA_DATA_TIMER.PY
+CHS_CLASS.PY
+Fileutils.PY
+
+acra-1.72.win32.exe
+*******************
+Excel.py 		Ancient Excel library added. Unmodified.
+PST3202.py		Driver for Instek 3202 Power supply added to utils.
+
+acra-1.71.win32.exe
+*******************
+PT_Framework.py 	CheckExpected added from the obsolete ProcessUtils
+
+acra-1.70.win32.exe
+*******************
+T316.py 		Redundant read removed from init.
+
+acra-1.69.win32.exe
+*******************
+METERS.py 		Restored to installation. It was removed over a year ago...
+
+acra-1.68.win32.exe
+*******************
+PT_Framework.py 	Update to BASETESTINFO method "printable_test_summary" to improve reporting.
+
+acra-1.67.win32.exe
+*******************
+HP3458.py 		Drivers for HP/Agilent/Keysight 3458 DMM
+
+acra-1.66.win32.exe
+*******************
+K2700.py 		Updates to ReadVolts function to make it more robust.
+
+acra-1.65.win32.exe
+*******************
+CPX400DP.py 		Driver for TTi CPX 400 DP Bench PSU
+CPX400SP.py 		Driver for TTi CPX 400 SP Bench PSU
+
+acra-1.64.win32.exe
+*******************
+DS360.py 		Added VRMS and BAL/UNBAL functions
+
+acra-1.63.win32.exe
+*******************
+k2000.py 		raised to rev 1.6 - fixed typo in ReadMilliVolt function
+
+acra-1.62.win32.exe
+*******************
+ksdlib.py		Corrected typo in self.SERCMD  = 'KSD -C %d -J %%d -XERS -NUI -TAGS -A 0x%%Xffffb -S 2' %(chid).
+			Note that this is a new, untested, command and should not be used in any tests.
+			
+acra-1.61.win32.exe
+*******************
+serial_number_tools.py	Updated to with function to generate a housekeeping sector. Function added to provide serial numbers
+			in a form that can be directly compared. Can now handle 1 letter serial numbers...(yes, they exist)
+
+acra-1.60.win32.exe
+*******************
+ksdlib.py		Header info added. This library is not recommended for inclusion in any new tests.
+			Unfortunately it is required by the SBI/Burn-in test. Its use should be avoided.
+
+acra-1.59.win32.exe
+*******************
+PTR2word.py		Results comparison message corrected.
+
+acra-1.58.win32.exe
+*******************
+ACRA_EXCEPTS.py		Deleted. Not used. Development stalled many years ago.
+METERS.py		Deleted. Not used. Development stalled many years ago. Desired functionality supported by Wrappers.py
+
+acra-1.57.win32.exe
+*******************
+PT100.py 		Error checking updated. 
+K2000.py		Library updated to deal with positive and negative nunmbers.			
+
+acra-1.56.win32.exe
+*******************
+PT100.py 		PT100 library tools added. Converts resistances to temperatures and temperatures 
+			to resistances based on the RTD PT_385 lookup tables supplied with DAS Studio.
+                       
+
+acra-1.55.win32.exe
+*******************
+oven.py 		Support added for Watlow F4 PLC controller (as used by space oven). 
+			Library defaults to West controller for compatibility with existing scripts
+                       
+acra-1.54.win32.exe
+*******************
+serial_number_tools.py added to acrautils. This provides library functions for encoding and decoding serial numbers
+                       for storage in standard eeproms.
+
+acra-1.53.win32.exe
+*******************
+PL330DP library updated
+TTi3510 library updated
+TTI_PSU library added for generic TTi PSUs (ones that don't need a dedicated driver library)
+Wrapper.PY updated to incorporate PSUs. 
+
+acra-1.52.win32.exe
+*******************
+PL330DP.py: library updated to allow for the V/I output values to be read and for the settings to be read back. Feature was always there, it just never worked.
+
+acra-1.51.win32.exe
+*******************
+wrappers.py added to ACRA UTILS. Provides an agnostic interface to digital thermometers.
+            PSUs will be added to this module in due course. 
+
+version.py added to allow the library version to be returned dynamically
+
+acra-1.50.win32.exe
+*******************
+PROCESS_UTILS: set_format, SW_FMT modified to allow the parallel port to be supplied as an arguement if necessary
+
+acra-1.49.win32.exe
+*******************
+K2700.py: closeRelay() function added for backwards compatibility with older tests that used development versions of the K2700 library.
+
+acra-1.48.win32.exe
+*******************
+PT_Framework.py: Test equipment can now be added by supplying a correctly formatted list of test equipment to the tool. The file must have been created no more than 12 hours before the test is run.
+
+acra-1.47.win32.exe
+*******************
+OVEN.py: Python script for controlling the ovens added.
+
+acra-1.46.win32.exe
+*******************
+DS360.py: readPort modified to allow correct operation with GPIB port.
+
+acra-1.45.win32.exe
+*******************
+PTR2Word: CheckTestTime() changed to report max legal duration vs run time in minutes
+
+acra-1.44.win32.exe
+*******************
+PT_Framework: kup_exec() added. Generic function for programming the passed KUP command string, using acraexec.
+
+acra-1.43.win32.exe
+*******************
+PTR2Word: LessThanResultInt(): logical bug fixed and error text corrected.
+
+acra-1.42.win32.exe
+*******************
+Fixed editor induced typos in DS360 library.
+
+acra-1.41.win32.exe
+*******************
+Driver update for T319 to correct for spurious returns in the message string.
+
+acra-1.40.win32.exe
+*******************
+Driver for TTi 3510 power supply added.
+
+acra-1.39.win32.exe
+*******************
+Added library for Ectron, K2000, K2700 and DS360 libraries updated to communicate over GPIB, USB/GPIB or serial. 
+Sample usage below:
+
+	DCSource = ECTRON(<portNo>)     #RS-232
+	or
+	DCSource = ECTRON(<GPIBAddress>)     #GPIB
+	or
+	DCSource = ECTRON([<portNo>,<GPIBAddress>])     #Prologix
+
+acra-1.38.win32.exe
+*******************
+Temporary version. Built for testing. Never formally issued.
+set_format(fmt) updated to make it more reliable. Uses ctypes library calls now. Update propagated to next revision.
+
+
+acra-1.37.win32.exe
+*******************
+PT_Framework.fill_equipment_details() modified to accept na or n/a for equipment (such as cables) that do not require calibration
+
+acra-1.36.win32.exe
+*******************
+PT_Framework updated as a result of ADC/140 production test development. Functions moved from process_utils to PT_Framework as process_utils is being deprecated.
+process_utils and PT_Framework can be made work correctly together if paths are controlled for functions available in both libraries. Process_utils should not be used in any new production test developments.
+
+acra-1.35.win32.exe
+*******************
+Added Tecpel T319 driver library and added scan_serial_ports() GetUTCTime() GetUTCDate() to utils
+usage: myT319 = T319.T319(port)
+'%s' %GetUTCTime() %s = 17:35:13
+'%s' %GetUTCDate() %s = 2015:06:02
+scan_serial_ports()
+output:
+(0) COM1
+(10) COM11
+(20) COM21
+
+acra-1.34.win32.exe
+*******************
+Formatting updates for MC21. Format of MC21 test reports changed to match MC21 quality docs. 
+Test Tech explicitly highlighted in test report, headings of equipment list updated - manufacturer => Make, ID => S/N
+
+acra-1.33.win32.exe
+*******************
+K2700 class: New function added: CloseRelay() function which closes a single relay. Introduced because of problems with existing CloseRelays() function and the EXC/101
+
+acra-1.32.win32.exe
+*******************
+Anton corrected some typos that had crept in.
+
+acra-1.31.win32.exe
+*******************
+standardised SerNo in functions called by PT_Framework. Syntax same as Process_Utils now. Added help comments to Process_Utils.py functions and indicated deprecated functions in Process_Utils.py
+
+acra-1.30.win32.exe
+*******************
+Not released
+
+acra-1.29.win32.exe
+*******************
+Updated header file (general purpose):
+
+[Updated] - T316.py          - Some bugs were found during oven testing - corrected
+
+acra-1.28.win32.exe
+*******************
+Added a new header file (general purpose):
+
+[New] - T316.py      	     - This is a driver for the new Tecpel DTM-316 digital thermometer
+
+acra-1.27.win32.exe
+*******************
+Updated two headers and added two new header files to complement the UTL/106 production test:
+
+[Updated] - K2700.py 	     - Added a closePort() function to complement the K2000 driver
+[Updated] - PROCESS_UTILS.py - Added 4 new functions - Read_K2x00_V, Read_K2x00_mA, Read_K2x00_Hz, and Set_M2001
+		               All used to be local functions to the production test body (under different names) but were required to be more global
+		               for use within some of the new header files.
+[New] - Prod_DS3_Oct.py      - This is the DS3 extractor and Octave processor from previous production tests - it used to be needed once or twice for most
+			       analogue module tests but the UTL/106 required this block of code to be called around 10 times - considering it is nearly 500 lines long
+			       it was worthwhile moving it to a header. It will be used from now on in the analogue module production tests.
+[New] - Martel_IVC222HPII.py - New driver for the handheld Martel IVC222HPII.py
+
+acra-1.26.win32.exe
+*******************
+Updated Utils.py library to include network inspect function required by TDC/109
+
+acra-1.25.win32.exe
+*******************
+Added the driver for the Fluke 5100B High Voltage signal generator
+
+acra-1.24.win32.exe
+*******************
+Added two functions to K2000.py for further DV functionality and production test:
+setFreqMode() - Sets up the DMM for frequency readings 
+readFreq() - Returns the frequency reading in Hz (float) from the DMM 
+
+acra-1.23.win32.exe
+*******************
+Added ten functions to PROCESS_UTILS.py to support the new ADC126B production test and any new analogue production tests from now on.
+The primary motive was to decouple the DV_Prog analogue module test code that previously sat on top of the production code.
+The tradional production test couldn't do advanced DS3 functions such as supercommutation or Octave/Matlab processing
+Also, some local function were imported from the main production test body and cleaned up.
+This version is fully backward compatible with all previous production tests:
+
+Make_M_File()          - Function to perform Octave/Matlab processing to produce fourparam data on input samples
+Find_Folder()          - Used by the Make_M_File() function as well as the new DS3 processing sections in the production tests
+set_format_with_path() - Created to overcome the limitations of having to copy the 'lptout.exe' program to multiple locations
+Compile_XID()          - Created this one function to do the work of the previous 4 local functions in the production tests
+KUP_SYS_PROG()         - Ported in to compliment the Compile_XID() function
+Get_MaxCount_Val       - Ported in from the DV program to work with the new DS3 processing in the production test
+Get_MinCount_Val       - Ported in from the DV program to work with the new DS3 processing in the production test
+Get_AveCount_Val       - Ported in from the DV program to work with the new DS3 processing in the production test
+Cal_Gain_Coeff         - Ported in from the DV program to work with the new DS3 processing in the production test
+Cal_Offset_Coeff       - Ported in from the DV program to work with the new DS3 processing in the production test
+
+acra-1.22.win32.exe
+*******************
+Added four functions to M2001.py for further DV functionality and production test:
+setTCInput() - Configures the TC port for the TC INPUT function (based on thermocouple and temperature type) 
+setRTDInput() - Configures the RTD INPUT port for the RTD INPUT function (based on PT sensor and temperature type) 
+readM2001PortVal() - reads the current value from the TC INPUT or RTD INPUT configurations (float)
+closePort() - closes the serial port.
+
+acra-1.21.win32.exe
+*******************
+Added two functions to K2700.py for controlling the relay extender cards:
+openRelays() and closeRelays().
+Minor correction: Added a space +' '+ between KSMpath & KUPopt in KSM_TOOLS.Kup 
+function to correct the command line execution.
+
+acra-1.20.win32.exe
+*******************
+PROCESS_UTILS.py upgraded as follows:
+Added class TESTINFO, class REPORT, functions CheckDir and EnterTestInfo.
+GetDetails() has been superseded by TESTINFO (but leaving it in codebase
+for backward compatability).
+SW_FMT has been updated to call set_format (double call of lptout.exe).
+Usage of SW_FMT and set_format are the same, but SW_FMT is still 
+backward compatable.
+
+acra-1.19.win32.exe
+*******************
+Fixed a bug in setONOFF() function. The syntax 'OnOff' in paramterlist should
+have been 'ONOFF'.
+
+acra-1.18.win32.exe
+*******************
+Updated DS360 setAmp() function to allow 0V to be set properly and setOffset to 
+use Volts, not mV.
+Updated K2700 to fix the bug that negative readings were having their sign (-)
+removed when read.
+Updated K2000 with RemoveEsc() function and used it in Voltage/Current/Resistance
+measurement classes.
+Updated utils.py by expanding __init__ parameter list, and also
+adding a new function getParamMS (see source code for description).
+Updated PL330DP.py header with some wiring information.
+
+acra-1.17.win32.exe
+*******************
+Added fileSplit() function to PROCESS_UTILS package.
+10-Apr-08: Just repacked to remove some duplicate files, no code changes.
+
+acra-1.16.win32.exe
+*******************
+Folded in missing code, in that the update from 1.13 was not folded into the
+build in 1.14 or 1.15 (Milos update to utils.py).
+Nothing else changed.
+
+acra-1.15.win32.exe
+*******************
+Improved & bench tested (to a large extent) the K2000 class.
+Nothing else changed.
+
+acra-1.14.win32.exe
+*******************
+Initial attempt at new code structure, containing classes for various 
+commonly-used ACRA instruments and devices.
+Retained code from 1.12 (four files) for backward compatability.
+
+acra-1.13.win32.exe
+*******************
+Later build by Milos. Contains 4 files as in build 1.12.
+ksdlib.py, martel.py, __init__.py are unchanged (except build no. in __init__).
+
+1) Updates done by Milos on utils.py. Function DS3Parser: parameter
+radix='hex' was added that assumes the log file contain data in hex.
+getParamCount() new function added & getParam(self, format='i') contains
+new parameter 'format'. 
+
+acra-1.12.win32.exe
+*******************
+Early original build of ACRA UTILS from 2004. Created by Milos.
+Installation contains 4 files: [ksdlib.py, martel.py, utils.py, __init__.py].
+
+
