@@ -1,0 +1,78 @@
+# https://taskfile.dev/
+version: "3"
+
+dotenv:
+  - .env
+
+vars:
+  ENC: enc
+
+tasks:
+  install-flit:
+    status:
+      - which flit
+    cmds:
+      - python3 -m pip install flit
+
+  install-enc:
+    status:
+      - which {{.ENC}}
+    cmds:
+      - go install github.com/life4/enc@latest
+      - which {{.ENC}}
+
+  install:
+    deps:
+      - install-flit
+    sources:
+      - pyproject.toml
+    cmds:
+      - python3 -m flit install --deps=production --symlink
+
+  fetch:
+    deps:
+      - install
+      - install-enc
+    generates:
+      - stars.json
+    cmds:
+      - test $GITHUB_TOKEN
+      - test ${#GITHUB_TOKEN} -eq 40
+      - test $ENC_PASSWORD
+      - >
+        python3 -m ghstars fetch
+        --token $GITHUB_TOKEN
+        --orgs life4 orsinium-labs
+      - defer: rm stars.json
+      - rm -f stars.json.gz
+      - gzip -k -9 stars.json
+      - cat stars.json.gz | {{.ENC}} encrypt -p $ENC_PASSWORD > stars.json.gz.enc
+
+  render:
+    deps:
+      - install
+      - install-enc
+    cmds:
+      - test $ENC_PASSWORD
+      - cat stars.json.gz.enc | {{.ENC}} decrypt -p $ENC_PASSWORD > stars.json.gz
+      - defer: rm -f stars.json.gz
+      - gzip -d stars.json.gz
+      - defer: rm stars.json
+      - python3 -m ghstars render
+
+  release:
+    desc: generate and upload a new release
+    deps:
+      - install-flit
+    cmds:
+      - which gh
+      - test {{.CLI_ARGS}}
+      - cat ghstars/__init__.py | grep {{.CLI_ARGS}}
+      - rm -rf dist/
+      - flit build
+      - flit publish
+      - git tag {{.CLI_ARGS}}
+      - git push
+      - git push --tags
+      - gh release create --generate-notes {{.CLI_ARGS}}
+      - gh release upload {{.CLI_ARGS}} ./dist/*
