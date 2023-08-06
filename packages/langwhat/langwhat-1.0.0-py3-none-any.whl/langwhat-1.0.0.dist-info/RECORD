@@ -1,0 +1,12 @@
+langwhat/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+langwhat/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+langwhat/cli.py,sha256=DZqLxFuVvOKBd0tV6xV50V2RXl6MWOLL6g7AyhxffME,2372
+langwhat/config.py,sha256=4UWAC9nDFhncHkp88QVYbv7jwZjZB5geTafmNGHGjE8,1677
+langwhat/langwhat.py,sha256=RTVUA6tGgIeVrOsU-JqUfaIUY01xYYDP13TwqR6Pd8U,2400
+langwhat/tests/data.py,sha256=KK6WKQoxczuKTIZ-oQOP5dFze2aNNBLRmdodZug21Ys,1422
+langwhat/utils.py,sha256=mWf_fwbJJe_I_dncTQIFRhbmZ67b2fFIJvaZbnexm3c,5074
+langwhat-1.0.0.dist-info/LICENSE,sha256=i3elsWrNBsAxcqmOCBxO4p5B9sEa0WF0Sdxx4tZTqi0,1106
+langwhat-1.0.0.dist-info/METADATA,sha256=hZHvK5PXrfPiTFnuw6gQsHtFGzhgQk1CbOGrfJ9oQIA,2931
+langwhat-1.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+langwhat-1.0.0.dist-info/entry_points.txt,sha256=MOWcfneYBkPJDgBmonBfjX4UucAUX9X8jrNeOmkEdck,67
+langwhat-1.0.0.dist-info/RECORD,,
