@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: proplogic
+Version: 0.0.1
+Summary: A package for propositional logic expression
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: networkx (==3.0)
+Requires-Dist: pygraphviz (==1.10)
+Requires-Dist: pytest (==7.2.2)
+
+UNKNOWN
+
