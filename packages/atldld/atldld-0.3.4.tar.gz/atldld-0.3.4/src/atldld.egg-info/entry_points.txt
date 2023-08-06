@@ -1,0 +1,2 @@
+[console_scripts]
+atldld = atldld.cli.root:root_cmd
