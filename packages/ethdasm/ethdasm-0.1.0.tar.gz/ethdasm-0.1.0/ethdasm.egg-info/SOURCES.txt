@@ -1,0 +1,12 @@
+README.md
+setup.py
+ethdasm/__init__.py
+ethdasm/contract.py
+ethdasm/contract_test.py
+ethdasm/opcodes.py
+ethdasm/opcodes_test.py
+ethdasm/parse.py
+ethdasm.egg-info/PKG-INFO
+ethdasm.egg-info/SOURCES.txt
+ethdasm.egg-info/dependency_links.txt
+ethdasm.egg-info/top_level.txt
