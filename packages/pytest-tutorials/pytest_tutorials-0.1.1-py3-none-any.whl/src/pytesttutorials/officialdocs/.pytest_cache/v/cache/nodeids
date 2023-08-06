@@ -1,0 +1,7 @@
+[
+  "quicky1test.py::test_answer",
+  "quicky1test.py::testanswer",
+  "test_class.py::TestClass::test_one",
+  "test_class.py::TestClass::test_two",
+  "test_needsfile.py::TestTmpDir::test_needsfiles"
+]

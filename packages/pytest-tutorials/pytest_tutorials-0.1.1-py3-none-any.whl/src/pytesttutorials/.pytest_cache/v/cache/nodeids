@@ -1,0 +1,8 @@
+[
+  "officialdocs/quicky1test.py::test_answer",
+  "officialdocs/test_class.py::TestClass::test_one",
+  "officialdocs/test_class.py::TestClass::test_two",
+  "officialdocs/test_needsfile.py::TestTmpDir::test_needsfiles",
+  "officialdocs/test_quicky1.py::test_answer",
+  "officialdocs/test_sysexit.py::test_f"
+]
