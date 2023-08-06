@@ -1,0 +1,8 @@
+wcpan/worker/__init__.py,sha256=3bb43hhFBLJuUw9RRV7OVKVGhaOvRSTfkpQzEc0j8F0,276
+wcpan/worker/aioqueue.py,sha256=neAat5qk8RWQloucOBorAhOOyMcZ9ON0fET5a027kiA,1245
+wcpan/worker/queue.py,sha256=3leXy2ZrDz4FXkuEOHMFSFNVtcMVAZi1Iu_k4OvUmKY,3263
+wcpan/worker/task.py,sha256=spJEYYrXHKFcr6QQ0MyHtMhnUng6d7wdTmsvUsbcd2Q,1677
+wcpan_worker-6.0.0.dist-info/LICENSE.txt,sha256=PbRjHQadKBhXc46At21KaU4eES0XC0PVEWkc2xsiNAI,1102
+wcpan_worker-6.0.0.dist-info/METADATA,sha256=mZIIhIqy_JVlUW2YDpv2fYCsbINSLRMpRUAituLELxw,1396
+wcpan_worker-6.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+wcpan_worker-6.0.0.dist-info/RECORD,,

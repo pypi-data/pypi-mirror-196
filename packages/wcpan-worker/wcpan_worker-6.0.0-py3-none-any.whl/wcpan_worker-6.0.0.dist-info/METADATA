@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: wcpan-worker
+Version: 6.0.0
+Summary: An asynchronous task queue with priority support.
+Home-page: https://github.com/legnaleurc/wcpan.worker
+License: MIT
+Author: Wei-Cheng Pan
+Author-email: legnaleurc@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/legnaleurc/wcpan.worker
+Description-Content-Type: text/markdown
+
+# wcpan.worker
+
+An asynchronous task queue with priority support.
+
+```python
+from wcpan.worker import AsyncQueue, Task
+
+
+class HighPriorityTask(Task):
+
+    @property
+    def priority(self) -> int:
+        return 2
+
+
+class LowPriorityTask(Task):
+
+    @property
+    def priority(self) -> int:
+        return 1
+
+
+# Note this queue is non-preemptive.
+queue = AsyncQueue()
+queue.start()
+
+# function_2 will come first.
+queue.post(LowPriorityTask(function_1))
+queue.post(HighPriorityTask(function_2))
+
+# cancel pending tasks
+queue.flush()
+
+# wait for executing task (if any) ends, then stop the queue
+await queue.stop()
+```
+
