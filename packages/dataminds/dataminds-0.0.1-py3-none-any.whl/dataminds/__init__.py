@@ -1,0 +1,2 @@
+from dataminds.regression import evaluate_model
+from dataminds.classification import evaluate_model
