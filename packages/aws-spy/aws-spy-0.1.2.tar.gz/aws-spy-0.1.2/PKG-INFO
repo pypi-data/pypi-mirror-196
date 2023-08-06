@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aws-spy
+Version: 0.1.2
+Summary: ServerlessPy package ;D
+Author-email: Dominik Pioś <792954018@wp.pl>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: pydantic>=1.0.0
+Requires-Dist: openapi-schema-pydantic>=1.2.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pydantic_yaml>=0.10.0
+Project-URL: Home, https://github.com/PiochU19/ServerlessPy
+
+Hello ;D
+
