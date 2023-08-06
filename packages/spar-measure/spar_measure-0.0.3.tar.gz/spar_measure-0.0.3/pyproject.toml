@@ -1,0 +1,32 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spar_measure"
+version = "0.0.3"
+authors = [{ name = "Authors", email = "author@example.com" }]
+description = "SPAR: Semantic Projection with Active Retrieval"
+readme = "README.MD"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ["src"]
+
+[tool.setuptools.package-data]
+"spar_measure.sample_data" = ["*.csv", "*.npy"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/ISR2022128/SPAR_measure"
+"Bug Tracker" = "https://github.com/ISR2022128/SPAR_measure/issues"
