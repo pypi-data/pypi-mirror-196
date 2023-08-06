@@ -1,0 +1,61 @@
+
+import os
+import setuptools
+
+from numpy.distutils.core import setup, Extension
+from numpy.distutils.misc_util import Configuration
+
+def read(fname):
+    """
+    Read the contents of a file.
+
+    Parameters
+    ----------
+    fname : str
+        Path to file.
+
+    Returns
+    -------
+    str
+        File contents.
+    """
+    with open(os.path.join(os.path.dirname(__file__), fname)) as f:
+        return f.read()
+
+long_description = read('README.md')
+
+# define PROSAIL Fortran library
+prosail_fortran_lib = Extension(
+    name='_prosail_model',
+    sources = [
+        './pyprosail/MODULE_PRO4SAIL.f90',
+        './pyprosail/dataSpec_P5B.f90',
+        './pyprosail/LIDF.f90',
+        './pyprosail/dladgen.f',
+        './pyprosail/PRO4SAIL.f90',
+        './pyprosail/prospect_5B.f90',
+        './pyprosail/tav_abs.f90',
+        './pyprosail/volscatt.f90',
+        './pyprosail/PyPROSAIL.f90'
+    ]
+)
+
+# define Python package setup
+setup(
+    name='pyprosail',
+    packages=['pyprosail'],
+    version='1.1.1',
+    author='Robin Wilson',
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Atmospheric Science",
+        "Topic :: Scientific/Engineering :: Physics",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+        "Programming Language :: Python :: 3"
+    ],
+    ext_modules=[prosail_fortran_lib],
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+)

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyprosail
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Robin Wilson
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+
+# PyProSAIL
+
+PyProSAIL is a Python interface to the ProSAIL combined leaf and canopy optical model.
+
+PyProSAIL was developed by [Robin Wilson](www.rtwilson.com) and is now maintained by the [Earth Observation of Agroecosystems Team](https://www.eoa-team.net/) at the [Swiss Center For Excellence in Agricultural Research, Agroscope](https://www.agroscope.admin.ch/agroscope/en/home.html).
+
+This Pyhon interface (note: not the ProSAIL model itself) is released under the GNU Lesser General Public License.
+For more information see http://pyprosail.readthedocs.org.
+
+
