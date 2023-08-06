@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: coinbaseadvanced
+Version: 0.1.1
+Summary: Coinbase Advanced Trade API client library.
+Home-page: https://github.com/KmiQ/coinbase-advanced-python/
+Download-URL: https://github.com/KmiQ/coinbase-advanced-python/archive/refs/tags/0.1.1.tar.gz
+Author: Camilo Quintas
+Author-email: kmiloc89@gmail.com
+License: MIT
+Keywords: api,coinbase,bitcoin,client
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: requests-toolbelt (>=0.10.1)
+Requires-Dist: typed-ast (>=1.5.4)
+Requires-Dist: typing-extensions (>=4.4.0)
+
+# Coinbase Advanced
+Python library for the Coinbase Advanced Trade API.
+
+## Features
+- Support for all the [REST API endpoints](https://docs.cloud.coinbase.com/advanced-trade-api/docs/rest-api-overview) trough convenient methods.
+- Automatic parsing of API responses into relevant Python objects.
+- Support for [API Key](https://docs.cloud.coinbase.com/advanced-trade-api/docs/rest-api-auth) authentication.
+
+## Example
+```
+from coinbaseadvanced.client import CoinbaseAdvancedTradeAPIClient
+
+# Creating the client.
+client = CoinbaseAdvancedTradeAPIClient(api_key='apikeyhere', secret_key='yoursecrethere')
+
+# Listing accounts.
+accounts_page = client.list_accounts()
+print(accounts_page.size)
+
+# Creating a limit order.
+order_created = client.create_limit_order(client_order_id="lknalksdj89asdkl", product_id="ALGO-USD", side=Side.BUY, limit_price=".19", base_size=5)
+```
+
+## Installation
+```
+pip install coinbaseadvanced
+```
+## Contributing/Development
+Any and all contributions are welcome! The process is simple:
+  1. Fork repo.
+  2. Install Requirements: `pip install -r requirements.txt`.
+  3. Make your changes.
+  4. Run the test suite `python -m unittest -v`.
+  5. Submit a pull request.
