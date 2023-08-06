@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nntemplate
+Version: 0.0.5
+Summary: Bundle of usefull tools for training segmentation or image classification neural networks.
+Author-email: Gabriel Lepetit-Aimon <gabriel.lepetit-aimon@polymtl.ca>
+Project-URL: Source, https://github.com/gabriel-lepetitaimon/nn-template
+Requires-Python: >=3.10

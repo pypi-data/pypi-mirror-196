@@ -1,0 +1,16 @@
+albumentations
+numpy
+opencv-python-headless
+optuna
+parse
+pandas
+pytorch-lightning
+pyyaml
+segmentation-models-pytorch
+torch
+torchgeometry
+torchmetrics
+torchvision
+ttach
+webcolors
+wandb
