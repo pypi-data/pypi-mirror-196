@@ -1,0 +1,11 @@
+correct_hours/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/__main__.py,sha256=y9znLxqwVAQgfG2dZXtcsx0lj8m0KPKcjbKqYs9AUmE,2344
+correct_hours/report_processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correct_hours/report_processors/myob.py,sha256=zx7HfdB3L4MEY3ARvs-kLKFklRdVIUpVANThki4AYzI,280
+correct_hours/report_processors/xero/__init__.py,sha256=TwF79TNca8xle8gc9bWR8NQJihZabgv3nX4JLD_SjNE,5469
+correct_hours/report_processors/xero/rate_processor.py,sha256=U8VMBu-bD8k4IxylBYbBAuiFEao9H26KfX0_D5bP2GE,2905
+correct_hours/types.py,sha256=LP56D6WomUg7JxVB8d2UVy020c6fgtaDZO1G4wV7-CM,1604
+correct_hours/utils.py,sha256=CQtMlC9qIaFhgi3po955vx_kgAOnZEb6NaNoYEs4Ov8,563
+correct_hours-1.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+correct_hours-1.1.0.dist-info/METADATA,sha256=L4tS0btl3tZX-OTcHBVosFWbk6DqLlCj9OXzjSkOX30,356
+correct_hours-1.1.0.dist-info/RECORD,,
