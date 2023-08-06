@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: EncDecoder
+Version: 0.0.1
+Summary: Enncode Or Decode Everything
+Home-page: UNKNOWN
+Author: DrMowz
+Author-email: <drmowz8585@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: cryptography
+
+You Can Encode Anything By Using (enc(File Address.txt or .mp4 or...)) And Decode That With (dec(File Address.txt or .mp4 or...))
+
+
