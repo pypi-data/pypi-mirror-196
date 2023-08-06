@@ -1,0 +1,13 @@
+gooddata_pandas/__init__.py,sha256=Ta3qIIDq7kBRUsYSV3aC69AQBFvFvhtWDQucgP-l88w,297
+gooddata_pandas/_version.py,sha256=YxaAwfP9Yw10sit_vyhVfHJQBAzUUwtm5p0BItfBFx8,225
+gooddata_pandas/data_access.py,sha256=gVEpzPPZPyjjYSwKxmCZtJpYrY4b1ptnipGZcXz-ovU,13090
+gooddata_pandas/dataframe.py,sha256=NnxSiYOdvtC6wMo_9WHojs9OLVwZYx4CBrvQBNcXnoA,16125
+gooddata_pandas/good_pandas.py,sha256=BFfavMkLnCrK6IYijehAU23Z0-kSz7wOEnf0wp-RgP0,2495
+gooddata_pandas/result_convertor.py,sha256=hIMLzJnQNZQ0n8AwixOCjJDz3tPyozQnvDSPgzu3c4Q,17659
+gooddata_pandas/series.py,sha256=6MrcMB2kLNtkf7XeaVfVKzS5n0HAZSSU-Dx_BzMzndQ,5545
+gooddata_pandas/utils.py,sha256=7kaQGxQTQw7OP6Sa6-RePJsuqgd5baPDHIxbein1PFA,4245
+gooddata_pandas-1.3.0.dist-info/LICENSE.txt,sha256=7kFpIrSFoeR3tktzAJD_OEtNUsnhbA0bW1YQMq6gJjg,78103
+gooddata_pandas-1.3.0.dist-info/METADATA,sha256=hSgT5ejJGhU1i_YwJ8O4YwiORtDSRD3a8bXLi5QoJSo,2892
+gooddata_pandas-1.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gooddata_pandas-1.3.0.dist-info/top_level.txt,sha256=B7K_WFxlxplJbEbv5Mf0YhX74dbOpTPgDX-W6I7CssI,16
+gooddata_pandas-1.3.0.dist-info/RECORD,,
