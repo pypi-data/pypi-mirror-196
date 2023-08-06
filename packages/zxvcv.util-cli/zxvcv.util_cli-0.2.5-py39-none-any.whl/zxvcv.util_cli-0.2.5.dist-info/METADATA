@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: zxvcv.util-cli
+Version: 0.2.5
+Summary: Toolbox for cli for other projects
+Author-email: Pawel Piskorz <ppiskorz0@gmail.com>
+Maintainer-email: Pawel Piskorz <ppiskorz0@gmail.com>
+License: MIT License
+Project-URL: homepage, https://gitlab.com/zxvcv-python/zxvcv/util-cli
+Project-URL: repository, https://gitlab.com/zxvcv-python/zxvcv/util-cli
+Project-URL: changelog, https://gitlab.com/zxvcv-python/zxvcv/util-cli/-/blob/master/CHANGES.rst
+Project-URL: download, https://pypi.org/project/zxvcv.util-cli/
+Project-URL: issues, https://gitlab.com/zxvcv-python/zxvcv/util-cli/-/issues
+Keywords: zxvcv,toolbox,tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: tox
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.12,>=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: windows-curses (>=2.3.1)
+
+# zxvcv.util-cli
+Toolbox for other projects.
