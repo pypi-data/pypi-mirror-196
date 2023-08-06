@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+discord_racket.egg-info/PKG-INFO
+discord_racket.egg-info/SOURCES.txt
+discord_racket.egg-info/dependency_links.txt
+discord_racket.egg-info/top_level.txt
+racket/__init__.py
+racket/interaction_history.py
