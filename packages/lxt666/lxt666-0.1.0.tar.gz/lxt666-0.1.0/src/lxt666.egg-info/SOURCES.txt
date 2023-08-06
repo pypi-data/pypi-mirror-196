@@ -1,0 +1,8 @@
+setup.py
+src/lxt666/__init__.py
+src/lxt666/gaoyu.py
+src/lxt666/lxt.py
+src/lxt666.egg-info/PKG-INFO
+src/lxt666.egg-info/SOURCES.txt
+src/lxt666.egg-info/dependency_links.txt
+src/lxt666.egg-info/top_level.txt
