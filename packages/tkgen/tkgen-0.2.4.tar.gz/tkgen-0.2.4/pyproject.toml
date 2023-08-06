@@ -1,0 +1,36 @@
+[project]
+
+name = "tkgen"
+authors = [{name = "Théo Cavignac", email = "theo.cavignac+dev@gmail.com"}]
+description = "A Tkinter form dialog generator."
+
+requires-python = ">= 3.7"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "pyskema >= 0.2",
+]
+
+dynamic = ["version", "readme"]
+
+[project.urls]
+repository = "https://git.sr.ht/~lattay/python-tkgen"
+documentation = "https://tkgen.readthedocs.io"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "tkgen.__version__"}
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[tool.setuptools.packages.find]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+"tkgen.assets" = ["*.png"]
