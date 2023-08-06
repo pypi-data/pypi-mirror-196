@@ -1,0 +1,8 @@
+ix_cli/__init__.py,sha256=Lad3XMhXrbyMDJnyrco6uswhYLGNyiD17khWx0j2lLQ,101
+ix_cli/cli.py,sha256=vF1ZO477enKXNwm3xmmdyaXEeRCRAgGEcv-6fsZg7Og,5255
+ix_cli/utils.py,sha256=ULpbcvZmRD_uJcDHUc1SGcSzxR_es-1hqC_BKotQcc4,4788
+ix_cli-0.1.0.dist-info/entry_points.txt,sha256=kq7bqe7FwlAAKBKSMoTY1OUqHDFoN5FPrHkY0u1KBgc,37
+ix_cli-0.1.0.dist-info/LICENSE,sha256=9pim2vdZWKfLYUtZo6lqBkCsgoTIRbI44DFjsf1Qg9g,1068
+ix_cli-0.1.0.dist-info/METADATA,sha256=Fmtvzpgrj_M8QzrnWa1poBI6vxMYzuoAkWRlhZa6gMw,2663
+ix_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ix_cli-0.1.0.dist-info/RECORD,,

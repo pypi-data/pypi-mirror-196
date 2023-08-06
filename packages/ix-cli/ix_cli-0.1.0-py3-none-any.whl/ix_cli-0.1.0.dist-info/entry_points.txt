@@ -1,0 +1,3 @@
+[console_scripts]
+ix=ix_cli.cli:app
+
