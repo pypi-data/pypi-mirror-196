@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/robopanda/__init__.py
+src/robopanda/robopanda.py
+src/robopanda.egg-info/PKG-INFO
+src/robopanda.egg-info/SOURCES.txt
+src/robopanda.egg-info/dependency_links.txt
+src/robopanda.egg-info/top_level.txt
+test/test_robopanda.py
