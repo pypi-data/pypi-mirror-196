@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pss-scrambler
+Version: 0.0.1
+Summary: PSS Scrambler replaces user-specified identifiers with random names.
+Home-page: https://github.com/psstools/pss-scrambler
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License: Apache 2.0
+Keywords: PSS,Portable Test and Stimulus,RTL,Coverage
+License-File: LICENSE
+Requires-Dist: jsonschema
+Requires-Dist: pyyaml
+Requires-Dist: pyyaml-srcinfo-loader
+Requires-Dist: requirements-parser
+Requires-Dist: toposort
+
+
+  IVPM fetches Python and non-Python packages from package and source
+  repositories. Python packages are installed into a local Python 
+  virtual environment. Source packages are installed in editable mode
+  
