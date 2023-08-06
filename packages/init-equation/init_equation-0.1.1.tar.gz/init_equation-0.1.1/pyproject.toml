@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "init-equation"
+version = "0.1.1"
+description = "Added vector analysis in chapters in physics."
+authors = ["vaibhavblayer <vaibhavblayer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "init_equation"}]
+
+
+[tool.poetry.scripts]
+init-equation = "init_equation.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
