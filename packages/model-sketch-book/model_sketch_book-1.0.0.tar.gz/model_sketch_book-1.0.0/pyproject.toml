@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "model_sketch_book"
+version = "1.0.0"
+description = "A package for sketching ML models"
+authors = ["Michelle Lam"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.16"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
