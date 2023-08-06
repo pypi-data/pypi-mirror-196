@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: vector-search
+Version: 0.0.1
+Summary: 
+Author: kunyuan
+Author-email: beidongjiedeguang@email.com
+Requires-Python: >=3.6.0,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: fastapi (>=0.86.0,<0.87.0)
+Requires-Dist: fire
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rich
+Requires-Dist: sparrow-tool (>=0.7.3)
+Requires-Dist: uvicorn (>=0.19.0,<0.20.0)
+Description-Content-Type: text/markdown
+
+
+# v-search
