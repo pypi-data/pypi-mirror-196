@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: justfortest2
+Version: 0.1.0
+Summary: 
+Author: superjcd
+Author-email: 929760274@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
