@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+talk2pdf/__init__.py
+talk2pdf/__main__.py
+talk2pdf/config.py
+talk2pdf/ffmpeg.py
+talk2pdf/openai_cache.py
+talk2pdf/utils.py
+talk2pdf/ytdlp.py
+talk2pdf.egg-info/PKG-INFO
+talk2pdf.egg-info/SOURCES.txt
+talk2pdf.egg-info/dependency_links.txt
+talk2pdf.egg-info/requires.txt
+talk2pdf.egg-info/top_level.txt
