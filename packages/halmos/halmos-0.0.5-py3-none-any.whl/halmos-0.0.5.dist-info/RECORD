@@ -1,0 +1,11 @@
+halmos/__init__.py,sha256=-Fy7V8RZspwVScrp_8_wreEOxxdQ3I95Se9CGvPvz6s,36
+halmos/__main__.py,sha256=165-2kH-jUyKd6-lbRCz38j1IYhzF0riIKPKq7oVe-s,19132
+halmos/byte2op.py,sha256=xc1B4y5rfsWH4Gr_1yfm5Z0YN8-Vjo_6DSKJuDIJ7UM,2800
+halmos/sevm.py,sha256=xk6qsyWBQBLZNgDtINZ0ajynS06kdyZVGf0Z6Z9fwVI,51229
+halmos/utils.py,sha256=NyVxMtmIpISDK1Y2RLCjeVnK3UEljmuyPnzCOiev1GE,27107
+halmos-0.0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+halmos-0.0.5.dist-info/METADATA,sha256=7lnpuCcaU80qjnFcKndiFrRaLJnwTmCoWVqVOqQMNo0,4607
+halmos-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+halmos-0.0.5.dist-info/entry_points.txt,sha256=bLGXZ_QVLIInChrIeGWY8OkRaACcnV0pXWZOTOQjJrA,48
+halmos-0.0.5.dist-info/top_level.txt,sha256=mcJepWoAWet35tnvVuCGzCySkzn3rTQ7m2wjWF9wxhk,7
+halmos-0.0.5.dist-info/RECORD,,
