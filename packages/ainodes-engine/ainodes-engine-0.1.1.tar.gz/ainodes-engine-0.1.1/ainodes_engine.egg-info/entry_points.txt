@@ -1,0 +1,2 @@
+[console_scripts]
+ainodes = launcher:main
