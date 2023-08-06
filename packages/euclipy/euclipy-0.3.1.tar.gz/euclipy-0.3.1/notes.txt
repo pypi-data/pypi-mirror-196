@@ -1,0 +1,3 @@
+# To  make absolute package imports work
+$ export PYTHONPATH="${PYTHONPATH}:~/euclipy"
+$ printenv PYTHONPATH
