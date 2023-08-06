@@ -1,0 +1,4 @@
+async_oauthlib
+oauthlib
+pydantic
+requests_oauthlib
