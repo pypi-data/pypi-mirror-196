@@ -1,0 +1,6 @@
+"""Types for Serpent"""
+
+import numpy as np
+
+
+CodonData = np.uint8
