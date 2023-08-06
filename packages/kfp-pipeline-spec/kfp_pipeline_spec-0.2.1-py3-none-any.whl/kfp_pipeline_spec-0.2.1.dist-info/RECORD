@@ -1,0 +1,6 @@
+kfp/pipeline_spec/__init__.py,sha256=wt_PwDbJoguIKfCyG1kKBE1UxBbf8cvyW_EXUY9-mf8,585
+kfp/pipeline_spec/pipeline_spec_pb2.py,sha256=ctNdzgELS1LRfs6TkSWBQ0t794PnuRrXvxpjgGmOToE,91601
+kfp_pipeline_spec-0.2.1.dist-info/METADATA,sha256=X6lZ-aYcFkNkmG6J3JbILD9WC0s1_6e_ESnBnn9nkQI,323
+kfp_pipeline_spec-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kfp_pipeline_spec-0.2.1.dist-info/top_level.txt,sha256=BuPB8SKXzqWqtDP8gb50J-zFIsPNKZeKoqICt5fIFBE,4
+kfp_pipeline_spec-0.2.1.dist-info/RECORD,,
