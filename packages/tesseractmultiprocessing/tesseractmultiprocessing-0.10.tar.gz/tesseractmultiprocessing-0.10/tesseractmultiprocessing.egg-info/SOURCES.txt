@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tesseractmultiprocessing/LICENSE
+tesseractmultiprocessing/README.MD
+tesseractmultiprocessing/__init__.py
+tesseractmultiprocessing/call3.py
+tesseractmultiprocessing/requirements.txt
+tesseractmultiprocessing/thirdparty.json
+tesseractmultiprocessing.egg-info/PKG-INFO
+tesseractmultiprocessing.egg-info/SOURCES.txt
+tesseractmultiprocessing.egg-info/dependency_links.txt
+tesseractmultiprocessing.egg-info/requires.txt
+tesseractmultiprocessing.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+include tesseractmultiprocessing/requirements.txt
+include tesseractmultiprocessing/thirdparty.json
+include tesseractmultiprocessing/README.MD
+include tesseractmultiprocessing/call3.py
+include tesseractmultiprocessing/LICENSE
