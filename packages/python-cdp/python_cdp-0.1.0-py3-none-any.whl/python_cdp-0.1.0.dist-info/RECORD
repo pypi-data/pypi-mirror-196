@@ -1,0 +1,9 @@
+python_cdp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cdp/cdp/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cdp/client.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cdp/generator.py,sha256=qig-hVzPEUReV7YGtjYg5kBOHMMzukVgfRO6P32Ot6k,423
+python_cdp/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cdp-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_cdp-0.1.0.dist-info/METADATA,sha256=hrncC4p5cwJU6rQ3mtT5ECIXms0zXfwqz1zaGLh-YHg,1084
+python_cdp-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+python_cdp-0.1.0.dist-info/RECORD,,
