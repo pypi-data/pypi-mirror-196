@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: aesthetic-predictor
+Version: 0.1.0
+Summary: A python package of aesthetic quality of pictures a.k.a `aesthic-predictor`.
+Home-page: https://github.com/elda27/aesthetic-predictor
+License: MIT
+Author: elda27
+Author-email: kaz.birdstick@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: open-clip-torch (>=2.16.0,<3.0.0)
+Requires-Dist: pytest-coverage (>=0.0,<0.1)
+Requires-Dist: torch (>=1.13.1,<2.0.0)
+Project-URL: Repository, https://github.com/elda27/aesthetic-predictor
+Description-Content-Type: text/markdown
+
+# aestic-predictor
+
+## Abstract
+
+A python package of aesthetic quality of pictures a.k.a `aesthic-predictor`.
+See details: https://github.com/LAION-AI/aesthetic-predictor
+
+## Installation
+
+```python
+pip install aesthetic_predictor
+```
+
+## How to use
+
+```python
+from aesthetic_predictor import predict_aesthetic
+from PIL import Image
+print(predict_aesthetic(Image.open("path/to/image")))
+```
+
