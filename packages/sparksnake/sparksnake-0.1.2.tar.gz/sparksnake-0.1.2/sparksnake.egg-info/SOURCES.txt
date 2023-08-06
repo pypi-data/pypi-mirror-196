@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+snakespark/__init__.py
+snakespark/glue.py
+snakespark/manager.py
+snakespark/utils/__init__.py
+snakespark/utils/log.py
+sparksnake.egg-info/PKG-INFO
+sparksnake.egg-info/SOURCES.txt
+sparksnake.egg-info/dependency_links.txt
+sparksnake.egg-info/not-zip-safe
+sparksnake.egg-info/requires.txt
+sparksnake.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_01_job_manager.py
