@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/finmetry/__init__.py
+src/finmetry/base.py
+src/finmetry/version.py
+src/finmetry.egg-info/PKG-INFO
+src/finmetry.egg-info/SOURCES.txt
+src/finmetry.egg-info/dependency_links.txt
+src/finmetry.egg-info/requires.txt
+src/finmetry.egg-info/top_level.txt
