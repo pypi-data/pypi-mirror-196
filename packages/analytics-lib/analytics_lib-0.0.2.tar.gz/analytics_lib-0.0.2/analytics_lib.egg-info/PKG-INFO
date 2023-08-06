@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: analytics-lib
+Version: 0.0.2
+Summary: A package for psychotyping by text
+Home-page: https://github.com/lyoshamipt/bortnik_psychometry
+Author: Pokhachevskiy Vsevolod
+Author-email: pokhachevskiy@gmail.com
+Description-Content-Type: text/markdown
+
+# Библиотека для анализа текстов
+
+## Установка (требуется Python 3.8 и новее)   
+
+```
+pip install analytics-lib
+```
+# Загрузка ресурсов для FastText и spacy моделей
+```
+python3 -m dostoevsky download fasttext-social-network-model
+python3 -m spacy download ru_core_news_sm 
+```
+## Загрузка ресурсов для ELMO и Stanza моделей
+Следует скачать из папки Soft-Skill-Dev/21_nov по ссылке
+https://drive.google.com/drive/folders/1T1NuaU1qPQsyAM_i55AsJPrsGA28EZ5j?usp=sharing
+на Google Drive папку stanza_resources/ и разместить в папку с проектом по пути **PATH_TO_STANZA_RESOURCES**
+
+Также следует скачать ресурсы для elmo-модели по ссылке http://vectors.nlpl.eu/repository/20/212.zip, разархивировать их 
+и разместить в папку с проектом по пути **PATH_TO_ELMO_RESOURCES**
+
+## Загрузка pickle-файлов для усредненной статистики по текстам:
+Из репозитория https://github.com/lyoshamipt/bortnik_psychometry
+необходимо из папки analytics_lib/data скачать актуальные: 
+--  папки: *assessty_all*, *assessty_short*, *telecom*
+-- файлы: *df_sense.pkl* и *verbs_df.pkl*
+И поместить в папку с проектом по пути: **PATH_TO_PICKELS**
+
+
+## Пример использования
+```
+PATH_TO_STANZA_RESOURCES = "../bortnik_psychometry/analytics_lib/notebooks/stanza_resources"
+PATH_TO_ELMO_RESOURCES = "../bortnik_psychometry/analytics_lib/notebooks/elmo_resources"
+PATH_TO_PICKELS = "../bortnik_psychometry/analytics_lib/data"
+
+import sys
+sys.path.append("../")
+
+import warnings
+import logging
+import pandas as pd
+import json
+import sys
+from morpholog import Morpholog
+from dostoevsky.tokenization import RegexTokenizer
+from dostoevsky.models import FastTextSocialNetworkModel
+from matplotlib import rcParams
+from pymystem3 import Mystem
+from simple_elmo import ElmoModel
+import stanza
+import spacy
+import snowballstemmer
+import os
+
+logging.disable(sys.maxsize)
+warnings.filterwarnings("ignore")
+
+# инициализация класса
+from analytics_lib.nlp_texts.text import TextProcessor
+
+mystem = Mystem()
+nlp_core = stanza.Pipeline('ru', use_gpu=False, dir=PATH_TO_STANZA_RESOURCES)
+morpholog = Morpholog()
+tokenizer = RegexTokenizer()
+ftsnm = FastTextSocialNetworkModel(tokenizer=tokenizer)
+nlp_spacy = spacy.load("ru_core_news_sm")
+stemmer = snowballstemmer.stemmer('russian')
+
+import tensorflow.compat.v1 as tf
+tf.reset_default_graph()
+elmo_model = ElmoModel()
+elmo_model.load(PATH_TO_ELMO_RESOURCES)
+
+df_sense = pd.read_pickle(f"{PATH_TO_PICKELS}/df_sense.pkl")
+verbs_df = pd.read_pickle(f"{PATH_TO_PICKELS}/verbs_df.pkl")
+
+text_processor = TextProcessor(
+    m=mystem,
+    nlp_core=nlp_core,
+    morpholog=morpholog,
+    fastTextSocialNetworkModel=ftsnm,
+    nlp_spacy=nlp_spacy,
+    stemmer = stemmer,
+    elmo_model = elmo_model,
+    df_sense = df_sense,
+    verbs_df = verbs_df
+)
+
+# пример обработки текста
+text = "Программа \"Вернём клиентов\" для дилеров ГаражТулс.В рамках развития дилерской сети за дополнительные деньги настроить триггерную рассылку для тех клиентов, которые ушли.\
+Тестируем: берем лояльного дилера, предлагаем в качестве эксперимента предоставить нам клиентов, которые отказались от покупки (на их сайте или магазине). Собираем контакты, настраиваем триггерную рассылку. Смотрим на результат. Если успех, то проводим опрос на основных дилерах и показываем успешный кейс. Узнаем, сколько бы они заплатили за это. Дальше пробуем продать 2-3- дилерам такую услугу. (пока делаем всё вручную) Если они оплачивают, то гипотезу можно считать проверенной и можно запускать в разработку функционал.(и если юнит экономика сходится)Подключаем дилерскую CRM (или любую другую систему, где есть отвалившиеся клиенты) к системе триггерных рассылок. К пакету дилерских документов предлагаем новую услугу. Непринужденно зарабатываем."
+
+dict_res = text_processor.text_statistics_woe(text=text, quantiles="assessty_short", PATH_TO_PICKELS = PATH_TO_PICKELS) # quantiles: 'assessty_all', "assessty_short", 'dialogs'
+```

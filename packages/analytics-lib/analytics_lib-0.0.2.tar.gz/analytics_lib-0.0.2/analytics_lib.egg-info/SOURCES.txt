@@ -1,0 +1,12 @@
+README.md
+setup.py
+analytics_lib/__init__.py
+analytics_lib.egg-info/PKG-INFO
+analytics_lib.egg-info/SOURCES.txt
+analytics_lib.egg-info/dependency_links.txt
+analytics_lib.egg-info/requires.txt
+analytics_lib.egg-info/top_level.txt
+analytics_lib/nlp_texts/__init__.py
+analytics_lib/nlp_texts/for_dict_processing.py
+analytics_lib/nlp_texts/psychotype.py
+analytics_lib/nlp_texts/text.py
