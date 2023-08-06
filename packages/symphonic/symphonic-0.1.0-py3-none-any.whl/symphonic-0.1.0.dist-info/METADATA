@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: symphonic
+Version: 0.1.0
+Summary: 
+Author: aaronkanzer
+Author-email: aaronkanzer@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8,<9)
+Description-Content-Type: text/markdown
+
+# podium
+Optimizing Container Orchestration
+
