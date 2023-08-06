@@ -1,0 +1,13 @@
+biopython<2.0,>=1.78
+matplotlib
+numba
+numpy
+pandas
+pillow
+pytorch-lightning>=0.8.1
+scikit-learn
+scipy
+sentencepiece
+tensorboard
+torch>=1.4
+transformers
