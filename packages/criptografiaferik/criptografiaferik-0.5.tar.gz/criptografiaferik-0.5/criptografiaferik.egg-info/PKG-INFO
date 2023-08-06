@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: criptografiaferik
+Version: 0.5
+Summary: Uma biblioteca para criptografia de mensagens
+Home-page: https://github.com/eriksoaress/Criptografia
+Author: Erik Soares e Fernando Santos
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Criptografia Enigma
+Este projeto consiste em uma implementaÃ§Ã£o de um cifrador e decifrador Enigma, um famoso dispositivo de criptografia usado pela Alemanha nazista durante a Segunda Guerra Mundial. O objetivo desse dispositivo era codificar mensagens militares e protegÃª-las contra interceptaÃ§Ã£o e decodificaÃ§Ã£o pelos inimigos.
+
+## EquaÃ§Ãµes Implementadas
+As equaÃ§Ãµes utilizadas foram manipulaÃ§Ãµes e multiplicaÃ§Ãµes matriciais. Utilizamos matrizes de transformaÃ§Ã£o (matriz identidade com linhas permutadas), para a realizaÃ§Ã£o da cifragem da mensagem. Para isso, seguimos uma determinada regra de multiplicaÃ§Ã£o: a mensagem, antes, Ã© transformada para uma matriz one hot,e iteramos em cada coluna dessa matriz one-hot, fazendo uma multiplicÃ£o por uma matriz de transformaÃ§Ã£o *E*. Para cada coluna *i > 1* multiplicamos *i - 1* vezes a matriz *E* pela mensagem em one-hot. Com isso, ficamos com uma matriz que serÃ¡ usada para a cifragem da mensagem. 
+
+Utilizamos o conceito de matriz inversa, para poder decifrar a mensagem cifrada. Para isso, fizemos a inversa da matriz *P* e *E* (ambas matrizes  de permutaÃ§Ãµes, utilizadas para a cifragem da mensagem) e multiplicamos por uma matriz, que representa a matriz one-hot da mensagem, seguindo uma regra. A regra Ã© que para  coluna *j* da matriz one-hot, multiplicamos a inversa de *E*  pela coluna  *j*  *(j - 1)* vezes e aá¹•Ã³s isso, multiplicamos por *P*. Dessa forma, conseguimos obter uma matriz, que serÃ¡ convertida na mensagem original. 
+
+
+
+## Como baixar 
+
+A biblioteca "criptografia" estÃ¡ disponÃ­vel para baixar utilizando o pip do python, basta executar:
+`pip install criptografiaferik`
+<p>ApÃ³s isso, vocÃª poderÃ¡ utilizar os seguintes mÃ©todos:</p>
+
+`cifrar(msg : str, P : np.array):`
+Aplica uma cifra simples em uma mensagem recebida como entrada e retorna a mensagem cifrada. P Ã© a matriz de permutaÃ§Ã£o que realiza a cifra.
+- Deve ser realizada uma multiplicaÃ§Ã£o matricial entre a matriz de permutaÃ§Ã£o e a mensagem.
+
+
+`de_cifrar(msg : str, P : np.array):`
+Recupera uma mensagem cifrada, recebida como entrada, e retorna a mensagem original. P Ã© a matriz de permutaÃ§Ã£o que realiza a cifra.
+- Deve ser realizada uma multiplicaÃ§Ã£o matricial entre a inversa da matriz de permutaÃ§Ã£o e a mensagem, efetuando o caminho inverso da cifra.
+
+
+`enigma(msg : str, P : np.array, E : np.array):`
+Faz a cifra Enigma na mensagem de entrada usando o cifrador P e o cifrador auxiliar E, ambos representados como matrizes de permutaÃ§Ã£o.
+- Deve ser realizada uma multiplicaÃ§Ã£o matricial entre o P, E0 * E1*...Ei (sendo i o indice correspondente a letra da mensagem) e a mensagem.
+
+
+`de_enigma(msg : str, P : np.array, E : np.array):`
+Recupera uma mensagem cifrada como Enigma assumindo que ela foi cifrada usando o cifrador P e o cifrador auxiliar E, ambos representados como matrizes de permutaÃ§Ã£o.
+- Deve ser realizada uma multiplicaÃ§Ã£o matricial E0 * E1*...Ei (sendo i o indice correspondente a letra da mensagem), o P, e a mensagem .
+
+Para utilizar cada uma das funÃ§Ãµes da biblioteca segue as expliÃ§Ãµes:
+
+- cifrar: Passe a sua mensagem original como mÃ©todo da funÃ§Ã£o, e a sua matriz permutaÃ§Ã£o, sendo essa Ãºltima opcional, haja vista que jÃ¡ possui uma pre-definida.
+- de_cifrar: Passe a sua mensagem cifrada como mÃ©todo da funÃ§Ã£o, e a matriz permutaÃ§Ã£o, sendo essa Ãºltima opcional, haja vista que jÃ¡ possui uma pre-definida.
+- enigma: Passe a sua mensagem original como mÃ©todo da funÃ§Ã£o, a matriz permutaÃ§Ã£o, e a matriz permutaÃ§Ã£o auxiliar, sendo as duas Ãºltimas opcionais, haja vista que elas estÃ£o pre-definidas.
+- de_enigma: Passe o seu enigma como mÃ©todo da funÃ§Ã£o, a matriz permutaÃ§Ã£o, e a matriz permutaÃ§Ã£o auxiliar, sendo as duas Ãºltimas opcionais, haja vista que elas estÃ£o pre-definidas.
+
+
+## Como Rodar o demo.py
+
+Primeiramente, verifique se vocÃª estÃ¡ na pasta criptografia, apÃ³s isso, abra o seu terminal e execute o seguinte comando: python demo.py
+SerÃ¡ exibido em seu terminal alguns testes de cada uma das funÃ§Ãµes que foram implementadas.
