@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ecida
+Version: 0.0.1
+Summary: The ECiDA-python to make things easier
+Home-page: https://gitlab.com/ecida
+Author: Mostafa Hadadian
+Author-email: m.hadadian@rug.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: kafka-python
+
+# ECIDA
