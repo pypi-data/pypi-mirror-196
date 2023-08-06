@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: MowzFinder
+Version: 1.1.1
+Summary: You Can Find WebPages Of A Website
+Home-page: UNKNOWN
+Author: DrMowz
+Author-email: <drmowz8585@gmail.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

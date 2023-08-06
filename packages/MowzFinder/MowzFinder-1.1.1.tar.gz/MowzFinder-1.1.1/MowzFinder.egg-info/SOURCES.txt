@@ -1,0 +1,8 @@
+setup.py
+MowzFinder/Main.py
+MowzFinder/__init__.py
+MowzFinder.egg-info/PKG-INFO
+MowzFinder.egg-info/SOURCES.txt
+MowzFinder.egg-info/dependency_links.txt
+MowzFinder.egg-info/requires.txt
+MowzFinder.egg-info/top_level.txt
