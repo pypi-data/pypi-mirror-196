@@ -1,0 +1,5 @@
+pyproject.toml
+automatic_package_version_update.egg-info/PKG-INFO
+automatic_package_version_update.egg-info/SOURCES.txt
+automatic_package_version_update.egg-info/dependency_links.txt
+automatic_package_version_update.egg-info/top_level.txt
