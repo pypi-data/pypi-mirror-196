@@ -1,0 +1,2 @@
+[nbdev]
+betting_env = betting_env._modidx:d
