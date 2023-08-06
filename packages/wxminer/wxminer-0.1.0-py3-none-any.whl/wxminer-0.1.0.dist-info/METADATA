@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: wxminer
+Version: 0.1.0
+Summary: Deep into WeChat
+Home-page: https://github.com/shyvn/wxminer
+License: MIT
+Author: shyvn
+Author-email: shyvnx@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ibackupy (>=0.1.0,<0.2.0)
+Requires-Dist: lxml (>=4.9.2,<5.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# WX Miner
+
+> Deep into WeChat
+
+With an iTunes backup, wxminer helps you delivering a full analysis of your WeChat data including sessions, contacts, chats and all.
+
+## Install
+
+```Shell
+$ pip install wxminer
+```
+
+## Usage
+
+Say if you want to export a friend chat:
+
+```Shell
+$ python -m wxminer --user "user_id" \
+                    --friend "friend_id" \
+                    --sdate "2023-01-01" \
+                    --output "chat.csv"
+```
+
+or you prefer a pandas dataframe:
+
+```Python
+from wxminer import WeChat
+
+wx = WeChat("user_id")
+df_chat = wx.get_friend_chat("friend_id", st="2023-01-01")
+```
+
+## Roadmap
+
+- [x] chats export
+- [ ] session export
+- [ ] moments export
+- [ ] daily dashboard
+- [ ] annual report
+- [ ] chat mining
+
+## License
+
+[MIT](./LICENSE)
+
