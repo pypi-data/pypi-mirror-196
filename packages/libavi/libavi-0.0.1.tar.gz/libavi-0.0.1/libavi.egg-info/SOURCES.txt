@@ -1,0 +1,10 @@
+LICENSE.md
+setup.py
+libavi/__init__.py
+libavi/a1module.py
+libavi/a2module.py
+libavi/a3module.py
+libavi.egg-info/PKG-INFO
+libavi.egg-info/SOURCES.txt
+libavi.egg-info/dependency_links.txt
+libavi.egg-info/top_level.txt
