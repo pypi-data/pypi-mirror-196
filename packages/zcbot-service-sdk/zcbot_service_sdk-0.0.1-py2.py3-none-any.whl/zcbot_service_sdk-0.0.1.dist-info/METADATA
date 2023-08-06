@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zcbot-service-sdk
+Version: 0.0.1
+Summary: zcbot service sdk for zsodata
+Home-page: http://gitee.com
+Author: yk
+Author-email: 815583442@qq.com
+License: BSD License
+Platform: all
+Requires-Python: >=3.7
+Requires-Dist: celery (==5.2.7)
+Requires-Dist: redis (==4.3.5)
+
+pip install zcbot_service_sdk
