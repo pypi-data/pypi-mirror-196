@@ -1,0 +1,4 @@
+include *.md
+include *.txt
+include avikom_types/py.typed
+global-include *.pyi
