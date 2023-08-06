@@ -1,0 +1,17 @@
+jupyterhub_moss/__init__.py,sha256=_rpv5OB2EjZI5ffoCdR4aPGMTuqGaODIaiNWKoGVmKo,488
+jupyterhub_moss/batch_script.sh,sha256=dM6OtIQcvvMpjCBNpCD03puRANtzODNJpIgwdaby1G0,825
+jupyterhub_moss/models.py,sha256=bZFqF-KcqnPvPVE6uZNyAiPR82UO4g67nzXDOuHaTRI,5561
+jupyterhub_moss/spawner.py,sha256=cDnXDfdZiczjl35epgllXayF0G9yh9E4dFZuO_1zBec,14138
+jupyterhub_moss/utils.py,sha256=2KthQRucbHX7bgPQVk33UORRNQRRCmEgxtag-YZCwr8,2081
+jupyterhub_moss/form/option_form.css,sha256=yzF8CMCB5D4MF0dSQ7V0jau1i9k6ob3MMcLBPqtQBOU,2584
+jupyterhub_moss/form/option_form.js,sha256=sUGyS2fJOEjIKJPBzpHxvLTN05gDr-MjLNHfZxZQvAw,18777
+jupyterhub_moss/templates/option_form.html,sha256=QNXdWzNBnEfxMXRp952jLahP5UNqxkmxxx0kylpvZEc,9001
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=9k7YLBSELbGheg6dXYmn2dmZcZtxn5Iq38UTHJ-stxE,73
+test/test_spawn_page.py,sha256=l4aakrbMM3Qp4YPix8qT4IbdddOaHRNFHA8WmYT2Xlg,3474
+test/utils.py,sha256=yL2Q-VYkMST25ZNrr0iCCOsuM6svhbsPIl-sHbeLz9Y,1218
+jupyterhub_moss-6.0.0.dist-info/LICENSE,sha256=fZ0KbL1Ka-mZASN55Axi99CMo1YZWwAdFTJin6vJqzY,1108
+jupyterhub_moss-6.0.0.dist-info/METADATA,sha256=n_k1jxwvFXwK_T4QAY_Tj7s3WgE4ST_boPRiHHpuXxE,11612
+jupyterhub_moss-6.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jupyterhub_moss-6.0.0.dist-info/top_level.txt,sha256=3vtONQPEHDSr7iTU0LZcBjXNDpMoAyfqSgrao5HzG-Y,21
+jupyterhub_moss-6.0.0.dist-info/RECORD,,
