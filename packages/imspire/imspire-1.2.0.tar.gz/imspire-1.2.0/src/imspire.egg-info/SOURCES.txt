@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/ImSpiRE
+src/__init__.py
+src/imspire_object.py
+src/utility.py
+src/imspire.egg-info/PKG-INFO
+src/imspire.egg-info/SOURCES.txt
+src/imspire.egg-info/dependency_links.txt
+src/imspire.egg-info/requires.txt
+src/imspire.egg-info/top_level.txt
