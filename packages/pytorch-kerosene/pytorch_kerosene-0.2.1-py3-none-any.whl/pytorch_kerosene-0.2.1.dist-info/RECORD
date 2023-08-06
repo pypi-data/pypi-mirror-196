@@ -1,0 +1,12 @@
+pytorch_kerosene/__init__.py,sha256=oiA2WudpGzWLB3BhMYWBeEqgbuQD2Kfx8iAER-Krurk,44
+pytorch_kerosene/hparam_optim.py,sha256=Y0p7FMuwfQ4R2kpJ5lG5rUjU0zK6GhPI5f-Ak_Os8lw,645
+pytorch_kerosene/trainer.py,sha256=3vpoajAsboHD7y6lWfk4wRmDoDGfhwdw0STERZk6c7k,8990
+pytorch_kerosene/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_kerosene/utils/logger.py,sha256=-zvyFX-lyOMc5fZ2lnZdEj7b0a3bW_YaO2Y2gRrwKr8,1823
+pytorch_kerosene/utils/metrics.py,sha256=2DcYlmtcygzkSBZbOfIUNiIpM4Xaw5AAiFr8qzuheuA,4307
+pytorch_kerosene/utils/utils.py,sha256=-gMnqQe8I2TC61eg9Wov-OVrHbYh3pbMPe719DJ8jVQ,380
+pytorch_kerosene-0.2.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_kerosene-0.2.1.dist-info/METADATA,sha256=4ecnBBfZGFz51btOtj8GoC4qdnU8lOvpxGyLAtfOVBk,403
+pytorch_kerosene-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytorch_kerosene-0.2.1.dist-info/top_level.txt,sha256=H3w1Kn94KnOPz4JoXBi8uHWyMTuWtAJ9Fu5hcvqUHEo,17
+pytorch_kerosene-0.2.1.dist-info/RECORD,,
