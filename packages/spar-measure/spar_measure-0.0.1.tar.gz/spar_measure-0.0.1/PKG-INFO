@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spar_measure
+Version: 0.0.1
+Summary: SPAR: Semantic Projection with Active Retrieval
+Author-email: Authors <author@example.com>
+Project-URL: Homepage, https://github.com/ISR2022128/SPAR_measure
+Project-URL: Bug Tracker, https://github.com/ISR2022128/SPAR_measure/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SPAR: Semantic Projection with Active Retrieval
+## Introduction
+
+## Interface
