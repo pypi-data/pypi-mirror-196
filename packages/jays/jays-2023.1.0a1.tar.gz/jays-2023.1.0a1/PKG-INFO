@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jays
+Version: 2023.1.0a1
+Summary: Querying JSON-like Data Objects in Python
+Home-page: https://github.com/tzamoj/jays
+License: MIT
+Author: Thomas Zamojski
+Author-email: thomas.zamojski@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/plain
+
+ifdev::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifdev::env-github[]
+:imagesdir: https://github.com/tzamoj/jays/docs/images
+endif::[]
+ifndev::env-github[]
+:imagesdir: ./docs/images
+endif::[]
+:toc:
+:tocplacement!:
+:source-hightlighter: prettify
+
+= Jays : Querying JSON-like Objects in Python
+Jays is a python librairy for manipulating JSON-like data efficiently.
+
+toc::[]
+
+== Getting Started
+
+== Contributing
+
+
