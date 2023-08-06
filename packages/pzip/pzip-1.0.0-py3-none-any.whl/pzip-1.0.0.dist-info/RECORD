@@ -1,0 +1,12 @@
+pzip/__init__.py,sha256=jo5D_eAEy_TVSYb9ylP1ygM-5KRFl44OeWbzBVk_fmc,881
+pzip/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+pzip/base.py,sha256=nyjfMd2TRk63f5odn_ykfLVOQIot5Nfvr6qhdyIa5N0,8013
+pzip/cli.py,sha256=s4G_fu3mqc_PCr7slQK3dOoU4p9w1BRRskHNdPJONoM,9632
+pzip/reader.py,sha256=BhIYjuGBleCH6aE8R8mAUVpgOiqpv_c4Uj1bf4MgQ6k,8903
+pzip/writer.py,sha256=24o_w0jza905gG8Pawolmtpt5o8UQ1_PoL-PCq9f-qk,4671
+pzip-1.0.0.dist-info/LICENSE,sha256=4YI5PXzUeEwe50j26VGnsnmXciguSTgEAP5V2LO5ybc,1094
+pzip-1.0.0.dist-info/METADATA,sha256=6-KiyE1gcdj9lTGOHzOSaR3IuOEt41w9SSIbATosuqY,4118
+pzip-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pzip-1.0.0.dist-info/entry_points.txt,sha256=8CeIV_aLStuLQaeXCqZtLQJw86NrLHb-jZMpqhQvlus,39
+pzip-1.0.0.dist-info/top_level.txt,sha256=YE4XcMkOigJDQ_OQKpsL24ASibM7EWeUyNC13T3ldy8,5
+pzip-1.0.0.dist-info/RECORD,,
