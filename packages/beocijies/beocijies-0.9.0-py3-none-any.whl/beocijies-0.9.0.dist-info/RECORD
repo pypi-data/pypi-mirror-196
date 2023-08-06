@@ -1,0 +1,11 @@
+beocijies/__init__.py,sha256=V2DEcX22VPPS7yOWNHC95WbLfSfAksbb6m-Mu_xB8-I,106
+beocijies/cli.py,sha256=CCbHu7gFtfQndovkrQhtwPYeC7w7tisZMl-xQlBUkOc,11607
+beocijies/configure.py,sha256=SDNDkeWPJvLsnzmYR_vncq70qS3ZqXleJdL4tLXrfAk,17458
+beocijies/render.py,sha256=2K3AcKWEtcV_7WaP_lpER23Hw22bSqK2iCSLHLmvBxQ,7713
+beocijies/version.py,sha256=iAqy2NyEdnKwm1lFjFw-_G-azLYH7C9GbfTH8GpsoG0,50
+beocijies-0.9.0.dist-info/LICENSE.md,sha256=yfacA13mKilTVzxP3DZh1ONJF1j-_BrpCJ-GEdHrqRM,1585
+beocijies-0.9.0.dist-info/METADATA,sha256=DRLWi3oFch1XkDSZN40HpvGz9E_kzXAatrD_Y-ejBEI,20174
+beocijies-0.9.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+beocijies-0.9.0.dist-info/entry_points.txt,sha256=A0TJ8jR6iNoQ967-s0QHPrq7rB-S-ta5JLi20U4tXxs,49
+beocijies-0.9.0.dist-info/top_level.txt,sha256=nTI3jMvZ8_J-dBkU5Z7JJvkB-D6ISCKEWCSBAYF86q4,10
+beocijies-0.9.0.dist-info/RECORD,,
