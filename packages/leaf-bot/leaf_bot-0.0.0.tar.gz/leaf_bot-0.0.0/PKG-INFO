@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: leaf-bot
+Version: 0.0.0
+Summary: An advanced Discord bot written in Python.
+Home-page: https://github.com/mudkipdev/leaf
+License: MIT
+Author: mudkipdev
+Author-email: mudkip@mudkip.dev
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: discord-py (>=2.2.2,<3.0.0)
+Requires-Dist: jishaku (>=2.5.1,<3.0.0)
+Project-URL: Repository, https://github.com/mudkipdev/leaf
+Description-Content-Type: text/markdown
+
+# leaf
+An advanced Discord bot written in Python.
+
