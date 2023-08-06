@@ -1,0 +1,13 @@
+myelectricaldatapy/__init__.py,sha256=X5XJOVyw9ATr4_vY4f9DUmPOXi1NBISZzrhyuN19-zo,313
+myelectricaldatapy/auth.py,sha256=gU20YfvHt4oAGLPTDc6bnDS65jIrpQLnF2GFy7ZNpmw,1744
+myelectricaldatapy/exceptions.py,sha256=DhrnOMyiOZ5Yme5YjAtJlmRrIupDkM1yc2QuteK9Qj8,236
+myelectricaldatapy/myelectricaldata.py,sha256=4K2Je-dMkwlOAjZnJ7_reGyde5ueJLLvf2p-YCbgjw0,12518
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/consts.py,sha256=GKRLicXQioJGgQp7Iv1VDsLWSfff3mQnM0gDnZZh0qQ,51244
+tests/test_analytics.py,sha256=pF8q_zutymuwAFQ5TA1u-HVp1UzxZawq6VrP-deJ3-k,7875
+tests/test_load_data.py,sha256=X8dosxXSJvaBuUYROE5nVgUb47AcJWAKvMj9ZNTPgNc,4162
+myelectricaldatapy-1.6.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+myelectricaldatapy-1.6.7.dist-info/METADATA,sha256=QVn_iJK15fqCeo2F8Ut8beXgH2eEvIsN-nv-PCp78vw,3890
+myelectricaldatapy-1.6.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+myelectricaldatapy-1.6.7.dist-info/top_level.txt,sha256=YBa1xg9F93GRQX3DTvYz8e-zHoWNlK5I4uEa4omQCZc,25
+myelectricaldatapy-1.6.7.dist-info/RECORD,,
