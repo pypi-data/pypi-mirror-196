@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pantsbuild.pants.testutil
+Version: 2.17.0.dev0
+Summary: Test support for writing Pants plugins.
+Home-page: https://github.com/pantsbuild/pants
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://www.pantsbuild.org/
+Project-URL: Source, https://github.com/pantsbuild/pants
+Project-URL: Tracker, https://github.com/pantsbuild/pants/issues
+Project-URL: Changelog, https://www.pantsbuild.org/docs/changelog
+Project-URL: Twitter, https://twitter.com/pantsbuild
+Project-URL: Slack, https://www.pantsbuild.org/docs/getting-help
+Project-URL: YouTube, https://www.youtube.com/channel/UCCcfCbDqtqlCkFEuENsHlbQ
+Project-URL: Mailing lists, https://www.pantsbuild.org/docs/getting-help
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pantsbuild.pants (==2.17.0.dev0)
+Requires-Dist: pytest (<7.1.0,>=6.2.4)
+
+Pants is an Apache2 licensed build tool written in Python and Rust.
+
+The latest documentation can be found at [pantsbuild.org](https://www.pantsbuild.org/).
+
+
+# 2.17.x Release Series
+
+## 2.17.0.dev0 (Mar 10, 2023)
+
+### New Features
+
+* Expose environment information on process metadata ([#18458](https://github.com/pantsbuild/pants/pull/18458))
+
+* Support running `pants` from anywhere in the project. ([#18412](https://github.com/pantsbuild/pants/pull/18412))
+
+### User API Changes
+
+* Audit and update requirements for Python tools. ([#18431](https://github.com/pantsbuild/pants/pull/18431))
+
+* Upgrade Pex to 2.1.128. ([#18453](https://github.com/pantsbuild/pants/pull/18453))
+
+### Bug fixes
+
+* Preserve environment variables in `pantsd` to allow Docker auth. ([#18465](https://github.com/pantsbuild/pants/pull/18465))
+
+* Only expose the equiv of `from typing import *` in prelude files ([#18452](https://github.com/pantsbuild/pants/pull/18452))
+
+* Support type hints in prelude files. ([#18442](https://github.com/pantsbuild/pants/pull/18442))
+
+* Synthesized lockfile targets should never err on missing lockfiles. ([#18406](https://github.com/pantsbuild/pants/pull/18406))
+
+* Fixes to visualisations for xdot ([#18421](https://github.com/pantsbuild/pants/pull/18421))
