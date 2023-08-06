@@ -1,0 +1,2 @@
+[console_scripts]
+margo-tool = margo_loader.cli.__main__:main
