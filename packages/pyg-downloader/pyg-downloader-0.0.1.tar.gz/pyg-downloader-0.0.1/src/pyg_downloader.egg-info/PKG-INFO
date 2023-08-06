@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pyg-downloader
+Version: 0.0.1
+Summary: python download manager
+Home-page: https://github.com/GrayHat12/download-manager
+Author: GrayHat12
+Author-email: grayhathacks10@gmail.com
+Project-URL: Bug Tracker, https://github.com/GrayHat12/pyg-downloader/issues
+Keywords: download manager downloader file downloader
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Requires: requests
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: atpbar
+License-File: LICENSE
+
+# pyg-downloader
+
+Uses multiple parallel connections to download a file.
+
+## Testing
+```bash
+pytest
+```
+
+## Usage
+
+### Install
+```bash
+pip install pyg-downloader
+```
+**OR** if you want to show progress
+```bash
+pip install pyg-downloader[atpbar]
+```
+
+### To Download to disk
+```py
+from download_manager import DownloadManager
+
+manager = DownloadManager(max_connections=8, show_progress=True)
+
+# Download to disk and returns the path to the file
+# destination_path is the path to the folder for download
+# filename is the name of the file to save to. Default is the filename from url.
+path = manager.download("https://download.samplelib.com/mp4/sample-15s.mp4", destination_path='./', filename=None)
+```
+
+### To Download to memory
+```py
+from download_manager import DownloadManager
+
+manager = DownloadManager(max_connections=8, show_progress=True)
+
+# Download data to an BytesIO object and returns the object
+# task_name is used to log progress. Default is the filename from url.
+data = manager.get("https://download.samplelib.com/mp4/sample-15s.mp4", task_name='Test Task')
+```
