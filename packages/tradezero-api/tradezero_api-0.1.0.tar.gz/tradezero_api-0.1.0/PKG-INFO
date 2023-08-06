@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tradezero-api
+Version: 0.1.0
+Summary: A package for executing orders and retrieving data through the TradeZero web platform
+License: MIT
+Author: shner-elmo
+Author-email: 770elmo@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+raise NotImplementedError
