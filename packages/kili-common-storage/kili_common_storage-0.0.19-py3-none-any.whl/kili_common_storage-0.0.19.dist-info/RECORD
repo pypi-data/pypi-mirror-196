@@ -1,0 +1,8 @@
+kili_common_storage/__init__.py,sha256=9EWcDQvQr2P-gr_xbBbFkBZwJXd8U7eSzApvneUF-vU,82
+kili_common_storage/decorator.py,sha256=3StJOtkPAFe53-3fV3y_yc4JvOfT3HTaKmuOgJ5PA_Y,1256
+kili_common_storage/loggings.py,sha256=fvY0u0PCygvUV4saDqPJGyBH9fNoL3ouYYFzcm18nAI,1315
+kili_common_storage/object_storage.py,sha256=l7Z8bpvm4IZgxSk6OcPAFBTpra01w7Whw7TNRYx8Ykw,17262
+kili_common_storage-0.0.19.dist-info/METADATA,sha256=umSx87ant7TRhGYCzOUOcg6KOD8OU0bOm6-KbiMVBQE,583
+kili_common_storage-0.0.19.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kili_common_storage-0.0.19.dist-info/top_level.txt,sha256=1FTUpZs1YU23m8WO0a3Sl4Aaq-9oCGU44gYb18ribss,20
+kili_common_storage-0.0.19.dist-info/RECORD,,
