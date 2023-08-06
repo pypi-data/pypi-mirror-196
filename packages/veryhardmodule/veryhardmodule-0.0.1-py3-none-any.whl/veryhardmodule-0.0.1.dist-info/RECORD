@@ -1,0 +1,10 @@
+veryhardmodule/__init__.py,sha256=C7RyhaB6NWALHYs_neqh4NkmHpGi55npctngXZeJVHk,52
+veryhardmodule/add.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veryhardmodule/subtract.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veryhardmodule/extras/__init__.py,sha256=FT_wEtlZnBKjrx92_yVgoBr0llNEt_lug8J-CWbwf7Q,58
+veryhardmodule/extras/divide.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veryhardmodule/extras/multiply.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veryhardmodule-0.0.1.dist-info/METADATA,sha256=m8uzLxj8D4zKBocb7JxuJ9bQJbEhoO53SiWvT6vliBk,514
+veryhardmodule-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+veryhardmodule-0.0.1.dist-info/top_level.txt,sha256=Lou3DcvZmSGJIJxtCHIUiTph9ZIsZY1-omHrKf5tKoo,15
+veryhardmodule-0.0.1.dist-info/RECORD,,
