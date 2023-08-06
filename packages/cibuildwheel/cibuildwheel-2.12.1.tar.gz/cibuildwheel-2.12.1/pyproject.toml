@@ -1,0 +1,149 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.black]
+line-length = 100
+target-version = ['py37', 'py38', 'py39', 'py310']
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+junit_family = "xunit2"
+testpaths = [
+    "test",
+    "unit_test",
+]
+xfail_strict = true
+filterwarnings = ["error"]
+log_cli_level = "info"
+
+
+[tool.mypy]
+python_version = 3.7
+files = [
+    "cibuildwheel/*.py",
+    "test/**/*.py",
+    "unit_test/**/*.py",
+    "bin/*.py",
+    "noxfile.py",
+]
+warn_unused_configs = true
+show_error_codes = true
+
+warn_redundant_casts = true
+no_implicit_reexport = true
+strict_equality = true
+warn_unused_ignores = true
+check_untyped_defs = true
+
+disallow_subclassing_any = true
+disallow_any_generics = true
+warn_return_any = true
+no_implicit_optional = true
+
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = "cibuildwheel.*"
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+
+[[tool.mypy.overrides]]
+module = [
+    "setuptools",
+    "pytest", # ignored in pre-commit to speed up check
+    "bashlex",
+    "bashlex.*",
+    "importlib_resources",
+]
+ignore_missing_imports = true
+
+
+[tool.check-manifest]
+ignore = [
+    ".*",
+    ".circleci/**",
+    "test/**",
+    "unit_test/**",
+    "docs/**",
+    "examples/**",
+    "bin/**",
+    "*.yml",
+    "CI.md",  # TODO: can change test/test_ssl and remove this
+    "requirements-dev.txt",
+    "noxfile.py",
+]
+
+[tool.pylint]
+master.py-version = "3.7"
+master.jobs = "0"
+master.fail-on = ["E", "F"]
+master.fail-under = "9.8"
+reports.output-format = "colorized"
+messages_control.enable = [
+  "useless-suppression",
+]
+messages_control.disable = [
+  "abstract-class-instantiated",  # filelock triggers this
+  "duplicate-code",
+  "fixme",
+  "invalid-name",
+  "line-too-long",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "missing-module-docstring",
+  "no-else-break",
+  "no-else-return",
+  "protected-access",
+  "too-few-public-methods",
+  "too-many-arguments",
+  "too-many-branches",
+  "too-many-instance-attributes",
+  "too-many-lines",
+  "too-many-locals",
+  "too-many-nested-blocks",
+  "too-many-return-statements",
+  "too-many-statements",
+  "unsubscriptable-object",
+  "wrong-import-position",
+  "unused-argument",  # Handled by Ruff
+  "broad-exception-raised",  # Could be improved eventually
+]
+
+[tool.ruff]
+select = [
+  "E", "F", "W",  # flake8
+  "B",  "B904",  # flake8-bugbear
+  "I",  # isort
+  "ARG",  # flake8-unused-arguments
+  "C4",  # flake8-comprehensions
+  "EM",  # flake8-errmsg
+  "ICN",  # flake8-import-conventions
+  "ISC",  # flake8-implicit-str-concat
+  "PGH",  # pygrep-hooks
+  "PIE",  # flake8-pie
+  "PLC", "PLE", "PLW",  # pylint
+  "PT",  # flake8-pytest-style
+  "RET",  # flake8-return
+  "RUF",  # Ruff-specific
+  "SIM",  # flake8-simplify
+  "UP",  # pyupgrade
+  "YTT",  # flake8-2020
+]
+extend-ignore = [
+  "PLR2004", "E501",
+  "RET504", "RET505", "RET508",  # else after control flow
+  "PT004",  # Rename suggested for returnless fixtures
+  "PT007",  # False positive (fixed upstream)
+]
+target-version = "py37"
+typing-modules = ["cibuildwheel.typing"]
+flake8-unused-arguments.ignore-variadic-names = true
