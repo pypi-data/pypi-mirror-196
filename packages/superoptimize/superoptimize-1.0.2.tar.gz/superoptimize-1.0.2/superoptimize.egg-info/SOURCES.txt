@@ -1,0 +1,9 @@
+setup.py
+superoptimize.egg-info/PKG-INFO
+superoptimize.egg-info/SOURCES.txt
+superoptimize.egg-info/dependency_links.txt
+superoptimize.egg-info/top_level.txt
+superoptimizer/__init__.py
+superoptimizer/debug.py
+superoptimizer/index.py
+superoptimizer/pf.py
