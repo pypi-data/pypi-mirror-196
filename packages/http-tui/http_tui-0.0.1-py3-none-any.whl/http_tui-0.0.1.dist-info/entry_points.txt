@@ -1,0 +1,2 @@
+[console_scripts]
+vtt2txt = http_tui.__main__:main
