@@ -1,0 +1,12 @@
+discloud/__init__.py,sha256=ND51T55k2qXdhNtrvLQRZi2rR9dWzdrDpNZHdUVple8,91
+discloud/client.py,sha256=mK2uCuHudavjvl7jBwNkGyJr6kixHtxD2NAXVr8pHQ8,8132
+discloud/discloud.py,sha256=peUF0DgaM20xrxGSTDyNx1zAh_OxLVfyqMEZA-XJHWY,5750
+discloud/discloud_typing.py,sha256=YbbrqAARAOtJQsdpIouywYVHcfEE5IAOnJdQVQemxa0,1636
+discloud/errors.py,sha256=27rnyemEoHT_L6HzCRnLBaQgecyQM2RiwOXyWqSgOGM,303
+discloud/http.py,sha256=r2PU1-7_V_IBO1qyyzGj1kWUbKBwM55LHr_BqjRlg4s,11749
+discloud/old.py,sha256=98O50vrE0EXuJVB_aHZhGWp2Xe_sovA0xCEF8X9Wuik,1006
+discloud/utils.py,sha256=ZFhT8dLKKUKb6QOT8xbrlKQrfYyTDWtX12Gp3IKgEqg,5376
+discloud-1.0.0.dist-info/METADATA,sha256=Pm7Y9L-7gENwDFYUQvhCxra0abx34drIFFHmubcKHvk,6476
+discloud-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+discloud-1.0.0.dist-info/top_level.txt,sha256=ipYySRTIcJbVLJQY-CayyNEjmTFj8x_IR7125Lk1I4w,9
+discloud-1.0.0.dist-info/RECORD,,
