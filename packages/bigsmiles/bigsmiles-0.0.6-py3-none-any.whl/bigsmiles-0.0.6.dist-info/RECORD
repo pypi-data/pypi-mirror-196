@@ -1,0 +1,16 @@
+bigsmiles/__init__.py,sha256=hhD4SQWyCHv0LgAKElHZGXUwvZGzBQhap1zcfwWxyC4,410
+bigsmiles/bigsmiles.py,sha256=U03lD9hawH05q1tgh5SNEy65qQYDuSAV7rap0tLyK6Y,15315
+bigsmiles/config.py,sha256=GCUNonNxN8ZM2nkPDtuiA1gOVr4kd50PzDNb7UrjTDA,3005
+bigsmiles/constructor.py,sha256=qYu7DdWreyLw-y-GnhE6cNdIRwtuYZDHtCV1KCRkYXs,19449
+bigsmiles/constructor_str.py,sha256=ITGZKrkZWB9qLJPV6rt23e8Rhr2c9qVyKrPTobLYqVs,3157
+bigsmiles/errors.py,sha256=guQ5-IXSHQYwRdgVn9wiDLiRfUARton6XWv8Q6y_0ps,295
+bigsmiles/parse_bigsmiles_str.py,sha256=mLm9XDpFaZKM4pku9kzdFIPjGsAPVdr67GiiwHCGJc0,6674
+bigsmiles/syntax_fixes.py,sha256=qEiDWu11j8L_Sz9X4mN1-a3HsWgxKlQik51IroUMyRk,1588
+bigsmiles/tokenizer.py,sha256=7C4VmimuuSFp1AdOv-U0OsANNRjF0jz0wgFclVPb9fQ,3505
+bigsmiles/tree_to_string.py,sha256=OrJjRwXQ14FHgaB9SweMxkm0HgS_JW8rmdU7RCZp9Z0,4594
+bigsmiles/validation.py,sha256=GIp82bhU79oK1bfjQi9wS04t_Q8gkJUYjc8oxUu_OGE,5800
+bigsmiles-0.0.6.dist-info/LICENSE.txt,sha256=lxxLl_vMn9aEjhvi5Yqb8VXh9lvyngCiC91zG_SOIl4,1499
+bigsmiles-0.0.6.dist-info/METADATA,sha256=TLDtksW7GvUIkgAkhi_GDXBdZDWic8JDEte-05oRJOY,4842
+bigsmiles-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bigsmiles-0.0.6.dist-info/top_level.txt,sha256=6Wn1i5v1iSBJO8-eVH7Yw0Y-FGP5Ghq9gCZ_UtdeZbM,10
+bigsmiles-0.0.6.dist-info/RECORD,,
