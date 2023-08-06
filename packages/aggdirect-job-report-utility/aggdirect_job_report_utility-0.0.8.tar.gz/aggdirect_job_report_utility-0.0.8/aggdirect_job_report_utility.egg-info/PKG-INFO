@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aggdirect-job-report-utility
+Version: 0.0.8
+Summary: Job report utility functions
+Author: Chinmoy Das
+License: MIT
+Keywords: aggdirect,job_report,job_report_utility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
