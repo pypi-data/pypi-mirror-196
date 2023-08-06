@@ -1,0 +1,21 @@
+requests<3.0,>=2.22.0
+urllib3>=1.25.10
+pyyaml
+types-PyYAML
+
+[:python_version < "3.8"]
+typing_extensions
+
+[tests]
+pytest>=7.0.0
+coverage>=6.0.0
+pytest-cov
+pytest-asyncio
+pytest-httpserver
+flake8
+types-requests
+mypy
+tomli-w
+
+[tests:python_version < "3.11"]
+tomli
