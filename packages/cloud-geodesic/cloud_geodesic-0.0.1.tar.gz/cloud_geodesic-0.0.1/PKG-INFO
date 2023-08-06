@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cloud_geodesic
+Version: 0.0.1
+Summary: python interface to cloud geodesic
+Author: Hirokazu Ishida
+License: MIT
