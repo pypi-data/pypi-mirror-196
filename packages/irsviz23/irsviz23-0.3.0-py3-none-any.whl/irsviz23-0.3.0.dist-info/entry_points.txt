@@ -1,0 +1,3 @@
+[console_scripts]
+viz=irsviz23.run_app:main
+
