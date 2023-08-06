@@ -1,0 +1,12 @@
+nonebot_plugin_bing_chat/__init__.py,sha256=QeiK1iO2MHv9uYFjbfh9FyV4NrdkfyMPzCaXpPpOTRI,151
+nonebot_plugin_bing_chat/common/dataModel.py,sha256=_gWjyUJd6HEIVBugPZzi1CW-6qwr9Eh-dldeNKZIyGI,4340
+nonebot_plugin_bing_chat/common/exceptions.py,sha256=T30k2sNTttpKH-XNYlDkx88KE-QMmQlOLzlN1DaDEx4,1083
+nonebot_plugin_bing_chat/common/utils.py,sha256=FXmgtXLJuS4YCBviZd_wTxgBqfIOEBfsE4Uxk670Z6A,3227
+nonebot_plugin_bing_chat/onebotv11/check.py,sha256=55g_wrIx7UV0UsHnrF2ktPBozXhpqWyx8vJ7K2LW_UE,1583
+nonebot_plugin_bing_chat/onebotv11/main.py,sha256=o_jIvcA9k3GoGal2jiqxOvIcbjaa_nEgnfpvo4j8Y10,8042
+nonebot_plugin_bing_chat/onebotv11/utils.py,sha256=fxdcasdF7UBRn0Apn-iXk7_2ZLgLMRJpTEse4gFlvFg,1549
+nonebot_plugin_bing_chat-0.5.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_plugin_bing_chat-0.5.3.dist-info/METADATA,sha256=wigeQhi3KhBm7UZreqKFjp1N7VoVGPjWp0Jm8r58D8A,5833
+nonebot_plugin_bing_chat-0.5.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nonebot_plugin_bing_chat-0.5.3.dist-info/top_level.txt,sha256=K8HxYrczsPtKnWhPc0K6YVEsUJ3L2--u_jMq_GW6wr8,25
+nonebot_plugin_bing_chat-0.5.3.dist-info/RECORD,,
