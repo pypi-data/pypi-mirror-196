@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+synproc.egg-info/PKG-INFO
+synproc.egg-info/SOURCES.txt
+synproc.egg-info/dependency_links.txt
+synproc.egg-info/requires.txt
+synproc.egg-info/top_level.txt
