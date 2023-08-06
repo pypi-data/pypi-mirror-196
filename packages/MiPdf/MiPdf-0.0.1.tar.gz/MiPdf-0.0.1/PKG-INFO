@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: MiPdf
+Version: 0.0.1
+Summary: Tradução de paginas e leitura de texto com voz do sistema
+Home-page: UNKNOWN
+Author: Francisco Aparicio & Pedro Tercio
+Author-email: faparicionc@gmail.com
+License: UNKNOWN
+Description: Realiza a tradução de uma página especifica de seu pdf e converte traduzida para ingles e é possivel leitura de um arquivo pdf com voz do sistema
+Platform: UNKNOWN
+Requires-Python: >=3.9

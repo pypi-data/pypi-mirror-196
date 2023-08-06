@@ -1,0 +1,9 @@
+setup.py
+MiPdf.egg-info/PKG-INFO
+MiPdf.egg-info/SOURCES.txt
+MiPdf.egg-info/dependency_links.txt
+MiPdf.egg-info/entry_points.txt
+MiPdf.egg-info/requires.txt
+MiPdf.egg-info/top_level.txt
+pooii-pacote/__init__.py
+pooii-pacote/infoPdf.py
