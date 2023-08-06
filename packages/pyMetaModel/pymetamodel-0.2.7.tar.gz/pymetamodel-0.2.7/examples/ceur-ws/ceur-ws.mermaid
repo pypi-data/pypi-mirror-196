@@ -1,0 +1,22 @@
+```mermaid
+erDiagram
+Volume {
+    double number  
+    string title  
+}
+Session {
+    string title  
+}
+Paper {
+    string id  
+    string title  
+    string authors  
+    uri pdfUrl  
+}
+
+Session ||--|o Volume : "volume"
+Paper ||--|o Volume : "volume"
+Paper ||--|o Session : "session"
+
+```
+
