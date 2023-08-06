@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: socks-server
+Version: 0.1.2
+Summary: Socks is a simple server framework, built only using the standard python library.
+Home-page: https://github.com/PaddeCraft/socks
+Author: PaddeCraft
+Author-email: 70023807+PaddeCraft@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/PaddeCraft/socks
+Description-Content-Type: text/markdown
+
+# socks
+
+Socks (**sock**et **s**erver) is a simple server framework, built only using the standard python library. Its syntax is strongly inspired by the microframework [flask](https://palletsprojects.com/p/flask/).
+
+## Basic usage
+
+```py
+from socks import Socks, Response
+
+app = Socks()
+
+@app.route(path:str, methods:list[str]=["GET"])
+def function(req):
+    return Response(f"<h1>{req.method}</h1>", contentType="text/html")
+```
+
+For other things, look at the testserver.py file.
