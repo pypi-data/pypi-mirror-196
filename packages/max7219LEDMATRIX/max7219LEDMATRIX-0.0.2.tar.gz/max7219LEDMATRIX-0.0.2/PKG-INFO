@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: max7219LEDMATRIX
+Version: 0.0.2
+Summary: This Package contains the code required to drive a max7219 8x8 LED matrix using a Raspberry Pi (with spidev).
+Author: Mohammed Varaliya
+Author-email: <mohammedvaraliya2661392@gmail.com>
+Keywords: Max7219,Led Matrix,Raspberry Pi,8x8 Matrix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+For more information, see the [GitHub Repository](https://github.com/Mohammedvaraliya/MAX7219-8x8-Driver).
+# MAX7219 Sample Drive
+
+This repository contains the code required to drive a max7219 8x8 LED matrix using a Raspberry Pi (with `spidev`). **The code written is extremely rigid and should not be used in any form of production applications**.
+
+## Connections
+
+The following are the table lists the connetion
+
+| LED | Physical Pin (Raspberry Pi)  |
+|-----|------------------------------|
+| DIN| 19|
+| CLK| 23|
+| CS | 24|
+
+
+## Driving the led matrix
+
+You can either modiy the `test.py` file, or paste the `max7219` folder into your project directory. 
+
+The following are the methods available.
+
+1. `bootstrap()` - Initialize the matrix to display fonts.
+2. `CLEAR_DISPLAY()` - Clears the entire display.
+3. `setBitmap(bitMap)` - Display the provided `bitMap`. (Can be used to display special characters or symbols)
+4. `show(string, delay = 0)` - Display the given string with a word delay of the `delay`.
+5. `close()` - Closes the `spi` connection
