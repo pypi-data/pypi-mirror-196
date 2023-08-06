@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: automedia_sdk
+Version: 0.1.0
+Summary: A Python 3.7+ binding to interact with Automedia nodes.
+Home-page: https://github.com/febrezo/automedia-sdk-python
+Author: Félix Brezo (@febrezo)
+License: GNU GPLv3+
+License-File: COPYING
