@@ -1,0 +1,2 @@
+[console_scripts]
+jansevakernel = jansevakernel.install_kernelspec:install_kernelspec

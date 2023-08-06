@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/jansevakernel/__init__.py
+src/jansevakernel/__main__.py
+src/jansevakernel/install_kernelspec.py
+src/jansevakernel/kernel.py
+src/jansevakernel.egg-info/PKG-INFO
+src/jansevakernel.egg-info/SOURCES.txt
+src/jansevakernel.egg-info/dependency_links.txt
+src/jansevakernel.egg-info/entry_points.txt
+src/jansevakernel.egg-info/requires.txt
+src/jansevakernel.egg-info/top_level.txt
