@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bitcoinrpcasync/__init__.py
+bitcoinrpcasync/authproxy.py
+python_bitcoinrpc_async.egg-info/PKG-INFO
+python_bitcoinrpc_async.egg-info/SOURCES.txt
+python_bitcoinrpc_async.egg-info/dependency_links.txt
+python_bitcoinrpc_async.egg-info/requires.txt
+python_bitcoinrpc_async.egg-info/top_level.txt
