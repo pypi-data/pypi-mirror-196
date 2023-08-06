@@ -1,0 +1,2 @@
+[console_scripts]
+menuscript = menuscript:create_script
