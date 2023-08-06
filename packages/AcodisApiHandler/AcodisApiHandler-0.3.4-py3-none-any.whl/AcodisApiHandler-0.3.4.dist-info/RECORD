@@ -1,0 +1,12 @@
+AcodisApiHandler/__init__.py,sha256=I6RA44P4a8mjMY_fU17RftMGhvaDjrZYyKZogmHCEGA,370
+AcodisApiHandler/_acodis_auth.py,sha256=qdDwtDIRhHES06zIy0xezyZvScO8IPlHi5WrffBsOSU,240
+AcodisApiHandler/_acodis_logger.py,sha256=9vIHD-y15EffFyNFFrng5f37DFO9OSwulILVwm2VKN8,740
+AcodisApiHandler/_version.py,sha256=osBfCMq1ZmUgbnQm2L2LcIC68FyklKsxA7Zq0N55hJk,2898
+AcodisApiHandler/acodis_error.py,sha256=Q1xbnsEWVFDC6q_5zNqnyS2aqEvAHJKv9Qg5Q9roZA8,714
+AcodisApiHandler/acodis_handler.py,sha256=DWAVWDlR9OOw9B0xYDJT1I0VYyKSUtid23P_-ER3xmU,8043
+AcodisApiHandler/acodis_parser.py,sha256=aoI4EmDWC1VYSE7sfVppDL3f4ArbrTXY_fU6hrxQlNs,1076
+AcodisApiHandler-0.3.4.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+AcodisApiHandler-0.3.4.dist-info/METADATA,sha256=2oXAClxJ0qCew8NJuZayC-Op9DJlB5qSj2MCif9MdGU,3208
+AcodisApiHandler-0.3.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AcodisApiHandler-0.3.4.dist-info/top_level.txt,sha256=Di7XjL8TYoTHBEtl2NkahSzEjrPQKTEc0L8PngN20fI,17
+AcodisApiHandler-0.3.4.dist-info/RECORD,,
