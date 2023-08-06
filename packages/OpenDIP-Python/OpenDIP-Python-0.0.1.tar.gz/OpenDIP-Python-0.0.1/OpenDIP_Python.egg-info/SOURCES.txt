@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+OpenDIP_Python.egg-info/PKG-INFO
+OpenDIP_Python.egg-info/SOURCES.txt
+OpenDIP_Python.egg-info/dependency_links.txt
+OpenDIP_Python.egg-info/requires.txt
+OpenDIP_Python.egg-info/top_level.txt
+oteri/__init__.py
+oteri/digital_image.py
+oteri/vision.py
