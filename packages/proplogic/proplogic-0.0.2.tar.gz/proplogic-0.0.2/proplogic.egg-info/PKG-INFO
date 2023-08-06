@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: proplogic
+Version: 0.0.2
+Summary: A simple propositional logic parser and visualizer
+Home-page: https://github.com/ryoryon66/propositional_logic_expr_parser
+Author: ryoryon66
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+A simple propositional logic parser and visualizer. Evaluation is implemented in visiter pattern.
+

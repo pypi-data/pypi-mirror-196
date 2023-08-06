@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+proplogic/__init__.py
+proplogic/logic_ast.py
+proplogic/logic_parser.py
+proplogic/logic_tokenizer.py
+proplogic/truth_value_assignment.py
+proplogic.egg-info/PKG-INFO
+proplogic.egg-info/SOURCES.txt
+proplogic.egg-info/dependency_links.txt
+proplogic.egg-info/requires.txt
+proplogic.egg-info/top_level.txt
