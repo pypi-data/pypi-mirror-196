@@ -1,0 +1,6 @@
+README.md
+setup.py
+xlsjzxku.egg-info/PKG-INFO
+xlsjzxku.egg-info/SOURCES.txt
+xlsjzxku.egg-info/dependency_links.txt
+xlsjzxku.egg-info/top_level.txt
