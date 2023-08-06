@@ -1,0 +1,16 @@
+{
+    "config": {
+        "create_entry": {
+            "default": "Autentificat cu succes cu Withings."
+        },
+        "step": {
+            "profile": {
+                "data": {
+                    "profile": "Nume profil"
+                },
+                "description": "Furnizeaz\u0103 un nume unic de profil pentru aceste date. De obicei, acesta este numele profilului selectat la pasul anterior.",
+                "title": "Profil utilizator."
+            }
+        }
+    }
+}

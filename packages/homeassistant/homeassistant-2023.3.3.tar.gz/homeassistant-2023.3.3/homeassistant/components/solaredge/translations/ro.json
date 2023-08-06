@@ -1,0 +1,13 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Numele acestei instal\u0103ri",
+                    "site_id": "Site-id-ul SolarEdge"
+                },
+                "title": "Define\u0219te parametrii API pentru aceast\u0103 instalare"
+            }
+        }
+    }
+}

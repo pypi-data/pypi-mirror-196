@@ -1,0 +1,26 @@
+{
+    "device_automation": {
+        "action_type": {
+            "arm_away": "Armeaz\u0103 {entity_name} (plecat)",
+            "arm_home": "Armeaz\u0103 {entity_name} (acas\u0103)",
+            "arm_night": "Armeaz\u0103 {entity_name} (noapte)",
+            "disarm": "Dezarmeaz\u0103 {entity_name}",
+            "trigger": "Declan\u0219eaz\u0103 {entity_name}"
+        }
+    },
+    "state": {
+        "_": {
+            "armed": "Armat",
+            "armed_away": "Armat plecat",
+            "armed_custom_bypass": "Armare personalizat\u0103",
+            "armed_home": "Armat acas\u0103",
+            "armed_night": "Armat noaptea",
+            "arming": "Armare",
+            "disarmed": "Dezarmat",
+            "disarming": "Dezarmare",
+            "pending": "\u00cen a\u0219teptare",
+            "triggered": "Declan\u0219at"
+        }
+    },
+    "title": "Panoul de control alarma"
+}

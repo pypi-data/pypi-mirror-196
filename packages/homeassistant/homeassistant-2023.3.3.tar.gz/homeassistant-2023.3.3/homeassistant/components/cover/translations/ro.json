@@ -1,0 +1,30 @@
+{
+    "device_automation": {
+        "condition_type": {
+            "is_closed": "{entity_name} este \u00eenchis\u0103",
+            "is_closing": "{entity_name} se \u00eenchide",
+            "is_open": "{entity_name} este deschis\u0103",
+            "is_opening": "{entity_name} se deschide",
+            "is_position": "Pozi\u021bia curent\u0103 a {entity_name} este",
+            "is_tilt_position": "\u00cenclina\u021bia curent\u0103 a {entity_name} este"
+        },
+        "trigger_type": {
+            "closed": "La \u00eenchiderea {entity_name}",
+            "closing": "La \u00eenceperea \u00eenchiderii {entity_name}",
+            "opened": "La deschiderea {entity_name}",
+            "opening": "La \u00eenceperea deschiderii {entity_name}",
+            "position": "La schimbarea pozi\u021biei {entity_name}",
+            "tilt_position": "La schimbarea \u00eenclina\u021biei {entity_name}"
+        }
+    },
+    "state": {
+        "_": {
+            "closed": "\u00cenchis",
+            "closing": "\u00cenchidere",
+            "open": "Deschis",
+            "opening": "Deschidere",
+            "stopped": "Oprit"
+        }
+    },
+    "title": "Jaluzea"
+}
