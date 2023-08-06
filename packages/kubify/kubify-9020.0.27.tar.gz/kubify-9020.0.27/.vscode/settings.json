@@ -1,0 +1,35 @@
+{
+    "python.defaultInterpreterPath": "python",
+    "python.linting.pylintEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "*_test.py",
+        "test_*.py"
+    ],
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.analysis.extraPaths": [
+        "./kubify"
+    ],
+    "actionButtons": {
+        "commands": [
+            {
+                "name": "Start Kubfiy",
+                "cwd": "${workspaceFolder}/services/internal-facing/example-flask-svc",
+                "color": "white",
+                "command": "kubify --up && kubify --start",
+            },
+            {
+                "name": "Stop Kubify",
+                "color": "grey",
+                "command": "kubify --down",
+            },
+        ]
+    }
+}
