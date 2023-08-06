@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nimsos
+Version: 1.0.0
+Summary: NIMS-OS package
+Home-page: https://github.com/nimsos-dev/nimsos
+Author: NIMS-OS developers
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Cython
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: physbo
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+UNKNOWN
+
