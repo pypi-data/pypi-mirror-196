@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+tqdm
+ray[tune]
+bayesian-optimization
+torch
+pandas
+
+[dev]
