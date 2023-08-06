@@ -1,0 +1,9 @@
+{
+    "test": "val",
+    "test2": "otherval",
+    "test3": {
+        "factor": 5,
+        "format": "%s",
+        "lib": "pycache"
+    }
+}
