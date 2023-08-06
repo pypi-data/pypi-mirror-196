@@ -1,0 +1,12 @@
+README.md
+setup.py
+alienHTML/__init__.py
+alienHTML/alienHTML.py
+alienHTML.egg-info/PKG-INFO
+alienHTML.egg-info/SOURCES.txt
+alienHTML.egg-info/dependency_links.txt
+alienHTML.egg-info/requires.txt
+alienHTML.egg-info/top_level.txt
+alienHTML/tests/__init__.py
+alienHTML/tests/test_icon.py
+alienHTML/tests/test_webpage.py
