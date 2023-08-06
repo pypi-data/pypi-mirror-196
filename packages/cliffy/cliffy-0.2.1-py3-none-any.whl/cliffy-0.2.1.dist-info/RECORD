@@ -1,0 +1,14 @@
+cliffy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cliffy/cli.py,sha256=R69oCTQxGTyXGZPYxmrtEP3kFqz98O7IOwzLzBpDIKE,1511
+cliffy/clis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cliffy/commander.py,sha256=YyIUDwKdY3QXTi8ADlxKY-gNRKe37xSYn43ElLabMVs,4072
+cliffy/commanders/click.py,sha256=ZeCvRAqQMIIDUYMTIq9S016hNNgDEMqYAKeLm3tnk5g,1002
+cliffy/commanders/typer.py,sha256=zVwmEqFlyvpNyGdT250MiJboVgn9qc9MpPM89XMJRcU,1822
+cliffy/parser.py,sha256=IFOpPbg0exJQxQNq_BPFarRCNKHxgCHfmp4tQEZQ4SM,4945
+cliffy/run.py,sha256=1xCvnd8gKLAoQPA5DDrjDvgjwy8Q-f8M7pH-shMOaNU,47
+cliffy/transformer.py,sha256=ao1fmhoFcRT5DyGZIMcqsEvdr9d-eK9cZU0fRKU0ldc,1960
+cliffy-0.2.1.dist-info/LICENSE,sha256=l8pWXa2Utte9CeAOcv3P_6c7tgtJi0N968OD77aXh10,1060
+cliffy-0.2.1.dist-info/METADATA,sha256=LJ04Nre4_I81WNjyn5MjHzboCxi9FKpRx0he2FXDZkw,2095
+cliffy-0.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+cliffy-0.2.1.dist-info/entry_points.txt,sha256=V1wCdcfXg9AlMv4BpLLwoWozehDIZgAu1t3kaID983c,38
+cliffy-0.2.1.dist-info/RECORD,,
