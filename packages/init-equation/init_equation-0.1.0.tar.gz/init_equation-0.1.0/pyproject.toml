@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "init-equation"
+version = "0.1.0"
+description = "A CLI tool for creating equation in tex format."
+authors = ["vaibhavblayer <vaibhavblayer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "init_equation"}]
+
+
+[tool.poetry.scripts]
+init-equation = "init_equation.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
