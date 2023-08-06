@@ -1,0 +1,13 @@
+fishbones/__init__.py,sha256=6dOL0L6JIfy-aaoiacikbIw5HUALgadMfDuu9T0xYZQ,135
+fishbones/decompiler_builtins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fishbones/decompiler_builtins/ghidra.py,sha256=qBfRrg1-u1jlxSjJD_riv1lsVfzUVNT_tpNRO4xzqsA,3618
+fishbones/decompiler_builtins/ida.py,sha256=VRClXmx0iu8QHZupiYLUTccGctIrfb9gdZHdFZKMiUU,11593
+fishbones/endian.py,sha256=vxz-wNu_xvGkOKdpC6RAPRgFoHG5MVbm6vaM1oWWjvs,285
+fishbones/exceptions.py,sha256=Vd3f_yblg0SEuxtEePNzY6g_cmmRT8oOHOqgYc6avF8,100
+fishbones/integer.py,sha256=bU1l82czy2NimZuzcnve_qi-dxBLn_EFGFUNQk-ypvs,7994
+fishbones/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fishbones/virtual_pointer.py,sha256=UTlwTLfop57bo2paxSExJYxfYAW2X6R_Mq-7EKa7tXg,3709
+fishbones-0.3.1.dist-info/LICENSE,sha256=kYalrAluOO_iETLzH-zO3pNqfB_Mx0iKZG_0eyNFsJE,1062
+fishbones-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fishbones-0.3.1.dist-info/METADATA,sha256=LvcmKXP9qzhgpJuE6wD7y7U0nUnom_i2FWHpiBPw2xA,2309
+fishbones-0.3.1.dist-info/RECORD,,
