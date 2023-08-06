@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/util_1c_rac/__init__.py
+src/util_1c_rac/rac.py
+src/util_1c_rac/utils.py
+src/util_1c_rac.egg-info/PKG-INFO
+src/util_1c_rac.egg-info/SOURCES.txt
+src/util_1c_rac.egg-info/dependency_links.txt
+src/util_1c_rac.egg-info/requires.txt
+src/util_1c_rac.egg-info/top_level.txt
+tests/test_util_1c_rac.py
