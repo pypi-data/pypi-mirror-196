@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: yapx
+Version: 0.0.1a18
+Summary: WIP
+Home-page: https://github.com/fresh2dev/yapx
+Author: Donald Mellenbruch
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://github.com/fresh2dev/yapx
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/yapx/i
+Project-URL: License, https://www.Fresh2.dev/code/r/yapx/i/license
+Project-URL: Issues, https://github.com/fresh2dev/yapx/issues
+Project-URL: Funding, https://www.Fresh2.dev/funding
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: pydantic
+Provides-Extra: shtab
+Provides-Extra: extras
+License-File: LICENSE
+
+# yapx
+
+*None*
+
+|               |                           |
+| ------------- | ------------------------- |
+| Code Repo     | https://github.com/fresh2dev/yapx              |
+| Mirror Repo   | https://www.Fresh2.dev/code/r/yapx           |
