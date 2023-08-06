@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+airflow_provider_evidently/__init__.py
+airflow_provider_evidently.egg-info/PKG-INFO
+airflow_provider_evidently.egg-info/SOURCES.txt
+airflow_provider_evidently.egg-info/dependency_links.txt
+airflow_provider_evidently.egg-info/not-zip-safe
+airflow_provider_evidently.egg-info/requires.txt
+airflow_provider_evidently.egg-info/top_level.txt
+airflow_provider_evidently/hooks/__init__.py
+airflow_provider_evidently/operators/__init__.py
+airflow_provider_evidently/sensors/__init__.py
+airflow_provider_evidently/triggers/__init__.py

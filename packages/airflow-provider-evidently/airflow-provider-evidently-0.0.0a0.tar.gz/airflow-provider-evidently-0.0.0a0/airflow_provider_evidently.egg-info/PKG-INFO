@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: airflow-provider-evidently
+Version: 0.0.0a0
+Summary: A short description of the package
+Home-page: https://github.com/username_or_org/airflow-provider-evidently
+Author: Osborne Reynolds
+Author-email: osborne.reynolds@airflow.com
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/username_or_org/airflow-provider-evidently
+Project-URL: Homepage, https://github.com/username_or_org/airflow-provider-evidently
+Project-URL: Changelog, https://github.com/username_or_org/airflow-provider-evidently/blob/main/CHANGELOG.md
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# evidently
+---
