@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+protomod/ProtobufLexer.py
+protomod/ProtobufParser.py
+protomod/ProtobufParserListener.py
+protomod/__init__.py
+protomod/main.py
+protomod/modifier.py
+protomod.egg-info/PKG-INFO
+protomod.egg-info/SOURCES.txt
+protomod.egg-info/dependency_links.txt
+protomod.egg-info/requires.txt
+protomod.egg-info/top_level.txt
+scripts/protomod
