@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gasify
+Version: 1.3.0
+Summary: A module for handling data from experiments, primarily focused upon gas measurement
+License: GPL-3.0-only
+Author: Chris Harrison
+Author-email: 629204+ravngr@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pint (==0.18) ; python_version < "3.8"
+Requires-Dist: Pint (>=0.19.2,<0.20.0) ; python_version >= "3.8"
+Requires-Dist: plenary (>=1.6.4,<2.0.0)
+Requires-Dist: uncertainties (>=3.1.7,<4.0.0)
+Description-Content-Type: text/markdown
+
+# gasify
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7033778.svg)](https://doi.org/10.5281/zenodo.7033778) ![license](https://img.shields.io/github/license/swinburne-sensing/gasify) ![python version](https://img.shields.io/pypi/pyversions/gasify) ![testing](https://github.com/swinburne-sensing/gasify/actions/workflows/python.yml/badge.svg) ![issues](https://img.shields.io/github/issues/swinburne-sensing/gasify)
+
+A library for handling data from experiments, primarily focused upon gas sensing results. Contains methods for calculation of humidity, gas concentrations, gas mixtures, gas correction factors, and handling of various engineering and scientific units (extended from [pint](https://pint.readthedocs.io/en/stable/)).
+
+Formally known as `experimentutil` (un-released).
+
+## Acknowledgments
+
+Developed at [Swinburne University of Technology](https://swin.edu.au). If used in an academic project, please consider citing this work as it helps attract funding and track research outputs:
+
+```
+C. J. Harrison and M. Shafiei. gasify. (2022). [Online]. doi: https://dx.doi.org/10.5281/zenodo.7033778
+```
+
+*This activity received funding from [ARENA](https://arena.gov.au) as part of ARENA’s Research and Development Program – Renewable Hydrogen for Export (Contract No. 2018/RND012). The views expressed herein are not necessarily the views of the Australian Government, and the Australian Government does not accept responsibility for any information or advice contained herein.*
+
