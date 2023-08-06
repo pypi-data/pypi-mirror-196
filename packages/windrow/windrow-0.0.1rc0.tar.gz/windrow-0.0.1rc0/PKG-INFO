@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: windrow
+Version: 0.0.1rc0
+Summary: Haystack REST API
+Author-email: ZanSara <sara.zanzottera@deepset.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Freely Distributable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Provides-Extra: dev
+Requires-Dist: black[jupyter]==22.6.0; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pylint==2.15.10; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# 🍃 Windrow 🍃
+
+<p align="center" float="left">
+  <img alt="" src="https://raw.githubusercontent.com/deepset-ai/.github/main/deepset-logo-colored.png" width="30%"/>
+  <img alt="" src="https://raw.githubusercontent.com/deepset-ai/.github/main/haystack-logo-colored-on-dark.png#gh-dark-mode-only" width="30%"/>
+  <img alt="" src="https://raw.githubusercontent.com/deepset-ai/.github/main/haystack-logo-colored.png#gh-light-mode-only" width="30%"/>
+</p>
+
+[![PyPI - Version](https://img.shields.io/pypi/v/windrow.svg)](https://pypi.org/project/windrow)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/windrow.svg)](https://pypi.org/project/windrow)
+
+Windrow is a REST API layer on top of version 2.0 of the [Haystack framework](https://github.com/deepset-ai/haystack).
+
+## Installation
+
+```
+# Haystack
+pip install --no-deps git+https://github.com/deepset-ai/haystack.git@v2-new-pipeline
+# Canals
+pip install git+https://github.com/deepset-ai/canals.git
+# Hatch
+pip install hatch
+```
