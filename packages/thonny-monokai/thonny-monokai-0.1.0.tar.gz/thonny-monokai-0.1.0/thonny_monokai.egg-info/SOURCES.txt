@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+thonny_monokai.egg-info/PKG-INFO
+thonny_monokai.egg-info/SOURCES.txt
+thonny_monokai.egg-info/dependency_links.txt
+thonny_monokai.egg-info/requires.txt
+thonny_monokai.egg-info/top_level.txt
+thonnycontrib/monokai/__init__.py

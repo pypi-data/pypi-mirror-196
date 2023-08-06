@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=65.5.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thonny-monokai"
+version = "0.1.0"
+authors = [
+    { name="Rodney Brown", email="rodneybbjr@gmail.com" },
+]
+description = "Monokai theme for Thonny"
+readme = "README.md"
+requires-python = ">=3.0.0"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Education",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Embedded Systems",
+]
+keywords = ["Thonny", "monokai", "IDE", "education", "dark", "theme",
+"programming"]
+dependencies = [
+    "thonny >= 3.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rodneybbjr/thonny-monokai"
+"Download" = "https://github.com/rodneybbjr/thonny-monokai"
