@@ -1,0 +1,7 @@
+typing_extensions
+
+[dev]
+black
+pylint
+pip-tools
+pytest
