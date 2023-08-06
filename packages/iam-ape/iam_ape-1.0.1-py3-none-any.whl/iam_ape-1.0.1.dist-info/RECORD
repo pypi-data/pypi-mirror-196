@@ -1,0 +1,15 @@
+iam_ape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iam_ape/aws_iam_actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iam_ape/aws_iam_actions/aws_iam_actions.tar.gz,sha256=y-ELQ94NOsOSsBU6pPn-olh1O6zIwJ9IO3Eg22wW9ZM,243352
+iam_ape/aws_iam_actions/scrape_iam_actions.py,sha256=HNJKoghvoqUBE01MPC1ai4TUnEswkzRRU6EKDS-NI8U,2166
+iam_ape/consts.py,sha256=B58tEbSk5FtsD1CydiGMxknRBMK9tGYtqMSm6kh_ED0,1655
+iam_ape/evaluator.py,sha256=J9KuaVoEhTPWB8S6x9RZBVCim_4dVQO4zMl6H3K2wuA,24832
+iam_ape/expand_policy.py,sha256=dxO4ozjzqrQPmtRq3t7MUQuGCy5wVetp9ywC1_hyjZU,11834
+iam_ape/helper_functions.py,sha256=cAmkAE70JAV_m_FGKWG618kEiKsTKHmqbDM8JALJ7-Q,7153
+iam_ape/helper_types.py,sha256=vR4WfQsSC6xJZnwv-UqzvmJWk6BByhc7sRbnA7giqAM,4618
+iam_ape/main.py,sha256=-KEH37x1aLKjuiQtF3JbGfXE3ROZXuxHWFH_3EKfI5M,6135
+iam_ape-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+iam_ape-1.0.1.dist-info/METADATA,sha256=pJQBY5hCOHfLDWLnUwg3KUnc7gC7aA4hfuhGwxrlF2A,4232
+iam_ape-1.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+iam_ape-1.0.1.dist-info/entry_points.txt,sha256=m-a7VBmPBPc8byMikhkPj68nDucXMn55NXnPKkU5iew,45
+iam_ape-1.0.1.dist-info/RECORD,,
