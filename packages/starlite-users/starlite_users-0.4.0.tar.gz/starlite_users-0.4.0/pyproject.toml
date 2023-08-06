@@ -1,0 +1,121 @@
+[tool.poetry]
+name = "starlite-users"
+version = "0.4.0"
+description = "Authentication and user management for Starlite"
+authors = ["Michael Bosch <michael@lonelyviking.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "starlite_users"}]
+
+[tool.poetry.dependencies]
+python = "^3.8,<4.0"
+passlib = "*"
+starlite = "*"
+sqlalchemy = "*"
+python-jose = "*"
+cryptography = "*"
+argon2-cffi = {version = "*", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+mkdocs = "^1.4.2"
+pre-commit = "^2.20.0"
+uvicorn = "^0.20.0"
+aiosqlite = "^0.17.0"
+mkdocs-material = "^8.5.11"
+mkdocstrings = {extras = ["python"], version = "^0.19.1"}
+pytest-cov = "^4.0.0"
+
+[tool.poetry.extras]
+argon2 = ["argon2-cffi"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.pylint.MESSAGE_CONTROL]
+disable = [
+    "cyclic-import",
+    "duplicate-code",
+    "fixme",
+    "import-outside-toplevel",
+    "invalid-name",
+    "line-too-long",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "no-name-in-module",
+    "protected-access",
+    "super-init-not-called",
+    "too-few-public-methods",
+    "too-many-ancestors",
+    "too-many-arguments",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "too-many-lines",
+    "too-many-locals",
+    "too-many-return-statements",
+    "ungrouped-imports",
+    "unnecessary-ellipsis",
+    "unused-import",
+]
+enable = "useless-suppression"
+extension-pkg-allow-list = ["pydantic"]
+
+[tool.pylint.REPORTS]
+reports = "no"
+
+[tool.pylint.FORMAT]
+max-line-length = "120"
+
+[tool.pylint.VARIABLES]
+ignored-argument-names = "args|kwargs|_|__"
+
+[tool.pylint.BASIC]
+no-docstring-rgx = "(__.*__|main|test.*|.*test|.*Test|^_.*)$"
+
+[tool.pylint.LOGGING]
+logging-modules = ["logging"]
+
+[tool.coverage.run]
+omit = ["*/tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    'pragma: no cover',
+    'if TYPE_CHECKING:',
+    'except ImportError as e:',
+    'except ImportError:',
+    '\.\.\.',
+    'raise NotImplementedError'
+]
+
+[tool.pytest.ini_options]
+addopts = "--ignore=examples"
+asyncio_mode = "auto"
+
+[tool.pycln]
+all = true
+
+[tool.pyright]
+include = ["starlite_users", "tests", "examples"]
+exclude = [
+    "starlite_users/adapter/sqlalchemy/mixins"
+]
+
+[tool.slotscheck]
+strict-imports = false
+
+[tool.pydocstyle]
+add-ignore = "D100,D104,D105,D106,D202,D205,D415"
+add-select = "D401,D404,D417"
+convention = "google"
+match_dir = "starlite_users"
