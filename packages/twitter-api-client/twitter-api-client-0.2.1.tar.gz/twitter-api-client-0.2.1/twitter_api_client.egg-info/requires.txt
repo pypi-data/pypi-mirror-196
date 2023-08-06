@@ -1,0 +1,5 @@
+ujson
+nest_asyncio
+aiohttp
+requests
+uvloop
