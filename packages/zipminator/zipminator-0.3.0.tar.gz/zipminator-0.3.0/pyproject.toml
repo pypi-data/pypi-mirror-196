@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "zipminator"
+version = "0.3.0"
+description = "Zipminator is a lightweight Python package for compressing, encrypting, and deleting password-protected Pandas DataFrames."
+authors = ["Daniel Mo Houshmand <mo@qdaria.com>"]
+license = "MIT"
+homepage = "https://qdaria.github.io/zipminator/"
+repository = "https://github.com/QDaria/zipminator"
+documentation = "https://qdaria.github.io/zipminator/"
+readme = "README.md"
+keywords = ["pandas", "compression", "encryption", "data-security"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+pyzipper = "^0.3.6"
+jupyter-sphinx = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+target-version = ['py38']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
