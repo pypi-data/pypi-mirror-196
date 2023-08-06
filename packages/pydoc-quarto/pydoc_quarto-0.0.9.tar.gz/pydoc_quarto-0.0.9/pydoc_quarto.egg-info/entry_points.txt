@@ -1,0 +1,5 @@
+[console_scripts]
+pydoc_quarto = pydoc_quarto.core:gen_md
+
+[nbdev]
+pydoc_quarto = pydoc_quarto._modidx:d
