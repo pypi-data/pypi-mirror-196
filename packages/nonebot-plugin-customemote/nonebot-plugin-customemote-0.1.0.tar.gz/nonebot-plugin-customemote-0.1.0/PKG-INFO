@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-customemote
+Version: 0.1.0
+Summary: A plugin based on NoneBot2, send text to call your set emotes.
+Home-page: https://github.com/DMCSWCG/nonebot-plugin-customemote/
+Author: DMCSWCG
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/DMCSWCG/nonebot-plugin-customemote/issues
+Description: <p align="center">
+          <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
+        </p>
+        <div align="center">
+        
+          # Custom Emote
+          ✨ 基于[NoneBot2](https://github.com/nonebot/nonebot2)的插件，群聊自定义表情包发送器 ✨
+          </br>
+          ✨ Custom Emote ✨
+        </div>
+        
+        ## 功能介绍
+        
+        用于群聊中设置自定义的表情包,不再有翻相册的烦恼。只需要发送 \*.jpg 或 \*.png 或 \*.gif 机器人就会发送设置好的表情图片。
+        
+        ## 用法简介
+        
+        
+        ### 全局配置：
+        ***
+        ```python
+        save_face_path = "" # 表情包数据存放位置 默认./data/custom_face_data/
+        
+        save_face_mode = 0  # 表情包的保存模式 
+        # 0 为使用cqhttp image file保存模式,使用Go-cqhttp的图像记录文件,存在失效的问题,优点是节约硬盘空间
+        
+        # 1 为图片文件下载保存模式,直接下载图像文件保存在服务器上,无失效问题(如文件被删除则失效),但需注意存储空间使用量
+        ```
+        ***
+        ### 如何使用:
+        
+        
+        
+        #### 1.&emsp;"自定表情包设置", "自定义表情包设置", "自定表情设置", "自定义表情设置" 
+        - 设置指令:&emsp;用于设置表情图片，图片来源你或者其他人发送的图片，为最近一次发送的图片。  
+        - 设置非自己发送的图片时，需要使用@指定发送人
+        - 务必携带上你自己机器人设置的&emsp;Command&emsp;Start
+        
+        
+        #### 2.&emsp;\*.jpg&emsp;\*.png&emsp;\*.gif  
+        
+        - 召唤指令:&emsp;\*为你设置的表情包名称，使用相似度判断触发。可能有意想不到的效果。  
+        #### 3.&emsp;其他
+        
+        - 按常规方法导入插件即可。多群控制开关没有做,自己加一下吧（懒）
+        ***
+        <a href="https://github.com/Utmost-Happiness-Planet/uhpstatus/blob/main/LICENSE">
+            <img src="https://img.shields.io/badge/license-MIT-orange" alt="license">
+          </a>
+          
+          <a href="https://github.com/nonebot/nonebot2">
+            <img src="https://img.shields.io/badge/nonebot-v2-red" alt="nonebot">
+          </a> 
+          
+          <a href="">
+            <img src="https://img.shields.io/badge/release-v1.0-blueviolet" alt="release">
+        </a>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nonebot_plugin_customemote/__init__.py
+nonebot_plugin_customemote/config.py
+nonebot_plugin_customemote/data_source.py
+nonebot_plugin_customemote.egg-info/PKG-INFO
+nonebot_plugin_customemote.egg-info/SOURCES.txt
+nonebot_plugin_customemote.egg-info/dependency_links.txt
+nonebot_plugin_customemote.egg-info/requires.txt
+nonebot_plugin_customemote.egg-info/top_level.txt
