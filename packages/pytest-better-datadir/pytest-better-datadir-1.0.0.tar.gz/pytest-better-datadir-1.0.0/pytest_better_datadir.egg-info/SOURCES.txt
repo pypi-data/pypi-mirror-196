@@ -1,0 +1,6 @@
+README.md
+setup.py
+pytest_better_datadir.egg-info/PKG-INFO
+pytest_better_datadir.egg-info/SOURCES.txt
+pytest_better_datadir.egg-info/dependency_links.txt
+pytest_better_datadir.egg-info/top_level.txt
