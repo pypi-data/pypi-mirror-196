@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: avikom-types
+Version: 0.10.0
+Summary: Avikom Protocol Buffer Types
+Home-page: https://gitlab.ub.uni-bielefeld.de/avikom/converter
+Author: Alexander Neumann
+Author-email: alneuman@techfak.uni-bielefeld.de
+License: UNKNOWN
+Keywords: avikom, protocol buffers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+Requires-Dist: protobuf
+Requires-Dist: grpcio
+Requires-Dist: googleapis-common-protos
+
+# AVIKOM Types Python
+
+
