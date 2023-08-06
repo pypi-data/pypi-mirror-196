@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+catslibary.egg-info/PKG-INFO
+catslibary.egg-info/SOURCES.txt
+catslibary.egg-info/dependency_links.txt
+catslibary.egg-info/top_level.txt
