@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pygeine
+Version: 0.0.4
+Summary: Learning Python will be fun
+Home-page: https://github.com/Mohamedsaad55/Py-Geine
+Author: Mohamed Saad
+License: MIT
+Project-URL: Source, https://github.com/Mohamedsaad55/Py-Geine
+Project-URL: Documentation, https://yourusername.github.io/pygeine
+Keywords: python learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: jupyter
+Requires-Dist: ipykernel ; extra == 'jupyter'
+Requires-Dist: matplotlib ; extra == 'jupyter'
+
+![Header Image](https://github.com/Mohamedsaad55/Py-Geine/blob/master/assets/2.png?raw=true)
+
+
+## Installation
+
+To install the package, run the following command:
+
+pip install pygeine
+
+
+## Usage
+
+to use a function or project explaination just import the function like this :
+
+from pygeine.pybasics import calculator  , receipt
+
+## Downloading a Project 
+
+if you need to download the Actual code for any projects just import the project name and add (_download) like this :
+
+from pygeine.pybasics  calculator_download , receipt_download
+
+
+## Example Notebook
+
+Check out this [Google Colab notebook](https://colab.research.google.com/drive/187SFw4QkZcxVflUlzIH3SMF8ep6kE9L-?usp=sharing) for an example of how to use the functions in this package.
