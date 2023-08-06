@@ -1,0 +1,6 @@
+future
+lxml
+numpy
+python-dateutil
+pyyaml
+scipy
