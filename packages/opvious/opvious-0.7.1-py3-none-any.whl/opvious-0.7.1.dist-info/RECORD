@@ -1,0 +1,13 @@
+opvious/__init__.py,sha256=ml323fx9eMVnLcoD3PRrVVeRnN4kP77XcCUU1Snzp28,1850
+opvious/client.py,sha256=TtU8tjOquL6to_OYhecHG5-kR3XjiFHdBtB9CiwxSNQ,18544
+opvious/common.py,sha256=LLKehB4KCZrxSp1Vifautm0-wq0Zdd0gedYgqa6ywnI,969
+opvious/data.py,sha256=VF1CXPzJVm5BA_lXib2gDva7IakJAvG6w15eRH2xSNc,12016
+opvious/executors/__init__.py,sha256=6Q0YbgXEbyMZPweUenOPLucwsGnv-m79-eD1qj9FonU,1745
+opvious/executors/aiohttp.py,sha256=FNK8B1nyw-FgJ0eVgbiD1LKrnSaf8JC-uOSW4J-48zw,2542
+opvious/executors/common.py,sha256=hJHj47p-KpSAoxpne4-YGpJgoWzwcD3fdWUgf_LFwPw,2985
+opvious/executors/pyodide.py,sha256=abqarUBWCRa8cTpoiW2cJdrtShlkQ5Vw0CoTaCdnME8,2045
+opvious/executors/urllib.py,sha256=eWLRdNWSRQ32rPSu0NDqGpG2Twb7Mt2Z1mZRgK_ttyE,2411
+opvious-0.7.1.dist-info/LICENSE,sha256=5xmX2CNxAdx37pWoaigSa8jlCaVd_b_A3ixTnenwSeY,10756
+opvious-0.7.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+opvious-0.7.1.dist-info/METADATA,sha256=0-VE3Kt3ZW8rE4h3Iv0h9F8lnQt2Z3WXzuJtkNEuL98,3973
+opvious-0.7.1.dist-info/RECORD,,
