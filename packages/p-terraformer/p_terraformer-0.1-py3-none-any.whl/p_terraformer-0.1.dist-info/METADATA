@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: p-terraformer
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/S-mishina/p_terraformer
+Author: S-mishina
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: boto3 (==1.26.74)
+Requires-Dist: botocore (==1.29.74)
+Requires-Dist: jmespath (==1.0.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-dotenv (==0.21.1)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: s3transfer (==0.6.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.14)
+
+UNKNOWN
+

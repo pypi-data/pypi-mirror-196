@@ -1,0 +1,3 @@
+[console_scripts]
+p_terraformer = p_terraformer.cli:main
+
