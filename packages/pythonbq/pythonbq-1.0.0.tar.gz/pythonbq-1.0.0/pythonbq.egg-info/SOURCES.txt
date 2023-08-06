@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pythonbq/__init__.py
+pythonbq/pythonbq.py
+pythonbq.egg-info/PKG-INFO
+pythonbq.egg-info/SOURCES.txt
+pythonbq.egg-info/dependency_links.txt
+pythonbq.egg-info/requires.txt
+pythonbq.egg-info/top_level.txt
+test/test_open.py
+test/test_private.py
