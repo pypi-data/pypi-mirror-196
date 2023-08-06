@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+data_formatada/__init__.py
+data_formatada/pacote.py
+data_formatada.egg-info/PKG-INFO
+data_formatada.egg-info/SOURCES.txt
+data_formatada.egg-info/dependency_links.txt
+data_formatada.egg-info/top_level.txt
