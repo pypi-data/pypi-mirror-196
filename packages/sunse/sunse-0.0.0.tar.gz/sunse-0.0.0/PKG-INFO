@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sunse
+Version: 0.0.0
+Summary: A plaintext note manager CLI in Python 3.10.
+Author-email: Stephen Malone <none@example.com>
+Project-URL: Homepage, https://github.com/wirehaiku/Sunse
+Project-URL: Tracker, https://github.com/wirehaiku/Sunse/issues
+Keywords: notes,note-taking,cli
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# Sunse
+
+**Sunse** (*Stephen's Unseen Servant*, pronounced *sun·zee*) is a plaintext command-line note manager, written in Python 3.10.
