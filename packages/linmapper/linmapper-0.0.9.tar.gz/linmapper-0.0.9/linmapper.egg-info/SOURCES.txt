@@ -1,0 +1,9 @@
+Licence.txt
+README.rst
+setup.py
+linmapper/__init__.py
+linmapper.egg-info/PKG-INFO
+linmapper.egg-info/SOURCES.txt
+linmapper.egg-info/dependency_links.txt
+linmapper.egg-info/requires.txt
+linmapper.egg-info/top_level.txt

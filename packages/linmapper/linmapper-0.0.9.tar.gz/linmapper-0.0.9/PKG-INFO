@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: linmapper
+Version: 0.0.9
+Summary: linmapper is a Python package that allows users to transform vertices of complex numbers from one plane (Z) to another plane (f(Z)).
+Home-page: 
+Author: Supratim Das
+Author-email: supratim0707@gmail.com
+License: MIT
+Keywords: calculator,linear,complex,number,mapping,supratim,das
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: Licence.txt
+
+linmapper 0.0.9
+===============
+
+Developed by Supratim Das
+-------------------------
+
+Package Description
+-------------------
+
+linmapper is a Python package that allows users to transform vertices of
+complex numbers from one plane (Z) to another plane (f(Z)). The package
+includes a function called linmapper(Z, fZ) that takes in two sets of
+arrays of complex numbers representing vertices of Z-plane and
+f(Z)-plane, and returns the function f(Z) that transforms the vertices
+from Z-plane to f(Z)-plane.
+
+Installation
+------------
+
+To install linmapper, simply use pip:
+
+.. code:: python
+
+   pip install linmapper
+   pip install numpy
+
+Usage
+-----
+
+To use the linmapper() function, first import the package:
+
+.. code:: python
+
+   import linmapper as lmp
+   import numpy as np
+
+Then, create two arrays of complex numbers representing the vertices of
+Z-plane and f(Z)-plane, respectively:
+
+.. code:: python
+
+   Z = np.array([-1+1j, 1+1j, 1+2j, -1+2j])
+   fZ = np.array([-2-1j, -2+7j, -6+7j, -6-1j])
+
+Finally, call the linmapper() function with these arrays as arguments:
+
+.. code:: python
+
+   lmp.linmapper(Z, fZ)
+
+The function will return a function object that can be used to transform
+any other complex number from Z-plane to f(Z)-plane.
+
+Contributing
+------------
+
+If you find a bug or have a suggestion for a new feature, please open an
+issue on GitHub. Pull requests are also welcome!
+
+License
+-------
+
+linmapper is released under the MIT license. See LICENSE for details.
+
+
+Change Log
+==========
+
+0.0.1 (10/03/2021)
+-------------------
+- First Release
