@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TSSTP
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://gitlab/bmaterials/tsstp
+Author: He Bing
+Author-email: bhe@t.shu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/markdown
+
+# Templates Semi-Structured Text Parser 
+
+# tsstp 
+
