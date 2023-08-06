@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: opendal
+Version: 0.30.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# OpenDAL Python Binding
+
+This crate intends to build a native python binding.
+
+## Building
+
+Install `maturin`:
+
+```shell
+pip install maturin
+```
+
+Setup virtualenv:
+
+```shell
+virtualenv venv
+```
+
+Activate venv:
+
+```shell
+source venv/bin/activate
+````
+
+Build bindings:
+
+```shell
+maturin develop
+```
+
+Running some tests:
+
+```shell
+pip install -r test_requirements.txt
+pytest
+```
+
