@@ -1,0 +1,11 @@
+bbuddy/bbuddy.py,sha256=uD2lPRv0jRMyZbsmflZPp5q07gkY3zjBbQxMm1lHreY,15549
+bbuddy/bindump.py,sha256=DlPmtzrrn2V76eX7moOuiJnmDS5y8Uau24I4dtofuvw,4036
+bbuddy/dbdump.py,sha256=IpyneY4v6duF-ZLzeR6mjRpz_fgNPnwrwmuUrbSZ6Fo,11886
+bbuddy/fffind.py,sha256=Yd_Cq8Wpjc04gnFGbymYJGxuYk2wubEOKA1VM0yVo2o,5066
+bbuddy/git_consolidate.py,sha256=VWMST7LA6q-NiKmUqDh4NkITIAQzIFXEqQu409deBM0,2854
+bbuddy/ppgrep.py,sha256=8Zl57AX96wfWg3cFOINwG83LA9hCZ7MprelK0mGQ564,4276
+bbuddy-0.0.1rc1.dist-info/METADATA,sha256=7iEuXJIx2LmM-e6Mai2gdg7MXLZ9kfPqRtsaNUsl_uk,770
+bbuddy-0.0.1rc1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+bbuddy-0.0.1rc1.dist-info/entry_points.txt,sha256=pc2nCY5EY5D4dNvdaAP57cpbKcHBnBZxLX8shwhFVy0,132
+bbuddy-0.0.1rc1.dist-info/licenses/LICENSE.txt,sha256=T6LzT_WtmcJE88fZiJAzJZx1xxdYMqNxfZ4JQ-vkIjk,1053
+bbuddy-0.0.1rc1.dist-info/RECORD,,

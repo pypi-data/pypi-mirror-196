@@ -1,0 +1,5 @@
+[console_scripts]
+bindump = bbuddy.bindump:main
+dbdump = bbuddy.dbdump:main
+fffind = bbuddy.fffind:main
+ppgrep = bbuddy.ppgrep:main
