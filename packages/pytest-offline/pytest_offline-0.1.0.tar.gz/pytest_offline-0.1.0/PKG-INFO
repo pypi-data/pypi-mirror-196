@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytest-offline
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/2tunnels/pytest-offline
+License: MIT
+Author: Vlad Dmitrievich
+Author-email: 2tunnels@proton.me
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.0.0,<8.0.0)
+Project-URL: Repository, https://github.com/2tunnels/pytest-offline
+Description-Content-Type: text/markdown
+
+# pytest-offline
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/2tunnels/pytest-offline/test.yaml?label=test)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/2tunnels/pytest-offline/lint.yaml?label=lint)
+![GitHub](https://img.shields.io/github/license/2tunnels/pytest-offline)
+
+A Pytest plugin that blocks `socket` calls during tests to ensure prevention of network calls.
+

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "pytest-offline"
+version = "0.1.0"
+description = ""
+authors = ["Vlad Dmitrievich <2tunnels@proton.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pytest_offline"}]
+repository = "https://github.com/2tunnels/pytest-offline"
+classifiers = [
+    "Development Status :: 1 - Planning"
+]
+
+[tool.poetry.plugins.pytest11]
+offline = "pytest_offline.plugin"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.0.0"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+flake8-bugbear = "^23.2.13"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
