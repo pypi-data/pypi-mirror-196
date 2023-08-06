@@ -1,0 +1,14 @@
+gwas_sumstats_tools/cli.py,sha256=z-K1CsCdCxXyx4Zapjl1-KoZ9LmIBjiuQCnXO7Rgp40,12877
+gwas_sumstats_tools/format.py,sha256=9nSzYL143-p4lAf5-tA8nli8G_ufFXi4nQbb2WoUE-M,2836
+gwas_sumstats_tools/interfaces/data_table.py,sha256=Bggbcr4fKrL1-M04V8TkQ7hEuOEmKH8HN2_D8EES0vk,9027
+gwas_sumstats_tools/interfaces/metadata.py,sha256=FLG0Q5-Bkb8nbovKD6r6_O6OBeax2jeYLsQdMMOSxMA,5144
+gwas_sumstats_tools/read.py,sha256=rNRbALA0f09kkJorqE6T4B8quYSRC-uDpPrm-c0jE94,3913
+gwas_sumstats_tools/schema/data_table.py,sha256=01Xgdog2koTDgySzBnUxIQP5nad-xceqpak9yJv_X6I,5759
+gwas_sumstats_tools/schema/metadata.py,sha256=SHesg0rBN3ytQj7J4NQiaYT9q4ZmQn0oDGGDidyShF0,1785
+gwas_sumstats_tools/utils.py,sha256=T7jej3JFAj9unlBcdHVoe-TUGxSWBJ5E-namIVvod5s,2769
+gwas_sumstats_tools/validate.py,sha256=SotlG_aLrFbyu_7uE4OITt9GwrGZWsKOoUKYDX5HnI8,7442
+gwas_sumstats_tools-0.1.3a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gwas_sumstats_tools-0.1.3a0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gwas_sumstats_tools-0.1.3a0.dist-info/entry_points.txt,sha256=RxmwQiLEJCC6zXbt588mi9bKjYQeDtmBdKWwsc3e-jU,56
+gwas_sumstats_tools-0.1.3a0.dist-info/METADATA,sha256=GKzlRCvxZmud2vsk6uP-TAO8dHTTTSvh7-stHjiR4Ho,5343
+gwas_sumstats_tools-0.1.3a0.dist-info/RECORD,,
