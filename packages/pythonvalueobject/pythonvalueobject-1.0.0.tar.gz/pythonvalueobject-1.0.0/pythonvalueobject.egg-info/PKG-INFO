@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pythonvalueobject
+Version: 1.0.0
+Summary: Python value object implementation
+Home-page: https://github.com/virtualitems
+Author: github@virtualitems
+Author-email: virtualitemsuniverse@gmail.com
+License: MIT
+Keywords: value,object
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## About
+
+Abstract base class for python value objects.
+
+## Usage
+
+Extend and implement the _is_valid_ method.
+
+```
+class Weight(ValueObject):
+    def is_valid(self, value: int) -> bool:
+        return isinstance(value, int) and value >= 0
+```
+
+Equality example:
+
+```
+o = Weight(10)
+p = Weight(11)
+q = Weight(11)
+
+print('o ', o)
+print('p ', p)
+print('q ', q)
+print('o == p ', o == p)
+print('o == q ', o == q)
+print('p == q ', p == q)
+```
+
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pythonvalueobject/__init__.py
+pythonvalueobject/__main__.py
+pythonvalueobject/immutable.py
+pythonvalueobject.egg-info/PKG-INFO
+pythonvalueobject.egg-info/SOURCES.txt
+pythonvalueobject.egg-info/dependency_links.txt
+pythonvalueobject.egg-info/top_level.txt
