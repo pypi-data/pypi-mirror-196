@@ -1,0 +1,6 @@
+setup.py
+JaxPyTree.egg-info/PKG-INFO
+JaxPyTree.egg-info/SOURCES.txt
+JaxPyTree.egg-info/dependency_links.txt
+JaxPyTree.egg-info/top_level.txt
+jaxpytree/__init__.py
