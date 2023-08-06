@@ -1,0 +1,8 @@
+requests
+
+[dev]
+bumpver
+build
+twine
+isort
+pytest
