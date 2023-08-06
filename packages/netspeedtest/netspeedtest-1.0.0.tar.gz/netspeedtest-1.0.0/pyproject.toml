@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "netspeedtest"
+version = "1.0.0"
+description = "speedtest"
+license = "Apache License, Version 2.0"
+authors = ["Matt Martz <matt@sivel.net>"]
+readme = "README.rst"
+homepage = "https://github.com/sivel/"
+repository = "https://github.com/sivel/speedtest-cli"
+documentation = ""
+keywords = ["speedtest-cli", "http"]
+classifiers = [
+	"Topic :: Internet :: WWW/HTTP",
+	"Topic :: Utilities",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Operating System :: MacOS",
+	"Operating System :: Microsoft :: Windows",
+	]
+packages = [
+	{include = "speedtest.py"},
+	]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+
+[tool.poetry.scripts]
+speedtest = 'speedtest:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
