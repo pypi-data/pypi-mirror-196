@@ -1,0 +1,6 @@
+query {
+  whoAmI {
+    fullName
+    email
+  }
+}

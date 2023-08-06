@@ -1,0 +1,204 @@
+{
+  "en": {
+    "order": {
+      "access": {
+        "title": "Unlock order form",
+        "hint": "Please enter the access code to open this order form:",
+        "label": "Access code"
+      },
+      "steps": {
+        "items": "Select items",
+        "shipping": "Select shipping option",
+        "payment": "Select payment option",
+        "confirm": "Confirm order"
+      },
+      "personal_data": {
+        "title": "Personal data",
+        "imported": "The personal data have automatically been imported from your user account.",
+        "label_name": "Full name",
+        "label_email": "Email"
+      },
+      "items": {
+        "title": "Items",
+        "items_count": "0 items | 1 item | {count} items",
+        "quantity": "Quantity",
+        "price": "Price",
+        "total": "Total"
+      },
+      "shipping": {
+        "title": "Shipping option",
+        "address": "Shipping address",
+        "label_name": "Full name",
+        "label_second_address_row": "Second address row",
+        "label_street": "Street",
+        "label_housenumber": "Housenumber",
+        "label_postal_code": "Postal code",
+        "label_place": "Place"
+      },
+      "payment": {
+        "title": "Payment option"
+      },
+      "confirm": {
+        "title_notes": "Notes to your order",
+        "label_notes": "Notes",
+        "hint": "Please check the details of your order and send it by clicking \"Confirm order\""
+      },
+      "submitted": {
+        "thank_you": "Thank you!",
+        "submitted_successfully": "Your order has been submitted successfully.",
+        "confirm_necessary": "Please check your emails and confirm your order by clicking the link sent to you."
+      },
+      "digital_products": {
+        "my_digital_products": "My digital products",
+        "licenses_bought": "You have bought one license.|You have bought {count} licenses.",
+        "shares_left": "You can't create any more download links.|You still can generate one download link.|You still can generate {count} download links.",
+        "link_number": "Link #{number}",
+        "link_valid_until": "Valid until {date}",
+        "download": "Download",
+        "copy_link": "Copy link",
+        "generate_link": "Generate new download link"
+      },
+      "copied": "Copied!",
+      "actions": {
+        "back": "Back",
+        "confirm": "Confirm order",
+        "next": "Next step"
+      },
+      "rules": {
+        "name": {
+          "required": "Name is required",
+          "max": "Name must be less than 255 characters"
+        },
+        "email": {
+          "required": "Email is required",
+          "valid": "Email is invalid",
+          "max": "Email must be less than 255 characters"
+        },
+        "shipping_option": {
+          "required": "Shipping option is required"
+        },
+        "payment_option": {
+          "required": "Payment option is required"
+        },
+        "street": {
+          "required": "Street is required",
+          "max": "Street must be less than 255 characters"
+        },
+        "housenumber": {
+          "required": "Housenumber is required",
+          "max": "Housenumber must be less than 255 characters"
+        },
+        "postal_code": {
+          "required": "Postal code is required",
+          "valid": "Postal code is invalid"
+        },
+        "place": {
+          "required": "Place is required",
+          "max": "Place must be less than 255 characters"
+        }
+      },
+      "free": "free"
+    }
+  },
+  "de": {
+    "order": {
+      "access": {
+        "title": "Bestellformular entsperren",
+        "hint": "Bitte geben Sie den Zugangscode ein, um das Bestellformular zu öffnen:",
+        "label": "Zugangscode"
+      },
+      "steps": {
+        "items": "Artikel auswählen",
+        "shipping": "Versandmöglichkeit auswählen",
+        "payment": "Bezahlmöglichkeit auswählen",
+        "confirm": "Bestellung bestätigen"
+      },
+      "personal_data": {
+        "title": "Persönliche Daten",
+        "imported": "Die persönlichen Daten wurden automatisch aus Ihrem Benutzerkonto importiert.",
+        "label_name": "Vollständiger Name",
+        "label_email": "E-Mail-Adresse"
+      },
+      "items": {
+        "title": "Artikel",
+        "items_count": "0 Artikel | 1 Artikel | {count} Artikel",
+        "quantity": "Anzahl",
+        "price": "Preis",
+        "total": "Summe"
+      },
+      "shipping": {
+        "title": "Versandmöglichkeit",
+        "address": "Versandadresse",
+        "label_name": "Vollständiger Name",
+        "label_second_address_row": "Zweite Adresszeile",
+        "label_street": "Straße",
+        "label_housenumber": "Hausnummer",
+        "label_postal_code": "PLZ",
+        "label_place": "Ort"
+      },
+      "payment": {
+        "title": "Bezahlmöglichkeit"
+      },
+      "confirm": {
+        "title_notes": "Anmerkungen zu Ihrer Bestellung",
+        "label_notes": "Anmerkungen",
+        "hint": "Bitte prüfen Sie die Details Ihrer Bestellung und versenden Sie sie, indem Sie auf \"Bestellung bestätigen\" klicken."
+      },
+      "submitted": {
+        "thank_you": "Danke!",
+        "submitted_successfully": "Ihre Bestellung wurde erfolgreich übertragen!",
+        "confirm_necessary": "Bitte prüfen Sie Ihre E-Mails und bestätigen Sie die Bestellung, indem Sie auf den Link klicken, den wir Ihnen zugesendet haben."
+      },
+      "digital_products": {
+        "my_digital_products": "Meine digitalen Produkte",
+        "licenses_bought": "Sie haben eine Lizenz gekauft.|Sie haben {count} Lizenzen gekauft.",
+        "shares_left": "Sie können keine weiteren Download-Links generieren.|Sie können noch einen Download-Link generieren.|Sie können noch {count} Download-Links generieren.",
+        "link_number": "Link #{number}",
+        "link_valid_until": "Gültig bis {date}",
+        "download": "Download",
+        "copy_link": "Link kopieren",
+        "generate_link": "Neuen Download-Link generieren"
+      },
+      "copied": "Kopiert!",
+      "actions": {
+        "back": "Zurück",
+        "confirm": "Bestellung bestätigen",
+        "next": "Nächster Schritt"
+      },
+      "rules": {
+        "name": {
+          "required": "Der Name wird benötigt",
+          "max": "Name darf nicht länger als 255 Zeichen sein"
+        },
+        "email": {
+          "required": "E-Mail wird benötigt",
+          "valid": "E-Mail ist ungültig",
+          "max": "E-Mail darf nicht länger als 255 Zeichen sein"
+        },
+        "shipping_option": {
+          "required": "Versandmöglichkeit wird benötigt"
+        },
+        "payment_option": {
+          "required": "Bezahlmöglichkeit wird benötigt"
+        },
+        "street": {
+          "required": "Straße wird benötigt",
+          "max": "Straße darf nicht länger als 255 Zeichen sein"
+        },
+        "housenumber": {
+          "required": "Hausnummer wird benötigt",
+          "max": "Hausnummer darf nicht länger als 255 Zeichen sein"
+        },
+        "postal_code": {
+          "required": "PLZ wird benötigt",
+          "valid": "PLZ ist ungültig"
+        },
+        "place": {
+          "required": "Ort wird benötigt",
+          "max": "Ort darf nicht länger als 255 Zeichen sein"
+        }
+      },
+      "free": "kostenlos"
+    }
+  }
+}
