@@ -1,0 +1,3 @@
+[console_scripts]
+clean=printcleaner.clean:app
+
