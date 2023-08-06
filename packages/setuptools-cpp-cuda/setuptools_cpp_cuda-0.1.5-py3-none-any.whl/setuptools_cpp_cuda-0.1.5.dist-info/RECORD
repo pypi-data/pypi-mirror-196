@@ -1,0 +1,12 @@
+setuptools_cpp_cuda/__init__.py,sha256=8_ZQnAItj7O3tN1RJdtRYjnzgS6r3Il8sRLHGncjHqQ,507
+setuptools_cpp_cuda/build_ext.py,sha256=vBahzEIbJYL58_Dt4xAvATyzyS8M8YqJqAhjN0o7nZA,24311
+setuptools_cpp_cuda/extension.py,sha256=MgV-an02G6zIVNngzvv2Oxezx2KsJfzHAA4o4sfEUd4,4392
+setuptools_cpp_cuda/find_cuda.py,sha256=pClHq3G2RYM314ovW0YYKHmA_wjNK9h0Ng6b6ka_3jo,1880
+setuptools_cpp_cuda/ninja_build.py,sha256=jateaksgA5VTlkSgFjzsKvefEp81bF5Q3_2nrxDAZdY,11034
+setuptools_cpp_cuda/nvml.py,sha256=pwWYoaTA3qpDilWam7_3v200btsPgtfELQeVv3e0EBI,1236
+setuptools_cpp_cuda/utils.py,sha256=wkYTGxmeOH6OCalxPMDpH-bu37xUFS0F79WDcefO1zg,484
+setuptools_cpp_cuda-0.1.5.dist-info/entry_points.txt,sha256=OTKp6AXLFHi8Bqey6jpM2E3m36E23BDDqf2ZZ0fp2n4,76
+setuptools_cpp_cuda-0.1.5.dist-info/LICENSE,sha256=p1OowhYOVTpzMx0QP0q5p_1Wcs1z3zMo41tRpemOa-U,1105
+setuptools_cpp_cuda-0.1.5.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+setuptools_cpp_cuda-0.1.5.dist-info/METADATA,sha256=eT30qBlrsCwLzekxJY-4hvfGNl6s60JfJDzkC7MEZzs,6780
+setuptools_cpp_cuda-0.1.5.dist-info/RECORD,,
