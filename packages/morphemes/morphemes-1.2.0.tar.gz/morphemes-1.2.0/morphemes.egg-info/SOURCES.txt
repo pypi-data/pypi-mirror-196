@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+morphemes/__init__.py
+morphemes.egg-info/PKG-INFO
+morphemes.egg-info/SOURCES.txt
+morphemes.egg-info/dependency_links.txt
+morphemes.egg-info/entry_points.txt
+morphemes.egg-info/requires.txt
+morphemes.egg-info/top_level.txt
+morphemes/cli/__init__.py
+morphemes/config/__init__.py
+morphemes/utilities/__init__.py
+morphemes/utilities/morpheme_database/__init__.py
