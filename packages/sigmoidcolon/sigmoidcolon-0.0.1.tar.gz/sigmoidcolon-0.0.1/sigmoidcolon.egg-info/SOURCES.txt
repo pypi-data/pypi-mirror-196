@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sigmoidcolon/__init__.py
+sigmoidcolon/colon.py
+sigmoidcolon/functional.py
+sigmoidcolon.egg-info/PKG-INFO
+sigmoidcolon.egg-info/SOURCES.txt
+sigmoidcolon.egg-info/dependency_links.txt
+sigmoidcolon.egg-info/not-zip-safe
+sigmoidcolon.egg-info/requires.txt
+sigmoidcolon.egg-info/top_level.txt
+tests/test_sigmoidcolon.py
