@@ -1,0 +1,11 @@
+setup.py
+cake_project/__init__.py
+cake_project/asgi.py
+cake_project/settings.py
+cake_project/urls.py
+cake_project/wsgi.py
+cakeproject.egg-info/PKG-INFO
+cakeproject.egg-info/SOURCES.txt
+cakeproject.egg-info/dependency_links.txt
+cakeproject.egg-info/requires.txt
+cakeproject.egg-info/top_level.txt
