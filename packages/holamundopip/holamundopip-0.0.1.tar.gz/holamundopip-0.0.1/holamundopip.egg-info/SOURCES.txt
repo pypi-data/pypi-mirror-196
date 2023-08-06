@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+holamundopip/__init__.py
+holamundopip/lala.py
+holamundopip/player.py
+holamundopip.egg-info/PKG-INFO
+holamundopip.egg-info/SOURCES.txt
+holamundopip.egg-info/dependency_links.txt
+holamundopip.egg-info/top_level.txt
