@@ -1,0 +1,28 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8>=5.0.4",
+    "pytest>=7.2.2",
+]
+
+[project]
+name = "baidu-sign"
+version = "0.1.0"
+description = "Sign text for baidu fanyi"
+authors = [
+    { name = "ffreemt", email = "yucongo+fmt@gmail.com" },
+]
+dependencies = [
+    "js2py>=0.74",
+    "google-sign>=0.0.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
