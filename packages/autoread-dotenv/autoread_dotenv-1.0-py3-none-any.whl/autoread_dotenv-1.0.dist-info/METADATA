@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: autoread-dotenv
+Version: 1.0
+Summary:  python-package 
+Home-page: https://github.com/libranet/autoread_dotenv
+License: MIT
+Keywords: entrypoints,dotenv,sitecustomize
+Author: Wouter Vanden Hove
+Author-email: wouter@libranet.eu
+Maintainer: Wouter Vanden Hove
+Maintainer-email: wouter@libranet.eu
+Requires-Python: >=3.9.0,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Typing :: Typed
+Requires-Dist: python-dotenv (>=1.0.0)
+Requires-Dist: sitecustomize-entrypoints (>=0.1.0)
+Project-URL: Bug Tracker, https://github.com/Libranet/autoread_dotenv/issues
+Project-URL: Documentation, https://github.com/libranet/autoread_dotenv
+Project-URL: Repository, https://github.com/libranet/autoread_dotenv
+Description-Content-Type: text/x-rst
+
+
+Overview
+--------
+
+
+Dependencies
+ - python-dotenv_
+ - sitecustomize-entrypoints_
+
+.. _python-dotenv: http://pypi.python.org/pypi/python-dotenv
+.. _sitecustomize-entrypoints:  http://pypi.python.org/pypi/sitecustomize-entrypoints
+
+Installation
+------------
+
+Install via pip:
+
+.. code-block:: python
+
+        > pip install autread_dotenv
+
+Or add to your poetry-based project:
+
+.. code-block:: python
+
+        > poetry add autoread_dotenv
+
+
+Registered sitecustomize-entrypoint
+------------------------------------
+
+The ``autoread_dotenv``-function is registered 
+as a ``sitecustomize``-entrypoint in pyproject.toml_:
+
+.. code-block:: python
+
+    [tool.poetry.plugins]
+    [tool.poetry.plugins."sitecustomize"]
+    autoread_dotenv = "autoread_dotenv.autoread:autoread_dotenv"
+
+This entrypoint will be executed in every python-process.
+
+.. _pyproject.toml: https://python-poetry.org/docs/pyproject/#plugins
+
+Usage
+-----
+The only thing left to do for you is the create a ``.env`` 
+in the root of your project.
+
