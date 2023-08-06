@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: painface
+Version: 0.0.2
+Summary: CSV parsing and analysis for PainFace generated CSVs
+Home-page: UNKNOWN
+Author: Rohan Ray, Rahul Patel
+Author-email: painfaceanalysis@gmail.com
+License: MIT
+Description: painface-pypi
+        ----------
+        
+        TBD
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
