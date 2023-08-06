@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: Peter Pentchev <roam@ringlet.net>
+# SPDX-License-Identifier: BSD-2-Clause
+
+recursive-include config *.toml
+recursive-include docs *.md
+include .editorconfig
+recursive-include LICENSES *.txt
+include mkdocs.yml
+recursive-include nix *.nix *.sh
+recursive-include requirements *.txt
+include tox.ini
+recursive-include unit_tests *.py
