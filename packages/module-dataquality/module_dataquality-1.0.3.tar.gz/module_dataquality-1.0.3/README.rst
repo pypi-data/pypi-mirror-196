@@ -1,0 +1,67 @@
+===================
+Working Example
+===================
+
+.. code:: sh
+
+   import dataqualitycheck as dq
+   from datetime import date
+   import time
+
+Applying SingleDatasetQualityCheck
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Step-1:** Pass the configuration of the blob connector in
+``blob_connector_config`` and add a datasource by defining a
+``data_read_ob`` and ``data_write_ob``.
+
+.. code:: sh
+
+   blob_connector_config = {"storage_account_name": "rgmdemostorage", "storage_account_access_key": "Yi0oL/FTXMVT1GqmKEtg57gshyWxIw15o+AyhcC27qnHfk9ljLPzzG4Fw+Z6u1yp3tfNqYEZ+wln+AStEYJGug==" , "container_name":"cooler-images", "sas_token":"?sv=2021-06-08&ss=bfqt&srt=co&sp=rwdlacupytf&se=2024-01-31T19:10:46Z&st=2022-12-16T11:10:46Z&spr=https&sig=3dzIPEHiPRohQpJn90XpaEKuER7D5TY5lvWZGm0yvbk%3D"}
+
+.. code:: sh
+
+   data_read_ob = dq.AzureBlobDF(storage_name = blob_connector_config["storage_account_name"], sas_token = blob_connector_config["sas_token"])
+   data_write_ob =dq.AzureBlobDF(storage_name = blob_connector_config["storage_account_name"], sas_token = blob_connector_config["sas_token"])
+
+**Step-2:** ``tables_list`` is a dictionary that contains the list of
+sources along with the container_name , source_type , layer ,
+source_name , filename , read_connector_method and latest_file_path for
+the tables on which the validations has to be applied .
+
+.. code:: sh
+
+   tables_list={}
+
+**Step-3:** Instantiate a DataContext by passing
+``tables_list``,\ ``interaction_between_tables``,\ ``data_read_ob``,\ ``data_write_ob``,
+``data_right_structure``,\ ``job_id``,\ ``time_zone``,\ ``no_of_partition``
+and ``output_db_name``. You can also pass the ``run_engine`` with which
+you want to apply the quality checks. There are two run_engines
+available: - ``pyspark`` - ``polars``
+
+By default, the run_engine is ``pyspark``.
+
+.. code:: sh
+
+   dq_ob =dq.SingleDatasetQualityCheck(tables_list={}, 
+                                     interaction_between_tables=[],  
+                                     data_read_ob  = data_read_ob, 
+                                     data_write_ob = data_write_ob, 
+                                     data_right_structure = 'file',
+                                     job_id='blob_1',
+                                     time_zone=None,
+                                     output_db_name="data_quality_output",
+                                     no_of_partition=4)
+
+**Step-4:** Passing a ``rules_diagnosys_summery_file_path`` and
+``config_df`` as an input and apply validations on various columns of
+respective table defined in the ``config_df``.
+
+.. code:: sh
+
+    rules_diagnosys_summery_folder_path = "abfss://%s@%s.dfs.core.windows.net/processed/data_quality/summary3/" %(blob_connector_config["container_name"], blob_connector_config["storage_account_name"])
+
+   config_df = spark.read.option("header",True).csv("dbfs:/FileStore/shared_uploads/vaishali.garg@decisionpoint.in/quality_checks_config.csv")
+
+   dq_ob.apply_validation(config_df, write_summary_on_database = True, failed_schema_source_list = [], output_summary_folder_path = rules_diagnosys_summery_folder_path)
