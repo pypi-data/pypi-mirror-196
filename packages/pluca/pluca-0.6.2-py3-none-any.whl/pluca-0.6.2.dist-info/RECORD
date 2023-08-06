@@ -1,0 +1,17 @@
+pluca/__init__.py,sha256=ethI1_XFpiJWiHvaw05YGFbkXQQp2txCTyFuD2rlqmQ,4713
+pluca/benchmark.py,sha256=ZhLnIGBQ1nArzE929Frk7m2xknb2C0dDEI3lgvRkLY8,6002
+pluca/cache.py,sha256=ukUz4bzsga9TfaWv-NhH5_uxptDFuo6wSlgfBv3P0-M,3434
+pluca/comp.py,sha256=AFgMYuMT-XhIffwZgTf4bx-EpZaKrmuTco4vaFwM2e8,5004
+pluca/dbm.py,sha256=JIG7bVXrpk3ktdD40-2wd8RODafk-Qe0R2_VwEqjDwA,2157
+pluca/file.py,sha256=zpaKjzIqbILtKF0kHlQDH498iv2x1TrTKatAYIGD4mU,5020
+pluca/memory.py,sha256=U6XiF3bK0Lv1IRZqPJ2qW5Rbc3iyRNzB5RJs7c08Kjw,3878
+pluca/null.py,sha256=mjARfAmUfUXQGVeEhy2dLRrrmSR47Ocl21rFJZ0CNQw,722
+pluca/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pluca/sql.py,sha256=b2Nx94y4NV0vq3NctngWiqGPm9q0cEGSyLWlC7-t5vs,7506
+pluca/sqlite3.py,sha256=4bLCOB8t7AyzQAixjaChXktfc1qWJLn87JcLdIosOsw,2857
+pluca/test.py,sha256=LfwsKVTII_LRM52d0NxX_REPFA039wLUZqp34sfX4GU,6750
+pluca/utils.py,sha256=UFPBKRmrDGtGpLKA0Lfc0DLX3CHMdThi0MpR-C47RC0,1103
+pluca-0.6.2.dist-info/LICENSE.txt,sha256=r83CgKK1ppQbewG7AdqPtz_GTR4Sg1ghGCiK0QBZ75E,1064
+pluca-0.6.2.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pluca-0.6.2.dist-info/METADATA,sha256=JZeNzeogPAwq_0LW6QK-XFGsTQ-hZnOZX84V7K_KB9k,18235
+pluca-0.6.2.dist-info/RECORD,,
