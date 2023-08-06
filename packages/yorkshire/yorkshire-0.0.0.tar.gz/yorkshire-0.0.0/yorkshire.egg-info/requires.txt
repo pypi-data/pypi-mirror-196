@@ -1,0 +1,8 @@
+attrs
+click
+daiquiri
+pip
+pip-requirements-parser
+requests
+rich-click
+tomli
