@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+DataClass/DefectReportConfig.py
+DataClass/__init__.py
+RCA_Summary.egg-info/PKG-INFO
+RCA_Summary.egg-info/SOURCES.txt
+RCA_Summary.egg-info/dependency_links.txt
+RCA_Summary.egg-info/requires.txt
+RCA_Summary.egg-info/top_level.txt

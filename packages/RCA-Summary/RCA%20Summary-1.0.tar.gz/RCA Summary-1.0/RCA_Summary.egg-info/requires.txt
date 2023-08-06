@@ -1,0 +1,6 @@
+pandas
+dohq-tfs
+PyYAML
+requests
+requests-ntlm
+setuptools
