@@ -1,0 +1,9 @@
+genja/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genja/builder.py,sha256=qIzNNWw__iloJs2hJnU2q3h_LGSlJL8XfXaz8NUNeSk,3537
+genja/main.py,sha256=gFPe84kE3lcYedYfUZnKCfnz-DXrgeKinAY8ISreGEg,1742
+genja/server.py,sha256=0wN5Hv6x7AWa0zGWYmwxX2TulqoB00YMys0tCgsS67k,837
+genja-23.3.dist-info/METADATA,sha256=Y79rDfKAjpsO-VBwvQ9wJexU0dunJaA28qwn2DfCnEI,3746
+genja-23.3.dist-info/WHEEL,sha256=nYNlZuHZ28ui1K118WE5qpb9yEZSMQ3u8pC2H4PftME,105
+genja-23.3.dist-info/entry_points.txt,sha256=vghdHw0Q8fsIUC0Q-ALiPbAhpNzFoLCjYYO3jJeHyHk,42
+genja-23.3.dist-info/licenses/LICENSE.md,sha256=ldtqKzMYSD9N_Fc_B3CVUzZM2kX-12KZxTTaqgVagYw,1070
+genja-23.3.dist-info/RECORD,,
