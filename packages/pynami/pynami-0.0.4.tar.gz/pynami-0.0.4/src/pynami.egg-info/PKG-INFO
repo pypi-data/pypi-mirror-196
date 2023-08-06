@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pynami
+Version: 0.0.4
+Summary: Deep Learning - Transformers
+Author-email: Fei Wang <fei.comm@icloud.com>
+License: MIT License
+Project-URL: repository, https://github.com/Fei-Wang/opnlp
+Keywords: artificial intelligence,deep learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+* nami = not an mmlab implementation
+* 原先基于mmengine，现fork了mmengine并改为franky
+* 安装：pip install pynami
+* 模型需要继承自：HFModel，并实现forward方法
+* 预训练的模型使用pretrained关键字
+* 当子模块模型基于transformers时需要：
+  * type为NamiAutoModel
+  * model_type和config_type必须
+  * config_pretrained和model_pretrained优先级
+    1. model_pretrained
+    2. config_pretrained
+    3. None
+* 新增transformers保存模型和预处理对应钩子
+
