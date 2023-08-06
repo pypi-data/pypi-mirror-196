@@ -1,0 +1,7 @@
+pytest_embedded_jtag/__init__.py,sha256=JLNLgSydgTFu8qivYyAGrvA-Oq7jZP-Ore5t8-6J65c,91
+pytest_embedded_jtag/gdb.py,sha256=yYENHf5OwYZy3sqRhb4FS7_DzId3lt93_WyGoKfXTmY,1845
+pytest_embedded_jtag/openocd.py,sha256=AzlIHH1fWYZLrUwOiXQUZ_jIUl0bhlNmBDuQ-BfTfGI,2359
+pytest_embedded_jtag-1.2.4.dist-info/METADATA,sha256=Ao381uWyVMNu3AcgY_NPsiaHHfPp96RUc2wrgWlXBlo,1319
+pytest_embedded_jtag-1.2.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytest_embedded_jtag-1.2.4.dist-info/top_level.txt,sha256=bfCOL_UD0Uamsu9Sdt6f-plAfoJMpVRguKR4dhjOk2Y,21
+pytest_embedded_jtag-1.2.4.dist-info/RECORD,,
