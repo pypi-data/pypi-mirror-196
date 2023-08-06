@@ -1,0 +1,12 @@
+layout_updater/LayoutUpdater.py,sha256=Y4f3_wAqqihW5WzDvazjuU5IOVdketS14T8fy0BkYX4,2244
+layout_updater/__init__.py,sha256=g1QJFaNFEf632LIUm7D7wTOWmsdfKU9Hq9byeDPqoxY,2501
+layout_updater/_imports_.py,sha256=RNrjEOnnsDcZrLLRdfI5JgbSHMoE-IzQP238F4Z6rWM,75
+layout_updater/layout_updater.min.js,sha256=pe6Pog6onM4Ql1GWamsoXuJ7fQzUxNcsbHjHytu9C7k,81250
+layout_updater/layout_updater.min.js.map,sha256=liW0DiL6I0d5eLhTusCGFpNrOCg8rLx6yLPKZYvBKQI,98
+layout_updater/metadata.json,sha256=EHNi1-22s15CSptVrEDYkJfN9obIxw-KcTeNKrSWxbU,2848
+layout_updater/package-info.json,sha256=ZWdAM7fluTTQ_0cRrLoGcCE8M5KR-7CBaBh_jVqa0Kw,1775
+layout_updater-0.0.13.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+layout_updater-0.0.13.dist-info/METADATA,sha256=jowJFQc2Re5Fw5uS_Ra-6E0onDE6_otjlFJm1sO-uP8,239
+layout_updater-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+layout_updater-0.0.13.dist-info/top_level.txt,sha256=bxSMWKrAp8be6tqMN1TXo8vcB2a2EXMZoB62rTOPudU,15
+layout_updater-0.0.13.dist-info/RECORD,,
