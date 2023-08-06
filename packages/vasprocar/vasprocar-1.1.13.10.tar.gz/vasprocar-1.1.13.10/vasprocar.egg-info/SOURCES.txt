@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+vasprocar/BibTeX.dat
+vasprocar/DOI.png
+vasprocar/VASProcar.py
+vasprocar/__init__.py
+vasprocar/__main__.py
+vasprocar.egg-info/PKG-INFO
+vasprocar.egg-info/SOURCES.txt
+vasprocar.egg-info/dependency_links.txt
+vasprocar.egg-info/entry_points.txt
+vasprocar.egg-info/top_level.txt
