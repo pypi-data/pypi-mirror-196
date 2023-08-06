@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robot-analysis
+Version: 0.0.2
+Summary: Python package providing some utils function to analyse robots
+Home-page: https://github.com/Baxterminator/robot_analysis
+Author: Geoffrey CÔTE
+Author-email: geoffrey.cote@centraliens-nantes.org
+License: GNU GPLv3
+Keywords: robot,analysis,identification
+License-File: LICENSE.md
+
+Python package providing some utils function to analyse robots
