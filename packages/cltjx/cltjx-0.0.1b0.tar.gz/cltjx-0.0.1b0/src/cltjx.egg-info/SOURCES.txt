@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/azex/__init__.py
+src/azex/rates.py
+src/cltjx.egg-info/PKG-INFO
+src/cltjx.egg-info/SOURCES.txt
+src/cltjx.egg-info/dependency_links.txt
+src/cltjx.egg-info/requires.txt
+src/cltjx.egg-info/top_level.txt
+tests/test_rates.py
