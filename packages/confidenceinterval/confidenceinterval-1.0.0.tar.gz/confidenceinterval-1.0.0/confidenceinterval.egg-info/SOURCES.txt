@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+confidenceinterval/__init__.py
+confidenceinterval/auc.py
+confidenceinterval/binary_metrics.py
+confidenceinterval/bootstrap.py
+confidenceinterval/delong.py
+confidenceinterval/metrics.py
+confidenceinterval/takahashi_methods.py
+confidenceinterval/utils.py
+confidenceinterval.egg-info/PKG-INFO
+confidenceinterval.egg-info/SOURCES.txt
+confidenceinterval.egg-info/dependency_links.txt
+confidenceinterval.egg-info/requires.txt
+confidenceinterval.egg-info/top_level.txt
