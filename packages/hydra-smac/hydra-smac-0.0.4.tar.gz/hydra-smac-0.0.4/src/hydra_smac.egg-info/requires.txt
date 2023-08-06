@@ -1,0 +1,11 @@
+SMAC==2.0.0
+
+[dev]
+black
+isort
+tox
+pytest
+pre-commit
+flake8
+mypy
+bumpver
