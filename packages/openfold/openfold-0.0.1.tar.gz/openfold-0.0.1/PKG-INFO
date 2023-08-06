@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: openfold
+Version: 0.0.1
+Summary: A PyTorch reimplementation of DeepMind's AlphaFold 2
+Home-page: https://github.com/aqlaboratory/openfold
+Author: Juncong Moo,Gustaf Ahdritz & DeepMind
+Author-email: juncongmoo@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
+UNKNOWN
+
