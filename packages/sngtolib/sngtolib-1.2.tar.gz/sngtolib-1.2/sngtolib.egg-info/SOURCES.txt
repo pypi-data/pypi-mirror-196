@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sngtolib/__init__.py
+sngtolib/sngto.py
+sngtolib.egg-info/PKG-INFO
+sngtolib.egg-info/SOURCES.txt
+sngtolib.egg-info/dependency_links.txt
+sngtolib.egg-info/top_level.txt
