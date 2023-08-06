@@ -1,0 +1,25 @@
+{% extends theme('base.html') %}
+{% import 'macro/fomanticui.html' as sui %}
+
+{% block title %}
+    {% trans %}View an authorization{% endtrans %}
+{% endblock %}
+
+{% block content %}
+    <div class="loginform">
+        <h3 class="ui top attached header">
+            {% trans %}View an authorization{% endtrans %}
+        </h3>
+
+        <div class="ui attached clearing segment">
+            <ul>
+                {% for attr in authorization.may() %}
+                    <li>{{ attr }}: {{ authorization[attr] }}</li>
+                {% endfor %}
+                {% for attr in authorization.must() %}
+                    <li>{{ attr }}: {{ authorization[attr] }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}
