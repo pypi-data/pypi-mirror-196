@@ -1,0 +1,2 @@
+[datasette]
+render_html = datasette_render_html
