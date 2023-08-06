@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stockplot
+Version: 1.0.7
+Home-page: https://github.com/Thomas-mcinally/stockplot
+Author: Thomas McInally
+Description-Content-Type: text/markdown
+Requires-Dist: yfinance
+Requires-Dist: mplfinance
+
