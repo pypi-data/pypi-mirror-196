@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: indecode
+Version: 1.1
+Summary: Code and decode string
+Author: lolo859
+License: UNKNOWN
+Keywords: code,incode,indecode,decode,incode,indc
+Platform: UNKNOWN
+Classifier: Natural Language :: French
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Dist: docutils (>=0.3)
+
+This module contain five functions :
+
+- generate_key() - return list
+
+- generate_in(key return by the generate_key function) - return dictionnary
+
+- generate_un(key return by the generate_key function) - return dictionnary
+
+- code(text to code in str,incode dictionnary return by the generate_in function) - return string
+
+- decode(text return by the code function,uncode dictionnary return by the generate_un function) - return string
+
