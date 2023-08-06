@@ -1,0 +1,19 @@
+[project]
+name='com.castsoftware.uc.action-plan'
+description="Generate an action plan for CAST Software rule violations"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+version='0.1.3' #prod version
+dependencies = [
+    'pandas','psycopg2','openpyxl',
+    'com.castsoftware.uc.python.common'
+]
+
+requires-python = ">=3.6"
+readme = "README.md"
+[project.urls]
+"Homepage" = "https://github.com/CAST-Extend/com.castsoftware.uc.action-plan"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
