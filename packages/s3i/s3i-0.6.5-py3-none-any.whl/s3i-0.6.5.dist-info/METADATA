@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: s3i
+Version: 0.6.5
+Summary: S3I Basic functions
+Home-page: https://kwh40.pages.rwth-aachen.de/s3i/
+License: GNU Library or Lesser General Public License (LGPL)
+Author: Kompetenzzentrum Wald und Holz 4.0
+Author-email: s3i@kwh40.de
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: alabaster (>=0.7.12)
+Requires-Dist: astroid (>=2.3.3)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: certifi (>=2019.11.28)
+Requires-Dist: cffi (>=1.13.2)
+Requires-Dist: chardet (>=1.13.2)
+Requires-Dist: colorama (>=0.4.3)
+Requires-Dist: cryptography (==3.1)
+Requires-Dist: idna (>=2.8)
+Requires-Dist: jinja2 (<3.1)
+Requires-Dist: jsonschema (>=3.2.0)
+Requires-Dist: lazy-object-proxy (>=1.4.3)
+Requires-Dist: markupsafe (>=1.1.1)
+Requires-Dist: mccabe (>=0.6.1)
+Requires-Dist: pgpy (>=0.5.4,<0.6.0)
+Requires-Dist: pika (>=1.2.0)
+Requires-Dist: pockets (>=0.9.1)
+Requires-Dist: pycparser (>=2.19)
+Requires-Dist: pygments (>=2.5.2)
+Requires-Dist: pyjwt (==1.6.1)
+Requires-Dist: pynput (>=1.7.6,<2.0.0)
+Requires-Dist: pyparsing (>=2.4.5)
+Requires-Dist: pyrql (==0.7.0)
+Requires-Dist: python-benedict (>=0.21.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: python-gnupg (>=0.5.0,<0.6.0)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: schema (>=0.7.1)
+Requires-Dist: six (>=1.13.0)
+Requires-Dist: snowballstemmer (>=2.0.0)
+Requires-Dist: typed-ast (>=1.4.0)
+Requires-Dist: urllib3 (>=1.25.7)
+Requires-Dist: uuid (>=1.30,<2.0)
+Requires-Dist: websocket-client (>=1.4.1,<2.0.0)
+Requires-Dist: wrapt (>=1.11.2)
+Project-URL: Documentation, https://kwh40.pages.rwth-aachen.de/s3i/
+Project-URL: Repository, https://git.rwth-aachen.de/kwh40/s3i
+Description-Content-Type: text/markdown
+
+# Documentation
+This package contains everything you need to get started with the S3I. The documentation of the S3I package and its demos can be found [here](https://kwh40.pages.rwth-aachen.de/s3i/).
+
+# Installation
+s3i is available on PyPI:
+
+```
+python -m pip install s3i
+```
+
+# Development
+The s3i source code is hosted on [gitlab](https://git.rwth-aachen.de/kwh40/s3i). 
+
+## Contributing
+Feel free to contribute to this project. For more details on submitting changes see [CONTRIBUTING.md](./CONTRIBUTING.md)
