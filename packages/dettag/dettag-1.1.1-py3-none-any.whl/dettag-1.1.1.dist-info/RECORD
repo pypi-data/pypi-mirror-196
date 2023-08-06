@@ -1,0 +1,8 @@
+dettag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dettag/best.pt,sha256=AkTxdLNGONPsDNDBURFZPiWpeASb2VBVUJLKy9fBYOo,14281725
+dettag/detect.py,sha256=ozmSO2fHVrYuT4Q4aNSSlT0_6qNyyhdCZNSDiS98jGo,4466
+dettag/gan_generator.h5,sha256=pOBnys-YqXZA4uC20EJ_iBubYjCzF_rbiHUDZc4aF2k,6519624
+dettag-1.1.1.dist-info/METADATA,sha256=D3zDFGwvUN_dxYED6q8hMVS1JNfg2mAAg9gbzKxVKn8,1519
+dettag-1.1.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+dettag-1.1.1.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dettag-1.1.1.dist-info/RECORD,,
