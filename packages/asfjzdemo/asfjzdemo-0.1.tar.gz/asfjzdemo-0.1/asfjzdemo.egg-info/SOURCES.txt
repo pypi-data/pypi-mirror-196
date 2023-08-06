@@ -1,0 +1,8 @@
+setup.py
+asfjzdemo/__init__.py
+asfjzdemo/functions.py
+asfjzdemo/greet.py
+asfjzdemo.egg-info/PKG-INFO
+asfjzdemo.egg-info/SOURCES.txt
+asfjzdemo.egg-info/dependency_links.txt
+asfjzdemo.egg-info/top_level.txt
