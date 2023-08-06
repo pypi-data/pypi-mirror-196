@@ -1,0 +1,9 @@
+lxml
+numpy
+pip
+
+[dev]
+coveralls
+pytest
+pytest-cov
+setuptools-scm

@@ -1,0 +1,16 @@
+/.pydevproject
+/.project
+*.pyc
+*.egg-info
+/.settings
+/.pypirc
+MANIFEST
+/build
+/dist
+/docs/build
+/htmlcov
+/.coverage
+build_log.txt
+
+# generated version number
+_version.py
