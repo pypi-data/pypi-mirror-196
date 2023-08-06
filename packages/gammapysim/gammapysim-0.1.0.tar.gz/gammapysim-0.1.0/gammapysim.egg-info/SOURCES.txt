@@ -1,0 +1,9 @@
+README.md
+gammapysim.py
+gammapysim.xml
+pyproject.toml
+setup.py
+gammapysim.egg-info/PKG-INFO
+gammapysim.egg-info/SOURCES.txt
+gammapysim.egg-info/dependency_links.txt
+gammapysim.egg-info/top_level.txt
