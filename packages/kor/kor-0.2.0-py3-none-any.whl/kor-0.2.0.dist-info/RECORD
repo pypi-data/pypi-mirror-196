@@ -1,0 +1,17 @@
+kor/__init__.py,sha256=1GicoCtS5biA2n7ER_sg4zgSOMn6o6bLFoBSffyQtgg,127
+kor/examples.py,sha256=8kLQvOlHV5zFz2j30i8lp08EieP5MQtdaK2mSm3hME4,4740
+kor/experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kor/experimental/blocks.py,sha256=wAsEcYiuhuIFxEDPH1UtwMfXuA7jiHxhelCM2ecypmQ,1801
+kor/extraction.py,sha256=6Qouaka2RWX74k5MEa5X3z1GtdwVZB1VpAt-w58Cq9k,1044
+kor/llms/__init__.py,sha256=p955JYc_Iz5KPu3RA3gxqo-IqBdok5O2KO5pDNpC5-M,291
+kor/llms/openai.py,sha256=BJGKbVaoQ01WjBEB9rVMlsBaRNZktV-wxF0uq0UKetg,2948
+kor/llms/typedefs.py,sha256=1eiy32BPyHH9oJIooOMk5tfII-yrilf1FOQb_k4jFYw,566
+kor/nodes.py,sha256=4v9TfptObSIwvzRLBiJEsaUMXm_3QD96MarUm1y809w,6348
+kor/parsing.py,sha256=qnR-3uewtdoTy-VxKVtVgOrN7pNgvkLuwD-jAacmGXw,3212
+kor/prompts.py,sha256=GISdVxgOITrxrW4g4AO-LJjNPMErgc4ae0vgVyrCZw8,6430
+kor/type_descriptors.py,sha256=UncdFFbHm7GRQ7qWsacxosNLUvmKPCS_IMNiT1MYvYU,3720
+kor/validators.py,sha256=L5ymJkJUrXUoWQWWgNARzi08u6SdFVKCNRFKCIqE6JE,117
+kor-0.2.0.dist-info/LICENSE,sha256=ce79GgwpghNB0q8pATWvaU0wet7MGcZmSgSiB_lpFHQ,1071
+kor-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+kor-0.2.0.dist-info/METADATA,sha256=27fGYGwTfMY9qw4ZsJiThcfYkBbfplju3PzlgY_vy9o,2206
+kor-0.2.0.dist-info/RECORD,,
