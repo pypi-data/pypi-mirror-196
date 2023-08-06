@@ -1,0 +1,12 @@
+rule_based_model/RB_model.py,sha256=k5mKV8rtC1KIzx1DqWt9WUygvVbdOIBxZvGMqV2E4dI,16994
+rule_based_model/Rule_based_tester.py,sha256=Tf6k-Bb2J8z1geYYebGSpgPTiZb3quwU1_30wnRZXHU,1079
+rule_based_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rule_based_model/first_2word.pkl,sha256=S6FqNJX8-T3q5ZOp53JTl-o4N1L_f4vh1LJuRweZiyw,3885
+rule_based_model/first_3word.pkl,sha256=1DqoB9DkkBt7fZCJdQF6UWiwjEd9t_Q4ulxQg0lJfck,946
+rule_based_model/first_word.pkl,sha256=mxPwQ9KKPajNa3ch3RqZUuP-p8xH5_Od1iZ49tRg064,4845
+rule_based_model/match_A.pkl,sha256=vd_6pdaUWTIxj3dto9ULYi7y74_D3JxsF_hiDpEEzlo,130063
+rule_based_model-0.0.1.dist-info/LICENSE,sha256=r1iQTKJJpsL6-HPPiciJRh7zqMfhlgQrSUtsTY8eXgY,1069
+rule_based_model-0.0.1.dist-info/METADATA,sha256=RP0r5Vy3jYaoe_i_NkVuD93GT6p96SzLCjLKSSUpkT0,507
+rule_based_model-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rule_based_model-0.0.1.dist-info/top_level.txt,sha256=fAaL5hIJSVy8Vopxnv24QvzYoNnLLlCL-j3ivACI6EE,17
+rule_based_model-0.0.1.dist-info/RECORD,,
