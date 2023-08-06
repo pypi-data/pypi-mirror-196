@@ -1,0 +1,13 @@
+*.pyc
+hanabi_learning_environment/libpyhanabi.so
+_skbuild/*
+build/*
+ws2223_group7_hanabi_learning_environment_bad.egg-info/*
+*.idea
+*.vscode
+model/*
+models_with_reward_shaping/*
+models_without_reward_shaping/*
+log_reward_shaping.txt
+log_no_reward_shaping.txt
+diagramms/
