@@ -1,0 +1,9 @@
+sc8prx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sc8prx/ffmpeg.py,sha256=umSSXeENSHjxKsafAMhJm8X81hwbmFhvb9eOMZSGwv0,7801
+sc8prx/mpl.py,sha256=rewApMaFytwlVpkvxmT7X6p6TtGj2rYoRnofQQeSosE,1763
+sc8prx/pil.py,sha256=Ok8prQydP_1GPJoW-E43qKkpd8bsuiwvvfVt4IMCqz8,2023
+sc8prx-3.0b0.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sc8prx-3.0b0.dist-info/METADATA,sha256=iRP4MWyUmmyLTOZF5FWjOhuWFoHeoBZopxDT383q3Ug,1220
+sc8prx-3.0b0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sc8prx-3.0b0.dist-info/top_level.txt,sha256=s8UvLFVv17izeLmyd_EmA1Jw40k3GknmGjLOFTiMwdg,7
+sc8prx-3.0b0.dist-info/RECORD,,
