@@ -1,0 +1,12 @@
+remove_duplicates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remove_duplicates/internationalization.py,sha256=UzIFs87nehWDE50Fg4cFVd5sd32QzxH_CUA0XuGblIc,4682
+remove_duplicates/my_utils.py,sha256=PM0hzniByKzphH0i2uk_rLoiBmkkbb3g-712ZiKWVM4,5012
+remove_duplicates/remove_dup.py,sha256=LBr6e0CUIF1_JAVsFv_SUV5ikDagNLInwXfHau3_0H4,6308
+remove_duplicates/str_with_trans.py,sha256=0z8rvhc3Zw3Eg7JNEWCt-xhbLKKWQ730YwPCLEMU2MU,1796
+remove_duplicates/translated.csv,sha256=MWNvoeWBUNiSpMdTHOJd6XhYeX_zFS-DWOCSnn2B2cE,7438
+remove_duplicates-1.0.5.dist-info/LICENSE.md,sha256=hG5mdIW3Yxh3ZnM-6IKxjLwP40jSyZWuGAZ0o9pxaho,1071
+remove_duplicates-1.0.5.dist-info/METADATA,sha256=sMhX0bnNVH_Wr-QhIj-rExZkmFN3Z1ZjUtXpiAdC44A,2124
+remove_duplicates-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+remove_duplicates-1.0.5.dist-info/entry_points.txt,sha256=VtnEp5YIqmwvWjPRHfHp1OATmIPRTyTtqM7qaclL2Yc,60
+remove_duplicates-1.0.5.dist-info/top_level.txt,sha256=qapkMtJVxxKDYij1kxjdEYMpZRffBErrLotQ2x2mLwQ,18
+remove_duplicates-1.0.5.dist-info/RECORD,,
