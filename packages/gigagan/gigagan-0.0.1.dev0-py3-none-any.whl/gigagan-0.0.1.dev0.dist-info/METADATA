@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gigagan
+Version: 0.0.1.dev0
+Summary: GigaGAN - Scaling up GANs for Text-to-Image Synthesis
+Author: Shadow Walker
+Author-email: shadowwalker2718@gmail.com
+License: MIT
+Keywords: artificial intelligence,deep learning,generative adversarial networks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deepspeed
+Requires-Dist: einops
+Requires-Dist: torch
+
+UNKNOWN
+
