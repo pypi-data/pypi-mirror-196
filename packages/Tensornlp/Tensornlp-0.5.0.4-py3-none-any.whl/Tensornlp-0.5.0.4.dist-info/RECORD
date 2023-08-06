@@ -1,0 +1,11 @@
+client/__init__.py,sha256=_5xoxBvqik7-PeMx5hwvFygQoUHpV34lQIJj__e4LaA,26
+client/client.py,sha256=CvnPTH21MhyrGiot_aQXAlDLZNCEzi8RtE3O4zjALTQ,1905
+grpcDir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpcDir/file_pb2.py,sha256=DPnvJjF9zvGe5jWF08cNPY_Bca5zqAEm0MMj02sONjQ,15092
+grpcDir/file_pb2_grpc.py,sha256=ziqjdL0zIYdLZRW1lfQtdZMImuqNyks1I-x4WlrXeQU,16108
+grpcDir/lodger_pb2.py,sha256=BA3fqoomHsNQwk7bbRSWsN-qaWxajQCPAWaj7AX567Q,8003
+grpcDir/lodger_pb2_grpc.py,sha256=Qp2TBq4QppyqECk6xIbGqNQ4DjYtsk2_I1ITMIHVDNE,13599
+Tensornlp-0.5.0.4.dist-info/METADATA,sha256=DUw5ZA5TBvLkoPUw7_tfOe3DwYJkMcIBz3yQKFk6i9U,419
+Tensornlp-0.5.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Tensornlp-0.5.0.4.dist-info/top_level.txt,sha256=RTtLTE82BTONahz5UmSwfWPb_xZoAbvq1inzdKtSIXY,15
+Tensornlp-0.5.0.4.dist-info/RECORD,,
