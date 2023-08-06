@@ -1,0 +1,13 @@
+
+[dev]
+black
+flake8
+pyright
+isort
+pytest
+pytest-cov
+pytest-xdist
+hypothesis
+mkdocs
+mkdocs-material
+mkdocstrings[python]
