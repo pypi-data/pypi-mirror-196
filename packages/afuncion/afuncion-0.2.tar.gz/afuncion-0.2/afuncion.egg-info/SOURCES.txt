@@ -1,0 +1,6 @@
+afuncion.py
+setup.py
+afuncion.egg-info/PKG-INFO
+afuncion.egg-info/SOURCES.txt
+afuncion.egg-info/dependency_links.txt
+afuncion.egg-info/top_level.txt
