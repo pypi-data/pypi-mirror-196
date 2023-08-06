@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ner_metrics
+Version: 0.1.0
+Summary: A simple Python snippets for NER evaluation
+Home-page: https://github.com/PL97/NER_eval
+Author: Le Peng
+Author-email: peng0347@umn.edu
+License: MIT
+License-File: LICENSE
