@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: twitter-api-client
+Version: 0.0.6
+Summary: Twitter API
+Home-page: https://github.com/trevorhobenshield/twitter-api
+Author: Trevor Hobenshield
+Author-email: trevorhobenshield@gmail.com
+Keywords: twitter api client async search automation bot scrape
+Requires-Dist: ujson
+Requires-Dist: aiohttp
+Requires-Dist: requests
+
