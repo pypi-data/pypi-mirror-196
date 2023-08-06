@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: semicond
+Version: 0.0.0
+Summary: Support functions for semiconductor field.
+Author-email: Koen Van Sever <koen.vansever@gmail.com>
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+## Semicond
+
+Support functions for semiconductor field.
