@@ -1,0 +1,2 @@
+[console_scripts]
+torchtemplates = torchtemplates.torchtemplates:torchtemplates
