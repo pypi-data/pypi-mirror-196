@@ -1,0 +1,12 @@
+steamback/__init__.py,sha256=RQIIA95rhwsVGr1MDJdAcpItCWTQnV40Re309VEGL2I,25791
+steamback/__main__.py,sha256=tEiSGPYh1bxfBRSMoQ5MJS_xuwRvtyVuRD66rHlPlbs,3679
+steamback/gui.py,sha256=A9RK0OcTmoH-E1yk2OIvcaYBCg_bujGqZsTDlWXcgvE,11982
+steamback/test.py,sha256=uzFkVBWsn2PZmBvDtM6ulU-qMomFw37kZ_gunxclQpo,2716
+steamback/util.py,sha256=9rJltuEG5XIbZ3Wd6kf6bFedCnqqZ6dJgwbXtdHwqkQ,3132
+steamback/data/icons8-refresh-96.png,sha256=phTyUx2d6yj1nETMhLQcEsreJSw4Iv8cIsJjmpU812w,3012
+steamback-0.3.6.dist-info/LICENSE,sha256=uZN-o0V-AsI4nDSAd8R8kLvr21a3i31R2_fjk0mRNaQ,36811
+steamback-0.3.6.dist-info/METADATA,sha256=7n3ruq7_jRr72_As8IsvESR1u_vifUVjkDD68u62ZII,3929
+steamback-0.3.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+steamback-0.3.6.dist-info/entry_points.txt,sha256=HF5OpigESlpte90CUfWKHnn9jpT_0wprSXkeW2-qDwA,54
+steamback-0.3.6.dist-info/top_level.txt,sha256=Pn-8O6zX49mcAmcrLsKAwnTpWzpFQHjrumpOyDVWBbg,10
+steamback-0.3.6.dist-info/RECORD,,
