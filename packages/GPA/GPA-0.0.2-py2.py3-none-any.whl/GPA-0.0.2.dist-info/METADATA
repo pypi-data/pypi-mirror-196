@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: GPA
+Version: 0.0.2
+Summary: a Library for Graph Program Analysis
+Home-page: https://github.com/shuwang127/libgpa
+Author: Shu Wang
+License: GPLv3 License
+Keywords: gpa graph program analysis
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Security
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GPA
+ 
+Graph Program Analysis Library for Python.
+
+## Installation and Usage
+
+```bash
+pip install GPA
+```
