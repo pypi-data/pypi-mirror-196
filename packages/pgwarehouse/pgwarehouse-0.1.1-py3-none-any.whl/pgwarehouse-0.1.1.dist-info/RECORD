@@ -1,0 +1,16 @@
+pgwarehouse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgwarehouse/__main__.py,sha256=z2ZpBhWS1hgswwQxOIxiR08dIGUF4A4xesNXjcg8uM4,1357
+pgwarehouse/backend.py,sha256=CVc9HoboXweF6LIWx4GBhW0D6Z1V9vVIQVj0tGLDG3U,1314
+pgwarehouse/clickhouse_backend.py,sha256=6673_Qr6PimRNz2DVyG3fDuiUlu8afeA0Cs98Jj4vUQ,11593
+pgwarehouse/pgwarehouse.py,sha256=cY_LCYFh_FMOEvriKwrJM205XhagKoMbDeyarpT8x0k,13220
+pgwarehouse/snowflake_backend.py,sha256=cTaMbxKH7nhyGR2ReY0qqNgJekDA8NrbthlPwYVThp8,11610
+pgwarehouse/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgwarehouse/tests/data/local_parks.csv,sha256=wQLAIbeuuX1SYFUHUKvxGBNn5SvC_TwjzE6f_e-qcyI,172
+pgwarehouse/tests/data/my_orders.csv,sha256=HUYFPPp8ds2L-u5g-75LA66w0KMHgp-usaOzZpzGcCs,37729
+pgwarehouse/tests/data/users10.csv,sha256=2aCI4P_sZGp530OgnSwAoNCUXyS16EDEHK9uyNBEOsc,46636
+pgwarehouse/tests/pg_setup.sql,sha256=8I_W-qy2npJV4HGd4_FaZZglb9HPKUCeHuDl4XwgTiQ,632
+pgwarehouse/tests/test_postgres.py,sha256=IyCKDkC23YIovsbduJwkCahSBmOY93TFEu6j2OFtRYU,7171
+pgwarehouse-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pgwarehouse-0.1.1.dist-info/entry_points.txt,sha256=jISa1JMizGJjgjyS-_Y6fq85AjGSiEbOXw1UIvkOwPM,57
+pgwarehouse-0.1.1.dist-info/METADATA,sha256=P_L0DLBcIZDtJfedeLX8P9WEGHkAJVWlHXfZkP6P4Gc,9996
+pgwarehouse-0.1.1.dist-info/RECORD,,
