@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/proj_creator/__init__.py
+src/proj_creator/__main__.py
+src/proj_creator/version.py
+src/proj_creator.egg-info/PKG-INFO
+src/proj_creator.egg-info/SOURCES.txt
+src/proj_creator.egg-info/dependency_links.txt
+src/proj_creator.egg-info/top_level.txt
