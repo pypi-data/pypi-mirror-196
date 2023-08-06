@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+proplogic.egg-info/PKG-INFO
+proplogic.egg-info/SOURCES.txt
+proplogic.egg-info/dependency_links.txt
+proplogic.egg-info/requires.txt
+proplogic.egg-info/top_level.txt
