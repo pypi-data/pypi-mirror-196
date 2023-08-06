@@ -1,0 +1,11 @@
+numpy
+gymnasium
+mazelib
+
+[baselines]
+torch
+opt_einsum
+wandb
+dnc
+einops
+ray[rllib]==2.3.0
