@@ -1,0 +1,14 @@
+catalogue:
+  translate:
+    id: [Id, ID, NUMBER]
+    ra: [Ra, RA]
+    dec: [Dec, DEC]
+    z: [Z, redshift, Redshift, REDSHIFT, z_map]
+
+review_form:
+  default_checkboxes:
+    contamination: "Contamination"
+    extended: "Extended emission"
+
+plugins:
+  - grizli
