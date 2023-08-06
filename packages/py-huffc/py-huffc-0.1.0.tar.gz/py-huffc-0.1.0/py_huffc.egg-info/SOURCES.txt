@@ -1,0 +1,9 @@
+LICENSE
+README.md
+huffc.py
+pyproject.toml
+py_huffc.egg-info/PKG-INFO
+py_huffc.egg-info/SOURCES.txt
+py_huffc.egg-info/dependency_links.txt
+py_huffc.egg-info/requires.txt
+py_huffc.egg-info/top_level.txt
