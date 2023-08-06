@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bidet/__init__.py
+bidet.egg-info/PKG-INFO
+bidet.egg-info/SOURCES.txt
+bidet.egg-info/dependency_links.txt
+bidet.egg-info/not-zip-safe
+bidet.egg-info/top_level.txt
