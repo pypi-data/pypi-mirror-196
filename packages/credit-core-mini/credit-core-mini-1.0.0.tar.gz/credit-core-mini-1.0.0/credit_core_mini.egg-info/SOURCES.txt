@@ -1,0 +1,6 @@
+README.md
+setup.py
+credit_core_mini.egg-info/PKG-INFO
+credit_core_mini.egg-info/SOURCES.txt
+credit_core_mini.egg-info/dependency_links.txt
+credit_core_mini.egg-info/top_level.txt
