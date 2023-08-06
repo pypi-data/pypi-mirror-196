@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: libpythonpro_rl
+Version: 0.3
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/R-Lemos-prog/libpythonpro
+Author: Raiene L. Gonçalves
+Author-email: raienelemos@outlook.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # libpythonpro
+        
+        [ REPOSIT횙RIO DE EXERC횒CIO ]
+        
+        M처dulo para exemplificar constru챌찾o de projetos Python no curso PyTools. 
+        Neste curso 챕 ensinado como contribuir com projetos de c처digo aberto.
+        
+        #### [Link da plataforma DevPro](Loginhttps://www.dev.pro.br) 
+        
+        ![distintivo de status GA CI](https://github.com/R-Lemos-prog/libpythonpro/actions/workflows/python-app.yml/badge.svg)
+        
+        Suportada a vers찾o 3 de Python
+        
+        Para instalar: 
+        ````commandline
+        py -3 -m venv .venv    
+        .venv/Scripts/activate
+        pip install -r requirements-dev.txt
+           
+        ````
+        
+        Para conferir qualidade do c처digo:
+        ````commandline
+        flake8
+        ````
+        
+        T챠picos a serem abordados:  
+            1. Git  
+            2. Virtualenv  
+            3. Pip
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Classifier: Natural Language :: Portuguese (Brazilian)
+Description-Content-Type: text/markdown
