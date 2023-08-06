@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pywebschema/__init__.py
+pywebschema.egg-info/PKG-INFO
+pywebschema.egg-info/SOURCES.txt
+pywebschema.egg-info/dependency_links.txt
+pywebschema.egg-info/requires.txt
+pywebschema.egg-info/top_level.txt
