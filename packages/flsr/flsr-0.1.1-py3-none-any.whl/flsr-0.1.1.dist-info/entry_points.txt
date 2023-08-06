@@ -1,0 +1,3 @@
+[console_scripts]
+my-script=flsr.__main__:main
+
