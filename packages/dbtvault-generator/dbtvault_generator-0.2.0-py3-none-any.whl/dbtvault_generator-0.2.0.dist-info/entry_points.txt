@@ -1,0 +1,3 @@
+[console_scripts]
+dbtv-gen=dbtvault_generator.main:main
+
