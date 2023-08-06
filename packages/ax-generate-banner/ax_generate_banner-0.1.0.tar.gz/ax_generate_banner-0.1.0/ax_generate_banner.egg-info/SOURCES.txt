@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+ax_generate_banner.egg-info/PKG-INFO
+ax_generate_banner.egg-info/SOURCES.txt
+ax_generate_banner.egg-info/dependency_links.txt
+ax_generate_banner.egg-info/requires.txt
+ax_generate_banner.egg-info/top_level.txt
+core/__init__.py
+core/generate.py
+core/requirements.txt
+fonts/alethiapro-regular.otf
+fonts/arial.ttf
+fonts/img.png
+fonts/montserrat.ttf
