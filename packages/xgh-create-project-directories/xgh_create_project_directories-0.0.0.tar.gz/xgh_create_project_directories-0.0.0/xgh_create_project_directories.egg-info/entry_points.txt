@@ -1,0 +1,3 @@
+[console_scripts]
+x-create-porject-directories = create_project_directories.main:main
+

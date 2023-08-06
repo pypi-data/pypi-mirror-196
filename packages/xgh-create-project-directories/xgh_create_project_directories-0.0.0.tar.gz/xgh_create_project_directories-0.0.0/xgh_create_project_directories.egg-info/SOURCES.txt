@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+create_project_directories/__init__.py
+create_project_directories/main.py
+xgh_create_project_directories.egg-info/PKG-INFO
+xgh_create_project_directories.egg-info/SOURCES.txt
+xgh_create_project_directories.egg-info/dependency_links.txt
+xgh_create_project_directories.egg-info/entry_points.txt
+xgh_create_project_directories.egg-info/top_level.txt
