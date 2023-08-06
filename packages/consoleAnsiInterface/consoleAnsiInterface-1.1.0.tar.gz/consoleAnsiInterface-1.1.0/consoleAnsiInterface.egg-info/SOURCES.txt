@@ -1,0 +1,8 @@
+setup.py
+consoleAnsiInterface/__init__.py
+consoleAnsiInterface/__main__.py
+consoleAnsiInterface.egg-info/PKG-INFO
+consoleAnsiInterface.egg-info/SOURCES.txt
+consoleAnsiInterface.egg-info/dependency_links.txt
+consoleAnsiInterface.egg-info/requires.txt
+consoleAnsiInterface.egg-info/top_level.txt
