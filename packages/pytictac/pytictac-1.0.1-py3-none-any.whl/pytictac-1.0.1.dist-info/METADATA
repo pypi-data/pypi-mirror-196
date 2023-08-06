@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pytictac
+Version: 1.0.1
+Summary: A small example package
+Author: Jonas Frey
+Author-email: jonfrey@ethz.ch
+Requires-Python: >=3.6
+License-File: LICENSE
+
