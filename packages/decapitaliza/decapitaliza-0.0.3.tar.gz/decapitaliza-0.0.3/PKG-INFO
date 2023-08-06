@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: decapitaliza
+Version: 0.0.3
+Summary: A simple CLI tool to decapitalize spanish strings.
+Author-email: juan.pablo.de.castro@gmail.com
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Utilities
+Requires-Dist: click>=7.0
+Requires-Dist: unidecode>=1.1.1
+Description-Content-Type: text/markdown
+
+# Decapitalize spanish words.
+
+This utility is only for spanish words and contains a spanish dictionary of words with dyacritics.
+
+## Use Case.
+
+This tool is designed to restore the correct spelling of names and surnames collected in the official systems of many Spanish-speaking countries.
+Traditionally, words are stored in capital letters and without accents or other non-ASCII characters.
+Since this transformation is destructive, it is not easy to obtain the correct spelling of these records.
+
+## Description
+
+decapitaliza uses a dictionary of terms with Spanish spelling and a simple text analysis mechanism adapted to the processing of proper names and surnames.
+It capitalizes words according to common rules for first and last names.
+"decapitaliza" includes a command line tool that allows you to perform the following functions:
+
+  - Generate custom dictionaries: import correctly spelled terms from a CSV with correct words. If no external dictionary is specified, a pre-generated dictionary is used. The included dictionary can be extended with additional words.
+  - Transforms the words of a text (separated by spaces).
+  - Processes a CSV by transforming the indicated columns.
+
+
+## Caso de uso.
+
+Esta herramienta está diseñada para restaurar la ortografía correcta de los nombres y apellidos recogidos en los sistemas oficiales de muchos países de habla hispana.
+Tradicionalmente, las palabras se guardan en mayúsculas y sin tildes ni otros caracteres no ASCII.
+Como esta transformación es destructiva, no es sencillo obtener la correcta ortografía de esos registros.
+
+## Funcionamiento
+
+decapitaliza utiliza un diccionariode términos con ortografia del español y un mecanismo simple de análisis de textos adaptado al procesado de nombres propios y apellidos.
+Capitaliza las palabras de acuerdo a las reglas comunes para nombres y apellidos.
+"decapitaliza" incluye una herramienta para línea de comandos que permite realizar las siguientes funciones:
+
+  - Genera diccionarios a la medida: importa términos con ortografía correcta a partir de un CSV con palabras correctas. Si no se indica un diccionario externo se utiliza un diccionario pregenerado. Se puede ampliar el diccionario incluido con palabras adicionales.
+  - Transforma las palabras de un texto (separadas por espacios)
+  - Procesa un CSV transformando las columnas que se indiquen.
