@@ -1,0 +1,7 @@
+setup.py
+syslog_parser.egg-info/PKG-INFO
+syslog_parser.egg-info/SOURCES.txt
+syslog_parser.egg-info/dependency_links.txt
+syslog_parser.egg-info/entry_points.txt
+syslog_parser.egg-info/requires.txt
+syslog_parser.egg-info/top_level.txt
