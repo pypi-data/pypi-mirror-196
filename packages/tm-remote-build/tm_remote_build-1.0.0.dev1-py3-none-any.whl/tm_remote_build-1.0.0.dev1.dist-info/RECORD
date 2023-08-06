@@ -1,0 +1,10 @@
+tm_remote_build/__main__.py,sha256=4P4vtLhp2qSWcV2Mz-tmKbKtIlgcnxB_Sf8c0MpbVhg,64
+tm_remote_build/api.py,sha256=2xdVzOH87F9LUP7VxKF60ZLPPnOc_BZuuS4LyTMU_Rw,5341
+tm_remote_build/cli.py,sha256=iCMXSIFCfhAjrpTNGIlDdfcb6p2l8vhmBmNY4To3iXc,3638
+tm_remote_build/log.py,sha256=m62YptptmNRehj2zrdbvaKx21SMpavP4xDyarBFIphk,1803
+tm_remote_build/package.py,sha256=AMFDgQUhOwKs3UsByEB_nqWcwtyFgancxfsM58sIGcw,1530
+tm_remote_build-1.0.0.dev1.dist-info/entry_points.txt,sha256=6MEfV3jdJoopxbR5y9BF0pjGLuyoXSTfOrGXLqDSoPs,56
+tm_remote_build-1.0.0.dev1.dist-info/LICENSE,sha256=9Bgj5eBPesMdyTGPdowFtFMnvTveGYuDcs6MrjLcK6E,1068
+tm_remote_build-1.0.0.dev1.dist-info/METADATA,sha256=Bi90ch9UsgvzKPNiZmdwEXHyVgxQov-lqwdI3CIM7-U,2945
+tm_remote_build-1.0.0.dev1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+tm_remote_build-1.0.0.dev1.dist-info/RECORD,,
