@@ -1,0 +1,13 @@
+bird_form/__init__.py,sha256=8tJx9_XlSOvcICD91RUUDQF4feEZ7UHRBtKb4rCxof0,153
+bird_form/core/__init__.py,sha256=J0RbT2COagp_zQp1c2bvrv6I_zaUWyyIKWENwNk-sZk,67
+bird_form/windows/__init__.py,sha256=tO2AwsG3vxEavFSmjCLGYLR2KYHq3mZhSi_4-t9TYgI,276
+bird_form/windows/app.py,sha256=g2Wpej6E0aBHOETW_LwgFhxV30eGzLC8yXmgAgqRTtc,410
+bird_form/windows/button.py,sha256=axFGPpIX0fP0kKSjAaYzIRG3OlRXSdGSj5GZkCwyFXw,393
+bird_form/windows/panel.py,sha256=rZaQMxiN4thRwjHsWwWbDWnlmo5N0TqsOyD-w_vTxmU,227
+bird_form/windows/tab.py,sha256=7r32kFQFqFEzkCRJbde_FglMl6LPs2HHBvT12EbAdYU,307
+bird_form/windows/widget.py,sha256=Rjir4FYE-A6dwV_7x64R_Uc0MdnSTyBqD6sUiKlfvQQ,1434
+bird_form/windows/window.py,sha256=3Srqnuem8ua7Y5Axc42f34kUuQ5oXYGJ88uVQXIAdIc,169
+bird_dev_form-1.0.0a1.dist-info/METADATA,sha256=nqctw4h8zxyvFKheswER20nf3l8pAfsl1dtg0-PIWsQ,372
+bird_dev_form-1.0.0a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bird_dev_form-1.0.0a1.dist-info/top_level.txt,sha256=Ioq-JR6vwmCEiTJJvg58f37WslCIzbymfNLKFU7pmFo,10
+bird_dev_form-1.0.0a1.dist-info/RECORD,,
