@@ -1,0 +1,4 @@
+setuptools
+websocket-client
+abstra
+fire
