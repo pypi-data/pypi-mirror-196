@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: artifact-hub
+Version: 0.0.2
+Summary: Use object storage as a self hosted hub
+Project-URL: Homepage, https://https://github.com/robotstech/artifact-hub
+Project-URL: Repository, https://https://github.com/robotstech/artifact-hub.git
+Project-URL: Bug Tracker, https://github.com/robotstech/artifact-hub/issues
+Author-email: iamr0b0tx <tech@robotslimited.com>
+Maintainer-email: iamr0b0tx <tech@robotslimited.com>
+License: MIT License
+        
+        Copyright (c) 2023 Robots Limited
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: artifacts,hub,storage
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Requires-Dist: boto3>=1.26.89
+Provides-Extra: web
+Requires-Dist: fastapi>=0.94.0; extra == 'web'
+Requires-Dist: uvicorn[standard]>=0.21.0; extra == 'web'
+Description-Content-Type: text/markdown
+
+# artifact-hub
+
+![main workflow](https://github.com/robotstech/artifact-hub/actions/workflows/test.yml/badge.svg) <br>
+
+Manage artifacts using object storage. Manage all kinds of artifacts E.g. models, json files, sqlite dbs and track their
+versions and history using any object store as a backend. This project facilitates self-hosted hub without a lot of
+management overhead.
+
+Currently supported object stores include:
+
+- S3
+
+## Installation
+
+```shell
+pip install artifact-hub
+```
+
+## Usage
+
+1. Create a sample file `sample.txt`
+    ```text
+    This is a sample file 
+    with multiline content
+    ```
+
+2. Initialize the hub instance for a specific object/project
+   ```python
+   from artifact_hub import s3_hub
+   
+   hub = s3_hub("bucket", "folder", "object_id")
+   hub.push("sample.txt", "first push", "description of first push")
+   ```
+
+## Limitations
+
+1. Concurrent push and pulls from multiple parties at the same time can not be handled. because of the linear nature of
+   the history the last push will overwrite the previous one.
+   ```text
+   Actor A and B tries to push concurrently
+   Actor A and B pull latest version 10
+   Actor A complete push version 11 early
+   Actor B completes push version 11 late and overwrite Actor A's push. This may happen when Actor B is pushing a much larger change than A's
+   ```
