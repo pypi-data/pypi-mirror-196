@@ -1,0 +1,6 @@
+README.md
+setup.py
+szqa_noti.egg-info/PKG-INFO
+szqa_noti.egg-info/SOURCES.txt
+szqa_noti.egg-info/dependency_links.txt
+szqa_noti.egg-info/top_level.txt
