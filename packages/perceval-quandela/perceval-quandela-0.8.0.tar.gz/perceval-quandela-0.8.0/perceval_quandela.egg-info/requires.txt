@@ -1,0 +1,16 @@
+sympy
+numpy
+scipy
+tabulate
+matplotlib
+exqalibur~=0.1.0
+multipledispatch
+protobuf>=4.21.2
+drawsvg>=2.0
+Deprecated
+requests
+
+[test]
+pytest
+pytest-cov
+pytest-benchmark
