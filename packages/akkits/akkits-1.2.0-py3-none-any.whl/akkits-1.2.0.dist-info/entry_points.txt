@@ -1,0 +1,13 @@
+[console_scripts]
+mock_faulty_fusion_controller = akkits.scripts.mock.faulty_fusion_controller:main_cli
+mock_faulty_lidar = akkits.scripts.mock.faulty_lidar:main_cli
+mock_tracklet_message = akkits.scripts.mock.replay_tracklets:main_cli
+receiver_health = akkits.scripts.examples.receiver_health:main_cli
+receiver_point_cloud = akkits.scripts.examples.receiver_point_cloud:main_cli
+receiver_tracklet = akkits.scripts.examples.receiver_tracklet:main_cli
+receiver_tracklet_health = akkits.scripts.examples.receiver_tracklet_health:main_cli
+record_point_cloud = akkits.scripts.tools.record_point_cloud:main_cli
+record_tracklet = akkits.scripts.tools.record_tracklet:main_cli
+sender_health = akkits.scripts.examples.sender_health:main_cli
+sender_point_cloud = akkits.scripts.examples.sender_point_cloud:main_cli
+sender_tracklet = akkits.scripts.examples.sender_tracklet:main_cli

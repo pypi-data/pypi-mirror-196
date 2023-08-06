@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: akkits
+Version: 1.2.0
+Summary: AKK-ITS SDK for AkiraKan Light Trails Fusion Box.
+License: Apache-2.0
+Project-URL: Homepage, https://dev.azure.com/akirakan/ITSPythonSDK/_git/ITSPythonSDK
+Project-URL: Bug Tracker, https://dev.azure.com/akirakan/ITSPythonSDK/_workitems/recentlyupdated
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flatbuffers (~=2.0)
+Requires-Dist: numpy (<=1.23.2,>=1.17.3)
+Requires-Dist: pyzmq (~=23.2.0)
+Requires-Dist: ssh-python (~=0.10.0)
+Requires-Dist: toml (~=0.10.2)
+Requires-Dist: tqdm (~=4.62.3)
+Provides-Extra: all
+Requires-Dist: akkits[build,docs,lint,test] ; extra == 'all'
+Provides-Extra: build
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: docs
+Requires-Dist: furo (~=2022.4.7) ; extra == 'docs'
+Requires-Dist: myst-parser (<=0.17.0,>=0.16.1) ; extra == 'docs'
+Requires-Dist: sphinx-autobuild (~=2021.3.14) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (~=0.5.0) ; extra == 'docs'
+Requires-Dist: sphinx (<=4.5.0,>=4.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (~=1.0.0) ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: black (~=22.3.0) ; extra == 'lint'
+Requires-Dist: flake8 (~=4.0.1) ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: flaky (~=3.7.0) ; extra == 'test'
+Requires-Dist: mypy (~=0.931) ; extra == 'test'
+Requires-Dist: pytest-cov (~=3.0.0) ; extra == 'test'
+Requires-Dist: pytest (~=6.2.5) ; extra == 'test'
+
+# AkiraKan ITS SDK
+
+## Authors: Jia Huei TAN, Tun Jian TAN, Pin Siang TAN
+
+## [Documentation Link](https://akksdk.akirakan.com/)
+
+## [CHANGELOG](https://akksdk.akirakan.com/_changelog_copy.html)
+
+## CI
+
+| Item | Status |
+| --- | --- |
+| Python Lint and Formatting Checks | [![Build Status](https://dev.azure.com/akirakan/ITSPythonSDK/_apis/build/status/Linting?branchName=main)](https://dev.azure.com/akirakan/ITSPythonSDK/_build/latest?definitionId=28&branchName=main) |
+| CI (Python) | [![Build Status](https://dev.azure.com/akirakan/ITSPythonSDK/_apis/build/status/CI?branchName=main&stageName=CI)](https://dev.azure.com/akirakan/ITSPythonSDK/_build/latest?definitionId=29&branchName=main) |
+| Documentation Build | [![Build Status](https://dev.azure.com/akirakan/ITSPythonSDK/_apis/build/status/CI?branchName=main&stageName=Docs)](https://dev.azure.com/akirakan/ITSPythonSDK/_build/latest?definitionId=29&branchName=main) |
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
