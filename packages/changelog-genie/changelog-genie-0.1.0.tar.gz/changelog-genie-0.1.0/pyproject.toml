@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "changelog-genie"
+version = "0.1.0"
+description = "Generate changelogs for GitHub projects efficiently"
+authors = ["Andy Grove <andygrove73@gmail.com>" ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/andygrove/changelog-genie"
+
+[tool.poetry.scripts]
+changelog_genie = "changelog_genie:changelog_genie:__main__"
