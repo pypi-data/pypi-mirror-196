@@ -1,0 +1,9 @@
+GitPython
+PyYaml
+colorama
+dataclasses
+docker
+packaging
+reprint
+ruamel.yaml
+setuptools
