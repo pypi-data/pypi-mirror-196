@@ -1,0 +1,10 @@
+JSJumble/__init__.py,sha256=JHbb9pE0Q5inzlkIP0KKTJSYfFMu7JsZgi-iCWlsMSQ,1496
+JSJumble/server.py,sha256=5uU6PJKxRYcQvDTGfxOiLPWn9IuXL5boZlYW_UjQm7k,8717
+JSJumble/static/compress.js,sha256=5GNq8eJKGwyVYR_yAde9YkviBBdsYCYVkA-IuXz4ZFE,5635
+JSJumble/static/obfuscator.js,sha256=4ilYu1fTVZIPAq36mXdhqHC0nNaylLNfWiL-WoH5UYE,1435058
+JSJumble/template/obfuscator.html,sha256=9xee2evYoxV13e74fG0UYjJwGQ1L5B8fsaHXqglVZGo,2160
+JSJumble-1.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+JSJumble-1.0.4.dist-info/METADATA,sha256=AeQNRTCtnZe825-NonLDXf_T3_lK_3qF9xjg0SH_F2s,1058
+JSJumble-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+JSJumble-1.0.4.dist-info/top_level.txt,sha256=UegKfar0zBHLChkWFMVAMDgfktct86mnjMc1sA8sXTk,9
+JSJumble-1.0.4.dist-info/RECORD,,
