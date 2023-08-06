@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kitsec
+Version: 0.1.2
+Summary: A package to streamline Ethical hackers workflows
+Home-page: https://github.com/kitsec-labs/kitsec-core
+Author: Idriss CHEBAK
+Author-email: idrisschebak@me.com
+License-File: LICENSE
