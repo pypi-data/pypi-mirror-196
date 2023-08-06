@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/ToJyutping/ToJyutping.py
+src/ToJyutping/__init__.py
+src/ToJyutping/jyut6ping3.simple.dict.yaml
+src/ToJyutping/utils.py
+src/ToJyutping/version.py
+src/ToJyutping.egg-info/PKG-INFO
+src/ToJyutping.egg-info/SOURCES.txt
+src/ToJyutping.egg-info/dependency_links.txt
+src/ToJyutping.egg-info/not-zip-safe
+src/ToJyutping.egg-info/requires.txt
+src/ToJyutping.egg-info/top_level.txt
