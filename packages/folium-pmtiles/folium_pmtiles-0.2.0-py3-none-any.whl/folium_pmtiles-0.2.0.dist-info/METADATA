@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: folium-pmtiles
+Version: 0.2.0
+Summary: Folium Plugin to Support PMTiles
+Home-page: https://github.com/jtmiclat/folium-pmtiles
+License: MIT
+Author: Jt Miclat
+Author-email: jtmiclat@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: folium (>=0.14.0,<0.15.0)
+Project-URL: Repository, https://github.com/jtmiclat/folium-pmtiles
+Description-Content-Type: text/markdown
+
+# 🗺️ Folium Plugin to support PMTiles
+
+## Basic usage
+
+### Installation
+
+```
+pip install folium folium-pmtiles
+```
+### Usage
+See [examples/](examples/) to see some examples.
+
+## Dev Setup
+
+```
+poetry install --with dev
+poetry run pre-commit install
+```
+
