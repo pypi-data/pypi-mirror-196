@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/messandei.egg-info/PKG-INFO
+src/messandei.egg-info/SOURCES.txt
+src/messandei.egg-info/dependency_links.txt
+src/messandei.egg-info/requires.txt
+src/messandei.egg-info/top_level.txt
