@@ -1,0 +1,10 @@
+terminalgpt/.gitattributes,sha256=Gh2-F2vCM7SZ01pX23UT8pQcmauXWfF3gwyRSb6ZAFs,66
+terminalgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terminalgpt/chat_utils.py,sha256=gqE17WvuYWACv07P_TcnL5Emt3O8VxxlfXeOUenxy0A,2913
+terminalgpt/config.py,sha256=ieBfm7gcIz--ddTTKr88MZQFC7m4luC3WWs0QM17qeE,932
+terminalgpt/encryption.py,sha256=OBEZNUUdlSQR7K1Wnmfj8bxKhUjIKiG1d7V2fg25NHw,1223
+terminalgpt/main.py,sha256=KPdpZbr9houOwbHe_zEl2rjPm2w-hR86oGoLzdbcCko,1557
+terminalgpt-0.1.13.dist-info/entry_points.txt,sha256=gsu0vsYILUAebEx0O6fs66ThKYWlqB97Ow-o9nxqD28,52
+terminalgpt-0.1.13.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+terminalgpt-0.1.13.dist-info/METADATA,sha256=RY_ge50B9vYyuDYqO0zw3OlvWu4x1rOdaPd0sqe0Uzg,2141
+terminalgpt-0.1.13.dist-info/RECORD,,
