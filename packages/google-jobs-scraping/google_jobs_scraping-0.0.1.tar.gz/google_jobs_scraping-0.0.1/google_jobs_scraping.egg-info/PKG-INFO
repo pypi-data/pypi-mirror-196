@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: google-jobs-scraping
+Version: 0.0.1
+Summary: Scrapes google jobs for any search query, processes the data and crates a spreadsheet. Also analyses the description to find repeatable skills
+Home-page: https://github.com/gabriella-martin/Web-Scraping
+Author: Gabriella Martin
+License: MIT

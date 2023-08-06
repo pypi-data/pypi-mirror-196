@@ -1,0 +1,11 @@
+README.md
+setup.py
+google_jobs_scraping.egg-info/PKG-INFO
+google_jobs_scraping.egg-info/SOURCES.txt
+google_jobs_scraping.egg-info/dependency_links.txt
+google_jobs_scraping.egg-info/requires.txt
+google_jobs_scraping.egg-info/top_level.txt
+project/__init__.py
+project/data_analysis.py
+project/data_processing.py
+project/data_scraper.py
