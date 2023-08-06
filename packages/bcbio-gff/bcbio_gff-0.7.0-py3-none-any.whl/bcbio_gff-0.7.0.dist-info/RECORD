@@ -1,0 +1,10 @@
+BCBio/__init__.py,sha256=omi3ZvddRYPJLQrqzWxrQ35f6u_lmt5U3AF3sLZICVw,20
+BCBio/GFF/GFFOutput.py,sha256=3_rZjyhYH9duUodyAYwBzpNiSCXAAGF53R1ZqgmDZfo,7560
+BCBio/GFF/GFFParser.py,sha256=3ZON7rGm4eS4SQF8HY-DIwdoWsO9WiNK6jcXYOrMU-4,38737
+BCBio/GFF/__init__.py,sha256=5p4gjvmU7gsEoCJp-fMRGk_V3y-KwAel_IVy2Qlhzx8,237
+BCBio/GFF/_utils.py,sha256=HurVhz_Rr2axhJJEuUyuO39ub1znVk-bSdzis89Dmks,1392
+bcbio_gff-0.7.0.dist-info/LICENSE,sha256=3waR7VgSilFxUooV5_SrLMt7b-_HaXcAxnLbvSW0LkE,1047
+bcbio_gff-0.7.0.dist-info/METADATA,sha256=jEZfNxspNA-IuwB0UZR0w71-glJwTT5i1cwWrDA9JBQ,343
+bcbio_gff-0.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bcbio_gff-0.7.0.dist-info/top_level.txt,sha256=10vGrFYdsyBRN-5fTz2OzmmM_MSU69pZCCM2dKXIJ2s,6
+bcbio_gff-0.7.0.dist-info/RECORD,,
