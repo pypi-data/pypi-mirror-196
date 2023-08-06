@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+SLiM_phys.egg-info/PKG-INFO
+SLiM_phys.egg-info/SOURCES.txt
+SLiM_phys.egg-info/dependency_links.txt
+SLiM_phys.egg-info/top_level.txt
