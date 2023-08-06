@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: spidermatch
+Version: 0.2.0
+Summary: App for setting up automated spiders for incidents covered by local news in a certain country.
+Home-page: https://github.com/agucova/spidermatch
+Author: Agustín Covarrubias
+Author-email: agucova@uc.cl
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: Spanish
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development
+Requires-Dist: PyQt6 (>=6.2.3,<7.0.0)
+Requires-Dist: beartype (>=0.10.4,<0.11.0)
+Requires-Dist: luqum (>=0.11.0,<0.12.0)
+Requires-Dist: qt-material (>=2.10,<3.0)
+Requires-Dist: rich (>=12.2.0,<13.0.0)
+Requires-Dist: zenserp (>=0.2,<0.3)
+Description-Content-Type: text/markdown
+
+# SpiderMatch
+
+[![image](https://img.shields.io/pypi/v/spidermatch.svg)](https://pypi.python.org/pypi/spidermatch) [![Bundle App](https://github.com/agucova/spidermatch/actions/workflows/main.yml/badge.svg)](https://github.com/agucova/spidermatch/actions/workflows/main.yml)
+
+![](spidermatch/assets/logo_dark.png#gh-dark-mode-only)
+![](spidermatch/assets/logo_light.png#gh-light-mode-only)
+
+
+> **Note**
+> This app is currently available in Spanish only. An Eglish version is coming soon.
+
+An open-source app for setting up search engine lookups for incidents covered by local news in a certain country. This app is used for criminology research in policing.
+
+## Installation
+The app is available on PyPI, so you can install it with pip:
+
+```bash
+pip install spidermatch
+```
+
+Bundled version of the apps are also available for Windows, Linux and macOS (unsigned).
+You can find them in the [releases](https://github.com/agucova/spidermatch/releases) section.
+
+## Usage
+
+This app integrates with ZenSerp, a search engine API. You will need to create an account and get an API key. You can do so [here](https://zenserp.com/).
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+This project is licensed under the terms of the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. See [LICENSE](LICENSE) for more information.
+

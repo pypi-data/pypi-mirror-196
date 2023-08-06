@@ -1,0 +1,59 @@
+[tool]
+[tool.poetry]
+name = "spidermatch"
+version = "0.2.0"
+homepage = "https://github.com/agucova/spidermatch"
+description = "App for setting up automated spiders for incidents covered by local news in a certain country."
+authors = ["Agustín Covarrubias <agucova@uc.cl>"]
+readme = "README.md"
+classifiers=[
+    'Development Status :: 4 - Beta',
+    'Environment :: Win32 (MS Windows)',
+    'Environment :: MacOS X',
+    'Environment :: X11 Applications',
+    'Intended Audience :: Developers',
+    'Intended Audience :: End Users/Desktop',
+    'Natural Language :: Spanish',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Topic :: Software Development',
+    'Topic :: Communications :: Email',
+    'Topic :: Office/Business',
+]
+packages = [
+    { include = "spidermatch" },
+    { include = "tests", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+qt-material = "^2.10"
+PyQt6 = "^6.2.3"
+zenserp = "^0.2"
+beartype = "^0.10.4"
+rich = "^12.2.0"
+luqum = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+bumpversion = "^0.6"
+coverage = "^6.3"
+isort = "^5.10"
+pytest = "^7.1"
+black = "^22.1"
+pyinstaller = "^5.0.1"
+Pillow = "^9.1.0"
+
+[tool.poetry.scripts]
+spidermatch = 'spidermatch.main:run'
+
+[tool.poetry.group.dev.dependencies]
+hypothesis = "^6.68.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.isort]
+profile = "black"
+
