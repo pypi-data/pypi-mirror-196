@@ -1,0 +1,1 @@
+Update polcal quality metric machinery for new `dkist-processing-pac` version (>=2.0.0).
