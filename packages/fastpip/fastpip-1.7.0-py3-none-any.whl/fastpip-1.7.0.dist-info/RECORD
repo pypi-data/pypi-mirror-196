@@ -1,0 +1,15 @@
+fastpip/LICENSE,sha256=-rZzCMvdNj0jvYOUYu0ukHDd4qc-iJUeG2IGsTzh6F8,1072
+fastpip/__init__.py,sha256=ytrN6yF0xn_0mOCCvD4SF0NO2ZBEyP_DRZQBIIehvuc,1736
+fastpip/__version__.py,sha256=jDhG1bBWQvwA8SHJVJF_TRSrQNUSR-LKo_8zgNcvgs0,223
+fastpip/com/__init__.py,sha256=hY8TMI4LxSYa25jwaJ-DrdiO4TWZyMJyYTZVkOI3l48,19
+fastpip/com/common.py,sha256=mQGQQQTkH7ue4oYn65U-QIh67d0E_5uYqnjWLsF54pY,2950
+fastpip/core/__init__.py,sha256=hY8TMI4LxSYa25jwaJ-DrdiO4TWZyMJyYTZVkOI3l48,19
+fastpip/core/fastpip.py,sha256=yLxIXfuR2Zqk-4p86h4XNi0e3YzJIZFFR28nu_OLAXg,66895
+fastpip/utils/__init__.py,sha256=hY8TMI4LxSYa25jwaJ-DrdiO4TWZyMJyYTZVkOI3l48,19
+fastpip/utils/cmdutil.py,sha256=xIDfsKM18c5CtzCDVIShTjRYl6ddq0AFSR6AhqL1IfE,4473
+fastpip/utils/findpath.py,sha256=D2B6YXL05gPJcxtdudtt3JnXYcBvP1_ezFFFmCosmMY,6094
+fastpip-1.7.0.dist-info/LICENSE,sha256=4AkiYnYLWgjz1bq2wQXsMVhCwp0enBOxk3Sbm8rL-Sg,1072
+fastpip-1.7.0.dist-info/METADATA,sha256=GeNffPylpo_lqt5D2aBOii4G9QbI3FpGhUl9j3iJEns,5398
+fastpip-1.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fastpip-1.7.0.dist-info/top_level.txt,sha256=2yDp5VAjiTL6dgMPUUnKorSx_gWX5MPBc-W4g1Y06-M,8
+fastpip-1.7.0.dist-info/RECORD,,
