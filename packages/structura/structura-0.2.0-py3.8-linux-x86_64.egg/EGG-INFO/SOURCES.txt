@@ -1,0 +1,13 @@
+README.rst
+setup.py
+./src/linked.c
+./src/ring.c
+./src/stack.c
+./src/structura.c
+structura.egg-info/PKG-INFO
+structura.egg-info/SOURCES.txt
+structura.egg-info/dependency_links.txt
+structura.egg-info/top_level.txt
+test/test-linkedlist.py
+test/test-ringbuffer.py
+test/test-stack.py
