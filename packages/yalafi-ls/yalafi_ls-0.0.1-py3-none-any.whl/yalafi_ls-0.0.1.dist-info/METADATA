@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: yalafi-ls
+Version: 0.0.1
+Summary: YaLafi LSP server for spellchecking LaTeX documents
+Author: torik42
+Project-URL: Homepage, https://github.com/torik42/YaLafi-LS
+Project-URL: Changelog, https://github.com/torik42/YaLafi-LS/blob/main/HISTORY.md
+Project-URL: Documentation, https://github.com/torik42/YaLafi-LS
+Project-URL: Issue Tracker, https://github.com/torik42/YaLafi-LS/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Classifier: Topic :: Text Editors :: Integrated Development Environments (IDE)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lsprotocol
+Requires-Dist: pygls (~=1.0)
+Requires-Dist: yalafi
+
+# YaLafi LSP Server
+
+An [LSP](https://microsoft.github.io/language-server-protocol/) server for proofreading LaTeX documents using [YaLafi (yet another LateX filter)](http://github.com/torik42/YaLafi) and [LanguageTool](https://www.languagetool.org) in different editors.
+It serves as a basis for the corresponding [vscode extension](http://github.com/torik42/YaLafi-ls-vscode).
+
+The server is written in Python using [pygls](https://github.com/openlawlibrary/pygls) and [lsprotocol](https://github.com/microsoft/lsprotocol).
+The current implementation is very basic and just calls YaLafi on save.
+
+## Installation
+
+YaLafi-LS is available on [PyPI](https://www.pypi.org) and can be installed with `python -m pip install YaLafi-LS`.
+This will automatically also install [YaLafi](http://github.com/torik42/YaLafi).
+However, you may need to install [LanguageTool](https://www.languagetool.org), see the [installation guide for YaLafi](https://github.com/torik42/YaLafi#installation).
