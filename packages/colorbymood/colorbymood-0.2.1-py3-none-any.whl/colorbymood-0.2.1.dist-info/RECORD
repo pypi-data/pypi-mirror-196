@@ -1,0 +1,10 @@
+colorbymood/__init__.py,sha256=dOrnQieJn20c92RfYV5V4Fu4AaEo2n7LDHzTmd0zvyI,260
+colorbymood/cli.py,sha256=NwJmvUV-vOxAbr5lNGTghXv4Cy6ZKQwR18QtcQJfrBs,1448
+colorbymood/color.py,sha256=yZRnYy6GxuXNU5-v-JBdIO_XpOP3cnqH5x4lclu5Ih8,1052
+colorbymood/color.yaml,sha256=BjuYUMIDJvDNg2YqLGYxF2jxbggbXjfN6rwwCEp9h1M,836
+colorbymood/io.py,sha256=CfCPviDrXVcCnnJK9JOObi02ld-TJ7zSdYDPHeQF81M,536
+colorbymood/window.py,sha256=2rRDSh0rEB5SS6caa03dTx8g7GzR184tNTPVDj21gwg,2250
+colorbymood-0.2.1.dist-info/METADATA,sha256=DgMMQbjAr_zgIZR9dz3dthMNoFluZMiMIFJTLZguidw,500
+colorbymood-0.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+colorbymood-0.2.1.dist-info/entry_points.txt,sha256=DgdzMn6d0ILnQtTfcwBTDTEM1N8nF4GwLBzbuf6ZMvE,52
+colorbymood-0.2.1.dist-info/RECORD,,
