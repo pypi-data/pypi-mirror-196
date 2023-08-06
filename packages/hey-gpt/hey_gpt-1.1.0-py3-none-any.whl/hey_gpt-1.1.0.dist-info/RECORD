@@ -1,0 +1,17 @@
+hey/__init__.py,sha256=zRZg72kixs554yt-7m8bDNREurgBmdYZTo4--y9bd-4,269
+hey/actions.py,sha256=1RbZoL18xkj25EKuCtQdjG64HfthIbjIF6WxcoW5yF8,3276
+hey/aichat.py,sha256=CGg1G0Cr4s_XA94l-2adWQR1Iwo37wmGD2tqEIpLsdU,2208
+hey/cli.py,sha256=Ooi6UigMSFuzjidtdJZuFUtCZ_H6sopYCH_23c4yRNg,8843
+hey/helpers.py,sha256=qV6uraCu3U3UaQ_1AH3yTEdhYgrxkaG7AbX-ASkAQS0,407
+hey/install.py,sha256=MDTDfP9oywSQWlyqiD7kLWH0a1mvrhraqsgPkle-YwQ,3771
+hey/parse.py,sha256=U2V6VOxWNJ6Hfg7SYBgyvTKGIZbWoEg-K_VnRbhbN0s,3338
+hey/prompt.chat.txt,sha256=yoo91ED7NXLgB0Y3cMeOJm_QluefDHdp8r1TnWfITUg,20
+hey/prompt.command.txt,sha256=Fo2AXPb6mmJurQSwGkagRzy7b8R_3ZhWc2lK1stVTjs,74
+hey/prompt.py,sha256=4LPg-HNCBzrYnSybg4XHnII8vZA9WHNqERqvurufxW8,1979
+hey/prompt.start.txt,sha256=3uYArs-mUDGxR5riomBbKkse77Qzqgz2Y7iD9WGG3kg,663
+hey_gpt-1.1.0.dist-info/LICENSE,sha256=B_fRJmkIBwaLiE5cHlR85wWbwBzjJaoTysR31kkxjfQ,1066
+hey_gpt-1.1.0.dist-info/METADATA,sha256=IalkBBXE5ldFLUwBDbxmAX9TjcLkMg4YTVS9zHfBBFg,652
+hey_gpt-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hey_gpt-1.1.0.dist-info/entry_points.txt,sha256=wriQ0D6O0pkCbIMwgaRF3Q_jhaI5EsV7RmUSg8uFq8k,34
+hey_gpt-1.1.0.dist-info/top_level.txt,sha256=TpVf6gJoUYy6pQBAnfvsiPDs660o2E7L4lC67ZfbqIk,4
+hey_gpt-1.1.0.dist-info/RECORD,,
