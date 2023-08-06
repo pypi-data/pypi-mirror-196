@@ -1,0 +1,2 @@
+dnspython>=2.1.0
+influxdb>=5.3.1
