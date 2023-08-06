@@ -1,0 +1,2 @@
+# CSS Files
+recursive-include hydromt_dash_app *.css

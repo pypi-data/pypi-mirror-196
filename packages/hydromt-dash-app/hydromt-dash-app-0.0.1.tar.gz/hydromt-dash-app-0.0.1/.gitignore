@@ -1,0 +1,13 @@
+# file based on github/gitignore
+
+# Byte-compiled / optimized / DLL files
+app/__pycache__/
+*.pyc
+.vscode
+*.geojson
+*.json
+*.ini
+/output
+/data
+/dist
+.pypirc

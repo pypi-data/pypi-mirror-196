@@ -1,0 +1,17 @@
+name: hydromt_dash
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # - hydromt 
+  - dash>=2.6.2
+  - dash-bootstrap-components>=1.2.0
+  - visdcc
+  - dash-extensions>=0.0.71
+  - dash-leaflet>=0.1.23
+  - geojson
+  - pip
+  # - pip:
+  #   - git+https://github.com/Deltares/hydromt.git@api_get_region
+  #   - git+https://github.com/Deltares/hydromt_wflow.git@fn_typing
+ 

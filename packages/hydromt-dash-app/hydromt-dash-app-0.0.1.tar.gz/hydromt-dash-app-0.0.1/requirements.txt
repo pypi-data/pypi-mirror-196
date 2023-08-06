@@ -1,0 +1,7 @@
+
+dash==2.6.2
+dash-bootstrap-components>=1.2.0
+visdcc
+dash-extensions>=0.0.71
+dash-leaflet>=0.1.23
+geojson
