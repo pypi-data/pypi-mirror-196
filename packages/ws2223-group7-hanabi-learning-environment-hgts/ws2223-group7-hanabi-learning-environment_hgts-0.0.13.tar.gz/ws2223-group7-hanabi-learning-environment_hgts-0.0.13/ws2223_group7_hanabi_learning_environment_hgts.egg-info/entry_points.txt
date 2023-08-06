@@ -1,0 +1,5 @@
+[console_scripts]
+ws2223-group7-hanabi-learning-environment-hgts-info = main.main_info:main
+ws2223-group7-hanabi-learning-environment-hgts-own = main.main_own:main
+ws2223-group7-hanabi-learning-environment-hgts-rcd = main.main_rec:main
+
