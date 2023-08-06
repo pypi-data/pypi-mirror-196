@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sponge-test
+Version: 1.3
+Summary: A Python package to do the unit test for SPONGE
+Author: Yijie Xia
+Author-email: yijiexia@pku.edu.cn
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Todo
+
+The README file is under construction...
