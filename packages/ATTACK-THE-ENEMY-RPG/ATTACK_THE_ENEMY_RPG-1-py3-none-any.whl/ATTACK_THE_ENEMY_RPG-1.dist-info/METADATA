@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ATTACK-THE-ENEMY-RPG
+Version: 1
+Summary: This package contains implementation of the offline RPG "ATTACK_THE_ENEMY_RPG" on command line interface.
+Home-page: https://github.com/GlobalCreativeApkDev/INDONESIAN_PROGRAMMERS/tree/main/ATTACK_THE_ENEMY_RPG
+Author: GlobalCreativeApkDev
+Author-email: globalcreativeapkdev2022@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ATTACK_THE_ENEMY_RPG
+
+**Attack The Enemy RPG** is an offline RPG where the player can face an infinite number of rounds.
+
+## Executable File
+
+The executable file is downloadable at https://github.com/GlobalCreativeApkDev/INDONESIAN_PROGRAMMERS/blob/main/ATTACK_THE_ENEMY_RPG/ATTACK_THE_ENEMY_RPG/dist/attack_the_enemy_rpg/attack_the_enemy_rpg.
+
+## Source Code
+
+Python code used to create the game is available in https://github.com/GlobalCreativeApkDev/INDONESIAN_PROGRAMMERS/blob/main/ATTACK_THE_ENEMY_RPG/ATTACK_THE_ENEMY_RPG/attack_the_enemy_rpg.py.
+
+## Installation
+
+**pip install ATTACK_THE_ENEMY_RPG**
+
+## How to Use the Executable File?
+
+First, open by double-clicking the file "attack_the_enemy_rpg". 
+How the executable file looks like is shown in the image below (the file is enclosed with a red rectangle).
+
+**Image 1**
+
+![Executable File](images/Executable%20File.png)
+
+## Getting Started
+
+After you run the game, you will be asked to enter your name. Then, you will be redirected to the main menu.
+
+**Image 2**
+
+![Getting Started](images/Getting%20Started.png)
+
+## Main Menu
+
+After you enter your name, you will be asked whether you want to continue playing the game or not.
+
+**Image 3**
+
+![Main Menu](images/Main%20Menu.png)
+
+## Gameplay
+
+You will be able to battle in an infinite number of rounds during gameplay. Losing a round will send you back to the 
+first round. However, if you win a round of battle, you will proceed to the next round, get stronger, and face a 
+stronger enemy.
+
+**Image 4**
+
+![Gameplay](images/Gameplay.png)

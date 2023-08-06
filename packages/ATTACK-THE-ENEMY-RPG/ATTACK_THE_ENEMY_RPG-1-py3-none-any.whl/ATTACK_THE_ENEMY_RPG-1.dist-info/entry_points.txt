@@ -1,0 +1,2 @@
+[console_scripts]
+ATTACK_THE_ENEMY_RPG = ATTACK_THE_ENEMY_RPG.attack_the_enemy_rpg:main
