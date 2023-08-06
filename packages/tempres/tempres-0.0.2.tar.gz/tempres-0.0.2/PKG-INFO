@@ -1,0 +1,206 @@
+Metadata-Version: 2.1
+Name: tempres
+Version: 0.0.2
+Summary: collect temperature and pressure data from a mpy-modcore device
+Home-page: https://github.com/kr-g/tempres
+Author: k. goger
+Author-email: k.r.goger+tempres@gmail.com
+License: other / AGPLv3+
+Keywords: micropython esp32 esp8266 modcore home-automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Utilities
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+
+
+# REPO ARCHIVED (2023-03-11)
+
+this repo is archived and not maintained longer 
+
+
+---
+
+last version of tempres v0.0.2
+
+---
+
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# tempres 
+
+collect temperature and pressure data from a mpy-modcore device
+running the `tempr` module
+
+
+# what's new ?
+
+Check
+[`CHANGELOG`](https://github.com/kr-g/tempres/blob/main/CHANGELOG.md)
+for latest ongoing, or upcoming news.
+
+
+# limitations
+
+Check 
+[`BACKLOG`](https://github.com/kr-g/tempres/blob/main/BACKLOG.md)
+for open development tasks and limitations.
+
+
+# how to use
+
+todo: documentation pending
+
+following cmd-line tools are included in this package.
+
+
+## tempres
+
+`tempres` loads one data package from a device and stores it under `~/.tempres/inq` (default) as json.
+
+use `tempres --help` to see all cmd-line options.
+
+
+## tempresdb
+
+imports the data from `~/.tempres/inq` into a sqlite db `~/.tempresdb`.
+
+currently no further cmd-line options to configure the process (todo)
+
+
+## tempresplt
+
+plots the data "temperature and pressure data over time" from `~/.tempresdb` with mathplotlib.
+
+currently no further cmd-line options to configure the process (todo)
+
+
+## temprespub
+
+interface to OpenWeatherMap.org 
+
+- [one call api doc](https://openweathermap.org/api/one-call-3)
+- [station api doc](https://openweathermap.org/stations#steps)
+
+
+### cmd line parameters
+
+todo documentation
+
+### configuration
+
+todo documentation
+
+file `~/tempres/stations.json` 
+
+    {
+      "api_key" : "your-api-key",
+      "stations" : [
+        { 
+          "station_id" : "your-id1",
+          "name" : "your-name",
+          "tag" : "a-tag",
+          "zip_code" : 12456, # dummy value
+          "country_code" : "de",
+        },
+        { 
+          "station_id" : "your-id2",
+          "name" : "your name 2",
+          "tag" : "a second tag",
+          "lat" : 1234, # dummy value
+          "lon" : 215265, # dummy value
+        }
+      ]
+    }
+
+remark: `station_id` is mapped to openweathermap `external_id` field
+
+
+# platform
+
+tested on python3, and linux
+
+
+# development status
+
+alpha state, use on your own risk!
+
+
+# installation
+
+    phyton3 -m pip install tempres
+    
+
+# license
+
+[`LICENSE`](https://github.com/kr-g/tempres/blob/main/LICENSE.md)
+
+
+
+see [`BACKLOG`](https://github.com/kr-g/tempres/blob/main/BACKLOG.md)
+for open development tasks and limitations.
+
+
+# Changelog
+
+## version v0.0.2 - 20230311
+
+- added mathplot support with cmd-line `tempresplt`
+- added openweathermap interface cmd-line `temprespub`
+- last version of tempres, repo will be archived, no further development
+- 
+
+
+## version v0.0.1 - 20220608
+
+- first release
+- 
+
+# BACKLOG
+
+- housekeeping
+  - insert only a sub directory instead of all
+    - pattern patching for input files
+  - delete temp_rec entries
+  - 
+- cmd line interface
+  - tempresplt
+  - tempresdb
+- custom db engine creation
+- temprespub
+  - rework cmdline interface
+-
+
+
+# OPEN ISSUES
+
+refer to [issues](https://github.com/kr-g/tempres/issues)
+
+
+# LIMITATIONS
+
+- only sqlite supported as db backend at the moment
+- dont delete raw json data, keep it as a base for future db imports
+- 
+ 
+
+
+
