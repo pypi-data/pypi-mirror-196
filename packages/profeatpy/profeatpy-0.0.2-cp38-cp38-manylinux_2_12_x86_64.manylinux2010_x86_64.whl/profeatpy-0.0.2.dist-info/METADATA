@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: profeatpy
+Version: 0.0.2
+Summary: A simple python binding for PROFEAT
+Author-email: "Zheng.L.Y" <zhenglingyan@zju.edu.cn>, "Zhang.H.N" <zhang.h.n@foxmail.com>
+License: GPLv3
+Project-URL: Homepage, https://github.com/idrblab/profeatpy
+Project-URL: Bug Tracker, https://github.com/idrblab/profeatpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# profeatpy
+
+Profeat is a protein feature collection implemented in Fortran 77,
+this package is a python binding library.
+
+To use it, just install it by pip.
+```bash
+pip install profeatpy
+```
+
+And then you can use it like following example:
+```python
+import profeat as pf
+pf.run("protein.fasta", "output_dir")
+```
