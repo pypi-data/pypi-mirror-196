@@ -1,0 +1,9 @@
+setup.py
+dataminds/__init__.py
+dataminds/classification.py
+dataminds/regression.py
+dataminds.egg-info/PKG-INFO
+dataminds.egg-info/SOURCES.txt
+dataminds.egg-info/dependency_links.txt
+dataminds.egg-info/requires.txt
+dataminds.egg-info/top_level.txt
