@@ -1,0 +1,9 @@
+apache-airflow>=2.0.0
+
+[dev]
+mypy
+pytest
+pytest-cov
+pre-commit
+build
+angreal>=2.0.0
