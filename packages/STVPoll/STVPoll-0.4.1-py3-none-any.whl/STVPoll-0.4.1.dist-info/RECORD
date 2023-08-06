@@ -1,0 +1,16 @@
+stvpoll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stvpoll/abcs.py,sha256=7b-jVCERgOsatbPXrVzcM-sHfP98IBkc0hOa5TydK8Y,8519
+stvpoll/cpo_stv.py,sha256=yzj7pIrGDQTBQUkINWFyt6k4vxrXaCSuoFGYALqqK2M,8671
+stvpoll/exceptions.py,sha256=fOXnbWF9btt-4O1_lJC2pGksZsdYdV-ABQGqpGEUXrE,194
+stvpoll/irv.py,sha256=HAwAEApzBkG2QzOBZepux-nlW2338AMsksXh0depWgU,1049
+stvpoll/quotas.py,sha256=ipxNVLgVlvgvPAMSC2cjUCnS_jTuX7m6gQAaI2gSWzY,505
+stvpoll/result.py,sha256=-qR3gnTV8WkWSeY9aoqKmxRJxJ1stX0iajopNbfT0VU,2886
+stvpoll/scottish_stv.py,sha256=x-2pA-syLWYOgJkhkyrQHFtKJFMgOgvEm6RgXlqk89o,1644
+stvpoll/tests.py,sha256=KJhUvn2UURkQ24JGrGv9mMXZvc6BTaSNRD4qqtOGlxo,16770
+stvpoll/tiebreak_strategies.py,sha256=QuMqULGHWiKRqWbW_BlPaEyq5ldNj1Xkkr9yAGBF5Mc,2034
+stvpoll/types.py,sha256=UinSGiHY_QOsIixuRKpJzTXS0Gum-FPLNX0ISB1VlqI,1078
+stvpoll/utils.py,sha256=ZlTzmBO6xoHdJ8aSufmBh06j_8MJEd5rRbcdgaen338,1553
+STVPoll-0.4.1.dist-info/METADATA,sha256=CE0zUQHvQdA_sWSZ2apHXsyDQBFHAutYr5YlQkh0qak,4147
+STVPoll-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+STVPoll-0.4.1.dist-info/top_level.txt,sha256=4aKnVGvmfA9eh6TLplpXkyINc9YivQ9XzHG9ZThuRA0,8
+STVPoll-0.4.1.dist-info/RECORD,,
