@@ -1,0 +1,11 @@
+perennial/__init__.py,sha256=KzDNtyjP9qV5CkDwO3GmNB7ty5Gy4n6796jLxGp6L2E,274
+perennial/__main__.py,sha256=dvmZOAA8rGVlIjR3dcY8gp09O9VIpEseWnu3mLe-BqY,4844
+perennial/__version__.py,sha256=YIeqObkg_o84pahFS_UoSl6z6pweFi2H0Dxit0jvEaA,248
+perennial/perennial.py,sha256=qaoBTSebRUyQob1wTGWzd8sQ7BjnqP69898deGnBMqU,21093
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_perennial.py,sha256=3R3Ow3k53bqlTy0RHHwNvUqmjwZRS3ArfclECmnGoyc,9884
+perennial-0.1.0.dist-info/LICENSE,sha256=_1gge2sXd9Pvv-adPuSkzdJNMRtfQaBTj-s083Kbwqw,1070
+perennial-0.1.0.dist-info/METADATA,sha256=fzC5A8AbBh8wBcU30NlzsjAUA8OBNCIi_ijNqFtKfQ8,5850
+perennial-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+perennial-0.1.0.dist-info/top_level.txt,sha256=E8vpQaejqfisFLTVpXHP8ebUfwGjsQXWsvQ4fNz63Mg,16
+perennial-0.1.0.dist-info/RECORD,,
