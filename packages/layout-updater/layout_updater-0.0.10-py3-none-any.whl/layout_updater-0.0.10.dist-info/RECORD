@@ -1,0 +1,12 @@
+layout_updater/LayoutUpdater.py,sha256=CW6GFKxk4eryEQjf_tcQpKae1eMx0Q2_M-dU80eJYiA,2596
+layout_updater/__init__.py,sha256=g1QJFaNFEf632LIUm7D7wTOWmsdfKU9Hq9byeDPqoxY,2501
+layout_updater/_imports_.py,sha256=RNrjEOnnsDcZrLLRdfI5JgbSHMoE-IzQP238F4Z6rWM,75
+layout_updater/layout_updater.min.js,sha256=D9dm4tw22ktYVGrKzYJARjHwejvjeUvvuiVRnow9UVA,81611
+layout_updater/layout_updater.min.js.map,sha256=liW0DiL6I0d5eLhTusCGFpNrOCg8rLx6yLPKZYvBKQI,98
+layout_updater/metadata.json,sha256=CkLRyDNfehBg8miOKnOGxQ8TjodUFrNgSucG1pa4Azk,3270
+layout_updater/package-info.json,sha256=d0aYEe4OFWQMjMNQhODf91NUW60AB_ZOcD9fwbDDs6E,1775
+layout_updater-0.0.10.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+layout_updater-0.0.10.dist-info/METADATA,sha256=8k0P3rd3UfHmaw33pp4H1q-d7y2Cf9-Obw3rPaLANtM,239
+layout_updater-0.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+layout_updater-0.0.10.dist-info/top_level.txt,sha256=bxSMWKrAp8be6tqMN1TXo8vcB2a2EXMZoB62rTOPudU,15
+layout_updater-0.0.10.dist-info/RECORD,,
