@@ -1,0 +1,6 @@
+README.md
+setup.py
+armadillo_executor.egg-info/PKG-INFO
+armadillo_executor.egg-info/SOURCES.txt
+armadillo_executor.egg-info/dependency_links.txt
+armadillo_executor.egg-info/top_level.txt
