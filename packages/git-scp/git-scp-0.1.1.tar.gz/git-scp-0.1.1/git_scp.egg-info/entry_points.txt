@@ -1,0 +1,2 @@
+[console_scripts]
+git-scp = git_scp:main

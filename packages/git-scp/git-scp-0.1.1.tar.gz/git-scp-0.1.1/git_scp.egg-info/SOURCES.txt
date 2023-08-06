@@ -1,0 +1,8 @@
+README.md
+setup.py
+git_scp/__init__.py
+git_scp.egg-info/PKG-INFO
+git_scp.egg-info/SOURCES.txt
+git_scp.egg-info/dependency_links.txt
+git_scp.egg-info/entry_points.txt
+git_scp.egg-info/top_level.txt
