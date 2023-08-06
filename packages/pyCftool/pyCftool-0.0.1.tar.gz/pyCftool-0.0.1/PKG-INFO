@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyCftool
+Version: 0.0.1
+Summary: Interactive python fitting interface
+Author: Andreas Forum (TehForum)
+Author-email: <andforum@hotmail.com>
+Keywords: python,fit,statistics,modelling,science
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
