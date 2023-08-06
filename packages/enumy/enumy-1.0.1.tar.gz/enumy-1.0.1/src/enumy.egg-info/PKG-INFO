@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: enumy
+Version: 1.0.1
+Summary: Module to set predefined allowed values for a variable
+Home-page: https://github.com/bytesentinel/enumy
+Author: ByteSentinel
+Author-email: info@bytesentinel.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Enumy
+The problem with Python's "Enum" module is that it is not a reasonable way to restrict variables to a predefined set of values.
+
+## Installation
+```shell
+pip install --user enumy
+```
+
+## First start
+```python
+from enumy import Enumy
+
+test = Enumy(("Value 1", "Value 2"), str)
+test = "Value 2"        # Working
+test = 123              # Exception
+```
