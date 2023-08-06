@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kevbits"
+version = "0.4.0"
+description = "Small helper functions and objects"
+authors = ["Evgeny Klunko <eklunko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "^23.1.0"
+pylint = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
