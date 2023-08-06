@@ -1,0 +1,9 @@
+numpy
+pandas>=1.5.3
+typing_extensions
+
+[dev]
+black
+pylint
+pip-tools
+pytest

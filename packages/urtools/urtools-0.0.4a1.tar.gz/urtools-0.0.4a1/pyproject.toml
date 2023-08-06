@@ -1,0 +1,40 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urtools"
+version = "0.0.4a1"
+description = "Custom functions and other utilities that I find useful and use across many projects."
+readme = "README.md"
+authors = [{ name = "MatthewBaggins", email = "bagginsmatthew@gmail.com"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+keywords = ["utils"]
+dependencies = [
+    "numpy",
+    "pandas>=1.5.3",
+    "typing_extensions",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "pylint", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/MatthewBaggins/urtools"
+
+[options.packages.find]
+where = "src"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
