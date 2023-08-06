@@ -1,0 +1,6 @@
+del_msh-0.1.4.dist-info/METADATA,sha256=CwTth8YyHK8ShEBpSTU0g_ALceF8_EmqOPTOBLigXuM,1598
+del_msh-0.1.4.dist-info/WHEEL,sha256=id_3NCv17Wo649PAN_X8wxjoore-3nfJJgj8bsE-ovA,106
+del_msh-0.1.4.dist-info/license_files/LICENSE,sha256=GG_RHtzV0ajy-aQLcnJKvfYroL5qtgITMoEsq5v3Y54,1073
+del_msh/__init__.py,sha256=DmdaYVOcO1ptmt7GPnvoPcGe0XHOLv6TLyiFq_FmTno,396
+del_msh/del_msh.cpython-310-darwin.so,sha256=Ie46rDIyZeIsuykLAiNMP5PCF_WA5pe8wo_KOQqWIOk,534304
+del_msh-0.1.4.dist-info/RECORD,,
