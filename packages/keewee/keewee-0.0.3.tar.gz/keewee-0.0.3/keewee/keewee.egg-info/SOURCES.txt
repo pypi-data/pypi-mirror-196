@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+keewee/keewee.egg-info/PKG-INFO
+keewee/keewee.egg-info/SOURCES.txt
+keewee/keewee.egg-info/dependency_links.txt
+keewee/keewee.egg-info/top_level.txt
+keewee/src/__init__.py
+keewee/src/keewee.py
+keewee/test/__init__.py
+keewee/test/test_class_usage.py
+keewee/test/test_dataclass_usage.py
