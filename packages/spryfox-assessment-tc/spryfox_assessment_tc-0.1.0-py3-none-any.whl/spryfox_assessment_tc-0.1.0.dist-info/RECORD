@@ -1,0 +1,6 @@
+tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasks/data_analysis.py,sha256=g3ALtDlkHF0-pUnL5izX13jshrq2tbnI9EYmevZ0yVI,7699
+tasks/dummy.py,sha256=1M3lGCMe_wIUkIIEhSTRVjtB0chzsiZeshKmAdKuZqs,1643
+spryfox_assessment_tc-0.1.0.dist-info/METADATA,sha256=tYAOwR2wVh3nry1NIqiHkNMZwqOG7q-MXsdD4m2cj3k,385
+spryfox_assessment_tc-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+spryfox_assessment_tc-0.1.0.dist-info/RECORD,,
