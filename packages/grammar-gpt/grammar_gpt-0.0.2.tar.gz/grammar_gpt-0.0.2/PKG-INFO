@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: grammar-gpt
+Version: 0.0.2
+Summary: A simple grammar utility for everyone by using ChatGPT
+Author: Xingyu Long
+Author-email: dev.halolong@gmail.com
+Requires-Python: >=3.0,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: revchatgpt (>=3.3.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# grammar-gpt
+
+
+
+
+
+# API
+```Python
+>>> from grammar_gpt import GrammarHelper
+>>> gh = GrammarHelper()
+>>> gh.polish('I am not like dance')
+'I do not like to dance.'
+
+
+>>> gh.translate('How are you doing')
+'你好吗？'
+>>> gh.translate('whats up')
+'最近怎么样？'
+
+```
+
