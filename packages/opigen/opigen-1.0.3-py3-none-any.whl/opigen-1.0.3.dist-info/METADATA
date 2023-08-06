@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: opigen
+Version: 1.0.3
+Summary: OPI Generation for CS-Studio and Phoebus
+Home-page: https://github.com/archman/opi-generator
+Author: Tong Zhang
+Author-email: zhangt@frib.msu.edu
+License: APACHE
+Keywords: CS-Studio Phoebus OPI XML
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+
+# OPI generation for CS-Studio and Phoebus
+
+This repository is forked from [dls-controls/cssgen](https://github.com/dls-controls/cssgen/blob/master/README.md), and renamed to `opi-generator`, with the package name of `opigen`.
+
+After a thorough refactoring process, `opigen` now supports OPI files generation for both CS-Studio and Phoebus from the same script, which minimizes the effort required to maintain both platforms, making it more efficient and streamlined.
+
+## Installation
+
+```
+pip install opigen
+```
+
+
