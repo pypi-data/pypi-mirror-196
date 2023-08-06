@@ -1,0 +1,16 @@
+imagehash
+scikit-learn>=1.2.2
+joblib
+scipy>=1.10.1
+
+[test]
+pytest
+coverage
+flake8
+black
+isort
+pytest-cov
+codecov
+mypy
+gitchangelog
+mkdocs
