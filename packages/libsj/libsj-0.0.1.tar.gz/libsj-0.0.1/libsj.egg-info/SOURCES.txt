@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+libsj/__init__.py
+libsj/a1fibonacci.py
+libsj/a2prime.py
+libsj/a3palindrome.py
+libsj/a4armstrong.py
+libsj/a5factorial.py
+libsj.egg-info/PKG-INFO
+libsj.egg-info/SOURCES.txt
+libsj.egg-info/dependency_links.txt
+libsj.egg-info/top_level.txt
