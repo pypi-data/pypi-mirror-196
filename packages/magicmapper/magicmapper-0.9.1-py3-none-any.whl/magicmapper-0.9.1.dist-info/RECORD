@@ -1,0 +1,9 @@
+magicmapper/__init__.py,sha256=PZM03y5PbsEd0CG0v3IKaURoQKDMXJhEefDf-8W6w5E,65
+magicmapper/magicmapper.py,sha256=BQZSv8Hscl4-soCLT9WS50doviHZfFVOVoNNL1SgSWs,4288
+magicmapper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magicmapper/tests/test_magic.py,sha256=e5CJq0BXLAMbk24ub8abfwABshBuhUjC5Ob_qDF2QSo,2055
+magicmapper-0.9.1.dist-info/LICENSE,sha256=g-Z-5ugZrEMYvt0YiHWL7MFO3mHobMUcM6ky9sv2_V4,1060
+magicmapper-0.9.1.dist-info/METADATA,sha256=ZEEoTGN5d-TTGcSytt8s-YWTqLYUjA8FFxhpAoKWuLo,1259
+magicmapper-0.9.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+magicmapper-0.9.1.dist-info/top_level.txt,sha256=ZbcXuuUUPlBMbZ8AMz4mnizZcJERMwg8wXSVWdkewUE,12
+magicmapper-0.9.1.dist-info/RECORD,,
