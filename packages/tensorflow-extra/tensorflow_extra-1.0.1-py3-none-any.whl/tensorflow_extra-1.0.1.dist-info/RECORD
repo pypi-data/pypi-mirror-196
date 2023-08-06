@@ -1,0 +1,10 @@
+tensorflow_extra/__init__.py,sha256=TBPC41TQAfUwG99BYI2DtW5XftTlyB4PuInxAVetDog,111
+tensorflow_extra/activations.py,sha256=wsxXTSQu7wVB9eJ4I6BIXF_5Gfl1AIE81y1axUg47l0,445
+tensorflow_extra/layers.py,sha256=j4sneMyVD5cJWEgRn_Q0d8STFQ3yWpgAIpjP0VI1rkU,10355
+tensorflow_extra/utils.py,sha256=XqIjlyN9mWz1W69tOhCsQppcTyS4USRaf2zsp8qUfW0,367
+tensorflow_extra/version.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+tensorflow_extra-1.0.1.dist-info/LICENSE.md,sha256=dyV9j2LJwfnH0fDIav_OgQfgsWlSQxk5b8PGWxowUiA,1073
+tensorflow_extra-1.0.1.dist-info/METADATA,sha256=A10ZinowPIE2cJ4PPaFiWjH5U3_SippzwqXmBVujy7E,1444
+tensorflow_extra-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tensorflow_extra-1.0.1.dist-info/top_level.txt,sha256=d5StC1waQMldATIo8q1qsHLLUnXFJf06sKgqtmKDBPw,17
+tensorflow_extra-1.0.1.dist-info/RECORD,,
