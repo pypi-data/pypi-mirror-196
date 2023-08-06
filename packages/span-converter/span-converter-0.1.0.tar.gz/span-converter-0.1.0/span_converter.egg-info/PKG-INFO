@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: span-converter
+Version: 0.1.0
+Summary: Convert a given text with spans to BIO tags.
+Home-page: UNKNOWN
+Author: Katarzyna Baraniak
+Author-email: kasiaagaasia@gmail.com
+License: MIT
+Description: #Span converter
+        
+        Convert a given text with spans to BIO tags.
+        Allows overlapping spans. 
+        
+        ### Installation
+        `pip install span-converter
+        `
+        
+        ### Get started
+        `
+        from span_converter import SpanConverter
+        
+        converter=SpanConverter("pl")
+        
+        result=converter.convert("tu mam tekst, kolejny już.", [{'start': 14, 'end': 21, 'label': 'uuu'}])
+        
+        `
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

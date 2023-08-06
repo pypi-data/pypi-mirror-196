@@ -1,0 +1,9 @@
+README.md
+setup.py
+span_converter/__init__.py
+span_converter/span_converter.py
+span_converter.egg-info/PKG-INFO
+span_converter.egg-info/SOURCES.txt
+span_converter.egg-info/dependency_links.txt
+span_converter.egg-info/requires.txt
+span_converter.egg-info/top_level.txt
