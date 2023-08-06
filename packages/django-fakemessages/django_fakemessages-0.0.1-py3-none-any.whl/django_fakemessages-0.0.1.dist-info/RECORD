@@ -1,0 +1,9 @@
+fakemessages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakemessages/apps.py,sha256=tR8fJeNICs_J0sqQSp3T5gC0I-nTY8sCZXD73eIqLZY,169
+fakemessages/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakemessages/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakemessages/management/commands/fakemessages.py,sha256=KYe758NVUlLEuBrUqLGesG7kz7lbHdcqphtzF8SPUgo,987
+django_fakemessages-0.0.1.dist-info/LICENSE,sha256=h4IP_HF0OLCsemhDyuD2NSJxtTqmWiNuYzq23cNvEzU,1070
+django_fakemessages-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+django_fakemessages-0.0.1.dist-info/METADATA,sha256=IEi24R2aOm9aIPe1xgix8r4cJKqY3oCbxuzwrJbzmYE,5226
+django_fakemessages-0.0.1.dist-info/RECORD,,
