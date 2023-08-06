@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: RoboFlowSocket
+Version: 1.0
+Summary: 用于控制mycobot pro 600，连接机械臂服务端，进行TCP/IP通讯
+Home-page: https://github.com/elephantrobotics/pymycobot
+Author: Elephantrobotics
+Author-email: weiquan.xu@elephantrobotics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, != 3.4.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# It is used to control mycobot pro 600 and connect the robotic arm server for TCP/IP communication
+
+

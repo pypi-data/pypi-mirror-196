@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+RoboFlowSocket/RoboFlowSocketSDK.py
+RoboFlowSocket/__init__.py
+RoboFlowSocket.egg-info/PKG-INFO
+RoboFlowSocket.egg-info/SOURCES.txt
+RoboFlowSocket.egg-info/dependency_links.txt
+RoboFlowSocket.egg-info/top_level.txt
