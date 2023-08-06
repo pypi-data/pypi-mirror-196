@@ -1,0 +1,2 @@
+include src/emantis/*.txt
+include src/emantis/*.h5
