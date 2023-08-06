@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Shh/__init__.py
+pyShhX.egg-info/PKG-INFO
+pyShhX.egg-info/SOURCES.txt
+pyShhX.egg-info/dependency_links.txt
+pyShhX.egg-info/requires.txt
+pyShhX.egg-info/top_level.txt
