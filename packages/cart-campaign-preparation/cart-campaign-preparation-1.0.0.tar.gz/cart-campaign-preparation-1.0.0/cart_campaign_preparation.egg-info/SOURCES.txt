@@ -1,0 +1,6 @@
+README.md
+setup.py
+cart_campaign_preparation.egg-info/PKG-INFO
+cart_campaign_preparation.egg-info/SOURCES.txt
+cart_campaign_preparation.egg-info/dependency_links.txt
+cart_campaign_preparation.egg-info/top_level.txt
