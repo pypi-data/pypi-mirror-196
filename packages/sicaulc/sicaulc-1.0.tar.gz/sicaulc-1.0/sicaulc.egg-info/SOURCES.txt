@@ -1,0 +1,6 @@
+setup.py
+sicaulc.egg-info/PKG-INFO
+sicaulc.egg-info/SOURCES.txt
+sicaulc.egg-info/dependency_links.txt
+sicaulc.egg-info/top_level.txt
+src/__init__.py
