@@ -1,0 +1,9 @@
+[oasys.addons]
+HALF-SRW = orangecontrib.halfsrw
+
+[oasys.menus]
+halfsrwmenu = orangecontrib.halfsrw.menu
+
+[oasys.widgets]
+HALF-SRW Optical Elements = orangecontrib.halfsrw.widgets.optical_elements
+HALF-SRW Sources = orangecontrib.halfsrw.widgets.sources
