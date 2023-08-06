@@ -1,0 +1,41 @@
+[
+{
+    key: webz.static
+    import: webz
+    call: Static
+    args: []
+}
+{
+    key: webz.obj.config
+    import: webz.configz
+    call: Config
+    args: [
+        (buildz.this, ref)
+        (webz.urls, ref)
+    ],
+    maps: [
+        (config_type, webz.config_type, ref)
+    ]
+}
+{
+    key: webz.fc.init
+    import: webz
+    call: init
+    args: [
+        (webz.obj.config, ref)
+    ]
+}
+{
+    key: webz.fc.run
+    import: webz
+    call: run
+    args: [
+        (webz.port, ref)
+        (webz.ip, ref)
+    ]
+}
+{
+    key: webz.main
+    calls: [webz.fc.init, webz.fc.run]
+}
+]
