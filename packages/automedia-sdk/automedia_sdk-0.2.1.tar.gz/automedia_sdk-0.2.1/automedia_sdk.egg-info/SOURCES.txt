@@ -1,0 +1,17 @@
+COPYING
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+automedia_sdk/__init__.py
+automedia_sdk/api.py
+automedia_sdk/cli.py
+automedia_sdk.egg-info/PKG-INFO
+automedia_sdk.egg-info/SOURCES.txt
+automedia_sdk.egg-info/dependency_links.txt
+automedia_sdk.egg-info/entry_points.txt
+automedia_sdk.egg-info/requires.txt
+automedia_sdk.egg-info/top_level.txt
+automedia_sdk/core/__init__.py
+automedia_sdk/core/fortunes.py
+automedia_sdk/core/utils.py
