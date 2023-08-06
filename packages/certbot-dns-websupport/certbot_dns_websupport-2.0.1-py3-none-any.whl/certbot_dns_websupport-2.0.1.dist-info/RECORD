@@ -1,0 +1,8 @@
+certbot_dns_websupport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_websupport/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_websupport/_internal/dns_websupport.py,sha256=24g8eEfar-iOR9XBcnTHQoYrvOoLWig4V8YH5FNPQKs,8168
+certbot_dns_websupport-2.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+certbot_dns_websupport-2.0.1.dist-info/METADATA,sha256=BrZKX-CKF8SAbt4UlXyLqNBJJSxlsOjfjvGNDVFlorQ,6398
+certbot_dns_websupport-2.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+certbot_dns_websupport-2.0.1.dist-info/entry_points.txt,sha256=i3bT0xdZeuajrVxJYrqaEmBnrRCzkV5vishR5pV2D20,96
+certbot_dns_websupport-2.0.1.dist-info/RECORD,,
