@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: snake_env
+Version: 1.2
+Summary: A gymnasium environment for the Snake game
+Author: Maksymilian Piotrowski
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## Modules
+ - `snake_big` - contains Snake class: the gym environment with a big grid_size $^2$ - element observation space
+ - `snake_small` - contains Snake class: the gym environment with a small 4-element observation space, works better for big grids (>7 length)
