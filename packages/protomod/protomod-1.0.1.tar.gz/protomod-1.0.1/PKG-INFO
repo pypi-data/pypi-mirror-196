@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: protomod
+Version: 1.0.1
+Home-page: https://github.com/PouyaEsmaili/protomod
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Protobuf Modifier
+
+This is a tool to modify protobuf files. It can be used to include specific messages, services or rpcs.
+
+## Usage
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python main.py -s <source-dir> -d <destination-dir> [-n <option-name>]+
+```
