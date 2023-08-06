@@ -1,0 +1,14 @@
+cppython/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython/builder.py,sha256=lMHXsEKJGwnaIgA-judY_r6xDXdby4qOX2z33aDAHO4,10854
+cppython/console/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython/console/interface.py,sha256=XFmhdorQgkPYabvQgbZf6jHIhxgM2MrN8xlMpRnqZaM,3026
+cppython/plugins/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+cppython/plugins/git.py,sha256=jifFeN6yzAKPn_PT6SDpsxOUF8RO50QHDwoRQoqzdhY,1192
+cppython/project.py,sha256=xVFArZGSq14FhOsEhk2uwdnn8N_Pt_SS3sr4oCIyaQ8,5378
+cppython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cppython/schema.py,sha256=YGCGfWQH9rGSQF7rmUONzgMM9UIB7ikP3f2NpCd1_kc,381
+cppython-0.7.1.dev27.dist-info/entry_points.txt,sha256=4KUEcDrO79rbqwB22n6SlTgjLslKrrXjCakX_uu0XWk,106
+cppython-0.7.1.dev27.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+cppython-0.7.1.dev27.dist-info/METADATA,sha256=Ei1Zmm_Kzy8g8kyjsCLgR2GleANfOLHNEXvMBySTgKA,648
+cppython-0.7.1.dev27.dist-info/licenses/LICENSE.md,sha256=O2GDdR5BeAXcN20aptXMBkBD0QUDlBgHTw-0JJApQOM,1070
+cppython-0.7.1.dev27.dist-info/RECORD,,
