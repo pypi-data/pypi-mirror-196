@@ -1,0 +1,8 @@
+README.md
+setup.py
+Quickvisual/Chartplots.py
+Quickvisual/__init__.py
+Quickvisual.egg-info/PKG-INFO
+Quickvisual.egg-info/SOURCES.txt
+Quickvisual.egg-info/dependency_links.txt
+Quickvisual.egg-info/top_level.txt
