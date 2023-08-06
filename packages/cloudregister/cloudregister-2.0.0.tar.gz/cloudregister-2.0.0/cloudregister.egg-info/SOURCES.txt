@@ -1,0 +1,7 @@
+MANIFEST.in
+reporter.py
+setup.py
+cloudregister.egg-info/PKG-INFO
+cloudregister.egg-info/SOURCES.txt
+cloudregister.egg-info/dependency_links.txt
+cloudregister.egg-info/top_level.txt
