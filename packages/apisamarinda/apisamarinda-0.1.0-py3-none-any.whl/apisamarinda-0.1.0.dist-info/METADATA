@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: apisamarinda
+Version: 0.1.0
+Summary: Library untuk menggunakan API Samarinda.
+Home-page: https://api.samarindakota.go.id/
+Author: Novianto Rahmadi
+Author-email: novay@btekno.id
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# API Samarinda (Py)
+Library untuk menggunakan API Samarinda menggunakan Bahasa Python.
+
+### Instalasi
+```
+pip install apisamarinda
+```
+
+### Contoh Penggunaan
+
+```Python
+from apisamarinda import api
+
+# File api_auth.json bisa diunduh melalui halaman API Anda
+request = api.ApiClient("./api_auth.json")
+
+# Gunakan Endpoint yang Anda ingin tampilkan
+result = request.result('API_URL')
+
+# Tampilkan dalam bentuk JSON
+result.json()
+```
+
+### TODO
+Ini masih tahap uji coba karena bertepatan dengan tugas kuliah yang maksain pake Python.
+- Saat ini hanya mendukung GET
