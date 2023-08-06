@@ -1,0 +1,6 @@
+README.md
+setup.py
+mms_sdk.egg-info/PKG-INFO
+mms_sdk.egg-info/SOURCES.txt
+mms_sdk.egg-info/dependency_links.txt
+mms_sdk.egg-info/top_level.txt
