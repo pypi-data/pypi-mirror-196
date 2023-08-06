@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "schat"
+version = "0.1.0"
+description = "Chat with OpenAI ChatGPT in your command line, just for simple and ez"
+license = "MIT"
+authors = ["HFrost0 <hhlfrost@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/HFrost0"
+repository = "https://github.com/HFrost0/Simple-Chat"
+documentation = ""
+keywords = ["ChatGPT", "CLI"]
+classifiers = [
+	"Topic :: Utilities",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Operating System :: MacOS",
+	"Operating System :: Microsoft :: Windows",
+	]
+packages = [
+	{include = "simple_chat"},
+	]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+openai = "*"
+rich = "*"
+
+[tool.poetry.scripts]
+schat = 'simple_chat.__main__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
