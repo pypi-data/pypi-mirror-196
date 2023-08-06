@@ -1,0 +1,11 @@
+lndb_storage/__init__.py,sha256=5qA2BBOMcUkPjiXVJgSTZ-zzzLWat8FJK5pXBGMyZs0,324
+lndb_storage/_anndata_sizes.py,sha256=OOM9mJmhvho5JacsuMsHTXoWfvF0vjxRvg_Pi9VkAo4,730
+lndb_storage/_core.py,sha256=rQR-WtfNq2Wj0sJ9Cbeip_XLweE13XWcn_V4OXcFrfo,530
+lndb_storage/_file.py,sha256=3nYnatEt2RQswcv-OGI0sL9DqA0TY5PoR2AWqku38Go,2468
+lndb_storage/_h5ad.py,sha256=2lNbrNYRkLYZlu3NdsCRdwq8uomCPKQpcfF9ds0-fiM,496
+lndb_storage/_images.py,sha256=Nbwxb2Xdxc6Qb5DqglEUsCkfudYzhQSzuSxvzSA3vGU,200
+lndb_storage/_zarr.py,sha256=XlN9bK5-SC3P26Qwij8mYXXLI825pC9SqNUYSblOsNc,3132
+lndb_storage-0.0.1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+lndb_storage-0.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+lndb_storage-0.0.1.dist-info/METADATA,sha256=CxfDlLUpXdUA-rS1i7oF8GixM2ELR4lE_K17yeT9r9M,932
+lndb_storage-0.0.1.dist-info/RECORD,,
