@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: chromedriver-autoupdate
+Version: 1.1.1
+Summary: chromedriver的自动更新
+Home-page: https://github.com/roiding/chromedriver-autoupdate
+Author: roiding
+Author-email: dingran@ran-ding.ga
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+# 使用方式
+```bash
+from  chromedriver_autoupdate import checkAndUpdate
+
+checkAndUpdate('存放driver的绝对地址')
+```
