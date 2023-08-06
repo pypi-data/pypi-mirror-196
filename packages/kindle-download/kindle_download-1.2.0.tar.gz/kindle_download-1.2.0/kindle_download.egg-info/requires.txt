@@ -1,0 +1,6 @@
+requests
+browser-cookie3
+mobi
+
+[:sys_platform == "win32"]
+pywin32
