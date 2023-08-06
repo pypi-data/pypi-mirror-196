@@ -1,0 +1,16 @@
+charmonium/freeze/__init__.py,sha256=c6WgGciYpOz067eih6zkCNYS_ZaVdnWN0IX9bDIzNqI,882
+charmonium/freeze/config.py,sha256=wWksnGgphWdoraKVigBvoFGSzmYb8WxbzB4nevDg-i0,8988
+charmonium/freeze/freeze_basic.py,sha256=jeGcCzMpPak1lmuI2noPj_TdzV9dPG80IIvZ7cr5tEI,7082
+charmonium/freeze/freeze_files.py,sha256=o4BOBpPC9f_plpd1V9Ff1jYVQPxM7trDhp92MjsIyy4,4701
+charmonium/freeze/freeze_function.py,sha256=wub4mcZ_0RHciw7a4oemZympgYiGkB_RVTqNV-ncR7A,4083
+charmonium/freeze/freeze_objects.py,sha256=h8AWK3dKC3BICKW5V9kEPtBfCaekq8ZRRUw8yDsmDsY,3452
+charmonium/freeze/freeze_thirdparty.py,sha256=b8jFj1dUxCy6GXOMDM2hDQyaQhBt70hVEnL4XXDxA7I,2363
+charmonium/freeze/freeze_type.py,sha256=vgZMeOnkkoeNJ1EP-AIkvklqP1EyuUxs4Sbs8im1d_o,4319
+charmonium/freeze/lib.py,sha256=JixwGggsHdaWirkHFHcUWqI96HaSRP5P2YJbwELkE4c,9840
+charmonium/freeze/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+charmonium/freeze/summarize_diff.py,sha256=JKg47_rxPNiUeZgsHFNZ_T-VNUMmJb9XLbP1jMdzl0M,6081
+charmonium/freeze/util.py,sha256=o1UDqJ9azJIvLiCtq1fQyL5jf7BRJ5-xdxx8J_vk11U,5943
+charmonium.freeze-0.8.0.dist-info/LICENSE,sha256=w7G3i8i9PqE6pLyXeEQtFlYCcK-iNQBtgW5eiM7yTbQ,1077
+charmonium.freeze-0.8.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+charmonium.freeze-0.8.0.dist-info/METADATA,sha256=wFIC6kEaAUHO4rXVLbr5n5qomPyw26FwoaUq0yVWMho,19041
+charmonium.freeze-0.8.0.dist-info/RECORD,,
