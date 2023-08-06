@@ -1,0 +1,6 @@
+README.md
+setup.py
+logistics_partner_open_platform.egg-info/PKG-INFO
+logistics_partner_open_platform.egg-info/SOURCES.txt
+logistics_partner_open_platform.egg-info/dependency_links.txt
+logistics_partner_open_platform.egg-info/top_level.txt
