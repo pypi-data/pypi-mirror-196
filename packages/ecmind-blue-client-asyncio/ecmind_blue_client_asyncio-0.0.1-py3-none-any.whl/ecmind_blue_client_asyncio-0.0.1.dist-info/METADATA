@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ecmind-blue-client-asyncio
+Version: 0.0.1
+Summary: A asyncio client wrapper for blue
+Home-page: https://gitlab.ecmind.ch/open/ecmind_blue_client_asyncio
+Author: Ulrich Wohlfeil, Roland Koller
+Author-email: info@ecmind.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio-connection-pool
+Requires-Dist: ecmind-protlib-transition
+
