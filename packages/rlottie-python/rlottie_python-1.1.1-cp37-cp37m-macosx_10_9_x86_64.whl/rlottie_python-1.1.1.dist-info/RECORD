@@ -1,0 +1,11 @@
+rlottie_python-1.1.1.dist-info/RECORD,,
+rlottie_python-1.1.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+rlottie_python-1.1.1.dist-info/WHEEL,sha256=KtZ7eNCPq9OYd-Paq8-R-2Ezl1jHksdg5lk6M0ShTSE,101
+rlottie_python-1.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rlottie_python-1.1.1.dist-info/METADATA,sha256=whyRmcI0N4Fa9J6MF_qozJkY8neyAm816r8wuOX2g20,4826
+rlottie_python/rlottie_wrapper.py,sha256=4dEAMqZWftjZrg52o1XP3igROOwWC4DISR8_1tlQIHg,23384
+rlottie_python/librlottie.dylib,sha256=8W_K8jjMrG104tYe3s4FPuBM9AbPGJqY01OmdlpizH0,573536
+rlottie_python/librlottie.0.dylib,sha256=8W_K8jjMrG104tYe3s4FPuBM9AbPGJqY01OmdlpizH0,573536
+rlottie_python/__init__.py,sha256=_ttJBTLQ8opMPtpEoSGtP6XbvD3t0-VFY5BpjMP8KPE,89
+rlottie_python/rlottiecommon.py,sha256=3GmfxuBomZYovlc_6J-mutzJGktKfFNTLTgShbGHlSo,4004
+rlottie_python/librlottie.0.2.dylib,sha256=8W_K8jjMrG104tYe3s4FPuBM9AbPGJqY01OmdlpizH0,573536
