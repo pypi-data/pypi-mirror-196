@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=Sup2N-F1iIrNiFKI2cbBDzUu4CzwsYURjWewtT5Vz4c,230
+tests/test_text.py,sha256=Wb5-7ofKBXPsrTF_WFTJS201cCccafDBPpBKSCQ9vWw,546
+thaibraille/__init__.py,sha256=-ZIeHvrqyBiJJob1nB3E2gbwH72CBMdJpQd_3a3LW0s,54
+thaibraille/text/__init__.py,sha256=T991d_JUU9fBTO7thy4sR0zIF-GdwIfaTOAo2zQH5UI,223
+thaibraille/text/core.py,sha256=bRdEEvPR1kbKfvBrcyOvkbXhZ8YYaaHsgMjMkaV6KF8,12013
+thaibraille-0.1.dev1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thaibraille-0.1.dev1.dist-info/METADATA,sha256=UlwDudeSoT-0UYWknlDABhD6oyRs91ZTziWEMMmBH6A,2227
+thaibraille-0.1.dev1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+thaibraille-0.1.dev1.dist-info/top_level.txt,sha256=W9WPkaqEDI8NbchOQObE5KrJiutcfaXXSZtV4ysfdNA,18
+thaibraille-0.1.dev1.dist-info/RECORD,,
