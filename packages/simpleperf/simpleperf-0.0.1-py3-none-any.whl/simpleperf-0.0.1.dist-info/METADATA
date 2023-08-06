@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simpleperf
+Version: 0.0.1
+Summary: Simpleperf is a native CPU profiling tool for Android.
+Home-page: https://github.com/shizhao-git/simpleperf
+Author: shizhao
+Author-email: shizhao@mail.nwpu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simpleperf
+
+[![PyPI](https://img.shields.io/pypi/v/simpleperf)](https://pypi.org/project/simpleperf/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/simpleperf)](https://pypistats.org/search/simpleperf)
+
+**Simpleperf** is a native CPU profiling tool for Android.
+
+## Installing Simpleperf
+
+Simpleperf is available on PyPI:
+
+```console
+$ python -m pip install simpleperf
+```
+
+## LICENSE
+[MIT](LICENSE)
+
+
