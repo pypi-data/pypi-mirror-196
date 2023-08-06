@@ -1,0 +1,5 @@
+opencv-python
+requests
+moz-measure-noise==2.60.1
+numpy
+scipy
