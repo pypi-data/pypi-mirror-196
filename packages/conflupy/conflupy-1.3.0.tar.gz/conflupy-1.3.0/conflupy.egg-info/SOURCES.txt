@@ -1,0 +1,11 @@
+LICENSE.md
+NOTICE.md
+README.md
+confluence.py
+pyproject.toml
+setup.py
+conflupy.egg-info/PKG-INFO
+conflupy.egg-info/SOURCES.txt
+conflupy.egg-info/dependency_links.txt
+conflupy.egg-info/requires.txt
+conflupy.egg-info/top_level.txt
