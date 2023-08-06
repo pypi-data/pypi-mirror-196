@@ -1,0 +1,11 @@
+openstudio
+honeybee_energy
+honeybee_radiance
+ifcopenshell
+plotly
+numpy
+scipy
+pandas
+torch
+dgl
+scikit-learn
