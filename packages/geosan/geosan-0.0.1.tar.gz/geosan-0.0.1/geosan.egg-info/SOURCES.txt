@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geosan/__init__.py
+geosan/geosan.py
+geosan.egg-info/PKG-INFO
+geosan.egg-info/SOURCES.txt
+geosan.egg-info/dependency_links.txt
+geosan.egg-info/not-zip-safe
+geosan.egg-info/top_level.txt
