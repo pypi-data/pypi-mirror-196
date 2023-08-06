@@ -1,0 +1,11 @@
+zcbot_service_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zcbot_service_sdk/callback.py,sha256=OvX9fbmojAGSS7mC_zxQbe5pyHrxWF_ozUyc2hA4kaM,468
+zcbot_service_sdk/client.py,sha256=t7mwedeHsJucIZfQ_PpPKrOtfUr8q0ozJm7X1r2yofM,6105
+zcbot_service_sdk/exceptions.py,sha256=nxDMZNasHTlLPLFPGyjEZrt9cAlg08YIBoI1THJ7GBU,125
+zcbot_service_sdk/keys.py,sha256=Sl6Ce6dCFWPawH_RKKES6E75-M34Y8byz1aggeuGobA,423
+zcbot_service_sdk/multi_thread.py,sha256=5yQ1Dbd8BAwFbOgMXG3B4JA_oUCiU1BkbcAEUcTNI9Q,2106
+zcbot_service_sdk/utils.py,sha256=sX2PmeJedE7dgNA6TiFAtwhj1a11N0ymSRU_fCO6VnU,3152
+zcbot_service_sdk-0.0.2.dist-info/METADATA,sha256=SWyHyE-bZnC1U6AAYAMXVffz387pBgp7Wvz-Aime9H4,322
+zcbot_service_sdk-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+zcbot_service_sdk-0.0.2.dist-info/top_level.txt,sha256=kWVBr2-gQlv2PRa13BMQHLPe3rrMZ11rNjHbEV1WDmw,18
+zcbot_service_sdk-0.0.2.dist-info/RECORD,,
