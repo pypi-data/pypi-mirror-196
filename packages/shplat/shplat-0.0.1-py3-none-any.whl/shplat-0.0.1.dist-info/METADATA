@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: shplat
+Version: 0.0.1
+Requires-Dist: build (==0.10.0)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: flake8 (==6.0.0)
+Requires-Dist: jsonpath-ng (==1.5.3)
+Requires-Dist: llvmlite (==0.39.1)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: numba (==0.56.4)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: packaging (==23.0)
+Requires-Dist: ply (==3.11)
+Requires-Dist: pycodestyle (==2.10.0)
+Requires-Dist: pyflakes (==3.0.1)
+Requires-Dist: pyproject-hooks (==1.0.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tomli (==2.0.1)
+
