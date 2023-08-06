@@ -1,0 +1,7 @@
+README.md
+setup.py
+source/postman_sdk.egg-info/PKG-INFO
+source/postman_sdk.egg-info/SOURCES.txt
+source/postman_sdk.egg-info/dependency_links.txt
+source/postman_sdk.egg-info/requires.txt
+source/postman_sdk.egg-info/top_level.txt
