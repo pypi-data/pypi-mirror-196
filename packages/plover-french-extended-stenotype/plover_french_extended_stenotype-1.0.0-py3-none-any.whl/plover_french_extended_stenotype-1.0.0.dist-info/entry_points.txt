@@ -1,0 +1,3 @@
+[plover.system]
+FrenchExtended Stenotype = plover_french_extended_stenotype.system
+
