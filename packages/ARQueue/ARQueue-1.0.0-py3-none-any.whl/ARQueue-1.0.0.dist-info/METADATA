@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ARQueue
+Version: 1.0.0
+Summary: Automated downloading of queue items from AlphaRatio
+Author: OMEGA_RAZER
+Keywords: queue,torrent,AlphaRatio
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: environs (>=9.5.0)
+Requires-Dist: httpx[brotli,http2] (>=0.23.3)
+Requires-Dist: loguru (>=0.6.0)
+Provides-Extra: dev
+Requires-Dist: black (>=23.1.0) ; extra == 'dev'
+Requires-Dist: pre-commit (>=3.1.1) ; extra == 'dev'
+Requires-Dist: ruff (>=0.0.246) ; extra == 'dev'
+
