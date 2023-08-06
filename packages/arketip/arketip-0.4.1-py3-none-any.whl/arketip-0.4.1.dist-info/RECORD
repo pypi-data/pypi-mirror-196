@@ -1,0 +1,10 @@
+arketip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arketip/_version.py,sha256=0_dB-SwRXzCHowA3kD_9MmecjmUqQiIbDwJmtaXjluI,160
+arketip/arketip.py,sha256=OCKYoQvuXRLTCGqZnd60a46-bu2Unnzgw9UWFBY0-00,3500
+arketip/cached.py,sha256=3OsEH9a9HpmUw3pSTNWhWK0T0yD8UvDxe7QoSa-4SWA,551
+arketip/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arketip-0.4.1.dist-info/LICENSE,sha256=QHlt5TT5ZTypwtlvPjJJ4NFhuZ3h94uvUOwxI7QXlng,1072
+arketip-0.4.1.dist-info/METADATA,sha256=3H8MDgLnEQpGyi4UiO6e4c1j0ybw4-TuT4iXcI-AG-w,2946
+arketip-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+arketip-0.4.1.dist-info/top_level.txt,sha256=s93fNrqGJ9QF82dVtV2Ib6cROVXJ2xKfa1I-yRY6S2g,8
+arketip-0.4.1.dist-info/RECORD,,
