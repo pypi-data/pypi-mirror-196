@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: challenge.report-generation
+Version: 1
+Summary: Tool for computing the PnL.
+Home-page: UNKNOWN
+Author: Begona Gonzalez
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dateparser
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2
+
+UNKNOWN
+
