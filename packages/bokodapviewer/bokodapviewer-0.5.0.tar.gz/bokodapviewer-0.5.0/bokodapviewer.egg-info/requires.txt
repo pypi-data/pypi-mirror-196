@@ -1,0 +1,4 @@
+numpy>=1.20
+bokeh>=3
+bokcolmaps>=3
+sodapclient>=0.2.1
