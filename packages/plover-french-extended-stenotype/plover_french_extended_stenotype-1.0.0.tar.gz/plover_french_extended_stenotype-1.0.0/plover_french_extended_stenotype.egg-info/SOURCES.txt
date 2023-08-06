@@ -1,0 +1,10 @@
+README
+setup.cfg
+setup.py
+plover_french_extended_stenotype.egg-info/PKG-INFO
+plover_french_extended_stenotype.egg-info/SOURCES.txt
+plover_french_extended_stenotype.egg-info/dependency_links.txt
+plover_french_extended_stenotype.egg-info/entry_points.txt
+plover_french_extended_stenotype.egg-info/requires.txt
+plover_french_extended_stenotype.egg-info/top_level.txt
+plover_french_extended_stenotype.egg-info/zip-safe
