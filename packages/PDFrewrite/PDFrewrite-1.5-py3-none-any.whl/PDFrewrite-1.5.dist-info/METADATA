@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: PDFrewrite
+Version: 1.5
+Summary: 移除非图片页
+Author: ivyZ
+Requires-Dist: PyPDF4
+
