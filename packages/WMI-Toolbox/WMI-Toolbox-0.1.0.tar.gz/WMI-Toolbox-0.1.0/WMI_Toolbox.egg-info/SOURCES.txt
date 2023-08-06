@@ -1,0 +1,8 @@
+README.md
+setup.py
+WMI-Toolbox/__init__.py
+WMI_Toolbox.egg-info/PKG-INFO
+WMI_Toolbox.egg-info/SOURCES.txt
+WMI_Toolbox.egg-info/dependency_links.txt
+WMI_Toolbox.egg-info/requires.txt
+WMI_Toolbox.egg-info/top_level.txt
