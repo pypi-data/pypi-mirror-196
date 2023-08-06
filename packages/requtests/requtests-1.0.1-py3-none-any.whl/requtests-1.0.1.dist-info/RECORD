@@ -1,0 +1,10 @@
+requtests/__init__.py,sha256=mDMPjEBo8O6dpBq8xLgjojPLgLRFQ_kGYeklKJujgwQ,292
+requtests/fake_adapter.py,sha256=YQp3GBJrAg8tYudIf8KpcnGmZ_Uk3C8gMlyKfpwW8y0,757
+requtests/fake_api.py,sha256=GD0EtKutQbfPQctpie23D5DrypdedE7ywmfkk_CBccM,2103
+requtests/fake_request.py,sha256=0dN2KC5hhfUaRpJ4pUuiiqedUxOYghR9bIaf6GS5LdE,634
+requtests/fake_response.py,sha256=HvYtl-EDwPm4es0i7307GsMCV0RHUTUQMiPP8-1hWBo,616
+requtests-1.0.1.dist-info/LICENSE,sha256=Qbx771hWm4a0m9KLDJzg4u1v1Z-7VtRGVBK1ZvVSWDk,1068
+requtests-1.0.1.dist-info/METADATA,sha256=CCRorvebaBOG224lubryS2NfXshrtsdZXJPTVSs-2uE,4399
+requtests-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+requtests-1.0.1.dist-info/top_level.txt,sha256=sR0cJ4cAE7hyOln3xU5U0h0BkmMsyQ_mMvdTdPN0DaA,10
+requtests-1.0.1.dist-info/RECORD,,
