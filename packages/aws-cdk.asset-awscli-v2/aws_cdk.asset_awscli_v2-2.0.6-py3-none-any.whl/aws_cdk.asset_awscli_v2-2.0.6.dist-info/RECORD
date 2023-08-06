@@ -1,0 +1,10 @@
+aws_cdk/asset_awscli_v2/__init__.py,sha256=1Yb3PaDTAQKa3I3ACzKATreiQFfa5eaC7LiqbzZ6WVw,6041
+aws_cdk/asset_awscli_v2/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/asset_awscli_v2/_jsii/__init__.py,sha256=iiBvwRJUhPp-mtPiMKZMc8glgZH4avXrGHY1Hrmp6ys,419
+aws_cdk/asset_awscli_v2/_jsii/asset-awscli-v2@2.0.6.jsii.tgz,sha256=GHJH29MoTR0FTFNpGZNSOUl9vnJR_anFd0ZgyMO9wrU,53128293
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/METADATA,sha256=29_VfF7z0DR6maICoWCuT4-d_wmw9d8O081ZJcmYaAw,2192
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.asset_awscli_v2-2.0.6.dist-info/RECORD,,
