@@ -1,0 +1,14 @@
+tally/__init__.py,sha256=3fahcfbYBAWfFSdwijrLpu5mmaFo69tfJPTnbIJdNNA,204
+tally/build.py,sha256=V7DxM9HpHFEZPnF-23aSOIK78_L0NvnA2wtlCZRv3-8,9478
+tally/build_defaults.py,sha256=mXOeJpKW1Pms7-EP3sPQiFJfVMrOAKDDUi2ht3s0hno,1491
+tally/dataset.py,sha256=j0EIDTPq3jZA34CoW5agCsNxbyNqMlt0PEICys0BiZ4,36275
+tally/decorators.py,sha256=EXgpAg5lojMmgvj561ZZg-oEIv0LsmMoquyhUuK11BQ,4487
+tally/helpers.py,sha256=6H9xeHwa5pssSw-cx_5UFouffh8YrLEHksq1h0Zewms,1276
+tally/options.py,sha256=OOzlDWu4OVVMDDDZDQtDFDuml1obUN2rO-CmwpFJ0Vg,10327
+tally/sheet.py,sha256=ZcVjHKKAEdI5jEpYBVAYPKRiQeNS-GfcQxGnfufiU_4,14127
+tally/tally.py,sha256=HiCgLxzhymWV0K8vZxPBwu9Sk987MrIjSlb4OUqWQ68,5614
+datasmoothie_tally_client-0.44.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasmoothie_tally_client-0.44.dist-info/METADATA,sha256=wiUTeg-NC0D2X6WfZuD1wAzq-qxETASRMA1jA1Cks1M,596
+datasmoothie_tally_client-0.44.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasmoothie_tally_client-0.44.dist-info/top_level.txt,sha256=MCq5jeYlnLOcv8w2E0l21RSWpVtF5PnKhEFu37s9Ov0,6
+datasmoothie_tally_client-0.44.dist-info/RECORD,,
