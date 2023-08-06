@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: simpel-sales
+Version: 0.1.1
+Summary: Simpel Sales, create quotation and sales order.  This is important apps!
+Home-page: https://gitlab.com/simpel-projects/simpel-sales
+Author: Rizki Sasri Dwitama
+Author-email: sasri.works@gmail.com
+License: MIT
+Project-URL: Documentation, https://gitlab.com/simpel-projects/simpel-sales/-/wikis/
+Project-URL: Source, https://gitlab.com/simpel-projects/simpel-sales
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django (<4.0,>=3.2.8)
+Requires-Dist: simpel-settings
+Requires-Dist: simpel-qrcodes
+Requires-Dist: simpel-contacts
+Requires-Dist: simpel-products
+Requires-Dist: simpel-admin
+Requires-Dist: simpel-themes
+Requires-Dist: simpel-utils
+Requires-Dist: simpel-numerators
+Requires-Dist: django-filter
+Requires-Dist: simpel-actions
+
+# 🚀 Sales !
+
+Simpel Sales, create quotation and sales order.  This is important apps!.

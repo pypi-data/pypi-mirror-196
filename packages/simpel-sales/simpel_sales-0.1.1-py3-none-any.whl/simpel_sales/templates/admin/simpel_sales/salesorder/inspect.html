@@ -1,0 +1,11 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n admin_urls %}
+
+{% block object-tools-items %}
+  {{ block.super }}
+  <li>
+    <a href="{% url opts|admin_urlname:"create_invoice" pk=object.id %}" class="printlink">
+      {% trans "Create Invoice" %}
+    </a>
+  </li>
+{% endblock %}
