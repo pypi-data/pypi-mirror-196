@@ -1,0 +1,2 @@
+[console_scripts]
+jageocoder = jageocoder.__main__:main
