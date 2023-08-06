@@ -1,0 +1,19 @@
+╭───────────────────────────────────────────────────────────────────────────────────────╮
+│                                         INSTALL                                       │
+├───────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                       │
+│ Syntax: courier install <package [version].                                           │
+│                                                                                       │
+│ Install a package to its latest version. Courier see if the package already exists.   │
+│ If the package does not exist, it be installed. If a version is specified             │
+│ it will install that specific version, provided the version is valid.                 │
+│                                                                                       │
+│ If the package is installed but can be updated, it will be updated. Additionally, if  │
+│ the package is greater than one word, it should be contained by quotation marks.      │
+│                                                                                       │
+│ courier install "foo bar"                                                             │
+│                                                                                       │
+│ with version:                                                                         │
+│ courier install "foo bar" 3.4.5                                                       │
+│                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────╯ 

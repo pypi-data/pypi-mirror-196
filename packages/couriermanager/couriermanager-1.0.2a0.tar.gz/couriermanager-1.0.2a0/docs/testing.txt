@@ -1,0 +1,8 @@
+╭───────────────────────────────────────────────────────────────────────────────────────╮
+│                                         TESTING                                       │
+├───────────────────────────────────────────────────────────────────────────────────────┤
+│ Description: Commands that are currently under development or in the process of being │
+│              introduced.                                                              │
+│                                                                                       │
+│ codescan --config: Specifcy specific locations for codescan                           │
+╰───────────────────────────────────────────────────────────────────────────────────────╯ 

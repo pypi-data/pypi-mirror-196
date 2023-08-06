@@ -1,0 +1,13 @@
+# Cache files
+*.pyc
+.pyc
+# Cache folders
+__pycache__
+__pycache__/
+# Local files
+update.json
+.tox
+*.json
+
+dist/
+src/Courier.egg-info/

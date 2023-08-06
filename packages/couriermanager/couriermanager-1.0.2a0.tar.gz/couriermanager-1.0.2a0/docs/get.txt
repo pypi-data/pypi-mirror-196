@@ -1,0 +1,11 @@
+╭───────────────────────────────────────────────────────────────────────────────────────╮
+│                                         GET                                           │
+├───────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                       │
+│ Syntax: courier get <package>                                                         │
+│                                                                                       │
+│ The get command is used for retrieving a specific package.                            │
+│ If the package is more than one word, it requires quotation marks                     │
+│                                                                                       │
+│ eg: courier get "foo bar"                                                             │
+╰───────────────────────────────────────────────────────────────────────────────────────╯ 

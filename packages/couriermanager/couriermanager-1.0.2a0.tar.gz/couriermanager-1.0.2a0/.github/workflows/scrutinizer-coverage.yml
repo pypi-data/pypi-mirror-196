@@ -1,0 +1,13 @@
+name: Coverage
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v3
