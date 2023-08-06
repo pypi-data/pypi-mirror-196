@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: MyTxtPdf
+Version: 1.0.2
+Summary: Teste referente a pubiclação do pacote
+Home-page: https://github.com/pedrotercio14/Pacote-InfoPdf.git
+Author: Pedro Tércio 
+Author-email: pedrotercio@gmail.com
+License: MIT License
+Keywords: pdf
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pacote-InfoPdf
+Pacote Python desenvolvido na disciplina de ProgramaÃ§Ã£o Orientada a Objetos II, com a funcionalidade de ler e traduzir arquivos em formato Pdf e fazer a conversÃ£o traduzida para TXT.
+
+# InstalaÃ§Ã£o
+
+pip install MyTxtPdf
+
+# Uso
+from MyTxtPdf import MyTxtPdf
+
+my_pdf = MyTxtPdf()
+my_pdf.SayThis('arquivo.pdf')
+
+my_pdf = MyTxtPdf()
+my_pdf.Translator('meuarquivo.pdf', 1)

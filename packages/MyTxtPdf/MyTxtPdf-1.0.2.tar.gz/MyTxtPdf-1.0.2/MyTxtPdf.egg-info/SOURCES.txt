@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MyTxtPdf.egg-info/PKG-INFO
+MyTxtPdf.egg-info/SOURCES.txt
+MyTxtPdf.egg-info/dependency_links.txt
+MyTxtPdf.egg-info/requires.txt
+MyTxtPdf.egg-info/top_level.txt
+MyTxtpdf/MyTxtPdf.py
+MyTxtpdf/__init__.py
