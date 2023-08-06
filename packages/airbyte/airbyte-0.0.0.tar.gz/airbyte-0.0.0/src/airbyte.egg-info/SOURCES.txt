@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+src/airbyte/__init__.py
+src/airbyte/connections.py
+src/airbyte/sdk.py
+src/airbyte.egg-info/PKG-INFO
+src/airbyte.egg-info/SOURCES.txt
+src/airbyte.egg-info/dependency_links.txt
+src/airbyte.egg-info/requires.txt
+src/airbyte.egg-info/top_level.txt
+src/airbyte/models/__init__.py
+src/airbyte/models/operations/__init__.py
+src/airbyte/utils/__init__.py
+src/airbyte/utils/retries.py
+src/airbyte/utils/utils.py
