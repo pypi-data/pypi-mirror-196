@@ -1,0 +1,5 @@
+aiohttp
+flask
+maturin
+requests
+uvicorn
