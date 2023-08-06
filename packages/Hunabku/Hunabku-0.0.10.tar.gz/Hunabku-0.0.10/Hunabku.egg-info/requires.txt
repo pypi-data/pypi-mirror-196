@@ -1,0 +1,6 @@
+flask>=1.1.2
+requests>=2.22.0
+bson
+
+[scienti]
+hunabku_scienti
