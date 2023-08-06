@@ -1,0 +1,8 @@
+README.md
+hackerhelp.py
+setup.py
+hackerhelp.egg-info/PKG-INFO
+hackerhelp.egg-info/SOURCES.txt
+hackerhelp.egg-info/dependency_links.txt
+hackerhelp.egg-info/entry_points.txt
+hackerhelp.egg-info/top_level.txt
