@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bokcolmaps
+Version: 3.1.2
+Summary: Colour map plots based on the Bokeh visualisation library
+Home-page: https://bitbucket.org/sea_dev/bokcolmaps
+Author: Systems Engineering & Assessment Ltd.
+Author-email: Marcus.Donnelly@sea.co.uk
+License: MIT
+Keywords: Bokeh,2D Plot,3D Plot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# bokcolmaps
+
+### Colour map plots based on the Bokeh visualisation library
+
+----------
+
+Get started with:
+
+import numpy  
+from bokcolmaps.plot_colourmap import plot_colourmap  
+data = numpy.random.rand(3, 4, 5)  
+plot_colourmap(data)
+
+or see bokcolmaps.Examples.plot_colourmap_example
+      
