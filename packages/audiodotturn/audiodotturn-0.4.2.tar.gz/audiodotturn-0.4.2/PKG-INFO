@@ -1,0 +1,247 @@
+Metadata-Version: 2.1
+Name: audiodotturn
+Version: 0.4.2
+Summary: A tool for formatting and organizing music files, mainly for files with no metadata.
+Author-email: tairenfd <tairenfd@mailbox.org>
+License: MIT License
+        
+        Copyright (c) 2023 tairenfd@mailbox.org
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+        of the Software, and to permit persons to whom the Software is furnished to do
+        so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+        THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://audiodotturn.tairenfd.xyz
+Project-URL: repository, https://github.com/tairenfd/audiodotturn
+Keywords: audio,music,organizer,metadata,formatter,tagger,manager,cli
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+License-File: LICENSE
+
+audiodotturn 0.4.2
+==================
+
+AudioDotTurn is a tool for formatting and organizing audio files with little to no metadata available. It provides a solution
+for situations where there are tons of unstandardized, unorganized files with little to no metadata, and sorting via metadata
+is not an option. With AudioDotTurn, users can quickly format a single file or a whole directory/subdirectories to the style of
+their choosing. 
+
+The tool creates a database for the user, which can be accessed via AudioDotTurn or any program that will interpret sql .db files.
+The database will be updated as new files are formatted as long as the db file is selected as the default db or selected at runtime.
+
+- Users can change settings via CLI
+- AudioDotTurn uses pretty output via rich for visually appealing output
+- Dry run mode available for seeing results of a run without making any actual changes
+- When formatting an entire directory, users can produce a report of the results in an MD file or simply print them to the console if either are desired.
+
+Set User Config
+===============
+
+Depending on how your system and python PATHs are set the installation path may differ.
+Usually however, you should be able to find the default config.json in one of the below
+
+ .. code:: sh
+
+    /home/user/.local/lib/python{3}.{11}/site-packages/audiodotturn/config/config.json
+    /usr/local/lib/python{x}.{x}/site-packages/audiodotturn/config/config.json
+    /usr/lib/python{x}.{x}/site-packages/audiodotturn/config/config.json
+
+Once the default config is found, copy it to one of the below paths with `cp <DEFAULT_CONFIG> <NEW_PATH>`
+
+.. code:: sh
+
+    ~/.config/audiodotturn/
+    ~/config/audiodotturn/
+    ~/audiodotturn/
+    ~/
+    /usr/local/etc/audiodotturn/
+    /etc/audiodotturn/
+
+Once copied rename the config file to adt_config.json and change any desired settings, if the config warning is no longer showing up,
+then your new config has loaded properly.
+
+A config can also be set at runtime with the `-c` flag
+
+Dependencies
+============
+
+External libraries: 
+
+	- `rich <https://github.com/Textualize/rich>`__
+
+Standard: 
+
+	- os 
+	- re 
+	- json 
+	- argparse 
+	- shutil
+
+Choosing a formatter
+====================
+
+TODO
+
+Currently standard formatter will always be ran. It should format most files fairly well.
+
+Choosing a constructor
+======================
+
+TODO: explain
+
+- "simple":
+- "block":
+
+Creating a database
+===================
+
+Database path is set in config or during runtime.
+
+A new database will be created if one isnt already when running the create or view commands.
+Populate the database by using the format file or format directory commands, this will update
+a database as well. I recommend doing this with dry run if you just want to create a database
+without formatting any files.
+
+Disclaimer
+==========
+
+AudioDotTurn is currently in alpha testing and is provided as is with no
+warranties or guarantees of any kind. The author of the program is not
+responsible for any damages or issues caused by the use of this program.
+Use at your own risk.
+
+Roadmap
+=======
+
+-  General regex adjusting for broader use
+-  Bug fixes and optimization
+
+License
+=======
+
+.. figure:: https://img.shields.io/badge/License-MIT-yellow.svg
+   :alt: MIT
+
+This project is licensed under the MIT License. See the LICENSE file for
+
+GENERAL USAGE
+=============
+
+::
+    
+    audiodotturn [-h] [-v] [-c CONFIG] [-D DATABASE] [--defaults [{program,format,all}]] [--options [{program,format,all}]] {set,create,view} ...
+
+    Format, organize and retrieve data from audio files.
+
+    positional arguments:
+    {set,create,view}
+        set                 Set defaults
+        create              Create subcommands
+        view                View subcommands
+
+    options:
+    -h, --help            show this help message and exit
+    -v, --version         Show current version of audiodotturn
+    -c CONFIG, --config CONFIG
+                            Path to a specific configuration file to use for the session.
+    -D DATABASE, --database DATABASE
+                            Path to .db file for library database
+    --defaults [{program,format,all}]
+                            Show default settings
+    --options [{program,format,all}]
+                            Show default settings
+
+SET COMMAND USAGE
+-----------------
+
+::
+
+    audiodotturn set [-h] [-d] [-a ARTIST] [-t TITLE] [-f FEATURES] [-m MISC] [-y YOUTUBE_ID] [--filetype FILETYPE] [-s {true,false}] [-q DATA] [-p DIRECTORY]
+                            [-x {default,standard,normal,yt,youtube}] [-b CONSTRUCTOR] [-e ERRORMSG] [--exts EXTS]
+
+    options:
+    -h, --help            show this help message and exit
+    -d, --dry             Dry run
+
+    formatting options:
+    -a ARTIST, --artist ARTIST
+                            Default artist name for audio files
+    -t TITLE, --title TITLE
+                            Default title for audio files
+    -f FEATURES, --features FEATURES
+                            Default features for audio files
+    -m MISC, --misc MISC  Default miscellaneous info for audio files
+    -y YOUTUBE_ID, --youtube-id YOUTUBE_ID
+                            Default YouTube ID for audio files
+    --filetype FILETYPE   Default audio file type
+
+    program options:
+    -s {true,false}, --dryset {true,false}
+                            Default dry run setting
+    -q DATA, --data DATA  Default JSON filename
+    -p DIRECTORY, --path DIRECTORY
+                            Default working directory
+    -x {default,standard,normal,yt,youtube}, --extractor {default,standard,normal,yt,youtube}
+                            Default extractor
+    -b CONSTRUCTOR, --constructor CONSTRUCTOR
+                            Default constructor
+    -e ERRORMSG, --error ERRORMSG
+                            Default error message options. comma seperated string of options.
+    --exts EXTS           Default formattable file extensions. comma seperated string of options.
+
+CREATE COMMAND USAGE
+--------------------
+
+::
+
+    audiodotturn create [-h] [-f FORMAT] [-x EXTRACTOR] [-b CONSTRUCTOR] [-F] [-o] [--dry] [-p DIRECTORY]
+
+    options:
+    -h, --help            show this help message and exit
+    -f FORMAT, --format FORMAT
+                            Format single file
+    -x EXTRACTOR, --extractor EXTRACTOR
+                            Define the extractor to use
+    -b CONSTRUCTOR, --constructor CONSTRUCTOR
+                            Define the constructor to use
+    -F, --formatdir       Format all files in directory
+    -o, --organize        Organize all files in directory and create database entries if they dont exist.
+    --dry                 Dry run
+    -p DIRECTORY, --path DIRECTORY
+                            Directory to organize or format files, the programs working directory
+
+VIEW COMMAND USAGE
+------------------
+
+::
+
+    audiodotturn view [-h] {artists,songs} ...
+
+    positional arguments:
+    {artists,songs}
+        artists        View list of artists
+        songs          View list of songs
+
+    options:
+    -h, --help       show this help message and exit
