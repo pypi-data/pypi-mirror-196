@@ -1,0 +1,16 @@
+=======
+History
+=======
+
+0.1.0 (2023-02-24)
+------------------
+
+* First release on PyPI.
+
+0.1.4 (2023-03-9)
+------------------
+
+* Fixed pairwise correlations threshold for multicollinearity assumption testing (0.3 -> 0.7)
+* Fixed partial regression plots fixed figure size
+* Added titles to diagnostic plots
+* Fixed the VIF to match with SPSS output by adding the constant to X
