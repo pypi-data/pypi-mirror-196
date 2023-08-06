@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyfacade
+Version: 1.0.0rc1
+Summary: A Python interface to the libktx library
+Home-page: https://source.shukantpal.com/Palco/Facade
+Author: Shukant Pal
+Author-email: facade@palcor.net
+Classifier: Programming Language :: Python :: 3
