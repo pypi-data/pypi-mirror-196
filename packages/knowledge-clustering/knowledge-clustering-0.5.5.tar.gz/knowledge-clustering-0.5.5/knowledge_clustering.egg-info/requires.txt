@@ -1,0 +1,10 @@
+click
+click_default_group
+nltk
+spacy
+toposort
+unidecode
+
+[tests]
+pytest
+filecmp
