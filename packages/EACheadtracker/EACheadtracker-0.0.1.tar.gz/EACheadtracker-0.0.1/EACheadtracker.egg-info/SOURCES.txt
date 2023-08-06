@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+EACheadtracker/HeadTracker.py
+EACheadtracker/__init__.py
+EACheadtracker/face_geometry.py
+EACheadtracker.egg-info/PKG-INFO
+EACheadtracker.egg-info/SOURCES.txt
+EACheadtracker.egg-info/dependency_links.txt
+EACheadtracker.egg-info/requires.txt
+EACheadtracker.egg-info/top_level.txt

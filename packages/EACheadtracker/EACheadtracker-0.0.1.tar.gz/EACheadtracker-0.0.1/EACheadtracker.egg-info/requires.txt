@@ -1,0 +1,4 @@
+numpy
+mediapipe
+click
+opencv-python
