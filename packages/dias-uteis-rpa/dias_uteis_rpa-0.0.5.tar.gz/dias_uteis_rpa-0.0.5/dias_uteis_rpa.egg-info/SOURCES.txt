@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dias_uteis_brasil/__init__.py
+dias_uteis_brasil/dias_uteis_brasil.py
+dias_uteis_brasil/img/lista_imgens.py
+dias_uteis_rpa.egg-info/PKG-INFO
+dias_uteis_rpa.egg-info/SOURCES.txt
+dias_uteis_rpa.egg-info/dependency_links.txt
+dias_uteis_rpa.egg-info/top_level.txt
