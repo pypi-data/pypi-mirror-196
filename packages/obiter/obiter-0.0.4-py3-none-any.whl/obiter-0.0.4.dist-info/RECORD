@@ -1,0 +1,10 @@
+obiter/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+obiter/_modidx.py,sha256=ZKzfBiEiPw8dLRXu4qyKbQhDTgqb4piJsRQvOE5vGyA,3373
+obiter/canlii_api.py,sha256=l6x_p9WbF59o_hn7uXztQAra-tdysJN6vUho0Ox99yU,8690
+obiter/wgnd.py,sha256=rLBFT4c6P9M_FU8PnZZzJbNSH3LrdtawngJVh7jNLTc,1503
+obiter-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+obiter-0.0.4.dist-info/METADATA,sha256=2MCoyUxfEWJ2hFb_d-lDHrIRzY_2QaJRd16jdBmQ4lM,3230
+obiter-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+obiter-0.0.4.dist-info/entry_points.txt,sha256=Qfzigz0oxyGIrE6DjFLb1cxrbyXoi9CHjzlTcxEjTG4,34
+obiter-0.0.4.dist-info/top_level.txt,sha256=kxahVUZEnQYir0AXUsqWb2F6tO-IxIMWhPgIkAzJ_XQ,7
+obiter-0.0.4.dist-info/RECORD,,
