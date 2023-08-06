@@ -1,0 +1,6 @@
+[repid_data]
+bucket = repid_msgspec.plugin:ArgsBucket
+parameters = repid_msgspec.plugin:Parameters
+result_bucket = repid_msgspec.plugin:ResultBucket
+routing_key = repid_msgspec.plugin:RoutingKey
+

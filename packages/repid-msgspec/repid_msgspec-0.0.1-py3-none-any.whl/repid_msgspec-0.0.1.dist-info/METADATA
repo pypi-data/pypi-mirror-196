@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: repid-msgspec
+Version: 0.0.1
+Summary: Repid's msgspec extension
+Author-Email: aleksul <me@aleksul.space>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: repid<2.0.0,>=1.0.0rc3
+Requires-Dist: msgspec<1.0.0,>=0.13.0
+Requires-Dist: typing-extensions<5.0.0,>=4.3.0; python_version < "3.9"
+Requires-Dist: black>=23.1.0; extra == "lint"
+Requires-Dist: mypy>=1.1.1; extra == "lint"
+Requires-Dist: ruff>=0.0.254; extra == "lint"
+Requires-Dist: pre-commit>=3.1.1; extra == "lint"
+Requires-Dist: types-croniter>=1.3.2.6; extra == "lint"
+Provides-Extra: lint
+Description-Content-Type: text/markdown
+
+# repid-msgspec
+
+Repid's msgspec extension
