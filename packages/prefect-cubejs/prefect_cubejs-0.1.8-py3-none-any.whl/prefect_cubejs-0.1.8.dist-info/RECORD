@@ -1,0 +1,10 @@
+prefect_cubejs/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+prefect_cubejs/_version.py,sha256=K5D98YBSGD722ncyFv4xzX0_sSoJ6n3BTQWBPMZStzA,497
+prefect_cubejs/exceptions.py,sha256=ORlAu6HLDTLktn1fDdPi68nYHA6EiuRnWEol1y2uZQM,329
+prefect_cubejs/tasks.py,sha256=Cl6p96CgqCzG9X4XS0P77OknMnqcIknD-q8Wp1PFps4,9478
+prefect_cubejs/utils.py,sha256=syGk2wmQpEMilnVb1Jg2OP5HP0Q04Xu7jKJR1qZgLHQ,7323
+prefect_cubejs-0.1.8.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_cubejs-0.1.8.dist-info/METADATA,sha256=50hZ32iQ4dHugjMj-3vbIwFj0qXihZGsOI08WGJ61D8,3279
+prefect_cubejs-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prefect_cubejs-0.1.8.dist-info/top_level.txt,sha256=7CzCE4VzbHWz2wVXTO9HPDR9ON0EGPBrHsgeEzFghm0,15
+prefect_cubejs-0.1.8.dist-info/RECORD,,
