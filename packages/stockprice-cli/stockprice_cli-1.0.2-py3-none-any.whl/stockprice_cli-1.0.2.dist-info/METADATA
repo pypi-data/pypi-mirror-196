@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stockprice-cli
+Version: 1.0.2
+Home-page: https://github.com/Thomas-mcinally/stockprice
+Author: Thomas Mcinally
+Description-Content-Type: text/markdown
+Requires-Dist: yfinance
+Requires-Dist: pandas
+

@@ -1,0 +1,2 @@
+[console_scripts]
+stockprice = stockprice.main:main
