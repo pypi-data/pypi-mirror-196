@@ -1,0 +1,3 @@
+[console_scripts]
+pgtrace_gucs = pgtracer.scripts.pgtrace_gucs:main
+pgtrace_queries = pgtracer.scripts.pgtrace_queries:main

@@ -1,0 +1,16 @@
+pyelftools
+pypsutil
+
+[lint]
+black
+isort
+mypy
+pylint
+pylint-exit
+
+[test]
+psycopg
+pytest
+pytest-coverage
+pytest-postgresql
+flaky
