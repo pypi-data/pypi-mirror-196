@@ -1,0 +1,9 @@
+buffered_async_iterators/__init__.py,sha256=iJhflYC_VTDdHQbDzk9C-kT-nTM9eJUAjneO8ZD9GaE,5054
+buffered_async_iterators/_buffered.py,sha256=qGAMpsVVfxXdg5qmEHOTcPPCLNQegVH1USq8M52zDtM,134
+buffered_async_iterators/_buffered_3_7.py,sha256=Y9zhStE_5VGYEwRfJdV_tnepxzw_6VRr3JkloWAK9o4,2638
+buffered_async_iterators/_buffered_3_8.py,sha256=Prcrn5xzeklAnsqup34npJC72ggt3I0f5qYME92ynao,2980
+buffered_async_iterators-1.0.0.dist-info/LICENSE,sha256=64G2QTN98bBhZeWtEk7aqxkoV71HCK_NCbP7B53Q2IM,1086
+buffered_async_iterators-1.0.0.dist-info/METADATA,sha256=zkbMbinOGoFnTzBauBNODSLeV4mZvwdyIUB2Fwgumd0,5410
+buffered_async_iterators-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+buffered_async_iterators-1.0.0.dist-info/top_level.txt,sha256=AqZtv28gU_5K3_qSY249ZEBCO95jPPPk4cq8bIYf3PM,25
+buffered_async_iterators-1.0.0.dist-info/RECORD,,
