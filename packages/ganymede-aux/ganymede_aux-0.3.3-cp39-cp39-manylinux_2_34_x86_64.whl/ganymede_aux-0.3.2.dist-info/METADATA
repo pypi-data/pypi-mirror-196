@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ganymede-aux
+Version: 0.3.2
+Summary: Auxiliary library for computer vision and deep learning
+Home-page: https://github.com/Anton-Vasyaev/ganymede
+Author: Anton Vasyev
+Author-email: vasyaevanton@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: autofast (>=0.2.1)
+
+UNKNOWN
+
