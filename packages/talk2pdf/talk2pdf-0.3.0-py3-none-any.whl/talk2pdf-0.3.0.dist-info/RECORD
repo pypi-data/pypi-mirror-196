@@ -1,0 +1,13 @@
+talk2pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talk2pdf/__main__.py,sha256=bfh55H1SbE60vX80-ITPmLgrCBmgQK87VskA-X0mtXs,13130
+talk2pdf/config.py,sha256=ijx3c_B3ODfUS1z755YOibldKD8Mqml9G6TIZ0Fe970,2603
+talk2pdf/t2p_ffmpeg.py,sha256=wm3zLMy0P26-PFq5_FCpuSvbLQUN7h6JCfrc85LQKRE,3105
+talk2pdf/t2p_openai.py,sha256=l3tzrcKNIRbpEUfEmh_aAztrCxU68FjfJtJ3sNeBBjs,3388
+talk2pdf/t2p_whisper.py,sha256=BbHKpDNV0Wly0zWQMDnp-NWfzAp3l6RxD0s0cZOEn7U,943
+talk2pdf/utils.py,sha256=1dk1319YsM2w1QrXcZx6NXUndd7lewQ_FiDhXNQxrFI,1954
+talk2pdf/ytdlp.py,sha256=bv9TBAyCmMgf22xCq4jBg5z4OfgezOJrRe6m_z3yYOc,1286
+talk2pdf-0.3.0.dist-info/LICENSE,sha256=wztVLhnVAPONVbLU9ZG2adGaUGmOFwtpv3n8Lo36aMY,11343
+talk2pdf-0.3.0.dist-info/METADATA,sha256=GnUM5rdP0PN-EGJiBHUCoz2aTqOQGCaebZXH-1yyw_U,15505
+talk2pdf-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+talk2pdf-0.3.0.dist-info/top_level.txt,sha256=lXTn3xKLOZlSNJ7kBDIRvKq1qOsxugppJI1Vxou5tEQ,9
+talk2pdf-0.3.0.dist-info/RECORD,,
