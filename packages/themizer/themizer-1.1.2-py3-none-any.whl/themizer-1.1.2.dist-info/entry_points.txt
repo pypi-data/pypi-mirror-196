@@ -1,0 +1,3 @@
+[console_scripts]
+themizer=themizer.args:process_args
+
