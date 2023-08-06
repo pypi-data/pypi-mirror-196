@@ -1,0 +1,9 @@
+pyproject.toml
+src/__init__.py
+src/shplat.py
+src/shplat.egg-info/PKG-INFO
+src/shplat.egg-info/SOURCES.txt
+src/shplat.egg-info/dependency_links.txt
+src/shplat.egg-info/entry_points.txt
+src/shplat.egg-info/requires.txt
+src/shplat.egg-info/top_level.txt
