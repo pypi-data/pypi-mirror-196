@@ -1,0 +1,9 @@
+aiotg/__init__.py,sha256=l1svlwcpKgQD49KRWpPh-nKMsJRjvODuowidASECRZA,55
+aiotg/bot.py,sha256=RTVCLafdPUQ86rX0e9lJCKsC-mk5n71NfhRvIRNyxPs,24316
+aiotg/chat.py,sha256=nJWgctOKWFOZV4WoxykAbSqonF_60ogNpmM0sRYcuzQ,13361
+aiotg/mock.py,sha256=LSfERhy5Bwid-pVs1R619hZzM2WiJIvG9sVlSFtIPX0,342
+aiotg/reloader.py,sha256=jUROuKFeFKD5MDgDc8B3d8Egekbk57twOX4Cz5NfAG8,2338
+aiotg-2.0.0.dist-info/METADATA,sha256=w34lBaeqN8HuZNZO445BkqbQLf-UcawEg5FFlL5XAQI,3484
+aiotg-2.0.0.dist-info/WHEEL,sha256=nYNlZuHZ28ui1K118WE5qpb9yEZSMQ3u8pC2H4PftME,105
+aiotg-2.0.0.dist-info/licenses/COPYING,sha256=aaY37JxGW9PiHao0vibecRkHzyLi1z9OMcdP3uz7aws,1083
+aiotg-2.0.0.dist-info/RECORD,,
