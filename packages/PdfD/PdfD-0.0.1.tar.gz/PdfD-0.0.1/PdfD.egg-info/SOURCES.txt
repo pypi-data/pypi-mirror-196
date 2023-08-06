@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PdfD.egg-info/PKG-INFO
+PdfD.egg-info/SOURCES.txt
+PdfD.egg-info/dependency_links.txt
+PdfD.egg-info/requires.txt
+PdfD.egg-info/top_level.txt
+secundaria/__init__.py
+secundaria/infoPdf.py
