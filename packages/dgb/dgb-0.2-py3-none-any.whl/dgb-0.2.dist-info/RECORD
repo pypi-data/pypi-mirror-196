@@ -1,0 +1,10 @@
+DGB/__init__.py,sha256=vR17BpfLfm00EZLJfXukdAMlOwVEV4mlHX8fqI9LFWU,1266
+DGB/download.py,sha256=KTTeAxXuIYXr0TPVq6-oZ2xkFc4rGG0BOEj_nzga31E,21586
+DGB/evaluator.py,sha256=KZGkLS-HrFXqhvEt7-nRR0gehgN9H5GdJCW67Bt0PBw,5274
+DGB/__pycache__/__init__.cpython-39.pyc,sha256=dxyNFAbZMOUXPAjH_TkeMegCRF0WEB828qoD22tM7cQ,1376
+DGB/__pycache__/download.cpython-39.pyc,sha256=0ns0psKxCzFPSt7lxF3FY50kn3kL-J7oe3EKjJjmcxk,14861
+DGB/__pycache__/evaluator.cpython-39.pyc,sha256=pwbg-vfI9GIiPsC-b_UAXRoGHc9zAOGlcurcEb4arl4,4126
+dgb-0.2.dist-info/METADATA,sha256=pCmLQPzx-XgPCTVK-SmsPLGZzf1kx53XdYbtgTVzOsI,2665
+dgb-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dgb-0.2.dist-info/top_level.txt,sha256=l8ya5xS8mvJhlBAz0FgYvBUfXFiU5xaPg6HHeBbWH0s,4
+dgb-0.2.dist-info/RECORD,,
