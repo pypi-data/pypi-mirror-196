@@ -1,0 +1,10 @@
+wcpan/drive/cli/__init__.py,sha256=bb2uH-iiT6KFbtfgwxv-3O39xOVhMg42X7buW3-nWAU,88
+wcpan/drive/cli/__main__.py,sha256=CqvlQWsCqexU4m9pWu2-ngwrz0tfy1y6p9c-QD-nipc,54
+wcpan/drive/cli/interaction.py,sha256=qQPL0YXlSDzp_2wsi4kVpOOsdJWUyebEQeOJUVWwahc,15298
+wcpan/drive/cli/main.py,sha256=xMkBp9IF3aqdQBeKvwKXvLTgoUPwp5bLLHvgbjmyCW8,15288
+wcpan/drive/cli/queue_.py,sha256=FsyYmlrQGMWzvMA9gEQ26-jzSXw4_GVm3Nc31QnGNUA,7928
+wcpan/drive/cli/util.py,sha256=6FSku4sUmctKonw5Zc_9AwFsP1RP8Emz6QzYiPzdesk,7559
+wcpan_drive_cli-2.3.0.dist-info/LICENSE.txt,sha256=uOppBWSdxDMjjlDJ2o07rnUPC2MZppj6_wWId86JuhE,1102
+wcpan_drive_cli-2.3.0.dist-info/METADATA,sha256=GFT3nSMLK90SdxkI4lo9IE4n1RceQU8kEwtTwH3NeJY,1987
+wcpan_drive_cli-2.3.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+wcpan_drive_cli-2.3.0.dist-info/RECORD,,
