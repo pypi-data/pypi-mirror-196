@@ -1,0 +1,7 @@
+mysql_compressed_fields/__init__.py,sha256=PgcXYX5Sf_4W61Nx1-avH29xzLo4ZX8BhggxYtKqx4A,47
+mysql_compressed_fields/fields.py,sha256=XYx2QNYhmLVeJTbaj9Ac2IuMCK9-xV8FASJu6_uUzhc,6599
+mysql_compressed_fields/functions.py,sha256=m4aoeLGObAyjnE9t-H085mOWOH8GZNuSoqy2seEc_q0,3212
+django_mysql_compressed_fields-1.1.0.dist-info/LICENSE,sha256=qGfKOn0NC-nRpydvmHnUxu_LmNzkNY_GwLAumeFxxdc,1066
+django_mysql_compressed_fields-1.1.0.dist-info/METADATA,sha256=T5px_os8TrhoPoqwP3JBG6KYRYrEravylgeqcBK60wQ,11676
+django_mysql_compressed_fields-1.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+django_mysql_compressed_fields-1.1.0.dist-info/RECORD,,
