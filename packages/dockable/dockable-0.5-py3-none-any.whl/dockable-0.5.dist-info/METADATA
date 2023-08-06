@@ -1,0 +1,284 @@
+Metadata-Version: 2.1
+Name: dockable
+Version: 0.5
+Summary: ansible for dockerfiles
+Home-page: https://gitlab.com/dockable/dockable.git
+Author: Martin Zihlmann
+Author-email: martizih@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyaml
+Requires-Dist: jinja2
+Requires-Dist: arketip (>=0.4)
+Requires-Dist: pip-api
+Requires-Dist: networkx
+
+# dockable
+
+dockable is progressive and modular rendering engine for Dockerfiles. It makes it easier to reuse Dockerfile snippets without having to copy and paste, instead you can share your Dockerfile snippets as pip packages, keeping your Dockerfiles clean and well organized.
+
+## Progressive
+
+dockable is progressive, this means you can adopt it gradually and leverage the parts that you need to solve your problems, without having to rewrite everything from scratch.
+
+### Example 1: dockable as a simple preprocessor
+
+dockable can be used as a simple preprocessor for an existing Dockerfile, in this most minimal adoption form it's a simple jinja template engine with values coming from command line arguments or yaml configuration files.
+
+```dockerfile
+# kubectl.dock
+{% if dist == "ubuntu" %}
+FROM ubuntu:latest
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    ca-certificates \
+    wget \
+  && rm -rf /var/lib/apt/lists/*
+{% else %}
+FROM alpine:latest
+RUN apk add --no-cache \
+    ca-certificates \
+    wget
+{% endif %}
+RUN wget https://dl.k8s.io/release/{{ version }}/bin/linux/amd64/kubectl -P /tmp/download \
+  && mv /tmp/download/kubectl /usr/local/bin/kubectl \
+  && chmod 755 /usr/local/bin/kubectl \
+  && rm -rf /tmp/download
+```
+
+```shell
+python -m dockable kubectl.dock Dockerfile --set=dist=ubuntu --set=version=1.24.6
+```
+
+The rendered dockerfile will look like this
+
+```dockerfile
+# Dockerfile
+FROM ubuntu:latest
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+    ca-certificates \
+    wget \
+  && rm -rf /var/lib/apt/lists/*
+RUN wget https://dl.k8s.io/release/1.24.6/bin/linux/amd64/kubectl -P /tmp/download \
+  && mv /tmp/download/kubectl /usr/local/bin/kubectl \
+  && chmod 755 /usr/local/bin/kubectl \
+  && rm -rf /tmp/download
+```
+
+### Example 2: Insert dockable snippets
+
+dockable can be used to insert dockable snippets into an existing Dockerfile. A dockable snippet is a short yaml configuration that contains all the information for dockable to render that part of the Dockerfile.
+
+```dockerfile
+# kubernetes.dock
+FROM ubuntu:latest
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+  && rm -rf /var/lib/apt/lists/*
+---
+steps:
+- dockable.releases.binary:
+    pkg:
+    - name: kubectl
+      version: 1.24.6
+```
+
+```shell
+python -m dockable kubectl.dock Dockerfile
+```
+
+```dockerfile
+FROM ubuntu:latest
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    ca-certificates \
+    wget \
+  && rm -rf /var/lib/apt/lists/*
+RUN wget https://dl.k8s.io/release/v1.24.6/bin/linux/amd64/kubectl -P /tmp/download \
+  && mv /tmp/download/kubectl /usr/local/bin/kubectl \
+  && chmod 755 /usr/local/bin/kubectl \
+  && rm -rf /tmp/download
+```
+
+### Example 3: dockable files
+
+dockable also supports to write the a complete Dockerfile using yaml
+
+
+```yml
+# kubernetes.yml
+name: kubernetes
+from: ubuntu:latest
+label:
+  MAINTAINER: Martin Zihlmann <martizih@outlook.com>
+steps:
+- dockable.builtin.apt:
+    pkg:
+    - python3
+    - python3-pip
+- dockable.releases.binary:
+    pkg:
+    - name: kubectl
+      version: 1.24.6
+    - name: helm
+      version: 3.11.0
+```
+
+```shell
+python -m dockable kubernetes.yml Dockerfile
+```
+
+```dockerfile
+FROM ubuntu:latest
+LABEL MAINTAINER="Martin Zihlmann <martizih@outlook.com>"
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    ca-certificates \
+    wget \
+  && rm -rf /var/lib/apt/lists/*
+RUN wget https://dl.k8s.io/release/v1.24.6/bin/linux/amd64/kubectl -P /tmp/download \
+  && mv /tmp/download/kubectl /usr/local/bin/kubectl \
+  && chmod 755 /usr/local/bin/kubectl \
+  && rm -rf /tmp/download
+RUN wget https://get.helm.sh/helm-v3.11.0-linux-amd64.tar.gz -P /tmp/download \
+  && tar -zxvf /tmp/download/helm-v3.11.0-linux-amd64.tar.gz -C /tmp/download \
+  && mv /tmp/download/linux-amd64/helm /usr/local/bin/helm \
+  && chmod 755 /usr/local/bin/helm \
+  && rm -rf /tmp/download
+```
+
+## Modular
+
+The power of dockable lies in its extensibility. You can write handlers for dockable snippets yourself and reuse them accross all of your projects.
+
+### Write your own dockable snippet handler
+
+Let's suppose you want to write a handler for compiling git from source, you would start by writing the handler itself:
+
+```yml
+# git.yml.jinja
+name: build
+steps:
+- run:
+  - wget {{ url }}/{{ filename }} -P /tmp/download
+  - tar -zxvf /tmp/download/{{ filename }} -C /tmp/download
+  - cd /tmp/download/{{ folder }}
+  - make configure
+  - ./configure --prefix=/usr {{ config_options }}
+  - make -j all
+  - make install
+  - cd -
+  - rm -rf /tmp/download
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - ca-certificates
+      - wget
+      - make
+---
+name: git-from-source
+steps:
+- .build:
+    url: https://mirrors.edge.kernel.org/pub/software/scm/git
+    filename: git-{{ version }}.tar.gz
+    folder: git-{{ version }}
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - gcc
+      - dh-autoreconf
+      - libcurl4-gnutls-dev
+      - libexpat1-dev
+      - gettext
+      - libz-dev
+      - libssl-dev
+```
+As you can see a handler is just a yml configuration, the handler itself can reference other handlers and hence build upon the ever-growing eco-system of dockable snippets. All you now need to do to register your handler is to add a `module.yml` to your python package.
+
+```yaml
+# module.yml
+dependencies:
+- dockable.raw
+- dockable.builtin
+handlers:
+- git.yml.jinja
+```
+
+And there you go - you can now use, version and share this snippets as a pip package.
+
+```yml
+steps:
+- mymodule.git-from-source:
+    version: 2.34.1
+```
+
+### python handler function
+
+With dockable you can also register regular python functions as handlers for your dockable snippets. Let's suppose you want to parse a requirements.txt on the host and inline its contents into the dockerfile, rather than copying the file into the container.
+
+```python
+# pip_handler.py
+import pip_api
+
+
+def load_requirements(file):
+    res = pip_api.parse_requirements(file)
+    return [str(x) for x in res.values()]
+
+
+def inline_requirements(file):
+    reqs = pip_api.parse_requirements(file)
+    pkg = [str(x) for x in reqs.values()]
+    return [
+        {
+            "dockable.builtin.pip": {
+                "pkg": pkg
+            }
+        }
+    ]
+```
+
+in the module.yml you can reference the function and register it under a new name.
+
+```yml
+dependencies:
+- dockable.builtin
+handlers:
+- pip-inline-requirements: pip_handler:inline_requirements
+```
+
+and then finally you can use it as a dockable snippet
+
+```yml
+steps:
+- mymodule.pip-inline-requirements:
+    file: requirements.txt
+```
+
+This kind of pre-processing allows us to do all kinds of magic in the background:
+
+Do you care about reproducible builds? How about you freeze the versions of your packages on-the-fly with whatever is currently available. Do you care about keeping your secrets secret? How about downloading assets on the host system and copying them into the Docker image instead of downloading them inside the image?
+
+## Conclusion
+
+With dockable you have a whole new set of possibilities to work with Dockerfiles, it's a brand new powertool available to you.

@@ -1,0 +1,11 @@
+name: pip-internal
+steps:
+- run:
+  -
+    - PYTHONDONTWRITEBYTECODE=1 pip install --no-cache-dir
+    {% for x in pkg | sort %}
+    - {{ x }}
+    {% endfor %}
+    {% for x in requirements | sort %}
+    - -r {{ x }}
+    {% endfor %}

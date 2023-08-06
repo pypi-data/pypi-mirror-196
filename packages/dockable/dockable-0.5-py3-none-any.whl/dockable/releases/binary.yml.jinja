@@ -1,0 +1,98 @@
+name: binary-internal
+steps:
+- run:
+  - wget {{ url }}/{{ filename }} -P /tmp/download
+  {% if "filename" in kwargs and filename.endswith('.tar.gz') %}
+  - tar -zxvf /tmp/download/{{ filename }} -C /tmp/download
+  {% endif %}
+  - mv /tmp/download/{{ path if 'path' in kwargs else name }} /usr/local/bin/{{ name }}
+  - chmod 755 /usr/local/bin/{{ name }}
+  - rm -rf /tmp/download
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - ca-certificates
+      - wget
+---
+name: binary-make-install
+steps:
+- run:
+  - wget {{ url }}/{{ filename }} -P /tmp/download
+  {% if "filename" in kwargs and filename.endswith('tar.xz') %}
+  - tar -xvf /tmp/download/{{ filename }} -C /tmp/download
+  {% endif %}
+  - make install -C /tmp/download/{{ path }}
+  - rm -rf /tmp/download
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - ca-certificates
+      - wget
+      - make
+      - xz-utils
+---
+name: binary-kubectl
+steps:
+- .binary-internal:
+    url: https://dl.k8s.io/release/v{{ version }}/bin/{{ os }}/{{ arch }}
+    filename: kubectl
+    name: kubectl
+---
+name: binary-helm
+steps:
+- .binary-internal:
+    url: https://get.helm.sh
+    filename: helm-v{{ version }}-{{ os }}-{{ arch }}.tar.gz
+    path: {{ os }}-{{ arch }}/helm
+    name: helm
+---
+name: binary-kustomize
+steps:
+- .binary-internal:
+    url: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v{{ version }}
+    filename: kustomize_v{{ version }}_{{ os }}_{{ arch }}.tar.gz
+    name: kustomize
+---
+name: binary-helmfile
+steps:
+- .binary-internal:
+    url: https://github.com/helmfile/helmfile/releases/download/v{{ version }}
+    filename: helmfile_{{ version }}_{{ os }}_{{ arch }}.tar.gz
+    name: helmfile
+---
+name: binary-krew
+steps:
+- .binary-internal:
+    url: https://github.com/kubernetes-sigs/krew/releases/download/v{{ version }}
+    filename: krew-{{ os }}_{{ arch }}.tar.gz
+    path: krew-{{ os }}_{{ arch }}
+    name: krew
+---
+name: binary-kubeseal
+steps:
+- .binary-internal:
+    url: https://github.com/bitnami-labs/sealed-secrets/releases/download/v{{ version }}
+    filename: kubeseal-{{ version }}-{{ os }}-{{ arch }}.tar.gz
+    name: kubeseal
+---
+name: binary-ccache
+steps:
+- .releases-make-install:
+    url: https://github.com/ccache/ccache/releases/download/v{{ version}}
+    filename: ccache-{{ version }}-{{ os }}-{{ arch2 }}.tar.xz
+    path: ccache-{{ version }}-{{ os }}-{{ arch2 }}
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - python3
+---
+name: binary
+steps:
+- parallel:
+  {% for x in pkg %}
+  - "dockable.releases.binary-{{ x.name }}":
+        version: {{ x.version }}
+        os: linux
+        arch: amd64
+        arch2: x86_64
+  {% endfor %}

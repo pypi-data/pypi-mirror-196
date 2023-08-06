@@ -1,0 +1,94 @@
+name: sources-internal
+steps:
+- run:
+  - wget {{ url }}/{{ filename }} -P /tmp/download
+  {% if "filename" in kwargs and (filename.endswith('.tar.gz') or filename.endswith('.tgz')) %}
+  - tar -zxvf /tmp/download/{{ filename }} -C /tmp/download
+  {% endif %}
+  - cd /tmp/download/{{ folder }}
+  - make configure
+  - ./configure --prefix=/usr {{ config_options }}
+  - make -j all
+  - make install
+  - cd -
+  - rm -rf /tmp/download
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - ca-certificates
+      - wget
+      - make
+---
+name: source-git
+steps:
+- .sources-internal:
+    url: https://mirrors.edge.kernel.org/pub/software/scm/git
+    filename: git-{{ version }}.tar.gz
+    folder: git-{{ version }}
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - gcc
+      - dh-autoreconf
+      - libcurl4-gnutls-dev
+      - libexpat1-dev
+      - gettext
+      - libz-dev
+      - libssl-dev
+---
+name: source-rsync
+steps:
+- .sources-internal:
+    url: https://download.samba.org/pub/rsync/src
+    filename: rsync-{{ version }}.tar.gz
+    folder: rsync-{{ version }}
+    config_options: --disable-md2man
+  needs:
+  - dockable.builtin.apt:
+     pkg:
+     - automake
+     - autoconf
+     - gcc
+     - g++
+     - acl
+     - attr
+     - gawk
+     - libxxhash-dev
+     - libzstd-dev
+     - liblz4-dev
+     - libssl-dev
+     - libacl1-dev
+     - libattr1-dev
+---
+name: source-python
+steps:
+- .sources-internal:
+    url: https://www.python.org/ftp/python/{{ version }}
+    filename: Python-{{ version }}.tgz
+    folder: Python-{{ version }}
+    config_options: >-
+      --with-ensurepip=install
+      --enable-optimizations
+  needs:
+  - dockable.builtin.apt:
+      pkg:
+      - build-essential
+      - libssl-dev
+      - zlib1g-dev
+      - libbz2-dev
+      - libreadline-dev
+      - libsqlite3-dev
+      - curl
+      - llvm
+      - libncurses5-dev
+      - libncursesw5-dev
+      - xz-utils
+      - tk-dev
+---
+name: source
+steps:
+- parallel:
+  {% for x in pkg %}
+  - "dockable.releases.source-{{ x.name }}":
+        version: {{ x.version }}
+  {% endfor %}
