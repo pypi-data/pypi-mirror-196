@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: transQA
+Version: 0.0.16
+Summary: Lib for transformer NN question answering
+Author: KovrizhnykhDY
+Author-email: kovrizhnykhdyu@consultant.ru
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+# transQA 
+
+Библиотека предназначена для генерации текста или ответа на основе полученных вопроса, ответа, модели и прочих параметров
+
+## Install
+
+Для установки выполните команду:
+
+```
+pip install svn+http://svn.consultant.ru/svn/Internal/Docs/NRP/pylibs/transQA
+
+```
+
+### Errors
+Если при установке requirements.txt возникли проблемы с torch==1.13.0+cu117 следует использовать команду для отдельной установки:
+
+```
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
+```
+В целом все требования из requirements.txt уже содержатся в Python396TF25GPU_release1.1
+
+Кроме sentencepiece==0.1.97, который нужен для работы моделей на основе T5
+Его необходимо устанавливать отдельно
