@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+torchpr/__init__.py
+torchpr.egg-info/PKG-INFO
+torchpr.egg-info/SOURCES.txt
+torchpr.egg-info/dependency_links.txt
+torchpr.egg-info/top_level.txt
