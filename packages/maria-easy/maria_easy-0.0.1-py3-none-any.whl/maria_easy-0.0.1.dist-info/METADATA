@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: maria-easy
+Version: 0.0.1
+Summary: This python library is an easy way to use mariaDB.
+Home-page: https://gitlab.com/oloc-forge/maria-easy.git
+Author: Olivier Locard
+Project-URL: Documentation, https://maria-easy.readthedocs.io/
+Project-URL: Source, https://gitlab.com/oloc-forge/maria-easy.git
+Keywords: mariadb development easy
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Maria Easy
+
+This python library is an easy way to use mariaDB.
+
+## Installation
+
+To install the latest version use the following command:
+
+    pip install maria-easy
+
+## Usage
+
+    from maria_easy.connector import Connector
+    conn = Connector(user='root', password='pass', host=mariadb-server, database='test')
+    conn.execute('create table oloc (a INT) ;')
+    conn.execute('insert into oloc values (42) ;')
+    conn.execute('SELECT * from oloc;')
+
+## License
+
+ISC
+
+## Author information
+
+This code was created in 2023 by Olivier Locard.
+
