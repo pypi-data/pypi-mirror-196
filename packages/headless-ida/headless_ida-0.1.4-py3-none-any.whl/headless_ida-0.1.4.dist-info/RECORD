@@ -1,0 +1,9 @@
+examples/list_functions.py,sha256=6nezPhpaEEzfzbbpx1vwH4Lu9fMTDUALlx-qV1qLaT0,290
+headless_ida/__init__.py,sha256=QZ1Fi3JcovJHon2tm0740I9iXYsvUtzIkKgGxkMSe80,32
+headless_ida/client.py,sha256=NE_rcidkxGM2MbkrifQC_5NRyqEUJOOt0B35q4iN7LQ,969
+headless_ida/server.py,sha256=Drd20wK-9TY3C7h9kmleud88tRRCqrtW19F4jC7fMLM,485
+headless_ida-0.1.4.dist-info/LICENSE,sha256=OWhkJyPWnGP5fXhKB7B25EjIbgTHCTDHCZxf3EE8Rh0,1064
+headless_ida-0.1.4.dist-info/METADATA,sha256=oAs9gn3nOCr7j7tGuFVGgdFNkXUkZiVTT2LdUf3ZU6w,2603
+headless_ida-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+headless_ida-0.1.4.dist-info/top_level.txt,sha256=tX5r7yStOKdBoOtqs9ulRqTA2zaoYP5etGctV1N5hAA,27
+headless_ida-0.1.4.dist-info/RECORD,,
