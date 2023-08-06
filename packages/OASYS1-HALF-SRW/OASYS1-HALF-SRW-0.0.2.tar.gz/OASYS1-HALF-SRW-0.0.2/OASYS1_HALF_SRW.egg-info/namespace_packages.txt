@@ -1,0 +1,3 @@
+orangecontrib
+orangecontrib.halfsrw
+orangecontrib.halfsrw.widgets
