@@ -1,0 +1,16 @@
+auto_compiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_compiler/auto_compiler.py,sha256=yYgPYZS6V35GvTVBanD_nMHQQV1fzcRbHQW6gQwG8rg,2002
+auto_compiler/compiler.py,sha256=9OL80DM8ngOEhqHx1EmTHZ3G5tS_a01WJkwNWhN8pKY,638
+auto_compiler/errors.py,sha256=gY5BE-WfW7glv0vWZYp5Pzy_8-MdoIHRmW4vBWv6QGw,45
+auto_compiler/source.py,sha256=psQKj67ZBuI_InUoSEXcX-V0vTYkMmZnULY3eJ2RegU,282
+auto_compiler/compilers/DotnetCompiler.py,sha256=tVR1e0E47o0Q26NO7Iyo0h2RKvW_eMg2HUJ31WAM-U4,2006
+auto_compiler/compilers/GppCompiler.py,sha256=vOJPCGuuEJD06f-w5rKCJLkWcHRqxLd0ixsEQtqIqz8,950
+auto_compiler/compilers/IdentityCompiler.py,sha256=vomxDHcdswlHboH4yYIsDzZKjQkJm8fzQgOqFWs2IJY,288
+auto_compiler/compilers/JavaCompiler.py,sha256=WZlUapv9oiEoTPFWjLn9jeNlYx7VDiEihZJUSC1odAw,1345
+auto_compiler/compilers/RustCompiler.py,sha256=Eb24Tl-PgV3dGBMAh5vLSEzJI3b68pFjS7VRCEtQ6Vc,1607
+auto_compiler/compilers/__init__.py,sha256=XCWjV0JszIj6UtuqtpNF2xc55rdElwlT0Qkyjh1L054,210
+auto_compiler-0.1.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+auto_compiler-0.1.dist-info/METADATA,sha256=xVJIEoKCNlNp4KwUF3KkOz9yi_lM33Zu-ClJJ4z7f44,335
+auto_compiler-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+auto_compiler-0.1.dist-info/top_level.txt,sha256=FoEhpgCVPlI5_of1vyfj-4qr_J8OZ0xKYF3D4jnwpYI,14
+auto_compiler-0.1.dist-info/RECORD,,

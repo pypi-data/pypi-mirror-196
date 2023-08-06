@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: auto-compiler
+Version: 0.1
+Summary: A system for auto compiling files
+Author-email: INSALGO <insalgo.contact@gmail.com>
+Project-URL: Homepage, https://github.com/INSAlgo/auto_compiler
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# A system for auto compiling files
