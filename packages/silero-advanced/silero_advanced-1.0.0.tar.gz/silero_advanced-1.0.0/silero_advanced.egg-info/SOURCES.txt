@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+silero_advanced/__init__.py
+silero_advanced/numText.py
+silero_advanced/silero_advanced.py
+silero_advanced.egg-info/PKG-INFO
+silero_advanced.egg-info/SOURCES.txt
+silero_advanced.egg-info/dependency_links.txt
+silero_advanced.egg-info/requires.txt
+silero_advanced.egg-info/top_level.txt
