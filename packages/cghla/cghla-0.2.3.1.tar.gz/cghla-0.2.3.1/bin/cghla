@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import cghla.main
+import sys
+
+if __name__ == '__main__':
+    cghla.main.main(sys.argv[1:])
