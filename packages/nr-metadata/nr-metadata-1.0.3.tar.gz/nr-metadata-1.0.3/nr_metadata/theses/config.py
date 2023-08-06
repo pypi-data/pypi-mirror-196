@@ -1,0 +1,9 @@
+from nr_metadata.theses.resources.records.config import ThesesResourceConfig
+from nr_metadata.theses.resources.records.resource import ThesesResource
+from nr_metadata.theses.services.records.config import ThesesServiceConfig
+from nr_metadata.theses.services.records.service import ThesesService
+
+THESES_RESOURCE_CONFIG_THESES = ThesesResourceConfig
+THESES_RESOURCE_CLASS_THESES = ThesesResource
+THESES_SERVICE_CONFIG_THESES = ThesesServiceConfig
+THESES_SERVICE_CLASS_THESES = ThesesService
