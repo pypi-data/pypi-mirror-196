@@ -1,0 +1,88 @@
+"""The Quantuloop Quantum Simulator Suite for HPC is a collection of
+high-performance quantum computer simulators for the
+Ket <https://quantumket.org> language.
+Since quantum algorithms explore distinct aspects of quantum computation
+to extract advantages, there is no silver bullet for the simulation of a
+quantum computer."""
+
+from __future__ import annotations
+# Copyright (C) 2023 Quantuloop - All rights reserved
+
+from os import environ, PathLike
+import quantuloop_dense
+import quantuloop_sparse
+import quantuloop_quest
+
+
+def set_simulator(simulator: str | None = None, *,
+                  token: str | None = None,
+                  token_file: PathLike | None = None,
+                  seed: int | None = None,
+                  dump_type: str | None = None,
+                  shots: int | None = None,
+                  gpu_count: int | None = None,
+                  precision: int | None = None):
+    """Set a Quantuloop simulator as the quantum execution target
+
+    .. note::
+
+        You need a Quantuloop Access Token to use this simulator.
+        For more information, visit https://simulator.quantuloop.com.
+
+    Args:
+        simulator: must be "Dense", "Sparse", or "QuEST"
+        token: Quantuloop Access Token
+        toke_file: Path to load the Quantuloop Access Token from a file
+        seed: Initialize the simulator RNG
+        dump_type: must be "vector", "probability", or "shots", default "vector"
+        shots: select the number of shots if ``dump_type`` is "shots"
+        gpu_count: maximum number of GPUs; if set to 0, simulation will use all available GPUs
+        precision: floating point precision used in the simulation; positive values are: 1 for single precision (float) and 2 for double precision
+    """
+
+    if token is not None and token_file is not None:
+        raise ValueError(
+            'parameter "token" must not be used when the parameter "token_file" is set')
+
+    if token_file is not None:
+        with open(token_file, 'r') as file:
+            token = file.read()
+    if token is not None:
+        environ['QULOOP_TOKEN'] = str(token)
+
+    if seed is not None:
+        if seed < 0:
+            raise ValueError('parameter "seed" must be greater than zero')
+        environ['QULOOP_SEED'] = str(seed)
+
+    if dump_type:
+        if dump_type not in ["vector", "probability", "shots"]:
+            raise ValueError(
+                'parameter "dump_type" must be "vector", "probability", or "shots"')
+        environ['QULOOP_DUMP_TYPE'] = dump_type
+
+    if shots:
+        if shots < 1:
+            raise ValueError('parameter "shots" must be greater than one')
+        environ['QULOOP_SHOTS'] = str(shots)
+
+    if gpu_count is not None:
+        environ['QULOOP_GPU'] = str(int(gpu_count))
+
+    if precision is not None:
+        if precision not in [1, 2]:
+            raise ValueError('parameter "dump_type" must be int(1) or int(2)')
+        environ['QULOOP_FP'] = str(int(precision))
+
+    if simulator is not None:
+        simulator = str(simulator).lower()
+        if simulator not in ["dense", "sparse", "quest"]:
+            raise ValueError(
+                'parameter "simulator" must be "dense", "sparse", "quest"')
+
+        if simulator == "dense":
+            quantuloop_dense.set_simulator()
+        elif simulator == "sparse":
+            quantuloop_sparse.set_simulator()
+        elif simulator == "quest":
+            quantuloop_quest.set_simulator()
