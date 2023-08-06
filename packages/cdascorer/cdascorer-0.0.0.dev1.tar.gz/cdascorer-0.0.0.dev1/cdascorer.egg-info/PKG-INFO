@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cdascorer
+Version: 0.0.0.dev1
+Summary: Cell Death Area Data Collection
+Home-page: https://github.com/joshuandwilliams/CDAScorer
+Author: Joshua Williams
+Author-email: <jowillia@nbi.ac.uk>
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Home of Python package CDAScorer
