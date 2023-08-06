@@ -1,0 +1,9 @@
+getargv/__init__.py,sha256=ij_U-jRj890kMF_NUAhmNQDhsXqktTsERWJ7CEfc288,230
+getargv/getargv.cpython-39-darwin.so,sha256=IB183QtrWAgFXeYPSZwTRnK-L8AEzNdjwU4TULJDpmU,133465
+getargv/getargvmodule.c,sha256=hodPSLUMkfUCrE8iGOyOs7flObVgjav1mEP9jeUpJd0,4499
+getargv/load.py,sha256=H_EKOrbQNN5TmxtCFU8guM2R16SlfpjsT7ppuE-2gLE,15
+getargv-0.4.dist-info/LICENSE.txt,sha256=YzqvtWv8u1QMsP8Zqeah4D84BXeAxp5mmoSJ-FVCeyM,1540
+getargv-0.4.dist-info/METADATA,sha256=7nsggg7C3AR9tlAPYgxPhafoWRD2Fqmt34iMxjXdfTY,4837
+getargv-0.4.dist-info/WHEEL,sha256=sacWIse9n3iHi1YSp8ihba5nxN-BAXqUblAAvhPUSBw,113
+getargv-0.4.dist-info/top_level.txt,sha256=sIusl1NgZ4chlDMAGDmznxBREki9LSIt1hgSSbchNFA,8
+getargv-0.4.dist-info/RECORD,,
