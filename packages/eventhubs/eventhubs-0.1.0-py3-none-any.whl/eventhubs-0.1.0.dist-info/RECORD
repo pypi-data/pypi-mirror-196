@@ -1,0 +1,9 @@
+eventhubs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventhubs/__main__.py,sha256=g0yuALcNBniFpQf3P3G10b959Ntt7FAZkIgZZaHEUiw,88
+eventhubs/cli.py,sha256=6wS-ZQOj4LZcErG7j0tlRd7edmQfK9h6uL-sJ0GneQA,2155
+eventhubs-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eventhubs-0.1.0.dist-info/METADATA,sha256=Mnez3ZeSzrietEC5rVYGbX8s5V_ISTW8WsP-qubb1Zg,2284
+eventhubs-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eventhubs-0.1.0.dist-info/entry_points.txt,sha256=dTUKS4JttiCW4r2LvKC6vm3FVo5KX8vR_M2F7Viyv80,41
+eventhubs-0.1.0.dist-info/top_level.txt,sha256=OIba-VQUAoaLEt-j3d5UafyxyToaYhS64GVAExX7YRk,10
+eventhubs-0.1.0.dist-info/RECORD,,
