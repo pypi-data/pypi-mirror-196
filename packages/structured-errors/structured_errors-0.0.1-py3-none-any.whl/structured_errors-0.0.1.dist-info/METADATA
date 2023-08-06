@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: structured-errors
+Version: 0.0.1
+Summary: Better exceptions for python.
+Home-page: https://github.com/kodemore/structured_errors
+License: MIT
+Keywords: error,exception,structured error
+Author: Dawid Kraczkowski
+Author-email: dawid.kraczkowski@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typing_extensions (>=4.1.1,<5.0.0)
+Project-URL: Documentation, https://github.com/kodemore/structured_errors
+Project-URL: Repository, https://github.com/kodemore/structured_errors
+Description-Content-Type: text/markdown
+
+# Rift
+
