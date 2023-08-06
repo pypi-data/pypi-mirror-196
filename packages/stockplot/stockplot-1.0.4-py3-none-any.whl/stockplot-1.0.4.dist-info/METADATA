@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: stockplot
+Version: 1.0.4
+Author: Thomas Mcinally
+Description-Content-Type: text/markdown
+Requires-Dist: yfinance
+Requires-Dist: mplfinance
+
