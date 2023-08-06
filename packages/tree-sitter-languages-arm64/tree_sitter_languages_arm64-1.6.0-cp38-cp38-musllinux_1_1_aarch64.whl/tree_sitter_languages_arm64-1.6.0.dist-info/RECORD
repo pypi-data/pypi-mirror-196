@@ -1,0 +1,10 @@
+tree_sitter_languages/__init__.py,sha256=VQpi7gIeBMzKc8cvKxPG1oUEQ6MhLEDnwnQPCGLx64I,271
+tree_sitter_languages/core.cpython-38-aarch64-linux-gnu.so,sha256=4q3dlIDk6Pg054fFHvk6eTXRpdPAINAAUenuRdN4MT0,222288
+tree_sitter_languages/languages.so,sha256=31mOE7pgoIA6vdwR0aBYNPILJ6hwBS7lYYvEtnTpZrU,66401112
+tree_sitter_languages_arm64.libs/libstdc++-fd9f4683.so.6.0.28,sha256=XLQiJUPxlLGekvmKndI-xQ01R9j97l1rRG9fsKW_aEM,2599040
+tree_sitter_languages_arm64.libs/libgcc_s-4e37474d.so.1,sha256=WBzDvfDtV_TAoLo5udTXKv5-zRXooDHRxUDPGOuojK0,134392
+tree_sitter_languages_arm64-1.6.0.dist-info/METADATA,sha256=tpkgAgbphLhnRI8jpsmhsGLzU6Sfw_aiuD00v79zFfI,10324
+tree_sitter_languages_arm64-1.6.0.dist-info/LICENSE,sha256=p-khWTvpo1oB_ZC2zyMlUNxZiIIeYjcaOuy3E7DSdoo,575
+tree_sitter_languages_arm64-1.6.0.dist-info/WHEEL,sha256=EtMFMeHgUTh2wFmjx-p0-GnOTvsuG3KS_1jFfKDiMG8,112
+tree_sitter_languages_arm64-1.6.0.dist-info/top_level.txt,sha256=1WmcNkOJg9xmImRjbeI-XQHXNsQox9gEShuMMeZC3jg,22
+tree_sitter_languages_arm64-1.6.0.dist-info/RECORD,,
