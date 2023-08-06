@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: aiomoney
+Version: 1.0.3
+Summary: Простая асинхонная библитека для работы с API ЮMoney
+Home-page: https://github.com/fofmow/aiomoney
+Download-URL: https://github.com/fofmow/aiomoney
+Author: fofmow
+Author-email: fofmow@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# aiomoney вЂ” РїСЂРѕСЃС‚Р°СЏ Р°СЃРёРЅС…РѕРЅРЅР°СЏ Р±РёР±Р»РёС‚РµРєР° РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ API Р®Money
+
+### РђРІС‚РѕСЂРёР·Р°С†РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ
+
+1. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂСѓР№С‚Рµ РЅРѕРІРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ YooMoney РїРѕ СЃСЃС‹Р»РєРµ https://yoomoney.ru/myservices/new
+   (Р±РµР· СѓРєР°Р·Р°РЅРёСЏ С‡РµРєР±РѕРєСЃР° OAuth2!).
+2. РџРѕР»СѓС‡РёС‚Рµ Рё СЃРєРѕРїРёСЂСѓР№С‚Рµ `client_id` РїРѕСЃР»Рµ СЃРѕР·РґР°РЅРёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ
+3. РЎРѕР·РґР°Р№С‚Рµ Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ api-С‚РѕРєРµРЅР°.
+   [Рћ РїСЂР°РІР°С… РїСЂРёР»РѕР¶РµРЅРёСЏ](https://yoomoney.ru/docs/wallet/using-api/authorization/protocol-rights)
+
+   ```python
+   import asyncio
+   from os import environ
+   from aiomoney import authorize_app
+   
+   
+   async def main():
+       await authorize_app(
+           client_id=environ.get("CLIENT_ID"),
+           redirect_uri=environ.get("REDIRECT_URI"),
+           app_permissions=[
+               "account-info",
+               "operation-history",
+               "operation-details",
+               "incoming-transfers",
+               "payment-p2p",
+               "payment-shop",
+           ]
+       )
+   
+   
+   if __name__ == "__main__":
+       asyncio.run(main())
+   ```
+
+4. Р’Рѕ РІСЂРµРјСЏ РїРµСЂРµРЅР°РїСЂР°РІР»РµРЅРёСЏ РїРѕ `redirect_uri` РІ Р°РґСЂРµСЃРЅРѕР№ СЃС‚СЂРѕРєРµ РїРѕСЏРІРёС‚СЃСЏ РїР°СЂР°РјРµС‚СЂ `code=`.
+   РЎРєРѕРїРёСЂСѓР№С‚Рµ Р·РЅР°С‡РµРЅРёРµ Рё РІСЃС‚Р°РІСЊС‚Рµ РµРіРѕ РІ РєРѕРЅСЃРѕР»СЊ
+5. Р•СЃР»Рё Р°РІС‚РѕСЂРёР·Р°С†РёСЏ РїСЂРѕС€Р»Р° СѓСЃРїРµС€РЅРѕ, РІ РєРѕРЅСЃРѕР»Рё РѕС‚РѕР±СЂР°Р·РёС‚СЃСЏ Р’Р°С€ api-token.
+   РЎРѕС…СЂР°РЅРёС‚Рµ РµРіРѕ РІ РїРµСЂРµРјРµРЅРЅСѓСЋ РѕРєСЂСѓР¶РµРЅРёСЏ (СЂРµРєРѕРјРµРЅРґР°С†РёСЏ)
+
+### РџРѕР»СѓС‡РµРЅРёРµ РѕСЃРЅРѕРІРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РѕР± Р°РєРєР°СѓРЅС‚Рµ
+
+```python
+import asyncio
+from aiomoney.types import AccountInfo, Operation, OperationDetails
+from aiomoney.wallet import YooMoneyWallet
+
+
+async def main():
+    wallet = YooMoneyWallet(access_token="ACCESS_TOKEN")
+    
+    account_info: AccountInfo = await wallet.account_info
+    operation_history: list[Operation] = await wallet.get_operation_history()
+    operation_details: OperationDetails = await wallet.get_operation_details(operation_id="999")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+### РЎРѕР·РґР°РЅРёРµ РїР»Р°С‚С‘Р¶РЅРѕР№ С„РѕСЂРјС‹ Рё РїСЂРѕРІРµСЂРєР° РѕРїР»Р°С‚С‹
+
+```python
+import asyncio
+from aiomoney.wallet import YooMoneyWallet, PaymentSource
+
+
+async def main():
+    wallet = YooMoneyWallet(access_token="ACCESS_TOKEN")
+    
+    payment_form = await wallet.create_payment_form(
+        amount_rub=990,
+        unique_label="myproject_second_unicorn",
+        payment_source=PaymentSource.YOOMONEY_WALLET,
+        success_redirect_url="https://t.me/fofmow (nonono =/)"
+    )
+    # РїСЂРѕРІРµСЂРєР° РїР»Р°С‚РµР¶Р° РїРѕ label
+    payment_is_completed: bool = await wallet.check_payment_on_successful(payment_form.payment_label)
+    
+    print(f"РЎСЃС‹Р»РєР° РЅР° РѕРїР»Р°С‚Сѓ:\n{payment_form.link_for_customer}\n\n"
+          f"Р¤РѕСЂРјР° РѕРїР»Р°С‡РµРЅР°: {'Р”Р°' if payment_is_completed else 'РќРµС‚'}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+```
+

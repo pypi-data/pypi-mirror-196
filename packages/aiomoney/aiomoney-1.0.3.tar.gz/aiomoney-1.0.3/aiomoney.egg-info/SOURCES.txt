@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+aiomoney.egg-info/PKG-INFO
+aiomoney.egg-info/SOURCES.txt
+aiomoney.egg-info/dependency_links.txt
+aiomoney.egg-info/requires.txt
+aiomoney.egg-info/top_level.txt
