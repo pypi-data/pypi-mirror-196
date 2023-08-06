@@ -1,0 +1,3 @@
+docs
+eds_scikit
+tests
