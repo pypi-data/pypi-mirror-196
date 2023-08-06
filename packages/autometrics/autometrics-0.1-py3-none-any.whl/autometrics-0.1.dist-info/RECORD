@@ -1,0 +1,8 @@
+autometrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autometrics/autometrics.py,sha256=cZzeHNwQbUjDKd8sxMXi-0YbWsDaWidl1F5JMYBmI3g,2003
+autometrics/prometheus_url.py,sha256=XoyCWUM8LKS3FQJobs17KVxgtW_PkC2pTQ4Hmg9G9Mc,1456
+autometrics-0.1.dist-info/LICENSE,sha256=MP78On1qAEFUGFgpO8vqLd5MqkwKWAL5lqf36MAIVlI,1022
+autometrics-0.1.dist-info/METADATA,sha256=E1adiWNqoYTYVhBXPWutj36i7pgRnjnjY0GSp2cjQNA,2409
+autometrics-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autometrics-0.1.dist-info/top_level.txt,sha256=oQKqeYQxbt5PAumeYC0VcQaiXEmRwRCwUBnXG6E1GKc,12
+autometrics-0.1.dist-info/RECORD,,
