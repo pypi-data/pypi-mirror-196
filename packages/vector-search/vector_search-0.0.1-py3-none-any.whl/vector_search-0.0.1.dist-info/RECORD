@@ -1,0 +1,11 @@
+vector_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vector_search/__main__.py,sha256=0INL6h6HpKOC3Wo9d2RM7E7Ay2-kdb6eCWXXeEZsgzY,88
+vector_search/api/__init__.py,sha256=qQWgYdox_OLyE-eLrCoS8fvcsCW-l1bd537SHg_LIZc,227
+vector_search/api/routes/__init__.py,sha256=e9ByZldwrak-XDLq_HMhjlC46yF9F3V_YxFBgnBC_ek,42
+vector_search/api/routes/index.py,sha256=miIYUWp-qbKgCKGe3DbVbLO47-TppQckDeOwbZMVqk8,230
+vector_search/api/schemas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vector_search/version-config.yaml,sha256=Y2Ni9-rffk_yHydNQsUNE99FvuEVmnNdM1bvPkswTPY,35
+vector_search-0.0.1.dist-info/METADATA,sha256=nXVUfi7pwMDK4KqdE8fp6qA6P8px1segI4bq0qLIuvs,912
+vector_search-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+vector_search-0.0.1.dist-info/entry_points.txt,sha256=cfC4u1kttJ9mxfkTt1t5E0OykkilO4qsMyPAMy5LEVw,61
+vector_search-0.0.1.dist-info/RECORD,,
