@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nstool
+Version: 1.1.0
+Summary: nstool
+Home-page: https://github.com/julesontheroad
+License: MIT
+Keywords: ns,tool
+Author: julesontheroad
+Author-email: julesontheroad@gmail.com
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Dist: bottle
+Requires-Dist: bs4
+Requires-Dist: chardet
+Requires-Dist: colorama
+Requires-Dist: comtypes
+Requires-Dist: eel
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: googletrans
+Requires-Dist: httpx (==0.13.3)
+Requires-Dist: image
+Requires-Dist: oauth2client
+Requires-Dist: pycryptodome
+Requires-Dist: pykakasi
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: unidecode
+Requires-Dist: urllib3
+Requires-Dist: zstandard
+Project-URL: Repository, https://github.com/julesontheroad/NSC_BUILDER
