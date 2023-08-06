@@ -1,0 +1,9 @@
+download_manager/__init__.py,sha256=s1BZnA_AyL7p5Fmi2KFD8nkDH6yOVkHnucHwHfaPrhA,67
+download_manager/manager.py,sha256=_Ug1t2PvvdV42DxiSKhpP_0TPXFdKwnbdAEnhVPS9u4,5007
+downloader/__init__.py,sha256=6JeeiFyWciqZJeq3Kv1T08tFyO6-MwdLQHWAAhBvFZo,60
+downloader/downloader.py,sha256=rJo58vDFK7zXs5URLqC6CTRNPBU0uKnYMQdjNf2pcrA,1444
+pyg_downloader-0.0.1.dist-info/LICENSE,sha256=1HKmXNsd4kCCiZ1IoIKdZFGsbGFom21mkFtfLBSBaWI,1064
+pyg_downloader-0.0.1.dist-info/METADATA,sha256=pcpVHfN7g9A47Gdul9BoLOvRmfQiLdrf7P6jsi_0Bnc,1859
+pyg_downloader-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyg_downloader-0.0.1.dist-info/top_level.txt,sha256=b-X54AnQ3rkEl6p-ajat-v-rmfPejaA5YvdIxSagEyo,28
+pyg_downloader-0.0.1.dist-info/RECORD,,
