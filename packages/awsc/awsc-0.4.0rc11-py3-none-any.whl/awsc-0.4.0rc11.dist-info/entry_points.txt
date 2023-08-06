@@ -1,0 +1,3 @@
+[console_scripts]
+awsc = awsc:main
+awsc-creds = awsc:cred_helper
