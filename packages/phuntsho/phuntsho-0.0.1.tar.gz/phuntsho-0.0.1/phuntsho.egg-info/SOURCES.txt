@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+phuntsho/__init__.py
+phuntsho/phuntsho.py
+phuntsho.egg-info/PKG-INFO
+phuntsho.egg-info/SOURCES.txt
+phuntsho.egg-info/dependency_links.txt
+phuntsho.egg-info/not-zip-safe
+phuntsho.egg-info/top_level.txt
+tests/test_phuntsho.py
