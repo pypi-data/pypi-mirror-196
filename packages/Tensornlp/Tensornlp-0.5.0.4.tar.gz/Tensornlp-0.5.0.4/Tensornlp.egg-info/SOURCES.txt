@@ -1,0 +1,13 @@
+setup.py
+Tensornlp.egg-info/PKG-INFO
+Tensornlp.egg-info/SOURCES.txt
+Tensornlp.egg-info/dependency_links.txt
+Tensornlp.egg-info/requires.txt
+Tensornlp.egg-info/top_level.txt
+client/__init__.py
+client/client.py
+grpcDir/__init__.py
+grpcDir/file_pb2.py
+grpcDir/file_pb2_grpc.py
+grpcDir/lodger_pb2.py
+grpcDir/lodger_pb2_grpc.py
