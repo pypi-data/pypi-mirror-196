@@ -1,0 +1,2 @@
+[nbdev]
+nbdev_ys = nbdev_ys._modidx:d
