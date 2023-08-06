@@ -1,0 +1,2 @@
+[console_scripts]
+http = http_tui.__main__:main
