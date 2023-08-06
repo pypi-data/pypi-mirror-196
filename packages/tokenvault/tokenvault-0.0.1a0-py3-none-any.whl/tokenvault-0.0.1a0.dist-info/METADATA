@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tokenvault
+Version: 0.0.1a0
+Summary: A lightweight package to manage tokens in your application in a single encrypted file and asymmetric token encryption.
+Project-URL: Homepage, https://xethub.com/xdssio/token-vault
+Keywords: cryptography,vault,user management
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'dev'
+Requires-Dist: sphinxcontrib-apidoc ; extra == 'dev'
+
+<p align="center">
+   <img src="docs/images/logo.png" alt="logo" width="400" />
+</p>
+
+# TokenVault
+
+TokenVault is a lightweight package to manage tokens in your application in a single encrypted file and asymmetric token encryption.
+
+## Installation
+
+```bash
+pip install tokenvault
+```
