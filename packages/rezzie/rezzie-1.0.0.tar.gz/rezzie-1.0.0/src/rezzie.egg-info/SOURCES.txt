@@ -1,0 +1,16 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.github/workflows/ci.yml
+src/rezzie/__init__.py
+src/rezzie/exceptions.py
+src/rezzie.egg-info/PKG-INFO
+src/rezzie.egg-info/SOURCES.txt
+src/rezzie.egg-info/dependency_links.txt
+src/rezzie.egg-info/requires.txt
+src/rezzie.egg-info/top_level.txt
+src/rezzie/data/seq.fasta
+tests/test_get_path.py

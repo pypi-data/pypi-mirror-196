@@ -1,0 +1,14 @@
+
+[:python_version < "3.9"]
+importlib-resources
+
+[dev]
+black
+build
+pytest
+isort
+pylint
+twine
+
+[test]
+pytest
