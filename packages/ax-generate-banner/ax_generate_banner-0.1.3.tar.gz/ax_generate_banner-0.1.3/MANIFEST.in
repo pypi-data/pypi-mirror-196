@@ -1,0 +1,3 @@
+include ax_generate_banner/requirements.txt
+include fonts/*
+include fonts
