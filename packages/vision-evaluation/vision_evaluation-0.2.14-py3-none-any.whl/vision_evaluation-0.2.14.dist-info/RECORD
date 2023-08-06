@@ -1,0 +1,15 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_evaluators.py,sha256=qUZ9OUYF7koTZKuoZZGvq-rfqEr_Zbj2Z6dFq_2fDmA,41757
+test/test_retrieval_evaluators.py,sha256=DpYtwbWO9cSNM2tMIQZXHewhvjgz9EeavV-pRzYr_Bg,7221
+vision_evaluation/__init__.py,sha256=uH5TppPyu3FnSIiA6MVUnJTRvXkTkCub-7ASfnIdtYo,1955
+vision_evaluation/coco_evalcap_utils.py,sha256=t6jTG1CNpgdR1t3gj-7eTcAeICYMOp7hWi3TIdbFEJg,3837
+vision_evaluation/coco_wrapper.py,sha256=p6I7tFnvvuL8RKmrkSsboF8L12Fzb30xxdMErCgo86A,1854
+vision_evaluation/evaluators.py,sha256=20fFEF6WH3yFa5a-RqNwpdZaLOUs4v0yQlkZEGpye8U,47636
+vision_evaluation/prediction_filters.py,sha256=9RQzEFj1YmmIuQLBJmjz95KE7_MepTqUtbWoy62FrGE,3567
+vision_evaluation/resource_tight_evaluators.py,sha256=MBmilJqoQOLh4AD_5DVBXaHDf0HPHUM_n4wnGS_D3pg,3413
+vision_evaluation/retrieval_evaluators.py,sha256=kVpM7fba9Vt2Kxb9rA8a30URtIaUlImA7jjpvsnFvSg,7110
+vision_evaluation-0.2.14.dist-info/LICENSE,sha256=F0dOOG4LnhpwDMPQaysIgqLDdtnGtJx_gnRAm4-NI1I,1066
+vision_evaluation-0.2.14.dist-info/METADATA,sha256=WZJAHpgOb5d5jdL-hF6K8XCQxU-32sWTSMC96pCaGmQ,6614
+vision_evaluation-0.2.14.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vision_evaluation-0.2.14.dist-info/top_level.txt,sha256=igtEoHkL2dj7CkDxb9aZ-IqyMCsVAuigod38sWf0YcI,23
+vision_evaluation-0.2.14.dist-info/RECORD,,
