@@ -1,0 +1,10 @@
+clifx/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+clifx/__main__.py,sha256=lYtn6MqwDoB9ckBwjlL-FMvLGd8x4sdNp-8d1TF4dPU,67
+clifx/__version__.py,sha256=tujQ1Qo8QUvJcUXjYXcSt1DJq06cP7sKx4p8zpis29c,115
+clifx/lan.py,sha256=TR8yx-bqOv5dZ445KVzXq07KO0IOL_iaoKkhoZkvd_E,646
+clifx/script.py,sha256=KmA4M1dZ2OjQzk9c5po5ojYD4jV50zwtI0Cc17oR67s,3008
+clifx-1.1.0rc0.dist-info/LICENSE,sha256=_hcWZAB6XIK-yzi6RRRBVYuWJ70PNjjfaIqG1iMEbC8,1081
+clifx-1.1.0rc0.dist-info/METADATA,sha256=xLYwwP0Lr-NXO13a_KQIne3_suKarAwWYp9FTzcIlX0,2860
+clifx-1.1.0rc0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+clifx-1.1.0rc0.dist-info/entry_points.txt,sha256=wmiMPDkekI3v83SzsSBZgQnzOSoR6rxVDtb4252tqxQ,43
+clifx-1.1.0rc0.dist-info/RECORD,,
