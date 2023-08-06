@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+opencsv/__init__.py
+opencsv.egg-info/PKG-INFO
+opencsv.egg-info/SOURCES.txt
+opencsv.egg-info/dependency_links.txt
+opencsv.egg-info/requires.txt
+opencsv.egg-info/top_level.txt
+opencsv/loading/__init__.py
+opencsv/saving/__init__.py
