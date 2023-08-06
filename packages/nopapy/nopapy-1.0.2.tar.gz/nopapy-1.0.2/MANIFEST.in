@@ -1,0 +1,4 @@
+include LICENSE.txt
+include README.en.md
+include README.md
+include pictures/*
