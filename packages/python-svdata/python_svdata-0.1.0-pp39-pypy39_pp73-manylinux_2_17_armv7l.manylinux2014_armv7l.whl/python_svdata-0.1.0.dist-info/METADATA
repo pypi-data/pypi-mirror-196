@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: python-svdata
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: isort == 5.12.0; extra == 'dev'
+Requires-Dist: black == 23.1.0; extra == 'dev'
+Requires-Dist: mypy == 1.1.1; extra == 'dev'
+Requires-Dist: nox == 2022.11.21; extra == 'dev'
+Requires-Dist: pytest == 7.2.2; extra == 'dev'
+Requires-Dist: flake8 == 6.0.0; extra == 'dev'
+Requires-Dist: flake8-bugbear == 23.2.13; extra == 'dev'
+Requires-Dist: flake8-comprehensions == 3.10.1; extra == 'dev'
+Requires-Dist: pep8-naming == 0.13.3; extra == 'dev'
+Requires-Dist: pyproject-flake8 == 6.0.0.post1; extra == 'dev'
+Requires-Dist: pytest-cov == 4.0.0; extra == 'dev'
+Requires-Dist: sphinx == 6.1.3; extra == 'dev'
+Requires-Dist: sphinx_rtd_theme == 1.2.0; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+```bash
+maturin develop -E=dev
+```
+
