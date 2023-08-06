@@ -1,0 +1,12 @@
+needle/__init__.py,sha256=FjA3Ga7oDer20VpZR3A3n_BXfdqZWVuge2IqCp65Frw,456
+needle/_version.py,sha256=xLYHl7LSWpsYPjOWEqt5LZBD0WvXXdo57DwveysBzHI,170
+needle/search.py,sha256=V5u8Q7_g0EqikfaCUNqsmMQuY4BrmE6TMJoH9_Q5Ktk,4525
+needle/stack.py,sha256=RPF_XLoezEhVXqE3jHXzT_5k6MBDRfbQh-QLWM6ehh4,1298
+needle/viewer.py,sha256=cyKOu6-VHgorhtJFhAFdf9SHmPeaBLxNues2URsBMP4,2401
+needle/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+needle/examples/__main__.py,sha256=hV0O-Aoehq4ZJRox2zMlaEAkTrAMQaJnhj6bFSbjWAY,887
+python_needle-0.1.dev34.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_needle-0.1.dev34.dist-info/METADATA,sha256=lx19ccQAd2h6f9ukidBHj6pC7r0PLfZlo0WglyF0oOI,1787
+python_needle-0.1.dev34.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_needle-0.1.dev34.dist-info/top_level.txt,sha256=0pIQd3d32sCz0S9qZWoHPJunF89pMtvAGwzG3B53ebg,7
+python_needle-0.1.dev34.dist-info/RECORD,,
