@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: airflow-provider-vertex-ai
+Version: 0.0.0a0
+Summary: A short description of the package
+Home-page: https://github.com/username_or_org/airflow-provider-vertex-ai
+Author: Osborne Reynolds
+Author-email: osborne.reynolds@airflow.com
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/username_or_org/airflow-provider-vertex-ai
+Project-URL: Homepage, https://github.com/username_or_org/airflow-provider-vertex-ai
+Project-URL: Changelog, https://github.com/username_or_org/airflow-provider-vertex-ai/blob/main/CHANGELOG.md
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: apache-airflow (>=2.0.0)
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: angreal (>=2.0.0) ; extra == 'dev'
+
+# vertex AI
+---
