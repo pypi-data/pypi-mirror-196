@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-parallel-processing"
+version = "0.1.0"
+description = "함수를 병렬처리하는 함수입니다."
+authors = ["Hyeonjin Kim <ilhj1228@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_parallel_processing"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
