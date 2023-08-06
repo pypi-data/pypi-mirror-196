@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<registry
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="rer.block.iframembed">
+
+<!-- -*- extra stuff goes here -*- -->
+    <record name="rer.block.iframembed.interfaces.settings.IRerBlockIframembedSettings.available_domains" interface="rer.block.iframembed.interfaces..settings.IRerBlockIframembedSettings" field="available_domains" purge="false">
+    <field type="plone.registry.field.Tuple">
+      <value_type type="plone.registry.field.TextLine" />
+      <default>
+        <element>https://www.youtube.com</element>
+      </default>
+    </field>
+  </record>
+
+</registry>
