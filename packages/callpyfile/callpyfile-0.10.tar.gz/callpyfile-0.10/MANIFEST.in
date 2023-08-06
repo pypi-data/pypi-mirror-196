@@ -1,0 +1,4 @@
+include callpyfile/requirements.txt
+include callpyfile/thirdparty.json
+include callpyfile/README.MD
+include callpyfile/LICENSE

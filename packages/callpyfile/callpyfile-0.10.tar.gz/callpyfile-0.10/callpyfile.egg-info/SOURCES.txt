@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+callpyfile/LICENSE
+callpyfile/README.MD
+callpyfile/__init__.py
+callpyfile/requirements.txt
+callpyfile/thirdparty.json
+callpyfile.egg-info/PKG-INFO
+callpyfile.egg-info/SOURCES.txt
+callpyfile.egg-info/dependency_links.txt
+callpyfile.egg-info/requires.txt
+callpyfile.egg-info/top_level.txt
