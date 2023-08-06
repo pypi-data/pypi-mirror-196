@@ -1,0 +1,11 @@
+cliai/__init__.py,sha256=25gaWG_L4nhOj_YWWqRVpxr4YQKVfnFeZcN8V5SsgvI,364
+cliai/cli.py,sha256=UKLmY4ZLz3naMZMn8C7QZLKchQcwZjKXoeVF0FUQsjU,723
+cliai/config.py,sha256=PLtHPmFKDeQBo3qBIW0s0VNs35iBBoucBCMNq1dhK1M,2158
+cliai/convo.py,sha256=BTCXl_buoNc0i9V-10D06GBIfSDfwCXrXvTB9vBhYWU,2420
+cliai/core.py,sha256=dtxeIppzNW95JOJzKr5pKaTBBf6mTXab27_1Gzb3Om8,3423
+cliai/util.py,sha256=JVfTCf0OH9cZVudkQv-1oDKrfJDcaGBNrmdo-yg6kVI,361
+cliai-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cliai-0.2.0.dist-info/METADATA,sha256=9Vbz7y6Mlxvywy_THLdiL0gUBwy9Stsn_TlEmCNKLao,1688
+cliai-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+cliai-0.2.0.dist-info/entry_points.txt,sha256=5sy5aak_8Niob-eooD6MEA25rPvuW0MfqDeuRAGnAc4,39
+cliai-0.2.0.dist-info/RECORD,,
