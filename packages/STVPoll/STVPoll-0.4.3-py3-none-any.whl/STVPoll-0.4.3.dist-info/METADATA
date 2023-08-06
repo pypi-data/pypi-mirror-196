@@ -1,0 +1,177 @@
+Metadata-Version: 2.1
+Name: STVPoll
+Version: 0.4.3
+Summary: STV polling methods
+Home-page: https://github.com/VoteIT/STVPoll
+Author: Johan Schiff & Betahaus development team
+Author-email: johan@betahaus.net
+Keywords: election poll stv
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: tarjan
+Provides-Extra: testing
+
+STVPoll README
+==============
+
+.. image:: https://travis-ci.org/VoteIT/STVPoll.svg?branch=master
+    :target: https://travis-ci.org/VoteIT/STVPoll
+
+Library to perform STV Poll calculations.
+The package was created as part of the VoteIT project, specifically to handle larger
+elections that was hard to count with Markus Schulzes STV method.
+
+Typical usage would be primary elections or elections with many winners
+from a pool of many candidates. The result will be proportional.
+
+
+Fully supported:
+
+* Scottish STV
+* Instant-Runoff Voting (IRV)
+
+Mostly working:
+
+* CPO STV (Does not fail gracefully if too many outcomes)
+
+
+Example
+-------
+
+Case from:
+https://en.wikipedia.org/wiki/Single_transferable_vote
+
+
+.. code-block:: python
+
+    from stvpoll.scottish_stv import ScottishSTV
+
+    example_ballots = (
+        (['orange'], 4),
+        (['pear', 'orange'], 2),
+        (['chocolate', 'strawberry'], 8),
+        (['chocolate', 'bonbon'], 4),
+        (['strawberry'], 1),
+        (['bonbon'], 1),
+    )
+
+    poll = ScottishSTV(seats=3, candidates=['orange', 'chocolate', 'pear', 'strawberry', 'bonbon'])
+    for (candidates, count) in example_ballots:
+        poll.add_ballot(candidates, count)
+
+    result = poll.calculate()
+
+
+This will return a ElectionResult object that contains the result and some useful metadata.
+The elected attribute contains the elected candidates.
+
+Candidates to the left have higher preference, so:
+['pear', 'orange'] means 'pear' before 'orange' etc.
+The number is how many of that kind of ballot there is.
+
+
+.. code-block:: python
+
+    result.elected_as_tuple()
+    ('chocolate', 'orange', 'strawberry')
+
+
+Code & Contributions
+--------------------
+
+You may fork the code at:
+https://github.com/VoteIT/STVPoll
+
+Please report any bugs there, or email info@voteit.se
+
+
+
+Changes
+=======
+
+0.4.3 (2023-03-09)
+------------------
+
+- Fix subtle bug in vote transfers, where current votes was not updated for every vote transfer.
+
+0.4.2 (2023-03-09)
+------------------
+
+- Fix bug in 0.4.1, where not all elected candidates votes were transferred to next preference.
+
+0.4.1 (2023-03-09)
+------------------
+Important breaking changes: Result data structure is updated. Import paths changed.
+
+- Rewritten type annotations.
+- Rewritten internal data structures, minimizing mutation of data.
+- Introducing tiebreak strategies.
+- Random tiebreaks not uses a shuffled candidate list, which is reported as part of result.
+- Utility to recalculate result from previous polls, using ordered candidate list in randomized tiebreaks.
+- STVPollBase class moved from ``__init__.py`` to ``abcs.py``.
+- Updated result data structure.
+
+0.3.0 (dev)
+-----------
+
+- Introduce *pedantic_order=False*, to avoid incomplete results when randomization can not affect who is elected.
+
+
+0.2.3 (dev)
+-----------
+
+- Fixed bug where votes were discarded in select_multiple.
+- Scottish STV: Select proposals in order of most votes, when there is no more competition.
+
+
+0.2.2 (dev)
+-----------
+
+- Fixed bug with tie in first round on Scottish STV.
+- Fixed bug in quota selection of all seats in CPO.
+
+
+0.2.1 (dev)
+-----------
+
+- Unreleased
+
+
+0.2.0 (2018-05-23)
+------------------
+
+- Fixed bug in deciding which vote to transfer first when multiple elected in Scottish STV. [schyffel] [robinharms]
+- Scottish STV: Resolve ties so that winners are always in correct ranking order (extreme case). [schyffel]
+- Now works on Python 3. [schyffel]
+- Test coverage 100 %. [schyffel]
+
+
+0.1.4 (2018-05-12)
+------------------
+
+- Fixed a situation where primary_candidate in rounds didn't exist. [schyffel] [robinharms]
+
+
+0.1.3 (2018-03-22)
+------------------
+
+- Excluded empty ballots, so that they do not affect the quota. [schyffel]
+
+
+0.1.2 (2017-11-24)
+------------------
+
+- Fixed exception on empty ballots. [schyffel]
+
+
+0.1.1 (2017-11-24)
+------------------
+
+- Fixed case where randomization caused an exception. [schyffel]
+
+
+0.1.0 (2017-11-03)
+------------------
+
+-  Initial version
