@@ -1,0 +1,8 @@
+setup.py
+bomper/Main.py
+bomper/__init__.py
+bomper.egg-info/PKG-INFO
+bomper.egg-info/SOURCES.txt
+bomper.egg-info/dependency_links.txt
+bomper.egg-info/requires.txt
+bomper.egg-info/top_level.txt
