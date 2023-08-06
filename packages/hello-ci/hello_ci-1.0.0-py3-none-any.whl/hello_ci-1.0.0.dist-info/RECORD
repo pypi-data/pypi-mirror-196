@@ -1,0 +1,8 @@
+hello_ci/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+hello_ci/hello/__init__.py,sha256=6jJSV8R_A2h6YcZCt6X_rsmr0fvCdLuSCw1SuYTUXek,46
+hello_ci/hello/hello.py,sha256=g7gLAtJXJzfKT5ra2XjHg8dmVYsQBoiO8X83eJToI7g,931
+hello_ci/world/__init__.py,sha256=6f5l8gNmIeYKdgMV71NefBcg2tgiiB7O51p2i3k_Ghk,46
+hello_ci/world/world.py,sha256=tUfWTKJtj3PIclKZ925ddy1qBHO8TSlafD-WvrFsqoA,381
+hello_ci-1.0.0.dist-info/METADATA,sha256=bbMzVRdmStsv5uEssdgBmupSrY9H2zt6mN8t4HgWDPs,559
+hello_ci-1.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+hello_ci-1.0.0.dist-info/RECORD,,
