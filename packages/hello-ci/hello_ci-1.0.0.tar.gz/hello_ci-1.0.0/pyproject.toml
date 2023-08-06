@@ -1,0 +1,104 @@
+# [build-system]
+# build-backend = "setuptools.build_meta"
+# requires = ["setuptools", "wheel"]
+
+# [project]
+# dynamic = ["dependencies"]
+# name = "hello_ci"
+# version = "0.1.0"
+
+# [tool.setuptools.dynamic]
+# dependencies = {file = ["requirements.txt"]}
+
+[tool.poetry]
+authors = ["asdftoger"]
+description = "A test example of a package "
+documentation = "https://github.com/asdftoger/hello_ci"
+license = "MIT"
+name = "hello_ci"
+packages = [
+  {include = "hello_ci", from = "src"},
+]
+#Dynamic versioning
+version = "1.0.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.2.0"]
+
+[tool.poetry.dependencies]
+numpy = "*"
+pandas = "*"
+python = "^3.8"
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=6.0"
+pytest-cov = "*"
+pytest-sugar = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+ipykernel = "*"
+mypy = "*"
+nbqa = "*"
+poethepoet = "^0.18.1"
+pre-commit = "*"
+pylint = "*"
+tox = ">4.0"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^6.1.3"
+
+# [tool.poetry-dynamic-versioning]
+# enable = true
+# vcs = "git"
+
+# [tool.poetry-dynamic-versioning.substitution]
+# files = ["*/__init__.py"]
+# folders = [
+#   {path = "src"},
+# ]
+[tool.poe.tasks]
+_black = 'black .'
+_isort = 'isort .'
+_mypy = "mypy src tests"
+_pylint = "pylint src tests"
+_sphinx_build = "sphinx-build -b html docs/source docs/build/html"
+_sphinx_docs = "sphinx-apidoc -o docs/source src/hello_ci/"
+_sphinx_docs_tests = "sphinx-apidoc -o docs/source tests/"
+[tool.poe.tasks.format]
+sequence = ['_black', '_isort']
+
+[tool.poe.tasks.docs]
+sequence = ["_sphinx_docs", "_sphinx_docs_tests", "_sphinx_build"]
+
+[tool.poe.tasks.docs_clean]
+cmd = """cd docs & make clean"""
+
+[tool.poe.tasks.check_code]
+sequence = ["_pylint", "_mypy"]
+
+[tool.poe.tasks.nbs_format]
+cmd = "nbqa black nbs"
+# [tool.poe.tasks.test_new]
+# shell = "git diff --name-only --diff-filter=ACMR HEAD^ HEAD | grep '\.py$' | xargs -I{} pytest"
+
+[tool.mypy]
+exclude = "docs"
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+  'pandas.*',
+  'numpy.*',
+]
+
+[tool.pylint]
+disable = "C,R"
+output-format = "colorized"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q -v --cov=src --cov-report html --cov-report term"
+minversion = "6.0"
+testpaths = [
+  "tests",
+]
