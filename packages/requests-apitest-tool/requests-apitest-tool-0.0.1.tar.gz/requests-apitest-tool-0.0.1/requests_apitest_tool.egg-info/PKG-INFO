@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: requests-apitest-tool
+Version: 0.0.1
+Summary: Simplify interface testing
+Home-page: https://github.com/ydd9090/requests-apitest-tool
+Author: ydd9090
+Author-email: hello2ydd9090@gmail.com
+Keywords: interface,automation,testing,requests
+Platform: any
+Description-Content-Type: text/markdown
+
+# requests-apitest-tool
