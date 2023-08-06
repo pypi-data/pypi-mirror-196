@@ -1,0 +1,11 @@
+oarepo_model_builder_vocabularies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oarepo_model_builder_vocabularies/datatypes.py,sha256=iVHZ_NOLkVUhg7uuSdEi1YpvSZGdxTk-fHshoIjVwbI,4213
+oarepo_model_builder_vocabularies/setup_cfg.py,sha256=oAV0klCoPJWocQUllJEmkfW0IJtk6UHXAkUVjPZA0P4,477
+oarepo_model_builder_vocabularies/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oarepo_model_builder_vocabularies/models/vocabulary.json,sha256=EM4Kq_1VRE8bcXDN2qFEz2kWSghmtKbrrpVjRlG39m8,18831
+oarepo_model_builder_vocabularies/models/vocabulary.yaml,sha256=w0AaC33GD25T7dDG-vYANqiNeY7bGfEDDxETecFyut8,3780
+oarepo_model_builder_vocabularies-1.0.3.dist-info/METADATA,sha256=yr_0mQFT4lho0B7Db1HgBW2thppE8twUYOaMk1cXs20,852
+oarepo_model_builder_vocabularies-1.0.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+oarepo_model_builder_vocabularies-1.0.3.dist-info/entry_points.txt,sha256=hVVZcZ-bOiGJrznrGGIBDt0C3QUoVoJEuo5opLdj-ys,320
+oarepo_model_builder_vocabularies-1.0.3.dist-info/top_level.txt,sha256=zFjquY1j218kmHIYBsOqpbZW_THKJ2nTuj_e7IdeYZ8,34
+oarepo_model_builder_vocabularies-1.0.3.dist-info/RECORD,,
