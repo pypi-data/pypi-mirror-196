@@ -1,0 +1,2 @@
+[console_scripts]
+gpt_docs_and_tests = gpt_docs_and_tests:main

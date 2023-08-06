@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/gpt_docs_and_tests/__init__.py
+src/gpt_docs_and_tests/__main__.py
+src/gpt_docs_and_tests/adder.py
+src/gpt_docs_and_tests.egg-info/PKG-INFO
+src/gpt_docs_and_tests.egg-info/SOURCES.txt
+src/gpt_docs_and_tests.egg-info/dependency_links.txt
+src/gpt_docs_and_tests.egg-info/entry_points.txt
+src/gpt_docs_and_tests.egg-info/requires.txt
+src/gpt_docs_and_tests.egg-info/top_level.txt
+test/test_adder.py
