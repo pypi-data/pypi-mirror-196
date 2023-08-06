@@ -1,0 +1,10 @@
+whispercpp-0.0.15.dist-info/METADATA,sha256=XiROUE-MSk_ZQQ578kY1YIK2zah0mP3T8P13DeBQlzk,5648
+whispercpp-0.0.15.dist-info/RECORD,,
+whispercpp-0.0.15.dist-info/WHEEL,sha256=QIk1cMiOu8x0AG2tKhh4SQ8fJLFhspX9siiOGYxq3BM,108
+whispercpp/__init__.py,sha256=gd-6bHWXy6WRNRybrh5vWOwrh2ItUjwsKI5sQcUOGCk,8918
+whispercpp/__init__.pyi,sha256=KIjxbO5HiyLMF0VOi5FM7epOIxZqJMf0DjXQzcO5Vsc,1734
+whispercpp/api.pyi,sha256=lm2vyxYdDJf7RqRnY-znjRslgNcEgdnGJZdjiVebQ48,8276
+whispercpp/api_cpp2py_export.so,sha256=moK7NhJA9Fhd6JgHW4suL-tItVvPZmXi26ACRpukKj4,1288008
+whispercpp/audio.pyi,sha256=_LcyW7F8zLPoryeDHuMVnRlbKQZm8s7A4p_1Xnqwsj4,1016
+whispercpp/audio_cpp2py_export.so,sha256=tTI0QblGoMaIGJsb5kGTw2jRERojwh3auCxmKsgLcoA,2396672
+whispercpp/utils.py,sha256=soAnQJCwZ7wMDgQ7dQdnRcRPWA4ZcM0LRVGe3OeElSo,5350
