@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+rapiz.egg-info/PKG-INFO
+rapiz.egg-info/SOURCES.txt
+rapiz.egg-info/dependency_links.txt
+rapiz.egg-info/entry_points.txt
+rapiz.egg-info/top_level.txt

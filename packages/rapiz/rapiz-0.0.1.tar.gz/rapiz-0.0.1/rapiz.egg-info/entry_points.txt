@@ -1,0 +1,2 @@
+[console_scripts]
+rapiz = rapiz.cli:main
