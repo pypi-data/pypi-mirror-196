@@ -1,0 +1,17 @@
+openai_client/__init__.py,sha256=49zJMO3fCuQ7lysc7Jukzrmhs50GaWsHb6o6MsZFnAw,183
+openai_client/base/__init__.py,sha256=bLJIIaHf9vdPCz8ClsjUy00h8A4sizzJYEJJdkqOs-c,34
+openai_client/base/client.py,sha256=Ns0lxsoLDD1f8o5Q07yp2lXSFQVD_Uf1JQcoPYwS3kw,3840
+openai_client/clients/__init__.py,sha256=Ng_Hvm4VIAh-wo6CBqgY6vQhrlRd4y24Zb0s3E6ZYI4,36
+openai_client/clients/chatbot/__init__.py,sha256=CHs8zamUySrw1CSuOhwLA7ToIRTIOczTAb7JnQPqIes,36
+openai_client/clients/chatbot/client.py,sha256=HNDy61YCLG7wpGU1eX2FKsN0Vmz1ru7nJbmLTZJZsvs,1223
+openai_client/clients/chatbot/d_and_d_demo.py,sha256=CxCcQ63IR_e8Ju2uSo-T8cXkx7sYP_YYh8s04W0pRY0,1507
+openai_client/enums/__init__.py,sha256=_56jKirkQHknB-VWzN316xyhkTrjMLBXenguwJViwNo,24
+openai_client/enums/base.py,sha256=F7_KweNpH2rHnHr1HWBNc1DGnF0VdBHf9B7q7uYdCaE,415
+openai_client/enums/roles.py,sha256=EevLmpJmavq-07nW49YFKQ-alIT4sqsXY88zTzXa9GY,163
+openai_client/mixins/__init__.py,sha256=rDWuCDS8nbCaQDdlEkJGVaVEcnwTRi9R1loQjiYMNds,61
+openai_client/mixins/chat_context_manager.py,sha256=9APqoZ8XATKZVAFBF3hN0G10H6b3dosFoiyjooGH048,3221
+OpenAI_API_Python_Client-1.0.6.dist-info/LICENSE,sha256=WWk51NlhDRV4-Hv8ODLYIA28PZ8fuM4xLETWcE6Qlyg,1500
+OpenAI_API_Python_Client-1.0.6.dist-info/METADATA,sha256=lzrdiE2pIL9ycxHIIslPwwA0vO76Qde84s0Zwe6QHbY,4149
+OpenAI_API_Python_Client-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+OpenAI_API_Python_Client-1.0.6.dist-info/top_level.txt,sha256=Ak_Uz1w15qIcwe6-8-WXRbGrjUuWyVIrAy2091x3yDI,14
+OpenAI_API_Python_Client-1.0.6.dist-info/RECORD,,
