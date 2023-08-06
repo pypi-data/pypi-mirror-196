@@ -1,0 +1,10 @@
+akudu/__init__.py,sha256=fHLL5OOYD4qKOlsMM7VwW5DfetqAvKMVhN4rFj_Iuqc,210
+akudu/client.py,sha256=kdUzxvGDcJ5uZFdk32l-G3FWBzBze5cZxPBegaRjWTw,639
+akudu/connection.py,sha256=PkAlvk4PQxo6a-Z-cgFoGvER2jDzApHojT2FNcQsnqw,937
+akudu/negotiate.py,sha256=QE14D-lMpMQdORlp85LBm2rPkETYbr4jdEwrd9w6wRI,107
+akudu/wire.py,sha256=WQrwz8i_ulDgOHXcozB_KjVU8wKLvAuxfku832-cWJk,1871
+akudu-0.0.1.dist-info/LICENSE,sha256=42rzjKOPJQBTa8muNfuo9Qhb5HQRTVS0YYOsMvR9ZV8,1065
+akudu-0.0.1.dist-info/METADATA,sha256=52xUyThezpqX98HcD0U7-k8pGgOFWin7W8IhtoLASi4,2622
+akudu-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+akudu-0.0.1.dist-info/top_level.txt,sha256=6n0y4gC5P_1M_mBUd7FZnQUO5BmugZRGpAjCkOJB04w,6
+akudu-0.0.1.dist-info/RECORD,,
