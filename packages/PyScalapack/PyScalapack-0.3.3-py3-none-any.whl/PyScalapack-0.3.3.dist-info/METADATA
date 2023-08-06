@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyScalapack
+Version: 0.3.3
+Summary: python wrapper for scalapack
+Home-page: https://github.com/USTC-TNS/TAT/tree/TAT/PyScalapack
+Author: Hao Zhang
+Author-email: zh970205@mail.ustc.edu.cn
+License: GPLv3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+
+# PyScalapack
+
+PyScalapack is a python wrapper for scalapack.
+
