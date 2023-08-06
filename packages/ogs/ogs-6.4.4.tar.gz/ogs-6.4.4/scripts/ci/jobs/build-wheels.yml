@@ -1,0 +1,78 @@
+stages:
+  - build
+  - release
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_TAG
+      variables:
+        PYPI_REPO: --repository pypi
+        PYPI_AUTH: --username __token__ --password "${PYPI_TOKEN}"
+        GIT_DEPTH: 1000
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+      variables:
+        PYPI_REPO: --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi
+        PYPI_AUTH: --username gitlab-ci-token --password ${CI_JOB_TOKEN}
+        SETUPTOOLS_SCM_LOCAL_SCHEME: no-local-version
+        GIT_DEPTH: 1000
+    - if: $CI_MERGE_REQUEST_ID
+      variables:
+        CIBW_BUILD: cp39* cp310*
+        GIT_DEPTH: 1000
+
+include:
+  - local: "scripts/ci/extends/*.yml"
+
+.wheels_template: &wheels_template
+  stage: build
+  script:
+    - pipx run cibuildwheel
+  artifacts:
+    paths:
+      - wheelhouse/
+
+build wheels linux:
+  tags: [envinf3-shell]
+  variables:
+    CPM_SOURCE_CACHE: /host/cibuildwheel_cache/cpm
+    CCACHE_DIR: /host/cibuildwheel_cache/ccache
+    CCACHE_MAXSIZE: 15G
+  <<: *wheels_template
+
+build wheels mac:
+  tags:
+    - mac
+    - ${ARCHITECTURE}
+  variables:
+    CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+  parallel:
+    matrix:
+      - ARCHITECTURE: ["amd64", "arm64"]
+  <<: *wheels_template
+
+build wheels win:
+  tags: [windows]
+  extends:
+    - .vs2019-environment
+  variables:
+    SKBUILD_BUILD_OPTIONS: "/m"
+    SKBUILD_GENERATOR: "Visual Studio 16 2019"
+    # Does not work as it does not select the host64 compiler:
+    # SKBUILD_GENERATOR: "Ninja"
+  <<: *wheels_template
+
+publish wheels:
+  stage: release
+  needs: ["build wheels linux", "build wheels mac", "build wheels win"]
+  tags: [envinf, shell]
+  rules:
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - when: never
+  script:
+    - pipx run build --sdist --outdir wheelhouse
+    - >
+      pipx run twine upload
+      ${PYPI_REPO}
+      ${PYPI_AUTH}
+      wheelhouse/*

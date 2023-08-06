@@ -1,0 +1,36 @@
+build linux frontend:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+    - .rules-master-manual
+  tags:
+    - frontend2
+  needs: [meta]
+  allow_failure: true
+  variables:
+    BUILD_PACKAGE: "false"
+    CCACHE_DIR: "/data/ogs/.ccache"
+    CMAKE_PRESET: release
+    CTEST_ARGS: "--label-exclude python_modules" # pip installed modules segfault
+    CMAKE_ARGS: "-DOGS_CPU_ARCHITECTURE=generic"
+    CTEST_EXCLUDE_REGEX: "nb-"
+  before_script:
+    - source scripts/env/eve/cli.sh
+
+build linux frontend petsc:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+    - .rules-master-manual
+  tags:
+    - frontend2
+  needs: [meta]
+  allow_failure: true
+  variables:
+    BUILD_PACKAGE: "false"
+    CCACHE_DIR: "/data/ogs/.ccache"
+    CMAKE_PRESET: release-petsc
+    CMAKE_ARGS: "-DOGS_CPU_ARCHITECTURE=generic"
+    CTEST_EXCLUDE_REGEX: "nb-"
+  before_script:
+    - source scripts/env/eve/petsc.sh

@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+  "scikit-build @ git+https://github.com/bilke/scikit-build/@disable-cmake-install-check#egg=scikit-build ; platform_system == 'Windows'",
+  "scikit-build>=0.15.0 ; platform_system != 'Windows'",
+  "cmake>=3.22",
+  "ninja ; platform_system != 'Windows'",
+  "setuptools_scm[toml]>=7.0",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["Tests"]
+norecursedirs = ["Tests/Data"]
+
+[tool.cibuildwheel]
+archs = "auto64"
+build = "cp3*"
+test-extras = "test"
+test-command = "pytest {project}/Tests/Python"
+build-verbosity = "1"
+
+[tool.cibuildwheel.linux]
+skip = ["*musllinux*", "cp36-*"]
+# See https://github.com/NixOS/patchelf/issues/446
+# quay.io/pypa/manylinux_2_28 works too
+manylinux-x86_64-image = "quay.io/pypa/manylinux2014_x86_64@sha256:005826a6fa94c97bd31fccf637a0f10621304da447ca2ab3963c13991dffa013"
+manylinux-aarch64-image = "quay.io/pypa/manylinux2014_x86_64@sha256:005826a6fa94c97bd31fccf637a0f10621304da447ca2ab3963c13991dffa013"
+before-all = "yum install -y ccache"
+environment-pass = [
+  "SETUPTOOLS_SCM_LOCAL_SCHEME",
+  "CPM_SOURCE_CACHE",
+  "CCACHE_DIR",
+  "CCACHE_MAXSIZE",
+]
+
+[tool.cibuildwheel.macos]
+skip = ["cp36-*", "cp37-*", "cp38-*x86_64"]
+
+[tool.cibuildwheel.windows]
+skip = ["cp36-*", "cp37-*"]
