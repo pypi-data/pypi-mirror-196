@@ -1,0 +1,15 @@
+model_sketch_book/Concept.py,sha256=1kIVujsJ7UNrOB9cmQcjzlyPdP5_yijzG_fiZDQNX44,30793
+model_sketch_book/Dataset.py,sha256=0r5T1joZSDSNrf1bgF7CW8c66UIOQvqoJw_aAmcqf1c,1488
+model_sketch_book/README.md,sha256=TzX2yg0WK7roh16oMZ4rfc9udi7MND-KIdkiOJkbrLQ,3787
+model_sketch_book/Result.py,sha256=UrKCK7vv-IePwZ6exD0sN93OVyxbnhmIfoMzz6SJl2s,251
+model_sketch_book/Sketch.py,sha256=RBKziQLgEFD73MHxM95Ke82lAleyhkkhRznm0ylLRs4,13205
+model_sketch_book/SketchBook.py,sha256=cXBeRjaIqQa_kDJb29fK7Q6gFsrWfi-6jwUSAphnTTg,11798
+model_sketch_book/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_sketch_book/helper_functions.py,sha256=WkVlj8LM0fnbmk6Wd3UP6qhOLiGrP6i8ypJNBhjik1o,3806
+model_sketch_book/model_sketch_book.py,sha256=p0A4FPULnaSY6P7f4gq7imMq5XCaO_HiOlhsOjfDWp4,28534
+model_sketch_book/msb_enums.py,sha256=WGybwptheWCyUNcc9IWleLiCIEprICd5Ufdz5TGzXSA,669
+model_sketch_book/msb_stateless.py,sha256=RPtmlmaoDVu2cTd70YIEEzp5c-X5jcq4AfjWGnJir_k,5885
+model_sketch_book-1.0.1.dist-info/LICENSE,sha256=tzm-AWNGLPJexVFNCoBoCAG6jRK5hj9SctmlfTOuLK0,1071
+model_sketch_book-1.0.1.dist-info/METADATA,sha256=ih8CAGL4CSwlnI2iyl2GEnfcoHzoOCqk_fv-hPVRs1M,1599
+model_sketch_book-1.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+model_sketch_book-1.0.1.dist-info/RECORD,,
