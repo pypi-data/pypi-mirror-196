@@ -1,0 +1,8 @@
+allconnect/README.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allconnect/allconnect/__init__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+allconnect/pyproject.toml,sha256=Bu3dI2i7rijB_B6eBJajaKr--K4FpY9Ky0YEcJtfZ_g,296
+allconnect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allconnect/tests/test_allconnect.py,sha256=pl3bU4nYFHq1QudXtyaZ_KJnX6-YvYdFsd9ChSW9jUs,91
+allconnect-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+allconnect-0.1.0.dist-info/METADATA,sha256=-LZrP93MmlfpeTwJDa0inrRyPXUBfNlA3JmuHI6VQWM,823
+allconnect-0.1.0.dist-info/RECORD,,
