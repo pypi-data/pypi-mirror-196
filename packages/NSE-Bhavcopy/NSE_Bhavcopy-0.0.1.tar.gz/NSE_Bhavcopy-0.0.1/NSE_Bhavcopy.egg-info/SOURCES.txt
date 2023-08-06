@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+NSE_Bhavcopy.egg-info/PKG-INFO
+NSE_Bhavcopy.egg-info/SOURCES.txt
+NSE_Bhavcopy.egg-info/dependency_links.txt
+NSE_Bhavcopy.egg-info/requires.txt
+NSE_Bhavcopy.egg-info/top_level.txt
