@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+letterbomb/__init__.py
+letterbomb/__main__.py
+letterbomb.egg-info/PKG-INFO
+letterbomb.egg-info/SOURCES.txt
+letterbomb.egg-info/dependency_links.txt
+letterbomb.egg-info/requires.txt
+letterbomb.egg-info/top_level.txt
+tests/test_mac.py
+tests/test_regions.py
