@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zanzi
+Version: 0.1.0
+Summary: 
+Author: sagnikc395
+Author-email: sagnikchatterjee395@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+## zanzi
+
+A modern key-value store written in Python.
+
