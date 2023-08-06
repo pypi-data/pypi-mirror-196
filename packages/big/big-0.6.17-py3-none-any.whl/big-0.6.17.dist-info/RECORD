@@ -1,0 +1,15 @@
+big/__init__.py,sha256=Q-fi_tzz9VMS3OT66mzLV72E-KHpggtp6BwEO3YXWJU,1243
+big/all.py,sha256=96Ha0h9xS8xPbhfdjy50Iery5oaN2R6mph6gAtYxae4,1941
+big/boundinnerclass.py,sha256=ktSqm-M_avdhreDO_Lco65MOnaTfepRZ4VbSkE4kIgg,5705
+big/builtin.py,sha256=4ee-RLQIJp7tjbFUTzmWTtupXpzRrdXSFNKfVO5Y8JA,3274
+big/file.py,sha256=eESgHNV3EReue7uayQ1xaISRrwjud5SIaHTidYLt4o0,11015
+big/graph.py,sha256=czbb2p8_y4T-2i-pbvlhkQvEor-xN3YP6l9SWjGV7tM,25350
+big/heap.py,sha256=yycqf7dcIXQv0KbuwuXKGOWze0Tm603f2iqa6DNgLlw,5347
+big/itertools.py,sha256=9Lzaq6quGNFDO0WEeIA2iwLXmPqS7DmeP69Ns5kxhcM,2499
+big/scheduler.py,sha256=kWYfOl43C8uMp0QQszuom8rFqFjW1fuNcJXyyOK1rAo,9644
+big/text.py,sha256=IVkD_VepAGKM_HbJJuTfbSKvj3IvPGHcQ1mEhkc1R8U,71910
+big/time.py,sha256=zX15SYVv6ug3UV-oLSQ8pcd2ydKkIYWdA7vP4s5G39k,7163
+big-0.6.17.dist-info/LICENSE,sha256=vRAfnLhySi-3xoETV4sDBa6YdlUl0IJmu5p3tjFF5Ps,1084
+big-0.6.17.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+big-0.6.17.dist-info/METADATA,sha256=5Z7OlbCCHH7UIZryWt3kfadYtJsEHUobWYkEkUOaieU,125361
+big-0.6.17.dist-info/RECORD,,
