@@ -1,0 +1,15 @@
+AUTHORS.md
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/minterpy_levelsets/__init__.py
+src/minterpy_levelsets/levelset_poly.py
+src/minterpy_levelsets/pointcloud_utils.py
+src/minterpy_levelsets/sympy_utils.py
+src/minterpy_levelsets.egg-info/PKG-INFO
+src/minterpy_levelsets.egg-info/SOURCES.txt
+src/minterpy_levelsets.egg-info/dependency_links.txt
+src/minterpy_levelsets.egg-info/requires.txt
+src/minterpy_levelsets.egg-info/top_level.txt
