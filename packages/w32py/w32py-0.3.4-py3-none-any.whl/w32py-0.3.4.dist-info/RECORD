@@ -1,0 +1,11 @@
+w32py/__init__.py,sha256=QJ4TVIYWWazZt0JpRfE11FGWSA3wutZmLV78BMcGuZQ,49
+w32py/ebest.py,sha256=QRce3KkZQX1iTcL4ErygOwafw2CumRussqKjNGnKuAA,13270
+w32py/korea.py,sha256=fbj24KlWb_GtOTjNHegxDcA_b-9F9Mobp0Tw4aTZ2WM,11247
+w32py/psutil.py,sha256=2q3pe8VzxmqpFMU1zTH3hw8-kldadAXj1QryHTNSCkc,188
+w32py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+w32py/win.py,sha256=d0hgwhIFGeBlDsXL36RddUYLVPt6m8YijQ7lPufXdug,921
+w32py/winauto.py,sha256=GZkVMq5ttNes-UpkTKByrmWRhulT-alCTcgS9mG-YMA,163
+w32py-0.3.4.dist-info/LICENSE,sha256=Oec_WAOuodUrdkjlCGsBCYeT4ieoU564wLBaI-dXjV4,1081
+w32py-0.3.4.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+w32py-0.3.4.dist-info/METADATA,sha256=sbfJqrCRdtTXPyGLmz_hkK-pcJ5IZXfBaUgrmssFPb0,1067
+w32py-0.3.4.dist-info/RECORD,,
