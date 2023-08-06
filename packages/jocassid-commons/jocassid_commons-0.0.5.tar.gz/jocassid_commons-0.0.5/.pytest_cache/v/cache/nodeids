@@ -1,0 +1,7 @@
+[
+  "tests/test_dirf.py::TestDirf::test_case_sensitive_contains",
+  "tests/test_dirf.py::TestDirf::test_simple_contains",
+  "tests/test_dirf.py::TestDirf::test_startswith",
+  "tests/test_json.py::test_json_get",
+  "tests/test_json.py::test_json_get_with_lists"
+]
