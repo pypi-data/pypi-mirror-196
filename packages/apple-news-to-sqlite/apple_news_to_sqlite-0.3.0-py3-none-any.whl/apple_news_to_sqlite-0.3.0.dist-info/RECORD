@@ -1,0 +1,10 @@
+apple_news_to_sqlite/__init__.py,sha256=NlfYUR3Q6zo4A54eQxWP6X1AgzwTSCGWchYv71_fSF4,58
+apple_news_to_sqlite/__main__.py,sha256=QDbp0wJ62-wzzDpleZBlBPL--5yqKALfojUU7GNaQYs,115
+apple_news_to_sqlite/cli.py,sha256=EkHqMg1jVvaxWpAt_pAeWQjhetf2Pb7ltAzGJbi0en4,2096
+apple_news_to_sqlite/news.py,sha256=4Iv2eXT82EO13s2NUh9Vnt27C6x4o_NyP_9Q_IWnf2Y,5387
+apple_news_to_sqlite/version.py,sha256=LkAj0CMj6Tvob8VuyI9sL1FpYllHgIP5bCZeaT1G8nw,73
+apple_news_to_sqlite-0.3.0.dist-info/LICENSE,sha256=IrCatJ7Y9eb1gmjPPgAUl_ZfxhJPK1zWBnNA5GOmFNU,1070
+apple_news_to_sqlite-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+apple_news_to_sqlite-0.3.0.dist-info/entry_points.txt,sha256=SVLR8rvtGosvlr9TLM_ZqDGoN-ChV2Jr8uqy9B3FyuQ,74
+apple_news_to_sqlite-0.3.0.dist-info/METADATA,sha256=oqjAt9SzX6Ge3wjpQF1NOHcDB6AKU4V8Xw4Lo5hrdNg,4246
+apple_news_to_sqlite-0.3.0.dist-info/RECORD,,
