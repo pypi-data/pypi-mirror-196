@@ -1,0 +1,9 @@
+ug_gpib/__init__.py,sha256=FG1QmrG7TMpQ6MkO278txpv0ra46tkqxQ_ZDSVogjvE,151
+ug_gpib/_version.py,sha256=vCJiheUMXl4yn00xjaMM3dgM7cfIDN2Nvvoe37clHtw,51
+ug_gpib/gpib_helper.py,sha256=641B7DhEFy595pIrehJnZji5tgiVeYC-klpu_N5KPDw,3258
+ug_gpib/ug_gpib.py,sha256=VACiMPZqAqUQs6NS3kn9hp5_pYs7OryzvG0_Qq__-pU,14327
+ug_gpib-1.2.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+ug_gpib-1.2.0.dist-info/METADATA,sha256=d6oortXykvJaRyRBdU91i9QohlPIB7PHNRJT07sy4gI,5348
+ug_gpib-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ug_gpib-1.2.0.dist-info/top_level.txt,sha256=SquJ7Xo9jDmz6FYj-fzbPnESM_OCS9fbSs9iejA3Sok,8
+ug_gpib-1.2.0.dist-info/RECORD,,
