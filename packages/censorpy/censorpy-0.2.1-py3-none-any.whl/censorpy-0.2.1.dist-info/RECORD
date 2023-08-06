@@ -1,0 +1,9 @@
+censorpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censorpy/censorpy.py,sha256=7XveEI7SoAq3GYZLO19m18_7usrbxZ4O0OmByMTg5sA,1096
+censorpy/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censorpy/handlers/censorHandler.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censorpy/handlers/checkerHandler.py,sha256=hB4i5AsW0bxvTIa_kW_g4FEVTLs3IbbP9nIDactI7C0,4426
+censorpy-0.2.1.dist-info/METADATA,sha256=gVNjCilX3dWtcHKiSjLDVRUDDy3wfNYfF3ApFQJgXlw,665
+censorpy-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+censorpy-0.2.1.dist-info/top_level.txt,sha256=K0wC8TwebT1InMZidUe-2D314bK7VlJ3NrLtfdGErEE,9
+censorpy-0.2.1.dist-info/RECORD,,
