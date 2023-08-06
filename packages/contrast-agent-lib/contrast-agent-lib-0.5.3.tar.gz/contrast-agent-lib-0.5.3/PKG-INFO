@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: contrast-agent-lib
+Version: 0.5.3
+Summary: Python interface to the contrast agent lib
+Home-page: https://www.contrastsecurity.com
+Author: Contrast Security, Inc.
+Author-email: python@contrastsecurity.com
+License: CONTRAST SECURITY (see LICENSE.txt)
+Project-URL: Support, https://support.contrastsecurity.com
+Description: # agent-lib
+        
+        
+        Core library for shared Contrast Agent functionality.
+        
+        
+        For the most up-to-date documentation on the Python Agent please see
+        [Contrast Docs](https://docs.contrastsecurity.com/en/python.html)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
