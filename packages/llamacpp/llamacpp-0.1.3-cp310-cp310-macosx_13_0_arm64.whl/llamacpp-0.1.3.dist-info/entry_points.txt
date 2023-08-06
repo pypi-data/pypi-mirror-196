@@ -1,0 +1,4 @@
+[console_scripts]
+llamacpp-convert=llamacpp.quantize:main
+llamacpp-quantize=llamacpp.quantize:main
+
