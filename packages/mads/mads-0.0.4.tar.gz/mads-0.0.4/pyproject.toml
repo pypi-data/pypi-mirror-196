@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mads"
+version = "0.0.4"
+authors = [
+  { name="Brian C. Vermeire", email="brian.vermeire@concordia.ca" },
+]
+description = "An implementation of Mesh Adaptive Direct Search (MADS) for gradient-free optimization."
+readme = "README.md"
+requires-python = ">=3.7"
+requires=[
+    "numpy >=1.18"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/bvermeir/mads"
+"Bug Tracker" = "https://gitlab.com/bvermeir/mads/-/issues"
