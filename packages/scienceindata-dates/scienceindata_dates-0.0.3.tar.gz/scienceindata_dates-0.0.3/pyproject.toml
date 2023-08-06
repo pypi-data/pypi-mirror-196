@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scienceindata_dates"
+version = "0.0.3"
+authors = [
+  { name="Science in Data"},
+]
+description = "A simple library for generating dates in common scenarios for data analysis (Demo package)."
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/scienceindata/common_dates"
+"Bug Tracker" = "https://github.com/scienceindata/common_dates/issues"
