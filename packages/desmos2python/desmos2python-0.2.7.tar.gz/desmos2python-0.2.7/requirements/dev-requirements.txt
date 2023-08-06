@@ -1,0 +1,8 @@
+setuptools>=40.6.0
+setuptools_scm
+wheel
+flake8
+mypy
+autopep8
+pypandoc
+ipython>=8.11.0

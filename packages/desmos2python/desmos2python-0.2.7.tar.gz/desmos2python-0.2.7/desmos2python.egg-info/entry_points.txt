@@ -1,0 +1,2 @@
+[distutils.commands]
+init_resources_d2p = desmos2python._setuptools_ext:init_resources_d2p

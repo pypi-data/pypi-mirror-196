@@ -1,0 +1,177 @@
+[build-system]
+requires = [ "setuptools>=40.6.0", "wheel>=0.34.2", "setuptools_scm", ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "desmos2python"
+dynamic = [ "dependencies", "readme", "entry-points", "version"]
+description = "seamless conversion between Desmos LaTeX equations and executable Python code."
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+keywords = ["desmos", "graphing calculator", "conversion", "convert to python", "mathematical modeling"]
+
+[[project.authors]]
+name = "Robert Ahlroth Capps"
+
+[project.urls]
+Homepage = "https://github.com/rocapp/desmos2python"
+"Issue Tracker" = "https://github.com/rocapp/desmos2python/issues"
+"Source Code" = "https://github.com/rocapp/desmos2python"
+
+[project.license]
+file = "LICENSE"
+
+[tool.setuptools]
+zip-safe = false
+platforms = [ "Windows", "macOS", "Linux",]
+
+[tool.setuptools_scm]
+
+[tool.whey]
+base-classifiers = []
+python-versions = [ "3.10",]
+python-implementations = [ "CPython",]
+platforms = [ "Windows", "macOS", "Linux",]
+license-key = "MIT"
+
+[tool.sphinx-pyproject]
+github_username = "rocapp"
+github_repository = "desmos2python"
+author = "Robert Ahlroth Capps"
+project = "desmos2python"
+copyright = "2022 Robert Ahlroth Capps"
+language = "en"
+package_root = "desmos2python"
+extensions = [
+    "sphinx_toolbox",
+    "sphinx_toolbox.more_autodoc",
+    "sphinx_toolbox.more_autosummary",
+    "sphinx_toolbox.documentation_summary",
+    "sphinx_toolbox.tweaks.param_dash",
+    "sphinx_toolbox.tweaks.latex_layout",
+    "sphinx_toolbox.tweaks.latex_toc",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.mathjax",
+    "sphinxcontrib.extras_require",
+    "sphinx.ext.todo",
+    "sphinxemoji.sphinxemoji",
+    "notfound.extension",
+    "sphinx_copybutton",
+    "sphinxcontrib.default_values",
+    "sphinxcontrib.toctree_plus",
+    "sphinx_debuginfo",
+    "sphinx_licenseinfo",
+    "seed_intersphinx_mapping",
+    "html_section",
+]
+sphinxemoji_style = "twemoji"
+gitstamp_fmt = "%d %b %Y"
+templates_path = [ "_templates",]
+html_static_path = [ "_static",]
+source_suffix = ".rst"
+master_doc = "index"
+suppress_warnings = [ "image.nonlocal_uri",]
+pygments_style = "default"
+html_theme = "domdf_sphinx_theme"
+html_theme_path = [ "../..",]
+html_show_sourcelink = true
+toctree_plus_types = [
+    "class",
+    "confval",
+    "data",
+    "directive",
+    "enum",
+    "exception",
+    "flag",
+    "function",
+    "namedtuple",
+    "protocol",
+    "role",
+    "typeddict",
+]
+add_module_names = false
+hide_none_rtype = true
+all_typevars = true
+overloads_location = "bottom"
+html_codeblock_linenos_style = "table"
+autodoc_exclude_members = [
+    "__dict__",
+    "__class__",
+    "__dir__",
+    "__weakref__",
+    "__module__",
+    "__annotations__",
+    "__orig_bases__",
+    "__parameters__",
+    "__subclasshook__",
+    "__init_subclass__",
+    "__attrs_attrs__",
+    "__init__",
+    "__new__",
+    "__getnewargs__",
+    "__abstractmethods__",
+    "__hash__",
+]
+
+[tool.mypy]
+python_version = "3.10"
+check_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.snippet-fmt]
+directives = [ "code-block",]
+
+[tool.dependency-dash."requirements/requirements.txt"]
+order = 10
+
+[tool.dependency-dash."tests/requirements.txt"]
+order = 20
+include = false
+
+[tool.dependency-dash."doc-source/requirements.txt"]
+order = 30
+include = false
+
+[tool.setuptools.dynamic.readme]
+file = [ "README.rst",]
+
+[tool.setuptools.dynamic.dependencies]
+file = [ "requirements/dev-requirements.txt", "requirements/build-requirements.txt", "requirements/requirements.txt", ]
+
+[tool.setuptools.packages.find]
+where = [ ".", "desmos2python", ]
+include = [ "desmos2python*", "desmos2python.resources*",]
+#: don't consider tests a separate package...
+exclude = ["tests",]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.*jinja2", "*.js"]
+
+#: ref: https://setuptools.pypa.io/en/latest/userguide/datafiles.html#exclude-package-data
+[tool.setuptools.exclude-package-data]
+"*" = [
+  "repo-helper.yml", "fix_readme.py", "Dockerfile", "deploy.sh", "build.sh",
+  "Makefile", "environment.yml", "*.log", ".gitattributes*", ".dependabot*",
+  ".github*", "git_archival.txt", ".devcontainer.json", ".imgbotconfig*",
+  ".pylintrc", ".pre-commit-config.yaml", ".gitignore", ".style.yapf",
+  ".readthedocs.yml",
+]
+
+[tool.snippet-fmt.languages.python]
+reformat = true
+
+[tool.snippet-fmt.languages.TOML]
+reformat = true
+
+[tool.snippet-fmt.languages.ini]
+
+[tool.snippet-fmt.languages.json]

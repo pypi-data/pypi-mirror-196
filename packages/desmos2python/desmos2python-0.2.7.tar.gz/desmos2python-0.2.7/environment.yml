@@ -1,0 +1,23 @@
+name: desmos2python
+channels:
+  - conda-forge
+  - python
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - flake8
+  - build[virtualenv]>=0.3.1
+  - setuptools >= 35.0.2
+  - setuptools-scm
+  - wheel
+  - numpy
+  - matplotlib
+  - sympy
+  - antlr4-python3-runtime==4.10
+  - jinja2
+  - jinja2-cli
+  - selenium
+  - geckodriver
+  - pypandoc
+  - svg.path
