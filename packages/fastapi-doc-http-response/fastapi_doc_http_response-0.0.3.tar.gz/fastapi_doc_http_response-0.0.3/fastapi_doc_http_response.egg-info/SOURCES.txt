@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fastapi_doc_http_response/__init__.py
+fastapi_doc_http_response/http_responses.py
+fastapi_doc_http_response.egg-info/PKG-INFO
+fastapi_doc_http_response.egg-info/SOURCES.txt
+fastapi_doc_http_response.egg-info/dependency_links.txt
+fastapi_doc_http_response.egg-info/requires.txt
+fastapi_doc_http_response.egg-info/top_level.txt
+tests/__init__.py
+tests/test_http_response.py
