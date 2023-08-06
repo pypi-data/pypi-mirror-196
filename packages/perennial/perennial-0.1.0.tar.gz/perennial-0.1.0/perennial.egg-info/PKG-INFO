@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: perennial
+Version: 0.1.0
+Summary: Journaling kit for long-term self-analysis.
+Home-page: https://almonds.dev/focus/perennial
+Author: Madison Landry
+Author-email: mlandry@mit.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+
+# Perennial 🌱
+
+Journaling kit for long-term self-analysis.
+
+**Journaling** can help identify patterns and themes in one's thoughts and behaviors. Tracking **mood** can provide valuable information about what triggers certain moods and how to manage them. And tracking **goals or tasks** can help to stay focused and motivated and can provide a sense of accomplishment and progress as one works toward achieving them.
+
+By combining these, an individual can gain a more complete picture of themselves and their behavior and can more easily achieve personal growth.
+
+This journal kit was originally intended just for personal journaling, but I can also envision it being used for more specialized stories, such as documenting the course of projects, recording meeting minutes, or tracking pain across medical recovery.
+
+# Getting started
+
+## Install
+
+```bash
+pip install perennial
+```
+
+Or alternatively, download the source directly.
+
+```bash
+git clone https://almonds.dev/git/perennial
+cd perennial
+pip install -e .
+```
+
+## Example usage
+
+See [the quickstart page](https://web.mit.edu/almonds/www/perennial/quickstart.html) for getting started using the command line arguments.
+
+### Load a journal
+
+Start a new journal in the current working directory that keeps track of a daily streak:
+
+```py
+>>> from perennial import Journal
+>>> 
+>>> j = Journal(content="Example journal", streak_checker=StreakCheck.DAILY)
+>>>
+```
+
+If the database file already exists, it is loaded:
+
+```py
+>>> j = Journal()
+>>>
+```
+
+### Adding entries
+
+```py
+>>> content = "I had a nice day today. I visited some friends and made progress on my journal project."
+>>> e1 = j.record(content, mood=4)
+>>> e1.streak # number of days logged in a row
+22
+>>>
+```
+
+### Reflect on past entries
+
+```py
+>>> search_results = j.search("dog") # retrieve entries with search terms
+>>> e2 = search_results[0]
+>>> e2.content
+'Today I saw a cute dog. (:'
+>>> 
+>>> e3 = j.random() # retrieve a random entry
+>>> e3.date
+datetime.datetime(2022, 12, 12, 10, 5, 0, 0)
+>>>
+```
+
+### Track mood
+
+```py
+>>> from datetime import datetime, timedelta
+>>> one_week_ago = datetime.today() - timedelta(days=7)
+>>> today = datetime.today()
+>>> 
+>>> entries = j.search(start_date=one_week_ago, end_date=today)
+>>> moods = [e.mood if e.mood is not None for e in entries]
+>>> moods
+[3, 4, 3, 3, 2, 5, 3]
+>>> 
+```
+
+### Goal or task tracking
+
+Goals or tasks are associated with their states of completion.
+
+```py
+>>> j.time_in_state("Submit PhD apps", "DOING")
+datetime.timedelta(days=65)
+>>> 
+>>> _ = j.goal("Submit PhD apps", "DONE")
+>>> _ = j.goal("Meeting with Alex, Bailey, and Casey", "CANCELED")
+>>> _ = j.goal("Fold laundry", "TODO")
+>>>
+```
+
+Personally, I'm fond of this tetrad of task states, as used in [Logseq](https://logseq.com/):
+
+* `TODO`
+* `DOING`
+* `DONE`
+* `CANCELED`
+
+## Documentation
+
+I'll also set this up eventually.
+
+# To-do
+
+* ~~Accept Markdown files as entries~~
+* ~~Ability to sync database streak info (important for adding latent entries)~~
+* CLI
+* Tweak streak-tracking functions so they can be generalized
+* Open new files automatically?
+* Superjournals and subjournals? (kind of already have that)
+* Eventually switch to a Rust implementation with SurrealDB?
+
+# Implementation
+
+The journal entries are saved in a SQLite table called `entries`:
+
+| Column name | Data type | Description                           |
+|-------------|-----------|---------------------------------------|
+| `id`        | `INTEGER` | Primary key                           |
+| `date`      | `TEXT`    | Date of the journal entry             |
+| `content`   | `TEXT`    | Journal entry summary                 |
+| `streak`    | `INTEGER` | Daily streak                          |
+| `mood`      | `INTEGER` | Mood level (e.g. scale 1-5) (may be `NULL`) |
+| `file`      | `TEXT`    | Associated file (may be `NULL`)       |
+
+And the goals and their states are stored in a table called `goals`:
+
+| Column name | Data type | Description                           |
+|-------------|-----------|---------------------------------------|
+| `id`        | `INTEGER` | Primary key                           |
+| `date`      | `TEXT`    | Date of goal update                   |
+| `name`      | `TEXT`    | Name of goal                          |
+| `state`     | `TEXT`    | State of goal (e.g. `"TODO"`, `"DOING"`, `"DONE"`, `"CANCELED"`) |
+
+Information about the journal itself is in a table called `meta`, which always has a single row:
+
+| Column name   | Data type | Description                         |
+|---------------|-----------|-------------------------------------|
+| `id`          | `INTEGER` | Primary key                         |
+| `date`        | `TEXT`    | Date of journal creation            |
+| `content`     | `TEXT`    | Journal summary                     |
+| `streak_mode` | `TEXT`    | i.e. "daily", "weekly", "monthly", or "yearly" |
+| `template`    | `TEXT`    | Path to the template to use when touching a file for a new entry |
+
