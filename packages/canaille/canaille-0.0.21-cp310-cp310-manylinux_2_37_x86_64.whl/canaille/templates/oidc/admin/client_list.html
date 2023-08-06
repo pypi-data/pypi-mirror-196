@@ -1,0 +1,28 @@
+{% extends theme('base.html') %}
+{% import "macro/table.html" as table %}
+
+{% block title %}
+    {% trans %}Clients{% endtrans %}
+{% endblock %}
+
+{% block script %}
+    <script src="/static/js/users.js"></script>
+{% endblock %}
+
+{% block content %}
+
+    <div class="ui segment">
+        <a class="ui primary button" href="{{ url_for('oidc.clients.add') }}">{% trans %}Add client{% endtrans %}</a>
+    </div>
+
+    <div class="ui attached segment">
+        <h2 class="ui center aligned header">
+            <div class="content">
+                {% trans %}Clients{% endtrans %}
+            </div>
+        </h2>
+
+        {{ table.search(table_form, "table.clients") }}
+    </div>
+    {% include "partial/oidc/admin/client_list.html" %}
+{% endblock %}
