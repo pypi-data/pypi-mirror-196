@@ -1,0 +1,11 @@
+grangerthings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grangerthings/automata.py,sha256=or40ObVeSX9VA2KUZ8OV0oIosStVRyocg-ZleqaoxBg,16483
+grangerthings/grangernetwork.py,sha256=RbI2xkXCACj1F8yIIcyMaQjx0iNfrJi6ETYHrOhOQ40,2251
+grangerthings/predictor.py,sha256=3M88zdNhGHIaQs5SuRiF-6MVDEB7hWegVKsqI_hcKDc,17394
+grangerthings/quickhull.py,sha256=z0_iBjgfBWrgveQVyaZvJoiTOs5X3Yy-RyQeU7m5xQc,2864
+grangerthings/wordutils.py,sha256=9PaD-L1EyRS7zo9PKP3EaaGJWuC9WDiO2FhDlkMGcOo,6675
+grangerthings-0.0.3.dist-info/LICENSE.txt,sha256=o6sowvhVvrNdy3Dh6eqzkBNpjdw8Xe443d8dj4lRWBM,1088
+grangerthings-0.0.3.dist-info/METADATA,sha256=4XcpQThJr3BYnY6wXPaW61Lq5QyTC9JgkJHb0mT_zDA,894
+grangerthings-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+grangerthings-0.0.3.dist-info/top_level.txt,sha256=MiXE7ODhYD7waaZY_828Lw_k-JfJfu_cx1aVAIZ4RQY,14
+grangerthings-0.0.3.dist-info/RECORD,,
