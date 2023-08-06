@@ -1,0 +1,15 @@
+- Random Search (check)
+- Deep Learning
+- Dalex Explainer and Lime Explainer
+- Add more SHAP Graphs. Debug the KernelExplainer for non Trees
+- Stacking Models for Regression and Classification
+- Global Attributs for classes in each model por explanation of every parameter. Also add pros and cons.
+- Add Clustering and PCA
+- Add Forecasting
+- Classification Analysis for multiclass
+- Regression Residuals Analysis (check)
+- Holidays include them in library
+
+
+- Indicar bien los argumentos de los modelos. Estableciendo como strings aquellos por default. El resto que puedan
+ser tratados.
