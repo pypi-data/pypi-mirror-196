@@ -1,0 +1,21 @@
+[tool.poetry]
+authors = ["asdftoger <asdftoger@gmail.com>"]
+description = "LIMA"
+name = "llama-and-llama"
+packages = [
+  {include = "llama", from = "src"},
+]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+pytest-sugar = "^0.9.6"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
