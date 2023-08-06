@@ -1,0 +1,10 @@
+dask_dirac/__init__.py,sha256=bPneEQh2WKELf5QcYZPVVxOx7zVb40FAW4CkOICtW9s,235
+dask_dirac/_dask.py,sha256=EbiRcLWGGWV7tzKyvc5--sMfgiHnynKRBSt9baZYSLM,2738
+dask_dirac/_dirac.py,sha256=TubctYhKQPwOhH-Q195u5ctu86s3WZIzFQk6NAklT3s,1951
+dask_dirac/cli.py,sha256=7-ZWn12l2_NY66w_t8v8pZIKrvGWnP_3971TtuLh0i0,2823
+dask_dirac/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dask_dirac-0.1.0.dist-info/entry_points.txt,sha256=ZNNDLn-45hvK7YJRqkfYoPwsgG2ShvPycrQD9wRv5A4,50
+dask_dirac-0.1.0.dist-info/LICENSE,sha256=xy8H4D2wBDP7wR0Tw_RUYv2iBdQ9WBawsOkll1KOLE4,1522
+dask_dirac-0.1.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+dask_dirac-0.1.0.dist-info/METADATA,sha256=uuB_fvvPkLflddW8fTcfv8yzAIX8WbFDfA5_x7PEKd0,2392
+dask_dirac-0.1.0.dist-info/RECORD,,
