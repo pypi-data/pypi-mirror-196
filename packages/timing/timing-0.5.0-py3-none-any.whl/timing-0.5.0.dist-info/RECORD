@@ -1,0 +1,14 @@
+timing/__init__.py,sha256=BJ0ahcT9ljFpmO6IuVodtBloJYcGaNKesW8f3CxLTJw,320
+timing/_version.py,sha256=b-OBbjLAMtvx0aw0bb1dXXhVttw-15kqVaNR_B9L3QM,113
+timing/cache.py,sha256=oVoaDUn6bOICZvNTWntAyxklyKIUdwZgT_ia39iUryo,2574
+timing/config.py,sha256=y-A7YwebHzgMP6UOu93azOeFkQtgj_uXDl7-cqeNYfY,199
+timing/group.py,sha256=5Xa7QJL3rbkc_Uv1cwxCwc9Tcm8f7cVs-h6Rs4V-eHw,5630
+timing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timing/timing.py,sha256=0WI43hc9jOmdkpmBjO2Uhk4o_KemCwzS5-wR791HXyk,1797
+timing/utils.py,sha256=-J-_bxTE1MamUvCoGVjOsX1XQFelvrtODHKNA8Wc4kU,3353
+timing-0.5.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+timing-0.5.0.dist-info/METADATA,sha256=B9NE810I8ZjIZg0QWxFkXJ6k5P3qm7kLFEVvD-9B_KM,6081
+timing-0.5.0.dist-info/NOTICE,sha256=UCfXkHOriERN90XPg54j1bHBGTJ7lqTAh8vTwvW2uSs,600
+timing-0.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+timing-0.5.0.dist-info/top_level.txt,sha256=M_e_Td_W0QDF1rZjGg2Qa9Tc4oQgKOqW85wmqoZGcSg,7
+timing-0.5.0.dist-info/RECORD,,
