@@ -1,0 +1,8 @@
+moonlight/__init__.py,sha256=82yRKtPDS2G6j1Mou54lTAM3BKXrbYK7qmwjvS-qVog,3660
+moonlight/jar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moonlight/jar/engine.jar,sha256=53BcTpjwezTi5OEZOxqXx6l-bWUATQLoia6jlSQVwto,432208
+moonlight/jar/script.jar,sha256=CkbxLXPDjvsSTMeKd0m23-uRMUWe2pyZXMYa3DR2hTc,162822
+moonlight-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+moonlight-0.0.7.dist-info/METADATA,sha256=l_Z9h8NYKBO9NPKiuuuLYoJBDx9OTnRWJb3z54jP8H4,680
+moonlight-0.0.7.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+moonlight-0.0.7.dist-info/RECORD,,
