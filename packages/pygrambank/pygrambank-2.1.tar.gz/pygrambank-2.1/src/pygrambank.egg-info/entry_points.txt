@@ -1,0 +1,2 @@
+[console_scripts]
+grambank = pygrambank.__main__:main
