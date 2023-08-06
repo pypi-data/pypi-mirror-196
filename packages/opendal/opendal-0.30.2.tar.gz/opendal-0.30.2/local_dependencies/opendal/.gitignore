@@ -1,0 +1,12 @@
+# IDE and editor
+.vscode
+.idea
+
+**/target
+
+# env files for backends
+.env
+
+# profiling
+flamegraph.svg
+perf.*
