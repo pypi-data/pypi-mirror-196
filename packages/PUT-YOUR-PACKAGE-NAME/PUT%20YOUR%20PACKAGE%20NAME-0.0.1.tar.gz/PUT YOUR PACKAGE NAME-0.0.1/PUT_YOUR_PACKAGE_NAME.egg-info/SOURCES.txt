@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+PUT_YOUR_PACKAGE_NAME.egg-info/PKG-INFO
+PUT_YOUR_PACKAGE_NAME.egg-info/SOURCES.txt
+PUT_YOUR_PACKAGE_NAME.egg-info/dependency_links.txt
+PUT_YOUR_PACKAGE_NAME.egg-info/top_level.txt
+py_parallel_processing/__init__.py
+py_parallel_processing/__version__.py
+py_parallel_processing/main.py
