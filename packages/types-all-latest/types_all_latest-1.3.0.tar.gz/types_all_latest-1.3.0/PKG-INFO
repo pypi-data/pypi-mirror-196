@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: types_all_latest
+Version: 1.3.0
+Summary: A shim for the typeshed changes in mypy 0.900
+Home-page: https://gitlab.com/open-source-packages/types-all-latest
+Author: AIGeneratedUsername
+Author-email: example@mail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## README
+
+The original idea belongs to https://github.com/asottile-archive/types-all
+
+This package installs all from [typeshed](https://github.com/python/typeshed/)
