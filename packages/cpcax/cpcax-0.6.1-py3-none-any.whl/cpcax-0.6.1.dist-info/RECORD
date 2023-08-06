@@ -1,0 +1,13 @@
+cpca/__init__.py,sha256=ZmvGM3hpwpcp0anqAhBXLBS1l2967vuXYQUDLMrFn6w,9375
+cpca/drawer.py,sha256=ioBoW2BETLbpVlcr_UR6mxbtX6o2mbcYffVEwRmQE3M,3346
+cpca/exceptions.py,sha256=js6_GghrII9UXksMt_Sdn43pkNw3x3-LbtFrkOu_n-Y,439
+cpca/matcher.py,sha256=S3_9Cg5B3QbECS8muyIQtpDhqKko8Mf1Bt4was6yzhI,3507
+cpca/structures.py,sha256=4LwzPzNUg0EJukt9q1HZWC046iyzD9rOrgXwCdcX_ZU,1740
+cpca/resources/56_nations.csv,sha256=GvEpGiyPCP50frCLfwpotkr8kjPaEmOfXJX0OfyFuLA,593
+cpca/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpca/resources/adcodes.csv,sha256=ZpSPoVGboFPyK4wtBciXybGcRM3DBE5GS1LwFD_0GP4,154776
+cpcax-0.6.1.dist-info/LICENSE,sha256=RCx-x9u47CtAJaxX7rcQvcR-3CqIEEFtIvslbdVCQFk,1062
+cpcax-0.6.1.dist-info/METADATA,sha256=B3f7XqEAUYbGA9WCBW-8YhhJiVB-SadVaIdStL3LJhY,2699
+cpcax-0.6.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cpcax-0.6.1.dist-info/top_level.txt,sha256=eOiojoxQNB1RpwHFI9UqKsRUuomua43GLn4TF0yNTxo,5
+cpcax-0.6.1.dist-info/RECORD,,
