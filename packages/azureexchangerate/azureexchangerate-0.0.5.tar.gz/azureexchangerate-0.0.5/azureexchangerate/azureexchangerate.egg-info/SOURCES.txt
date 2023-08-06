@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+azureexchangerate/azureexchangerate.egg-info/PKG-INFO
+azureexchangerate/azureexchangerate.egg-info/SOURCES.txt
+azureexchangerate/azureexchangerate.egg-info/dependency_links.txt
+azureexchangerate/azureexchangerate.egg-info/requires.txt
+azureexchangerate/azureexchangerate.egg-info/top_level.txt
+test/test_azure_exchange_rate.py
