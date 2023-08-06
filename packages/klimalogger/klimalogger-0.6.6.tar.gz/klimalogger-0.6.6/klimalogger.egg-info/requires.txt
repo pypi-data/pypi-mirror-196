@@ -1,0 +1,9 @@
+influxdb
+injector
+lazy
+adafruit-circuitpython-busdevice
+
+[tests]
+pytest-cov
+mock
+assertpy
