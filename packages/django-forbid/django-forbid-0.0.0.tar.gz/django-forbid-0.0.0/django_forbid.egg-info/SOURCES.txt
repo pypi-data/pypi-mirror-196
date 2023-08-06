@@ -1,0 +1,5 @@
+setup.py
+django_forbid.egg-info/PKG-INFO
+django_forbid.egg-info/SOURCES.txt
+django_forbid.egg-info/dependency_links.txt
+django_forbid.egg-info/top_level.txt
