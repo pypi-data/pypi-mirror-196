@@ -1,0 +1,10 @@
+christmas/__init__.py,sha256=Utij5QCjh19jrXp1ysRudvJV3vVtsWyG184XW4OZW6g,312
+christmas/commonCode.py,sha256=rBaG1yMFIKjbH9QU2hwZ3gxBKGr5WTUNmBbNXEpPNYw,5486
+christmas/server_info.py,sha256=VaMay5UaqkiDLj5dpeyZhKvYCxAOAK6m7AhNKyrRRUM,1506
+christmas/mncPy/__init__.py,sha256=qVFzJa6SWtEDk_V8ihtZALpbXHPitCEOioGqd0KMQM8,239
+christmas/mncPy/common.py,sha256=NyXpYPdg-0XEoOOYkCJ_-b2vAtZyUA4BIbId69XuwGc,12920
+christmas/mncPy/compress.py,sha256=OWpbS9nmumBxrBx0PyEZrrn0RIBg0_cU7OAjrdKl8Xw,4347
+baysalt_christmas-0.1.5.0.dist-info/METADATA,sha256=PPURpcqejfBX36hLwLbJXcN1gshDnVwDcELBqFT_M8A,646
+baysalt_christmas-0.1.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+baysalt_christmas-0.1.5.0.dist-info/top_level.txt,sha256=gXQBf9xnRIybOdnQF3hJqJNa_H4LttneBjEdIbPJuH0,10
+baysalt_christmas-0.1.5.0.dist-info/RECORD,,
