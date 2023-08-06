@@ -1,0 +1,3 @@
+[console_scripts]
+volux=voluxcli.scripts.cli:cli
+

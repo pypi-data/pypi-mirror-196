@@ -1,0 +1,13 @@
+voluxcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voluxcli/__version__.py,sha256=GHfopz8_ChRw8foMY1-enYJOu-GzhjcP7T7DKwGvokc,112
+voluxcli/demos/__init__.py,sha256=WQUjOqg12AObVtrDanUOejj_GOsleQwClpsejFU-pfI,68
+voluxcli/demos/audio_demo.py,sha256=9w1DDvO68zmNrmkqWuwfpXg8uNEWGGHI3b14NKgEcfs,3085
+voluxcli/demos/basic_demo.py,sha256=2u6PU3sU7AWy_6mk5T3jFGrNMYgl-wwUMFDoxRIv3X4,818
+voluxcli/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voluxcli/scripts/cli.py,sha256=CacB1TRpmDLrtVF5-l6dwdNGjzK7UTkP123Q1p5gJtc,2583
+voluxcli/scripts/paramtypes.py,sha256=b2F5cYUzIqTvyDfff6p9LCApS3hWVVQFywQHvIeFiP4,398
+voluxcli/scripts/util.py,sha256=5AlRRmW58rz4EeHwB4sRAXObJMt0tWdqUMseIJgCkb8,3638
+voluxcli-0.2.0.dist-info/METADATA,sha256=n-6eX5dDPCD8LWQsG5EwN6yf4Pm77v28BjE7v67WFm0,814
+voluxcli-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+voluxcli-0.2.0.dist-info/entry_points.txt,sha256=T4iQt15MYwrXD2MiiQfJHnq7Z8eY3WCnpaGZjMS1x1M,50
+voluxcli-0.2.0.dist-info/RECORD,,
