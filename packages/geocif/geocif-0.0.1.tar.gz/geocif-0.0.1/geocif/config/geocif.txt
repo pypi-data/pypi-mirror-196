@@ -1,0 +1,29 @@
+[kenya]
+crops = ['mz']
+seasons = [1]
+scales = ['admin_1']  ; can be admin_1 (state level) or admin_2 (county level)
+
+[AGMET]
+eo_plot = ['ndvi', 'cpc_tmax', 'cpc_tmin', 'chirps', 'esi_4wk', 'soil_moisture_as1', 'soil_moisture_as2']
+
+[ML]
+lag_area_as_feature = True
+location_as_feature = True
+models = ['merf']
+
+[MLOPS]
+neptune_username = ritvik
+neptune_project = geocif
+
+[METADATA]
+logo_harvest = harvest.png
+logo_geoglam = geoglam.png
+
+[DEFAULT]
+countries = ['kenya']
+forecast_seasons = [2022]
+plot_seasons = [2022]
+models = ['merf']
+eo_plot = ['ndvi', 'cumulative_precip', 'soil_moisture_as1', 'yearly_ndvi', 'daily_precip', 'soil_moisture_as2', 'esi_4wk', 'cpc_tmax']
+eo_model = ['ndvi', 'cpc_tmax', 'cpc_tmin', 'chirps', 'esi_4wk', 'soil_moisture_as1', 'soil_moisture_as2']
+
