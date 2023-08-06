@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oteri
+Version: 0.0.1
+Summary: Digital Image Processing
+Author: Akaawase ( Bernard Akaawase)
+Author-email: <my.opendip@gmail.com>
+License: UNKNOWN
+Keywords: python,image
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Open-DIP
+
+Still under construction! Not ready for use yet! Currently experimenting and planning!
+Open-DIP is an open source python library for Digital Image Processing (DIP). This is an effort in progress! 
+
+Developed by Akaawase Bernard (c) 2023
+
+

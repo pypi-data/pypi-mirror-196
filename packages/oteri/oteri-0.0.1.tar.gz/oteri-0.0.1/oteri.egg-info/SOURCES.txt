@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+oteri/__init__.py
+oteri/digital_image.py
+oteri/vision.py
+oteri.egg-info/PKG-INFO
+oteri.egg-info/SOURCES.txt
+oteri.egg-info/dependency_links.txt
+oteri.egg-info/requires.txt
+oteri.egg-info/top_level.txt
