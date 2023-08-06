@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pypackagebuilder
+Version: 0.2.2
+Summary: Python packages builder
+Author-email: Pawel Piskorz <ppiskorz0@gmail.com>
+Maintainer-email: Pawel Piskorz <ppiskorz0@gmail.com>
+License: MIT License
+Project-URL: homepage, https://gitlab.com/zxvcv-python/pypackagebuilder
+Project-URL: repository, https://gitlab.com/zxvcv-python/pypackagebuilder
+Project-URL: changelog, https://gitlab.com/zxvcv-python/pypackagebuilder/-/blob/master/CHANGES.rst
+Project-URL: download, https://pypi.org/project/pypackagebuilder
+Project-URL: issues, https://gitlab.com/zxvcv-python/pypackagebuilder/-/issues
+Keywords: python,packaging,pypi,builder
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: tox
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.12,>=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: zxvcv.util (~=0.3.1)
+Requires-Dist: build (>=0.10.0)
+Requires-Dist: twine (>=3.4.2)
+Requires-Dist: wheel (>=0.38.4)
+Requires-Dist: pyc-wheel (>=1.2.7)
+Requires-Dist: toml
+
+# pypackagebuilder
+Toolbox for other projects.
