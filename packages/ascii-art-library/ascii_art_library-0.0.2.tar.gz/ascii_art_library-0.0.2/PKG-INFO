@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ascii_art_library
+Version: 0.0.2
+Summary: A library for converting an image to ascii art (simple text and html).
+Home-page: UNKNOWN
+Author: AlDim
+Author-email: <aldim.gr@gmail.com>
+License: UNKNOWN
+Keywords: python,ascii,art,generator,converter,ascii art
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+

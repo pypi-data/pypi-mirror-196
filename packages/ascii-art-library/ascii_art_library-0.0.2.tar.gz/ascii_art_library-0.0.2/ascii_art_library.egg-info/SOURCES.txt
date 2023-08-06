@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ascii_art_library.egg-info/PKG-INFO
+ascii_art_library.egg-info/SOURCES.txt
+ascii_art_library.egg-info/dependency_links.txt
+ascii_art_library.egg-info/requires.txt
+ascii_art_library.egg-info/top_level.txt
