@@ -1,0 +1,75 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['bavest',
+ 'bavest.finance',
+ 'bavest.finance.client',
+ 'bavest.finance.models',
+ 'bavest.finance.models.v0',
+ 'bavest.finance.models.v0.candle',
+ 'bavest.finance.models.v0.etf',
+ 'bavest.finance.models.v0.etf.country',
+ 'bavest.finance.models.v0.etf.holding',
+ 'bavest.finance.models.v0.etf.profile',
+ 'bavest.finance.models.v0.etf.sector',
+ 'bavest.finance.models.v0.forex',
+ 'bavest.finance.models.v0.market',
+ 'bavest.finance.models.v0.portfolio',
+ 'bavest.finance.models.v0.portfolio.allocation',
+ 'bavest.finance.models.v0.portfolio.chart',
+ 'bavest.finance.models.v0.portfolio.metric',
+ 'bavest.finance.models.v0.portfolio.price',
+ 'bavest.finance.models.v0.portfolio.region',
+ 'bavest.finance.models.v0.portfolio.sector',
+ 'bavest.finance.models.v0.portfolio.stats',
+ 'bavest.finance.models.v0.quote',
+ 'bavest.finance.models.v0.screener',
+ 'bavest.finance.models.v0.search',
+ 'bavest.finance.models.v0.sentiment',
+ 'bavest.finance.models.v0.sentiment.sentiment',
+ 'bavest.finance.models.v0.sentiment.social_sentiment',
+ 'bavest.finance.models.v0.status',
+ 'bavest.finance.models.v0.stock',
+ 'bavest.finance.models.v0.stock.analyst_estimates',
+ 'bavest.finance.models.v0.stock.calendar',
+ 'bavest.finance.models.v0.stock.calendar.earnings',
+ 'bavest.finance.models.v0.stock.calendar.economics',
+ 'bavest.finance.models.v0.stock.calendar.ipo',
+ 'bavest.finance.models.v0.stock.candle',
+ 'bavest.finance.models.v0.stock.dividend',
+ 'bavest.finance.models.v0.stock.earnings_transcript',
+ 'bavest.finance.models.v0.stock.esg',
+ 'bavest.finance.models.v0.stock.financials',
+ 'bavest.finance.models.v0.stock.fundamentals',
+ 'bavest.finance.models.v0.stock.ipo',
+ 'bavest.finance.models.v0.stock.ipo.prospectus',
+ 'bavest.finance.models.v0.stock.metric',
+ 'bavest.finance.models.v0.stock.news',
+ 'bavest.finance.models.v0.stock.peers',
+ 'bavest.finance.models.v0.stock.profile',
+ 'bavest.finance.models.v0.stock.split',
+ 'bavest.finance.models.v0.widget',
+ 'bavest.finance.models.v0.widget.stock',
+ 'bavest.finance.models.v0.widget.stock.peers']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'bavest',
+    'version': '1.0.0',
+    'description': 'The Bavest Finance Python SDK',
+    'long_description': '<p align="center">\n  <img wsymbolth="300" alt="posthoglogo" src="https://i.imgur.com/z4ZPmGN.png">\n</p>\n\n# Bavest Finance SDK\n\n**The Bavest Finance SDK is an open-source library to create finance products in weeks. Bavest offers:**\n\n* Financial api with 99.999% uptime\n* Easy to integrate and use\n* Free for open-source projects\n\n## Get started for free\n\n### Personal API key\n\nFirst, you need to create an account on [Bavest](https://www.dashboard.bavest.com).\nAfter registration, you will find your api key in the dashboard.\n\n### Open-Source projects\n\nIf you are working on an open-source project, you can use the SDK for free.\nJust send us an email to `support@bavest.co` with the following information:\n\n* Your GitHub username\n* The name of your project\n* The link to your project on GitHub\n* A description of your project\n\n### Install the package\n\nFirst install the python package:\n\n ```python \npip install bavest \n ```\n\n### Usage\n\n1. Now, use the package in your project:\n\n ```python \nfrom bavest import BavestRESTClient\n ```\n\n2. Create a finance `client`:\n\n ```python\nclient = BavestRestClient(apiKey)\n  ```\n\n3. Now you can use it to get data from the api:\n\n```python\nquote = client.quote("AAPL")\n```\n\n### Examples\n\n```python\nto = datetime.now()\nfrm = to + dateutil.relativedelta.relativedelta(days=-20)\nresolution = Resolution.MONTHLY\ncandles = client.candles(symbol, frm, to, resolution)\nnews = client.news(symbol)\nsearch = client.search(symbol)\nforex = client.forex(frm, to)\n\n# ETF\netfSector = client.etf.sector(symbol)\netfCountry = client.etf.country(symbol)\netfHoldings = client.etf.holdings(symbol)\netfProfile = client.etf.profile(symbol)\n\n# Portfolio Items\ntransactionItem = TransactionItem("MSFT", 2, frm).get()\ntransactionList = [transactionItem]\n\nportfolioRegion = client.portfolio.region(transactionList)\nportfolioStats = client.portfolio.stats(frm, to, resolution, transactionList, "USD")\nportfolioChart = client.portfolio.chart(frm, to, resolution, transactionList)\n ```\n',
+    'author': 'William Todt',
+    'author_email': 'william.todt@bavest.co',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.8',
+}
+
+
+setup(**setup_kwargs)
