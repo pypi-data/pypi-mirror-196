@@ -1,0 +1,11 @@
+AyDictionary/__init__.py,sha256=jIsGB7AMDXGp_eRJX_Sxgu5WEwKbIkyIsQwPxX7_RV4,119
+AyDictionary/core.py,sha256=dzfE9H2BVpPkf3JUrUWDL1fBA_tqiXFrZp6iM-mPq58,4327
+AyDictionary/script.py,sha256=CPw6G4BkKS2DJmWiaB5gnm8wKmJ0XM19Ts_1UcdQYxQ,573
+AyDictionary/test.py,sha256=yRDa1FWolzvR0TDalYfPBlSAOat48qVS2ks4TyJgYV8,364
+AyDictionary/test_aydictionary.py,sha256=p5bLRhZuygfc84cmN-wLpbXORbziuNnNxnDptCyHxzU,534
+AyDictionary/utils.py,sha256=DpBsYLHMNwkbzsx8N4M0H-uKo-nFuqhMMROMhEkr4fw,160
+AyDictionary-0.0.4.dist-info/LICENSE,sha256=WT_L-hfyUVvb0HuYAQu_HDEm68iHYHzk3IfbqaB0yM4,1074
+AyDictionary-0.0.4.dist-info/METADATA,sha256=CDOUVq8QBWGmCNDNp6zY6aI24Z6QY2Rm5s6B-ylUImw,5728
+AyDictionary-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+AyDictionary-0.0.4.dist-info/top_level.txt,sha256=GnIPq3eetN7LkqlnwQC2m2VlCyKmscQ7499AY1L6KfY,13
+AyDictionary-0.0.4.dist-info/RECORD,,
