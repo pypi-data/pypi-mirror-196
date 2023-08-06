@@ -1,0 +1,13 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+Azure/Exchange/__init__.py
+Azure/Exchange/_rates.py
+Azure/Exchange/_version.py
+Azure/azureexchangerate.egg-info/PKG-INFO
+Azure/azureexchangerate.egg-info/SOURCES.txt
+Azure/azureexchangerate.egg-info/dependency_links.txt
+Azure/azureexchangerate.egg-info/requires.txt
+Azure/azureexchangerate.egg-info/top_level.txt
+tests/test_rates.py
