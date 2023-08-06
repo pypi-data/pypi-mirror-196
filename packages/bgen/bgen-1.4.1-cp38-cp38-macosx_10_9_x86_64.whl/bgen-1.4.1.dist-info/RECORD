@@ -1,0 +1,8 @@
+bgen/__init__.py,sha256=ZlAA18GglePROJMeJBq_03LiVvdXhhQ8SC-OA7r6v4k,91
+bgen/index.py,sha256=GO_MYDUl1uCU0t0bhTzPRdVUyd-V9vOUEeLuGQWu0iI,4188
+bgen/reader.cpython-38-darwin.so,sha256=_1B5j-deXGsNta-6RUVBMRxlg4fPsQHf87e3DrV_oVc,1805464
+bgen-1.4.1.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.4.1.dist-info/METADATA,sha256=XH7hMfJxC5HBgaTzhDQ-18etbzPf61ph9ETo3skuCtI,4215
+bgen-1.4.1.dist-info/WHEEL,sha256=I1bcPHHR6tn3lGqH6h9j_EhkVKjU_znt4i8IyWREJLE,109
+bgen-1.4.1.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen-1.4.1.dist-info/RECORD,,
