@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bidet
+Version: 0.0.1
+Summary: The cleanest machine learning library
+Home-page: http://github.com/poopingface/bidet
+Author: Pooping Face
+Author-email: poopingface.co@gmail.com
+License: MIT
+License-File: LICENSE
