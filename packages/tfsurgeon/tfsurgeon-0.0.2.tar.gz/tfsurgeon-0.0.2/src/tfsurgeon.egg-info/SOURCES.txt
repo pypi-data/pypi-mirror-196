@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/tfsurgeon/__init__.py
+src/tfsurgeon/tfsurgeon.py
+src/tfsurgeon.egg-info/PKG-INFO
+src/tfsurgeon.egg-info/SOURCES.txt
+src/tfsurgeon.egg-info/dependency_links.txt
+src/tfsurgeon.egg-info/requires.txt
+src/tfsurgeon.egg-info/top_level.txt
+src/tfsurgeon/utils/__init__.py
+src/tfsurgeon/utils/lambda_layers.py
+src/tfsurgeon/utils/reader.py
+src/tfsurgeon/utils/remove_by_names.py
+src/tfsurgeon/utils/remove_type_editor.py
+src/tfsurgeon/utils/replace_by_counter.py
+src/tfsurgeon/utils/replace_type_editor.py

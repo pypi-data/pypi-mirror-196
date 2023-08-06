@@ -1,0 +1,20 @@
+[project]
+name = "tfsurgeon"
+version = "0.0.2"
+description = "Edits tensorflow model layers"
+authors = [
+    {name = "Edouard Yvinec", email="ey@datakalab.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "tensorflow >= 2.10.0"
+]
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
