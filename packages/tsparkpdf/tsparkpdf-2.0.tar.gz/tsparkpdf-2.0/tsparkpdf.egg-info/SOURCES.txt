@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tsparkpdf.egg-info/PKG-INFO
+tsparkpdf.egg-info/SOURCES.txt
+tsparkpdf.egg-info/dependency_links.txt
+tsparkpdf.egg-info/top_level.txt
+tsparpdf/__init__.py
+tsparpdf/pdftotext.py
