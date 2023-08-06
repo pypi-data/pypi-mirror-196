@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/first_grade_math_functions_bis/__init__.py
+src/first_grade_math_functions_bis/helper_functions.py
+src/first_grade_math_functions_bis.egg-info/PKG-INFO
+src/first_grade_math_functions_bis.egg-info/SOURCES.txt
+src/first_grade_math_functions_bis.egg-info/dependency_links.txt
+src/first_grade_math_functions_bis.egg-info/top_level.txt
