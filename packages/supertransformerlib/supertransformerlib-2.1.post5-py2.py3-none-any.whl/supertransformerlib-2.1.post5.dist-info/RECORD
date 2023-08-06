@@ -1,0 +1,16 @@
+supertransformerlib/__init__.py,sha256=n3BCvad4GnfNY9zKMcPg7Wjre1yAVLl1xJkGTjxsUv8,137
+supertransformerlib/Basics/__init__.py,sha256=NR0NS8eqB9AcaBuC15KioHvgcXOC4lvpwyrgrz4jFEs,50
+supertransformerlib/Basics/linear.py,sha256=4ksexhp6jbAdXKejveMyBmne8zT5dtvClayoxWJOsH8,9945
+supertransformerlib/Basics/local_sample.py,sha256=Q44nq-ElNOZ52il7CsrlPC4MGLLhHoEE8R8Jm8gYn04,25683
+supertransformerlib/Core/__init__.py,sha256=gKsidHoR4jS3RAXOUziUdNZct2DFH3KRQ2fcR-_oB_A,242
+supertransformerlib/Core/errors.py,sha256=mUlueuL1tnkIewgNfk4YTKIDDCApIV10WhK7MdDM-FE,866
+supertransformerlib/Core/functions.py,sha256=ER4tcx0R01KDGoYX4O-f9NbC8rPBKIYd2Uqrk8vEJnU,6440
+supertransformerlib/Core/kernel.py,sha256=eShFRL-If9bEn7qRrhcZU3-BUFJLAcPzIEWsx_RMD8w,13909
+supertransformerlib/Core/pad.py,sha256=ROdDZRGDtjT0z4A-9T5kDlpFf5YckbmL5rgvE2MU8sY,6248
+supertransformerlib/Core/reshape_module.py,sha256=gwfGnn4iV0kyfUvdmHvubBfAYPESAyE5Rxe8BApvxtI,11175
+supertransformerlib/Core/sample_utils.py,sha256=aRs4C0VkjmnC4a53jLfc8xWAAhadsQExALR-_3OTcB0,2927
+supertransformerlib/Core/sparse_utils.py,sha256=kbowEgZQc9EIb1GuzUxu6uVZmlm5JIMiqp_wBpzXAfA,6155
+supertransformerlib/Core/string_util.py,sha256=qYlF0mzFO58UB554JI6JHhEZJDzczGuepox0FX2uX4Q,2272
+supertransformerlib-2.1.post5.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+supertransformerlib-2.1.post5.dist-info/METADATA,sha256=22HhVKWp6DNsFgPCcGBnqJfsYRHWQTw_-Ghe-2e1gmo,1489
+supertransformerlib-2.1.post5.dist-info/RECORD,,
