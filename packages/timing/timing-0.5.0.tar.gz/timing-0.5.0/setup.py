@@ -1,0 +1,32 @@
+"""Setup script for timing package."""
+
+import setup_boilerplate
+
+
+class Package(setup_boilerplate.Package):
+    """Package metadata."""
+
+    name = 'timing'
+    description = 'Simplify logging of timings of selected parts of an application.'
+    url = 'https://github.com/mbdevpl/timing'
+    classifiers = [
+        'Development Status :: 2 - Pre-Alpha',
+        'Environment :: Console',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: Apache Software License',
+        'Natural Language :: English',
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX :: Linux',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3 :: Only',
+        'Topic :: Scientific/Engineering',
+        'Topic :: System :: Benchmark',
+        'Topic :: System :: Logging',
+        'Typing :: Typed']
+    keywords = ['timing', 'timer', 'time measurement', 'profiling', 'reproducibility']
+
+
+if __name__ == '__main__':
+    Package.setup()
