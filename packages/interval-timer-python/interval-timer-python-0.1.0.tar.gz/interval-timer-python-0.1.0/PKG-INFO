@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: interval-timer-python
+Version: 0.1.0
+Summary: interval-timer for python: Windows:waitabletimer wrapper, Linux:timerfd wrapper
+Home-page: https://github.com/tkshkwn/interval-timer-python
+Author: tkshkwn
+Author-email: nekotk37@gmail.com
+License: MIT-License
+Keywords: timer,periodic,interval,timerfd
+License-File: LICENSE
