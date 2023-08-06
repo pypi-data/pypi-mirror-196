@@ -1,0 +1,8 @@
+bgen-1.4.1.dist-info/RECORD,,
+bgen-1.4.1.dist-info/WHEEL,sha256=m_YHT_bHYUz0AN0D_oBKd5D_OikPLEgEz-msgxEnsb0,217
+bgen-1.4.1.dist-info/METADATA,sha256=XH7hMfJxC5HBgaTzhDQ-18etbzPf61ph9ETo3skuCtI,4215
+bgen-1.4.1.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.4.1.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen/index.py,sha256=GO_MYDUl1uCU0t0bhTzPRdVUyd-V9vOUEeLuGQWu0iI,4188
+bgen/__init__.py,sha256=ZlAA18GglePROJMeJBq_03LiVvdXhhQ8SC-OA7r6v4k,91
+bgen/reader.cpython-37m-i386-linux-gnu.so,sha256=TU3kHhddhbvJHwo-DW8AX4z7XNZ87FiU633WriicAfA,4520624
