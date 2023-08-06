@@ -1,0 +1,55 @@
+<div class="card">
+    <h5 class="card-header">Template Volume Configuration</h5>
+    <div class="card-body">
+        {% if drives or storage_configuration %}
+        <table class="table table-hover">
+            <tr>
+                <td>Volume Name</td>
+                <td>Filesystem</td>
+                <td>Mount Path</td>
+                <td>Volume Size</td>
+                <td>Volume Name</td>
+                <td>Drive Cluster</td>
+                <td>Drive Identifier</td>
+                <td>Drive Size</td>
+            </tr>
+            {% for logical_volume in lv %}
+            <tr>
+                <td>{{ logical_volume.lv_name|linkify|placeholder }}-{{ logical_volume.vg.vg_name|linkify|placeholder }}</td>
+                <td>{{ logical_volume.fs|linkify|placeholder }}</td>
+                <td>{{ logical_volume.path|linkify|placeholder }}</td>
+                <td>{{ logical_volume.size|linkify|placeholder }} MB</td>
+            </tr>
+            {% endfor %}
+            {% for drive in drives %}
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>{{ drive.cluster|linkify|placeholder }}</td>
+                <td>{{ drive.identifier|linkify|placeholder }}</td>
+                <td>{{ drive.size|linkify|placeholder }} MB</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <div class="text-muted">None</div>
+        {% endif %}
+    </div>
+    <div class="card-footer text-end noprint">
+        <a href="{% url 'plugins:netbox_storage:template_lvm_add' %}" class="btn btn-sm btn-primary">
+            <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add LVM Volume
+        </a>
+        <a href="{% url 'plugins:netbox_storage:template_volume_add' %}" class="btn btn-sm btn-primary">
+            <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add Linux Volume
+        </a>
+        <a href="{% url 'plugins:netbox_storage:template_drive_add' %}" class="btn btn-sm btn-primary">
+            <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add Drive
+        </a>
+        <a href="{% url 'plugins:netbox_storage:template_partition_add' %}" class="btn btn-sm btn-primary">
+            <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add Partition to drive
+        </a>
+    </div>
+</div>
