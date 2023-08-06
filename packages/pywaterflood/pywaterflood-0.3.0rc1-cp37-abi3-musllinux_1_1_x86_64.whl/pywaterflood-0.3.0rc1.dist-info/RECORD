@@ -1,0 +1,9 @@
+pywaterflood.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+pywaterflood-0.3.0rc1.dist-info/RECORD,,
+pywaterflood-0.3.0rc1.dist-info/WHEEL,sha256=oMZNXqFAV2iqzOjbFaU9rcf6wBDCU_3J0oVcGrIWioE,108
+pywaterflood-0.3.0rc1.dist-info/METADATA,sha256=fJB7QtAJTiKTlkdsjcvgfxI7bv9jiV6ay3Mc_WZIST4,4441
+pywaterflood-0.3.0rc1.dist-info/license_files/LICENSE,sha256=O1As1z1N_kbsH6UH0sZ_eDvlvGcSNVNMCJIdYDD1Zuc,1326
+pywaterflood/__init__.py,sha256=-QYaLeiKPHkGTnEex5jA2lHsqRRbyI_lFRN4f_b9rB8,807
+pywaterflood/crm.py,sha256=SnFBEywXKeLoBZqZctLv73Ucys-sOtEpUnLIqlhfric,27993
+pywaterflood/pywaterflood.abi3.so,sha256=evNNtTx48uQcDX8764Ohnzubzbl3_lTsa6wDwWaacF8,4417801
+pywaterflood/multiwellproductivity.py,sha256=wuF2i-tV4pnwYdvyr1DdKu6FBSc_KCKy72tvPnEBhEI,5445
