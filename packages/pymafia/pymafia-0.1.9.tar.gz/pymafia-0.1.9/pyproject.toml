@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pymafia"
+version = "0.1.9"  # This is the standard placeholder for poetry-dynamic-versioning
+description = "A Python module and bridge for reflecting KoLmafia's Java environment."
+license = "MIT"
+authors = ["MrFizzyBubbs <MrFizzyBubbs@protonmail.com>"]
+readme = "README.md"
+repository = "https://github.com/MrFizzyBubbs/pymafia"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyjnius = "^1.4.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.15.1"
+black = "^22.6.0"
+isort = "^5.10.1"
+docformatter = "^1.5.0"
+mypy = "^0.971"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.poetry-dynamic-versioning]
+enable = false
+format = "{base}"
+style = "pep440"
+strict = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
