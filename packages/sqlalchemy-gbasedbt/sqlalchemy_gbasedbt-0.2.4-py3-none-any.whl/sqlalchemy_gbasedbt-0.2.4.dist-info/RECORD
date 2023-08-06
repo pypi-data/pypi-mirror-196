@@ -1,0 +1,10 @@
+sqlalchemy_gbasedbt/__init__.py,sha256=vmBIIR3j7j7npMZzVORBC7ysYTIf2wP0NQrNuGLje30,185
+sqlalchemy_gbasedbt/dbtdb.py,sha256=1pcOi04zmxAUOczakFiadS15HyelqE8AxCiHKVYZFJA,23764
+sqlalchemy_gbasedbt/requirements.py,sha256=2p4skq9sWLIs2d_lL6PWmE5zd8Mz1CZfsyUNXeR4LK8,2297
+sqlalchemy_gbasedbt/__pycache__/__init__.cpython-36.pyc,sha256=gqmqALELIgwqQlV1euxbSSX_otR4cKRbYbIA6UJWsyY,354
+sqlalchemy_gbasedbt-0.2.4.dist-info/LICENSE,sha256=7FphWx3tS3J9_MEAA2bIrZZQB3ePEs3lZGN-rPnvTD8,1074
+sqlalchemy_gbasedbt-0.2.4.dist-info/METADATA,sha256=60R_8IztSUoBkphR8aEHPDWf3wp0by9wN7B2sYfz5Ak,871
+sqlalchemy_gbasedbt-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sqlalchemy_gbasedbt-0.2.4.dist-info/entry_points.txt,sha256=6iO9BAj-v4RNNKcCCvVnTaxrTMgBtPPBF3_IVBDk8aU,76
+sqlalchemy_gbasedbt-0.2.4.dist-info/top_level.txt,sha256=iqztIUXplaDzue_usi85OrK6ORLWzpvM5A2hDIYBlsg,20
+sqlalchemy_gbasedbt-0.2.4.dist-info/RECORD,,
