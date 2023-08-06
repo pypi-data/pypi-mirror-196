@@ -1,0 +1,11 @@
+setuptools_docker/Dockerfile.j2,sha256=yMuRRUBGwWmhGgiPbcyeOLwQqES85hM9oR-n3CR2dxk,2199
+setuptools_docker/__init__.py,sha256=7x184CqU-BU6R-gKYSz4HlkpClCZc9nHz8s4zTXBkLs,34
+setuptools_docker/command.py,sha256=blD6yVwuYDDCAuin4TEle2yuphbmwYXEZlvRCmCfjwg,5067
+setuptools_docker/docker-entrypoint.sh,sha256=Tnu_mW4AKzzKCIpNlD5Ry9PIRtMHoEZo4LgXU7VIlSc,561
+setuptools_docker/docker.py,sha256=4IWKZ-P8lBpwouaOErUX5brsDdYH7mdyNVPGEn5Om3E,4944
+setuptools_docker-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+setuptools_docker-0.1.0.dist-info/METADATA,sha256=DWW0U95HPSCH9nDXQcjs3RH1oXpS8dJi7zPvrJu8fmM,4046
+setuptools_docker-0.1.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+setuptools_docker-0.1.0.dist-info/entry_points.txt,sha256=aKJHXJxD2RITj34IGOoRy7BUxklAKjiUM2kK6oQ90Ko,67
+setuptools_docker-0.1.0.dist-info/top_level.txt,sha256=yRwZKIWk6d2TJaVOme-FqEBV3cX_ENkFEeX_lsNHvI0,18
+setuptools_docker-0.1.0.dist-info/RECORD,,

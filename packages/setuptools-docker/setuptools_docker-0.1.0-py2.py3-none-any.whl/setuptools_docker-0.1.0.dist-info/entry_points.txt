@@ -1,0 +1,2 @@
+[distutils.commands]
+bdist_docker = setuptools_docker:bdist_docker
