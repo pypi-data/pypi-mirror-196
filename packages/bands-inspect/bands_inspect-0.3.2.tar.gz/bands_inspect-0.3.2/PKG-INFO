@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bands-inspect
+Version: 0.3.2
+Summary: Utilities for creating, comparing and plotting bandstructures of materials.
+Home-page: https://github.com/Z2PackDev/bands_inspect
+License: Apache 2.0
+Keywords: condensed matter,solid-state,physics,materials science
+Author: Dominik Gresch
+Author-email: mail@greschd.ch
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: click (>=8.1,<9.0)
+Requires-Dist: decorator (>=5.1,<6.0)
+Requires-Dist: fsc-export (>=1.2,<2.0)
+Requires-Dist: fsc-hdf5-io (>=1.0,<2.0)
+Requires-Dist: h5py (>=3.8,<4.0)
+Requires-Dist: matplotlib (>=3,<4)
+Requires-Dist: numpy (>=1.20,<2.0)
+Requires-Dist: scipy (>=1.7,<2.0)
+Project-URL: Documentation, https://bands-inspect.greschd.ch
+Project-URL: Repository, https://github.com/Z2PackDev/bands_inspect
+Description-Content-Type: text/markdown
+
+<!--
+(c) 2017-2019, ETH Zurich, Institut fuer Theoretische Physik
+Author: Dominik Gresch <mail@greschd.ch>
+-->
+
+
+Utilities for creating, comparing and plotting bandstructures of materials.
+
+Documentation: https://bands-inspect.greschd.ch
+
+[![Build Status](https://travis-ci.org/Z2PackDev/bands_inspect.svg?branch=master)](https://travis-ci.org/Z2PackDev/bands_inspect)
+
