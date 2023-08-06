@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cryplimp/__init__.py
+cryplimp/cryplimp.py
+cryplimp.egg-info/PKG-INFO
+cryplimp.egg-info/SOURCES.txt
+cryplimp.egg-info/dependency_links.txt
+cryplimp.egg-info/requires.txt
+cryplimp.egg-info/top_level.txt

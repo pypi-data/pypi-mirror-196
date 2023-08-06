@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: cryplimp
+Version: 1.35
+Summary: cryptography library
+Home-page: https://github.com/KingfernJohn/cryplimp
+Author: KingfernJohn
+Author-email: kingfernjohn@gmail.com
+Keywords: python,cryptography,encrypt,decrypt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cryplimp
+
+Cryplimp is a cryptography library that provides functions for encrypting and decrypting messages using the AES algorithm in CBC mode.
+
+Installation
+------------
+You can install Cryplimp using pip:
+
+    pip install cryplimp
+
+Usage
+-----
+To encrypt a message, import the `encrypt` function from the `cryplimp` module and pass in the message and key as arguments:
+
+    from cryplimp import encrypt
+    
+    message = "hello world"
+    key = "secret key"
+    
+    encrypted_message = encrypt(message, key)
+
+To decrypt the encrypted message, import the `decrypt` function from the `cryplimp` module and pass in the encrypted message and key as arguments:
+
+    from cryplimp import decrypt
+    
+    decrypted_message = decrypt(encrypted_message, key)
+
+License
+-------
+Cryplimp is licensed under the MIT License. See LICENSE for more information.
