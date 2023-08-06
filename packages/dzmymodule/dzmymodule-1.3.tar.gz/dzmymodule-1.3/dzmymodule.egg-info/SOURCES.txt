@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+dzmymodule/__init__.py
+dzmymodule/dzmymodule.py
+dzmymodule.egg-info/PKG-INFO
+dzmymodule.egg-info/SOURCES.txt
+dzmymodule.egg-info/dependency_links.txt
+dzmymodule.egg-info/top_level.txt
