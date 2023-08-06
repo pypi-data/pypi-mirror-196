@@ -1,0 +1,11 @@
+xarray_ome_ngff/__init__.py,sha256=sjuJg3NQf3tztF-hUsbqdxHpEru5Ub-faUqCdgTCGoE,141
+xarray_ome_ngff/core.py,sha256=zhIAG_P3L50pQq-vWjSzFEiNQN5se-QGvjSWsa2vjsQ,189
+xarray_ome_ngff/latest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_ome_ngff/latest/multiscales.py,sha256=ZwskeuWnoOPCElYt28UnCev3mMSgZ5KmmM1zp-1hsfA,10849
+xarray_ome_ngff/registry.py,sha256=O6oZ3C_nI2K48osNzrPA0uKdyFNDla_VKS_Uh3aO2EM,1427
+xarray_ome_ngff/v04/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_ome_ngff/v04/multiscales.py,sha256=18hJu5KPEpo-7tiNuwJ3zRJMfJoi97ioL_H7zXJHosk,10840
+xarray_ome_ngff-1.2.0.dist-info/LICENSE.md,sha256=vuJGlgpevk5CqGxsyEV0jhIOZCr5s6T5bYp0pZKsfGw,1511
+xarray_ome_ngff-1.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+xarray_ome_ngff-1.2.0.dist-info/METADATA,sha256=o_6Rt8TiMvm60ncAkiUGv_AnQVgCo85rKs-iZYxARHU,4883
+xarray_ome_ngff-1.2.0.dist-info/RECORD,,
