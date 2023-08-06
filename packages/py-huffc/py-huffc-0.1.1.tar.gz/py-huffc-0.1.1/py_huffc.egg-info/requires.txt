@@ -1,0 +1,11 @@
+requests
+semantic-version
+tqdm
+
+[dev]
+black
+build
+flake8
+isort
+pre-commit
+twine
