@@ -1,0 +1,9 @@
+karpyncho/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karpyncho/stdout_context/__init__.py,sha256=pv6V9142WKmS02ZESCIV5_uEoTD2LJupCPfv1554XAk,2799
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_init.py,sha256=WEdOgSggB_dJl2VjPscmHObbPHWp6XaO7Ql4LguxeKE,1183
+karpyncho_stdout_context-0.1.0.dist-info/LICENSE.txt,sha256=lkkJXrbmAHrZzqKJqyql2Zpy3Jxtaq4XAwhZP1WVZT0,1080
+karpyncho_stdout_context-0.1.0.dist-info/METADATA,sha256=MnbeZCYur3UT7h-iWc5ctR2DI8ORkWfUviEGSfMDMWU,2797
+karpyncho_stdout_context-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+karpyncho_stdout_context-0.1.0.dist-info/top_level.txt,sha256=ANFnXAH0g8OK3PgFIUYSD27J7bZnKzeWOCFYcYIqESU,16
+karpyncho_stdout_context-0.1.0.dist-info/RECORD,,
