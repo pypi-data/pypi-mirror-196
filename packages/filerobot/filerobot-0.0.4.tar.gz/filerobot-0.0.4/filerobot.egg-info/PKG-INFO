@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: filerobot
+Version: 0.0.4
+Summary: A filerobot library which interacts with filerobot API
+Home-page: 
+Author: Scaleflex
+Author-email: 
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a Filerobot library which interacts with Filerobot API
+
+Change Log
+==========
+
+0.0.4 (09.03.2022)
+------------------
+-
