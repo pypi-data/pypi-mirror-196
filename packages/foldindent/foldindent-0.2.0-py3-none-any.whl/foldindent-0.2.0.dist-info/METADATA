@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: foldindent
+Version: 0.2.0
+Summary: foldindent - indented text viewer with folding
+Project-URL: Homepage, https://gitlab.com/hydrargyrum/foldindent
+Author-email: Hg <dev@indigo.re>
+License-Expression: WTFPL
+License-File: COPYING.WTFPL
+Keywords: indentation,text
+Requires-Python: >=3
+Requires-Dist: textual
+Description-Content-Type: text/markdown
+
+# foldindent - indented text viewer with folding
+
+foldindent is a terminal user interface (TUI) for viewing indented text files with the possibility to fold parts based on indentation.
+
+foldindent can view arbitrary text files.
+Each time lines are more indented than previous lines, a foldable point is added in the UI.
+
+## Samples
+
+Sample: indented JSON data
+
+Sample: indented python AST dump
+
+Sample: TOML config
+
+
+## Keyboard usage
+
+- `Enter`: fold/expand a node
+- `Up/Down`: navigate cursor one node above/below

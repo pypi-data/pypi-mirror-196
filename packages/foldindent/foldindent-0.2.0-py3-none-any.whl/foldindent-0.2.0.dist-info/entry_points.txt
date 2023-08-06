@@ -1,0 +1,2 @@
+[console_scripts]
+foldindent = foldindent.foldindent:main
