@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: binance-candles
+Version: 1.0.0
+Summary: Provides python generator for crypto currency candles via Binance Socket API
+Home-page: https://github.com/alekmarinov/binance-candles
+Author: Alexander Marinov
+Author-email: amarinov@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Binance Candles
+
+Provides python generator for crypto currency candles via Binance Socket API
+
+## CandlesGenerator example
+
+```python
+from binance_candles import candles_generator
+
+# 1 min candles generator for symbol BTCUSDT
+for candles in candles_generator(symbols=["BTCUSDT"], interval=60):
+    print(",".join(map(str, candles)))
+```
