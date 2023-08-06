@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django_distinct_sum"
+version = "0.1.0"
+description = "Solves the django distinct sum problem"
+authors = ["Lipau3n"]
+packages = [
+    {include = "src"}
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lipau3n/django-distinct-sum"
+"Bug Tracker" = "https://github.com/Lipau3n/django-distinct-sum/issues"
+
+[tool.poetry.dependencies]
+python = "3.10.3"
+Django = "3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
