@@ -1,0 +1,4 @@
+max
+(
+  sidekiq_queue_latency
+) > 60

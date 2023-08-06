@@ -1,0 +1,18 @@
+(
+  sum by
+  (
+    instance
+  )
+  (
+    apache_workers
+    {
+      state="busy"
+    }
+  ) / sum by
+(
+  instance
+)
+(
+  apache_scoreboard
+)
+) * 100 > 80

@@ -1,0 +1,20 @@
+(
+  histogram_quantile
+  (
+    0.99,
+    sum
+    (
+      rate
+      (
+        loki_request_duration_seconds_bucket
+        {
+          route!~"(?i).*tail.*"
+        } [5m]
+      )
+    )
+    by
+    (
+      le
+    )
+  )
+) > 1

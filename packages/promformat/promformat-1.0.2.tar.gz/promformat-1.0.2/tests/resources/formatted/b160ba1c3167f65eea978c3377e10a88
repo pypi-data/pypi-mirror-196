@@ -1,0 +1,12 @@
+(
+  count
+  (
+    redis_instance_info
+    {
+      role="master"
+    }
+  ) or vector
+(
+  0
+)
+) < 1

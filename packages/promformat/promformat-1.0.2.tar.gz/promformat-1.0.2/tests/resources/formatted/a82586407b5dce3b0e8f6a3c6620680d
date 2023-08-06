@@ -1,0 +1,5 @@
+kube_horizontalpodautoscaler_status_condition
+{
+  status="false",
+  condition="ScalingActive"
+} == 1

@@ -1,0 +1,4 @@
+cassandra_stats
+{
+  name="org:apache:cassandra:metrics:threadpools:internal:antientropystage:currentlyblockedtasks:count"
+} > 0

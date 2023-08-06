@@ -1,0 +1,10 @@
+sum by
+(
+  proxy
+)
+(
+  rate
+  (
+    haproxy_frontend_denied_connections_total [2m]
+  )
+) > 10

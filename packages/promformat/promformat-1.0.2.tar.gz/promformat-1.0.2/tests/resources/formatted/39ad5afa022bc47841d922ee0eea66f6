@@ -1,0 +1,1 @@
+ceph_pg_total - ceph_pg_active > 0

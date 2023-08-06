@@ -1,0 +1,4 @@
+rabbitmq_queue_consumers
+{
+  queue="my-queue"
+} > 1

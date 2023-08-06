@@ -1,0 +1,1 @@
+apache_uptime_seconds_total / 60 < 1
