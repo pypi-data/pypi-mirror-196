@@ -1,0 +1,2 @@
+[console_scripts]
+ka_apc-tsk = ka_uta.tsk.__main__:main
