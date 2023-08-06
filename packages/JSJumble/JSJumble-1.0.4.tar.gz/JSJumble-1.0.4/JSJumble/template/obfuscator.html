@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSJumble</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/obfuscator.js"></script>
+</head>
+<body>
+    <div id="console">
+        <span class="starting">Tool for obfuscating, compressing Javascript, and collecting static files.</span>
+        <span class="starting">Press start to begin.</span>
+
+    </div>
+    <button id="start">start</button>
+    <script type="text/javascript" src="/static/compress.js"></script>
+    <style>
+        html{
+            height: auto;
+        }
+        body{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 30px;
+            height: auto;
+            background: rgb(54,57,63);
+        }
+        #console{
+            display: flex;
+            flex-direction: column;
+            background-color: gainsboro;
+            height: 80vh;
+            border-radius: 2.5px;
+            overflow: auto;
+            padding: 10px;
+        }
+        span{
+            width: 100%;
+            font-family: monospace;
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+            white-space: pre-wrap;
+            text-align: start;
+        }
+        #start{
+            width: fit-content;
+            padding: 10px;
+            padding-left: 20px;padding-right: 20px;
+            font-weight: 600;
+            font-size: 18px;
+            color: purple;
+            align-self: center;
+            cursor: pointer;
+        }
+        .starting{
+            color: blue;
+        }
+        .compressing{
+            color: purple;
+        }
+        .success{
+            color: green;
+        }
+        .error{
+            color: red;
+        }
+    </style>
+</body>
+
+</html>
