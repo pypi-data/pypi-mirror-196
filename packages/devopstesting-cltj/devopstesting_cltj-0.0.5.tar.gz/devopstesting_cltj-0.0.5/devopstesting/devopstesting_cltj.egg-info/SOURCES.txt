@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+devopstesting/devopstesting_cltj.egg-info/PKG-INFO
+devopstesting/devopstesting_cltj.egg-info/SOURCES.txt
+devopstesting/devopstesting_cltj.egg-info/dependency_links.txt
+devopstesting/devopstesting_cltj.egg-info/requires.txt
+devopstesting/devopstesting_cltj.egg-info/top_level.txt
+test/test_azure_exchange_rate.py
