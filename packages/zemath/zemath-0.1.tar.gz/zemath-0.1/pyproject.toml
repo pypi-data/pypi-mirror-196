@@ -1,0 +1,19 @@
+[project]
+name = "zemath"
+version = "0.1"
+authors = [
+  { name="Mohammed Musthafa A", email="mohammed.musthafa.dev@gmail.com" },
+]
+description = "It's a simple python module to handle basic math"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zandora-space/"
+"Bug Tracker" = "https://github.com/zandora-space/"

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+zemath/__init__.py
+zemath/zemath.py
+zemath.egg-info/PKG-INFO
+zemath.egg-info/SOURCES.txt
+zemath.egg-info/dependency_links.txt
+zemath.egg-info/top_level.txt
