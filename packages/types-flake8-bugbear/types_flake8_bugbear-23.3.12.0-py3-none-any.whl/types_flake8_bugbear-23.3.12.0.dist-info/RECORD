@@ -1,0 +1,6 @@
+bugbear-stubs/METADATA.toml,sha256=z0Djrp3ZjPg7AdiIveYG6yesMpcK5S6uopXOwySSNI4,64
+bugbear-stubs/__init__.pyi,sha256=3l2yS3sXsUhAi3zcOtEqfgi9jBW_e-MDxFCqzRuSSJY,848
+types_flake8_bugbear-23.3.12.0.dist-info/METADATA,sha256=esI_NFBp0giSN5YjOB6pAnIA1ysq-rQvfGfI_ZsTaBY,1345
+types_flake8_bugbear-23.3.12.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_flake8_bugbear-23.3.12.0.dist-info/top_level.txt,sha256=EdgP8zRCntTX3Ri6aeUhvIEB5W62wEm_QMAdMLERyX4,14
+types_flake8_bugbear-23.3.12.0.dist-info/RECORD,,
