@@ -1,0 +1,15 @@
+scrapy_extensions/__init__.py,sha256=FdCC-AKdKBlXAnlbMkfWHzf6da1C1rplbNy3ERiUC1o,705
+scrapy_extensions/__version__.py,sha256=EvDgDYN1XW7D9OgCGxmHXv_zCzXTEpk4GoYaiWm0HxA,103
+scrapy_extensions/extensions.py,sha256=MlMKrkhdMMoWY1JwnYwTVohMHUOek4p6PtCLIgivymQ,6709
+scrapy_extensions/items.py,sha256=DbQdf1S07_CMCRbVutMxu9hG6GkjjDpkHiaNTPT6-fU,5271
+scrapy_extensions/loaders.py,sha256=RzUCkuE_9ugaDTs6WyhrP0ZNAyGTfei11_7Dn6PPOR8,1989
+scrapy_extensions/loggers.py,sha256=xAqYUVYegttUwT41gDNYV4UpuqgEi2rTosP45GUwvbQ,386
+scrapy_extensions/middleware.py,sha256=090KUj_a7PylRIOeh8YM5WROjnxLHHvVTIdWonZeY70,3137
+scrapy_extensions/pipelines.py,sha256=RHPBWOH53yd9TTbAZCaQciYcrD0bcHjBGj4vPwD-uJ0,4643
+scrapy_extensions/spiders.py,sha256=ihoXPtpMtTVwE0DkSjT_DlHnSrUBlRm4L4oAgekNS6A,14120
+scrapy_extensions/utils.py,sha256=TgFqJI3-wcQXJZ-c0BunAPqwtNRLyCqRunbfraQlcD8,5024
+scrapy_extensions-0.3.1.dist-info/LICENSE,sha256=WcYkIFKvE2InORAE70AfXkBoQqXLLRsXETBDkNkwxNc,1072
+scrapy_extensions-0.3.1.dist-info/METADATA,sha256=-ep3pdzn5_S4n8wcU_OLsly_hjiY6-xTz_tpWdR1CVQ,1765
+scrapy_extensions-0.3.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+scrapy_extensions-0.3.1.dist-info/top_level.txt,sha256=younw-K3ntYAN0OJBI6B08hesobUFN1lxH6JWNpvDwg,18
+scrapy_extensions-0.3.1.dist-info/RECORD,,
