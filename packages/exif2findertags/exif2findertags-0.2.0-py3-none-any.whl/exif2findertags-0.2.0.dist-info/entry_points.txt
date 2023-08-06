@@ -1,0 +1,2 @@
+[console_scripts]
+exif2findertags = exif2findertags.cli:cli
