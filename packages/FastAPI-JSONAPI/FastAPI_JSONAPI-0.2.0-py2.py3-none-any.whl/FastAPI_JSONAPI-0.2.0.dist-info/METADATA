@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: FastAPI-JSONAPI
+Version: 0.2.0
+Summary: FastAPI extension to create REST web api according to JSON:API 1.0 specification with FastAPI, Pydantic and data provider of your choice (SQLAlchemy, Tortoise ORM)
+Home-page: https://github.com/mts-ai/FastAPI-JSONAPI
+Author: Team MTS AI
+Author-email: a.nekrasov@mts.ru
+License: MIT
+Keywords: pycore mts digital
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (<2.0.0,>=1.4.39)
+Requires-Dist: pydantic (>=1.9.1)
+Requires-Dist: fastapi (>=0.79.0)
+Requires-Dist: uvicorn (>=0.18.2)
+Requires-Dist: simplejson (>=3.17.6)
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: tortoise-orm (>=0.19.2) ; extra == 'all'
+Requires-Dist: SQLAlchemy (<2.0.0,>=1.4.39) ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: sqlalchemy
+Requires-Dist: SQLAlchemy (<2.0.0,>=1.4.39) ; extra == 'sqlalchemy'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Provides-Extra: tortoise-orm
+Requires-Dist: tortoise-orm (>=0.19.2) ; extra == 'tortoise-orm'
+
+README.md
