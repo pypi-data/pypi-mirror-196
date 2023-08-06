@@ -1,0 +1,10 @@
+py_book_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_book_util/__main__.py,sha256=bGTqT4IkNZHii9WFw3Wxix1myu_CmFTXcWFS-1dJY0o,123
+py_book_util/git_remote_book.py,sha256=2vbe4-5l906hGnM2LAwxYWxpaKqffp7UksbdyixNOso,10670
+py_book_util/image_recognizer.py,sha256=FrsAgqe3TZhZESSt1M0v92zVc8yfG-5QtQfEs3qGE_8,5040
+py_book_util/mirror.py,sha256=_HAsbt7OCFh83QSOsPFccARq36ssQBh2uMrkFK2G_UM,3106
+py_book_util/page_recognizer.py,sha256=uC3UM_iBG6oZsVt_AqU08UrDXRCO_ouQABwZVx_zprk,11082
+py_book_util/util.py,sha256=21N1dP6LBFEAhSA5No--O2fnx1OtT6wqtHT2596ibbA,15638
+py_book_util-0.1.41.dist-info/METADATA,sha256=gjRVfTiGZC63DaXWsvJbwBMZKz--ahVnO5TDseUZhk4,603
+py_book_util-0.1.41.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+py_book_util-0.1.41.dist-info/RECORD,,
