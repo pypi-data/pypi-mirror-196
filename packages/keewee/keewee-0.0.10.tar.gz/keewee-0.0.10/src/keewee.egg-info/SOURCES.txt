@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/keewee.py
+src/keewee.egg-info/PKG-INFO
+src/keewee.egg-info/SOURCES.txt
+src/keewee.egg-info/dependency_links.txt
+src/keewee.egg-info/top_level.txt
+tests/test_class_usage.py
+tests/test_dataclass_usage.py
