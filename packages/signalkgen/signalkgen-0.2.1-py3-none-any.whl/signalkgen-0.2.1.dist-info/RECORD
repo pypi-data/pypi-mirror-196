@@ -1,0 +1,10 @@
+make_loc_csv.py,sha256=PBLgPuGXyk3KmYLSzlWYSHSvytnLMSdG6N8CHTw_F1o,820
+signalkgen/__main__.py,sha256=6Zgp2hu6J5KzPGAxOixSXGnWNHEI21sMV2E2Cl_kQvs,2298
+signalkgen/generate.py,sha256=qvyL3d3bBHaY2Ae-XbozznI93j4FR2olvtJRqxYox-c,2756
+signalkgen/move_boats.py,sha256=pUQHIz_PTIebUl_FCltXMdHGGIJx6J1xafVUS50qSFc,2041
+signalkgen-0.2.1.dist-info/LICENSE,sha256=bDiZrRagOvaYztG6UNdodrZC3qlptS9pbiRC27d582c,1067
+signalkgen-0.2.1.dist-info/METADATA,sha256=800HcQeizkL7CeEcYwu3iKLgyAvOcemlL2unHIjTzjk,1835
+signalkgen-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+signalkgen-0.2.1.dist-info/entry_points.txt,sha256=RDsMMsGYLZ7dS9EHtpdmf3HGDmrqaZL3CPWbbjYq3LQ,56
+signalkgen-0.2.1.dist-info/top_level.txt,sha256=GHjKHgDYVqTJUfrQkjkrXORPYa1dAgUv3Tkq02B-Ggo,24
+signalkgen-0.2.1.dist-info/RECORD,,
