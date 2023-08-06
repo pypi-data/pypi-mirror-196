@@ -1,0 +1,3 @@
+[console_scripts]
+mediaquery = mediaquery.mediaquery:main
+
