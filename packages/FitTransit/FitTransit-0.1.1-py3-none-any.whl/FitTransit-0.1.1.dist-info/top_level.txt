@@ -1,0 +1,5 @@
+FitTransit/Transit_class
+FitTransit/ga
+FitTransit/info_ga
+FitTransit/info_mc
+TransitFit/__init__
