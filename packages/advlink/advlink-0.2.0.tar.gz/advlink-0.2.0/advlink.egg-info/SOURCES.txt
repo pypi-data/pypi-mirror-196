@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+advlink/__init__.py
+advlink/cls.py
+advlink.egg-info/PKG-INFO
+advlink.egg-info/SOURCES.txt
+advlink.egg-info/dependency_links.txt
+advlink.egg-info/top_level.txt
