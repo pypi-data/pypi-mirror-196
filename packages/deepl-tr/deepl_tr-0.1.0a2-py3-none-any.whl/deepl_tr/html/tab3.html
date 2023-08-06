@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>deepl-tr-webui v0.1.0a1</title>
+
+		<meta charSet="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style media="only screen">
+      body {
+          padding: 1rem;
+          overflow: auto;
+      }
+    </style>
+
+    <!--link rel="stylesheet" href="http://localhost:8909/static/fontawesome.css" />
+    <link rel="stylesheet" href="http://localhost:8909/static/brands.css" />
+    <link rel="stylesheet" href="http://localhost:8909/static/solid.css" /-->
+
+    <!-- fontawesome -->
+    <!-- <link rel="stylesheet" href=http://localhost:34917/static/all.css" /> -->
+
+    <!-- https://fontawesome.com/docs/web/setup/host-yourself/webfonts -->
+    <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"> -->
+    <!-- <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet"> -->
+    <!-- <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
+    <link href="http://localhost:34917/css/fontawesome.css" rel="stylesheet">
+    <link href="http://localhost:34917/css/brands.css" rel="stylesheet">
+    <link href="http://localhost:34917/css/solid.css" rel="stylesheet">
+
+    <!--script defer src="http://localhost:8909/fontawesome/js/all.js"></script--> <!--load all styles -->
+    <!-- <script defer src="http://localhost:8909/static/all.js"> -->
+
+    <!--script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.js"></script-->
+    <!--script src="node_modules/ag-grid-community/dist/ag-grid-community.js"></script-->
+    <!--script src="ag-grid-community.min.js"></script-->
+
+    <!--link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" /-->
+    <link href="http://localhost:34917/static/daisyui2.47.0.css" rel="stylesheet" type="text/css" />
+    <script src="http://localhost:34917/static/tailwind-plugins.css"></script>
+
+    <script src="http://localhost:34917/static/ag-grid-community.js"></script>
+    </head>
+
+    <body>
+    <!-- <div class="container p-1 mt-15 mx-auto flex flex-col"> -->
+    <!-- <div class="container p-1 mt-15 mx-auto columns-1"> -->
+
+    <main class="my-0 mx-auto max-w-3xl>
+
+    <div class="container p-1 mt-15 mx-auto grid grid-cols-1">
+        <!--h1 class="text-slate-500 font-medium">WebUI 2 - Python Example-</h1-->
+
+      
+
+      
+
+      
+  
+<div class="navbar fixed top-0 z-40 bg-base-100">
+  <div class="flex-1">
+    <div class="tabs">
+
+      <button class= "tooltip tooltip-right tab tab-lifted" data-tip="Load a text file"> 
+        <span style="font-size: 25px; color: Tomato;">
+          <i id="tab1" class="fa fa-file-alt"></i>
+        </span>
+          <!-- <button id="filebtn"><i class="fa fa-file-alt"></i>Normal</button> -->
+      </button>
+
+      <button class= "tooltip tooltip-right tab tab-lifted" data-tip="Translate and edit when necesssary"> 
+        <span style="font-size: 25px; color: Tomato;">
+          <i id="tab2" class="fas fa-globe"></i>
+                <!-- fas fa-language -->
+        </span>
+      </button>
+
+      <button class= "tab tab-lifted tab-active"> 
+        <span style="font-size: 25px; color: Tomato;">
+          <i id="tab3" class="fa fa-info"></i>
+        </span>
+      </button>
+
+      <!-- <a class= "tooltip tooltip-right tab tab-lifted" data-tip="for logging messages">  -->
+        <!-- <span style="font-size: 25px; color: Tomato;"> -->
+          <!-- <i id="tablog" class="fas fa-file-signature"></i> -->
+        <!-- </span> -->
+      <!-- </a> -->
+
+      <button class= "tooltip tooltip-right tab tab-lifted" data-tip="Click to quit, no question asked"> 
+        <span style="font-size: 25px; color: Tomato;">
+          <i id="tab4" class="fa fa-power-off"></i>
+        </span>
+      </button>
+
+        <!-- <div id="dummy"> -->
+                         <!-- <span style="font-size: 25px; color: Tomato;"> -->
+          <!-- <button> -->
+                <!-- <i class="fas fa-file-signature"></i> -->
+          <!-- </button> -->
+              <!-- </span> -->
+        <!-- </div> -->
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="indicator mt-20"> -->
+  <!-- <span class="indicator-item indicator-center badge badge-secondary"></span> -->
+  <!-- <div class="grid w-32 h-32 bg-base-300 place-items-center">Project repo: https://github.com/ffreemt/deepl-tr-webui</div> -->
+<!-- </div> -->
+
+<!-- <div class="indicator"> -->
+  <!-- <span class="indicator-item indicator-center badge badge-secondary"></span> -->
+  <!-- <div class="grid w-32 h-32 bg-base-300 place-items-center">To talk to the dev in real-time, please join qq-group:316287378.</div> -->
+<!-- </div> -->
+
+<!-- card -->
+<div class="card pt-3 shadow-2xl w-180 m-4">
+  <!-- <figure> -->
+    <!-- <img src="https://picsum.photos/id/1005/500/250"/> -->
+  <!-- </figure> -->
+  <div class="card-body">
+    <h6 class="card-title">Quick tips</h6>
+    <ul class="steps steps-vertical">
+      <li data-content="✓" class="step step-primary">Double click a cell or press Enter in a cell to edit.</li>
+      <li data-content="✓" class="step step-primary">Press Enter or click another cell to exit the in-cell editor.</li>
+      <li data-content="✓" class="step step-primary">Press the SAVEEDIT button to effect change after editing.</li>
+      <li data-content="?" class="step"><span class="text-left">To turn on debug: set LOGLEVEL=10 in Windows or export LOGLEVEL=10 in Linux and friends.</span></li>
+
+    </ul>
+
+    <h6 class="card-title">Project repo</h6>
+    <p><a id="repolink" class="link link-primary">https://github.com/ffreemt/deepl-tr-webui</a></p>
+    <p>based on pypi webui2 and some serious, messy juggling of tailwindcss, daisyui, javascript and jinja2 templates.</p>
+
+    <h6 class="card-title">Feedback</h6>
+    <p>Please join qq-group:316287378
+          <a id="qqgrlink" class="link link-primary">https://jq.qq.com/?_wv=1027&k=XRCplcfg</a>
+    for questions and suggestions, or file an issue at the project github repo.</p>
+  </div>
+</div>
+
+<!-- <div class="toast toast-start toast-middle"> -->
+  <!-- <div class="alert"> -->
+    <!-- <div> -->
+      <!-- <span> -->
+      <!-- Project repo: -->
+      <!-- <a class="link link-primary">https://github.com/ffreemt/deepl-tr-webui</a> -->
+
+      <!-- </span> -->
+    <!-- </div> -->
+  <!-- </div> -->
+  <!-- <div class="alert"> -->
+    <!-- <div> -->
+      <!-- <span>To talk to the dev in real-time, please join qq-group:316287378.</span> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+
+
+
+      <!-- <div id="log" style="color: #dbdd52">===&nbsp;===</div> -->
+      <!-- <div id="log" style="color: red">&nbsp;</div> -->
+      <div id="log" style="color: #dbdd52">&nbsp;</div>
+    </div>
+    </main>
+    </body>
+    <script src="/webui.js"></script>
+</html>
