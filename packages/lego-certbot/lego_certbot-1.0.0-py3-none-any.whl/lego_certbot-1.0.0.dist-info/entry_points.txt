@@ -1,0 +1,3 @@
+[console_scripts]
+lego-certbot=lego_certbot:main
+
