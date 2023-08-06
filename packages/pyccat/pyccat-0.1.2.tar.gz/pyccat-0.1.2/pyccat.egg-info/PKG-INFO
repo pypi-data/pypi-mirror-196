@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pyccat
+Version: 0.1.2
+Summary: Colored Cat is a syntax highlighter file reader.
+Home-page: https://github.com/helviojunior/pyccat
+Author: Helvio Junior  (M4v3r1ck)
+Author-email: helvio.junior@sec4us.com.br
+License: GPL-3.0
+Project-URL: Main Author, https://sec4us.com.br/instrutores/helvio-junior/
+Project-URL: Documentation, https://github.com/helviojunior/pyccat
+Project-URL: Source, https://github.com/helviojunior/pyccat
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Operating System
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Colored Cat
+
+[![Build](https://github.com/helviojunior/pyccat/actions/workflows/build_and_publish.yml/badge.svg)](https://github.com/helviojunior/pyccat/actions/workflows/build_and_publish.yml)
+[![Build](https://github.com/helviojunior/pyccat/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/helviojunior/pyccat/actions/workflows/build_and_test.yml)
+[![Downloads](https://pepy.tech/badge/pyccat/month)](https://pepy.tech/project/pyccat)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/pyccat.svg)](https://pypi.org/project/pyccat)
+[![Contributors](https://img.shields.io/github/contributors/helviojunior/pyccat.svg)](https://github.com/helviojunior/pyccat/graphs/contributors)
+[![PyPI version](https://img.shields.io/pypi/v/pyccat.svg)](https://pypi.org/project/pyccat/)
+[![License: GPL-3.0](https://img.shields.io/pypi/l/pyccat.svg)](https://github.com/helviojunior/pyccat/blob/main/LICENSE)
+
+CCat officially supports Python 3.8+.
+
+## Main features
+
+* [x] Read and highlight text and conde files
+
+## Installation
+
+```bash
+pip3 install --upgrade pyccat
+```
+
+## Getting stats
+
+***Read a file***
+```bash
+ccat /tmp/teste.txt
+```
+
+***Read a file without table***
+```bash
+ccat -nt /tmp/teste.txt
+```
+
+***Just highlight the file***
+```bash
+ccat -nt /tmp/teste.txt
+```
+
+
