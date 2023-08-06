@@ -1,0 +1,30 @@
+enum DeviceStatus:uint8 { 
+    None = 0,
+    Normal = 1,
+    OutOfStorage = 2,
+    SlowDownError = 3,
+    InternalError = 4
+}
+
+enum AlgoStatus:uint8 { 
+    None = 0,
+    Normal = 1,
+    NetworkLatency = 2,
+    Error = 3
+}
+
+enum SensorStatus:uint8 { 
+    None = 0,
+    Normal = 1,
+    SensorError = 2,
+    LostConnection = 3
+}
+
+table HealthStatus {
+  unixts_ms:float64;
+  device_status:DeviceStatus;
+  algo_status:AlgoStatus;
+  sensor_status:SensorStatus;
+}
+
+root_type HealthStatus;

@@ -1,0 +1,26 @@
+enum AttrType:uint8 {
+	NoAttr = 0,
+	Range = 1,
+	Reflectivity = 2,
+	SignalPhotons = 3,
+	NIRPhotons = 4,
+	ReflectivityNIR = 5,
+	AllAttr = 6
+}
+
+table PointCloud {
+	lidar_sn:uint64;
+	attr_column:AttrType;
+	column_count:uint8;
+	row_count:uint32;
+	point_cloud:[float32];
+}
+
+table PointCloudPacket {
+	frame_id:uint16;
+	lidarts_ms:float64;
+	unixts_ms:float64;
+	point_clouds:[PointCloud];
+}
+
+root_type PointCloudPacket;
