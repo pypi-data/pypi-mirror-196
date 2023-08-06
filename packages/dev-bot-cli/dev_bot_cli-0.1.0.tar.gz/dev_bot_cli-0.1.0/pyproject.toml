@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dev-bot-cli"
+version = "0.1.0"
+description = ""
+authors = ["Cristiam Sosa <cristiam.sosa@innocv.com>"]
+readme = "README.md"
+packages = [{include = "dev_bot_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+gitpython = "^3.1.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+devbot = 'dev_bot_cli.__main__:cli'
