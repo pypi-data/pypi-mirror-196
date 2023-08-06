@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yena
+Version: 0.1.0
+Summary: My yena Python package
+Home-page: https://github.com/son9john/yena
+Author: son9john
+Author-email: son9john.snu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: openai
+Requires-Dist: transformers
+Requires-Dist: openai-whisper
+Requires-Dist: notion-df
+Requires-Dist: pandas
+
+UNKNOWN
+
+
