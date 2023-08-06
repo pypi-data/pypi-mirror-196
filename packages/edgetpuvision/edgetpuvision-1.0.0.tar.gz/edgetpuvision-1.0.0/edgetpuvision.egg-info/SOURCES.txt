@@ -1,0 +1,7 @@
+MANIFEST.in
+reporter.py
+setup.py
+edgetpuvision.egg-info/PKG-INFO
+edgetpuvision.egg-info/SOURCES.txt
+edgetpuvision.egg-info/dependency_links.txt
+edgetpuvision.egg-info/top_level.txt
