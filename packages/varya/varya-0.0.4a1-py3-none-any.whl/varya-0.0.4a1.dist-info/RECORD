@@ -1,0 +1,9 @@
+varya/__init__.py,sha256=6TqhYkSupDq4vQ668NETFt_u5uf82NMHlt3q3LWW3YA,206
+varya/compose/__compose.py,sha256=ioCqukxIiaWk3LSJQW6ct4V8RJcm5LmQLmjX7bXifrc,2140
+varya/compose/__init__.py,sha256=-Fzc0Cmpu2jpN3R5GfP9hC_L23wTl_dy_yu1zURVUGw,44
+varya/compose/core.py,sha256=ivBrVsVLv2VbHCG84QHg09KshSeP58YtRidlg6tG4d0,2822
+varya-0.0.4a1.dist-info/LICENSE,sha256=EFNCHlXvsrMcrrVHTK6Na8ysDWp6yU-7SmMcZWiSAVk,1519
+varya-0.0.4a1.dist-info/METADATA,sha256=kWUku7SEmQv3YL0swdkjFrJmoMjKuDot0Pir1vF1N_U,558
+varya-0.0.4a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+varya-0.0.4a1.dist-info/top_level.txt,sha256=1CZBh5KXfjOyndV2X6niNupUsYS0vcstKJvukU_2Vi4,7
+varya-0.0.4a1.dist-info/RECORD,,
