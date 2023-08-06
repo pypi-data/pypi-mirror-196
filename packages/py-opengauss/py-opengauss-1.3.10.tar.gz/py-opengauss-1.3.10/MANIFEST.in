@@ -1,0 +1,6 @@
+include AUTHORS
+include LICENSE
+recursive-include py_opengauss *.c
+recursive-include py_opengauss *.sql
+recursive-include py_opengauss *.txt
+recursive-include py_opengauss/documentation/sphinx *.rst conf.py
