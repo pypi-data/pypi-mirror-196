@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: bfibundle
+Version: 0.1.0
+Summary: A python package to explore categorized bfi data
+Home-page: https://github.com/Michal-Babins/BFIBundle
+Author: Michal Babinski
+Author-email: mbabinski@lanl.gov
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Project Title
+
+The purpose of this library is to help users interact with the bacterial-fungal-interactions database, found on the [BFI Research Portal](https://sfa-bfi.edgebioinformatics.org/about) interact with the data programatically. The package also has a few helper functions to link up doi's and quick search papers.
+
+## Description
+
+The goal of the Chain SFA is to close the knowledge gaps when it comes to studying BFI
+
+## Getting Started
+
+### Installing
+
+```pip install bfibundle```
+
+### BFIBundle
+
+* Running the program
+```
+from bfibundle import (BfiSource,BFITaxonomy,BfiLiterature)
+```
+
+## Authors
+
+Michal Babinski
+Aaron Robinson
+
+## Version History
+
+* 0.1.0
+    * Initial Release
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details

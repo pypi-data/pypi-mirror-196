@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+app/bfibundle/__init__.py
+app/bfibundle.egg-info/PKG-INFO
+app/bfibundle.egg-info/SOURCES.txt
+app/bfibundle.egg-info/dependency_links.txt
+app/bfibundle.egg-info/requires.txt
+app/bfibundle.egg-info/top_level.txt
+app/bfibundle/src/__init__.py
+app/bfibundle/src/bfibundle.py
+app/bfibundle/src/models.py
+app/bfibundle/src/utils.py
+app/bfibundle/test/__init__.py
+app/bfibundle/test/test_bfibundle.py
