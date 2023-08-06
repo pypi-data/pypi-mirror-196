@@ -1,0 +1,143 @@
+[tool.poetry]
+name = "annofabcli"
+version = "1.76.0"
+description = "Utility Command Line Interface for AnnoFab"
+authors = ["yuji38kwmt"]
+license = "MIT"
+keywords=["annofab", "cli"]
+readme="README.md"
+repository="https://github.com/kurusugawa-computer/annofab-cli"
+classifiers = [
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Environment :: Console",
+        "Topic :: Utilities",
+        "Operating System :: OS Independent",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "*"
+pyyaml = "*"
+dictdiffer = "*"
+more-itertools = "*"
+jmespath = "*"
+pyquery = "*"
+isodate = "*"
+annofabapi = ">=0.67.1"
+python-datauri = "*"
+pandas = "*"
+bokeh = "^3.0"
+Pillow = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7"
+pytest-xdist = "*"
+pytest-cov = "*"
+
+[tool.poetry.group.formatter.dependencies]
+isort = "*"  # TODO https://github.com/charliermarsh/ruff/issues/3477 が解決したら削除する
+black = "*"
+
+[tool.poetry.group.linter.dependencies]
+ruff = ">=0.0.254"
+mypy = "^1"
+pylint = "^2"
+
+[tool.poetry.group.documentation.dependencies]
+sphinx = "^6.1"
+pydata-sphinx-theme = ">=0.13"
+sphinx-last-updated-by-git = "*"
+sphinx-argparse = "*"
+
+[tool.poetry.group.typeshed.dependencies]
+types-pytz = "*"
+types-requests = "*"
+types-python-dateutil = "*"
+types-PyYAML = "*"
+
+[tool.poetry.group.dev.dependencies]
+# 開発するときのみ必要なライブラリ
+ipython = "*"
+
+[tool.poetry.group.publish.dependencies]
+# 公開時に必要なツール
+# GitHubでリリース時に、 GitHub Actionでannofabcliのexeを公開している
+pyinstaller = "^4.5.1"
+
+[tool.poetry.scripts]
+annofabcli = "annofabcli.__main__:main"
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+
+[tool.black]
+line-length = 120
+
+
+[tool.mypy]
+ignore_missing_imports = true
+
+check_untyped_defs = true
+
+[tool.ruff]
+target-version = "py38"
+
+ignore = [
+    "G004", # `logging-f-string` : loggingでf-stringを使いたいので無視する
+    "PD901", #すでに`df`という変数をいろんなところで使っているため
+    "PD002", #すでにpandasで`inplace=True`はいろんなところで使っているため
+    "RUF001", # 全角記号など`ambiguous unicode character`も使いたいため
+    "RUF002",# 全角記号など`ambiguous unicode character`も使いたいため
+    "RUF003",# 全角記号など`ambiguous unicode character`も使いたいため
+    "RUF100", # `Unused `noqa` directive`のコードがたくさんあるので、一旦無視する
+
+
+    "PL", # pylintに関する警告がたくさんあって対応できなかったので、除外する
+    "ERA", # : 役立つこともあるが、コメントアウトしていないコードも警告されるので無視する
+
+    # 以下のルールはannofabcliのコードに合っていないので無効化した
+    "RSE", # flake8-raise
+    "D", # pydocstyle, Docstringを中途半端にしか書いていないので、除外する
+    "C90", # mccabe 
+    "T20", # flake8-print
+    "SLF", #  flake8-self
+    "BLE", # flake8-blind-except
+    "FBT", # flake8-boolean-trap
+    "TRY", # tryceratops 
+    "COM", # flake8-commas 
+    "ANN", # flake8-annotations
+    "S", # flake8-bandit
+    "EM",#flake8-errmsg
+    "EXE", # flake8-executable
+    "ICN", # flake8-import-conventions
+    "RET",#flake8-return
+    "SIM",#flake8-simplify
+    "TCH", # flake8-type-checking
+    "PTH", #pathlibを使わないコードが多いので、除外する
+    "ISC", #flake8-implicit-str-concat
+    "N", # pep8-naming
+    "PT", # flake8-pytest-style
+]
+
+line-length = 120
+select = [
+    "ALL"
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.pyupgrade]
+# Python3.8をサポートしているため、`typing.List`などの型ヒントは警告しないようにする
+# https://beta.ruff.rs/docs/settings/#keep-runtime-typing
+keep-runtime-typing = true
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
