@@ -1,0 +1,6 @@
+README.md
+setup.py
+prettytable_markdown.egg-info/PKG-INFO
+prettytable_markdown.egg-info/SOURCES.txt
+prettytable_markdown.egg-info/dependency_links.txt
+prettytable_markdown.egg-info/top_level.txt
