@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+colarify/__init__.py
+colarify/ansi.py
+colarify/styled_string.py
+colarify/styled_string_builder.py
+colarify.egg-info/PKG-INFO
+colarify.egg-info/SOURCES.txt
+colarify.egg-info/dependency_links.txt
+colarify.egg-info/top_level.txt
