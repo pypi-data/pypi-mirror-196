@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: paymentrails
+Version: 0.2
+Home-page: 
+Author: Trolley
+Author-email: developer-tools@trolley.com
+License-File: LICENSE
+
+A native Python SDK for the Trolley API
