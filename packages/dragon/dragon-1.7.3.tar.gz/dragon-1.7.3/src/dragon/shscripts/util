@@ -1,0 +1,106 @@
+#!/usr/bin/env bash
+
+# Colors we load in
+TOOLPATH=$(python3 -c 'from dragon.util import tool_path; print(tool_path())')
+source $TOOLPATH/dragoncolors
+
+drexit_reason()
+{
+  prefix_print $1
+  drexit
+}
+
+drexit()
+{
+    # This function resets terminal colors, fixes stty (just in case), and then exits with arg0's value
+    # It should be called on *EVERY* exit, no matter what.
+    echo -e "${NC}"
+    stty sane
+    python3 -m dragon.update_check
+    exit $1
+}
+
+cleanbuildfail()
+{
+    # Run this when we hit an error building, so we can clean things up.
+    # This needs to eventually be updated for the new {name}.ninja format
+    # Currently it'll just leave everything sitting out
+
+    # shellcheck disable=SC2154
+    prefix_print "Build failed"
+    prefix_print "Cleaning Up"
+    find . -name '.clean' -type f -delete
+    if [[ $norm -eq 1 ]]; then
+        mkdir -p $DRAGON_DIR/ninja && mv build.ninja $DRAGON_DIR/ninja/build.ninja
+        if ! [[ -z $1 ]]; then
+            cd $1 || drexit
+            mkdir -p $DRAGON_DIR/ninja && mv build.ninja $DRAGON_DIR/ninja/build.ninja
+        fi
+    else
+        find . -type f -name "*.ninja" -delete
+    fi
+    drexit 1
+}
+
+setupRemote()
+{
+    # remote.py | remote.sh
+    prefix_print "Enter Server IP:"
+    read IPA
+    mkdir -p $DRAGON_ROOT_DIR/state
+    echo "export IPA=\"$IPA\"" > $DRAGON_ROOT_DIR/state/remoteip
+    prefix_print "Enter Username:"
+    read USERN
+    if [[ -z $USERN ]]; then
+        USERN="root"
+    fi
+    echo "export USERN=\"$USERN\"" >> $DRAGON_ROOT_DIR/state/remoteip
+}
+
+update()
+{
+    # update.sh
+    hold="$PWD"
+    cd $DRAGON_ROOT_DIR || drexit
+    git pull
+    git submodule update --init --recursive
+    cd "$hold" || drexit
+}
+
+usage()
+{
+    echo -e ""
+    echo -e "${PrefixColor}dragon v${DRAGON_VERS} ${BoldColor}-=-=-${NC}"
+    echo -e "  usage: dragon [commands]"
+    echo ""
+    echo -e "${PrefixColor}Building ${BoldColor}-=-=-${NC}"
+    echo -e "  ${PackageColor}n${NC}  | new|nic|edit    - ${BoldColor}Open the project editor (For creating new projects/adding to existing ones)${NC}"
+    echo -e "  ${PackageColor}do${NC}                   - ${BoldColor}Build and Install${NC}"
+    echo -e "  ${PackageColor}c${NC}  | clean           - ${BoldColor}Clear build cache${NC}"
+    echo -e "  ${PackageColor}b${NC}  | build|make      - ${BoldColor}Compile, link, and package your project${NC}"
+    echo ""
+    echo "Common invocations are 'dragon c b i' (clean all, build, install) or 'dragon do' (build and install)"
+    echo ""
+    echo -e "${PrefixColor}Distribution ${BoldColor}-=-=-${NC}"
+    echo -e "  ${PackageColor}r${NC}  | release         - ${BoldColor}Create a release build (defines NDEBUG, enables 'releaseflags' value)${NC}"
+    echo -e "  ${PackageColor}i${NC}  | install         - ${BoldColor}Install latest build to build device${NC}"
+    echo -e "  ${PackageColor}u${NC}  | uninstall         - ${BoldColor}Install latest build to build device${NC}"
+    echo -e "  ${PackageColor}sn${NC} | send <file>     - ${BoldColor}Install an arbitrary .deb to the device${NC}"
+    echo -e "  ${PackageColor}sim${NC}                  - ${BoldColor}Install to the simulator instead of a device${NC}"
+    echo ""
+    echo -e "${PrefixColor}Device Management ${BoldColor}-=-=-${NC}"
+    echo -e "  ${PackageColor}s${NC}  | device          - ${BoldColor}Set build device IP/Port${NC}"
+    echo -e "  ${PackageColor}rs${NC} | respring        - ${BoldColor}Respring the current build device${NC}"
+    echo -e "  ${PackageColor}dr${NC} | devicerun       - ${BoldColor}Run anything after this flag on device${NC}"
+    echo ""
+    echo -e "${PrefixColor}Tools ${BoldColor}-=-=-${NC}"
+    echo -e "  ${PackageColor}d${NC}  | debug [Process] - ${BoldColor}Start a debugging server on device and connect to it (Can be used with the install flag as well)${NC}"
+    echo -e "  ${PackageColor}exp${NC}| export          - ${BoldColor}Tell ninja to create a compile_commands.json${NC}"
+    echo ""
+    echo -e "${PrefixColor}-=-=-${NC}"
+    echo ""
+    echo "dragon v${DRAGON_VERS}"
+    echo "created by cynder, made possible through crucial contributions from Lorenzo Pane, Lightmann"
+    echo "with contributions from: iCrazeiOS, Squidkingdom, Amy While, Conor, MrGcGamer, jaidan, Diego Magdaleno"
+    # <3
+}
