@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: package-fraction
+Version: 0.0.1
+Summary: This is a package for Fraction
+Home-page: https://github.com/Nash242/package_fraction
+Author: Nimish S Tambe
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: Licence.txt
+
+With the help of this package we can perform 
+Fraction addition, Fraction subtraction, Fraction multiplication,
+Fraction division and Fraction comparison
+
