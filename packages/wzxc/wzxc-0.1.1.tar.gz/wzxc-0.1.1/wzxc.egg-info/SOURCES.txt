@@ -1,0 +1,7 @@
+README.txt
+myMain.py
+setup.py
+wzxc.egg-info/PKG-INFO
+wzxc.egg-info/SOURCES.txt
+wzxc.egg-info/dependency_links.txt
+wzxc.egg-info/top_level.txt
