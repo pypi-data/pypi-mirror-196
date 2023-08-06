@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+scikit-learn
+tabulate
+
+[dev]
+pytest
+black
+flake8
+jupyter
+matplotlib
