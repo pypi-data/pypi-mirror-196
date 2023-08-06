@@ -1,0 +1,2 @@
+[console_scripts]
+gintel = gintel.cli:entry

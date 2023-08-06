@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gintel
+Version: 0.0.0
+Home-page: https://github.com/harttraveller/gintel
+Author: Hart Traveller
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gintel
+Python package for geographic intelligence.
