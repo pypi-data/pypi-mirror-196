@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dpi-maps
+Version: 0.0.1
+Summary: Download maps from the Deptment of Prime Industries for use in R license activites.
+Author: Daniel Michaels
+Author-email: dan@danielms.site
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fake-useragent (>=1.1.1,<2.0.0)
+Requires-Dist: httpx (>=0.23.3,<0.24.0)
+Requires-Dist: playwright (>=1.31.1,<2.0.0)
+Requires-Dist: structlog (>=22.3.0,<23.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# DPI Maps
+
+> Retrieve maps and species reports from the Department of Prime Industries
+
+## Setup
+
+`pip install dpi-maps`
+
