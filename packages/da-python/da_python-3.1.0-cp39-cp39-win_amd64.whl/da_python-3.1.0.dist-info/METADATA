@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: da-python
+Version: 3.1.0
+Summary: DocumentAI SDK Library for Python 3.6+
+Home-page: 
+Author: DocumentAI
+Author-email: yangjun@kdanmobile.com
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: wheel
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: fastapi
+Requires-Dist: tqdm
+Provides-Extra: mypy
+Requires-Dist: mypy (==0.600) ; extra == 'mypy'
+

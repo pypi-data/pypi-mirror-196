@@ -1,0 +1,16 @@
+da_python/__init__.py,sha256=cg_BOewOoqyFLZ5XpxG3wjUAReD0gO5CcCcqZtoT3Nk,314
+da_python/c_lib_wrap.py,sha256=dj2rW0D3dzdVMGYtfOmj_U1xqKXdUqAgVbwpjFv2eO8,2590
+da_python/code_version.py,sha256=6iOHfV3pIiloALvA3LLbFM8ThrMRClx4RG9aELM09LU,282
+da_python/da_python_api.py,sha256=rcb-nX0qvxSNYkF-P3IzGvWYnqtYUmM4vHBjdfvDEtg,939
+da_python/da_python_main.cp39-win_amd64.pyd,sha256=Dc7NCeWEF_yJzHZ5kPMtEXGbMTc6hGxxH8SzV-DlNAY,1843712
+da_python/onnxruntime.dll,sha256=AnavF-cHfik1XZoz0PX76xHDt-3dqDyBStPnEytTklI,8255904
+da_python/onnxruntime_providers_shared.dll,sha256=4GCj20pY4yT59hpkdMWe0iQtDmZVHE4cGsgUJsZCSxY,21904
+da_python/opencv_world420.dll,sha256=6_Dol212Yjrd_T-QLt6bnK9iex81AYvJowAvL-HI4hc,59127808
+da_python/paddle2onnx.dll,sha256=vX44iwxOi3gMeRPskhr2_NZlzD4fooeV5_9MaEVvFLY,4023296
+da_python/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+da_python/serving/__init__.py,sha256=qhTiuCm3v198YnTeRlT7_OZwrJqLjdE1UtaRLAMN7E4,663
+da_python/serving/utils.py,sha256=-UNvJ98wrLnuXVrJGCJrI1R0O1t_qZL2Ekaq98B56Yw,1174
+da_python-3.1.0.dist-info/METADATA,sha256=j8MM2f5vmfcnb-r9riCcy3V4G3HX53tA_qSYm-IFCwU,555
+da_python-3.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+da_python-3.1.0.dist-info/top_level.txt,sha256=prmKM0jPDcbsRDKrcEOPKGaRNrw-08XzPUBGYBbS2S8,10
+da_python-3.1.0.dist-info/RECORD,,
