@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: renaminator
+Version: 0.1.0
+Summary: A file renaming utility
+Author: Tsierenana Bôtramanagna Gracy
+Author-email: gtsierenana@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Renaminator
+
+The idea is to have a simple way to remove a string from a bunch of files in a directory.
+
+### Roadmap 
+- [ ] Print result
+- [ ] Add error/exception handling
+- [ ] Add GUI
