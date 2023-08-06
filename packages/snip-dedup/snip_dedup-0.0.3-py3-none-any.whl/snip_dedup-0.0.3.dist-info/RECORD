@@ -1,0 +1,10 @@
+snip_dedup/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+snip_dedup/cli.py,sha256=ja8eXtg5xBczhbt9oy6sCQMMzCPJdU62vjhQjVoQLIs,337
+snip_dedup/snip_compress.py,sha256=Z-FepyHWfz8Y_vgq8MoFv-RNFYs4nFj1UALU9KCcjY8,2527
+snip_dedup/snip_download.py,sha256=6Ifogvu1V0pio1LUNN1PiNk8MvqgNzwfXs4KTfKLo3A,2053
+snip_dedup/snip_index.py,sha256=DMRuD5NjBzfTMLf3SpHvTDPiuW71gjnwWVhpiIeC1xI,2702
+snip_dedup-0.0.3.dist-info/METADATA,sha256=m5lCW947lARUiDnzia9d-kLfrRPwqu1kL6aVR8rKiWo,6246
+snip_dedup-0.0.3.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+snip_dedup-0.0.3.dist-info/entry_points.txt,sha256=m1Cp1Lu0GwmXhqAYZKSJwfIKlDchx-5PUWvSnuK7qMg,45
+snip_dedup-0.0.3.dist-info/licenses/LICENSE,sha256=O7kcq1Q7nwSPR0ttAafQhqPF3xDmHOhKoSzFANeasKM,1089
+snip_dedup-0.0.3.dist-info/RECORD,,
