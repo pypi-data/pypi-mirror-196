@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+clone_gh/__init__.py
+clone_gh/cli.py
+clone_gh/languages.json
+clone_gh.egg-info/PKG-INFO
+clone_gh.egg-info/SOURCES.txt
+clone_gh.egg-info/dependency_links.txt
+clone_gh.egg-info/entry_points.txt
+clone_gh.egg-info/requires.txt
+clone_gh.egg-info/top_level.txt
