@@ -1,0 +1,8 @@
+vemseg/__init__.py,sha256=qBQkEi3ZQp2qQzRnfjNUNRbI-fcAVU2XK7fKS_lsbfY,167
+vemseg/_utils.py,sha256=hAuNISUoQFGDUL5XK1xLtfa6NVXko-KMbIzD2ZD6VKY,9348
+vemseg/_vem_classifier.py,sha256=r5KAS9BHj30qS7c-55sA1fsYD5rABmHiG2rrGDeGyWA,12728
+vemseg-0.0.3.dist-info/LICENSE,sha256=ovbGBVI8la7fbn7X2VQ76BEp3uVLOGKRB0C-1Fr6AhQ,1600
+vemseg-0.0.3.dist-info/METADATA,sha256=ud5Lg8HrPR5lQ_MapMmqtk2OQn9GkrxIE3QCLCYrmJE,4273
+vemseg-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vemseg-0.0.3.dist-info/top_level.txt,sha256=PM4znxJqPv0U3vvqTkNevRoPXro3DjS4r68Rw-N6a3E,7
+vemseg-0.0.3.dist-info/RECORD,,
