@@ -1,0 +1,15 @@
+mcrs/__init__.py,sha256=khw0f-GuZNc2rhaJ_y8kW_4rbT4F0epdF04WgZCEFrE,614
+mcrs/environment.py,sha256=T9dQM86swai1tTxs5vG14ce7pI83mr8_7fqITu-nWEE,1808
+mcrs/execution_context.py,sha256=SOXV1fH2o_hTlkTNbKX7anfL35V_lxRh3qK0smuFcOs,714
+mcrs/imicroservice.py,sha256=DGCXXZH9L3fWG7lydsOM47zIqLThHGoIyJRzJTs76dM,508
+mcrs/launcher.py,sha256=tkNcTpbmQUV_lmOLK1KiJL3fRSppcd-NV-jN8nEro0E,914
+mcrs/network.py,sha256=hvEPFASHlfiKKwBwgCT28T7c1PnEeKBywnszeLmfy74,1219
+mcrs/os_info.py,sha256=aGHoMg--O3t35Cl27T-mNqIaVH6UyKucAAK6eUdozS8,428
+mcrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcrs/python_info.py,sha256=W78W5gPI2IcRcgRrVOmW57GYIms8e1uThebdVSKtOuA,463
+mcrs/resource_limits.py,sha256=OHt6iJc4p39Bk5goBHsRM1AUs93a8dt-YfwpNuK7NM0,1065
+mcrs/utils.py,sha256=elOgLIo5O8EskBWR9O1Y-MC8zc2Ki6Rc_CVVFoLGLnU,710
+mcrs-0.0.2.dist-info/METADATA,sha256=S5rwYDfymxLnPXQHTgibvIzWHJfSkFl5i806k0Cn1L8,209
+mcrs-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcrs-0.0.2.dist-info/top_level.txt,sha256=Urx3ASlBQylr3vpkOXr3xOaQbdY3QRDELV7smyIM1IM,5
+mcrs-0.0.2.dist-info/RECORD,,
