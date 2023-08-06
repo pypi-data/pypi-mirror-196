@@ -1,0 +1,10 @@
+tiny_ai_helper/Model.py,sha256=PgyqB1gLIpeveLCs2KI8hOmGR-psWdWFgnFG7dWg4C0,15775
+tiny_ai_helper/Trainer.py,sha256=LVMpruLCwzZa8kAiStgRtwms1ofopTQFkkpS_J5pgrA,9621
+tiny_ai_helper/__init__.py,sha256=p4_plJerxu3FsSj8fRMbMVkF5jQok2VDwf92vRSYiNk,252
+tiny_ai_helper/layers.py,sha256=JOrO-YLWLtfrs1bPaN-WOd6MfF5IveoLOZh7a_6HarQ,4793
+tiny_ai_helper/utils.py,sha256=4aN5X5kWUxbh85YRpB6RYNw6ERdGCiHOFFZ74LfXNfA,8947
+tiny_ai_helper-0.1.2.dist-info/LICENSE,sha256=jxczRat4Mq00h9lf6Vph3yKJDgXV3o87FKLh6nhrCQg,1103
+tiny_ai_helper-0.1.2.dist-info/METADATA,sha256=O6pOaq-vpSJKfScAqgS0bXVsc_qDgvet3IyOl4NFEfM,784
+tiny_ai_helper-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tiny_ai_helper-0.1.2.dist-info/top_level.txt,sha256=ru_N5dkGScNZuD7MuNQVJu9OUPTysZFnyFsWhQUdd2k,15
+tiny_ai_helper-0.1.2.dist-info/RECORD,,
