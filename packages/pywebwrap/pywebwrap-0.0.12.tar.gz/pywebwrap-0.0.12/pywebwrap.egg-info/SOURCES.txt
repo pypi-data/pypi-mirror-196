@@ -1,0 +1,8 @@
+setup.py
+pywebwrap/__init__.py
+pywebwrap/pywebwrap.py
+pywebwrap.egg-info/PKG-INFO
+pywebwrap.egg-info/SOURCES.txt
+pywebwrap.egg-info/dependency_links.txt
+pywebwrap.egg-info/requires.txt
+pywebwrap.egg-info/top_level.txt
