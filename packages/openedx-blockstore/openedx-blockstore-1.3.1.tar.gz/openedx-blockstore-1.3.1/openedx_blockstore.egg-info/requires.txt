@@ -1,0 +1,14 @@
+attrs
+drf-nested-routers
+django-environ
+django-filter
+pytz
+djangorestframework
+edx-django-release-util
+django
+mysqlclient
+django-waffle
+sqlparse
+edx-api-doc-tools
+edx-auth-backends
+edx-django-utils
