@@ -1,0 +1,11 @@
+socks/__init__.py,sha256=I5JtsvQy9xM3kEy6xakmk6kzMlU0V-tCm49CAuCicUk,568
+socks/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socks/classes.py,sha256=2NGNiwKq1gKeRr_2DepZDTbGGO-UAsu6hvgI8KkP1yU,15784
+socks/constants.py,sha256=58Z1fKGpXK0jhs7dnlf0lTgBBqgho9guTAm7h5Gx7Mk,8426
+socks/exeptions.py,sha256=xKHsswY4yD8iNsQA4gTkDIhrJK7pZt-K6gX98Vqrsfc,216
+socks/functions.py,sha256=69ThNRLjOSgqB4Q7D0-wDpm1b48kd1e4y1A33RsL8Lo,759
+socks/generate_colored.py,sha256=u-h1vgqXHRpISLtHLUQrAoxdFcK_1uuCYABsmgQSt9Y,231
+socks/utils.py,sha256=ssOmHW9qV7YREoQ1VpahoA8t6zAGnEX-4hkRaub19Kg,1004
+socks_server-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+socks_server-0.1.2.dist-info/METADATA,sha256=OpBqKX2CGdbm87zSf0JLQ47UUqdwRP5ZOY1mtBBQwUI,984
+socks_server-0.1.2.dist-info/RECORD,,
