@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rdmtable
+Version: 0.0.0
+Summary: Pretty print and query dict of columns
+Home-page: https://github.com/rdemaria/table
+Author: Riccardo De Maria
+Author-email: riccardo.de.maria@cern.ch

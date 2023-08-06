@@ -1,0 +1,8 @@
+setup.py
+rdmtable/__init__.py
+rdmtable/rdmtable.py
+rdmtable.egg-info/PKG-INFO
+rdmtable.egg-info/SOURCES.txt
+rdmtable.egg-info/dependency_links.txt
+rdmtable.egg-info/requires.txt
+rdmtable.egg-info/top_level.txt
