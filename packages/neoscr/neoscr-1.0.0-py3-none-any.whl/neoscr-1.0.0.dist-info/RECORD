@@ -1,0 +1,11 @@
+neoscr/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+neoscr/_modidx.py,sha256=5C4AFsolFAcfB6UR8P8v0E7TimYFbYZbHG-V2Mh3Rt4,2083
+neoscr/cli.py,sha256=jD4GvvmtcO84sByJachC0d0SaQJI52-6LB2Ezlr5SzY,2024
+neoscr/core.py,sha256=62pyDnTrGbfst_F75YFKZvsQlF5PhFzV4OHRVqISnEQ,4773
+neoscr/utils.py,sha256=qb9XcknopRu2pcLjGLEQNaNK5NlmtnyTkBwX015sUrQ,838
+neoscr-1.0.0.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+neoscr-1.0.0.dist-info/METADATA,sha256=oVrSaM510M_hQakgX5d5M40ZVZzz4L3ceud1RSykSHc,3884
+neoscr-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+neoscr-1.0.0.dist-info/entry_points.txt,sha256=9-6wPbQkcjuD3Zgvn6gjwA6UnrPMNeiKjrGSix8YzfU,173
+neoscr-1.0.0.dist-info/top_level.txt,sha256=jBqKZl3xar8NVbuSCu69wYaiPq8vUrsRwa0J7fAp-0E,7
+neoscr-1.0.0.dist-info/RECORD,,
