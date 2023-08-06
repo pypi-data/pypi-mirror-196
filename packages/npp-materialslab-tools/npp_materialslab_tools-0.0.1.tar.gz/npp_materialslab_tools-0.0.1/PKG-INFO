@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: npp_materialslab_tools
+Version: 0.0.1
+Summary: A package for the material lab tools
+Home-page: 
+Author: N. Papadakis
+Author-email: npapnet@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# npp_materialslab_tools
+
+This is a package with python tools for the materials lab in HMU
+
+Author: Nikolaos Papadakis
+
+Nikolaos Papadakis 
+
+
+# installation
+
+cd to the directory and execute
+
+> python setup.py install
+> python setup.py develop
+
+or (when loaded to pypi)
+
+> pip install npp_materialslab_tools
+
+to use it import:
+
+> import npp_materialslab_tools as mlt
