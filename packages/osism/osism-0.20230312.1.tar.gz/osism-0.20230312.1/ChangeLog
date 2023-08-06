@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20230312.1
+-------------
+
+* Do not start ansible processes with an empty environment (#393)
