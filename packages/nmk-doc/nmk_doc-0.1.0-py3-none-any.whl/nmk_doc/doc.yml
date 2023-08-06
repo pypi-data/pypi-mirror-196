@@ -1,0 +1,86 @@
+config:
+
+    # Path to documentation source files
+    docPath: ${PROJECTDIR}/doc
+
+    # Path for sphinx config file
+    docConfig: ${docPath}/conf.py
+
+    # Doc inputs (all files of doc folder)
+    docStaticInputs:
+        __resolver__: nmk_doc.resolvers.NmkDocInputsResolver
+
+    # Doc inputs (all of them; to be extended by other plugins to add source code)
+    docInputs:
+        - ${docStaticInputs}
+
+    # List of extensions to be enabled in sphinx config
+    docExtensions:
+        - myst_parser
+        - sphinx_rtd_theme
+
+    # Project name (default: shared name config)
+    docName: ${projectName}
+
+    # Project author (default: shared author config)
+    docAuthor: ${projectAuthor}
+
+    # Project version (default: use resolver to deduce from git version)
+    docVersion:
+        __resolver__: nmk_doc.resolvers.NmkDocVersionResolver
+
+    # Project version increment (used to predict next version, from next git tag)
+    docVersionIncrement: "0.1.0"
+
+    # Project year
+    docYear:
+        __resolver__: nmk_doc.resolvers.NmkDocYearResolver
+
+    # HTML theme
+    docHtmlTheme: sphinx_rtd_theme
+
+    # Extra doc config
+    docExtraConfig: {}
+
+    # Template for config generation
+    docConfigTemplate: ${BASEDIR}/templates/config.py.jinja
+
+    # Doc output folder
+    docOutput: ${outputDir}/doc
+
+    # Additional venv dependencies (sphinx itself + plugins)
+    venvPkgDeps:
+        - sphinx
+        - sphinx_rtd_theme
+        - myst-parser
+
+tasks:
+
+    # Generate sphinx configuration file
+    doc.config:
+        description: Generate sphinx config file
+        emoji: ":open_book:.:pencil:"
+        deps:
+            - git.version
+        appendToDeps:
+            - setup
+        if: ${docInputs}
+        input: ${gitVersionStamp}
+        output: ${docConfig}
+        builder: nmk_doc.builders.NmkDocConfigBuilder
+        params:
+            template: ${docConfigTemplate}
+
+    # Build documentation
+    doc.build:
+        description: Build documentation
+        emoji: ":open_book:.:hammer:"
+        appendToDeps:
+            - build
+        if: ${docInputs}
+        input: ${docInputs}
+        output: ${docOutput}/index.html
+        builder: nmk_doc.builders.NmkDocSphinxBuilder
+        params:
+            source_folder: ${docPath}
+            output_folder: ${docOutput}
