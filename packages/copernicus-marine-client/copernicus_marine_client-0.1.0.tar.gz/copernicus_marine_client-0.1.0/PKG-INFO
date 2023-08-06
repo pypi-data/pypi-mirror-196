@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: copernicus-marine-client
+Version: 0.1.0
+Summary: 
+Author: jsouchard
+Author-email: jsouchard@mercator-ocean.fr
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.0.4)
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: owslib (>=0.27.2)
+Requires-Dist: requests (>=2.27.1)
+Description-Content-Type: text/markdown
+
+# Copernicus Marine Service client
+
+A library to facilitate the access of Copernicus Marine Service products and datasets.
+
+## Introduction
+
+This package allows to recover products and datasets information from Command Line Interface or with Python code.
+
+## Command Line Interface (CLI)
+
+Retrieve information about products as JSON:
+
+```
+> copernicus-marine describe
+{
+  "products": [
+    {
+      "bbox": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "created": "2018-02-12",
+      "product_id": "GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries",
+      "temporal_extent": [
+        "1901-01-01",
+        "1901-01-01"
+      ],
+      "thumbnail": "https://catalogue.marine.copernicus.eu/documents/IMG/GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries.png",
+      "title": "Atlantic Meridional Overturning Circulation AMOC timeseries at 26N from Reanalysis"
+    },
+    ...
+  ]
+}
+```
+
+Retrieve all information about products and datasets as JSON:
+
+```
+> copernicus-marine describe --include-description=True --include-datasets=True --include-providers=True --include-keywords=True
+{
+  "products": [
+    {
+      "title": "Atlantic Meridional Overturning Circulation AMOC timeseries at 26N from Reanalysis",
+      "product_id": "GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries",
+      "thumbnail": "https://catalogue.marine.copernicus.eu/documents/IMG/GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries.png",
+      "description": "'''DEFINITION'''\n\nThe Atlantic Meridional Overturning strength at 26.5N is obtained by integrating the meridional transport at 26.5 N across the Atlantic basin (zonally) and then doing a cumulative integral in depth. The maximum value in depth is then taken as the strength in Sverdrups (Sv=1x106m3/s). The observations come from the RAPID array (Smeed et al, 2017).    \n\n'''CONTEXT'''\n\nThe Atlantic Meridional Overturning Circulation (AMOC) transports heat northwards in the Atlantic and plays a key role in regional and global climate (Srokosz et al, 2012). There is a northwards transport in the upper kilometer resulting from northwards flow in the Gulf Stream and wind-driven Ekman transport, and southwards flow in the ocean interior and in deep western boundary currents (Srokosz et al, 2012). The observations have revealed variability at monthly to decadal timescales including a temporary weakening in 2009/10 (McCarthy et al, 2012) and a decrease from 2005-2012 (Smeed et al, 2014; Smeed et al, 2018). Other studies have suggested that this weakening may be a result of variability (Smeed et al, 2014; Jackson et al 2017).\n\n'''CMEMS KEY FINDINGS '''\n\nThe AMOC strength exhibits significant variability on many timescales with a temporary weakening in 2009/10. There has been a weakening from 2005-2012 (-0.67 Sv/year, (p=0.03) in the observations and -0.53 Sv/year (p=0.04) in the multi-product mean). The multi-product suggests an earlier increase from 2001-2006 (0.48 Sv/yr, p=0.04), and a weakening in 1998-99, however before this period there is significant uncertainty. This indicates that the changes observed are likely to be variability rather than an ongoing trend (see also Jackson et al, 2018).\n\nNote: The key findings will be updated annually in November, in line with OMI evolutions.\n\n'''DOI (product):''' \nhttps://doi.org/10.48670/moi-00232",
+      "providers": [
+        {
+          "name": "GLO-MERCATOR-TOULOUSE-FR",
+          "roles": [
+            "custodian"
+          ],
+          "url": null,
+          "email": "yann.drillet@mercator-ocean.fr"
+        },
+        {
+          "name": "GLO-MERCATOR-TOULOUSE-FR",
+          "roles": [
+            "originator"
+          ],
+          "url": null,
+          "email": "karina.von.schuckmann@mercator-ocean.fr"
+        },
+        {
+          "name": "GLO-MERCATOR-TOULOUSE-FR",
+          "roles": [
+            "pointOfContact"
+          ],
+          "url": null,
+          "email": "servicedesk.cmems@mercator-ocean.eu"
+        },
+        {
+          "name": "GLO-MERCATOR-TOULOUSE-FR",
+          "roles": [
+            "resourceProvider"
+          ],
+          "url": null,
+          "email": "renaud.dussurget@mercator-ocean.fr"
+        },
+        {
+          "name": "MOI-OMI-SERVICE",
+          "roles": [
+            "distributor"
+          ],
+          "url": null,
+          "email": "omi.service@mercator-ocean.fr"
+        }
+      ],
+      "created": "2018-02-12",
+      "bbox": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "temporal_extent": [
+        "1901-01-01",
+        "1901-01-01"
+      ],
+      "keywords": [
+        "GEMET - INSPIRE themes, version 1.0",
+        "Discipline",
+        "Climate and Forecast Standard Names",
+        "Temporal scale",
+        "Area of benefit",
+        "Reference Geographical Areas",
+        "Processing level",
+        "Model assimilation"
+      ],
+      "datasets": [
+        {
+          "dataset_id": "global_omi_natlantic_amoc_max26N_timeseries",
+          "services": [
+            {
+              "protocol": "WWW:FTP",
+              "uri": "ftp://my.cmems-du.eu/Core/GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries/global_omi_natlantic_amoc_max26N_timeseries"
+            },
+            {
+              "protocol": "MYO:MOTU-DGF",
+              "uri": "https://mdl1.marine.copernicus.eu/derived/GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries/global_omi_natlantic_amoc_max26N_timeseries_202207/GLOBAL_OMI_NATLANTIC_amoc_max26n_timeseries_19930115_P20220428.nc"
+            }
+          ]
+        }
+      ]
+    },
+    ...
+  ]
+}
+```
+
+Check out the help:
+
+```
+> copernicus-marine describe --help
+Usage: copernicus-marine describe [OPTIONS]
+
+Options:
+  --one-line BOOLEAN             Output JSON on one line
+  --include-description BOOLEAN  Include product description in output
+  --include-datasets BOOLEAN     Include product dataset details in output
+  --include-providers BOOLEAN    Include product provider details in output
+  --include-keywords BOOLEAN     Include product keyword details in output
+  --help                         Show this message and exit.
+```
+
+## Installation
+
+Using pip, for example:
+```
+pip install copernicus-marine
+```
+## Technical details
+
+This module is organized around two capabilities:
+- a catalogue, parsed from web requests, that contains informations on the available datasets
+- a downloader, to simplify the download of dataset files or subsets
+
+The catalogue can be displayed by the user and is used by the downloader to link the user
+requests with files or subset of files to retrieve.
+The downloader will help the user download the needed datasets.
+
