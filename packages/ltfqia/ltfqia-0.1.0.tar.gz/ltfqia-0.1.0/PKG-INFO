@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ltfqia
+Version: 0.1.0
+Summary: Quantitative Investment Analysis
+Author: Shawn Anderson
+Author-email: shawn@longtailfinancial.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# qia
+Quantitative Investment Analysis
+
