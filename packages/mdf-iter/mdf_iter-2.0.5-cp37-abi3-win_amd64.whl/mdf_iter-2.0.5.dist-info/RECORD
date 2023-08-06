@@ -1,0 +1,8 @@
+mdf_iter/MessageTypes.py,sha256=oMUS8Nm_CqBs0XmzBG3eSpOol7duBPRXQTZlbw8gMf4,201
+mdf_iter/__init__.py,sha256=GpswAJvgbJobTAQGK9xvWbs2ojRL30BKhMzwVGJ4DPI,65
+mdf_iter/mdf_iter.pyd,sha256=su61XuyWefZFp3eyx2ib8ChqkeYXtTPmWs25d4hTT10,1528832
+mdf_iter/mdf_iter.pyi,sha256=0lECqK5_x_v9MzL4rxX12mONa6yp8dYuRFsos9zLaFg,1081
+mdf_iter-2.0.5.dist-info/METADATA,sha256=v4K2wMyIXNpyT4gR_Az3RvJDpEtbsYhchd5vBbGb2XY,4144
+mdf_iter-2.0.5.dist-info/WHEEL,sha256=i0xQfLVNr7Fi3AifmQEQVrzLUa9fVWp7IJIeYoB-AT8,95
+mdf_iter-2.0.5.dist-info/licenses/LICENSE,sha256=Bd8ownFO3zoS8BCs2-Q5v06NVjOXwVAizSW-WDB16vs,1093
+mdf_iter-2.0.5.dist-info/RECORD,,
