@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tinykv
+Version: 0.1.0
+Summary: A tiny key-value store using SQLite3.
+Author-email: Flavio Veloso Soares <flaviovs@magnux.com>
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flake8-bugbear ; extra == "dev"
+Requires-Dist: flake8-builtins ; extra == "dev"
+Requires-Dist: flake8-docstrings ; extra == "dev"
+Requires-Dist: flake8-tidy-imports ; extra == "dev"
+Requires-Dist: flake8-walrus ; extra == "dev"
+Requires-Dist: flake8 ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: taskipy ; extra == "dev"
+Provides-Extra: dev
