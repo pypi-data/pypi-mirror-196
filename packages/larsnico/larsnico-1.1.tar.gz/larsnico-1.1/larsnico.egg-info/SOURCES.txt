@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+larsnico/__init__.py
+larsnico/main.py
+larsnico.egg-info/PKG-INFO
+larsnico.egg-info/SOURCES.txt
+larsnico.egg-info/dependency_links.txt
+larsnico.egg-info/entry_points.txt
+larsnico.egg-info/requires.txt
+larsnico.egg-info/top_level.txt
