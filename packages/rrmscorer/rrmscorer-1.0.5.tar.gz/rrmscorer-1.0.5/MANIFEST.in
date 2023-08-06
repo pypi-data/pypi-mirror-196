@@ -1,0 +1,4 @@
+include rrmscorer/alignment_data/*
+include rrmscorer/alignment_data/precalculated_scores/*
+include rrmscorer/output_files/*
+include test/input_files/*
