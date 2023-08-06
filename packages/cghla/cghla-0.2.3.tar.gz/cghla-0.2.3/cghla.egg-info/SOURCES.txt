@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+bin/cghla
+cghla/__init__.py
+cghla/extract.py
+cghla/flanking.py
+cghla/main.py
+cghla/motif_similarity.py
+cghla/samfile.py
+cghla/score.py
+cghla.egg-info/PKG-INFO
+cghla.egg-info/SOURCES.txt
+cghla.egg-info/dependency_links.txt
+cghla.egg-info/top_level.txt
