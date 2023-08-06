@@ -1,0 +1,16 @@
+comfun/__init__.py,sha256=NxPl8xqeW_Hm_AeQDnRr0fl-Dn6RUhxivgOuuT-jJMM,138
+comfun/cryptography.py,sha256=ZOX9GNcHKqYoZzQzlvfbZQyi2o_0g_8Dt_xYzcz1ph8,1059
+comfun/data_generation.py,sha256=cGTNKqkfld_XoBVnY7wS44yg3KWxzCC1BbuyjHfXJH0,1445
+comfun/file_ops.py,sha256=frLmtd6bVZGJEsgF8YS4u0z3v7_uivLaPTsE1V_jTQo,2639
+comfun/geoloc.py,sha256=9043Yi72-A5mmXlkTHmCLh7OeU2bgsEqtnQGotmr-NI,1451
+comfun/img_ops.py,sha256=O5MaM2pwSORB-ZDeoxTlKVX08ledhAI4d5yzGs0b8MM,1113
+comfun/media.py,sha256=_EOdV3B8y3e2gd6RIjGsaPm0axpvzXLslK_zIKF2Jr4,1486
+comfun/pdf_ops.py,sha256=7sVrm8j3NqGpGAdgNqXGKqAPPgUhQKMIKf0ik85pcJQ,3161
+comfun/stats.py,sha256=35ar1zCL5Cm6nRE20G1xWvwim6xqwq-4wvmuWxfpDgw,730
+comfun/system.py,sha256=KhhaNn8ILtM8G3BF5Wlz-TfjOl61_hk9I-e9Bf2Dw9A,1864
+comfun/trigonometry.py,sha256=I3tCkYn2HcjO71UzpcMsKycXei9g-d7NJmmoHDlhSuo,1462
+comfun/ukraine_reports.py,sha256=sMQMytTE6WgCsFgVs9ZxY10xnmKbR0BymoizQ7MpLgk,1012
+comfun-0.1.4.dist-info/METADATA,sha256=fSG3h1jhzBy_ho-FeIO_2TcYukw1wmNyAxiQSbVLUWg,232
+comfun-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+comfun-0.1.4.dist-info/top_level.txt,sha256=LZPHFYuklTbMb8NIIULOdXOlmdJ2er45b0-UUhRUch0,7
+comfun-0.1.4.dist-info/RECORD,,
