@@ -1,0 +1,5 @@
+[rpdk.v1.languages]
+typescriptv2 = rpdk.typescript.codegen:TypescriptLanguagePlugin
+
+[rpdk.v1.parsers]
+typescriptv2 = rpdk.typescript.parser:setup_subparser
