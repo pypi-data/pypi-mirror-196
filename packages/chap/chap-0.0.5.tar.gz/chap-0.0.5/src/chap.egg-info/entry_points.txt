@@ -1,0 +1,3 @@
+[console_scripts]
+chap-cli = chap.__main__:main
+chap-tui = chap.tui:main

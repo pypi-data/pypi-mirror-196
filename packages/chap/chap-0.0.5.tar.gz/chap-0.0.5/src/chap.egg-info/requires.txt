@@ -1,0 +1,6 @@
+click
+dataclasses_json
+httpx
+platformdirs
+textual
+wheel
