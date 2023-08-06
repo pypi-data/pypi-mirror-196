@@ -1,0 +1,14 @@
+kooplearn/__about__.py,sha256=m9YLYOXoRoaDkZk2oH7DD4Dbq3FMZMmuir7MUK6UADc,22
+kooplearn/__init__.py,sha256=bQXOAl5JSXO4-iNv6S_L_uRwdkqer41XugpMZQUZVXA,103
+kooplearn/_keops_utils.py,sha256=yROantrNA4T19oJ4SfJK0fH8GS8rcfWkpy8apjeX2i8,1842
+kooplearn/estimators.py,sha256=KlZnoz0GtH_RpGGHgdgCJz3xa5qpPQZ8RNzRoIN-icU,26265
+kooplearn/kernels.py,sha256=bZLHojeQo2eByD6T0MTahdSweYKmAK_dLvE5SBaquY8,7410
+kooplearn/requirements.txt,sha256=XImLq5JbL4mcF9OEVaFiU-KKPfdEMrPAIyxIy9A6bd8,73
+kooplearn/utils.py,sha256=EG9j8O_0jeAqNaEEooNHc60J05Rq0Ada7GY52IkE2MQ,10605
+kooplearn/jax/__init__.py,sha256=nhXScdOi8tVi-izKUNnDYF6L1I3FdTa08bBR5Gu7cAc,263
+kooplearn/jax/estimators.py,sha256=A3myPz7fG2vSzfkSjSWKtb9dBEkQ3ku3b0ij_3uTbfs,8200
+kooplearn/jax/linalg.py,sha256=OrR4y3rjVBNvVPveu_Wmq7Uyu58_j6YuXLhPOTsicUk,1698
+kooplearn/jax/typing.py,sha256=9F_jnjzSolDoqZPotrEPbkLJN0f6y1H7CtOPTZAJcOY,309
+kooplearn-0.1.19.dist-info/METADATA,sha256=RpDHW32U8wVkarE3cm-2LQnk5GGUlUWcyebgWDf47mI,1419
+kooplearn-0.1.19.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+kooplearn-0.1.19.dist-info/RECORD,,
