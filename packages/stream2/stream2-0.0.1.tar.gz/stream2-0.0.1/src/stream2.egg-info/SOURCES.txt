@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/stream2/BranchNode.py
+src/stream2/CreateItem.py
+src/stream2/OnItem.py
+src/stream2/Uni.py
+src/stream2/__init__.py
+src/stream2.egg-info/PKG-INFO
+src/stream2.egg-info/SOURCES.txt
+src/stream2.egg-info/dependency_links.txt
+src/stream2.egg-info/top_level.txt
