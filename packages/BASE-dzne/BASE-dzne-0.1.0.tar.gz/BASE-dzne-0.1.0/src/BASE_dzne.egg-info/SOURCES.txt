@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/BASE_dzne.py
+src/BASE_dzne.egg-info/PKG-INFO
+src/BASE_dzne.egg-info/SOURCES.txt
+src/BASE_dzne.egg-info/dependency_links.txt
+src/BASE_dzne.egg-info/entry_points.txt
+src/BASE_dzne.egg-info/requires.txt
+src/BASE_dzne.egg-info/top_level.txt
