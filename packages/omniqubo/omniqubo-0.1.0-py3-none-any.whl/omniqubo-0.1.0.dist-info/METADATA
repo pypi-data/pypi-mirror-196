@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: omniqubo
+Version: 0.1.0
+Summary: Extensible framework for transforming optimization models to binary models
+Author-email: Adam Glos <aglos@iitis.pl>
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/euro-hpc-pl/omniqubo
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dimod (>=0.10.7)
+Requires-Dist: docplex (>=2.22)
+Requires-Dist: sympy (>=1.9)
+Requires-Dist: pandas (>=1.3.4)
+Requires-Dist: multimethod (>=1.6)
+Requires-Dist: pulp (>=2.6)
+Requires-Dist: qiskit-optimization (>=0.3.1)
+Requires-Dist: qiskit (>=0.34.2)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+Requires-Dist: pytest-mock (>=3.3.1) ; extra == 'test'
+Requires-Dist: pytest-cov[toml] (>=2.12) ; extra == 'test'
+
+## OMNIQUBO
+
+[![codecov](https://codecov.io/gh/euro-hpc-pl/omniqubo/branch/master/graph/badge.svg?token=ysrSwHsXO8)](https://codecov.io/gh/euro-hpc-pl/omniqubo)
+![quality_checks](https://github.com/euro-hpc-pl/omniqubo/actions/workflows/quality_checks.yml/badge.svg)
+![tests](https://github.com/euro-hpc-pl/omniqubo/actions/workflows/tests.yml/badge.svg)
+
+Simple, modular tool for transforming models into QUBO and related programs.
+Currently, Quadratic Integer Programs with equality constraints written in docplex
+can be transformed into BinaryQuadraticModel from dimod, and the results can be
+interpreted into original form.
