@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: percent-max-diff
+Version: 0.99.1
+Summary: Percent Maximum Difference
+Home-page: UNKNOWN
+Author: Scott Tyler
+Author-email: scottyler89@gmail.com
+License: UNKNOWN
+Description: # README #
+        
+        ### Tutorials ###
+        
+        Blahh
+        
+        ### What is this repository for? ###
+        
+        * PMD
+        
+        ### How do I get set up? ###
+        
+        PyMINEr is now pip installable:
+        `python3 -m pip pmd`
+        Note that there was another package called pyminer for mining bit-coin - this is definitely not that, so be sure to install bio-pyminer instead!
+        
+        You can also install using the setup.py script in the distribution like so:
+        `python3 setup.py install`
+        
+        
+        ### How do I run PyMINEr? ###
+        #### Video Tutorials ####
+        Blahhh
+        
+        ```
+        import numpy as np
+        from percent_max_diff.percent_max_diff import pmd
+        pmd_res = pmd(np.array([[100,0,0],[0,100,0],[0,0,100]]))
+        print(pmd_res.pmd)
+        ```
+        
+        ### License ###
+        For non-commercial use, PyMINEr is available via the AGPLv3 license. Commercial entities should inquire with scottyler89@gmail.com
+        
+        ### Who do I talk to? ###
+        
+        * Repo owner/admin: scottyler89+bitbucket@gmail.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

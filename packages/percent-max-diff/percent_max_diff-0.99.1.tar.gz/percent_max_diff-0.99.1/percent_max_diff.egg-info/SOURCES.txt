@@ -1,0 +1,12 @@
+.gitignore
+README.md
+requirements.txt
+setup.py
+percent_max_diff/__init__.py
+percent_max_diff/percent_max_diff.py
+percent_max_diff/pmd_compositional_benchmark.py
+percent_max_diff.egg-info/PKG-INFO
+percent_max_diff.egg-info/SOURCES.txt
+percent_max_diff.egg-info/dependency_links.txt
+percent_max_diff.egg-info/requires.txt
+percent_max_diff.egg-info/top_level.txt
