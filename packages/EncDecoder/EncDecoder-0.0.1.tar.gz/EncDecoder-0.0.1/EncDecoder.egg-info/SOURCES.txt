@@ -1,0 +1,8 @@
+setup.py
+EncDecoder/Main.py
+EncDecoder/__init__.py
+EncDecoder.egg-info/PKG-INFO
+EncDecoder.egg-info/SOURCES.txt
+EncDecoder.egg-info/dependency_links.txt
+EncDecoder.egg-info/requires.txt
+EncDecoder.egg-info/top_level.txt
