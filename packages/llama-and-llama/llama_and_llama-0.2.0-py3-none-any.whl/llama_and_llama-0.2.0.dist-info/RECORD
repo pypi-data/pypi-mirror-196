@@ -1,0 +1,9 @@
+llama/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama/lemma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama/lemma/bemma.py,sha256=Yy9CLSm8QVLexJqi9_Pr7ri5Xdl531oMyJrVhGVquUo,26
+llama/lima/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama/lima/bima.py,sha256=-1gJZlqsxTFlar-M30ci2BOHKuzuyBbijB7luTUDXyc,119
+llama/rancher.py,sha256=Hn0IVeeHigNtGuliZbB8n50Xm3lbe-WZ0Th9JmyH7zw,128
+llama_and_llama-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+llama_and_llama-0.2.0.dist-info/METADATA,sha256=aWu8wyn1YxXeYtqxmoLAD4BPxUvDpSL9wS0qMEWzf4c,530
+llama_and_llama-0.2.0.dist-info/RECORD,,
