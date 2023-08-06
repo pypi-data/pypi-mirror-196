@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dj-users"
+version = "0.1.0"
+description = "Users is a Django app for performing CRUD operation on user models"
+authors = ["Yousef Abu Shanab <josephyousef249@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "users"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^3.0"
+djangorestframework = "^3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
