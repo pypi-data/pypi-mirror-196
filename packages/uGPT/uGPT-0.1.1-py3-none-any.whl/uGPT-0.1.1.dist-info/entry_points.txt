@@ -1,0 +1,3 @@
+[console_scripts]
+meta = ugpt.bin:main
+
