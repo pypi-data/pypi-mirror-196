@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-griottes = napari_griottes:napari.yaml
