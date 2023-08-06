@@ -1,0 +1,10 @@
+README.md
+setup.py
+transQA/ContextQA.py
+transQA/NoContextQA.py
+transQA/TextGen.py
+transQA/__init__.py
+transQA.egg-info/PKG-INFO
+transQA.egg-info/SOURCES.txt
+transQA.egg-info/dependency_links.txt
+transQA.egg-info/top_level.txt
