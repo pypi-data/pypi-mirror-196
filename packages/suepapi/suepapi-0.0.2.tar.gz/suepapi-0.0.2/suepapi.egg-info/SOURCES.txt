@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+suepapi/ElectricAPI.py
+suepapi/Login.py
+suepapi/StudentAPI.py
+suepapi/__init__.py
+suepapi/utils.py
+suepapi.egg-info/PKG-INFO
+suepapi.egg-info/SOURCES.txt
+suepapi.egg-info/dependency_links.txt
+suepapi.egg-info/requires.txt
+suepapi.egg-info/top_level.txt

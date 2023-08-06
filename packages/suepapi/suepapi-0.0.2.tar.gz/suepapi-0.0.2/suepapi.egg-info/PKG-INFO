@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: suepapi
+Version: 0.0.2
+Summary: APIs for SUEP websites
+Home-page: https://github.com/andywang425/suepapi
+Author: andywang425
+Project-URL: Bug Reports, https://github.com/andywang425/suepapi/issues
+Project-URL: Source, https://github.com/andywang425/suepapi
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# suepapi
+APIs for SUEP websites
