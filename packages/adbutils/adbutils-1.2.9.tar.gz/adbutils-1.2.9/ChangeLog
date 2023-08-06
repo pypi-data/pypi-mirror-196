@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+1.2.9
+-----
+
+* set screenshot to blank when screenshot is not allowed
+* fix- non frozen dataclass leads to unhashable error
+* fix app\_info version\_name pattern
+* fix back
+* change version\_name optional
+* change version\_code to optional
+* add path to AppInfo
+* fix #79
+* add docs
