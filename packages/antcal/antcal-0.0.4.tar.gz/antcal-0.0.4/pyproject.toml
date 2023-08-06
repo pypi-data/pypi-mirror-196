@@ -1,0 +1,48 @@
+[project]
+name = "antcal"
+dynamic = ["version"]
+description = "Antenna calculator"
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { file = "../LICENSE" }
+keywords = ["Antenna", "DRA"]
+authors = [{ name = "Atlanswer", email = "atlanswer@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: C++",
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+dependencies = ["pyaedt", "plotly", "pandas", "numpy", "orjson"]
+
+[project.optional-dependencies]
+dev = ["hatch", "black", "ipython", "ipykernel"]
+vis = ["ipywidgets", "nbformat", "python-kaleido"]
+
+[project.urls]
+Homepage = "https://github.com/atlanswer/AntCal"
+Repository = "https://github.com/atlanswer/AntCal.git"
+Documentation = "https://github.com/atlanswer/AntCal#readme"
+Issues = "https://github.com/atlanswer/AntCal/issue"
+
+# [project.scripts]
+# cli-name = ""
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/antcal/__init__.py"
+
+[tool.hatch.build]
+only-packages = true
+
+[tool.conda-lock]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
