@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: python-simple-package-demo
+Version: 1.0.0
+Summary: Sample package manager
+Author: Girish B
+Classifier: Operating System :: OS Independent
