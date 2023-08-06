@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ppf-constants
+Version: 0.5
+Summary: physical constants and units
+Author: Simon Zeller, Adrian Schlatter
+License: BSD2
+Project-URL: repository, https://github.com/adrianschlatter/ppf.constants/tree/master
+Keywords: python,constants,units
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# ppf.constants
+
+ppf.constants is a python package to provide physical constants and units.
+
+Check out the project website to find out more!

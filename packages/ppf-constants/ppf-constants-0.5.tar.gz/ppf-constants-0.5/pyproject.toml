@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ppf"]
+namespaces = true
+
+[project]
+name = "ppf-constants"
+version = "0.5"
+authors = [
+    {name = "Simon Zeller"},
+    {name = "Adrian Schlatter"},
+]
+license = {text = "BSD2"}
+description = "physical constants and units"
+readme = "docs/README_pypi.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Operating System :: OS Independent"
+]
+keywords = ["python", "constants", "units"]
+
+[project.urls]
+repository = "https://github.com/adrianschlatter/ppf.constants/tree/master"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "check-manifest",
+    "flake8",
+    "flake8-pyproject",  # to make flake8 read pyproject.toml
+    "coverage"
+]
+dev = [
+    "check-manifest",
+    "twine"
+]
+
+[tool.flake8]
+per-file-ignores = [
+    # imported but unused, import *, undefined name:
+    "__init__.py: F401, F403, F821"
+]
+
+[tool.check-manifest]
+ignore = [
+    "tox.ini",
+    "tests",
+    "tests/**",
+    "docs/**"
+]

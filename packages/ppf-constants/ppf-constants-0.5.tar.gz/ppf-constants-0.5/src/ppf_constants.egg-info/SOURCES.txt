@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+pyproject.toml
+tox.ini
+docs/README_pypi.md
+src/ppf/constants/__init__.py
+src/ppf/constants/constants.py
+src/ppf_constants.egg-info/PKG-INFO
+src/ppf_constants.egg-info/SOURCES.txt
+src/ppf_constants.egg-info/dependency_links.txt
+src/ppf_constants.egg-info/requires.txt
+src/ppf_constants.egg-info/top_level.txt
+tests/__init__.py
+tests/test_simple.py
