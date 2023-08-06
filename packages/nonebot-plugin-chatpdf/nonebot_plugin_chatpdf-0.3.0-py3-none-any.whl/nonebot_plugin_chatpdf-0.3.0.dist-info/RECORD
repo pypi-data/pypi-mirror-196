@@ -1,0 +1,10 @@
+nonebot_plugin_chatpdf/ChatSession.py,sha256=0T4y7g7NdBPuiDaHcwa1ZM3fhwVtJaomWX3VuFbIMdc,4986
+nonebot_plugin_chatpdf/__init__.py,sha256=pspQ_KnXnnuFRRyujIbKhdYW4bT-ey8EHcMDeyAg724,6701
+nonebot_plugin_chatpdf/gpt_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot_plugin_chatpdf/gpt_reader/model_interface.py,sha256=bUEsyAkmZ-X3PeH7CcifWG4isXYvnsasLtv_aZz_wRM,735
+nonebot_plugin_chatpdf/gpt_reader/paper.py,sha256=mxd2JtYFRxYRxa4f4P15a7lxf_275WYapap5miSEAfs,510
+nonebot_plugin_chatpdf/gpt_reader/pdf_reader.py,sha256=Ey-ka62ztQh-bY5hT1rBg0nM61JjuOff0hl-_EI-YrI,5667
+nonebot_plugin_chatpdf/gpt_reader/prompt.py,sha256=-psD-TV0h34czyrLkgpLZqD9mfNPCoCoXuXAa2RUsCg,1157
+nonebot_plugin_chatpdf-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nonebot_plugin_chatpdf-0.3.0.dist-info/METADATA,sha256=QSe9EGvjZ4Xk5eEgzpeDTVFkn4ZSludSsomzzEJ3odM,4009
+nonebot_plugin_chatpdf-0.3.0.dist-info/RECORD,,
