@@ -1,0 +1,9 @@
+# test dependencies
+pytest==7.2.2
+black==23.1.0
+flake8>=6.0.0
+mypy==1.1.1
+tox==4.4.6
+wheel>=0.38.4
+coverage==7.2.1
+resoto-plugin-example-collector==3.2.5
