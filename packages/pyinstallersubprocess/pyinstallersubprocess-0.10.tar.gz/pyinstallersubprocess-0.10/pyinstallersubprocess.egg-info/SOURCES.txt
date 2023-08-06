@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyinstallersubprocess/LICENSE
+pyinstallersubprocess/README.MD
+pyinstallersubprocess/__init__.py
+pyinstallersubprocess/requirements.txt
+pyinstallersubprocess/thirdparty.json
+pyinstallersubprocess.egg-info/PKG-INFO
+pyinstallersubprocess.egg-info/SOURCES.txt
+pyinstallersubprocess.egg-info/dependency_links.txt
+pyinstallersubprocess.egg-info/top_level.txt

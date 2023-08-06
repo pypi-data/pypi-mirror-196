@@ -1,0 +1,4 @@
+include pyinstallersubprocess/requirements.txt
+include pyinstallersubprocess/thirdparty.json
+include pyinstallersubprocess/README.MD
+include pyinstallersubprocess/LICENSE
