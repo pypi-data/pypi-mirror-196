@@ -1,0 +1,14 @@
+articon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+articon/config.py,sha256=zw2HfCzqdqIsxaWmzg45Dev_CTYCzVPbl0Lj2VXLSC4,226
+articon/features.py,sha256=90EwbhziPqRUAzd8Wj2s0CB0AH4csHDB8VdrqA5zG-w,2109
+articon/filters.py,sha256=hw1cR3A7WMBEurQ6E4tsDCU_p1ogAjfs14blhykU3uA,551
+articon/image.py,sha256=2tds6dk4b0y6nbLNNJsyqEh4bHyi6Rg3_F895Rh-5Eo,360
+articon/models.py,sha256=8R_ppbtKE_2GGOe7oWtLQoOm5p37rwKCzWjRFPtCGWs,15867
+articon/samplers.py,sha256=dp1_Do3y1fnOuAsNyQ4M1Xegtxy6dsXAaV2XqU6SfrQ,4567
+articon/sys.py,sha256=Aosx-zIglx_9I9zi8Xx_-m1HwuySfM5DrsC4kJ_Gor8,819
+articon/utils.py,sha256=BxJbSYLrOOgwB0BFw23cv4tFoXLSHafWl3edcvSjA8g,4545
+articon-0.0.1.dist-info/LICENSE,sha256=dvjbaFg3KNv_ahE6vOysy8blOiMWT-kLaT5sWFPpdes,748
+articon-0.0.1.dist-info/METADATA,sha256=J9lYX5kdrXXy5nEy9A2PvZTvNgIIikYp1OabbVEpkYI,3247
+articon-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+articon-0.0.1.dist-info/top_level.txt,sha256=JMyPxxeThLu-dueN4YZpJcVhR5358ZK6mT9qOVkzvmE,8
+articon-0.0.1.dist-info/RECORD,,
