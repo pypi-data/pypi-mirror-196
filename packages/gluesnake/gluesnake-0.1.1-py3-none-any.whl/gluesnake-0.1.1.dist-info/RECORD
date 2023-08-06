@@ -1,0 +1,12 @@
+gluesnake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gluesnake/manager.py,sha256=AoYWjXHJBnKDVyZh3dRrNM-Mr3q6x7ZIZuXzaDWu8P4,50492
+gluesnake/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gluesnake/utils/log.py,sha256=n7LjJfwPxrmYCloUMzh9RQQhpWfFXfPs3_Ws7zpPFZY,1751
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=RreOek-N3jGto3c_0teZ_RVwPpTHrzshZ2ZhmZIdqX0,747
+tests/test_01_job_manager.py,sha256=lzFwWAuEmR3H7bcsUJghILVLAr4reOvoPI9I_55kHQA,7050
+gluesnake-0.1.1.dist-info/LICENSE,sha256=Ms_6ko7u0Fd0rSa6-2rWSjMbgt3r4Z97Ot0fKNls-8Y,1070
+gluesnake-0.1.1.dist-info/METADATA,sha256=MfxNcHTti-Sm55Fbzz5gxGGrGOO0CBfz3hAg-_M6Y9I,5141
+gluesnake-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gluesnake-0.1.1.dist-info/top_level.txt,sha256=k_JtOhtoxlPffy2nQtNoiF_Sp3dMZRgW7J8G8Vb0rgk,16
+gluesnake-0.1.1.dist-info/RECORD,,
