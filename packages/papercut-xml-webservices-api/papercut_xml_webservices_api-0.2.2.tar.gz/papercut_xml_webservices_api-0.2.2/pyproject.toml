@@ -1,0 +1,38 @@
+[build-system]
+requires = ["poetry-core", "setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{ name = "Jordan Reyes", email = "jreyes@safehomedev.com" }]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = ["requests", 'importlib-metadata; python_version<"3.8"']
+description = "PaperCut NG/MF server's API uses XML-RPC. This library utilizes Python's [stable XMLRPC library"
+keywords = ["papercut", "xml", "api", "NG", "MF"]
+license = { text = "MIT license" }
+name = "papercut_xml_webservices_api"
+readme = "README.md"
+version = "0.2.2"
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/safehome-jdev/PaperCutSoftware/api/papercut_xml_webservices_api"
+"Bug Tracker" = "https://github.com/safehome-jdev/PaperCutSoftware/issues"
+
+[tool.poetry]
+name = "papercut-xml-webservices-api"
+version = "0.2.2"
+description = "PaperCut NG/MF server's API uses XML-RPC. This library utilizes Python's [stable XMLRPC library"
+authors = ["Jordan Reyes <jreyes@safehomedev.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "papercut_xml_webservices_api"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"

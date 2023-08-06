@@ -1,0 +1,8 @@
+include LICENSE
+
+recursive-exclude * ._*
+recursive-exclude * ._DS_Store
+prune __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs Makefile make.bat conf.py *.md
