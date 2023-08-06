@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: RCA-Summary
+Version: 1.0
+Summary: Tool to generate RCA Summary
+Author: IAP Reliability
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Requires-Dist: dohq-tfs
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: requests-ntlm
+Requires-Dist: setuptools
+
