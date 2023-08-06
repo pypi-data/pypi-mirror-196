@@ -1,0 +1,2 @@
+global-include *.md *.txt *.py *.html *.css *.js
+global-exclude .git .gitignore main.py README.md cache.sql
