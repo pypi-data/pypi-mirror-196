@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fastspell-dictionaries
+Version: 3.0
+Summary: Hunspell dictionaries for FastSpell
+Author-email: Prompsit Language Engineering <info@prompsit.com>
+Maintainer-email: Marta Bañon <mbanon@prompsit.com>, Jaume Zaragoza <jzaragoza@prompsit.com>
+License: See *.license file for each dictionary.
+        
+Project-URL: Homepage, https://github.com/mbanon/fastspell
+Project-URL: FastSpell on GitHub, https://github.com/mbanon/fastspell
+Project-URL: Prompsit Language Engineering, http://prompsit.com
+Project-URL: Paracrawl, https://paracrawl.eu
+Project-URL: MaCoCu, https://macocu.eu
+Project-URL: HPLT, https://hplt-project.org
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FastSpell Dictionaries
+Dictionaries AF, BS, SR, SQ are from https://github.com/LibreOffice/dictionaries
+
+HBS dictionaries by Nikola Ljubešić.
+
+The rest are from https://github.com/wooorm/dictionaries
