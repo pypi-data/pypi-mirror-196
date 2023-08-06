@@ -1,0 +1,5 @@
+numpy
+scipy
+scikit-image
+opencv-python
+discrete-morphology==1.0.1
