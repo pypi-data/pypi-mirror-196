@@ -1,0 +1,52 @@
+"""{{ ns_name|lower }} namespace definition."""
+
+class {{ ns_name }}(object):
+
+    def __init__(self, **kwds):
+    {% for param_line in parameters %}
+        self._{{ param_line.pycode_fixed }}
+    {% endfor %}
+        #: ! update parameters on construction
+        if len(kwds) > 0:
+            for k in kwds:
+                setattr(self, '_'+k if '_' != k[0] else k, kwds.get(k))
+        self.setup_equations()
+
+{% for param_line in parameters %}
+    @property
+    def {{ param_line.param_name }}(self):
+        return self._{{ param_line.param_name }}
+    @{{ param_line.param_name }}.setter
+    def {{ param_line.param_name }}(self, new):
+        self._{{ param_line.param_name }} = new
+        #: ! re-init equations
+        self.setup_equations()
+{% endfor %}
+
+    def setup_equations(self):
+        #: Define vectorized functions (instance-level)
+{% for equation in equations %}
+        self.{{ equation.func_vectorized }}
+{% endfor %}
+
+    #: Constants
+{% for key, value in constants.items() %}
+    {{ key }} = {{ value }}
+{% endfor %}
+
+    #: Parameters:
+    params = tuple(({% for param_line in parameters %} '{{ param_line.param_name }}', {% endfor %}))
+
+    #: (Functions) State Equations:
+    output_keys = tuple(({% for equation in equations %}
+              {% set func_args_len = equation.func_args|length %}
+              {% if func_args_len < 2 %}'{{ equation.func_name }}', {% endif %}
+            {% endfor %}))
+{% for equation in equations %}
+    {{ equation.pycode_fixed }}
+{% endfor %}
+
+
+def get_desmos_ns():
+    return {{ ns_name }}
+
