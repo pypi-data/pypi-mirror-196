@@ -1,0 +1,7 @@
+modulazo.egg-info/PKG-INFO
+modulazo.egg-info/SOURCES.txt
+modulazo.egg-info/dependency_links.txt
+modulazo.egg-info/top_level.txt
+mymodulo/__init__.py
+mymodulo/modulo1.py
+mymodulo/setup.py
