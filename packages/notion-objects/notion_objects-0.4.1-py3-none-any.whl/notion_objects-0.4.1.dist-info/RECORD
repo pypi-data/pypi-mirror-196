@@ -1,0 +1,11 @@
+notion_objects/__init__.py,sha256=3Ji2ujN1ATdFluA8B90MqFUsmjCeF3m-AFm5LKOjrvw,118
+notion_objects/database.py,sha256=mPqCO6h0vxaus4dS2lWBGPeePjSoWgkQSuqqWdF1c74,4904
+notion_objects/encode.py,sha256=CAT4qB5nEke1i_NWM4C2TbNA1SuZI0Q8G4k9CvcB43E,1780
+notion_objects/objects.py,sha256=bEg60jcx3UgahIuHW0blDQsA8HD9gk_o-m9SE0QDOt4,2487
+notion_objects/properties.py,sha256=CUk21sztbBsWDwKk4TcCIQpxbiN4K8Ms_lITel_X6KA,14312
+notion_objects/values.py,sha256=-MMauLEJqhyl8JyGJVdx1_exo1VDUx6kUE2VaK4PnY0,630
+notion_objects-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+notion_objects-0.4.1.dist-info/METADATA,sha256=V58Psh9laeMxL6LmpMy4WauUlM2BRIBXD7JBHai4Rx4,4221
+notion_objects-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+notion_objects-0.4.1.dist-info/top_level.txt,sha256=5Ov3xc9dKXvhDdXNy28v1qSSAthpdwlp0KDIZfPWnLw,15
+notion_objects-0.4.1.dist-info/RECORD,,
