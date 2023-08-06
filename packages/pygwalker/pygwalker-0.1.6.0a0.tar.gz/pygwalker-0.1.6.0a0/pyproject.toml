@@ -1,0 +1,48 @@
+[project]
+name = "pygwalker"
+version = "0.1.6.0-alpha.0"
+requires-python = ">=3.6"
+description = "pygwalker: Combining Jupyter Notebook with a Tableau-like UI"
+authors = [ { name = "Asm.Def", email = "woojson@zju.edu.cn" } ]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = [ 'visualization', 'pandas', 'data-analysis', 'tableau', 'data-exploration', 'dataframe', 'tableau-alternative', 'jupyter' ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "jinja2",
+    "ipython",
+]
+[project.urls]
+homepage = "https://github.com/Kanaries/pygwalker"
+repository = "https://github.com/Kanaries/pygwalker"
+# changelog, documentation
+
+[project.optional-dependencies]
+pandas = ["pandas"]
+polars = ["polars"]
+streamlit = ["streamlit"]
+all = [
+    "pygwalker[pandas,polars,streamlit]",
+]
+dev = [
+    "build",
+    "twine",
+]
+
+
+[tool.hatch]
+# metadata = { allow-direct-references = true }
+
+[tool.hatch.build]
+exclude = [ "/graphic-walker", "/tests" ]
+artifacts = [ "pygwalker/templates/*" ]
+hooks = {}
+
+# [tool.hatch.build.targets.wheel]
+#
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
