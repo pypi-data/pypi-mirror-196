@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+Ty_Delargy_SDK.egg-info/PKG-INFO
+Ty_Delargy_SDK.egg-info/SOURCES.txt
+Ty_Delargy_SDK.egg-info/dependency_links.txt
+Ty_Delargy_SDK.egg-info/requires.txt
+Ty_Delargy_SDK.egg-info/top_level.txt
+src/LOTR_SDK.py
+src/__init__.py
+tests/test_all.py
