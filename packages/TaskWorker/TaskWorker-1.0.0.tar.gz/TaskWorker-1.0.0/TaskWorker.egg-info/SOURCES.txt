@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TaskWorker.egg-info/PKG-INFO
+TaskWorker.egg-info/SOURCES.txt
+TaskWorker.egg-info/dependency_links.txt
+TaskWorker.egg-info/top_level.txt
+task_worker/TaskWorker.py
+task_worker/__init__.py
+task_worker/defines.py
