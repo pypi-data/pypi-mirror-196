@@ -1,0 +1,8 @@
+README.md
+setup.py
+Criptografia.egg-info/PKG-INFO
+Criptografia.egg-info/SOURCES.txt
+Criptografia.egg-info/dependency_links.txt
+Criptografia.egg-info/top_level.txt
+criptografia/__init__.py
+criptografia/demo.py
