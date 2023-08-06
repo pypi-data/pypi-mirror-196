@@ -1,0 +1,42 @@
+Install: pip install meru-app
+
+from meru_app import meru
+
+# Add API Key
+meru.api_key = 'YOUR_API_KEY'
+
+# Create index
+
+meru.createIndex(
+    file_url = 'YOUR_FILE_URL',
+    index_name = 'YOUR_INDEX_NAME' # Optional
+)
+
+# Get index
+meru.getIndex(
+    file_id = 'YOUR_FILE_ID'
+)
+
+# Delete index
+meru.deleteIndex(
+    file_id = 'YOUR_FILE_ID'
+)
+
+# Predict
+meru.predict(
+    file_id = 'YOUR_FILE_ID',
+    prompt = 'YOUR_PROMPT',
+    temperature = 'YOUR_TEMPERATURE', # Optional
+    max_tokens = 'YOUR_MAX_TOKENS', # Optional
+    similarity_top_k = 'YOUR_SIMILARITY_TOP_K' # Optional
+)
+
+# Get prediction
+meru.getPrediction(
+    predict_id = 'YOUR_PREDICT_ID'
+)
+
+# Delete prediction
+meru.deletePrediction(
+    predict_id = 'YOUR_PREDICT_ID'
+)
