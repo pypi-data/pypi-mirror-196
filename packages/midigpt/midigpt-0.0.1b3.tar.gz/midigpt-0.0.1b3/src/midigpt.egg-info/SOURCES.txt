@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/midigpt/__init__.py
+src/midigpt/components.py
+src/midigpt/config.py
+src/midigpt/gpt.py
+src/midigpt/trainer.py
+src/midigpt/utils.py
+src/midigpt.egg-info/PKG-INFO
+src/midigpt.egg-info/SOURCES.txt
+src/midigpt.egg-info/dependency_links.txt
+src/midigpt.egg-info/requires.txt
+src/midigpt.egg-info/top_level.txt
+src/midigpt/datasets/__init__.py
+src/midigpt/datasets/text_character.py

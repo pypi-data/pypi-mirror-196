@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: midigpt
+Version: 0.0.1b3
+Summary: midiGPT: A MIDI Music Generation Library
+Home-page: https://github.com/johnnygreco/midiGPT
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# 🎹 midiGPT
+
+Inspired by Andrej Karpathy's [minGPT](https://github.com/karpathy/minGPT), I am building `midiGPT` as a learning-in-public (LIP) project. The goal is to build a library that makes it easy to train a decoder-only transformer model (similar to GPT) on MIDI data. 
+
+## 🚧 Under Construction 🚧
