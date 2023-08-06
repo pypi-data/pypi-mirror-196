@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+apple_notes_to_sqlite/__init__.py
+apple_notes_to_sqlite/__main__.py
+apple_notes_to_sqlite/cli.py
+apple_notes_to_sqlite.egg-info/PKG-INFO
+apple_notes_to_sqlite.egg-info/SOURCES.txt
+apple_notes_to_sqlite.egg-info/dependency_links.txt
+apple_notes_to_sqlite.egg-info/entry_points.txt
+apple_notes_to_sqlite.egg-info/requires.txt
+apple_notes_to_sqlite.egg-info/top_level.txt
+tests/test_apple_notes_to_sqlite.py

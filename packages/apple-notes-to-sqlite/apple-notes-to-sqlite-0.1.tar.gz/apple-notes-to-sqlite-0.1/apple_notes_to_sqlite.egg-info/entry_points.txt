@@ -1,0 +1,2 @@
+[console_scripts]
+apple-notes-to-sqlite = apple_notes_to_sqlite.cli:cli
