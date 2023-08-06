@@ -1,0 +1,11 @@
+ServerCommand/ServerCommandProxy.py,sha256=5BPMi7y-UytNU5pvkDGWS9QbeGi1oAqoFt-lpKe7G8g,81978
+ServerCommand/__init__.py,sha256=Jr-BMaCCSWYQz-vwJOKdZqADbBS9SOHeg3QUf9l67wQ,134
+ServerCommand/const.py,sha256=fpSNjPdt0m9SB0H-VOLrd2oFIoM3KSgCle5s3w9APFk,2257
+ServerCommand/exceptions.py,sha256=3TllN3Zh1W0tYqeh9EAunGrhgbDAOLVTlFF9F3Rjjb8,12
+papercut_xml_webservices_api-0.2.3.dist-info/AUTHORS.md,sha256=ZXvtANa88Yltjunjtsc17VSaz_ccxMh4aq07VYfIt2k,129
+papercut_xml_webservices_api-0.2.3.dist-info/LICENSE,sha256=LRnmUYsxBg4qiOy4YlrDJqecYC7If2U5PApH-piRc1c,1069
+papercut_xml_webservices_api-0.2.3.dist-info/METADATA,sha256=miEGyZmUnSAJI-crNVYx0g_vQCjrmkECHtcu2x_WEYU,1612
+papercut_xml_webservices_api-0.2.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+papercut_xml_webservices_api-0.2.3.dist-info/top_level.txt,sha256=WysY28aD0OCiq-QpbhLylQ-QWM0w1C6QJG2dC3nJhho,14
+papercut_xml_webservices_api-0.2.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+papercut_xml_webservices_api-0.2.3.dist-info/RECORD,,
