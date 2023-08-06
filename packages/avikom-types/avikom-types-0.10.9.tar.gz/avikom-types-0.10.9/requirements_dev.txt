@@ -1,0 +1,9 @@
+git+https://github.com/OpenAvikom/protoc-base-plugin@master#egg=protoc_base_plugin
+grpcio-tools
+mypy-protobuf
+virtualenv
+setuptools
+twine
+wheel
+requests
+build
