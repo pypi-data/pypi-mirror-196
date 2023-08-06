@@ -1,0 +1,3 @@
+[console_scripts]
+devbot=dev_bot_cli.__main__:cli
+

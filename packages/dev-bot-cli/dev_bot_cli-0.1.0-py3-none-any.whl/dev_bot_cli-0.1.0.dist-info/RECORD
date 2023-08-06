@@ -1,0 +1,8 @@
+dev_bot_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_bot_cli/__main__.py,sha256=n0I1esrtOig_3qNWo9Z5LWBHrwk_rY64CCmujXtilPY,1015
+dev_bot_cli/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_bot_cli/command/prune_remote.py,sha256=2J-G69ufm-BKY10_-pVWYZOwSfSVgF885cFseRBUhbc,1010
+dev_bot_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dev_bot_cli-0.1.0.dist-info/entry_points.txt,sha256=TciBlon8gvbOfe3ekFp_8hr9GAHz0v6CmyVWxTFtrbs,51
+dev_bot_cli-0.1.0.dist-info/METADATA,sha256=LNYUVpKam8vAvR_TvFOCwHCFPg7ZIHQUk0g9XMj5FrA,477
+dev_bot_cli-0.1.0.dist-info/RECORD,,
