@@ -1,0 +1,9 @@
+colarify/__init__.py,sha256=44xI_mdWYJpdERgSiDA17dC2zU8fKPGd-MSYrF07akk,536
+colarify/ansi.py,sha256=beQ3aKea3Q4RLKsJv9SHSbNUSsAM-jBtOZ5HBYEH2dY,1089
+colarify/styled_string.py,sha256=3VNw7n908aqkx3InfR0ghSEOzcYT96E-e43iK7LEruM,3255
+colarify/styled_string_builder.py,sha256=6MF1H098L0cVdxqwq11ofI-D1LJ580puEvOoXf4mtDk,1371
+colarify-1.1.8.dist-info/LICENSE.txt,sha256=ysNcAmhuXQSlpxQL-zs25zrtSWZW6JEQLkKIhteTAxg,1491
+colarify-1.1.8.dist-info/METADATA,sha256=MQzVBjZBTxwJr647QYPj9LZbaFtSagmfwbW5Rajeedc,1974
+colarify-1.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+colarify-1.1.8.dist-info/top_level.txt,sha256=NePcT_OyREga0sPeD2W32jDnTI2ESuflk7Q1o97Jrbo,9
+colarify-1.1.8.dist-info/RECORD,,
