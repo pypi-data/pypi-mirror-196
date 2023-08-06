@@ -1,0 +1,4 @@
+include bluestackspatcher/requirements.txt
+include bluestackspatcher/thirdparty.json
+include bluestackspatcher/README.MD
+include bluestackspatcher/LICENSE

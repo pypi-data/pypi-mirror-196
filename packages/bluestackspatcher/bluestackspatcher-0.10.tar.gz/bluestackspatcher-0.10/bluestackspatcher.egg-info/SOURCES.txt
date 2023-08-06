@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bluestackspatcher/LICENSE
+bluestackspatcher/README.MD
+bluestackspatcher/__init__.py
+bluestackspatcher/requirements.txt
+bluestackspatcher/thirdparty.json
+bluestackspatcher.egg-info/PKG-INFO
+bluestackspatcher.egg-info/SOURCES.txt
+bluestackspatcher.egg-info/dependency_links.txt
+bluestackspatcher.egg-info/requires.txt
+bluestackspatcher.egg-info/top_level.txt
