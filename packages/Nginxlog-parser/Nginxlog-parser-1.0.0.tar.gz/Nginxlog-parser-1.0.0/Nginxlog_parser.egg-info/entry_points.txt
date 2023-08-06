@@ -1,0 +1,2 @@
+[console_scripts]
+Nginxlog-parser = log_parser:Main

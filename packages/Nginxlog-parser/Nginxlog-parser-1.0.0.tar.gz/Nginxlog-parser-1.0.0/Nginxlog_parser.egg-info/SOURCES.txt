@@ -1,0 +1,7 @@
+setup.py
+Nginxlog_parser.egg-info/PKG-INFO
+Nginxlog_parser.egg-info/SOURCES.txt
+Nginxlog_parser.egg-info/dependency_links.txt
+Nginxlog_parser.egg-info/entry_points.txt
+Nginxlog_parser.egg-info/requires.txt
+Nginxlog_parser.egg-info/top_level.txt
