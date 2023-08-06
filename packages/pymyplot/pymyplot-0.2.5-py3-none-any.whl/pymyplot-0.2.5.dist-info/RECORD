@@ -1,0 +1,13 @@
+pymyplot/__init__.py,sha256=maUALECexoxqHDVnZvMT5wvbNNnCDjbVBPVZaPkaeYU,388
+pymyplot/aip.py,sha256=yctIUxq3yqEBhScxk2tXaM1TJvKw_cfdO88BjU48uN4,1953
+pymyplot/basic.py,sha256=CC5DMNpZynTj0LKlhC3CTYdak7YH55Q9RnhyYLtseFo,1695
+pymyplot/colors.py,sha256=FLoLHiwonPDvEpo17DrgzuiDN622tvf8K5YxwoGKI-o,6828
+pymyplot/elsevier.py,sha256=hJCcnHr_T81h1Xh2jth8u1aIfuN3dm1EwXjz8RkIOSo,2768
+pymyplot/figsize.py,sha256=B4xiu8Qwyjb-9vp1ee_4_nlvGayTW6QqI8bl5OrzyDA,863
+pymyplot/fonts.py,sha256=zoseFSMkN_wadX5YG07AsXlhrhojOl60wujinbzFR7M,1391
+pymyplot/lines.py,sha256=tzeZn1OCHXgvYYhDPU4vplLLWzJxC4FNIcHK189Dwxk,1438
+pymyplot/markers.py,sha256=gxWMiF62e1A9SgwNHGOLkTn_Xy3jE-JaTFkqbVRYmIg,786
+pymyplot/scaling.py,sha256=-237s-17MTfsJf37na9noIrMer-EAcLrdDvydjmwXuA,1784
+pymyplot-0.2.5.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pymyplot-0.2.5.dist-info/METADATA,sha256=eKN9ilvscgvujTUqxk9-kKYi5mEur-nrInj_qFraEDw,2089
+pymyplot-0.2.5.dist-info/RECORD,,
