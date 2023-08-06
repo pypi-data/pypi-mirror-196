@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: swap-env
+Version: 0.1.0
+Summary: A simple CLI for swapping between .env files
+Home-page: https://github.com/benberryallwood/swap-env
+License: MIT
+Author: Ben Berry-Allwood
+Author-email: benberryallwood@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: inquirerpy (>=0.3.4,<0.4.0)
+Project-URL: Repository, https://github.com/benberryallwood/swap-env
+Description-Content-Type: text/markdown
+
+# Swap Env
+
+A simple CLI for swapping between different `.env` files.
+
