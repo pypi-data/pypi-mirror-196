@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "gptclass"
+version = "0.4.0"
+description = "A Python class that does what you need"
+authors = ["Jaume Ferrarons <jaume.ferrarons@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/jaume-ferrarons/GPTClass"
+repository = "https://github.com/jaume-ferrarons/GPTClass"
+license = "MIT"
+keywords = ["gpt", "openai", "code-generations"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+openai = "^0.27.0"
+diskcache = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.21.3"
+black = "^23.1.0"
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+flake8 = "^5.0.4"
+pre-commit = "^3.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
