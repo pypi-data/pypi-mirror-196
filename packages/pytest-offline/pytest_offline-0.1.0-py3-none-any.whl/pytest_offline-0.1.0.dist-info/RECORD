@@ -1,0 +1,9 @@
+pytest_offline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_offline/exceptions.py,sha256=LHRTp46k6snoXZxAYkpPSLk2AxQbcky6HN27siuAmis,168
+pytest_offline/plugin.py,sha256=1KdjEnQTvMXfhFVLztt-0tCXNMql3B0eDrWqpk7HUjg,1088
+pytest_offline/utils.py,sha256=sEwScbbf5DOUeKkir7m8XwhCioFuNpq-mjEskrBzyFs,1486
+pytest_offline-0.1.0.dist-info/LICENSE,sha256=9-ZTO3XWkqf9Kw5XMDPw164HJXdHhNbbwdB7r1nJQrU,1074
+pytest_offline-0.1.0.dist-info/METADATA,sha256=SVxu94vhCG9ARK2Xg3QE7hpLgqgYsefgFbzv_0_5JGA,1107
+pytest_offline-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pytest_offline-0.1.0.dist-info/entry_points.txt,sha256=V4G7_niR8ER-Y1-cjbbmxnp3SlHJZKTrDd86YB-lDog,42
+pytest_offline-0.1.0.dist-info/RECORD,,
