@@ -1,0 +1,20 @@
+# TODO
+- Documentation
+  - [x] Add functional spec
+  - [x] Add design spec
+  - [x] Add final presentation
+  - [x] Add final writeup
+  - [x] Flush out README.md
+- Examples
+  - [x] Implement simple example
+  - [x] Implement interactive example
+- Tests
+  - [x] Tests for Game
+  - [x] Tests for Wordle
+  - [x] Set up continuous integration in GitHub
+- Implementation
+  - [x] Fill in public API
+  - [x] Add doc comments
+  - [x] Implement Game
+  - [x] Implement Wordle
+  - [x] Verify style and formatting
