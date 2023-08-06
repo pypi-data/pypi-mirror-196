@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: yapx
+Version: 0.0.1a18
+Summary: WIP
+Home-page: https://github.com/fresh2dev/yapx
+Author: Donald Mellenbruch
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://github.com/fresh2dev/yapx
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/yapx/i
+Project-URL: License, https://www.Fresh2.dev/code/r/yapx/i/license
+Project-URL: Issues, https://github.com/fresh2dev/yapx/issues
+Project-URL: Funding, https://www.Fresh2.dev/funding
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions ; python_version < "3.10"
+Provides-Extra: build
+Requires-Dist: setuptools (>=62.3.0) ; extra == 'build'
+Requires-Dist: build (==0.*) ; extra == 'build'
+Requires-Dist: wheel (==0.*) ; extra == 'build'
+Requires-Dist: twine (==4.*) ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: python-lsp-server[rope] (==1.*) ; extra == 'dev'
+Requires-Dist: pylint (==2.*) ; extra == 'dev'
+Requires-Dist: pylint-pytest (==1.*) ; extra == 'dev'
+Requires-Dist: mypy[reports] (==0.*) ; extra == 'dev'
+Requires-Dist: ruff (==0.*) ; extra == 'dev'
+Requires-Dist: black (==23.*) ; extra == 'dev'
+Requires-Dist: isort (==5.*) ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs (==1.*) ; extra == 'docs'
+Requires-Dist: mkdocs-material (==9.*) ; extra == 'docs'
+Requires-Dist: mkdocstrings[python] (==0.20.*) ; extra == 'docs'
+Requires-Dist: mkdocs-autorefs (==0.*) ; extra == 'docs'
+Requires-Dist: mkdocs-include-dir-to-nav (==1.*) ; extra == 'docs'
+Provides-Extra: extras
+Requires-Dist: pydantic (<2,>=1.10.3) ; extra == 'extras'
+Requires-Dist: shtab (==1.5.8) ; extra == 'extras'
+Provides-Extra: pydantic
+Requires-Dist: pydantic (<2,>=1.10.3) ; extra == 'pydantic'
+Provides-Extra: shtab
+Requires-Dist: shtab (==1.5.8) ; extra == 'shtab'
+Provides-Extra: tests
+Requires-Dist: pytest (==7.*) ; extra == 'tests'
+Requires-Dist: pytest-cov (==4.*) ; extra == 'tests'
+Requires-Dist: pytest-html (==3.*) ; extra == 'tests'
+Requires-Dist: pytest-sugar (==0.*) ; extra == 'tests'
+Requires-Dist: pytest-custom-exit-code (==0.3.*) ; extra == 'tests'
+Requires-Dist: pylint (==2.*) ; extra == 'tests'
+Requires-Dist: pylint-pytest (==1.*) ; extra == 'tests'
+Requires-Dist: packaging (==23.*) ; extra == 'tests'
+Requires-Dist: mockish (==0.0.1a1) ; extra == 'tests'
+Requires-Dist: pydantic (<2,>=1.10.3) ; extra == 'tests'
+Requires-Dist: shtab (==1.*) ; extra == 'tests'
+
+# yapx
+
+*None*
+
+|               |                           |
+| ------------- | ------------------------- |
+| Code Repo     | https://github.com/fresh2dev/yapx              |
+| Mirror Repo   | https://www.Fresh2.dev/code/r/yapx           |
