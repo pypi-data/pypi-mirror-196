@@ -1,0 +1,6 @@
+Funciones_trig.py
+setup.py
+Funciones_trig.egg-info/PKG-INFO
+Funciones_trig.egg-info/SOURCES.txt
+Funciones_trig.egg-info/dependency_links.txt
+Funciones_trig.egg-info/top_level.txt
