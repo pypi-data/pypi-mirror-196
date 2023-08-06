@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dettag"
+version = "1.1.1"
+description = "For detection of tags in PIDs"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.20,!=1.24.0",
+    "pandas>=1.2",
+    "matplotlib>=3.3,!=3.6.1",
+    "tensorflow",
+    "torch",
+    "opencv-python",
+    "paddlepaddle",
+    "paddleocr",
+    "seaborn"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.optional-dependencies]
+stats = [
+    "scipy>=1.7",
+    "statsmodels>=0.12",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "flake8",
+    "mypy",
+    "pandas-stubs",
+    "pre-commit",
+    "flit",
+]
+docs = [
+    "numpydoc",
+    "nbconvert",
+    "ipykernel",
+    "sphinx-copybutton",
+    "sphinx-issues",
+    "sphinx-design",
+    "pyyaml",
+    "pydata_sphinx_theme==0.10.0rc2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/jithamanyu001/DetTag.git/issues"
