@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pekora
+Version: 0.0.1
+Summary: A command-line-calculator for Discord permission values
+Home-page: https://github.com/celsiusnarhwal/pekora
+License: MIT
+Author: celsius narhwal
+Author-email: hello@celsiusnarhwal.dev
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: alianator (>=4.0.2,<5.0.0)
+Requires-Dist: colour (>=0.1.5,<0.2.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: inflect (>=6.0.2,<7.0.0)
+Requires-Dist: inquirerpy (>=0.3.4,<0.4.0)
+Requires-Dist: py-cord (>=2.4.0,<3.0.0)
+Requires-Dist: pyperclip (==1.8.1)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Requires-Dist: yarl (>=1.8.2,<2.0.0)
+Project-URL: Documentation, https://pekora.celsiusnarhwal.dev
+Project-URL: Repository, https://github.com/celsiusnarhwal/pekora
+Description-Content-Type: text/markdown
+
+# Pekora
+
+Pekora is a calculator for Discord permission values. With it, you can calculate permission values, see detailed
+information about the permissions a value represents, and interactively build your own
+permissions.
+
+## Installation
+
+### pipx (recommended)
+
+[Install pipx](https://pypa.github.io/pipx/installation/), then run:
+
+```bash
+pipx install pekora
+```
+
+### Homebrew (macOS and Linux only)
+
+[Homebrew](https://brew.sh) users can install Pekora from the
+[Houkago Tea Tap](https://github.com/celsiusnarhwal/homebrew-htt).
+
+```bash
+brew tap celsiusnarhwal/htt
+brew install pekora
+```
+
+## Documentation
+
+For documentation, including usage instructions, see [Pekora's website](https://pekora.celsiusnarhwal.dev).
+
+## License
+
+Pekora is licesned under the [MIT License](https://github.com/celsiusnarhwal/pekora/blob/main/LICENSE.md).
+
