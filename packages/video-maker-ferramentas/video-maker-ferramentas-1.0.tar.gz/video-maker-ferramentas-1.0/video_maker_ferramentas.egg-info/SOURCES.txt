@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+pro_video_ferramentas/__init__.py
+pro_video_ferramentas/cameraa.py
+pro_video_ferramentas/videoo.py
+video_maker_ferramentas.egg-info/PKG-INFO
+video_maker_ferramentas.egg-info/SOURCES.txt
+video_maker_ferramentas.egg-info/dependency_links.txt
+video_maker_ferramentas.egg-info/top_level.txt
