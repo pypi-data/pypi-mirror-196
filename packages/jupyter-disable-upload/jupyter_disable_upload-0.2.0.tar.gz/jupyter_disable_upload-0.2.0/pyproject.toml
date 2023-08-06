@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter-disable-upload"
+version = "0.2.0"
+authors = [
+  { name="Oli Platt", email="oli@nayaone.com" },
+]
+description = "Custom package for Disabling Jupyter Theme"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
