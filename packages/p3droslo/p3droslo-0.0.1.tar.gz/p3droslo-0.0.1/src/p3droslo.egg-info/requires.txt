@@ -1,0 +1,11 @@
+matplotlib
+astroquery
+astropy
+numpy
+numba
+
+[dev]
+black
+bumpver
+pip-tools
+pytest
