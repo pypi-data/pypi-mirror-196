@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geospatialtools"
+version = "1.0.0"
+authors = [
+  { name="Alaa Khamis", email="alaakhamis@gmail.com" },
+]
+description = "Python modules that support ahndling geospatial data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Optimization-Algorithms-Book/Code-Listings"
+"Bug Tracker" = "https://github.com/Optimization-Algorithms-Book/Code-Listings/issues"
