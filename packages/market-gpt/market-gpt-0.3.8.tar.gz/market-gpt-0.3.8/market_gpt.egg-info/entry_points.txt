@@ -1,0 +1,3 @@
+[console_scripts]
+market-gpt = market_gpt._marketgpt_scripts:main
+
