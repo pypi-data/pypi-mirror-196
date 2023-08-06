@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: elcalc
+Version: 1.0
+Summary: simple calc for Python
+Home-page: UNKNOWN
+Author: abderamane
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License

@@ -1,0 +1,6 @@
+setup.py
+elcalc.egg-info/PKG-INFO
+elcalc.egg-info/SOURCES.txt
+elcalc.egg-info/dependency_links.txt
+elcalc.egg-info/top_level.txt
+src/__init__.py
