@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zhenxun-plugin-chatgpt"
+version = "0.7.4"
+description = "zhenxun plugin for AI chat"
+authors = ["INSide_734 <3217962725@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "zhenxun_plugin_chatgpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+OpenAIAuth = "^0.3.2"
+nonebot-plugin-htmlrender = "^0.2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
