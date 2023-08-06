@@ -1,0 +1,10 @@
+comtypes
+psutil
+click
+websockets
+jsonrpcserver
+jsonrpcclient
+schedule
+
+[httprpc]
+fastapi[uvicorn]
