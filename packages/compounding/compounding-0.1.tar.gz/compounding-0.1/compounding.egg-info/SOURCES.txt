@@ -1,0 +1,8 @@
+setup.py
+compounding/__init__.py
+compounding/compounding.py
+compounding.egg-info/PKG-INFO
+compounding.egg-info/SOURCES.txt
+compounding.egg-info/dependency_links.txt
+compounding.egg-info/not-zip-safe
+compounding.egg-info/top_level.txt
