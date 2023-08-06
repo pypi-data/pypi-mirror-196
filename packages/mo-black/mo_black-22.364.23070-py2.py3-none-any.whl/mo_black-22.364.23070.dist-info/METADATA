@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: mo-black
+Version: 22.364.23070
+Summary: More Black! Denser Black formatting
+Home-page: https://github.com/klahnakoski/mo-black
+Author: Various
+Author-email: kyle@lahnakoski.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: click (==8.1.3)
+Requires-Dist: colorama (==0.4.5)
+Requires-Dist: importlib-metadata (==4.12.0)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: pathspec (==0.6)
+Requires-Dist: regex (==2020.1.8)
+Requires-Dist: toml (==0.9.4)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: typing-extensions (==4.3.0)
+Requires-Dist: zipp (==3.8.1)
+Provides-Extra: tests
+Requires-Dist: mo-logs ; extra == 'tests'
+Requires-Dist: pip-tools ; extra == 'tests'
+
+
+# More Black! - Denser Black formatting
+
+This is s a fork of [the Black code formatter](https://github.com/psf/black)
+
+### Requires Python 3.7
+
+The old version of Black depends on a number of binaries, each particular to Python 3.7. 
+
+### Problem
+
+I love Black formatting because I agree with its formatting choices, but it does have one pathology: [Excessive indenting on data structures](https://github.com/psf/black/issues/626)
+
+Here is an example of Black formatting; many lines are wasted on lonely brackets:  
+
+```python
+my_method(
+    [
+        {
+            "name": "a",
+            "value": 42
+        }
+    ]
+)
+```
+
+## Solution: More Black!
+
+When there is only one property (or list item, or parameter), then do not make a new line.
+
+```python
+my_method([{
+    "name": "a",
+    "value": 42
+}])
+```
+
+
+## Usage
+
+Please [read the official Black documentation at time of fork](https://github.com/psf/black/blob/537ea8df35b1004bdb228b483907fb5dd92e5257/README.md#usage)
+
+    pip install mo-black
+
+
+## More about this fork
+
+The `right_hand_split()` function has [additional code](https://github.com/klahnakoski/mo-black/blob/25e1fd648530279dffbf701721df76d52213651a/src/black/__init__.py#L4786) that attempts to identify "simple" structures inside brackets. If it is simple, then block the multiline formatting and, recurse into deeper brackets to find something more complicated to split.
+
+## Development
+
+
+
+Be sure you are in the `mo-black` main directory
+
+Setup virtual environment
+
+    python -m venv .venv
+    source .venv/bin/activate
+
+Install requirements 
+
+    pip-compile --output-file=packaging/requirements.txt packaging/requirements.in
+    pip install -r packaging/requirements.txt
+    pip install -r tests/requirements.txt
+
+Set some environment variables
+
+    export PYTHONPATH=.
+
+Run the tests 
+
+    python -m unittest tests/test_black.py
+
+Here is the same for Windows...
+
+    c:\Python38\python -m pip install virtualenv
+    c:\Python38\python -m virtualenv .venv             
+    .venv\Scripts\activate
+    pip install -r packaging\requirements.txt
+    pip install -r tests\requirements.txt
+    set PYTHONPATH=.
+    python -m unittest tests\test_black.py
+
+
+### Development Installation
+
+You can install `mo-black` from the main directory
+
+    python.exe -m pip install .
