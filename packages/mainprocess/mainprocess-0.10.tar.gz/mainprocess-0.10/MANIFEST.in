@@ -1,0 +1,4 @@
+include mainprocess/requirements.txt
+include mainprocess/thirdparty.json
+include mainprocess/README.MD
+include mainprocess/LICENSE
