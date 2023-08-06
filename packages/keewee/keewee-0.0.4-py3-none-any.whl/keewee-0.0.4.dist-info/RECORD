@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/keewee.py,sha256=MH9l-V63D8Ci75JShnGW5wORGDFB3BVgCkAT4IFnbd0,1889
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_class_usage.py,sha256=wsYue0Yvo0TzVJnIUuDRIVnFhsp2Oq_zCdZLuPVSUbY,632
+test/test_dataclass_usage.py,sha256=GjwbdoqLdP6wloaUvHqR3wfNNkUiE76X9onJE_TdCOM,1188
+keewee-0.0.4.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+keewee-0.0.4.dist-info/METADATA,sha256=BSQLqnzExCpIeSWUyP9MBiTeGEd7EXls75Jv-JZAoQQ,1616
+keewee-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keewee-0.0.4.dist-info/top_level.txt,sha256=ko5Zp-GH1-aCqmTB-_pzAfcKWZ9D29cRgzo8EmAy2_k,9
+keewee-0.0.4.dist-info/RECORD,,
