@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: tree-sitter-talon
+Version: 1007.3.2.0
+Summary: Parser for Talon files in Python.
+Home-page: https://github.com/wenkokke/py-tree-sitter-talon
+License: MIT
+Keywords: parser,tree-sitter,talon
+Author: Wen Kokke
+Author-email: wenkokke@users.noreply.github.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Compilers
+Provides-Extra: test
+Requires-Dist: bumpver ; extra == "test"
+Requires-Dist: dataclasses-json (>=0.5.7,<0.6.0)
+Requires-Dist: mypy (>=1.1.1,<2.0.0) ; extra == "test"
+Requires-Dist: parsec (>=3.15)
+Requires-Dist: pytest (>=7.1.2,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-golden (>=0.2.2,<0.3.0) ; extra == "test"
+Requires-Dist: setuptools (<67.6.0)
+Requires-Dist: tree-sitter (>=0.20.0,<0.21.0)
+Requires-Dist: tree-sitter-type-provider (>=2.1.18,<3.0.0)
+Project-URL: Documentation, https://wenkokke.github.io/py-tree-sitter-talon/
+Project-URL: Repository, https://github.com/wenkokke/py-tree-sitter-talon
+Description-Content-Type: text/markdown
+
+![PyPI](https://img.shields.io/pypi/v/tree-sitter-talon)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/wenkokke/py-tree-sitter-talon)
+[![GitHub Workflow Status](https://github.com/wenkokke/py-tree-sitter-talon/actions/workflows/build.yml/badge.svg)](https://github.com/wenkokke/py-tree-sitter-talon/actions/workflows/build.yml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/wenkokke/py-tree-sitter-talon/dev.svg)](https://results.pre-commit.ci/latest/github/wenkokke/py-tree-sitter-talon/dev)
+
+# Parser for Talon files in Python
+
