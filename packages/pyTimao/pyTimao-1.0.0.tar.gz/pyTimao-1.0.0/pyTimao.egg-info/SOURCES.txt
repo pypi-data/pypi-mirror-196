@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyTimao/__init__.py
+pyTimao/pyTimao.py
+pyTimao.egg-info/PKG-INFO
+pyTimao.egg-info/SOURCES.txt
+pyTimao.egg-info/dependency_links.txt
+pyTimao.egg-info/top_level.txt
