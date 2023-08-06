@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dr_captcha"
+version = "1.0.0"
+description = "fork from django-rest-captcha for work with django-rest-framework and support for new django versions"
+readme = "README.md"
+authors = ["evgeny.zuev <zueves@gmail.com>", "H10ODI <hamzehmahmoodi7@gmail.com>"]
+license = "MIT"
+packages = [
+    {include = "dr_captcha"},
+]
+
+[tool.poetry.dependencies]
+python = "*"
+djangorestframework = "^3.5"
+django="*"
+Pillow = ">=4.3.0"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.5"

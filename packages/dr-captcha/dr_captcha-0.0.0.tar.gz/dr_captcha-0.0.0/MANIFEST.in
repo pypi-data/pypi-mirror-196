@@ -1,0 +1,12 @@
+include MANIFEST.in
+include LICENSE
+include README.md
+include tox.ini
+include runtests.py
+include dr_captcha/captcha_py2.png
+include dr_captcha/captcha_py3.png
+recursive-include dr_captcha/fonts *
+global-exclude *pyc
+global-exclude coverage.xml
+global-exclude .DS_Store
+global-exclude .coverage
