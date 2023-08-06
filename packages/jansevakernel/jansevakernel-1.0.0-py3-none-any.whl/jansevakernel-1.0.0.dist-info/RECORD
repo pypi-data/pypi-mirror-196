@@ -1,0 +1,10 @@
+jansevakernel/__init__.py,sha256=rF82Rc9_9tFvWEaMunKBlwbuObfQ-fF1fOm2fbjnapM,43
+jansevakernel/__main__.py,sha256=gHi7n0zjGlBL2PvlNobtE4DBgOkUBhScmWhuIjHEWpw,156
+jansevakernel/install_kernelspec.py,sha256=4u6IYcl4UPMJicpcALSuwLZ2bvUuvWpiw2evneUL37A,3015
+jansevakernel/kernel.py,sha256=w6X6lFejc30CY5aK9KlP6c_Ar05hY-HjFLzp7dE0uWo,997
+jansevakernel-1.0.0.dist-info/LICENSE,sha256=TloRXvTqTVFM_h8RqCTIxWgpkMe---jdV1FtRygowKc,1072
+jansevakernel-1.0.0.dist-info/METADATA,sha256=0RuoD6YWV4RPa2TwN_Gg5EZfMyLSp1hVyifCliOpJY4,1235
+jansevakernel-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jansevakernel-1.0.0.dist-info/entry_points.txt,sha256=Mr0nLgIRGXC4oKL8qdbK6MXJrqDPomFrIOajkIs_FoQ,86
+jansevakernel-1.0.0.dist-info/top_level.txt,sha256=rGj18vhw1nEK0l8TFLP_TmazYcOHyBJmfWewLccJWA0,14
+jansevakernel-1.0.0.dist-info/RECORD,,
