@@ -1,0 +1,3 @@
+[console_scripts]
+genkey = opaquestore.genkey:main
+opaquestore = opaquestore.opaquestore:main
