@@ -1,0 +1,12 @@
+bfibundle/__init__.py,sha256=thEstw-Q8acriExmHJVbaxoQd15evZ5WUyysa1CQgUY,66
+bfibundle/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bfibundle/src/bfibundle.py,sha256=V5ZnT8EWGrTpJEiphx4BRpWSYBQ4D7l_eS29sPxsfyg,9730
+bfibundle/src/models.py,sha256=2L7TPHxM_t3C94iEviCOBbwearSYMVsYzn0QSHpxl2Q,2044
+bfibundle/src/utils.py,sha256=gr_5oLgkaSEig8LmLEWSBImfOaQlZoUAr40qgTrp32Y,1109
+bfibundle/test/__init__.py,sha256=ldPQsL1X-LS51Kd4odK7QbhYfuv9lJTvXXKLaIo-VcE,1064
+bfibundle/test/test_bfibundle.py,sha256=4ZeQdEXsq7fg5DzE4bzUEhzn_arL97-H70UVx12K0Pw,2727
+bfibundle-0.1.0.dist-info/LICENSE,sha256=WRu-Sq-3qO7rpbzPNOIBwW8PBfWOovt2IB_OrCEo5Go,1072
+bfibundle-0.1.0.dist-info/METADATA,sha256=smTMewu6I6s4ynCbdSbMllbJ4ZUJuraXwqHif3WOvEA,1451
+bfibundle-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bfibundle-0.1.0.dist-info/top_level.txt,sha256=LXJ95L7ZEWg1U0vqMw-zolL-BAuBX5_eArHhVdR7tNA,10
+bfibundle-0.1.0.dist-info/RECORD,,
