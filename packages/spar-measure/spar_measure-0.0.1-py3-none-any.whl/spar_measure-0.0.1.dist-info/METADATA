@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: spar-measure
+Version: 0.0.1
+Summary: SPAR: Semantic Projection with Active Retrieval
+Author-email: Authors <author@example.com>
+Project-URL: Homepage, https://github.com/ISR2022128/SPAR_measure
+Project-URL: Bug Tracker, https://github.com/ISR2022128/SPAR_measure/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai (>=0.26.5)
+Requires-Dist: fire (>=0.4.0)
+Requires-Dist: gradio (>=3.19.1)
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: pandas (>=0.25.3)
+Requires-Dist: scikit-learn (>=1.2.1)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: sentence-transformers (>=2.2.2)
+Requires-Dist: tqdm (>=4.64.0)
+
+# SPAR: Semantic Projection with Active Retrieval
+## Introduction
+
+## Interface
