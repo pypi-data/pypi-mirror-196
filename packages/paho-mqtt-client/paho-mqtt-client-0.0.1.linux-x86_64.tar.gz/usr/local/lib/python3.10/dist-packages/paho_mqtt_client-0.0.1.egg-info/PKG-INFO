@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: paho-mqtt-client
+Version: 0.0.1
+Summary: A package simplify paho-mqtt client API
+Home-page: UNKNOWN
+Author: William Chen (SRAM)
+Author-email: wichen@sram.com
+License: UNKNOWN
+Keywords: python,mqtt,messageing protocol,IoT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+

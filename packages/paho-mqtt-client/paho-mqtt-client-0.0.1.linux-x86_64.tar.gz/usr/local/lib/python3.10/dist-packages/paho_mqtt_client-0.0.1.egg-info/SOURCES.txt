@@ -1,0 +1,8 @@
+setup.py
+client/__init__.py
+client/client.py
+paho_mqtt_client.egg-info/PKG-INFO
+paho_mqtt_client.egg-info/SOURCES.txt
+paho_mqtt_client.egg-info/dependency_links.txt
+paho_mqtt_client.egg-info/requires.txt
+paho_mqtt_client.egg-info/top_level.txt
