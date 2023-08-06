@@ -1,0 +1,14 @@
+django_cognito_saml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cognito_saml/apps.py,sha256=sjWbi4rPqDBgq7fYD4F2X5EiYD0SXqmsvhVu-B0t274,168
+django_cognito_saml/backends.py,sha256=XhJZQdQ0Nya1VQpg73_5rwwJCZNTinSUPZNM87KfZLk,1523
+django_cognito_saml/conf.py,sha256=f32Rym6GvUXlyE8fWVV3aT7xFM20yQEIAiUv7zibpHM,1974
+django_cognito_saml/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cognito_saml/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cognito_saml/tests/settings.py,sha256=B2VF4ixTjKtD28IUtlVoLZ06QOnguJ0h6eMZjsTPC8U,825
+django_cognito_saml/tests/tests.py,sha256=_2K7i5Gjs7s_eYbMwSiAC5Gxxotv18MgnzPxdwob_r8,5850
+django_cognito_saml/urls.py,sha256=nrFlU3dytI6SBHNclg6VROjHnCa9-5mooyBKBTJaXqU,212
+django_cognito_saml/utils.py,sha256=abmbf5Peko2qiZwe2VnbYRVtmCAijb2MZXH8fdSF8Bc,1506
+django_cognito_saml/views.py,sha256=9TRn2LMDjEuQSWEjR2wPHKQ7IexnqBt4p5OFIOQBxTU,3591
+django_cognito_saml-0.1.2.dist-info/METADATA,sha256=6QmHSaOFn7v8zjrm4y65GDGJRl4xtsIaxe2Dmqut4c8,3971
+django_cognito_saml-0.1.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+django_cognito_saml-0.1.2.dist-info/RECORD,,
