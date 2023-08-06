@@ -1,0 +1,119 @@
+[tool.pdm.build]
+excludes = [
+    "src/tests",
+]
+run-setuptools = false
+is-purelib = true
+editable-backend = "editables"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "mypy>=1.0.1",
+    "types-click>=7.1.8",
+    "black>=23.1.0",
+    "flake8>=6.0.0",
+    "isort>=5.12.0",
+    "autoflake>=2.0.1",
+    "pytest>=7.2.1",
+    "pre-commit>=3.1.1",
+    "types-pyyaml>=6.0.12.8",
+    "python-semantic-release>=7.33.2",
+]
+
+[tool.pdm.version]
+source = "scm"
+write_to = "src/dbtvault_generator/__version__.py"
+
+[tool.pdm.scripts]
+mypy-check = "mypy --namespace-packages --check-untyped-defs ."
+
+[tool.pdm.scripts.dbtv-gen]
+call = "dbtvault_generator.main:main"
+
+[tool.pdm.scripts.git-hooks]
+shell = "pre-commit install --install-hooks && pre-commit install --hook-type commit-msg"
+
+[tool.pdm.scripts.test]
+shell = "pytest ."
+
+[tool.pdm.scripts.autoflake-fix]
+cmd = "autoflake ."
+
+[tool.pdm.scripts.black-fix]
+cmd = "black ."
+
+[tool.pdm.scripts.isort-fix]
+cmd = "isort ."
+
+[tool.pdm.scripts.flake8-check]
+cmd = "flake8 ."
+
+[tool.pdm.scripts.black-check]
+cmd = "black --check ."
+
+[tool.pdm.scripts.isort-check]
+cmd = "isort --check-only ."
+
+[tool.pdm.scripts.format]
+composite = [
+    "autoflake-fix",
+    "black-fix",
+    "isort-fix",
+]
+
+[tool.pdm.scripts.lint]
+composite = [
+    "mypy-check",
+    "flake8-check",
+    "black-check",
+    "isort-check",
+]
+
+[tool.isort]
+multi_line_output = 3
+force_to_top = [
+    "os",
+    "sys",
+]
+profile = "black"
+skip_gitignore = true
+
+[tool.autoflake]
+recursive = true
+in-place = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-unused-variables = true
+ignore-pass-statements = false
+
+[tool.commitizen]
+version = "0.2.1"
+
+[project]
+name = "dbtvault-generator"
+dynamic = []
+description = "A little util to help you generate DBTVault SQL files from metadata, while we wait for DBTLabs to add meta to the execution context"
+authors = [
+    { name = "Alex Stenlake", email = "alex.stenlake@gmail.com" },
+]
+dependencies = [
+    "pydantic>=1.10.5",
+    "typer[all]>=0.7.0",
+    "schema>=0.7.5",
+    "dbt-artifacts-parser>=0.2.4",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+version = "0.2.1"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.scripts]
+dbtv-gen = "dbtvault_generator.main:main"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
