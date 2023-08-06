@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+DiffehellmanAlphaCalculator/__init__.py
+DiffehellmanAlphaCalculator.egg-info/PKG-INFO
+DiffehellmanAlphaCalculator.egg-info/SOURCES.txt
+DiffehellmanAlphaCalculator.egg-info/dependency_links.txt
+DiffehellmanAlphaCalculator.egg-info/top_level.txt
