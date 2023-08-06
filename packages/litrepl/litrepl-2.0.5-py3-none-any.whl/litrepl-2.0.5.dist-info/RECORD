@@ -1,0 +1,11 @@
+litrepl/__init__.py,sha256=SKSejdB2naQVBkzIy2NirItKxMRzWXwmKNAaS0SBubM,1248
+litrepl/base.py,sha256=GqcxgA4mEsAq22la6WufNXPsRHz0e4qF4IUrFeuSRP0,14835
+litrepl/eval.py,sha256=6rxT4g1DI1c8Y5yKp_wiZZCk-uLWu1rXSYMeZbsOzF0,7023
+litrepl/types.py,sha256=_0mwXTamsk1qthuO8xXK1VSZRgUuTDY0Pi3SduKgQtE,880
+litrepl/version.py,sha256=7d2L2VsOFBkO64VcFTT4EEAPXoumeLtoLnD_cE2Fv_A,61
+litrepl-2.0.5.data/scripts/litrepl,sha256=VUmvlgu4InIYlcY5b9FwzVEujrcZHbrmdVQN-Js_4e8,3524
+litrepl-2.0.5.dist-info/LICENSE.txt,sha256=UCNFkryaigkm2-bbmfJky8E5zOALkNXynbTP3mnJKiA,1514
+litrepl-2.0.5.dist-info/METADATA,sha256=kOkCEv-NH29F9EQ551MMMYRO4f7dHqmx8PMbjEqrGxY,575
+litrepl-2.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+litrepl-2.0.5.dist-info/top_level.txt,sha256=B8LgH6I6XyqxllcC2VIcnjNlpyoF4rGC6iXRmSYfN2I,8
+litrepl-2.0.5.dist-info/RECORD,,
