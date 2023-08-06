@@ -1,0 +1,16 @@
+senabase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senabase/prototypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senabase/prototypes/proto.py,sha256=jyADbjWwkVRlfmez649H3VPxCmr9be-nD2lqFUd0oWw,551
+senabase/starterpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senabase/starterpack/database.py,sha256=n8CR1fAmY2wIBFz7ESMZJe3Dg5_D2ALJknCdf-5jd-Q,1320
+senabase/starterpack/log.py,sha256=gIXKIj0Ss4NEtojF3Xc1-ZS7IBP1OxeMUJR8mw27w0c,1833
+senabase/starterpack/sb_log.py,sha256=3FExaxGZsuMqPJROf7sGB0BYElsaoiaSkfHSpUOGJxI,1546
+senabase/starterpack/sb_pg.py,sha256=OTwsD90G9zvepsi_KPsHlfcaoJ8RToHoNpTyZ2vZjSM,1035
+starterpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starterpack/sb_log.py,sha256=NxI06uVH2F22H8twR5m78cePGFJaOHTPcF-wQIXZuDQ,1124
+starterpack/sb_pg.py,sha256=OTwsD90G9zvepsi_KPsHlfcaoJ8RToHoNpTyZ2vZjSM,1035
+senabase_starterpack-0.1.6.dist-info/LICENSE,sha256=ruW1O92poRQnhhnk7SvmbrsPl_EmtzHfK7W1cq8Cmg4,1069
+senabase_starterpack-0.1.6.dist-info/METADATA,sha256=UVO8BblS_Y5oMYWpBBpKO8HrY-SNG5Tg8etq9Q8_h1U,1202
+senabase_starterpack-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+senabase_starterpack-0.1.6.dist-info/top_level.txt,sha256=683woC7S15pXUyl9-0g7CKfrK7JfK8VQgakvEYtezKE,9
+senabase_starterpack-0.1.6.dist-info/RECORD,,
