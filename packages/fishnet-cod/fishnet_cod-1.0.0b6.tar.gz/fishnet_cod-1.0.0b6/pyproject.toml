@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fishnet-cod"
+version = "1.0.0-beta.6"
+authors = [
+  { name="Mike Hukiewitz", email="mike.hukiewitz@robotter.ai" },
+]
+description = "Compute-over-Data (CoD) network for time series data on Aleph.im"
+license = "AGPL-3.0"
+tags = ["aleph.im", "cod", "time-series", "network", "data-science"]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[dependencies]
+pydantic = "^1.8.2"
+aleph-sdk-python = "^0.6.0"
+aars = "^0.4.3"
+
+[project.urls]
+"Homepage" = "https://github.com/yourtrading-ai/fishnet-cod"
+"Bug Tracker" = "https://github.com/yourtrading-ai/fishnet-cod/issues"

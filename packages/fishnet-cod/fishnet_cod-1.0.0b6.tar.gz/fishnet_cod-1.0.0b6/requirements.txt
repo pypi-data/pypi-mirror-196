@@ -1,0 +1,11 @@
+aars~=0.5.2
+aiohttp
+aleph-sdk-python==0.6.0
+fastapi
+pandas
+pydantic
+semver
+base58
+pynacl
+numpy
+requests
