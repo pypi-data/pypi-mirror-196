@@ -1,0 +1,2 @@
+[console_scripts]
+movia = movia.__main__:main
