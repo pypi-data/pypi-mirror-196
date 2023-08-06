@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+igdmapper/__init__.py
+igdmapper.egg-info/PKG-INFO
+igdmapper.egg-info/SOURCES.txt
+igdmapper.egg-info/dependency_links.txt
+igdmapper.egg-info/entry_points.txt
+igdmapper.egg-info/requires.txt
+igdmapper.egg-info/top_level.txt
