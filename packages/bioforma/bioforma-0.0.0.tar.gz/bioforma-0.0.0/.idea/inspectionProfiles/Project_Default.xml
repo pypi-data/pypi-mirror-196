@@ -1,0 +1,219 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="wallet[" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://www.w3.org/2000/svg" />
+          <option value="http://www.w3.org/2000/10/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema-instance" />
+          <option value="http://www.w3.org/2003/03/wsdl" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/xml/ns/" />
+          <option value="http://xmlns.jcp.org/xml/ns/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://doc-to-pdf-sky-fileprocessor" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="98">
+            <item index="0" class="java.lang.String" itemvalue="filetype" />
+            <item index="1" class="java.lang.String" itemvalue="arrow" />
+            <item index="2" class="java.lang.String" itemvalue="google-cloud-vision" />
+            <item index="3" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="4" class="java.lang.String" itemvalue="aiohttp-session" />
+            <item index="5" class="java.lang.String" itemvalue="deepdiff" />
+            <item index="6" class="java.lang.String" itemvalue="newrelic" />
+            <item index="7" class="java.lang.String" itemvalue="python-ldap" />
+            <item index="8" class="java.lang.String" itemvalue="aiohttp-cors" />
+            <item index="9" class="java.lang.String" itemvalue="tesseract" />
+            <item index="10" class="java.lang.String" itemvalue="croniter" />
+            <item index="11" class="java.lang.String" itemvalue="pydantic" />
+            <item index="12" class="java.lang.String" itemvalue="sqlalchemy-utils" />
+            <item index="13" class="java.lang.String" itemvalue="pytesseract" />
+            <item index="14" class="java.lang.String" itemvalue="cryptography" />
+            <item index="15" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="16" class="java.lang.String" itemvalue="aioreloader" />
+            <item index="17" class="java.lang.String" itemvalue="jinja2" />
+            <item index="18" class="java.lang.String" itemvalue="pandas" />
+            <item index="19" class="java.lang.String" itemvalue="boto3" />
+            <item index="20" class="java.lang.String" itemvalue="base58" />
+            <item index="21" class="java.lang.String" itemvalue="pdfplumber" />
+            <item index="22" class="java.lang.String" itemvalue="pdf2image" />
+            <item index="23" class="java.lang.String" itemvalue="pypdf2" />
+            <item index="24" class="java.lang.String" itemvalue="aiofile" />
+            <item index="25" class="java.lang.String" itemvalue="aiopg" />
+            <item index="26" class="java.lang.String" itemvalue="strict-rfc3339" />
+            <item index="27" class="java.lang.String" itemvalue="debugpy" />
+            <item index="28" class="java.lang.String" itemvalue="fpdf" />
+            <item index="29" class="java.lang.String" itemvalue="sqlalchemy-serializer" />
+            <item index="30" class="java.lang.String" itemvalue="tesseract-ocr" />
+            <item index="31" class="java.lang.String" itemvalue="httpx" />
+            <item index="32" class="java.lang.String" itemvalue="alembic" />
+            <item index="33" class="java.lang.String" itemvalue="asyncpg" />
+            <item index="34" class="java.lang.String" itemvalue="h11" />
+            <item index="35" class="java.lang.String" itemvalue="mako" />
+            <item index="36" class="java.lang.String" itemvalue="python-editor" />
+            <item index="37" class="java.lang.String" itemvalue="rfc3986" />
+            <item index="38" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="39" class="java.lang.String" itemvalue="sniffio" />
+            <item index="40" class="java.lang.String" itemvalue="fastapi" />
+            <item index="41" class="java.lang.String" itemvalue="gino" />
+            <item index="42" class="java.lang.String" itemvalue="starlette" />
+            <item index="43" class="java.lang.String" itemvalue="zipp" />
+            <item index="44" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="45" class="java.lang.String" itemvalue="gino-starlette" />
+            <item index="46" class="java.lang.String" itemvalue="httpcore" />
+            <item index="47" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="48" class="java.lang.String" itemvalue="botocore" />
+            <item index="49" class="java.lang.String" itemvalue="chardet" />
+            <item index="50" class="java.lang.String" itemvalue="img2pdf" />
+            <item index="51" class="java.lang.String" itemvalue="pikepdf" />
+            <item index="52" class="java.lang.String" itemvalue="lxml" />
+            <item index="53" class="java.lang.String" itemvalue="requests" />
+            <item index="54" class="java.lang.String" itemvalue="sqlalchemy" />
+            <item index="55" class="java.lang.String" itemvalue="async-asgi-testclient" />
+            <item index="56" class="java.lang.String" itemvalue="mailchimp-transactional" />
+            <item index="57" class="java.lang.String" itemvalue="pillow" />
+            <item index="58" class="java.lang.String" itemvalue="wrapt" />
+            <item index="59" class="java.lang.String" itemvalue="aiobotocore" />
+            <item index="60" class="java.lang.String" itemvalue="ecdsa" />
+            <item index="61" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="62" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="63" class="java.lang.String" itemvalue="python-jose" />
+            <item index="64" class="java.lang.String" itemvalue="passlib" />
+            <item index="65" class="java.lang.String" itemvalue="aioitertools" />
+            <item index="66" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="67" class="java.lang.String" itemvalue="python-levenshtein" />
+            <item index="68" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="69" class="java.lang.String" itemvalue="memory-profiler" />
+            <item index="70" class="java.lang.String" itemvalue="environs" />
+            <item index="71" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="72" class="java.lang.String" itemvalue="graphql-core" />
+            <item index="73" class="java.lang.String" itemvalue="asgiref" />
+            <item index="74" class="java.lang.String" itemvalue="marshmallow" />
+            <item index="75" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="76" class="java.lang.String" itemvalue="click" />
+            <item index="77" class="java.lang.String" itemvalue="markupsafe" />
+            <item index="78" class="java.lang.String" itemvalue="attrs" />
+            <item index="79" class="java.lang.String" itemvalue="frozenlist" />
+            <item index="80" class="java.lang.String" itemvalue="psutil" />
+            <item index="81" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="82" class="java.lang.String" itemvalue="anyio" />
+            <item index="83" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="84" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="85" class="java.lang.String" itemvalue="multidict" />
+            <item index="86" class="java.lang.String" itemvalue="urllib3" />
+            <item index="87" class="java.lang.String" itemvalue="elastic-apm" />
+            <item index="88" class="java.lang.String" itemvalue="asyncio" />
+            <item index="89" class="java.lang.String" itemvalue="pyaes" />
+            <item index="90" class="java.lang.String" itemvalue="regta" />
+            <item index="91" class="java.lang.String" itemvalue="certifi" />
+            <item index="92" class="java.lang.String" itemvalue="pyrogram" />
+            <item index="93" class="java.lang.String" itemvalue="pysocks" />
+            <item index="94" class="java.lang.String" itemvalue="telegram-text" />
+            <item index="95" class="java.lang.String" itemvalue="pytelegrambotapi" />
+            <item index="96" class="java.lang.String" itemvalue="tgcrypto" />
+            <item index="97" class="java.lang.String" itemvalue="idna" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E501" />
+          <option value="E202" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="int.distinct" />
+          <option value="int.in_" />
+          <option value="int.label" />
+          <option value="dict.pop" />
+          <option value="str.ilike" />
+          <option value="int.desc" />
+          <option value="float.desc" />
+          <option value="datetime.date.desc" />
+          <option value="str.in_" />
+          <option value="interval" />
+          <option value="str.label" />
+          <option value="float.label" />
+          <option value="datetime.datetime.label" />
+          <option value="datetime.timedelta.label" />
+          <option value="str.isnot" />
+          <option value="int.isnot" />
+          <option value="bool.is_" />
+          <option value="bool.isnot" />
+          <option value="datetime.datetime.cast" />
+          <option value="int.is_" />
+          <option value="datetime.date.label" />
+          <option value="str.is_" />
+          <option value="int.__or__" />
+          <option value="str.__or__" />
+          <option value="dict.__or__" />
+          <option value="mysky_jwt.schemas.User.__or__" />
+          <option value="memoryview.__or__" />
+          <option value="list.__or__" />
+          <option value="object.__or__" />
+          <option value="filters.hidden.AircraftsIdsFilter.__or__" />
+          <option value="libs.telegram.bot.BotClient.__or__" />
+          <option value="telebot.types.Message.__or__" />
+          <option value="bool.is_not" />
+          <option value="mysky_orm.blurring.Rectangle.dict" />
+          <option value="type.__getitem__" />
+          <option value="tuple.__or__" />
+          <option value="jinja2.environment.Template.__or__" />
+          <option value="str.lable" />
+          <option value="accounting_queue.bases.transaction_filters.BatchIdTransactionFilter.__or__" />
+          <option value="accounting_queue.bases.ic_filters.BatchIdFilter.__or__" />
+          <option value="accounting_queue.bases.transaction_filters.CompanyIdFilter.__or__" />
+          <option value="accounting_queue.bases.ic_filters.CompanyIdFilter.__or__" />
+          <option value="datetime.datetime.__or__" />
+          <option value="accounting_queue.bases.ic_filters.FromDateFilter.__or__" />
+          <option value="accounting_queue.bases.ic_filters.ToDateFilter.__or__" />
+          <option value="accounting_queue.bases.ic_filters.NoBatchFilter.__or__" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
