@@ -1,0 +1,9 @@
+taskipy
+flake8
+flake8-eradicate
+flake8-tidy-imports
+flake8-bugbear
+flake8-builtins
+flake8-docstrings
+mypy
+pylint
