@@ -1,0 +1,16 @@
+x12/__init__.py,sha256=cZjy3pePJGDnNPOgAJwDPiFy-UasVrZ8REUIqMsIxug,96
+x12/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+x12/common/colors.py,sha256=nj79fu7WvwDsqHxNTE1WAQk0cDMJKhm5BAcwavEFEGQ,499
+x12/parser/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+x12/parser/analyze.py,sha256=E0797Ojqv329dhcYq9bSMaxEBsOHAeYZcyzCGzhPgmA,3723
+x12/parser/context.py,sha256=_PXQNTUR6BpydfJeXVTSLmsgd7hcZOWCpi1hM_g9Ae8,451
+x12/parser/loop.py,sha256=Rjb9u8BhJAV3Lc0faL67KOnb7zwI8uMu1PxWKBLVfAM,2610
+x12/parser/parse.py,sha256=6OBY7NTbI1EdPTWuaL8aYUhDvpYmA168fuWIkWXdB88,2438
+x12/parser/segment.py,sha256=wvjb1TkS2TGpfAYSMQC9MHykDZ34b69umeiQZAiRSPg,1459
+x12/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+x12/schema/schema.py,sha256=07lqFaa7gwiDHz95AoMeocfGKBTs7hgAKENnL01c9bY,3049
+spaceavocado_x12-1.0.0.dist-info/LICENSE.md,sha256=OMKVy9bnpAzJpi1-ZiR3gYKLNd61kk_Ja_6c6AQ-cuc,1077
+spaceavocado_x12-1.0.0.dist-info/METADATA,sha256=ao0xr1n363a5x050AF6Jr3XlhY7mTxny_99ZCP_RA2E,9950
+spaceavocado_x12-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+spaceavocado_x12-1.0.0.dist-info/top_level.txt,sha256=UqhhpqRIUC-FRbiaZLsAmDBGuhe5X9HiV7eRrDu_tTM,4
+spaceavocado_x12-1.0.0.dist-info/RECORD,,
