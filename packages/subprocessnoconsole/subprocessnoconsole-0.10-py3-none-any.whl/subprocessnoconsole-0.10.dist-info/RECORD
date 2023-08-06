@@ -1,0 +1,10 @@
+subprocessnoconsole/LICENSE,sha256=D1zl09NUYVPZHBZlhxMZqm8KZZpk4NpBqWdZAI_v5AU,1090
+subprocessnoconsole/README.MD,sha256=ypfRajcWWJT2S8FQpqrcR9CV2D58tq8OspNYnW7064Y,414
+subprocessnoconsole/__init__.py,sha256=b8Qe0jpfME3k-rRqyA1R5Ouil0E_yQDN6AvgRHp0Xmg,1108
+subprocessnoconsole/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subprocessnoconsole/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+subprocessnoconsole-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+subprocessnoconsole-0.10.dist-info/METADATA,sha256=MOwxtEQutHu-OujxW7KqaLVxwMUZdkctcssfgpsYPcs,1305
+subprocessnoconsole-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+subprocessnoconsole-0.10.dist-info/top_level.txt,sha256=OWuUEJhPOdP1n-fTR9GgHmifd722B4St5cpIgHMvJQI,20
+subprocessnoconsole-0.10.dist-info/RECORD,,
