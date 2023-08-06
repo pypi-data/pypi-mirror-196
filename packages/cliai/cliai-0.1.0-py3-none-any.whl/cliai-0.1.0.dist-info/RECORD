@@ -1,0 +1,9 @@
+cliai/__init__.py,sha256=NbkFtWNH1qYI1adftVGGYzMh78s9iXsP1FC_sukG1YA,391
+cliai/auth.py,sha256=80noLW9JxlOB3kKwZSjnenDXR4nQhf0KldcjNt67x0c,2752
+cliai/cli.py,sha256=s69b4iT0TekRXUlgur0uIfo6jl86EL2La-BPRFMQgOs,872
+cliai/config.py,sha256=CAsCvktMAJUz6e2w0xX1iX2H8WJrXPceky6-QPBx2yI,2145
+cliai/convo.py,sha256=fjslydATIufr5QfUDkBYemXXX0jnhUJMrdrKbkr7iEM,1690
+cliai-0.1.0.dist-info/LICENSE,sha256=inQHCn6TCFOMNEIEK9GUWv5ZJ7d6PxaafXHUzoGdcpw,1062
+cliai-0.1.0.dist-info/METADATA,sha256=S-HRamofNN5QfUd2kx-Ir1pSBOAv7zLARm-uWdaVQ40,659
+cliai-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+cliai-0.1.0.dist-info/RECORD,,
