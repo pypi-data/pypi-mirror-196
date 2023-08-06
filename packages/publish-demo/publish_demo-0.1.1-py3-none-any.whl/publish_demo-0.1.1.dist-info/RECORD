@@ -1,0 +1,6 @@
+publish_demo/__init__.py,sha256=LMBKDG_PjwVI5zOPESUYuBHIx9f_Fk2ShHpQCvjZfOk,26
+publish_demo/demo.py,sha256=07QEII3arvxY6m3SMsTCOHf1cSomuY_qHNrHqPDgFQg,106
+publish_demo/divide.py,sha256=wLkcxC0pVNRUpPv3ZjP3kshOurNBFeCT0PqSx1jE6G0,80
+publish_demo-0.1.1.dist-info/METADATA,sha256=8H51g7z7Q8tW6XHKdr8Nhz2lQ3tDegJgTr6L_WVOVS0,489
+publish_demo-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+publish_demo-0.1.1.dist-info/RECORD,,
