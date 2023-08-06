@@ -1,0 +1,17 @@
+kindle_download_helper/__init__.py,sha256=j_wNmME6fbBWZbexU5cO20J1VErldJwI74yQhv4Gtlg,86
+kindle_download_helper/__main__.py,sha256=Vgz7d8YxnLQ2B_zck7uoFhYnjVpFrueab-C9CyVdvCI,21
+kindle_download_helper/cli.py,sha256=huPoC7KSd6MSejqqVqwUehqcYsE7kInjpL7BvD38rbE,9374
+kindle_download_helper/config.py,sha256=hnLwFas5YBM_ChkTMSD6q7A0MRmksujAoXz2Mq_j3Rs,3173
+kindle_download_helper/kindle.py,sha256=ec9_I6joFnr5DSg83_XWGAglNv6L_82D_YCaRByFOFc,20856
+kindle_download_helper/user_agents.py,sha256=8aJrHGAxAtlFU60GegquP0P8uMHRrF5gSlSY9apI_6I,7335
+kindle_download_helper/utils.py,sha256=bV_VorsJ0N3zjAxsyiPFDHiawfu04b0P0dmDb7K5EBU,522
+kindle_download_helper/dedrm/__init__.py,sha256=hrh3TIKma5r5Jgf83SdPOqxDZ0reixidBrNdJ5OfsF4,67
+kindle_download_helper/dedrm/k4mobidedrm.py,sha256=v8OjhLeB7kP-Amezj4hApCOLXyHIRfScT-VUVKSrov4,8514
+kindle_download_helper/dedrm/kgenpids.py,sha256=I1OBwphJPNW3QhXOElzoc3Jp2IrVelNF7fTNej849mw,9217
+kindle_download_helper/dedrm/mobidedrm.py,sha256=26_3LvY5o7IUq5GctyokpiSQOUxR1NqOnObh-xNx9P0,15631
+kindle_download-1.4.0.dist-info/LICENSE,sha256=0UzhpdU5_zDU7ltv_PuuJJk-J8fplj0w12YsUs9aKfo,35089
+kindle_download-1.4.0.dist-info/METADATA,sha256=yJe3KzsNogRmxxv5-Lyyhz7i_FOyhl6Mk_xZN7VS69M,461
+kindle_download-1.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kindle_download-1.4.0.dist-info/entry_points.txt,sha256=vusvInS9c1lrJc4Te-5XoGmr3F1eiuldbxYvh7ehUVU,68
+kindle_download-1.4.0.dist-info/top_level.txt,sha256=71vTXtsYZtJKjmqWtmCFHGtf-efmbV50o0bsgCFAcI0,23
+kindle_download-1.4.0.dist-info/RECORD,,

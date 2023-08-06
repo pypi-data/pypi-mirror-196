@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kindle-download
+Version: 1.4.0
+Summary: Download all your kindle books and `DeDRM` script.
+Home-page: https://github.com/yihong0618/kindle_download_helper
+Author: yihong0618
+Author-email: zouzou0208@gmail.com
+License: GPL-3.0-or-later
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: browser-cookie3
+Requires-Dist: mobi
+Requires-Dist: pywin32 ; sys_platform == "win32"
+
+Download all your kindle books and `DeDRM` script.
