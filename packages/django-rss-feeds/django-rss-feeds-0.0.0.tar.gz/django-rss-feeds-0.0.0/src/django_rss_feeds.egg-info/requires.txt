@@ -1,0 +1,11 @@
+bs4
+Django>=3.2
+celery
+croniter
+django-daterange-filterspec
+django-extensions
+django-tagulous
+feedparser
+python-dateutil
+requests
+text_unidecode
