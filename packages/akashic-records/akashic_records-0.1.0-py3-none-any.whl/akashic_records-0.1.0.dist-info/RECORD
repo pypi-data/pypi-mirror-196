@@ -1,0 +1,10 @@
+akashic_records/__init__.py,sha256=NhbR_fnic-7Lp4ZHjqlg0rcCr9ZrL7AK5VhsMUHL1as,749
+akashic_records/_meta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+akashic_records/_meta/compiler.py,sha256=xCg6CVqe--RcMLFkHpTixTjml9rKob6x0MNxQs1eQVU,1226
+akashic_records/_meta/dynamic_function.py,sha256=iyf_HdBVFAmYmFxD6TUaYDufoRZfiR8C4fi_KyHPrTI,2452
+akashic_records/_meta/errors.py,sha256=u8x5Atf3vpS_HLPdAUAI0Sh4BhvbVwPQ_d68EZgmmHQ,359
+akashic_records/_meta/injector.py,sha256=yvumhk1cdAKkE8SbM20maPly6z0dGaaeoL8ucG-iSMY,4135
+akashic_records-0.1.0.dist-info/LICENSE,sha256=wp4MFtDmpKOs--TLNl4MvefXv8CNQTfNbly8eajbw6U,1070
+akashic_records-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+akashic_records-0.1.0.dist-info/METADATA,sha256=D71mptFxncLu0oNDb3b_Vexiz4p6nid1azKEYnXyOHQ,2447
+akashic_records-0.1.0.dist-info/RECORD,,
