@@ -1,0 +1,14 @@
+calc_files_control_sum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc_files_control_sum/cfcs.py,sha256=C0crcT6XcOEPARVjBcRTSf0_VwachYH2WesJyZ48Wq0,6695
+calc_files_control_sum/config.py,sha256=nQ4mgsy9xex-bZjryDIgj3oiXqDnrxTfBAWrjis3Rgc,7081
+calc_files_control_sum/internationalization.py,sha256=_Sef4cuo2DZwALoyWaxZXzyMtIsEu077NseoCJfGVOE,4700
+calc_files_control_sum/my_strings.py,sha256=8Nokm5UNXqzhcfVI2f4VFm3Fn3YxXqWK2naRO32-To0,1983
+calc_files_control_sum/my_utils.py,sha256=nnS2DLRu9LpB-FDhiEZ68t9LFCVGjrt4H1es2b7uGHY,3381
+calc_files_control_sum/str_without_trans.py,sha256=dAaP6PlpQ5j9N9Nwm9H-U2BhDJiDcRYbROFqPhOKGDQ,684
+calc_files_control_sum/translated.csv,sha256=TBdU2UjkHmM-SxnUiWO7wz_et-zftwAv1hI8nPv8n14,7634
+calc_files_control_sum-1.1.2.dist-info/LICENSE,sha256=hG5mdIW3Yxh3ZnM-6IKxjLwP40jSyZWuGAZ0o9pxaho,1071
+calc_files_control_sum-1.1.2.dist-info/METADATA,sha256=Sb4YxtZ3A_Dch9lZ3WIEBeBYRSo_e2zK5RpAgMtUAWA,3453
+calc_files_control_sum-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+calc_files_control_sum-1.1.2.dist-info/entry_points.txt,sha256=u9KCBkfufaMyJCJfyud_z7qEn-ciy9BIdcfYLMB9iKo,58
+calc_files_control_sum-1.1.2.dist-info/top_level.txt,sha256=JNnLpNyUDoLB0h_4VFfKhTXRQhB9mxCMPHM-gGfQxrc,23
+calc_files_control_sum-1.1.2.dist-info/RECORD,,
