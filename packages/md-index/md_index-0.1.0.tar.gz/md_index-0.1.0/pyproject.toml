@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "md-index"
+version = "0.1.0"
+description = "Generate markdown index of files in folder for mkdocs."
+authors = ["mobyw <mobyw66@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "md_index"}]
+
+[tool.poetry.scripts]
+md-index = "md_index.cli:generate"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.1.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
