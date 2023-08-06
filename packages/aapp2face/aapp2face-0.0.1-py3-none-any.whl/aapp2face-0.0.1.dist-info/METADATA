@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: aapp2face
+Version: 0.0.1
+Summary: A demo package of an application to obtain the capital of a country using a SOAP web service.
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Requires-Dist: zeep (>=4.2.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Demo
+
+A demo package of an application to obtain the capital of a country using a SOAP web service.
+
+---
+
+Documentación: [https://antmartinez68.github.io/demo](https://antmartinez68.github.io/demo)
+
+Código fuente: [https://github.com/antmartinez68/demo](https://github.com/antmartinez68/demo)
+
+---
+
+Uso:
+
+```console
+$ demo IT
+The capital of Italy is Rome
+Demo with love 💜
+
+```
+
+
