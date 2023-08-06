@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mvg-labs
+Version: 0.0.1
+Summary: Stealth
+License: MIT
+Requires-Dist: numpy
+
