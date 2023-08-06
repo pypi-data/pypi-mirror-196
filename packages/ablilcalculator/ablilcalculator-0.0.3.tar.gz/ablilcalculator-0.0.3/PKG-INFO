@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ablilcalculator
+Version: 0.0.3
+Summary: short description here
+Author-email: ablil <ablil@pm.me>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: calculator,math
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My python package
+
+## Get started
+
+## Pre-requisites
+
+Install necessary dependencies for developement
+
+```shell
+pip install twine build setuptools
+```
+
+## Develop
+
+1. Clone project and reset git history
+
+```shell
+git clone https://github.com/ablil/python-starter pypkg && cd pypkg && rm -rf .git && git init && git add . && git commit -m 'initial commit'
+```
+
+2. Run your tests
+
+```shell
+
+```
+
+## Build and publish
+
+* Build
+
+```shell
+rm -rf dist && python -m build
+```
+
+* Publish to TestPyPi
+
+```shell
+python -m twine upload --repository testpypi dist/*
+```
+
+* Publish to PyPi
+
+```shell
+python -m twine upload --repository testpypi dist/*
+```
