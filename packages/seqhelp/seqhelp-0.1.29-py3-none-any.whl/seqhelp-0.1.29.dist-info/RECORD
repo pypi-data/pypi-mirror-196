@@ -1,0 +1,14 @@
+seqhelp/__init__.py,sha256=Puh7yGKEIIii9knbsqWa1OCZ-WxFXc3uG0jjPzn0BcI,941
+seqhelp/codon.py,sha256=EN-oXF1fWJn_EDeKzZbuuMP13xc0f3YRfQcwflRLRMU,14069
+seqhelp/codon_pair.py,sha256=117qX2kaK8-dW4ta542ePIvgrnsbRyzVsZbzFyI4bY4,13205
+seqhelp/common.py,sha256=uBUDbggnAuPNnZNlqvKN8chMF3Ujl_TD1ACRlDYrefM,9007
+seqhelp/dinucleotides.py,sha256=oztHob5sGGinK_zUHX67uBBCor7Dw8SZiPFOp9qLDG8,4849
+seqhelp/gc_content.py,sha256=9sGv73L8SUQ6xCpUtClciAyPBciJ1djm1oPLzfSJWNQ,2249
+seqhelp/relations.py,sha256=-FbMVlL8ceU3YPDWNPN2DtNoYFhGKQTrKktx987Y3BM,3661
+seqhelp/sequences.py,sha256=8nq01fxS4hPmse8ZSUErdgON9ip_9KdkLXi8HbT_ugY,35338
+seqhelp/taxonomy.py,sha256=nDYt3UcIGKvMkV4Y645OxBtmfLETGNhSUX8VLDLFqS0,4892
+seqhelp/virus_hosts.py,sha256=d4lEV2XRWuZ3E0yl26gQWzz-oqGQ6SHbyybzcmmYkPE,3098
+seqhelp/virushostdb.tsv.bak,sha256=EWjRAGmJ3eAlSaQCY5Jqfk3bjgf2Fqfi0U6kmSlCpBA,6926585
+seqhelp-0.1.29.dist-info/METADATA,sha256=2uXJKqHrClPKV_VxbHD75p3x_A12i2nJVrsOHCDmAXE,580
+seqhelp-0.1.29.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+seqhelp-0.1.29.dist-info/RECORD,,
