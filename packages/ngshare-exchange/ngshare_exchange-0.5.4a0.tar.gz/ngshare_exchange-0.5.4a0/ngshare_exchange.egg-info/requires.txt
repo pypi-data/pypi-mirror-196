@@ -1,0 +1,4 @@
+rapidfuzz
+traitlets
+jupyter_core<4.11.2
+nbgrader>=0.7.0
