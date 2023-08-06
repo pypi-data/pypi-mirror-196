@@ -1,0 +1,11 @@
+tetraux.cp37-win_amd64.pyd,sha256=LzGS56k-gW8t11TcDe7Unv4z4PrqRuuRRHoP5uQf5ns,227840
+tetraux-0.3.3.data/platlib/.load-order-tetraux-0.3.3,sha256=TyIYz1pNh5EIYKXdom7J6oI7uNj1HrfM9047PN1ND-4,145
+tetraux-0.3.3.data/platlib/concrt140-ee6441d54902364ca4e9860bce396cc7.dll,sha256=ntn0PQtZNE98lzyEKwbyuKzkxLQe7GIy5P0hgB0CjfA,306688
+tetraux-0.3.3.data/platlib/msvcp140-22eeac616fa56c2d2c96c1251d58388a.dll,sha256=ucw4kyT8sGagUFL2gj5i46nEp3hxoc3jzvEDh1XLwVQ,611328
+tetraux-0.3.3.data/platlib/vcruntime140_1-a554636ebc4b0526e0a83202860873fc.dll,sha256=4LZmAcwo7LFxw9S3rGkMZn9H2mthg7_4BgTITADSZas,49488
+tetraux-0.3.3.data/platlib/_preload_tetraux_0.3.3.pth,sha256=5STGcfILK8sMlQ0bXglh6BZMs0bJSwLR02pEWWaMzzo,694
+tetraux-0.3.3.dist-info/DELVEWHEEL,sha256=WflUd2R3gCbyk5VqT8PLclF0lqDBAl3K2qBxmysNJa4,449
+tetraux-0.3.3.dist-info/METADATA,sha256=0579tziAiEaN98pEGHabXR0S4op952aBj4hGPIu9smk,404
+tetraux-0.3.3.dist-info/RECORD,,
+tetraux-0.3.3.dist-info/top_level.txt,sha256=-0bBolGof2qxXNyqHG8mD0idCORgmOzR-A2ZUKa1QXU,8
+tetraux-0.3.3.dist-info/WHEEL,sha256=eaY3ejwL19QEEyHRYuTgC3FZQgNYBpzCION1l_gJUb8,101
