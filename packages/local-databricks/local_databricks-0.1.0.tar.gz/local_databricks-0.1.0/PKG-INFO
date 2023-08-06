@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: local-databricks
+Version: 0.1.0
+Summary: Python library that provides a set of functions for handling running notebooks both locally and in Databricks using the same commands.
+Author: Santiago Armstrong
+Author-email: santiagoarmstrong@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.7.3,<2.0.0)
+Requires-Dist: pyspark (>=3.3.2,<4.0.0)
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Requires-Dist: structlog (>=20.0.0,<21.0.0)
