@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pygptwrapper
+Version: 0.1.0
+Summary: Python Wrapper for the ChatGPT API
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: openai (>=0.27.1,<0.28.0)
+Description-Content-Type: text/markdown
+
+# pyGPT - A Python Wrapper for the ChatGPT API
+pyGPT is a Python library that provides a simple way to interact with the ChatGPT API, which is a powerful language model trained by OpenAI that can generate human-like text based on input prompts.
+
+This library makes it easy to integrate the ChatGPT API into your Python applications, allowing you to generate text in real-time, create chatbots, or automate text generation tasks.
+
+# Installation
+To install pyGPT, you can use pip:
+
+```
+pip install pyGPT
+```
