@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+countvalues/__init__.py
+countvalues/_modidx.py
+countvalues/core.py
+countvalues.egg-info/PKG-INFO
+countvalues.egg-info/SOURCES.txt
+countvalues.egg-info/dependency_links.txt
+countvalues.egg-info/entry_points.txt
+countvalues.egg-info/not-zip-safe
+countvalues.egg-info/requires.txt
+countvalues.egg-info/top_level.txt
