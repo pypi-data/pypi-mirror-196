@@ -1,0 +1,8 @@
+loguru
+requests
+requests_toolbelt
+
+[dev]
+
+[media]
+opencv-python

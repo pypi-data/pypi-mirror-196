@@ -1,0 +1,10 @@
+LICENSE
+README.md
+feishubot.py
+pyproject.toml
+setup.py
+feishubot2.egg-info/PKG-INFO
+feishubot2.egg-info/SOURCES.txt
+feishubot2.egg-info/dependency_links.txt
+feishubot2.egg-info/requires.txt
+feishubot2.egg-info/top_level.txt
