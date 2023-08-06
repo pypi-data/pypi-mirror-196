@@ -1,0 +1,11 @@
+translate_md/__init__.py,sha256=o07-4SO0DeNfsjMCCq8pFK1QWDzIHacJYcWkKTEbeNM,71
+translate_md/client.py,sha256=zjxdtQGuat7BFVQbhpE5Z9w79aaSIy8xW8WR-58F_xI,5513
+translate_md/logger.py,sha256=qpOPq8AGSi8a4P3JZDHiK3DXTgWWLwCgISHJaheCYfM,1247
+translate_md/main.py,sha256=UALzrzWadkNkDnxvaFB7bIntX1A5zy13iPTRKMEtRMk,868
+translate_md/markdown.py,sha256=hGGclRSeBESHSBdg8D9nrUfasHA2go3d-BhLq4G9gjQ,5789
+translate_md/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translate_md-0.0.1.dist-info/METADATA,sha256=5jgBA412Ak2l74S2OcEVFQXX7_CSQ094uYC9wwX3nHQ,44512
+translate_md-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+translate_md-0.0.1.dist-info/entry_points.txt,sha256=3L9e71Y5wB9XthVB-Li-_JTkcwuKhTszx0yZynxKx5A,55
+translate_md-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+translate_md-0.0.1.dist-info/RECORD,,
