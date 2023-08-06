@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+inspectnn/BaseLayer.py
+inspectnn/ValidateMultiply.py
+inspectnn/__init__.py
+inspectnn.egg-info/PKG-INFO
+inspectnn.egg-info/SOURCES.txt
+inspectnn.egg-info/dependency_links.txt
+inspectnn.egg-info/requires.txt
+inspectnn.egg-info/top_level.txt
