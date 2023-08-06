@@ -1,0 +1,8 @@
+stockplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockplot/calculate_price_movement.py,sha256=O37uwRqAY7-rmTQTpHn4sq8Hfvzn7uwe-2wmK1bvzzU,2284
+stockplot/main.py,sha256=xROItFhkJ3pFxiCaNs0iQb6-WT680reNlWqHar52Qhg,2483
+stockplot-1.0.13.dist-info/METADATA,sha256=ByYyc3JemfI1PSj9FZyMkdNaWZvhzv4ui7h_Tk4AvCs,2372
+stockplot-1.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stockplot-1.0.13.dist-info/entry_points.txt,sha256=gUJuEyBRvBjwkU6Fuh24LhPtPg83Bt78jvVW2Z80x68,51
+stockplot-1.0.13.dist-info/top_level.txt,sha256=IZzBz7xuymuSKlJqk7iKjZOu0aHnBa67CbjJxdBMiS8,10
+stockplot-1.0.13.dist-info/RECORD,,
