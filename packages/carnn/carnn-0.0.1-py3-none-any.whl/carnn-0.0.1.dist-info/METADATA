@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: carnn
+Version: 0.0.1
+Summary: A package to generate recurrent neural networks from calcium imaging data of neural activity.
+Project-URL: Homepage, https://github.com/vporubsky/CaRNN
+Project-URL: Bug Tracker, https://github.com/vporubsky/CaRNN/issues
+Author-email: Veronica Porubsky <verosky@uw.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pynwb
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+# carnn
+
+This package is designed to process calcium imaging 
+data recorded from neuronal populations into recurrent neural networks
+to simulate experiments in silico.
