@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: SILEXlight
+Version: 1.3.2
+Summary: Basic SILEX library
+Author-email: Antoine Legay <antoine.legay@lecnam.net>, Luc Laurent <luc.laurent@lecnam.net>
+Maintainer-email: Luc Laurent <luc.laurent@lecnam.net>
+License: LGPLv3
+Project-URL: homepage, https://antoinelegay.free.fr
+Project-URL: repository, https://github.com/luclaurent/SILEX-light
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Fortran
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# SILEXlight
+
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![pypi release](https://img.shields.io/pypi/v/SILEXlight.svg)](https://test.pypi.org/project/SILEXlight/) ![CI-Ubuntu](https://github.com/luclaurent/silex-light/workflows/CI-Ubuntu/badge.svg) ![CI-MacOS](https://github.com/luclaurent/silex-light/workflows/CI-mac-os/badge.svg)
+
+SILEX is a finite element code written in Python language, eventually with a Fortran part in order to speed up the computations.
+    
+*   The Python language is used to define parameters, to read the mesh, to solve the system, to write the results.  
+*   The Fortran language is eventually used for elemental computations as well as to build the stiffness matrix.  
+*   Le open source software [Gmsh](http://www.geuz.org/gmsh/) is used to create the meshes as well as to show the results.  
+*   The only free routines available on-line concern the 4-node tetrahedral element and the 3-node triangle element in the case of linear static analysis. They can be adapted to other elements.  
+*   The following proposed applications are available for education purpose. They allow to understand the code, in order to perform other computations for other mechanical systems. Later on, the user can develop new elements or new method, and thus extend the possibilities of the code.  
+*   The following course document available on-line ([here](http://antoinelegay.free.fr/Cours-programmation-english.pdf)) gives a programming introduction.
+## Usage
+
+* A complete example of the use of SILEX on a piston is available [here](calculs/piston_readme.md) in english ([french version](calculs/piston_readme_fr.md))
+* A example pratical work for education is provided on a landing gear fork [here](calculs/fork_readme.md) in english ([french version](calculs/fork_readme_fr.md))
+
+## Installation
+Classical installation by executing
+
+    pip install --user .
+
+Editable installation for developing
+
+    export SETUPTOOLS_ENABLE_FEATURES="legacy-editable"
+    pip install --user -e .
+
+## Run tests
+
+The unit tests can be ran by using the following command
+
+    pytest --pyargs SILEXlight.tests  
+
+## License
+
+`SILEXlight` is available under the LGPLv3 license. See the LICENSE file for more info.
