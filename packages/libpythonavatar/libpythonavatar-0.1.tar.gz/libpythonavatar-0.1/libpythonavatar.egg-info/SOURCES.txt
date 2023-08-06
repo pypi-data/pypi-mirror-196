@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonavatar/__init__.py
+libpythonavatar/github_api.py
+libpythonavatar.egg-info/PKG-INFO
+libpythonavatar.egg-info/SOURCES.txt
+libpythonavatar.egg-info/dependency_links.txt
+libpythonavatar.egg-info/not-zip-safe
+libpythonavatar.egg-info/requires.txt
+libpythonavatar.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: libpythonavatar
+Version: 0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/leonardodc/libpython
+Author: Leonardo Demeterko
+Author-email: leonardodemeterko@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# libpython
+Practicing Python
