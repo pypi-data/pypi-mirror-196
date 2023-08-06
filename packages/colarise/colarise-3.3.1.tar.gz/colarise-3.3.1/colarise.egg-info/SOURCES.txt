@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+colarise/__init__.py
+colarise/back.py
+colarise/colored.py
+colarise/colors.py
+colarise/fore.py
+colarise/hex.py
+colarise/style.py
+colarise.egg-info/PKG-INFO
+colarise.egg-info/SOURCES.txt
+colarise.egg-info/dependency_links.txt
+colarise.egg-info/top_level.txt

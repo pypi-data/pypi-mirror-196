@@ -1,0 +1,12 @@
+include setup.py
+include colarise/__init__.py
+include colarise/back.py
+include colarise/colored.py
+include colarise/colors.py
+include colarise/fore.py
+include colarise/hex.py
+include colarise/style.py
+include LICENSE.txt
+include README.rst
+
+
