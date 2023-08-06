@@ -1,0 +1,16 @@
+seq_align_two_vars/Cit-HepPh.txt,sha256=8DHX5xG9vXr8KJUCXNWP835ZyVOl84vIMSFXvE_A98c,6704722
+seq_align_two_vars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seq_align_two_vars/example.ipynb,sha256=LlhTX7ryAcuQf_uMtpbr0V_ILz7-4NxBOKgO3bxOFc8,17485
+seq_align_two_vars/reference.txt,sha256=gNPdjbkCF6nyOxwO94O_5Cl1JssOk2ywc9qlRiuLBFw,41
+seq_align_two_vars/seq_align_two_vars.py,sha256=vq2vhSS_-lYyzZHUkK7mxI9oCpyvtZJtm-r-tSgYA5U,30938
+seq_align_two_vars/.ipynb_checkpoints/Cit-HepPh-checkpoint.txt,sha256=8DHX5xG9vXr8KJUCXNWP835ZyVOl84vIMSFXvE_A98c,6704722
+seq_align_two_vars/.ipynb_checkpoints/__init__-checkpoint.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seq_align_two_vars/.ipynb_checkpoints/example-checkpoint.ipynb,sha256=xu9cPnOrOyakKI8ZgBL037mUlrCmxIVtDNdXug5m464,17486
+seq_align_two_vars/.ipynb_checkpoints/reference-checkpoint.txt,sha256=gNPdjbkCF6nyOxwO94O_5Cl1JssOk2ywc9qlRiuLBFw,41
+seq_align_two_vars/.ipynb_checkpoints/seq_align_two_vars-checkpoint.py,sha256=vq2vhSS_-lYyzZHUkK7mxI9oCpyvtZJtm-r-tSgYA5U,30938
+seq_align_two_vars/html/seq_align_two_vars.html,sha256=CdfYJOPgcGJMeAjFzGHM7qSDsDpGjDm6-GhcRz8mYvE,96076
+seq_align_two_vars/html/.ipynb_checkpoints/seq_align_two_vars-checkpoint.html,sha256=qj25O2qGFq1jbrnRrq7zP54ZeI8s4mmn7RqH668BRW4,51080
+seq_align_two_vars-0.0.7.dist-info/METADATA,sha256=zS8S1KLmnjw5-6uHJ1Z7sx5OIEHTJXbewhfnd14V100,1525
+seq_align_two_vars-0.0.7.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+seq_align_two_vars-0.0.7.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+seq_align_two_vars-0.0.7.dist-info/RECORD,,
