@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yaml_config_override"
+version = "0.1.1"
+description = ""
+authors = ["sashank_tirumala <stsashank6@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yaml_config_override"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
