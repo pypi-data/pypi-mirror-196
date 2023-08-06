@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: audig
+Version: 0.2.0
+Summary: Reprodutor de áudio para estudo de inglês.
+Author: Oseiasdfarias
+Author-email: oseias.dfarias@gmail.com
+Requires-Python: >=3.8.1,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: audioread (>=3.0.0,<4.0.0)
+Requires-Dist: mkdocs (>=1.4.2,<2.0.0)
+Requires-Dist: mkdocs-material (>=9.1.1,<10.0.0)
+Requires-Dist: mkdocstrings[python] (>=0.20.0,<0.21.0)
+Requires-Dist: pygame (>=2.2.0,<3.0.0)
+Requires-Dist: pymdown-extensions (>=9.10,<10.0)
+Description-Content-Type: text/markdown
+
+# AudIng Reprodutor de Áudio
+
+
+<br>
+
+## Estrutura do Projeto
+
+```
+.
+├── audig
+│   ├── __init__.py
+│   ├── main.py
+│   ├── mixer.py
+│   └── paths.py
+├── poetry.lock
+├── pyproject.toml
+├── README.md
+├── tests
+│   └── __init__.py
+└── utils
+    └── demo.png
+
+```
+
+---
+
+<br>
+
+## Dependências
+
+```
+❯ poetry show --tree
+```
+
+```
+
+audioread 3.0.0 multi-library, cross-platform audio decoding
+autopep8 2.0.2 A tool that automatically formats Python code to conform to the PEP 8 style guide
+├── pycodestyle >=2.10.0
+└── tomli *
+flake8 6.0.0 the modular source code checker: pep8 pyflakes and co
+├── mccabe >=0.7.0,<0.8.0
+├── pycodestyle >=2.10.0,<2.11.0
+└── pyflakes >=3.0.0,<3.1.0
+mypy 1.1.1 Optional static typing for Python
+├── mypy-extensions >=1.0.0
+├── tomli >=1.1.0
+└── typing-extensions >=3.10
+pygame 2.2.0 Python Game Development
+
+```
+
+
+## Código Exemplo
+
+```{.py3 hl_lines="" linenums="" title="codigo_exemplo.py"}
+from audig import Caminhos
+from audig import TocarAudios
+from typing import List
+
+
+def run(path: str, sub_dirs: List[str]) -> None:
+    """
+    Método executa o reprodutor de áudio.
+    Args:
+        path: Caminho absoluto do diretório raiz.
+        sub_dirs: subdiretórios do diretório raiz.
+    Returns:
+        Não retorna nada.
+    """
+    # Instanciando um objeto Caminhos
+    caminhos = Caminhos(path=path, subdirs=sub_dirs)
+    # obtendo os caminhos absolutos dos arquivos de áudios.
+    paths_abs = caminhos.get_paths()
+    toca_audios = TocarAudios(paths_abs=paths_abs)
+    toca_audios.ouvir_lista()
+
+
+if __name__ == "__main__":
+    # Diretório raiz do curso.
+    path = "home/usuario1/seu_diretorio_raiz"
+    # Subdiretórios a serem listado os áudios
+    sub_dirs = ["nome_subpasta1", "nome_subpasta2",
+                "nome_subpasta3", "nome_subpastax"]
+    run(path=path, sub_dirs=sub_dirs)
+```
+
+---
+
+<br>
+
+## Demostração Código
+
+![demo](https://github.com/Oseiasdfarias/auding/blob/main/utils/demo.png?raw=true)
+
