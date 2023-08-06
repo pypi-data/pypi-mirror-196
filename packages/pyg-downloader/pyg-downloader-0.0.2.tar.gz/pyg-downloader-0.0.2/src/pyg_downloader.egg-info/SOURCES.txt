@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyg_downloader/__init__.py
+src/pyg_downloader/downloader.py
+src/pyg_downloader.egg-info/PKG-INFO
+src/pyg_downloader.egg-info/SOURCES.txt
+src/pyg_downloader.egg-info/dependency_links.txt
+src/pyg_downloader.egg-info/entry_points.txt
+src/pyg_downloader.egg-info/requires.txt
+src/pyg_downloader.egg-info/top_level.txt
+src/pyg_manager/__init__.py
+src/pyg_manager/manager.py
+src/pygcli/__init__.py
+src/pygcli/cli.py
+tests/test_manager.py
