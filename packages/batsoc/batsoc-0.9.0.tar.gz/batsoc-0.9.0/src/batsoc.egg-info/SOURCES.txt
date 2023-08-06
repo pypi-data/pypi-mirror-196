@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/batsoc.py
+src/batsoc.egg-info/PKG-INFO
+src/batsoc.egg-info/SOURCES.txt
+src/batsoc.egg-info/dependency_links.txt
+src/batsoc.egg-info/top_level.txt
