@@ -1,0 +1,2 @@
+[console_scripts]
+plink-url = plink.__main__:main
