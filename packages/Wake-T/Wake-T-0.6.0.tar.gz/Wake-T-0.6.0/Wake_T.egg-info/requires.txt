@@ -1,0 +1,12 @@
+numpy
+numba
+scipy
+aptools~=0.2.0
+openpmd-api~=0.14.0
+tqdm
+
+[test]
+pytest
+flake8
+matplotlib
+openpmd-viewer
