@@ -1,0 +1,181 @@
+import os
+import shutil
+
+from black import format_str, Mode
+
+from glotter.settings import Settings
+from glotter.utils import quote
+
+AUTO_GEN_TEST_PATH = "test/generated"
+
+
+def generate_tests():
+    """
+    Generate tests for all projects
+    """
+
+    shutil.rmtree(AUTO_GEN_TEST_PATH, ignore_errors=True)
+    settings = Settings()
+    test_generators = {
+        project_name: TestGenerator(project_name, project)
+        for project_name, project in settings.projects.items()
+    }
+    test_codes = {}
+    for project_name, test_generator in test_generators.items():
+        test_code = test_generator.generate_tests()
+        if test_code:
+            test_codes[project_name] = test_code
+
+    for project_name, test_code in test_codes.items():
+        test_generators[project_name].write_tests(test_code)
+
+
+class TestGenerator:
+    __test__ = False  # Indicate this is not a test
+
+    def __init__(self, project_name, project):
+        self.project_name = project_name
+        self.project = project
+        self.long_project_name = "_".join(self.project.words)
+
+    def generate_tests(self):
+        if not self.project.tests:
+            return ""
+
+        test_code = self._get_imports() + self._get_project_fixture()
+        for test_obj in self.project.tests:
+            test_code += self._generate_test(test_obj)
+
+        return format_str(test_code, mode=Mode())
+
+    def _get_imports(self):
+        test_code = "from glotter import project_test, project_fixture\n"
+        if self.project.requires_parameters:
+            test_code += "import pytest\n"
+
+        return test_code
+
+    def _get_project_fixture(self):
+        return f"""\
+PROJECT_NAME="{self.project_name}"
+@project_fixture(PROJECT_NAME)
+def {self.long_project_name}(request):
+    request.param.build()
+    yield request.param
+    request.param.cleanup()
+"""
+
+    def _generate_test(self, test_obj):
+        test_code = "@project_test(PROJECT_NAME)\n"
+        func_params = ""
+        run_param = ""
+        if self.project.requires_parameters:
+            test_code += self._generate_params(test_obj)
+            func_params = "in_params, expected, "
+            run_param = "params=in_params"
+
+        test_code += self._get_test_function_and_run(test_obj, func_params, run_param)
+        test_code += _indent(self._get_expected_output(test_obj), 4)
+        actual_var, expected_var = self._get_transformation_vars(test_obj)
+        test_code += _indent(
+            _get_assert(actual_var, expected_var, test_obj.params[0].expected), 4
+        )
+        return test_code
+
+    def _generate_params(self, test_obj):
+        pytest_params = "".join(
+            _indent(self._generate_param(param), 8) for param in test_obj.params
+        ).strip()
+        return f"""\
+@pytest.mark.parametrize(
+    ("in_params", "expected"),
+    [
+        {pytest_params}
+    ]
+)
+"""
+
+    def _generate_param(self, param):
+        input_param = param.input
+        if isinstance(input_param, str):
+            input_param = quote(input_param)
+
+        expected_output = param.expected
+        if isinstance(expected_output, str):
+            expected_output = quote(expected_output)
+
+        return f'pytest.param({input_param}, {expected_output}, id="{param.name}"),\n'
+
+    def _get_test_function_and_run(self, test_obj, func_params, run_param):
+        return f"""\
+def test_{test_obj.name}({func_params}{self.long_project_name}):
+    actual = {self.long_project_name}.run({run_param})
+"""
+
+    def _get_expected_output(self, test_obj):
+        if self.project.requires_parameters:
+            return ""
+
+        expected_output = test_obj.params[0].expected
+        if isinstance(expected_output, dict):
+            return self._generate_expected_file(expected_output)
+        elif isinstance(expected_output, str):
+            expected_output = quote(expected_output)
+        else:
+            expected_output = str(expected_output)
+
+        return f"expected = {expected_output}\n"
+
+    def _generate_expected_file(self, expected_output):
+        test_code = ""
+        if "exec" in expected_output:
+            script = quote(expected_output["exec"])
+            test_code = f"expected = {self.long_project_name}.exec({script})\n"
+        elif "self" in expected_output:
+            test_code = f"""\
+with open({self.long_project_name}.full_path, "r", encoding="utf-8") as file:
+    expected = file.read()
+"""
+        return test_code
+
+    def _get_transformation_vars(self, test_obj):
+        actual_var = "actual"
+        expected_var = "expected"
+        for transformation in test_obj.transformations:
+            actual_var, expected_var = transformation(actual_var, expected_var)
+
+        return actual_var, expected_var
+
+    def write_tests(self, test_code):
+        os.makedirs(AUTO_GEN_TEST_PATH, exist_ok=True)
+        with open(
+            os.path.join(AUTO_GEN_TEST_PATH, f"test_{self.long_project_name}.py"),
+            "w",
+            encoding="utf-8",
+        ) as f:
+            f.write(test_code)
+
+
+def _indent(str_value, num_spaces):
+    spaces = " " * num_spaces
+    return "".join(f"{spaces}{line}" for line in str_value.splitlines(keepends=True))
+
+
+def _get_assert(actual_var, expected_var, expected_output):
+    if isinstance(expected_output, list):
+        return f"""\
+actual_list = {actual_var}
+expected_list = {expected_var}
+assert len(actual_list) == len(expected_list), "Length not equal"
+for index in range(len(expected_list)):
+    assert actual_list[index] == expected_list[index], f"Item {{index + 1}} is not equal"
+"""
+
+    test_code = ""
+    if actual_var != "actual":
+        test_code += f"actual = {actual_var}\n"
+
+    if expected_var != "expected":
+        test_code += f"expected = {expected_var}\n"
+
+    return f"{test_code}assert actual == expected\n"
