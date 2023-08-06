@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: aster.db
+Version: 0.0.1
+Summary: HTTP API Wrapper built for MongoDB for the encryption of Data.
+Home-page: https://github.com/Senarc-Studios/AsterDB
+Author: BenitzCoding
+Author-email: beni@senarc.net
+License: MIT
+Project-URL: Documentation, https://coming-soon.senarc.net
+Project-URL: Issue tracker, https://github.com/Senarc-Studios/AsterDB/issues
+Project-URL: Github, https://github.com/Senarc-Studios/AsterDB
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+HTTP API Wrapper built for MongoDB for the encryption of Data.
+
+
