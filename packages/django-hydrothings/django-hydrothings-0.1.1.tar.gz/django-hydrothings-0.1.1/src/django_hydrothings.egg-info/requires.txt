@@ -1,0 +1,5 @@
+django>=2.2
+django-ninja>=0.20.0
+pydantic<2.0.0,>=1.6
+geojson-pydantic>=0.5.0
+requests>=2
