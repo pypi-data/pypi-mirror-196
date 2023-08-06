@@ -1,0 +1,14 @@
+email_validator/__init__.py,sha256=-Gs0n7DCBGoWFRJz_pKoBvIdhJZOonKFCswtPXasT6E,4133
+email_validator/__main__.py,sha256=S9vY7-TQ1iVsW-bRIXRGl2JKT-2aRtAwE6hc-kYfzgk,1516
+email_validator/deliverability.py,sha256=wNcSvP4wJTuE5JmtSd56X8Nln1DkZ40RRsqBDobevQ0,5749
+email_validator/exceptions_types.py,sha256=fc-XFD9NsPQLhp3zJDO6IOCG-7dqSpkPNGKqEG56Sdc,4835
+email_validator/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+email_validator/rfc_constants.py,sha256=bEQky-cBf_wWMReAsA86c5zpoOcU-Y1gGHZEJAcohKc,1802
+email_validator/syntax.py,sha256=UgltlJ2IKxJehFc5w3fUfy9-Ndgm-in5eik81vfUuFs,17571
+email_validator/validate_email.py,sha256=49_lOGLg_fC2DKiSidYEkPpUIx3CySiKM_6jRdoUNl0,6201
+email_validator-2.0.0.dev4.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+email_validator-2.0.0.dev4.dist-info/METADATA,sha256=VBt7IPupugC-S7XftF9g-7Tl05HXTgdbEWoElTudCn4,22880
+email_validator-2.0.0.dev4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+email_validator-2.0.0.dev4.dist-info/entry_points.txt,sha256=DiP9magTC_pGdQ7tDRDKP7i3l8-2b8GgwF0APpq8w54,57
+email_validator-2.0.0.dev4.dist-info/top_level.txt,sha256=fYDOSWFZke46ut7WqdOAJjjhlpPYAaOwOwIsh3s8oWI,16
+email_validator-2.0.0.dev4.dist-info/RECORD,,
