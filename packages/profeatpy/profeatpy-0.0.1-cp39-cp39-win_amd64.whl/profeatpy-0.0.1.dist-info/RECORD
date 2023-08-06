@@ -1,0 +1,15 @@
+profeat/__init__.py,sha256=x6wqEPooOl-BChh0fKqwSdYgByQaArwRWxHupBUqxPc,1814
+profeat/_libprofeat.cp39-win_amd64.pyd,sha256=MTNizNOvyTn1lzXrk6muy9QoWgcsP_1dV5f3lNV_l-s,287232
+profeat/_version.py,sha256=fmC3mWZVXgHdq1k4HIaC7Vambz3IL4a8wlzszdSYzE4,518
+profeat/.libs/lib_libprof.KFXAA6P4RHMBOQ27ULBG7AFOOGOVIUYP.gfortran-win_amd64.dll,sha256=tu1juZQoPzGdrFi_7ul-89AC5CrCjsn3wIcHE-9N1Vk,1523863
+profeat/_libprofeatconfig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+profeat/_libprofeatconfig/input-aaindexdb.dat,sha256=dE4qFafjsiUsXP1jl6ZNxRKDHtWVjedDfvqrnkesbtY,718246
+profeat/_libprofeatconfig/input-ligand.sdf,sha256=tnUFpjmn2Bnh3sWgJfjIvfRMMT06F7jKjs-OPq8bMBw,102172
+profeat/_libprofeatconfig/input-param.dat,sha256=xsJck3KCRmfsJ7zul-H9U147t7Np3b9zQ5AcV0F8bRY,2340
+profeat/_libprofeatconfig/input-pli.dat,sha256=-sGAq1QkGhTc5vnywWwOxFAffFLne3wwOJ1lMAWJSBs,195
+profeat/_libprofeatconfig/input-ppi.dat,sha256=5VI4e3XC-S_v7EhLUTbj81Tt_BZLYwd33t3wE3cS_yw,78
+profeatpy-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+profeatpy-0.0.1.dist-info/METADATA,sha256=rVEYYkZaKu_i0j58WCiMBVjWKpOi2-gh1Dz4BnTfe5o,950
+profeatpy-0.0.1.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
+profeatpy-0.0.1.dist-info/top_level.txt,sha256=KMITqXzJW9qpBLMWF4PZE4dO3K4aftM4CKxq7_icqHE,8
+profeatpy-0.0.1.dist-info/RECORD,,
