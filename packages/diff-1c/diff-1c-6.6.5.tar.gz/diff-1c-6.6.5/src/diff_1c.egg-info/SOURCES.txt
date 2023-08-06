@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/diff_1c/__about__.py
+src/diff_1c/__init__.py
+src/diff_1c/__main__.py
+src/diff_1c/cli.py
+src/diff_1c/core.py
+src/diff_1c/main.py
+src/diff_1c.egg-info/PKG-INFO
+src/diff_1c.egg-info/SOURCES.txt
+src/diff_1c.egg-info/dependency_links.txt
+src/diff_1c.egg-info/entry_points.txt
+src/diff_1c.egg-info/requires.txt
+src/diff_1c.egg-info/top_level.txt
+tests/test_diff_1c.py
