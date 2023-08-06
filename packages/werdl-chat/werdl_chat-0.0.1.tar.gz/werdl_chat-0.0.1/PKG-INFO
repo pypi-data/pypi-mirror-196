@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: werdl_chat
+Version: 0.0.1
+Summary: A funny chatbot
+Project-URL: Homepage, https://github.com/werdl/chat
+Project-URL: Bug Tracker, https://github.com/werdl/chat/issues
+Author-email: werdl <werdl_is_cool@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## A basic chatbot
+### Install (OS agnostic)
+#### Reqs
+- Python
+- requirements.txt
+```bash
+git clone https://github.com/werdl/chat.git
+```
+```bash
+pip install -r reqiurements.txt
+```
+```bash
+python3 main.py
+```
