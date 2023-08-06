@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DiffehellmanAlphaCalculator
+Version: 0.1
+Summary: In Diffehellman key exchange technique we calculate Alpha value .Which should be primitive root of the given prime number,hence this package solve the trouble of finding the Alpha .
+Author: RAVINDRA HV
+Author-email: ravindrahvasudeva@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
