@@ -1,0 +1,15 @@
+serprog/__init__.py,sha256=ZA7f9Klyv-lCJYTXPLYvyB1y-PJqIjpPbvR06vfCM0w,133
+serprog/__main__.py,sha256=jpo3c1_mBLjdjG2LmOHKp7muexyVDdlr9AWSPua2Lpo,980
+serprog/bootprotocol.py,sha256=0Qt79JOGXCZLuT0ulrNRr0fVC_YIhXwTq4tCfnezmNo,3943
+serprog/business.py,sha256=hQQ2nq3Mp_YZhuCaXW3-gTeIhAzV8XCX5LOnyqyN9V4,3558
+serprog/cmdline.py,sha256=L22fsVeAOV3_HZAoeQtk0JlPXFM7PIq6Hj9g7SwmjJw,6454
+serprog/device.py,sha256=vK6nhiK_n0bAfC1abkf39keKJy04rQKo0i-hM6XY5k0,1232
+serprog/exceptions.py,sha256=_eu5LhwOjk7nVOEizbxQQSAxDGp-V7rnRJqESuPc9SU,887
+serprog/ihex.py,sha256=Bx9XuIzlrM_sLsm8GFulfHEmLhOcMMQcNche93RcZz4,5612
+serprog/loader.py,sha256=wbt0mwVoKd2NtIlAo_1EfrADx0-thL93dIkd5yKVUcY,21534
+serprog-0.1.2.dist-info/LICENSE,sha256=qrpZiwZvJIPhtaz5FFEw7XHtBfRfVDxc6ZOCXa2VDUE,1083
+serprog-0.1.2.dist-info/METADATA,sha256=OLC_4EeBQWkkgsrAiREQTYfIo_-v4StaBbh9kJCGJ_4,821
+serprog-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+serprog-0.1.2.dist-info/entry_points.txt,sha256=9gUs0a3ZgjTtpbEz2Cm0XSLOJ-DKe4p5TUzbMkxs8fo,49
+serprog-0.1.2.dist-info/top_level.txt,sha256=Itrq912UX0ZS3g0dBFVm8EQiM8cEzlsyuZf7d1IfdT8,8
+serprog-0.1.2.dist-info/RECORD,,
