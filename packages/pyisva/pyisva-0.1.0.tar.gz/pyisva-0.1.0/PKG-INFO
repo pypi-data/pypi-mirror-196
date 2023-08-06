@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyisva
+Version: 0.1.0
+Summary: Python API for IBM Security Verify Access
+Home-page: https://github.ibm.com/ibm-security/pyisva
+Author: Lachlan Gleeson
+Author-email: lgleeson@au1.ibm.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+License-File: AUTHORS.md
+
+UNKNOWN
+
