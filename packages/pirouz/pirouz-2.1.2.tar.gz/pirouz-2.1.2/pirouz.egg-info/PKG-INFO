@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pirouz
+Version: 2.1.2
+Summary: A web framework built with Python.
+Home-page: https://github.com/dori-dev/pirouz
+Author: Mohammad Dori
+Author-email: mr.dori.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pirouz Web Framework
+
+A web framework built with Python.
+
+# Developing ...
+
+gunicorn -w 4 wsgi:app
+gunicorn -w 4 wsgi:app --reload
+pytest pirouz/test/ -v
