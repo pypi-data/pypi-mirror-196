@@ -1,0 +1,10 @@
+DESCRIPTION.md
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/extended/typing.py
+src/extended_typing.egg-info/PKG-INFO
+src/extended_typing.egg-info/SOURCES.txt
+src/extended_typing.egg-info/dependency_links.txt
+src/extended_typing.egg-info/top_level.txt

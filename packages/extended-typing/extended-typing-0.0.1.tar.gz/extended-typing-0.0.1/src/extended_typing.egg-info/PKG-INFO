@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: extended-typing
+Version: 0.0.1
+Summary: Extends the typing module with a custom `extended.typing` module, including runtime types, protocols rewritten with `typing.Protocol`, and more protocols such as those provided by `_typeshed`.
+License: mit
+Project-URL: Bug Tracker, https://github.com/SimpleArt/extended-typing/issues
+Project-URL: Repository, https://github.com/SimpleArt/extended-typing
+Keywords: typing
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Typing :: Typed
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# extended-typing
+ Extends the typing module with a custom `extended.typing` module, including runtime types, protocols rewritten with `typing.Protocol`, and more protocols such as those provided by `_typeshed`.

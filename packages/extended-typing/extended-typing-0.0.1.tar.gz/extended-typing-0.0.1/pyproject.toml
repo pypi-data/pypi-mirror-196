@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extended-typing"
+dynamic = ["description", "version"]
+
+classifiers = [
+    "Topic :: Software Development",
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Typing :: Typed"
+]
+
+keywords = ["typing"]
+
+license = {text = "mit"}
+readme = "README.md"
+
+requires-python = ">=3.5"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/SimpleArt/extended-typing/issues"
+"Repository" = "https://github.com/SimpleArt/extended-typing"
+
+[tool.setuptools.dynamic]
+description = {file = "DESCRIPTION.md"}
+version = {attr = "extended.typing.__version__"}
+
+[tools.setuptools.packages.find]
+where = ["src"]
+include = ["extended*"]
