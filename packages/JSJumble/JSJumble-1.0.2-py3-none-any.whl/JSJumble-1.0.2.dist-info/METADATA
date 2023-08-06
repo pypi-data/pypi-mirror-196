@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: JSJumble
+Version: 1.0.2
+Summary: Tool for obfuscating, compressing Javascript, and collecting static files.
+Home-page: https://github.com/GoodDay360/JSJumble
+Author: GoodDay360
+Author-email: istartgame31@gmail.com
+License: GNU General Public License (GPL)
+Keywords: JSJumble,library,module,javascript,compress,obfuscator,obfuscate,static,collect,server
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: waitress
+
+# JSJumble
+**Tool for obfuscating, compressing Javascript, and collecting static files.**  
+### Check Github page for [Documentation](https://github.com/GoodDay360/JSJumble).
+
+
+
