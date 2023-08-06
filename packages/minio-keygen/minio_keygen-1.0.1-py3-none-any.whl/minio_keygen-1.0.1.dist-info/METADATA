@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: minio-keygen
+Version: 1.0.1
+Summary: Small python package to create Minio key values
+Home-page: https://github.com/iandday/minio-keygen
+Author: Ian Day
+Author-email: ian@ianday.me
+Project-URL: Bug Tracker, https://github.com/iandday/minio-keygen/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: safety ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# minio-keygen
+
+CI/CD Status: ![Main Branch](https://github.com/iandday/minio-keygen/actions/workflows/main.yml/badge.svg) | ![Development Branch](https://github.com/iandday/minio-keygen/actions/workflows/development.yml/badge.svg)
+
+Generate MinIO keys using Python.  This project was created to learn GitHub Actions, Python packaging, and entrypoints.
+
+Example
+
+```code=bash
+ian@Ians-MBP minio-keygen % minio-keygen                                   
+Key: S9EITflKfJs4pAcOO1o
+Secret: vFMzAqChF1PZea_6CMH0vmmcZglziMqDR2zXmtxI
+```
+
+## Releasing
+
+```code=bash
+
+   # Set next version number
+   export RELEASE=vx.x.x
+
+   # Create tags
+   git commit --allow-empty -m "Release $RELEASE"
+   git tag -a $RELEASE -m "$RELEASE"
+
+   # Push
+   git push --tags
+```

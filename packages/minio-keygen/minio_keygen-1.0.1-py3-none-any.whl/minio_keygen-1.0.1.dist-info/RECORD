@@ -1,0 +1,12 @@
+minio_keygen/__init__.py,sha256=9cWJ_VBozN-mpZtHfbgWjCULaqpoSxc11PElS14srTQ,190
+minio_keygen/functions.py,sha256=6R9v_h7_bWp3JZH4YGPvvxdl_BVEVEw_X3wPiCQ_Gm4,1658
+minio_keygen/main.py,sha256=Sb3FolgllYRnnbAjtAvatKaZxh3GkLOFuiORbXAXAmY,483
+minio_keygen/version.py,sha256=b6JPp7ROe5Smc8ybFMoI6dIJ22W8F66_VKvRN7dNX_U,36
+minio_keygen/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minio_keygen/tests/test_minio_keygen.py,sha256=arJ0dRkPtFqWFS_nE1QMZqtVQHic6Nhn7YAL0dB8Zrw,1120
+minio_keygen-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+minio_keygen-1.0.1.dist-info/METADATA,sha256=3kKF8JEyLYpMOhmY2_Fje1UhEL7n0xayD7O-Qjj9Kxc,1661
+minio_keygen-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+minio_keygen-1.0.1.dist-info/entry_points.txt,sha256=0Kd0wSdLry_bPjA2uWMvcoERiFIhrQhV1nuNu6EbtBs,56
+minio_keygen-1.0.1.dist-info/top_level.txt,sha256=msh4lim94o74oWwlU7j-m8tlDBJDu38gpB4zbKEglDw,13
+minio_keygen-1.0.1.dist-info/RECORD,,
