@@ -1,0 +1,2 @@
+coverage
+enaml>=0.16
