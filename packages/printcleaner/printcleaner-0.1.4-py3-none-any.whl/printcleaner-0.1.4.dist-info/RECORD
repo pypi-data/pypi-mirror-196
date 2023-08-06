@@ -1,0 +1,8 @@
+printcleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+printcleaner/clean.py,sha256=CtcjxbMFD-tqex4y8EWbkolhrqElvqZ58Jua3kzV6iU,1388
+printcleaner/transformer.py,sha256=c0FWlrQMbo3sX9cv5phhZE1Yi0HS79PIUyRc0SGXc9Q,598
+printcleaner-0.1.4.dist-info/entry_points.txt,sha256=EbpnIEHmTNjlXpu-wk7HMRP4JBWDP0NUiWuJpJefrAs,48
+printcleaner-0.1.4.dist-info/LICENSE,sha256=CH9yhYc33SjJR4Y6jS16qlJzAM0UYEdCi0XWVDXSqpo,1070
+printcleaner-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+printcleaner-0.1.4.dist-info/METADATA,sha256=Kib2cpJIJFiK9I6BSlihCfA7LO64gsM5vr2fLoacqdA,1258
+printcleaner-0.1.4.dist-info/RECORD,,

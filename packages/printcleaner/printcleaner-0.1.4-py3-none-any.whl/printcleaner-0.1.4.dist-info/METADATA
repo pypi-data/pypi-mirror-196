@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: printcleaner
+Version: 0.1.4
+Summary: The simplest way to remove print statements from your Python code
+Home-page: https://github.com/leftfile/printcleaner
+License: MIT
+Author: A. L. Walker
+Author-email: walkernotwalker@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: libcst (>=0.4.7,<0.5.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Project-URL: Repository, https://github.com/leftfile/printcleaner
+Description-Content-Type: text/markdown
+
+## Printcleaner: the simplest way to remove print statements from your Python code
+
+
+![GitHub](https://img.shields.io/github/license/larsvonschaff/printcleaner)
+![PyPI](https://img.shields.io/pypi/v/printcleaner)
+
+
+Is your Python code littered with random print statements from debugging or simply exploring?
+
+Printcleaner is a simple CLI that removes all of them with one command. All you need to do is:
+
+
+**pip install printcleaner**
+
+**clean < name of your file or directory >**
+
+Done. Don't worry, comments, formatting, whitespace and everything else in your code will be preserved.
+
+
