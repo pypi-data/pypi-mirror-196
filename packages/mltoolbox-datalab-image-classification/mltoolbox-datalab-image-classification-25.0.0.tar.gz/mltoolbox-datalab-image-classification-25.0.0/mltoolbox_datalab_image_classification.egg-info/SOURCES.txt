@@ -1,0 +1,7 @@
+MANIFEST.in
+reporter.py
+setup.py
+mltoolbox_datalab_image_classification.egg-info/PKG-INFO
+mltoolbox_datalab_image_classification.egg-info/SOURCES.txt
+mltoolbox_datalab_image_classification.egg-info/dependency_links.txt
+mltoolbox_datalab_image_classification.egg-info/top_level.txt
