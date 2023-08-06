@@ -1,0 +1,20 @@
+!link syscall.mkpk
+
+[[code]]
+[sockaddr_init] addr port protocol
+# Populates a struct sockaddr on the stack.
+# Parameters:
+#   - addr: The address of the socket.
+#   - port: The port of the socket.
+#   - protocol: The protocol of the socket.
+push ${addr}
+push word ${port}
+push word ${protocol}
+
+[dup_stdstreams] fd
+# Duplicates stdin, stdout, stderr into a single fd.
+# Parameters:
+#   - fd: The fd to duplicate the stdstreams into.
+> sys_dup2 ${fd} ${STDERR}
+> sys_dup2 ${fd} ${STDOUT}
+> sys_dup2 ${fd} ${STDIN}
