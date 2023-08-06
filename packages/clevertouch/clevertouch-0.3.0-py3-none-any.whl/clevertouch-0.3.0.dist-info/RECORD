@@ -1,0 +1,15 @@
+clevertouch/__init__.py,sha256=W7E2LzMoRpJLuKE5zYnLNsZyF0IdSLdGLAkCkpiZLQA,183
+clevertouch/api.py,sha256=PZJP9sBXJgg99VVUGopYdfDSrbZcdV6W_ev3d9XuMDU,6679
+clevertouch/devices/__init__.py,sha256=nAuSeSJTqPhmDf6Ta5sFbbe2riFipgYg0AvFWusHhLM,206
+clevertouch/devices/const.py,sha256=KrS2wplATpCbcCIMJL7103n_UZrSzRpUDFaXie-17Qg,373
+clevertouch/devices/device.py,sha256=2_lBIO5mdU2eQDJqHQLBR2mps4Jm7QznLy6Hu3zgdNI,1193
+clevertouch/devices/factory.py,sha256=niYVbgjUU8lJEQnMkRBtmVQctJ2PzwNbwBzVxLBvBI4,900
+clevertouch/devices/onoff.py,sha256=cNl4MWS-TxPu2HipfRQtj7TJnPUQZULCkVUtG5PSlRk,2023
+clevertouch/devices/radiator.py,sha256=qVLZx7mLQuZaJzSVWvdC0FAd9031ms9Y9152GoEd4bM,7800
+clevertouch/info.py,sha256=P2-ROm9FhJaVDnb8e-QKswYDqWcZCnlG4rlJZA3gAlw,1522
+clevertouch/objects.py,sha256=GZwdQu1_ykCkhhpgrnmho4xZVU8klg6gsr9CsWpfBlM,4214
+clevertouch/util.py,sha256=qgda-sKdevj0bVGzuDhQVQQfxZ-I-b1_88BVufSJk7k,836
+clevertouch-0.3.0.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+clevertouch-0.3.0.dist-info/METADATA,sha256=UqjE-FsJfPUqx6Qlh4AzNZwx0kYsFbaT0AvMG3nyAC4,5714
+clevertouch-0.3.0.dist-info/licenses/LICENSE,sha256=L24eTeL-HK0ryR_j2dx-X0-XUJYcatOKBSRIANGTnWM,1064
+clevertouch-0.3.0.dist-info/RECORD,,
