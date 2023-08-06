@@ -1,0 +1,4 @@
+include subprocessnoconsole/requirements.txt
+include subprocessnoconsole/thirdparty.json
+include subprocessnoconsole/README.MD
+include subprocessnoconsole/LICENSE

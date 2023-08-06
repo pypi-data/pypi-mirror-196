@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: subprocessnoconsole
+Version: 0.10
+Summary: Runs a process using subprocess without console output
+Home-page: https://github.com/hansalemaos/subprocessnoconsole
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: subprocess,noconsole
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Runs a process using subprocess without console output 
+
+## pip install subprocessnoconsole
+
+
+```python
+from subprocessnoconsole import popen_start,popen_start_devnull,popen_start_stdout_read
+popen_start(['cmd.exe'])
+Out[3]: <Popen: returncode: None args: ['cmd.exe']>
+popen_start_devnull(['cmd.exe'])
+Out[4]: <Popen: returncode: None args: ['cmd.exe']>
+popen_start_stdout_read(['cmd.exe'])
+
+```
+
