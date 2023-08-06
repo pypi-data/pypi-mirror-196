@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+themoviedb.egg-info/PKG-INFO
+themoviedb.egg-info/SOURCES.txt
+themoviedb.egg-info/dependency_links.txt
+themoviedb.egg-info/not-zip-safe
+themoviedb.egg-info/requires.txt
+themoviedb.egg-info/top_level.txt
