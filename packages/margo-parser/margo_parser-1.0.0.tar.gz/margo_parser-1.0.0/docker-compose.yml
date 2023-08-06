@@ -1,0 +1,32 @@
+services:
+    py38:
+        image: python:3.8
+        volumes:
+            - "./:/app"
+        working_dir: "/app"
+        command: sh -c "pip install --upgrade pip && \
+            pip install -r requirements-dev.txt && \
+            tox"
+    py39:
+        extends:
+            service: py38
+        image: python:3.9
+    py310:
+        extends:
+            service: py38
+        image: python:3.10
+    py311:
+        extends:
+            service: py38
+        image: python:3.11
+
+    # These python versions are no longer supported in
+    # version >= 1.0.0
+    # py36:
+    #     extends:
+    #         service: py38
+    #     image: python:3.6
+    # py37:
+    #     extends:
+    #         service: py38
+    #     image: python:3.7
