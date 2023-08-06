@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+flet_route/__init__.py
+flet_route/not_found_view.py
+flet_route/routing.py
+flet_route.egg-info/PKG-INFO
+flet_route.egg-info/SOURCES.txt
+flet_route.egg-info/dependency_links.txt
+flet_route.egg-info/top_level.txt
