@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cligpt/__init__.py
+cligpt/__main__.py
+cligpt/cli.py
+cligpt/cligpt.py
+cligpt.egg-info/PKG-INFO
+cligpt.egg-info/SOURCES.txt
+cligpt.egg-info/dependency_links.txt
+cligpt.egg-info/entry_points.txt
+cligpt.egg-info/requires.txt
+cligpt.egg-info/top_level.txt
+test/test.py
