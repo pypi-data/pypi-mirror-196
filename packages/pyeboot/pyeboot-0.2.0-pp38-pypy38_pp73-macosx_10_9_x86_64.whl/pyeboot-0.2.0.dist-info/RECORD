@@ -1,0 +1,8 @@
+pyeboot-0.2.0.dist-info/RECORD,,
+pyeboot-0.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pyeboot-0.2.0.dist-info/WHEEL,sha256=DVRQ5iilM88qEgPN9F-jdRErBkin2MqdJR-IvREPiVQ,116
+pyeboot-0.2.0.dist-info/top_level.txt,sha256=GOwmRl_nYaRiCW00ZNKnVXchAQRfPk2FcXH57uqXI3g,8
+pyeboot-0.2.0.dist-info/METADATA,sha256=RupdELFyfMHwzNw6l5AKcecrFeyj-7C1EiJbXtpEihw,567
+pyeboot/__init__.py,sha256=c0sUM38hldH5fgmNRb7qI_eyM018HrAiuQZaMIpSVGE,59
+pyeboot/sign.pypy38-pp73-darwin.so,sha256=dJJeSkNCY7oFNvq_E90lI5bG6Oq5R6xJB4tyG_BfkPI,107848
+pyeboot/decrypt.pypy38-pp73-darwin.so,sha256=olxlRxxx1RT8w645NaggMbKeSquzHPxDbxUigW8aFzw,120024
