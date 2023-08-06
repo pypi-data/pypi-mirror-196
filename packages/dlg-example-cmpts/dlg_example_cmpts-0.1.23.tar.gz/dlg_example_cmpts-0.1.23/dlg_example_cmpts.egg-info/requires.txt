@@ -1,0 +1,15 @@
+daliuge-engine>=2.3.2
+matplotlib
+blockdag
+
+[test]
+pytest
+coverage
+flake8
+black
+isort
+pytest-cov
+codecov
+mypy
+gitchangelog
+mkdocs
