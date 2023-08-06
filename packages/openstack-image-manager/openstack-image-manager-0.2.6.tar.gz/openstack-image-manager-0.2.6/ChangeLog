@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.2.6
+------
+
+* Allow to set the hypervisor\_type meta information (#515)
