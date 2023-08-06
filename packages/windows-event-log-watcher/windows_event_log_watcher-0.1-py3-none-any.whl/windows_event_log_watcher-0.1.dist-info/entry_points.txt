@@ -1,0 +1,3 @@
+[console_scripts]
+realtime_event_log = my_windows_event_log_watcher:realtime_event_log
+watch_event_log = my_windows_event_log_watcher:watch_event_log
