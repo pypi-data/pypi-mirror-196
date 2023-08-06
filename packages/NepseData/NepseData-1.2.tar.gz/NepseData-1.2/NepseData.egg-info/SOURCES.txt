@@ -1,0 +1,8 @@
+README.md
+setup.py
+NepseData/__init__.py
+NepseData.egg-info/PKG-INFO
+NepseData.egg-info/SOURCES.txt
+NepseData.egg-info/dependency_links.txt
+NepseData.egg-info/requires.txt
+NepseData.egg-info/top_level.txt
