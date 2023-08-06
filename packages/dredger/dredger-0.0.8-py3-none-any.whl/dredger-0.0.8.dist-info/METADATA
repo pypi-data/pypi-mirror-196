@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dredger
+Version: 0.0.8
+Summary: This module is used to download uspto patent applications and grant files. It also has usefull datetime functions
+Author-email: Ketan Chandra <ketan@incubig.org>
+Project-URL: Homepage, https://github.com/IncubigInnovations/mining/dredger
+Project-URL: Bug Tracker, https://github.com/IncubigInnovations/mining/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#dredger documentation
+This module is used to download uspto patent applications and grant files. USPTO publishes all granted patents of the week on tuesday and all applications on Thursday.
+
+Additionally the module has two important date functions (date_on_day & weekday_count)
+
+The function takes following inputs(two)
+- [Mandatory] Type of file to be downloaded i.e. applications or grants or pdfs[string]
+- [Optional] Date (function will automatically calculates the last Tuesday of Thursday)
+
