@@ -1,0 +1,6 @@
+README.md
+setup.py
+dserving.egg-info/PKG-INFO
+dserving.egg-info/SOURCES.txt
+dserving.egg-info/dependency_links.txt
+dserving.egg-info/top_level.txt
