@@ -1,0 +1,57 @@
+{
+  "name": "@nayaone/jupyterlab-theme",
+  "version": "0.3.1",
+  "description": "A theme extension for JupyterLab with the NayaOne logo and colors",
+  "author": {
+    "name": "Matt Allan",
+    "email": "matt@nayaone.com"
+  },
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "jupyterlab-theme"
+  ],
+  "license": "BSD-3-Clause",
+  "files": [
+    "lib/*.d.ts",
+    "lib/*.js.map",
+    "lib/*.js",
+    "style/*"
+  ],
+  "sideEffects": true,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf lib",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc -b --watch"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.4",
+    "@jupyterlab/apputils": "^3.0.3",
+    "@jupyterlab/ui-components": "^3.0.3"
+  },
+  "devDependencies": {
+    "rimraf": "~3.0.2",
+    "typescript": "~4.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "jupyterlab": {
+    "extension": "lib/index",
+    "themePath": "style/index.css",
+    "disabledExtensions": ["@jupyterlab/application-extension:logo"]
+  },
+  "homepage": "https://gitlab.com/fintech-sandpit/jupyterlab-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/fintech-sandpit/jupyterlab-theme.git"
+  }
+}

@@ -1,0 +1,25 @@
+@import './variables.css';
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+#jp-MainLogo {
+  display: none;
+}
+
+div.jp-OutputArea,
+div.jp-OutputArea-child,
+div.jp-OutputArea-output,
+div.jp-OutputArea-prompt,
+div.jupyter-widgets.widget-output {
+  padding: 0;
+  margin: 0;
+}
