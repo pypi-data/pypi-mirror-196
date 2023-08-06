@@ -1,0 +1,21 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[project]
+name = "aruw-pathfinding"
+version = "0.2.2"
+description = "A* and D* algorithms for pathfinding from an input list squares"
+# authors = ["Max McKelvey"]
+license = {file = "./LICENSE"}
+readme = "PROJ_README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
