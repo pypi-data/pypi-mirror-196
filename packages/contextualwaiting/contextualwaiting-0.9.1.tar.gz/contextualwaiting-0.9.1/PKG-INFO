@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: contextualwaiting
+Version: 0.9.1
+Summary: Contextual Waiting
+License: LICENSE.txt
+Keywords: python
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Contextual Waiting Module - contextualwaiting
+
+This package provides support for enhanced context based waiting.
+
