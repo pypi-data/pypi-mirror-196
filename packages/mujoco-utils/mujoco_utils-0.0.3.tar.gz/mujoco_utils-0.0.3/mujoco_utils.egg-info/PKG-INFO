@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mujoco-utils
+Version: 0.0.3
+Summary: Utilities for working with MuJoCo Python bindings and dm_control.
+Home-page: https://github.com/kevinzakka/mujoco_utils
+Author: Kevin Zakka
+Author-email: kevinarmandzakka@gmail.com
+Maintainer: Kevin Zakka
+Maintainer-email: kevinarmandzakka@gmail.com
+License: Apache License 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# `mujoco_utils`
+
+Utilities for working with MuJoCo Python bindings and dm_control.
