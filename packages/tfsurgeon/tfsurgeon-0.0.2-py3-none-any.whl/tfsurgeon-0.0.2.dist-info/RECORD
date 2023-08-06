@@ -1,0 +1,14 @@
+tfsurgeon/__init__.py,sha256=SZ7-XqNJTm3VeYiDf3WrNPt1mvoPYYk-xvP_c9IXuKE,33
+tfsurgeon/tfsurgeon.py,sha256=GdK8Br-lniqNChy9qSr8CsolIGH4mtmnuj3v49GFjxk,5972
+tfsurgeon/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfsurgeon/utils/lambda_layers.py,sha256=6tbQLafq7bASR-Z7ZnNnx3LxVJjA1OhQm_AwQ8WZ95g,2619
+tfsurgeon/utils/reader.py,sha256=ykl4YEMS5f8CpQKTgQuw-mC9qBvRnhIVu1g9sPFqqtk,2121
+tfsurgeon/utils/remove_by_names.py,sha256=Zf3JAYi6CqnHZCcLu7jMFWe_FPwiAcD36xwpMXXfXVI,6110
+tfsurgeon/utils/remove_type_editor.py,sha256=8WmVAw8e1N0eLxa01TTyBTTOZdoxKexWF5MPuFaaYpQ,6361
+tfsurgeon/utils/replace_by_counter.py,sha256=E-wPR-wAGAafRZ5-nYduys22TG3ih_SdSfWf8UQPrAg,6064
+tfsurgeon/utils/replace_type_editor.py,sha256=yfXoZ0T8wAA8uoIqm2T_qua6X_qX1krtbc__BMWpSMo,6928
+tfsurgeon-0.0.2.dist-info/LICENSE,sha256=T-Jz2CE1FPI4Fj8hhexcgUg2dTumt5pY453Gs-6GikM,1070
+tfsurgeon-0.0.2.dist-info/METADATA,sha256=cFeJaR9DBIfPI3_3s8qk9P5WOyBg7Cjq-xPi0Hudjc4,1075
+tfsurgeon-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tfsurgeon-0.0.2.dist-info/top_level.txt,sha256=63di8OnU8BcaA8qtviQ2kIUomF4q88dlbKslRneIFu0,10
+tfsurgeon-0.0.2.dist-info/RECORD,,
