@@ -1,0 +1,6 @@
+setup.py
+pypackagescraper/__init__.py
+pypackagescraper.egg-info/PKG-INFO
+pypackagescraper.egg-info/SOURCES.txt
+pypackagescraper.egg-info/dependency_links.txt
+pypackagescraper.egg-info/top_level.txt
