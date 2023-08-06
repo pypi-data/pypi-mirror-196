@@ -1,0 +1,7 @@
+MANIFEST.in
+reporter.py
+setup.py
+notebook_executor.egg-info/PKG-INFO
+notebook_executor.egg-info/SOURCES.txt
+notebook_executor.egg-info/dependency_links.txt
+notebook_executor.egg-info/top_level.txt
