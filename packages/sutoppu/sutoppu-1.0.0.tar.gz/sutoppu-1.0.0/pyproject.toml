@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "sutoppu"
+
+version = "1.0.0"
+description = "A simple python implementation of Specification pattern."
+authors = ["u8slvn <u8slvn@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/u8slvn/sutoppu"
+homepage = "https://github.com/u8slvn/sutoppu"
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+keywords=[
+    "specification",
+    "specification-pattern",
+    "DDD",
+    "domain-driven-design",
+    "business-rules",
+    "verification",
+]
+
+include = [
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pytest = "^7.2.2"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
