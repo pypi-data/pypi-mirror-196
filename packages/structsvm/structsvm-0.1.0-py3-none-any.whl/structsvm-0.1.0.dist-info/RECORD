@@ -1,0 +1,8 @@
+structsvm/__init__.py,sha256=6LqVhnB5qTktRthEZN7aAQqwOAiamYVnZpLXd1sj_OE,209
+structsvm/bundle_method.py,sha256=F0zrpMsaAZWqxlQz9wZb1noBbvAhummmYolBc1MgZ-E,5164
+structsvm/hamming_costs.py,sha256=BPVK1WZJh6k8PVBoUNe0gc7toPoU8QeUdC0DFWYv0lQ,764
+structsvm/linear_costs.py,sha256=Vgt4guy8mjxe2RqH1nm7pLiHtuKXa05t40wdD41Gv8A,291
+structsvm/soft_margin_loss.py,sha256=3wWWDx4Qnx9GNkHKYLi0U0D0rtRu4vrHvGQZRQAmuss,2939
+structsvm-0.1.0.dist-info/METADATA,sha256=NoVSswcINaMoitGod7gs3SIq4ibtB6vIrWctEKZkxeU,1135
+structsvm-0.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+structsvm-0.1.0.dist-info/RECORD,,

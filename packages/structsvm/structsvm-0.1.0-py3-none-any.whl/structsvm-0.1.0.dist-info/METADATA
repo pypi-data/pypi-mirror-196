@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: structsvm
+Version: 0.1.0
+Summary: Structured Bundle Method for Risk Minimization.
+Project-URL: homepage, https://github.com/funkelab/structsvm
+Project-URL: repository, https://github.com/funkelab/structsvm
+Author-email: Jan Funke <funkej@janelia.hhmi.org>, Talley Lambert <talley.lambert@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: ilpy
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# structsvm
+
+[![License](https://img.shields.io/pypi/l/structsvm.svg?color=green)](https://github.com/funkelab/structsvm/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/structsvm.svg?color=green)](https://pypi.org/project/structsvm)
+[![Python Version](https://img.shields.io/pypi/pyversions/structsvm.svg?color=green)](https://python.org)
+[![CI](https://github.com/funkelab/structsvm/actions/workflows/ci.yml/badge.svg)](https://github.com/funkelab/structsvm/actions/workflows/ci.yml)
+
+Structured Bundle Method for Risk Minimization.
