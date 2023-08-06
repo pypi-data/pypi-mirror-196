@@ -1,0 +1,9 @@
+drb/metadata/__init__.py,sha256=m-D36Q5nXvfQ0x6p_hI_gP78iEGZ1CAYTL-je7p281o,188
+drb/metadata/_version.py,sha256=L9yFBAGMAShHONCptNMztYPlY1MA0jBUwjxjPH-PlZ4,497
+drb/metadata/metadata.py,sha256=ljrPTksHdAfHWKlzD-_QR9U5yQIjkq_sZziR7SdGdMs,5280
+drb/metadata/schema.yml,sha256=bK5JLAaSk6i5K-apyk15x3k2Bj7izy-Z2at29GZRHys,759
+drb_metadata-1.1.2.dist-info/LICENCE.txt,sha256=RzxtV7MG0zbF6dDvQsaZ1OKsHZ7CRyeILenjUIol5rs,7651
+drb_metadata-1.1.2.dist-info/METADATA,sha256=JpybkCnlT42YhmGR-f4-n9lJKxvHtA2cxJqWeYW_WeQ,1922
+drb_metadata-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_metadata-1.1.2.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_metadata-1.1.2.dist-info/RECORD,,
