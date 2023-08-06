@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: transformers-supporter
+Version: 0.0.7
+Summary: Transformers supporter
+Home-page: https://github.com/automatethem/transformers-supporter
+Author: Sang Ki Kwon
+Author-email: automatethem@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Supported models 
+
+<pre>
+import transformers_supporter
+
+#ANN
+transformers_supporter.models.ANNConfig
+transformers_supporter.models.ANNForTabularRegression
+transformers_supporter.models.AnnForTabularBinaryClassification
+transformers_supporter.models.AnnForTabularClassification
+transformers_supporter.models.TabularFeatureExtractor
+
+#CNN
+transformers_supporter.models.CNNConfig
+transformers_supporter.models.CNNForImageClassification
+transformers_supporter.models.GrayscaleImageProcessor
+transformers_supporter.models.CNNForKeyPointDetection
+
+#RNN
+transformers_supporter.models.RNNConfig
+transformers_supporter.models.RNNForAudioClassification
+transformers_supporter.models.RNNForTimeSeriesRegression
+
+#Embedded RNN
+transformers_supporter.models.EmbeddedRNNConfig
+transformers_supporter.models.EmbeddedRNNForSequenceClassification
+transformers_supporter.models.EmbeddedRNNForFixedLengthTranslation
+transformers_supporter.models.PretrainedEmbeddedRNNForSequenceClassification
+transformers_supporter.models.TorchtextTokenizer
+
+#Embedded 1DCNN
+transformers_supporter.models.Embedded1DCNNConfig
+transformers_supporter.models.Embedded1DCNNForSequenceClassification
+
+#Faster RCNN
+transformers_supporter.models.FasterRCNNConfig
+transformers_supporter.models.FasterRCNNForObjectDetection
+transformers_supporter.models.FasterRCNNImageProcessor
+</pre>
+
+<pre>
+import transformers_supporter
+
+#Custom Bert
+transformers_supporter.models.CustomBertConfig
+transformers_supporter.models.CustomBertForSequenceClassification
+
+#Custom Wav2Vec2
+transformers_supporter.models.CustomWav2Vec2FeatureExtractor
+</pre>
+
+Supported pipelines
+
+<pre>
+import transformers_supporter
+
+transformers_supporter.pipelines.FixedLengthTranslationPipeline
+transformers_supporter.pipelines.TabularBinaryClassificationPipeline
+transformers_supporter.pipelines.TabularClassificationPipeline
+transformers_supporter.pipelines.TabularRegressionPipeline
+</pre>
+<pre>
+import transformers_supporter
+
+transformers_supporter.pipelines.CustomImageClassificationPipeline
+</pre>
+
+
