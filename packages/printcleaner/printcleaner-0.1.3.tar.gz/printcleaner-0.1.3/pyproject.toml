@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "printcleaner"
+version = "0.1.3"
+description = "The simplest way to remove print statements from your Python code"
+authors = ["A. L. Walker <walkernotwalker@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/leftfile/printcleaner"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.6.1"
+libcst = "^0.4.7"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+clean = "printcleaner.clean:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
