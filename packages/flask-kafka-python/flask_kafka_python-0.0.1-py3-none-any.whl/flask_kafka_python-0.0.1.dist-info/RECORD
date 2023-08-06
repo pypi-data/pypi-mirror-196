@@ -1,0 +1,9 @@
+flask_kafka/__init__.py,sha256=KCfojMPdsVKczz2cGJcjd_clHfmX3AfdUDD9Sf4LhhU,296
+flask_kafka/consumer.py,sha256=TP90kw2lxo9DoomAzzakJxsUGJcwsx3eSfwRvseJB_Q,1475
+flask_kafka/flask_kafka.py,sha256=ag25ay4Rsvw7WMjjGrHzz0N1YSbpfFdPZXVGwbArTM4,4606
+flask_kafka/producer.py,sha256=mLBLe2c3LJJPIdMyE14hcQX79GBfMRWuEFX-XCka1y0,452
+flask_kafka_python-0.0.1.dist-info/LICENSE,sha256=9LgZvwjzGn1bnV8_NId-cs_OwSkNpY0lAS0_iqUwtAc,1067
+flask_kafka_python-0.0.1.dist-info/METADATA,sha256=a88E8EYW69IX4I5418i6KBKMSuYywKVq79uyHV-KfUo,2792
+flask_kafka_python-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+flask_kafka_python-0.0.1.dist-info/top_level.txt,sha256=kDoZBHpxoNr9eptDQdBHjj3LUUacWFyllkYgqi8HjWg,12
+flask_kafka_python-0.0.1.dist-info/RECORD,,
