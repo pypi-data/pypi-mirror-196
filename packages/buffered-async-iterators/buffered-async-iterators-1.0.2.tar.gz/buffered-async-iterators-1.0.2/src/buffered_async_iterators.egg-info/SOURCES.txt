@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/buffered_async_iterators/__init__.py
+src/buffered_async_iterators/_buffered.py
+src/buffered_async_iterators/_buffered_3_7.py
+src/buffered_async_iterators/_buffered_3_8.py
+src/buffered_async_iterators.egg-info/PKG-INFO
+src/buffered_async_iterators.egg-info/SOURCES.txt
+src/buffered_async_iterators.egg-info/dependency_links.txt
+src/buffered_async_iterators.egg-info/top_level.txt
