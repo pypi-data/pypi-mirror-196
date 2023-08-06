@@ -1,0 +1,696 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: panleiming@linksaas.pro
+    name: linksaas
+    url: https://github.com/linksaas/ai-proto
+  description: ai proto for coder
+  title: ai-proto
+  version: 0.0.1
+servers:
+- url: localhost
+tags:
+- description: 开发模式相关接口
+  name: dev
+- description: 提高编码效率的工具接口
+  name: coding
+paths:
+  /api/coding/complete/{lang}:
+    post:
+      description: 根据上下文补全代码
+      operationId: api_coding_complete_lang_post
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      - explode: false
+        in: path
+        name: lang
+        required: true
+        schema:
+          enum:
+          - python
+          - c
+          - cplusplus
+          - java
+          - csharp
+          - visualbasic
+          - javascript
+          - sql
+          - asm
+          - php
+          - r
+          - go
+          - matlab
+          - swift
+          - delphi
+          - ruby
+          - perl
+          - objc
+          - rust
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/_api_coding_complete__lang__post_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: 生成代码候选列表
+                items:
+                  type: string
+                type: array
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 根据上下文补全代码
+      tags:
+      - coding
+      x-openapi-router-controller: ai_proto_server.controllers.coding_controller
+  /api/coding/convert/{lang}:
+    post:
+      description: 对选中代码转换成其他编程语言
+      operationId: api_coding_convert_lang_post
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      - explode: false
+        in: path
+        name: lang
+        required: true
+        schema:
+          enum:
+          - python
+          - c
+          - cplusplus
+          - java
+          - csharp
+          - visualbasic
+          - javascript
+          - sql
+          - asm
+          - php
+          - r
+          - go
+          - matlab
+          - swift
+          - delphi
+          - ruby
+          - perl
+          - objc
+          - rust
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/_api_coding_convert__lang__post_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: 生成代码候选列表
+                items:
+                  type: string
+                type: array
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 对选中代码转换成其他编程语言
+      tags:
+      - coding
+      x-openapi-router-controller: ai_proto_server.controllers.coding_controller
+  /api/coding/explain/{lang}:
+    post:
+      description: 解释选择代码
+      operationId: api_coding_explain_lang_post
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      - explode: false
+        in: path
+        name: lang
+        required: true
+        schema:
+          enum:
+          - python
+          - c
+          - cplusplus
+          - java
+          - csharp
+          - visualbasic
+          - javascript
+          - sql
+          - asm
+          - php
+          - r
+          - go
+          - matlab
+          - swift
+          - delphi
+          - ruby
+          - perl
+          - objc
+          - rust
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/_api_coding_explain__lang__post_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: 生成解释结果候选列表
+                items:
+                  type: string
+                type: array
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 解释选择代码
+      tags:
+      - coding
+      x-openapi-router-controller: ai_proto_server.controllers.coding_controller
+  /api/coding/fixError/{lang}:
+    post:
+      description: 根据错误提示给出解决方案
+      operationId: api_coding_fix_error_lang_post
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      - explode: false
+        in: path
+        name: lang
+        required: true
+        schema:
+          enum:
+          - python
+          - c
+          - cplusplus
+          - java
+          - csharp
+          - visualbasic
+          - javascript
+          - sql
+          - asm
+          - php
+          - r
+          - go
+          - matlab
+          - swift
+          - delphi
+          - ruby
+          - perl
+          - objc
+          - rust
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/_api_coding_fixError__lang__post_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: 修复方案候选列表
+                items:
+                  type: string
+                type: array
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 根据错误提示给出解决方案
+      tags:
+      - coding
+      x-openapi-router-controller: ai_proto_server.controllers.coding_controller
+  /api/coding/genTest/{lang}:
+    post:
+      description: 对选中函数生成测试代码
+      operationId: api_coding_gen_test_lang_post
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      - explode: false
+        in: path
+        name: lang
+        required: true
+        schema:
+          enum:
+          - python
+          - c
+          - cplusplus
+          - java
+          - csharp
+          - visualbasic
+          - javascript
+          - sql
+          - asm
+          - php
+          - r
+          - go
+          - matlab
+          - swift
+          - delphi
+          - ruby
+          - perl
+          - objc
+          - rust
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/_api_coding_explain__lang__post_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: 生成代码候选列表
+                items:
+                  type: string
+                type: array
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 对选中函数生成测试代码
+      tags:
+      - coding
+      x-openapi-router-controller: ai_proto_server.controllers.coding_controller
+  /api/dev/genToken:
+    post:
+      description: "生成authToken,只在开发模式下有效"
+      operationId: api_dev_gen_token_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/apiDevGenTokenPost_request'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/apiDevGenTokenPost_200_response'
+          description: 成功
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: "生成authToken,只在开发模式下有效"
+      tags:
+      - dev
+      x-openapi-router-controller: ai_proto_server.controllers.dev_controller
+  /api/dev/genToken/cap:
+    get:
+      description: 获取ai能力列表
+      operationId: api_dev_gen_token_cap_get
+      parameters:
+      - explode: false
+        in: header
+        name: X-AuthToken
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_api_dev_genToken_cap_get_200_response'
+          description: 成功
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrInfo'
+          description: 失败
+          headers:
+            Access-Control-Allow-Origin:
+              explode: false
+              schema:
+                default: '*'
+                type: string
+              style: simple
+      summary: 获取ai能力列表
+      tags:
+      - dev
+      x-openapi-router-controller: ai_proto_server.controllers.dev_controller
+components:
+  parameters:
+    AuthToken:
+      explode: false
+      in: header
+      name: X-AuthToken
+      required: true
+      schema:
+        type: string
+      style: simple
+    Lang:
+      explode: false
+      in: path
+      name: lang
+      required: true
+      schema:
+        enum:
+        - python
+        - c
+        - cplusplus
+        - java
+        - csharp
+        - visualbasic
+        - javascript
+        - sql
+        - asm
+        - php
+        - r
+        - go
+        - matlab
+        - swift
+        - delphi
+        - ruby
+        - perl
+        - objc
+        - rust
+        type: string
+      style: simple
+  schemas:
+    ErrInfo:
+      properties:
+        errMsg:
+          description: 错误信息
+          title: errMsg
+          type: string
+      title: ErrInfo
+      type: object
+    Lang:
+      description: 编程语言
+      enum:
+      - python
+      - c
+      - cplusplus
+      - java
+      - csharp
+      - visualbasic
+      - javascript
+      - sql
+      - asm
+      - php
+      - r
+      - go
+      - matlab
+      - swift
+      - delphi
+      - ruby
+      - perl
+      - objc
+      - rust
+      title: Lang
+      type: string
+    _api_coding_complete__lang__post_request:
+      properties:
+        beforeContent:
+          description: 编辑器光标前面的代码
+          title: beforeContent
+          type: string
+        afterContent:
+          description: 编辑器光标后面的代码
+          title: afterContent
+          type: string
+      required:
+      - afterContent
+      - beforeContent
+      title: _api_coding_complete__lang__post_request
+      type: object
+    _api_coding_convert__lang__post_request:
+      properties:
+        content:
+          description: 代码内容
+          title: content
+          type: string
+        destLang:
+          $ref: '#/components/schemas/Lang'
+      required:
+      - content
+      - destLang
+      title: _api_coding_convert__lang__post_request
+      type: object
+    _api_coding_explain__lang__post_request:
+      properties:
+        content:
+          description: 代码内容
+          title: content
+          type: string
+      required:
+      - content
+      title: _api_coding_explain__lang__post_request
+      type: object
+    _api_coding_fixError__lang__post_request:
+      properties:
+        content:
+          description: 报错内容
+          title: content
+          type: string
+      required:
+      - content
+      title: _api_coding_fixError__lang__post_request
+      type: object
+    _api_dev_genToken_cap_get_200_response:
+      example:
+        convertLangList:
+        - null
+        - null
+        explainLangList:
+        - null
+        - null
+        genTestLangList:
+        - null
+        - null
+        fixErrorLangList:
+        - null
+        - null
+        completeLangList:
+        - null
+        - null
+      properties:
+        completeLangList:
+          description: 代码补全支持的编程语言列表
+          items:
+            $ref: '#/components/schemas/Lang'
+          title: completeLangList
+          type: array
+        genTestLangList:
+          description: 生成测试代码支持的编程语言列表
+          items:
+            $ref: '#/components/schemas/Lang'
+          title: genTestLangList
+          type: array
+        convertLangList:
+          description: 转换编程语言的支持列表
+          items:
+            $ref: '#/components/schemas/Lang'
+          title: convertLangList
+          type: array
+        explainLangList:
+          description: 代码解释支持的编程语言列表
+          items:
+            $ref: '#/components/schemas/Lang'
+          title: explainLangList
+          type: array
+        fixErrorLangList:
+          description: 根据错误提示给出修复方案支持的编程语言列表
+          items:
+            $ref: '#/components/schemas/Lang'
+          title: fixErrorLangList
+          type: array
+      required:
+      - completeLangList
+      - convertLangList
+      - explainLangList
+      - fixErrorLangList
+      - genTestLangList
+      title: _api_dev_genToken_cap_get_200_response
+      type: object
+    apiDevGenTokenPost_request:
+      properties:
+        contextValue:
+          description: 上下文信息
+          title: contextValue
+          type: string
+        randomStr:
+          description: 随机字符串，加密因子。需要32位长度以上
+          title: randomStr
+          type: string
+        secret:
+          description: 共享密钥
+          title: secret
+          type: string
+      required:
+      - contextValue
+      - randomStr
+      - secret
+      title: apiDevGenTokenPost_request
+      type: object
+    apiDevGenTokenPost_200_response:
+      example:
+        token: token
+      properties:
+        token:
+          description: 登录凭证
+          title: token
+          type: string
+      required:
+      - token
+      title: apiDevGenTokenPost_200_response
+      type: object
