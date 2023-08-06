@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: open-autonomy-client
+Version: 0.1.0
+Summary: Autonomous Service Client SDK
+Home-page: https://github.com/valory-xyz/open-autonomy-client
+Keywords: client,sdk,autonomy,autonomous,autonolas,service,multi,agent
+Author: Yuri (solarw) Turchenkov
+Author-email: solarw.mail@gmail.com
+Maintainer: David Minarsch
+Maintainer-email: david.minarsch@googlemail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Requires-Dist: eth-account (>=0.8.0,<0.9.0)
+Project-URL: Repository, https://github.com/valory-xyz/open-autonomy-client
+Description-Content-Type: text/markdown
+
+# open-autonomy-client
+Autonomous Service Client SDK 
+
