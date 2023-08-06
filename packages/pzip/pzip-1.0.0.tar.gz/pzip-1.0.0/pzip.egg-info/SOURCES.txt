@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pzip/__init__.py
+pzip/__main__.py
+pzip/base.py
+pzip/cli.py
+pzip/reader.py
+pzip/writer.py
+pzip.egg-info/PKG-INFO
+pzip.egg-info/SOURCES.txt
+pzip.egg-info/dependency_links.txt
+pzip.egg-info/entry_points.txt
+pzip.egg-info/requires.txt
+pzip.egg-info/top_level.txt

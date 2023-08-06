@@ -1,0 +1,11 @@
+cryptography
+
+[all]
+deflate
+tqdm
+
+[deflate]
+deflate
+
+[tqdm]
+tqdm
