@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuvem_aws"
+version = "0.11"
+authors = [
+  { name="Marcus Pavan", email="marcus.pavan@nuvem.net" },
+]
+description = "Pacote para controle de operacoes na AWS."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

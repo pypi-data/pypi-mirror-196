@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nuvem-aws
+Version: 0.11
+Summary: Pacote para controle de operacoes na AWS.
+Author-email: Marcus Pavan <marcus.pavan@nuvem.net>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Package Nuvem AWS
+
+Pacote para controle de ações das tarefas AWS ECS.

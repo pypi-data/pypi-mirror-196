@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/nuvem_aws/__init__.py
+src/nuvem_aws/ecs.py
+src/nuvem_aws.egg-info/PKG-INFO
+src/nuvem_aws.egg-info/SOURCES.txt
+src/nuvem_aws.egg-info/dependency_links.txt
+src/nuvem_aws.egg-info/top_level.txt
