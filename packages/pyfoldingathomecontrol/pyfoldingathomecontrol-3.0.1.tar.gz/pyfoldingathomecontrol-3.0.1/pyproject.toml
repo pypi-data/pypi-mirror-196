@@ -1,0 +1,84 @@
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "PyFoldingAtHomeControl"
+version = "3.0.1"
+description = "Python library to get stats from your Folding@Home Clients"
+license = "MIT"
+authors = ["Kevin Stillhammer <kevin.stillhammer@gmail.com>"]
+readme = "README.md"
+repository = "http://github.com/eifinger/PyFoldingAtHomeControl"
+keywords = [
+    "Folding@Home",
+    "asyncio"
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License"
+]
+packages = [
+    { include = "FoldingAtHomeControl" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+blacken-docs = "^1.13.0"
+coverage = {version = "^7.2.1", extras = ["toml"]}
+codecov = "^2.1.12"
+codespell = "^2.2.4"
+mypy = "1.1.1"
+pre-commit = "3.1.1"
+pre-commit-hooks = "^4.4.0"
+pytest = "7.2.2"
+pytest-cov = "4.0.0"
+pytest-asyncio = "0.20.3"
+pytest-mock = "3.10.0"
+vulture = "^2.7"
+yamllint = "^1.29.0"
+ruff = "^0.0.254"
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report term-missing --cov-report xml --cov=FoldingAtHomeControl tests"
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["pragma: no cover", "if TYPE_CHECKING:"]
+
+[tool.ruff]
+ignore = ['E501']
+line-length = 88
+select = [
+    'B',
+    'B9',
+    'C',
+    'E',
+    'F',
+    'W',
+]
+fix = true
+
+[tool.ruff.mccabe]
+max-complexity = 12
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.vulture]
+min_confidence = 80
+paths = ["FoldingAtHomeControl", "tests"]
+
+[tool.semantic_release]
+version_toml = "pyproject.toml:tool.poetry.version"
+build_command = "pip install poetry && poetry build"
+commit_subject = "chore(release): {version}"
+branch = "main"
