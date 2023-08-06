@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pydantic-dict-encoders
+Version: 0.1
+Summary: Pydantic mixins for support custom encoding dict
+License: MIT
+Author: Ivan Galin
+Author-email: i.galin@devartsteam.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1,<2)
+Description-Content-Type: text/markdown
+
+# Pydantic Dict Encoders
+
+Simple wrapper of pydantic for support custom dict encoders like json encoders
+
