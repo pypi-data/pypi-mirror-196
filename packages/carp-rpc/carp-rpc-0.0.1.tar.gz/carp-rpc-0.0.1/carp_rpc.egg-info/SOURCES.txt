@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+carp/__init__.py
+carp_rpc.egg-info/PKG-INFO
+carp_rpc.egg-info/SOURCES.txt
+carp_rpc.egg-info/dependency_links.txt
+carp_rpc.egg-info/requires.txt
+carp_rpc.egg-info/top_level.txt
