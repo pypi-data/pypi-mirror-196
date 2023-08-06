@@ -1,0 +1,9 @@
+toml
+click
+jinja2
+mkdocs
+mkdocs-material
+mkdocstrings[python]
+mkdocs-awesome-pages-plugin
+mkdocs-enumerate-headings-plugin
+mkdocs-print-site-plugin

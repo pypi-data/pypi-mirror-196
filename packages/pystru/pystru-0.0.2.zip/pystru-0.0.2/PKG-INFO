@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pystru
+Version: 0.0.2
+Summary: Provide a quick way to set up the structure of a Python project.
+Home-page: https://hsiangjenli.github.io/pystru
+Author: Hsiang-Jen Li
+Author-email: hsiangjenli@gmail.com
+Description-Content-Type: text/markdown
+
+# **myPythonProject**

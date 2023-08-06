@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pystru"
+version = "0.0.2"
+dependencies = [
+    "toml",
+    "click",
+    "jinja2",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    "mkdocs-awesome-pages-plugin",
+    "mkdocs-enumerate-headings-plugin",
+    "mkdocs-print-site-plugin",
+]
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]

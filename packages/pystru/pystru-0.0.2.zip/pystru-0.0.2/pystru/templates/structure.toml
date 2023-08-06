@@ -1,0 +1,14 @@
+[tiny]
+    [tiny.file.jinja2]
+        README = "README.md"
+    [tiny.file.copy]
+        requirements = "requirements.txt"
+        Makefile = "Makefile"
+    [tiny.folder]
+        docs = "docs"
+
+[basic]
+    [basic.file.jinja2]
+        mkdocs_yml = "mkdocs.yml"
+    [basic.file.copy]
+        gitignore = ".gitignore"
