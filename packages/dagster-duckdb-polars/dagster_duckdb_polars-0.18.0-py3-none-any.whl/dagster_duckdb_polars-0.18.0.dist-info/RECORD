@@ -1,0 +1,9 @@
+dagster_duckdb_polars/__init__.py,sha256=NcIwaC0oW3i_YR42QaFQbpM15LH8FeIVI85vjY6Vu64,322
+dagster_duckdb_polars/duckdb_polars_type_handler.py,sha256=UDyev3D66B7BHGa7d0l0ZsulQQcouDx3l4bDRPonRpk,4725
+dagster_duckdb_polars/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+dagster_duckdb_polars/version.py,sha256=0EHw4xygmgkGSyfwNfEoMlQyN0uHxjHtlSFF79s6120,23
+dagster_duckdb_polars-0.18.0.dist-info/LICENSE,sha256=-gtoVIAZYUHYmNHISZg982FI4Oh19mV1nxgTVW8eCB8,11344
+dagster_duckdb_polars-0.18.0.dist-info/METADATA,sha256=kDCAepHI994zZZ-3oS0kgHYhcSpmjhTWOYrDlYFrDro,767
+dagster_duckdb_polars-0.18.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_duckdb_polars-0.18.0.dist-info/top_level.txt,sha256=7MP7uBpgh765Je4ZsKKzDdHH2hJ8S_8SFI8DRA6dr44,22
+dagster_duckdb_polars-0.18.0.dist-info/RECORD,,
