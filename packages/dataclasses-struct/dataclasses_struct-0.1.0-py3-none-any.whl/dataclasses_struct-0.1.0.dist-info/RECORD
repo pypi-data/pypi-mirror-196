@@ -1,0 +1,12 @@
+dataclasses_struct/__init__.py,sha256=TiwGsEmHJqriTUOESVN_vLr4KloVCaMzLdHwpTMVvII,687
+dataclasses_struct/dataclass.py,sha256=Bwxs6xrj2VZkUSbSIQcJDzUx0hEJjKRB-5jZ32eFu2s,3509
+dataclasses_struct/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclasses_struct/ext/mypy_plugin.py,sha256=oPSmZgjjmdnNtrxiRyJ1hv-VVmII30bzvTRyyYhUYzQ,1713
+dataclasses_struct/field.py,sha256=wbCtaiauciHIyesSUcPMXMYeE2aKRMwZQeY5ZI37VSY,4284
+dataclasses_struct/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclasses_struct/sizes.py,sha256=STcdtaa5Trcv9hCzjmx56m4TijJOLcwOuIuhVee4F68,353
+dataclasses_struct/types.py,sha256=vJY4bSkvfa4dhVFT55qmpCPXE97dkzsaIr4fHJyb__I,910
+dataclasses_struct-0.1.0.dist-info/LICENSE,sha256=r1w41ViAZi6AeU0QtfdPDACT85L02piCi0u5P-OpaAc,1079
+dataclasses_struct-0.1.0.dist-info/METADATA,sha256=qBGnNbeEXaxv5CItVTufvDIkuEsS5Glob2KQOMJTZGo,3915
+dataclasses_struct-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+dataclasses_struct-0.1.0.dist-info/RECORD,,
