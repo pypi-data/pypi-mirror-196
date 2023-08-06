@@ -1,0 +1,61 @@
+#define PY_SSIZE_T_CLEAN
+#include <Python.h>
+
+extern PyTypeObject StackType;
+extern PyTypeObject LinkedType;
+extern PyTypeObject RingBufferType;
+
+static PyObject *
+magic(PyObject *self, PyObject *args)
+{
+    return Py_BuildValue("i", 0x7f454c46);
+}
+
+const char mithril[] = "\nIn the land of Python, where libraries thrive,\n"
+                       "There lies a function that will revive.\n"
+                       "It returns the magic of Middle-earth lore,\n"
+                       "The ELF that you seek is at the core.This is a magic function\n";
+
+static PyMethodDef StructuraMethods[] = {
+    {"magic", magic, METH_VARARGS, mithril},
+    {NULL, NULL, 0, NULL},
+};
+
+static struct PyModuleDef structuramodule = {
+    PyModuleDef_HEAD_INIT,
+    "structura",
+    "Python interface for the Structura library.",
+    -1,
+    StructuraMethods,
+};
+
+PyMODINIT_FUNC PyInit_structura(void)
+{
+    PyObject *module = PyModule_Create(&structuramodule);
+
+    /* Add int constant by name */
+    PyModule_AddIntConstant(module, "ANSWER", 42);
+
+    /* Add RingBuffer type */
+    if (PyType_Ready(&RingBufferType) < 0)
+        return NULL;
+
+    Py_INCREF(&RingBufferType);
+    PyModule_AddObject(module, "RingBuffer", (PyObject *)&RingBufferType);
+
+    /* Add Stack type */
+    if (PyType_Ready(&StackType) < 0)
+        return NULL;
+
+    Py_INCREF(&StackType);
+    PyModule_AddObject(module, "Stack", (PyObject *)&StackType);
+
+    /* Add LinkedList type */
+    if (PyType_Ready(&LinkedType) < 0)
+        return NULL;
+
+    Py_INCREF(&LinkedType);
+    PyModule_AddObject(module, "LinkedList", (PyObject *)&LinkedType);
+
+    return module;
+}
