@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+marude/CloudVoiceClient.py
+marude/__init__.py
+marude/__main__.py
+marude.egg-info/PKG-INFO
+marude.egg-info/SOURCES.txt
+marude.egg-info/dependency_links.txt
+marude.egg-info/requires.txt
+marude.egg-info/top_level.txt
