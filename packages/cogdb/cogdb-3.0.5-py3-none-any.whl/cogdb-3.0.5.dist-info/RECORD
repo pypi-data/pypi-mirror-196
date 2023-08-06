@@ -1,0 +1,12 @@
+cog/__init__.py,sha256=qJ19vLszdLBXEbgMm7wV2kEGbcUNtPgB6ecGEpaQ03k,35
+cog/cache.py,sha256=ibEb4BPZSpiyw9NJ_G7xONU3M-LZEBwmm-CsB2fMsWE,1236
+cog/config.py,sha256=dYOdhu3_iEyKXc0UkMVBgFW9iUHMADDpa0v0swYQSR0,1873
+cog/core.py,sha256=K3E2lbumpUqIfX4ArCk40pzNEuTFTmCwRSBGxjJkwz0,18891
+cog/database.py,sha256=ThffN2lnc6VlQx8gfZl50x4WoP6w7xLd1TVib-XBufA,16425
+cog/torque.py,sha256=-cfAkr-5pacTcY8K5USKdapcxVyIgwCzOwVWYdOXN70,24082
+cog/view.py,sha256=MKoia0udccNqPxSRm4CjXj1VLtPgtsummbEmuVX8m50,1922
+cogdb-3.0.5.dist-info/LICENSE,sha256=0pcfHTUx6x8bbOshcNK2GrXQuANDRIXtJ4oWrP8hzZY,1070
+cogdb-3.0.5.dist-info/METADATA,sha256=akMKU0C_HpitT4BH6jAAPNJ41ykaobYlpd2m3hXgdtk,260
+cogdb-3.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cogdb-3.0.5.dist-info/top_level.txt,sha256=fYcp0fIblT53_uhUuwnYmCm9avvKFlFsrdS_1KOdu4c,4
+cogdb-3.0.5.dist-info/RECORD,,
