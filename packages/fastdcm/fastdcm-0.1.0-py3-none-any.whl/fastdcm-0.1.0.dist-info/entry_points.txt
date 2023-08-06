@@ -1,0 +1,3 @@
+[console_scripts]
+fastdcm=fastdcm.__main__:app
+
