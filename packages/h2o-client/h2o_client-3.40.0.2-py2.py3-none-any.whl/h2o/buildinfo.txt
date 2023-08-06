@@ -1,0 +1,1 @@
+versionFromGradle='3.40.0',projectVersion='3.40.0.2',branch='rel-zz_kurka',lastCommitHash='8c77ce3c7e274a73ac5ab0ccf48e845f01362e42',gitDescribe='jenkins-master-6107-52-g8c77ce3',compiledOn='2023-03-09 15:20:29',compiledBy='jenkins'
