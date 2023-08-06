@@ -1,0 +1,13 @@
+setup.py,sha256=T7NCcnHcI6LsLBVBApkTVv-xLtm2tRk-V1SrPxeWP50,239
+examples/interactive.py,sha256=4P4OIuKzevim9hS9aUqTYdkgOQ0fINA3UFYS2Vt--wE,476
+examples/quordle.py,sha256=hqx-yOhgscyUT3ZAui76WbApyF_pvLYoFzpOje3FZPc,1306
+examples/simple.py,sha256=B5u8UBrFuUZptF5HjbuHBMjqrMGgZzzq87UxJmNsyPk,350
+examples/solutions.py,sha256=t6CvxlENCuOSH3DBApKJX725NzHybHZ0fqd-BYUby9M,30111
+pywordle/__init__.py,sha256=AGN0zt74CT7cl17oZMx-kIxXcLK0K5iRocF5LTtTfus,57
+pywordle/game.py,sha256=nWZkJg6KxTCVSzKYqyosEioZXVhxN6yRFx3WEat2Trc,7046
+pywordle/wordle.py,sha256=u5W8bTp8Hlm_Sm6uVSYk2uE2_32HLNjZCQ67IaYTZfk,1162
+pywordle/words.py,sha256=zwLjf3h6h_InfnHF_GqqW2ExV84OyVkpChoBwlZTWVg,168654
+pywordle2-0.0.0.5.dist-info/METADATA,sha256=1SqajEZgFNetoh89qaKt6bnewnk3OlBwAKYhLQW7I_c,2131
+pywordle2-0.0.0.5.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pywordle2-0.0.0.5.dist-info/licenses/LICENSE,sha256=7JI8bUenLfwYGcSH3FoP8ecf36L3to8xrpcgn9NEoTw,1068
+pywordle2-0.0.0.5.dist-info/RECORD,,
