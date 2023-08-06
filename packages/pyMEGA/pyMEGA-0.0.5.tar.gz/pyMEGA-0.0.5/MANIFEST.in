@@ -1,0 +1,3 @@
+include README.md
+include MEGA/data/*
+include MEGA/r_scripts/*
