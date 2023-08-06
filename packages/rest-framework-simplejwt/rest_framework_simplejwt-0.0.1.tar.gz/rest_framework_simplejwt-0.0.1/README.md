@@ -1,0 +1,1 @@
+This package was created to prevent package name-based dependency confusion in pipreqs.
