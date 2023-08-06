@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: flet-route
+Version: 0.1.1
+Author: Saurabh Wadekar [ INDIA ]
+Maintainer: Saurabh Wadekar
+Maintainer-email: saurabhwadekar420@gmail.com
+License: MIT
+Keywords: flet,routing,flet simple routing
+Requires: flet
+Requires: repath
+License-File: LICENSE
