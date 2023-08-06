@@ -1,0 +1,1 @@
+from .stamp_tool import StampTool
