@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ghstars
+Version: 0.1.1
+Summary: Collect and render most notable stargazers for your GitHub projects.
+Keywords: github,stars,stargazers,scraping,graphql,api
+Author-email: Gram <git@orsinium.dev>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
+Requires-Dist: gql[aiohttp]
+Requires-Dist: jinja2
+Requires-Dist: backoff
+Requires-Dist: flake8 ; extra == "lint"
+Requires-Dist: isort ; extra == "lint"
+Requires-Dist: mypy ; extra == "lint"
+Requires-Dist: types-requests ; extra == "lint"
+Requires-Dist: types-toml ; extra == "lint"
+Requires-Dist: unify ; extra == "lint"
+Project-URL: Source, https://github.com/orsinium-labs/ghstars
+Provides-Extra: lint
+
+# ghstars
+
+A CLI tool to collect and render as a staic website most notable stargazers for your GitHub projects.
+
+Demo: [stars.orsinium.dev](https://stars.orsinium.dev/)
+
+## Usage
+
+1. Install: `python3 -m pip install ghstars`
+1. [Generate GitHub API token](https://github.com/settings/tokens)
+1. Fetch data: `ghstars fetch --token YOUR_TOKEN --orgs YOUR_ORG`
+1. Generate HTML: `ghstars render`
+
