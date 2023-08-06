@@ -1,0 +1,17 @@
+
+[dev]
+build
+twine
+black
+isort
+ruff
+pyright
+pytest
+pytest-cov
+pytest-xdist
+hypothesis
+
+[docs]
+mkdocs
+mkdocs-material
+mkdocstrings[python]
