@@ -1,0 +1,2 @@
+[console_scripts]
+utub3 = utub3.cli:main
