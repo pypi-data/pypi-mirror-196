@@ -1,0 +1,8 @@
+{
+  "test/test_api.py::test_concat": true,
+  "test/test_api.py::test_basic_track[combined-CombinedTrack]": true,
+  "test/test_api.py::test_creates_correct_track[track_type69-CombinedTrack]": true,
+  "docs/conf.py": true,
+  "src/higlass/fuse/_httpfs.py": true,
+  "test/test_utils.py::test_ensure_list": true
+}
