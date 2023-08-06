@@ -1,0 +1,14 @@
+numpy
+jpype1>=1.3.0
+scyjava>=1.3.0
+
+[dev]
+autopep8
+black
+build
+flake8
+isort
+pytest
+pytest-cov
+toml
+validate-pyproject[all]
