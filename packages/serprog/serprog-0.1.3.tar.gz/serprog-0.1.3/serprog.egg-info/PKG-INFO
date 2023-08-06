@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: serprog
+Version: 0.1.3
+Summary: A serial and secure programming tool for microcontroller.
+Home-page: https://github.com/cy023/SerProg
+Author: cy023
+Author-email: cyyang023@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SerProg
+A serial and secure programming tool for microcontroller.
+
+### Reference project
+- [SAME54BOOT]
+  Bootloader for Microchip SAME54 series MCU (ARM Cortex-M4F)
+- [NuM487BOOT]
+  Bootloader for Nuvoton M480 series MCU (ARM Cortex-M4F)
+
+### Bootloader Protocol
+
+### Secure Boot
+
+### Reference
+asaloader (https://gitlab.com/MVMC-lab/hervor/asaloader)
+
+Special thanks to LiYu87 for his early contributions to this project.
