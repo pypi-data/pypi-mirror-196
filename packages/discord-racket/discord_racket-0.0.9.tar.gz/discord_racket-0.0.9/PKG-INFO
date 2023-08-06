@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: discord-racket
+Version: 0.0.9
+Summary: Discord bot utility framework.
+Project-URL: Homepage, https://github.com/burtonwilliamt/racket
+Project-URL: Bug Tracker, https://github.com/burtonwilliamt/racket/issues
+Author-email: William Burton <13026711+burtonwilliamt@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: discord-py>=2.2.0
+Description-Content-Type: text/markdown
+
+# Racket
+Discord bot utilities.
+
+I write discord bots for a small discord server with friends. This repo is a
+collection of shared utilities I find myself re-writing for each bot.
+
+I have no idea if these utilities would scale well to a large bot, or if they
+are bug free. They work pretty well for our small-scale usage.
