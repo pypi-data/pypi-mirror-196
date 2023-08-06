@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: airflow-provider-snowservices
+Version: 0.0.0a0
+Summary: A short description of the package
+Home-page: https://github.com/astronomer/airflow-provider-snowservices
+Author: Osborne Reynolds
+Author-email: osborne.reynolds@airflow.com
+License: Apache License 2.0
+Project-URL: Source Code, https://github.com/astronomer/airflow-provider-snowservices
+Project-URL: Homepage, https://github.com/astronomer/airflow-provider-snowservices
+Project-URL: Changelog, https://github.com/astronomer/airflow-provider-snowservices/blob/main/CHANGELOG.md
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# Snow Services
+---
