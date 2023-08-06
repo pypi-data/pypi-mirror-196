@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cdpDumpingUtils/__init__.py
+cdpDumpingUtils/main.py
+cdpDumpingUtils/version.py
+cdpDumpingUtils.egg-info/PKG-INFO
+cdpDumpingUtils.egg-info/SOURCES.txt
+cdpDumpingUtils.egg-info/dependency_links.txt
+cdpDumpingUtils.egg-info/entry_points.txt
+cdpDumpingUtils.egg-info/requires.txt
+cdpDumpingUtils.egg-info/top_level.txt
