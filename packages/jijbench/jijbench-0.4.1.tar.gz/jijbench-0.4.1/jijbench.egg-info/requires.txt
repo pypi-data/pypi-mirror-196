@@ -1,0 +1,9 @@
+jijzept<1.14.0
+jijmodeling<0.11.0
+numpy<1.25.0,>1.23.0
+pandas<1.6.0,>1.5.0
+plotly<5.14.0,>=5.13.0
+matplotlib<3.7.0,>=3.6.0
+nbformat<5.8.0,>=5.7.0
+networkx<3.0,>=2.0
+dill<0.4.0
