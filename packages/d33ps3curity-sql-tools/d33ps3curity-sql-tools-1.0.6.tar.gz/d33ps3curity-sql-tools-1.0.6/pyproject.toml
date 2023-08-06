@@ -1,0 +1,33 @@
+[build-system]
+requires        = ["setuptools>=61.0.1", "wheel"]
+build-backend   = "setuptools.build_meta"
+
+
+[project]
+name = "d33ps3curity-sql-tools"
+version = "1.0.6"
+description = "A Django middleware package to print out queries to the terminal"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Ajay-2007", email = "d33ps3curity@gmail.com" },
+]
+
+dependencies = [
+    "Pygments>=2.14.0", "sqlparse>=0.4.3",
+]
+
+
+requires-python = ">=3.8"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+
+[tool.setuptools.packages.find]
+include = ["d33ps3curity-sql-tools"]
+
+
+[project.urls]
+Homepage = "https://github.com/Ajay-2007/django-sql-middleware-package/"
