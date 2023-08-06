@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dknovautils
+Version: 0.0.2
+Summary: This is the tools for dknova.
+Home-page: http://example.com
+Author: dknova
+Author-email: dknova@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+# Learning python
+
+This is a simple example package. 
+
+just for learning how to build a package.
+
+
+rm ./dist/*tar.gz
+python3 setup.py sdist build
+export PATH=$PATH:~/.local/bin
+twine upload dist/*
+
+       输入用户名 密码 即可完成上传。
+
+
+
+
+
+
