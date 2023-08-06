@@ -1,0 +1,17 @@
+dask-image
+napari==0.4.17rc8
+numpy
+opencv-python-headless
+pandas
+pyyaml
+qtpy
+scikit-image
+tables
+
+[testing]
+napari
+pyside6<6.3.2
+pytest
+pytest-cov
+pytest-qt
+tox
