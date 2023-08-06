@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+palettepy/__init__.py
+palettepy/config.py
+palettepy/palettepy.py
+palettepy/printer.py
+palettepy/states.py
+palettepy/utils.py
+palettepy.egg-info/PKG-INFO
+palettepy.egg-info/SOURCES.txt
+palettepy.egg-info/dependency_links.txt
+palettepy.egg-info/top_level.txt
