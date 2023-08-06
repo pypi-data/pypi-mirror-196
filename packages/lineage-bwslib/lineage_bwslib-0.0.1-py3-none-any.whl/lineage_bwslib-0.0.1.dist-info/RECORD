@@ -1,0 +1,7 @@
+bwslib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bwslib/bws_auth.py,sha256=l1XgLt4mLypwx31e0NyP9UyCNhWtGi7IXXqLML3nhdU,13656
+bwslib/sseclient.py,sha256=xWK6DVDHEsw4CrxiugvKBcbTkhPMZQXQNMu0VDd1-gI,6513
+lineage_bwslib-0.0.1.dist-info/METADATA,sha256=g0a8y-CTeNSPJDYwoxP0mZAmTM6HnTxA4boqv0QxXEA,270
+lineage_bwslib-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lineage_bwslib-0.0.1.dist-info/top_level.txt,sha256=MR-dfiYd0rSnAqoC-Kj2iUGPAm19EA9H1pABBcpM6I0,7
+lineage_bwslib-0.0.1.dist-info/RECORD,,
