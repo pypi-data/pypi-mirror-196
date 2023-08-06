@@ -1,0 +1,11 @@
+setup.py
+veryhardmodule/__init__.py
+veryhardmodule/add.py
+veryhardmodule/subtract.py
+veryhardmodule.egg-info/PKG-INFO
+veryhardmodule.egg-info/SOURCES.txt
+veryhardmodule.egg-info/dependency_links.txt
+veryhardmodule.egg-info/top_level.txt
+veryhardmodule/extras/__init__.py
+veryhardmodule/extras/divide.py
+veryhardmodule/extras/multiply.py
