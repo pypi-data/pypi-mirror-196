@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: picsexl
+Version: 0.1.4
+Summary: Converter from ics format to xls
+Home-page: https://github.com/pog7x/picsexl
+Author: pog7x
+Author-email: poluningm@gmail.com
+License: MIT
+Keywords: python calendar ics excel recurring
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# picsexl
+
+[![PyPI](https://img.shields.io/pypi/v/picsexl?color=eb345b)](https://pypi.org/project/picsexl/)
+[![License](https://img.shields.io/github/license/pog7x/picsexl?color=eb345b)](https://github.com/pog7x/picsexl/blob/master/LICENSE)
+
+## Converter from ics format to xls
+
+### Installation
+
+```bash
+pip install picsexl
+```
+
+### Example
+```python
+from datetime import datetime, timezone
+from picsexl import PIcsExl
+
+p = PIcsExl(
+    file_path="/path/to/your/file.ics",
+    mail_to="some.email@gmail.com",
+    start_date=datetime(2022, 10, 1, 0, 0, 0, tzinfo=timezone.utc),
+    end_date=datetime(2022, 10, 30, 23, 59, 59, tzinfo=timezone.utc),
+    to_timezone="America/Los_Angeles",
+)
+p.run_sniff_and_write_ics_lines()
+```
