@@ -1,0 +1,3 @@
+[console_scripts]
+downloadGWAlerts = gkligo.utils.python.downloadGWAlerts:main
+

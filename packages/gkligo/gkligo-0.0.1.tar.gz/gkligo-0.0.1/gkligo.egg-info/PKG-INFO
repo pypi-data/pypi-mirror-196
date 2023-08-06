@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: gkligo
+Version: 0.0.1
+Summary: GW (LIGO) utilities
+Home-page: https://github.com/genghisken/gkligo
+Author: genghisken
+Author-email: ken.w.smith@gmail.com
+License: MIT
+Description: # gkligo
+        Code to download GW Alert skymaps from Kafka, and optionally write them
+        out and/or convert them to MOC files at specified contours.
+        
+        The code is based on code written by Roy Williams and Leo Singer.
+        
+        It requires the following python packages:
+        
+        * gcn-kafka
+        * healpy
+        * gkutils
+        * docopt
+        * pyYAML
+        * numpy
+        * ligo.skymap
+        * astropy
+        * mocpy
+        
+        The command line utilities are:
+        * downloadGWAlert (Download the alert from Kafka)
+        
+        The config_example.yaml file is an example config file. Copy it and rename to config.yaml.
+        Get your credentials by following the first part of the [Kafka Notices via GCN](https://emfollow.docs.ligo.org/userguide/tutorial/receiving/gcn.html) tutorial. Leave the topics configuration unchanged.
+        
+        TO DO:
+        * Convert into a Daemon
+        * Create a log file
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
