@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+ClashOfClans.py.egg-info/PKG-INFO
+ClashOfClans.py.egg-info/SOURCES.txt
+ClashOfClans.py.egg-info/dependency_links.txt
+ClashOfClans.py.egg-info/requires.txt
+ClashOfClans.py.egg-info/top_level.txt
+coc/__init__.py
+coc/client.py
+coc/utils/__init__.py
+coc/utils/exception.py
+coc/utils/headers.py
+coc/utils/objects.py
