@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-easy-tools
+Version: 0.1.2
+Summary: tools
+License: Apache-2.0
+Author: pumingzheng
+Author-email: pumz_1991@126.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: case-convert (>=1.1.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# easy_tools
+test
+
