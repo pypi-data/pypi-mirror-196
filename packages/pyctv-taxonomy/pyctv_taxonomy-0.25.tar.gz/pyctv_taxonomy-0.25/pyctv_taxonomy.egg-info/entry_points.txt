@@ -1,0 +1,4 @@
+[console_scripts]
+pyctv.py = pyctv_lib.pyctv:run
+pyctv_taxonomy.py = pyctv_lib.pyctv:run
+
