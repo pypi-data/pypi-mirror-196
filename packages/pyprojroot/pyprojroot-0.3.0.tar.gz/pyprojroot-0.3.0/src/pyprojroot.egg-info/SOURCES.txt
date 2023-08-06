@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyprojroot/__init__.py
+src/pyprojroot/criterion.py
+src/pyprojroot/here.py
+src/pyprojroot/py.typed
+src/pyprojroot/pyprojroot.py
+src/pyprojroot/root.py
+src/pyprojroot.egg-info/PKG-INFO
+src/pyprojroot.egg-info/SOURCES.txt
+src/pyprojroot.egg-info/dependency_links.txt
+src/pyprojroot.egg-info/requires.txt
+src/pyprojroot.egg-info/top_level.txt
+tests/test_here.py
