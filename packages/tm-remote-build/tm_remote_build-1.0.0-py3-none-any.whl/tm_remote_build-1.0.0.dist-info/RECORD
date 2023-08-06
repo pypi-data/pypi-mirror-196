@@ -1,0 +1,9 @@
+tm_remote_build/__init__.py,sha256=KboyyqmQBfFwrbK9P8iZEWMwspttr-K8YCMJPwr88o0,1564
+tm_remote_build/api.py,sha256=xVAtZ-pl7q4_YXqw0JXWCIrRxeH0WvnlejvJ8ByNRHo,5594
+tm_remote_build/log.py,sha256=EgB0Sfz97qNHI5uQyVwlfsOcQWVaHJnY8ZWo3-fnD_I,1943
+tm_remote_build/package.py,sha256=gRSSDW9w3NPsaR4Z_aK--xw4vov5VkelPtwfiHlyuro,1231
+tm_remote_build-1.0.0.dist-info/entry_points.txt,sha256=6MEfV3jdJoopxbR5y9BF0pjGLuyoXSTfOrGXLqDSoPs,56
+tm_remote_build-1.0.0.dist-info/LICENSE,sha256=9Bgj5eBPesMdyTGPdowFtFMnvTveGYuDcs6MrjLcK6E,1068
+tm_remote_build-1.0.0.dist-info/METADATA,sha256=Bj_eFS7giqgxT2yPSfT0HtFEcXEpqRIEkHi5heQfiZE,597
+tm_remote_build-1.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+tm_remote_build-1.0.0.dist-info/RECORD,,
