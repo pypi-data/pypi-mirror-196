@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: oggm
+Version: 1.6.0
+Summary: Open Global Glacier Model
+Home-page: https://oggm.org
+Author: OGGM Contributors
+Author-email: fabien.maussion@uibk.ac.at
+License: BSD 3-clause
+Project-URL: Documentation, https://oggm.readthedocs.io/
+Project-URL: Source, https://github.com/OGGM/oggm
+Project-URL: Tracker, https://github.com/OGGM/oggm/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8

@@ -1,0 +1,9 @@
+configobj
+matplotlib
+netcdf4
+numpy
+pandas
+requests
+scipy
+shapely
+xarray
