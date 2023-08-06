@@ -1,0 +1,9 @@
+zurich/__init__.py,sha256=XRvSvsjz7BP9RhmYYjYRB6Px_30QvusLunR5zhEAvQg,317
+zurich/exceptions.py,sha256=es7FdtuFZEG-V1_5Diy0jSVcEYJc8umGUz5MCd4liEM,272
+zurich/models.py,sha256=a6D9pWKFLWfwVAGrHgDGWBoI-o09v2Lgj81nAOl9GTk,881
+zurich/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zurich/zurich.py,sha256=hgg70krd9dEvIpMzrHHICxF2d8AsteCp2n4leVVFqG4,4426
+zurich-0.2.0.dist-info/LICENSE,sha256=12ArXAGU6Yp3mGRn1B2SiJBD_3cnCcK_IDn6VvkqIxc,1077
+zurich-0.2.0.dist-info/METADATA,sha256=2wiKbK5hbfizRE3Pa0L1rj3l-lJBEUG0L-2x25pQEXc,8722
+zurich-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+zurich-0.2.0.dist-info/RECORD,,
