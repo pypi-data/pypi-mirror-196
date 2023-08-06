@@ -1,0 +1,7 @@
+setup.py
+windows_event_log_watcher.egg-info/PKG-INFO
+windows_event_log_watcher.egg-info/SOURCES.txt
+windows_event_log_watcher.egg-info/dependency_links.txt
+windows_event_log_watcher.egg-info/entry_points.txt
+windows_event_log_watcher.egg-info/requires.txt
+windows_event_log_watcher.egg-info/top_level.txt
