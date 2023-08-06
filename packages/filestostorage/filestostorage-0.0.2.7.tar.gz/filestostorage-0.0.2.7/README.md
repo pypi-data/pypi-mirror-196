@@ -1,0 +1,49 @@
+This package is used to store files in mongodb
+### filestostorage
+
+##### Packages included
+`$ pip install pymongo`
+For connecting python to mongodb
+`$ pip install gridfs-fuse`
+For performing read/write operations on mongodb
+
+#### Installation
+`$ pip install filestostorage`
+NOTE:This package currently supports upto Python version 3.9
+
+Project is still under development  :)
+Currently supported for storing files in mongodb
+
+#### Usage
+
+
+##### Import statement:
+```import filestostorage as ft```
+
+##### Mongo Connection
+Create a Database object
+```db = ft.mongo_conn()```
+This function will prompt to Enter MongoUrl
+##### Upload File
+To upload file use the below command
+```ft.upload_file("FILE PATH","FILENAME",db)```
+
+```ft.upload_file("/Users/Desktop/test/image1.jpeg","file_name",db)```
+##### Download File
+To download_files use the below command:
+```ft.download_file("DOWNLOAD LOCATION","FILE NAME",db)```
+
+```ft.download_file("/Users/Desktop/myimage.jpeg","file_name",db)```
+ In 2nd parameter use the same file name which was used while uploading the file
+ 
+##### Overall
+```
+
+import filestostorage as ft
+
+db = ft.mongo_conn()   #connect to database via url
+
+ft.upload_file("file_path","file_name",db) #command to upload file
+
+ft.download_file("download_location","file_name(same as upload)",db)#command to download file
+```
