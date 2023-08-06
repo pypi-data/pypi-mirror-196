@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: custom-nester
+Version: 1.1.0
+Summary: A simple printer of nested lists
+Home-page: https://github.com/arielden/
+Author: arielden
+Author-email: arieldenaro@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+custom_nester
+=======
+
+What is this?
+--------------
+
+This is a module crated basically for test and learning purpose.
+
+custom_nester.py module, provides the function called
+print_lol() which prints lists that may or may not include nested lists.
+
+
+Requirements
+------------
+
+* python >= 3.9
+
+
+Credits
+------------
+
+Ariel Denaro
+
