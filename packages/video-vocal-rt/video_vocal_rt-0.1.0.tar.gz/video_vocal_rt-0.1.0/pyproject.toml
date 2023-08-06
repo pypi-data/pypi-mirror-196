@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "video-vocal-rt"
+version = "0.1.0"
+description = ""
+authors = ["Loonan Chauvette <loonan.chauvette@gmail.com>"]
+readme = "README.md"
+packages = [{include = "video_vocal_rt"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+moviepy = "^1.0.3"
+sounddevice = "^0.4.6"
+scipy = "^1.10.1"
+opencv-python = "^4.7.0.72"
+numpy = "^1.24.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
