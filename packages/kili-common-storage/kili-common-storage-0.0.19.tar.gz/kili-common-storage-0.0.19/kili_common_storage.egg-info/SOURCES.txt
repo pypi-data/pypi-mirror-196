@@ -1,0 +1,11 @@
+README.md
+setup.py
+kili_common_storage/__init__.py
+kili_common_storage/decorator.py
+kili_common_storage/loggings.py
+kili_common_storage/object_storage.py
+kili_common_storage.egg-info/PKG-INFO
+kili_common_storage.egg-info/SOURCES.txt
+kili_common_storage.egg-info/dependency_links.txt
+kili_common_storage.egg-info/requires.txt
+kili_common_storage.egg-info/top_level.txt
