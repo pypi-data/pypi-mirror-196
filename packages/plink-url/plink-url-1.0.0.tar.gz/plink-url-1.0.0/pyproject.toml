@@ -1,0 +1,29 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plink-url"
+version = "1.0.0"
+description = "Recursively analyse a URL and it's children"
+readme = "README.md"
+authors = [{ name = "Jessica Ward", email = "jessicawardiom@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["cli", "url", "link", "analysis", "network", "test"]
+dependencies = [
+    "beautifulsoup4 >= 4.11.2",
+    "requests >= 2.28.2",
+    "termcolor >= 2.2.0"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/Jessicaward/plink"
+
+[project.scripts]
+realpython = "plink.__main__:main"
