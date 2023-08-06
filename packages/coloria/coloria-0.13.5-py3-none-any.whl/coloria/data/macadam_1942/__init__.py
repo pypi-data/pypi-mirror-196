@@ -1,0 +1,1 @@
+from ..._agg import _7vCXY as MacAdam1942, _jJisd as ColorCoordinates, _hGEcy as ColorSpace, _fcXfj as convert, _ILSOL as whitepoints_cie1931, _Q0AIl as ColorDistanceDataset, _CZD44 as create_cs_class_instance
