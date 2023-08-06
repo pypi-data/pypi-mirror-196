@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: irsviz23
+Version: 0.3.0
+Summary: A demonstration project for packaging a Bokeh application.
+Keywords: 
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bokeh >= 3.0
+Requires-Dist: pandas >= 1.5
+
+# irsviz2023
+

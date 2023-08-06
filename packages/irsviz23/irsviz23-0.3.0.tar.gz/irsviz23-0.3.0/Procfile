@@ -1,0 +1,1 @@
+web: bokeh serve --port=$PORT --allow-websocket-origin=sheltered-tor-77830.herokuapp.com --address=0.0.0.0 --use-xheaders src/irsviz23 --args viewer_data_27.json 

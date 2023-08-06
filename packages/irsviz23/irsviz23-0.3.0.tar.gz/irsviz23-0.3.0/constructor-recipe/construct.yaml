@@ -1,0 +1,15 @@
+name: IRSVisualizer2023
+version: "0.3.0"
+channels:
+  - "http://repo.continuum.io/pkgs/main/"
+  - "https://repo.anaconda.com/pkgs/msys2/"
+  - "C:\\Users\\stacy\\local-channel"
+# specs:
+#   - python
+#   - irsviz23
+#   - conda
+#   - console_shortcut
+#   - menuinst
+
+environment: viz
+welcome_image: ./IRS_logo.jpg

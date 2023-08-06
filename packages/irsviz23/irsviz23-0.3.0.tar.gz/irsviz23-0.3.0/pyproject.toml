@@ -1,0 +1,18 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irsviz23"
+version = "0.3.0"
+description = 'A demonstration project for packaging a Bokeh application.'
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+dependencies = [
+  "bokeh >= 3.0",
+  "pandas >= 1.5"
+]
+
+[project.scripts]
+viz = "irsviz23.run_app:main"

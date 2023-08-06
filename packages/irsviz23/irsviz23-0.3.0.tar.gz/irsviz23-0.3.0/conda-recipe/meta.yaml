@@ -1,0 +1,30 @@
+{% set version = "0.3.0" %}
+
+package:
+  name: irsviz23
+  version: {{ version }}
+
+source:
+  path: ../src
+
+build:
+  # noarch: python -- doesn't work with entry points
+  number: 0
+  entry_points:
+    - viz=irsviz23.run_app:main
+  # script: python -m pip install .. -vv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+  run:
+    - python
+    - bokeh>=3.0
+    - pandas>=1.5
+
+
+# about:
+#   license_file: LICENSE
+#     summary: "Demo project for Bokeh and creating packages"
