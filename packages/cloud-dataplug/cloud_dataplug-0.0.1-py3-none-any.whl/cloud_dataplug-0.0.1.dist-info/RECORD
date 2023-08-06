@@ -1,0 +1,13 @@
+dataplug/__init__.py,sha256=8uBPXq4uhoPGYjoNJ-Z5HtXUVra8fUe2mdWn21rVVjs,45
+dataplug/clouddataset.py,sha256=YYZydQaDk17W4x5LkAChPQIN1UIDyabLT92Z4yGk-3Q,97
+dataplug/cloudobject.py,sha256=kHvYgdOCcAAv9nkmr_LGPIQQWnE1hpXOXLg-hPQT014,14091
+dataplug/dataslice.py,sha256=v2MPxEgOgUQyumEOuIzwZtahPFJ9Z8XCoe_4OP_fbwU,508
+dataplug/storage.py,sha256=5HsVqTuUrgtQvSy8LVWI8lYRRg-raQXu6x0JbkojMvU,12414
+dataplug/types.py,sha256=WuHpscwGOXSfNal8p3wi7uKKivBEZbAFkCOpp90gfHE,273
+dataplug/util.py,sha256=-TsWlJWwvbOxesLEWJsgneei1HCCg9G1Kkw_J7KJjro,1431
+dataplug/version.py,sha256=DVjE98EK2IvzjxZkBYq1NHv-8Yfk2q961qcRvMAUzVY,26
+cloud_dataplug-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloud_dataplug-0.0.1.dist-info/METADATA,sha256=a02NL27T_Sj4PuzYYHGe1tkqv9c49wAJXQkelsIROCU,3097
+cloud_dataplug-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cloud_dataplug-0.0.1.dist-info/top_level.txt,sha256=O-7v1qgRVSvREZp6JOU3Ii-a3CiAadGq8QDL6JA8vJc,9
+cloud_dataplug-0.0.1.dist-info/RECORD,,
