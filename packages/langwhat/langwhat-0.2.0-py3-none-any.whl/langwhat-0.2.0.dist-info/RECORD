@@ -1,0 +1,11 @@
+langwhat/__init__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+langwhat/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+langwhat/cli.py,sha256=4PXsSqKbwwnuHGc842a__4ijzMDIyNi-Qzxt6mDYuDo,1710
+langwhat/config.py,sha256=jRpiKbEl2x9QlSlADZnshHmpRmWf2G4NrDk3y-U67VQ,664
+langwhat/langwhat.py,sha256=YBoDDlUKIYWBsKdt9npQdOEh7BAtoKA_8UHYI39e3TM,1225
+langwhat/utils.py,sha256=Dn1khIyDhFW4eoYyy9kUvPTcoClniOXe_hWGL1XXzlE,3682
+langwhat-0.2.0.dist-info/LICENSE,sha256=i3elsWrNBsAxcqmOCBxO4p5B9sEa0WF0Sdxx4tZTqi0,1106
+langwhat-0.2.0.dist-info/METADATA,sha256=b7RXb0iw3Un2s0Zb4ie4AFBUrbKVrfojlMuh3x-czgU,2606
+langwhat-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+langwhat-0.2.0.dist-info/entry_points.txt,sha256=MOWcfneYBkPJDgBmonBfjX4UucAUX9X8jrNeOmkEdck,67
+langwhat-0.2.0.dist-info/RECORD,,
