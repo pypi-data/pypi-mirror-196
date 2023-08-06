@@ -1,0 +1,63 @@
+ThesesMetadata:
+  $id: ThesesMetadata
+  use: ["nr-common-metadata#CommonMetadata"]
+
+  marshmallow:
+    schema-class: nr_metadata.theses.services.records.schema.NRThesesMetadataSchema
+    imports:
+      - import: nr_metadata.theses.services.records.schema.NRThesesMetadataSchema
+  ui:
+    marshmallow:
+      schema-class: nr_metadata.theses.services.records.ui_schema.NRThesesMetadataUISchema
+    imports:
+      - import: nr_metadata.theses.services.records.ui_schema.NRThesesMetadataUISchema
+
+  properties:
+    dateDefended:
+      type: date
+      label.cs: Datum obhajoby
+      label.en: Date defended
+    defended:
+      type: boolean
+      label.cs: Obhájeno?
+      label.en: Defended?
+    degreeGrantor:
+      ui:
+        detail: nr_degree_grantor
+        marshmallow:
+          schema-class: nr_metadata.theses.services.records.ui_schema.NRDegreeGrantorUISchema
+          imports:
+            - import: nr_metadata.theses.services.records.ui_schema.NRDegreeGrantorUISchema
+      marshmallow:
+        schema-class: nr_metadata.theses.services.records.schema.NRDegreeGrantorSchema
+        imports:
+          - import: nr_metadata.theses.services.records.schema.NRDegreeGrantorSchema
+      type: taxonomy
+      vocabulary-type: degreeGrantor
+      label.cs: Instituce / grantor
+      label.en: Degree grantor
+    studyFields[]:
+      type: keyword
+      ^label.cs: Oblasti studia
+      ^label.en: Study fields
+    collection:
+      type: keyword
+      label.cs: Kolekce
+      label.en: Collection
+
+ThesesModel:
+  $id: ThesesModel
+  marshmallow:
+    schema-class: nr_metadata.theses.services.records.schema.NRThesesRecordSchema
+    imports:
+      - import: nr_metadata.theses.services.records.schema.NRThesesRecordSchema
+  ui:
+    marshmallow:
+      schema-class: nr_metadata.theses.services.records.ui_schema.NRThesesRecordUISchema
+      imports:
+        - import: nr_metadata.theses.services.records.ui_schema.NRThesesRecordUISchema
+  use: [invenio]
+
+  properties:
+    metadata:
+      use: ["nr-theses-metadata#ThesesMetadata"]
