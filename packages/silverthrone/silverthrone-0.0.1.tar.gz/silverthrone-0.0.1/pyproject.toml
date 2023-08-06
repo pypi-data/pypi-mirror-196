@@ -1,0 +1,21 @@
+[project]
+name = "silverthrone"
+version = "0.0.1"
+authors = [
+  { name="TERMGOD", email="termgod404@gmail.com" },
+]
+description = "A small utility package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'pystyle ~= 2.9'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TERMGOD/silverthrone"
+"Bug Tracker" = "https://github.com/TERMGOD/silverthrone/issues"
