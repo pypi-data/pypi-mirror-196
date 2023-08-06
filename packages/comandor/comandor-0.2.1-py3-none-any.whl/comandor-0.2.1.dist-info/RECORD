@@ -1,0 +1,11 @@
+comandor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comandor/log.py,sha256=8fpqwwGXnxKZVFEVFPoVYBm6KXrMsqqfXmisdpkGDPQ,131
+comandor/main.py,sha256=6ulfmwGe9423ioRxFLTvZquj-jC2NZU3sZB7NYlorNg,3001
+comandor/models.py,sha256=M0ed6TZiXzosa9FUh6ck_38nD2NMi5nvkyIzI8CzJCk,587
+comandor/settings.py,sha256=_EELPvzYeV-9LdRrmNxNdnkUcGEotau97frPWpVwV2M,687
+comandor-0.2.1.dist-info/LICENSE,sha256=V5IpH_nuMyDBK-cGyNONAYDI0LQWnsK6sv1IUxUL_fQ,1089
+comandor-0.2.1.dist-info/METADATA,sha256=qq7Rc7B12cjo1l17eNjSYIebnzFaEHO03NcFyphVSV8,2085
+comandor-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+comandor-0.2.1.dist-info/entry_points.txt,sha256=idTVlK7FPuMFfDXS8HvX6W8eXLZOOqwl01qQZUxXzXo,48
+comandor-0.2.1.dist-info/top_level.txt,sha256=nKdUzAR9seAYyTXspc4QRlgPkIEJBq3kq5gES8Tzc0c,9
+comandor-0.2.1.dist-info/RECORD,,
