@@ -1,0 +1,119 @@
+[build-system]
+build-backend = "pdm.backend"
+requires = [
+    "pdm-backend",
+]
+
+[project]
+authors = [
+    { name = "aleksul", email = "me@aleksul.space" },
+]
+dependencies = [
+    "repid>=1.0.0rc3,<2.0.0",
+    "msgspec>=0.13.0,<1.0.0",
+    "typing-extensions>=4.3.0,<5.0.0; python_version < \"3.9\"",
+]
+description = "Repid's msgspec extension"
+dynamic = []
+name = "repid_msgspec"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.0.1"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points.repid_data]
+bucket = "repid_msgspec.plugin:ArgsBucket"
+parameters = "repid_msgspec.plugin:Parameters"
+result_bucket = "repid_msgspec.plugin:ResultBucket"
+routing_key = "repid_msgspec.plugin:RoutingKey"
+
+[project.optional-dependencies]
+lint = [
+    "black>=23.1.0",
+    "mypy>=1.1.1",
+    "ruff>=0.0.254",
+    "pre-commit>=3.1.1",
+    "types-croniter>=1.3.2.6",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_unimported = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+show_error_codes = true
+warn_return_any = true
+warn_unused_ignores = true
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+includes = [
+    "repid_msgspec",
+]
+
+[tool.ruff]
+ignore = [
+    "E501",
+    "N999",
+    "PLR0913",
+]
+line-length = 100
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "UP",
+    "YTT",
+    "S",
+    "BLE",
+    "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "T10",
+    "ISC",
+    "ICN",
+    "G",
+    "PIE",
+    "T20",
+    "PYI",
+    "PT",
+    "RET",
+    "SIM",
+    "TID",
+    "ARG",
+    "PTH",
+    "PGH",
+    "PL",
+    "RUF",
+]
+target-version = "py38"
+
+[tool.ruff.per-file-ignores]
+"tests/*" = [
+    "S",
+    "PLR2004",
+    "FBT",
+    "BLE",
+    "S101",
+]
+"repid/connections/__init__.py" = [
+    "F401",
+]
+"benchmarks/*" = [
+    "T201",
+]
+"**/__init__.py" = [
+    "PLC0414",
+]
