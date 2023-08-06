@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+enigmamachine/__init__.py
+enigmamachine.egg-info/PKG-INFO
+enigmamachine.egg-info/SOURCES.txt
+enigmamachine.egg-info/dependency_links.txt
+enigmamachine.egg-info/requires.txt
+enigmamachine.egg-info/top_level.txt
