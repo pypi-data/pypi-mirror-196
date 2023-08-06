@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vectoreasy/__init__.py
+vectoreasy.egg-info/PKG-INFO
+vectoreasy.egg-info/SOURCES.txt
+vectoreasy.egg-info/dependency_links.txt
+vectoreasy.egg-info/requires.txt
+vectoreasy.egg-info/top_level.txt
