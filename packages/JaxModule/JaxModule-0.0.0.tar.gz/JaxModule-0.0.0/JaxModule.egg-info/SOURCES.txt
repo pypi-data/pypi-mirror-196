@@ -1,0 +1,6 @@
+setup.py
+JaxModule.egg-info/PKG-INFO
+JaxModule.egg-info/SOURCES.txt
+JaxModule.egg-info/dependency_links.txt
+JaxModule.egg-info/top_level.txt
+jaxmodule/__init__.py
