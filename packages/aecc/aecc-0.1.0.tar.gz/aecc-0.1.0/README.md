@@ -1,0 +1,142 @@
+# AECC
+
+AECC is the air quality database maintained by SNU APCC.
+<!--Read the full documentation at [https://aecc.readthedocs.io](https://aecc.readthedocs.io) -->
+
+## Installation
+
+To install `aecc`, 
+
+```
+pip install https://github.com/danielmsk/snuair/dist/aecc-0.0.1-py3-none-any.whl
+pip install aecc
+```
+
+### Prerequisite
+* pandas ([https://pandas.pydata.org/](https://pandas.pydata.org/))
+
+## Getting Started
+```
+>>> import aecc
+>>> aecc.download_key(file="~/user.key")
+email: user@email.com
+password: userpassword
+>>> conn = aecc.connector()
+>>> conn.all_regions
+['','', '', '', '', ...
+>>> conn.all_pollutants
+['CO', '']
+>>> conn.count_pollutants
+{'CO': 323, 'NO': 25}
+>>> r = conn.request(region="", from="2007-08-12", to="2020-09-15")
+>>> r.download_to_file(path="data/raw.tsv", type="tsv")
+>>> r.all_pollutants
+['CO', '']
+>>> r.count_pollutants
+{'CO': 323, 'NO': 25}
+>>> list1 = r.to_list()
+>>> list1
+[ 
+	{datetime:"2007-08-12", region="CN", CO2=25.3, },
+	{datetime:"2007-08-13", region="CN", CO2=25.3, },
+]
+>>> s1 = r.to_series()
+>>> df1 = r.to_dataframe()
+
+### upload data
+>>> conn.dataupload(file="data/update.tsv", type="tsv")
+>>> conn.close()
+```
+
+## Sing-up and sign-in
+
+### Sign-up
+```
+>>> import aecc
+>>> aecc.signup()
+user email: user@email.com
+user name: Tom
+affiliation: snu
+password: userpassword
+```
+
+### Download token file
+```
+>>> aecc.download_token(file="~/user.aecctoken")
+email: user@email.com
+password: userpassword
+```
+
+## Request Data
+
+
+
+## List Data
+
+
+### listing regions
+
+```
+>>> conn.all_regions
+['','', '', '', '', ...
+```
+
+### listing pollutants
+
+```
+>>> conn.all_regions
+['','', '', '', '', ...
+```
+
+### listing pmf results
+
+```
+>>> conn.list_pmf
+['','', '', '', '', ...
+```
+
+
+## Print statistics
+
+```
+>>> conn.stat
+>>> conn.stat_regions
+>>> r.stat
+```
+
+
+## Download Data
+
+```
+>>> r.download_to_file(path="data/raw.csv", type="csv")
+>>> r.download_to_file(path="data/raw.xlsx", type="xlsx")
+```
+
+
+## Upload Data
+
+This uploading data function is for the users that have permission to upload data. If you don't have permission to upload data, please contact the admin.  
+
+
+### from file
+
+When the excel file has two sheets, the sheet name should include 'conc\_' or 'unc\_'. 
+'conc\_' means concentration and 'unc\_' means uncertainty.
+
+```
+>>> conn.upload_from_file(file="data/raw_unc.tsv", filetype="raw", datatype="unc", region="GJ")
+>>> conn.upload_from_file(file="data/raw_unc.tsv", filetype="raw", datatype="unc", region="GJ", update_force=True)
+>>> conn.upload_from_file(file="data/raw_conc.tsv", filetype="raw", datatype="conc", region="GJ")
+>>> conn.upload_from_file(file="data/raw.xlsx", filetype="raw")
+>>> conn.upload_from_file(file="data/test_Constrained.xls", filetype="pmf", title="2019_Seoul")
+```
+
+
+
+
+## Adminitstration
+* [Administration Manual](https://github.com/danielmsk/aecc/blob/main/docs/README_ADMINISTRATION.md)
+
+
+## Version History
+* [Version History](https://github.com/danielmsk/aecc/blob/main/VERSION_HISTORY.md)
