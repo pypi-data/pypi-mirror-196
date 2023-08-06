@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: alsina2011
+Version: 1.0.0
+Summary: Data and formalisms from Alsina et al. (2011)
+Home-page: https://gitlab.com/b326/alsina2011
+Author: revesansparole
+Author-email: revesansparole@gmail.com
+License: cc_by_nc
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========================
+alsina2011
+========================
+
+.. {# pkglts, doc
+
+.. image:: https://b326.gitlab.io/alsina2011/_images/badge_pkging_pip.svg
+    :alt: PyPI version
+    :target: https://pypi.org/project/alsina2011/1.0.0/
+
+.. image:: https://b326.gitlab.io/alsina2011/_images/badge_pkging_conda.svg
+    :alt: Conda version
+    :target: https://anaconda.org/revesansparole/alsina2011
+
+.. image:: https://b326.gitlab.io/alsina2011/_images/badge_doc.svg
+    :alt: Documentation status
+    :target: https://b326.gitlab.io/alsina2011/
+
+.. image:: https://badge.fury.io/py/alsina2011.svg
+    :alt: PyPI version
+    :target: https://badge.fury.io/py/alsina2011
+
+.. #}
+.. {# pkglts, glabpkg_dev, after doc
+
+main: |main_build|_ |main_coverage|_
+
+.. |main_build| image:: https://gitlab.com/b326/alsina2011/badges/main/pipeline.svg
+.. _main_build: https://gitlab.com/b326/alsina2011/commits/main
+
+.. |main_coverage| image:: https://gitlab.com/b326/alsina2011/badges/main/coverage.svg
+.. _main_coverage: https://gitlab.com/b326/alsina2011/commits/main
+
+prod: |prod_build|_ |prod_coverage|_
+
+.. |prod_build| image:: https://gitlab.com/b326/alsina2011/badges/prod/pipeline.svg
+.. _prod_build: https://gitlab.com/b326/alsina2011/commits/prod
+
+.. |prod_coverage| image:: https://gitlab.com/b326/alsina2011/badges/prod/coverage.svg
+.. _prod_coverage: https://gitlab.com/b326/alsina2011/commits/prod
+.. #}
+
+Data and formalisms from Alsina et al. (2011)
+
+
+
+=======
+History
+=======
+
+creation (2023-03-09)
+------------------------
+
+* First release on PyPI.
