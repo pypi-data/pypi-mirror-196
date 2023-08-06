@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: syslibrary
+Version: 0.1
+Summary: Systematics library
+Author: Simons Observatory sys crew
+Author-email: 
+Requires-Python: >3
