@@ -1,0 +1,7 @@
+django_cos_storage/__init__.py,sha256=JCvQeSr1f2pO2LppMIo_YCs8s-gt-PoG4NEH1QL8wzA,53
+django_cos_storage/file.py,sha256=PCe6oao1LrnH-cRZdU8MWMhnMSyuDfGk3wrsgyuBF6E,939
+django_cos_storage/storage.py,sha256=Z7-4WSHo6Tm-6cUcihDuwsQ5VSSmyF0TKJMv-S7kUXI,4889
+tencentcloud_django_cos_storage-1.0.0.dist-info/LICENSE,sha256=Itozhlfm2ZYgxvDQoioDFv-CrCPGJjqbDymKdg6Zk4g,1519
+tencentcloud_django_cos_storage-1.0.0.dist-info/METADATA,sha256=RM1tBjYvTzH_qU40preBrQHmfU_n6V7ib3tKi6qFEB0,3622
+tencentcloud_django_cos_storage-1.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+tencentcloud_django_cos_storage-1.0.0.dist-info/RECORD,,
