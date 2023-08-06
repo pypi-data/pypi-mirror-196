@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: FastAPI-JSONAPI
+Version: 0.2.0
+Summary: FastAPI extension to create REST web api according to JSON:API 1.0 specification with FastAPI, Pydantic and data provider of your choice (SQLAlchemy, Tortoise ORM)
+Home-page: https://github.com/mts-ai/FastAPI-JSONAPI
+Author: Team MTS AI
+Author-email: a.nekrasov@mts.ru
+License: MIT
+Keywords: pycore mts digital
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: docs
+Provides-Extra: tortoise-orm
+Provides-Extra: sqlalchemy
+License-File: LICENSE
+
+README.md
