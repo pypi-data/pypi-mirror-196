@@ -1,0 +1,9 @@
+fbench/__init__.py,sha256=8b3bLzEV7vmzqNyFmfDk0MoKppg_S4KBMR33KM72fRY,163
+fbench/exception.py,sha256=xOGskCI68Bn14SSBCU-ckt2LWK-E65o9pnUIIfSoyaA,199
+fbench/function.py,sha256=kozi_Lt4b32RXQUYS07rv_7stywm1lPu_8knKR-l2Lg,3241
+fbench/validation.py,sha256=_mKvop8YLEc2oR6asbizmHreofUTU7JMrFB11tWmVTI,1089
+fbench-0.2.0.dist-info/LICENSE,sha256=Ux5Xbwe3EUeyPxyGdxlhYuu2qE21F8OMXOwXc3hIHo8,1523
+fbench-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+fbench-0.2.0.dist-info/METADATA,sha256=hZjR79pIZ0zQujbjzIGXGmZVKc7cPmY4NuTx7dXFQvk,2670
+fbench-0.2.0.dist-info/LICENSES/NUMPY_LICENSE,sha256=iFIeAaSE7wAOoj2d3ptXx2fkOWbtoq7CoOOIC-PSelQ,1543
+fbench-0.2.0.dist-info/RECORD,,
