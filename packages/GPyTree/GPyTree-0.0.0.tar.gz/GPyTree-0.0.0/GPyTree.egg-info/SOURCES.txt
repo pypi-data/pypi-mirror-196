@@ -1,0 +1,6 @@
+setup.py
+GPyTree.egg-info/PKG-INFO
+GPyTree.egg-info/SOURCES.txt
+GPyTree.egg-info/dependency_links.txt
+GPyTree.egg-info/top_level.txt
+gpytree/__init__.py
