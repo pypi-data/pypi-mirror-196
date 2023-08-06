@@ -1,0 +1,14 @@
+appdirs<2.0,>=1.4.3
+carto<2.0,>=1.11.3
+geopandas<1.0,>=0.6.0
+jinja2<3.0,>=2.10.1
+markupsafe<=2.0.1
+pandas>=0.25.0
+semantic_version<3,>=2.8.0
+unidecode<2.0,>=1.1.0
+
+[tests]
+flake8
+pylint
+pytest
+pytest-mock
