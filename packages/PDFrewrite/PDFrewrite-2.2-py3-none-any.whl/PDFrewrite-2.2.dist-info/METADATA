@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PDFrewrite
+Version: 2.2
+Summary: 可用于移除PDF中空白页，并选择是否保留文字/图像页
+Author: ivyZ
+Requires-Dist: PyPDF4
+
+请进入目标文件目录并输入：
+目标文件名, 输出文件名, 保留目标(image/script/both)
+文件名无需后缀
