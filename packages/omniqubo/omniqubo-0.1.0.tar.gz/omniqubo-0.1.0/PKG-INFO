@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: omniqubo
+Version: 0.1.0
+Summary: Extensible framework for transforming optimization models to binary models
+Author-email: Adam Glos <aglos@iitis.pl>
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/euro-hpc-pl/omniqubo
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+## OMNIQUBO
+
+[![codecov](https://codecov.io/gh/euro-hpc-pl/omniqubo/branch/master/graph/badge.svg?token=ysrSwHsXO8)](https://codecov.io/gh/euro-hpc-pl/omniqubo)
+![quality_checks](https://github.com/euro-hpc-pl/omniqubo/actions/workflows/quality_checks.yml/badge.svg)
+![tests](https://github.com/euro-hpc-pl/omniqubo/actions/workflows/tests.yml/badge.svg)
+
+Simple, modular tool for transforming models into QUBO and related programs.
+Currently, Quadratic Integer Programs with equality constraints written in docplex
+can be transformed into BinaryQuadraticModel from dimod, and the results can be
+interpreted into original form.
