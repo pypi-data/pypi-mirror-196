@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+paladinxb/__init__.py
+paladinxb/paladinxb_module.py
+paladinxb/test.py
+paladinxb_module.egg-info/PKG-INFO
+paladinxb_module.egg-info/SOURCES.txt
+paladinxb_module.egg-info/dependency_links.txt
+paladinxb_module.egg-info/top_level.txt
