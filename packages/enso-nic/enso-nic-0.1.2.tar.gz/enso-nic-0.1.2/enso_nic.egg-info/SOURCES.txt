@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+enso/__init__.py
+enso/__main__.py
+enso/consts.py
+enso/enso_dataplane.py
+enso/enso_pktgen.py
+enso_nic.egg-info/PKG-INFO
+enso_nic.egg-info/SOURCES.txt
+enso_nic.egg-info/dependency_links.txt
+enso_nic.egg-info/entry_points.txt
+enso_nic.egg-info/requires.txt
+enso_nic.egg-info/top_level.txt
