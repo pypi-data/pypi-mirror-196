@@ -1,0 +1,8 @@
+telegram_handler/__init__.py,sha256=1PBxqnrJsT9qILUvAwZAI7jGHHLsPcmxOUKVZmadScA,61
+telegram_handler/buffer.py,sha256=RrgPH14uw042zl_9jXYOkFHyBVDnp86toFSf9ypzot4,503
+telegram_handler/consts.py,sha256=pgefI3j1rem1VLBNINBF5VJAeXjGcsejJyzmvlzTD14,382
+telegram_handler/handler.py,sha256=H4Nt9TTsTKb4J0kMPRb2oVmxGc1puALGdEUeyDr6ip4,2555
+telegram_handler-1.4.4.dist-info/METADATA,sha256=sZdn_OWKuqN2OgOhlhmhSRkp93wEZI8TqKd6DOLOC04,3165
+telegram_handler-1.4.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+telegram_handler-1.4.4.dist-info/top_level.txt,sha256=s5nou616n3eWDaWtQ0WUljxqXk7uzSIBVg_SNc55ozs,17
+telegram_handler-1.4.4.dist-info/RECORD,,
