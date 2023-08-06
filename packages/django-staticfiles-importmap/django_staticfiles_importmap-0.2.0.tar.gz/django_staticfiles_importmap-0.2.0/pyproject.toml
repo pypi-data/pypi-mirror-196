@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-staticfiles-importmap"
+version = "0.2.0"
+description = "JavaScript import maps support for Django static files."
+authors = ["Josiah Kaviani <proofit404@gmail.com>"]
+license = "BSD-2-Clause"
+readme = "README.md"
+packages = [{include = "django_staticfiles_importmap"}]
+
+[tool.poetry.dependencies]
+python = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
