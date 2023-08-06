@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastdcm"
+version = "0.1.0"
+description = ""
+authors = ["大蘑菇 <oncwnuPW5OiXNaNL_PMQ_NRBRHJc@git.weixin.qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+[tool.poetry.scripts]
+fastdcm = "fastdcm.__main__:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
