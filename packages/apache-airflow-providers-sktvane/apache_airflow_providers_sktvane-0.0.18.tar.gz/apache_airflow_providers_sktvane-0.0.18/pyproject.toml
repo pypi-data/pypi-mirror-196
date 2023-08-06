@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "apache-airflow-providers-sktvane"
+version = "0.0.18"
+description = "Provider for Apache Airflow. Implements apache-airflow-providers-sktvane package by skt"
+authors = ["lapetus"]
+readme = "README.md"
+packages = [{include = "airflow"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+hvac = "^1.1.0"
+setuptools = "^67.6.0"
+apache-airflow = "^2.5.1"
+google-cloud-bigquery = "^3.6.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
