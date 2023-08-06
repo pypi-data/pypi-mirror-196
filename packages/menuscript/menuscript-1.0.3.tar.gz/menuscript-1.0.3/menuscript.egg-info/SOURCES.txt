@@ -1,0 +1,8 @@
+README.md
+menuscript.py
+setup.py
+menuscript.egg-info/PKG-INFO
+menuscript.egg-info/SOURCES.txt
+menuscript.egg-info/dependency_links.txt
+menuscript.egg-info/entry_points.txt
+menuscript.egg-info/top_level.txt
