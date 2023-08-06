@@ -1,0 +1,8 @@
+pywaterflood-0.3.0rc1.dist-info/RECORD,,
+pywaterflood-0.3.0rc1.dist-info/WHEEL,sha256=9NyFsn7Po0bLA6h5-V_1fDdrkliN0_RU9KlcFn7FwH0,234
+pywaterflood-0.3.0rc1.dist-info/METADATA,sha256=LdVr3XEk6W2_f2t029xLKZTmmOXeUeEHhk6RUF89GIw,4441
+pywaterflood-0.3.0rc1.dist-info/license_files/LICENSE,sha256=O1As1z1N_kbsH6UH0sZ_eDvlvGcSNVNMCJIdYDD1Zuc,1326
+pywaterflood/pywaterflood.pypy38-pp73-x86-linux-gnu.so,sha256=oyqv7dE0qe6rOk2_aNnls2ghkt__fFNBv9xAjWEHoic,3994044
+pywaterflood/__init__.py,sha256=-QYaLeiKPHkGTnEex5jA2lHsqRRbyI_lFRN4f_b9rB8,807
+pywaterflood/crm.py,sha256=SnFBEywXKeLoBZqZctLv73Ucys-sOtEpUnLIqlhfric,27993
+pywaterflood/multiwellproductivity.py,sha256=wuF2i-tV4pnwYdvyr1DdKu6FBSc_KCKy72tvPnEBhEI,5445
