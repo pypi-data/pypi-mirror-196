@@ -1,0 +1,6 @@
+Total_phenols
+Flavanoids
+Proanthocyanins
+Hue
+OD280_OD315_of_diluted_wines
+Proline

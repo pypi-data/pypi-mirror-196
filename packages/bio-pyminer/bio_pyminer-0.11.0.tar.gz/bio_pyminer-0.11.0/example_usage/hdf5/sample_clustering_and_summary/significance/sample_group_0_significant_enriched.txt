@@ -1,0 +1,4 @@
+Malic_acid
+Alcalinity_of_ash
+Nonflavanoid_phenols
+Color_intensity

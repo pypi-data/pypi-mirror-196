@@ -1,0 +1,8 @@
+
+For a typical tab delimited text file:
+pyminer.py -infile ~/bin/pyminer/example_usage/wine_dataset_clean_normalized.txt -rho_cutoff .3
+
+
+For an hdf5 input, whose table of interest is labeled 'infile':
+pyminer.py -hdf5 -infile ~/bin/pyminer/example_usage/hdf5/wine_dataset_clean_normalized.hdf5 -ids '/home/scott/bin/pyminer/example_usage/hdf5/ID_list.txt' -columns '/home/scott/bin/pyminer/example_usage/hdf5/column_IDs.txt'  -rho_cutoff .3
+

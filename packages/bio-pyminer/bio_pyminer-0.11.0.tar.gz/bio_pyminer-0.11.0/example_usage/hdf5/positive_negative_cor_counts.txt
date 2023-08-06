@@ -1,0 +1,14 @@
+ID	num_pos_cor	num_neg_cor
+Alcohol	4.0	1.0
+Malic_acid	1.0	2.0
+Ash	2.0	0.0
+Alcalinity_of_ash	3.0	6.0
+Magnesium	4.0	0.0
+Total_phenols	6.0	2.0
+Flavanoids	5.0	3.0
+Nonflavanoid_phenols	1.0	4.0
+Proanthocyanins	5.0	1.0
+Color_intensity	3.0	2.0
+Hue	4.0	3.0
+OD280_OD315_of_diluted_wines	4.0	3.0
+Proline	6.0	1.0

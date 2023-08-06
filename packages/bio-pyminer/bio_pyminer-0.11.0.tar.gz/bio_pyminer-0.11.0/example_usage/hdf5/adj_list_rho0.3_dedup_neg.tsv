@@ -1,0 +1,15 @@
+var_1	var_2	NA	NA	NA	NA	rho
+Alcalinity_of_ash	Alcohol	NA	NA	NA	NA	-0.306597890451
+Total_phenols	Alcalinity_of_ash	NA	NA	NA	NA	-0.376657122706
+Flavanoids	Malic_acid	NA	NA	NA	NA	-0.32520213627
+Flavanoids	Alcalinity_of_ash	NA	NA	NA	NA	-0.443769994332
+Nonflavanoid_phenols	Total_phenols	NA	NA	NA	NA	-0.448013074018
+Nonflavanoid_phenols	Flavanoids	NA	NA	NA	NA	-0.54389740016
+Proanthocyanins	Nonflavanoid_phenols	NA	NA	NA	NA	-0.384628850098
+Hue	Malic_acid	NA	NA	NA	NA	-0.560264885344
+Hue	Alcalinity_of_ash	NA	NA	NA	NA	-0.352507017021
+Hue	Color_intensity	NA	NA	NA	NA	-0.4185217619
+OD280_OD315_of_diluted_wines	Alcalinity_of_ash	NA	NA	NA	NA	-0.325889759247
+OD280_OD315_of_diluted_wines	Nonflavanoid_phenols	NA	NA	NA	NA	-0.494949983285
+OD280_OD315_of_diluted_wines	Color_intensity	NA	NA	NA	NA	-0.317515595911
+Proline	Alcalinity_of_ash	NA	NA	NA	NA	-0.456089728788

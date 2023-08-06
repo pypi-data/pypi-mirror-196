@@ -1,0 +1,64 @@
+
+REMEMBER TO 1st push the new version to pypy 
+And 2nd, update the Dockerfile to pull the right image via pip
+
+##############################
+## https://www.youtube.com/watch?v=JprTjTViaEA
+## building the Dockerfile image
+cd ~/bin/pyminer/docker
+
+## note that the tag should correspond to the current pip-version that's being installed
+## make sure the pip version is already pushed out to pypy via twine
+docker build --no-cache -t scottyler89/pyminer:<tag> .
+
+## once the tagged version is clean and ready to go, rebuild the 'latest' and push that
+docker build --no-cache -t scottyler89/pyminer:latest .
+
+## check out that it built correctly
+docker images
+
+## give it a whirl
+docker run -it --name pyminer_trial_run scottyler89/pyminer
+pyminer.py -h
+
+exit
+
+## push it to the dockerhub
+## https://www.youtube.com/watch?v=fdQ7MmQNTa0
+
+## first log in
+docker login
+username:XXX...
+password:XXX...
+
+## commit any changes to the tagged and 'latest'
+docker commit <CONTAINER> scottyler89/pyminer:0.9.8
+docker commit <CONTAINER> scottyler89/pyminer:latest
+
+
+## push them
+docker push scottyler89/pyminer:0.9.8
+docker push scottyler89/pyminer
+
+## now the current version will be what shows up 
+
+##############################
+## pulling the docker image
+docker pull scottyler89/pyminer
+
+## running it with a local direcotry mounted
+docker run -it --name first_try -v <path_to_data>:/data scottyler89/pyminer
+
+## check out pyminer.py
+cd /data/
+pyminer.py -h
+
+## when you're done, you can close out the docker image when you're done
+exit
+
+##############################
+## cleaning up old exited docker containers
+docker rm $(docker ps -a -f status=exited -q)
+
+
+

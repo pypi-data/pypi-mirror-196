@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+pyminer/__pycache__/
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+

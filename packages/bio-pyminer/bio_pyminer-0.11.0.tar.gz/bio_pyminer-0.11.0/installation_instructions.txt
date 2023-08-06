@@ -1,0 +1,49 @@
+
+GLOBAL INSTALL:
+##############################
+PyMINEr has been developed and tested on Ubuntu versions 14 and 16; however it will also work on other Linux platforms if Anaconda is installed first.
+
+For non-Ubuntu platforms download and install Anaconda:
+https://www.anaconda.com/download/
+
+All users should then proceed to install PyMINEr by opening a terminal and typing:
+sudo bash ~/Downloads/pyminer/PyMINEr_install.sh
+
+or whatever the path is to the PyMINEr_install.sh file. If all other files are kept in place, the installation should go smoothly.
+##############################
+
+LOCAL INSTALL:
+##############################
+If you want to install PyMINEr locally (i.e.: you're working on a cluster or something like that), you will need to:
+(1) install the dependencies with your local version of python3:
+python3 -m pip install -r requirements.txt
+
+(2) unzip the files in the lib directory:
+gunzip lib/*
+
+(3) change the path variable to include the :
+PATH = </path/to/pyminer/bin/>:$PATH
+
+##
+To run PyMINEr locally, there is one modification to the command line as well.
+Because you're running it locally, the STRINGdb interaction files are not located in the default location (/usr/local/lib/cell_signals/). You'll therefore have to add the directory of the lib path from #2 to your input command line call.
+-string_db_dir /path/to/pyminer/lib/
+
+##############################
+
+USING DOCKER
+##############################
+I've recently put up a bleeding edge of PyMINEr on docker. In theory, this should work on any kind of machine regardless of OS, as long as you have docker working.
+
+Install docker:
+sudo apt-get install docker.io
+
+Pull the PyMINEr image:
+sudo docker pull scottyler89/pyminer
+
+To start it & mount your directory that has your files in it, you can do something like this:
+sudo docker run -it --name first_try -v /directory/that/has/input/data_files:/data scottyler89/pyminer
+cd /data/
+pyminer.py -i what_ever_your_file_is.txt
+
+##############################

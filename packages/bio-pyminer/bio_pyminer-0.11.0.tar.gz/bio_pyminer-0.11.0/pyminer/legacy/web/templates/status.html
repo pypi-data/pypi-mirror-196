@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+
+{% block title %}Status{% endblock %}
+
+{% block content %}
+<h1>Status {% if id %}({{id}}){% endif %}</h1>
+
+{% if id %}
+<div id="stages">
+  <div class="label">Stage 3 of 5</div>
+  <div class="stage complete"></div>
+  <div class="stage complete"></div>
+  <div class="stage in-progress"></div>
+  <div class="stage error"></div>
+  <div class="stage incomplete"></div>
+</div>
+<table class="table">
+  <thead class="thead-inverse">
+    <th>Stage</th>
+    <th>Description</th>
+    <th>Status</th>
+  </thead>
+  <tr class="stage-complete">
+    <th>Stage 1</th>
+    <td>Some description here....</td>
+    <th>Complete</th>
+  </tr>
+  <tr class="stage-complete">
+    <th>Stage 2</th>
+    <td>Some description here....</td>
+    <th>Complete</th>
+  </tr>
+  <tr class="stage-in-progress">
+    <th>Stage 3</th>
+    <td>Some description here....</td>
+    <th>In Progress</th>
+  </tr>
+  <tr class="stage-error">
+    <th>Stage 4</th>
+    <td>Some description here....</td>
+    <th>Error</th>
+  </tr>
+  <tr class="stage-incomplete">
+    <th>Stage 5</th>
+    <td>Some description here....</td>
+    <th>Incomplete</th>
+  </tr>
+</table>
+
+<h2>Inputs</h2>
+<table class="table">
+  <tr>
+    <th>Input</th>
+    <td>Somfile.txt</td>
+  </tr>
+  <tr>
+    <th>Options</th>
+    <td>X - True, Y - alskdfj, Z - sklfj</td>
+  </tr>
+</table>
+
+<h2>Results</h2>
+<a href="#">Download your results here.</a>
+
+<h2>Error</h2>
+<textarea style="width:100%;height:100px;">Informative error goes here!</textarea>
+{% else %}
+<strong>No job id provided!</strong>
+{% endif %}
+{% endblock %}

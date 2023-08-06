@@ -1,0 +1,3 @@
+Write wrapper to convert PyMINEr object into scanpy
+Write R code to take a Seurat object
+Write wrapper in R to convert PyMINEr directory into Seurat object

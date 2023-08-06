@@ -1,0 +1,51 @@
+body {
+  padding-top: 50px;
+}
+
+#stages {
+	text-align: center;
+}
+
+#stages .label {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+#stages .stage {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	border: 1px solid black;
+}
+
+#stages .stage.complete {
+	background-color: green;
+}
+
+#stages .stage.incomplete {
+	background-color: white;
+}
+
+#stages .stage.error {
+	background-color: red;
+}
+
+#stages .stage.in-progress {
+	background-color: yellow;
+}
+
+.stage-complete {}
+
+.stage-in-progress {
+	background-color: white;
+}
+
+.stage-error {
+	background-color: white;
+}
+
+.stage-incomplete {
+	background-color: white;
+}

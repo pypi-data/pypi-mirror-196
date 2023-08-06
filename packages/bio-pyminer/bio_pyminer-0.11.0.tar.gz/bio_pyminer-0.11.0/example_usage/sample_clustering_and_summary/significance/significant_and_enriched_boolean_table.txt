@@ -1,0 +1,14 @@
+var_names	bool_sample_group_0	bool_sample_group_1
+Alcohol	False	False
+Malic_acid	True	False
+Ash	False	False
+Alcalinity_of_ash	True	False
+Magnesium	False	False
+Total_phenols	False	True
+Flavanoids	False	True
+Nonflavanoid_phenols	True	False
+Proanthocyanins	False	True
+Color_intensity	True	False
+Hue	False	True
+OD280_OD315_of_diluted_wines	False	True
+Proline	False	True

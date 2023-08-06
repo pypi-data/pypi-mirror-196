@@ -1,0 +1,3 @@
+sample_group	number_of_significant_and_enriched_vars
+sample_group_0	4
+sample_group_1	6
