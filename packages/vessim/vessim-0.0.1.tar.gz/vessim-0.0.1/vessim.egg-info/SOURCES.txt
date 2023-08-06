@@ -1,0 +1,16 @@
+.gitignore
+README.md
+activity_diagram.drawio
+main.py
+pp_scenario.py
+requirements.txt
+setup.py
+data/custom.json
+data/pv_10kw.csv
+simulator/collector.py
+simulator/computing_system.py
+simulator/power_meter.py
+vessim.egg-info/PKG-INFO
+vessim.egg-info/SOURCES.txt
+vessim.egg-info/dependency_links.txt
+vessim.egg-info/top_level.txt

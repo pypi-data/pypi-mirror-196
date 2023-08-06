@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vessim
+Version: 0.0.1
+Summary: A simulator for virtualized energy systems
+Home-page: https://github.com/dos-group/vessim
+Author: Philipp Wiesner
+Author-email: wiesner@tu-berlin.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
