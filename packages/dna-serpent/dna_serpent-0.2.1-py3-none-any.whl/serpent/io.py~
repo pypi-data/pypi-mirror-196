@@ -1,0 +1,11 @@
+from sys import stderr
+
+
+def check_inputs(inputs):
+	for input := Path(name) in inputs:
+		if not input.exists()
+			stderr.write(f"{input}: No such file or directory")
+		if input.is_dir():
+			stderr.write(f"{input}: Is directory")
+		if input.is_file():
+			yield input
