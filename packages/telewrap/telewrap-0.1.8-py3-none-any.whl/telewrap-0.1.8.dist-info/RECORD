@@ -1,0 +1,15 @@
+telewrap/__init__.py,sha256=WWekzHeuat1vNplDcIjnvRfbxGdrPjWQxahElfWcki8,67
+telewrap/cli/__init__.py,sha256=jyarvcfF3kdkFAJDMNzkxSCcnQX1jzEs1-VnAxTN-aY,476
+telewrap/cli/_config.py,sha256=MmyeS7D_FIfcMbnU8gPRwKBBk2itLYDx_X4CDvFi2UM,190
+telewrap/cli/cli.py,sha256=yOo_basky8-SwuUQ52IlXAQ3wE8zaI-Sn-IqBZqkUEg,1965
+telewrap/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telewrap/core/bot.py,sha256=x2FlErCOIXdon2d3HzLLuq9OKZPbLE4iTodPkfJnJHk,4969
+telewrap/core/constants.py,sha256=3eRyu9B-_3_X1jc9eL_V2BYTpZm7kIlfTWgMy43vacc,1708
+telewrap/core/message_funcs.py,sha256=FCXWxK1a6JTceuVaa5l6D5be6qasg78Y5psSBUGXSBE,1219
+telewrap/core/raising_thread.py,sha256=5Qsus8QcwfPVbcM5-DUQ1JZydrGEJSUjC8VKOnbZ6-4,482
+telewrap/core/shell_command.py,sha256=92a_gaBwLRfwFxjDSAYUFWmtAK774fYpjtnvMTRAt0M,1550
+telewrap/core/singleton.py,sha256=tqNM86oSMwsRdWS6p58ho1wIMP2BM8zqFvgE1sx1U1A,256
+telewrap-0.1.8.dist-info/METADATA,sha256=CL5vzIHGDxSuGqOPUN7BmI72NtZzf1koNJr4TucR-fI,2868
+telewrap-0.1.8.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+telewrap-0.1.8.dist-info/entry_points.txt,sha256=M-E1xwR00H-ceKkyCBJ3djGYgC-b4QJq7oVeU-mYEBc,69
+telewrap-0.1.8.dist-info/RECORD,,
