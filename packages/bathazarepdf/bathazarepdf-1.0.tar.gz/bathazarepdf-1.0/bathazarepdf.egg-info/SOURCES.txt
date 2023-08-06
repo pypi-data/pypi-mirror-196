@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+bathazarepdf.egg-info/PKG-INFO
+bathazarepdf.egg-info/SOURCES.txt
+bathazarepdf.egg-info/dependency_links.txt
+bathazarepdf.egg-info/top_level.txt
