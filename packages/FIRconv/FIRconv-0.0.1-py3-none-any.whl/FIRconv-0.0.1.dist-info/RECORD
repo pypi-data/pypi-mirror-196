@@ -1,0 +1,17 @@
+FIRconv/FIRconv.py,sha256=BlHrpT7hn0jn_uz2qNQBs6mXWLK_65L3nlAFSnpZYNM,16595
+FIRconv/__init__.py,sha256=ENBEQk2KsbYM82GQPmD_lYqU8sTQCEZHwTHwto7uNz8,22
+build/lib/FIRconv/FIRconv.py,sha256=BlHrpT7hn0jn_uz2qNQBs6mXWLK_65L3nlAFSnpZYNM,16595
+build/lib/FIRconv/__init__.py,sha256=ENBEQk2KsbYM82GQPmD_lYqU8sTQCEZHwTHwto7uNz8,22
+build/lib/build/lib/FIRconv/FIRconv.py,sha256=BlHrpT7hn0jn_uz2qNQBs6mXWLK_65L3nlAFSnpZYNM,16595
+build/lib/build/lib/FIRconv/__init__.py,sha256=ENBEQk2KsbYM82GQPmD_lYqU8sTQCEZHwTHwto7uNz8,22
+build/lib/build/lib/tests/ALgorithms_validation.py,sha256=JXqgCyFvDD6QZ1OC7_B_vrlK5rLRzA3yTVSMYZ7syk4,2282
+build/lib/build/lib/tests/testFIR.py,sha256=vfSz8fKKnps9REQei9DpzePsAcx0SKC4YqLJSmEyw-U,1842
+build/lib/tests/ALgorithms_validation.py,sha256=JXqgCyFvDD6QZ1OC7_B_vrlK5rLRzA3yTVSMYZ7syk4,2282
+build/lib/tests/testFIR.py,sha256=vfSz8fKKnps9REQei9DpzePsAcx0SKC4YqLJSmEyw-U,1842
+tests/ALgorithms_validation.py,sha256=JXqgCyFvDD6QZ1OC7_B_vrlK5rLRzA3yTVSMYZ7syk4,2282
+tests/testFIR.py,sha256=vfSz8fKKnps9REQei9DpzePsAcx0SKC4YqLJSmEyw-U,1842
+FIRconv-0.0.1.dist-info/LICENSE,sha256=N3FD_TDHS-nk6HYVvZRjtru2KRPHxx-HxrtrT20a7_0,1091
+FIRconv-0.0.1.dist-info/METADATA,sha256=7pYN1dM05jsrDWQ6WqCMWHSib0X92gacnquepT-hgeY,2757
+FIRconv-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+FIRconv-0.0.1.dist-info/top_level.txt,sha256=atV9d-lNP0CjY0L407tNLuQPFC5jyzynxo1wU4XR1VE,32
+FIRconv-0.0.1.dist-info/RECORD,,
