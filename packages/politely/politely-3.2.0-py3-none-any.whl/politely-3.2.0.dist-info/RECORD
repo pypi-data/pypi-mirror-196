@@ -1,0 +1,9 @@
+politely/__init__.py,sha256=3wiNPo7Kv7JBf-CGHkR9KxoL_Dxn2QBki4P_7jhdJKo,173
+politely/errors.py,sha256=4Gsnkh2jwHEoheCgm3FzvkSxGeVq_UirJGjkI2QYec4,552
+politely/fetchers.py,sha256=bnAtO6udVKQ2Ep9P7jZs71-ajFBIuiK-7r1Dbw7N1Q4,647
+politely/rules.py,sha256=3En9XfCy-jEHCGu2b18OOFGqG4zSbk4VA77-HunvQNE,4035
+politely/scorer.py,sha256=blojowaUGYDz3yJwZZEiXtLrdWWkJeNP9Z_lAd5xtLs,440
+politely/styler.py,sha256=XAlgQjVTiDAGfpzT99cCIYNHr227q0pIdt3CtWqYXk8,5322
+politely-3.2.0.dist-info/METADATA,sha256=SooeZH0-kQnnbDkr87k2BQVsnEsq5Sq3e5OwRfA4lII,9920
+politely-3.2.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+politely-3.2.0.dist-info/RECORD,,
