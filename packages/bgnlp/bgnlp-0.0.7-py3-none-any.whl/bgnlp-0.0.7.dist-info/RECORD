@@ -1,0 +1,15 @@
+bgnlp/__init__.py,sha256=y44BsMCwlNahlOR9Ty28Pifufij5u4fkeQH-h_cXY34,115
+bgnlp/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgnlp/models/__init__.py,sha256=15YB95uRoukBxvdwSepd2-YooXjbX0L6FZdMdWseago,95
+bgnlp/models/seq2seq.py,sha256=wLfg_F6ogLW17dVayzBnkBkI62jKiCmXYbxw5mFvntw,13189
+bgnlp/serialized/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgnlp/serialized/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgnlp/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgnlp/tools/configs.py,sha256=AZGRi8zhDvQ7-C_0OjKWa9Yv27__9NzHTKiUH80n7AI,810
+bgnlp/tools/mappings.py,sha256=NoC1_T5bRHPo4O9lOoLfnrRTbzuuxqWfsaYoOHQPElg,13190
+bgnlp/tools/pos.py,sha256=rb3nZGwKR2KEiWrQZWGfNeyiWJGQVjRcuPMC1vCY3jw,5895
+bgnlp-0.0.7.dist-info/LICENSE,sha256=0m92x25TCpUgWqIWD6TdqgY8dT-A6lzn-alxZOkX790,1088
+bgnlp-0.0.7.dist-info/METADATA,sha256=EWXwokV5X1dYzj2fY6uceGC2l05ax57bxQtatFqsf2U,3003
+bgnlp-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bgnlp-0.0.7.dist-info/top_level.txt,sha256=A6QWfqLww5lFSIGYXo77peLSApxDvRypT_hUB3eL2UI,6
+bgnlp-0.0.7.dist-info/RECORD,,
