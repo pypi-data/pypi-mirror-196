@@ -1,0 +1,10 @@
+README.md
+setup.py
+udacity-stat-dist/Binomialdistribution.py
+udacity-stat-dist/Gaussiandistribution.py
+udacity-stat-dist/Generaldistribution.py
+udacity-stat-dist/__init__.py
+udacity_stat_dist.egg-info/PKG-INFO
+udacity_stat_dist.egg-info/SOURCES.txt
+udacity_stat_dist.egg-info/dependency_links.txt
+udacity_stat_dist.egg-info/top_level.txt
