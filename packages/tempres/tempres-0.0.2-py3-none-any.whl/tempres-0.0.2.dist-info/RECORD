@@ -1,0 +1,14 @@
+tempres/__init__.py,sha256=r_nTiJnpOzUu-H-BtMQL1d0Sxy7tiCtQhyzcjPCETGM,454
+tempres/__main__.py,sha256=dgH9u2gFuqMFtnPr03FZHjBCKzqY_sdzD7vRYRfairM,81
+tempres/const.py,sha256=9xM9BdhUxOoz379049ZVv-M7DslX_hQR2Z7cgvHLEYA,113
+tempres/main.py,sha256=G4dbTo80Awkb1U8-ns84vI8x-GXSKo8oPhmoRGV4U58,4274
+tempres/maindb.py,sha256=o5-Dto1rx4cRPIyDvVLVeXJDLnCRSxLNoXMZO6uABgc,8664
+tempres/mainplt.py,sha256=oAT2TFvVPzbZauPMGSCcEl0_6mo442NmlCDL47bPbtw,1846
+tempres/mainpub.py,sha256=YNVQHE4N5woztXXHeNkJpjVgbrxf0jhJflrmHQdqSgw,10997
+tempres/timedpath.py,sha256=vVQB6JG4HZjLKLmqONBQeTig0efD4hi3gjkrrfX2B2A,1339
+tempres-0.0.2.dist-info/LICENSE.md,sha256=N3fsfGUUm6fUQvtNlnFQ4BEULKC5-v5im4fwjd75aLI,34078
+tempres-0.0.2.dist-info/METADATA,sha256=msoFYubczNNjeREMIbSklpVuzwTsv6rv3OUFkpcy46A,4596
+tempres-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tempres-0.0.2.dist-info/entry_points.txt,sha256=smochv8DzlmVD4I2VcwKhLpaIRI8o7X3a2Yrmk6xy20,167
+tempres-0.0.2.dist-info/top_level.txt,sha256=K68w0d8-oNrUWyFs03Yo6o9lotUyjqlveoC1b4-Fjeo,8
+tempres-0.0.2.dist-info/RECORD,,
