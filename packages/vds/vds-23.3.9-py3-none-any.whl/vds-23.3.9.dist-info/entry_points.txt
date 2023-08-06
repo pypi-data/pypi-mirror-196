@@ -1,0 +1,4 @@
+[console_scripts]
+vds=vds.main:main[posix]
+vds-win=vds.main:main[win32]
+

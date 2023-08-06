@@ -1,0 +1,16 @@
+vds/colorizer.py,sha256=CpKbvryzl4KnyphGowGmpd2IK1GP7vG76vdasWxI_6M,2164
+vds/config.py,sha256=gnNZlZG2aTK9Rtjzb-LCDyGyWBPlKeIQ-PBYdWudYl4,392
+vds/main.py,sha256=l9j_uBO_xdt8cCzYZudKyYTgEuu5NCWKMjJm7e3fPx0,7711
+vds/plugins/files/f001.py,sha256=cg6pCkAn8egXcwDQrUHGA4tRvGg09ZhuHx-knChXERM,1933
+vds/plugins/files/f002.py,sha256=Orvr4Vy7uiv5dsc8m1QKcLuEZ7n44Zv9_YhgJdyCXO4,4247
+vds/plugins/transcription/t001.py,sha256=xJlJIA3KO9_k3TUPoac5iWkyqk6IUmjEjwMhOiXE4kw,1224
+vds/plugins/transcription/t002.py,sha256=cLngPeA0x_EwPtCyoll4liJiP8KBnHCpStqjtajs0g4,1799
+vds/plugins/transcription/t003.py,sha256=JifH14Bal3pkgsekl4KvbpOYKhq3LdOuwbfoJ2UZt3A,1871
+vds/plugins/transcription/t004.py,sha256=VFUi8NGXSbD3sSAK-UQTtoIqir3a3oN-50Gf3S2Buo0,1959
+vds/plugins/transcription/t005.py,sha256=vQD66N7CI_zyu-uEG9iVUl0Ac4IybljJZyxFBckXyvo,2067
+vds/plugins/transcription/t006.py,sha256=ZLcJiEYk2WyZ7mB6-MFe2Lg38rMicfX0XX9BUW_Xt_o,2037
+vds/plugins/transcription/t007.py,sha256=gvZ8KrcUPARoe8jgHadZYJoGILG136gMlM3Ic6GL27o,3271
+vds-23.3.9.dist-info/entry_points.txt,sha256=NlETm5x00kkjbeLUUhDG0KlsP7F03gW_9YhXLlgnGoA,73
+vds-23.3.9.dist-info/METADATA,sha256=gcg5FURthadkEBPW1zXJ1FLyC8ZKmm8nebinBYLf6lM,5501
+vds-23.3.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+vds-23.3.9.dist-info/RECORD,,
