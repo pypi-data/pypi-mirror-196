@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+trolley/__init__.py
+trolley/exceptions/__init__.py
+trolleyhq.egg-info/PKG-INFO
+trolleyhq.egg-info/SOURCES.txt
+trolleyhq.egg-info/dependency_links.txt
+trolleyhq.egg-info/requires.txt
+trolleyhq.egg-info/top_level.txt
