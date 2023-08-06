@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: wcpan-logging
+Version: 2.0.0
+Summary: configuration generator for builtin logging module
+Home-page: https://github.com/legnaleurc/wcpan.logging
+License: MIT
+Author: Wei-Cheng Pan
+Author-email: legnaleurc@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Logging
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/legnaleurc/wcpan.logging
+Description-Content-Type: text/markdown
+
+## wcpan.logging
+
+A configuration generator for builtin logging module.
+
+```python
+import logging
+
+from wcpan.logging import ConfigBuilder
+
+
+logging.dictConfig(
+    ConfigBuilder(path="/your/log", level="DEBUG")
+    .add("moduleA", "moduleB")
+    .add("moduleB", level="INFO")
+)
+```
+
