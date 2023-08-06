@@ -1,0 +1,3 @@
+[console_scripts]
+ugpt = ugpt.bin:main
+
