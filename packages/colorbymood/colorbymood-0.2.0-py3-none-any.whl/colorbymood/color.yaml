@@ -1,0 +1,67 @@
+nervosity:
+  hls: 
+    - 235
+    - 100
+    - 75
+  frequency: 
+    type: "sine"
+    freq: 0.25
+    ival: 
+      - !!python/tuple [0.5, 0]
+
+sadness:
+  hls: 
+    - 116
+    - 75
+    - 90
+  frequency: 
+    type: "invert_well"
+    freq: 0.4
+    ival: 
+      - !!python/tuple [0.5, 0]
+
+distraction:
+  hls: 
+    - 178
+    - 80
+    - 88
+  frequency: 
+    type: "sine"
+    freq: 0.2
+    ival: 
+      - !!python/tuple [0.5, 0.5]
+  
+
+happyness:
+  hls: 
+    - 50
+    - 71
+    - 100
+  frequency: 
+    type: "sine"
+    freq: 1.5
+    ival: 
+      - !!python/tuple [0.5, 0]
+
+inspiration:
+  hls: 
+    - 269
+    - 76
+    - 81
+  frequency: 
+    type: "irregular"
+    freq: 0.8
+    ival: 
+      - !!python/tuple [0.5, 0]
+
+excitement:
+  hls: 
+    - 33
+    - 84
+    - 100
+  frequency: 
+    type: "well"
+    freq: 2
+    ival: 
+      - !!python/tuple [0.5, 0]
+
