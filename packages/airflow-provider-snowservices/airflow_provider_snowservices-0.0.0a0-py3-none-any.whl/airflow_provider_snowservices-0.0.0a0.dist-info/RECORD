@@ -1,0 +1,10 @@
+airflow_provider_snowservices/__init__.py,sha256=fK0oC4FKYMjBmqjeulII3BZLIWKat-BPkmW5fbVGquc,319
+airflow_provider_snowservices/hooks/__init__.py,sha256=jfCW4w_8NmLvmJjesAsoiPMHBnkC3crbsUfx29UNLnI,553
+airflow_provider_snowservices/operators/__init__.py,sha256=BHqMToWTj8ECKdcu4TumsxPSviXN8EGKyU9vfKYXZx4,776
+airflow_provider_snowservices/sensors/__init__.py,sha256=to1dP2T9lTi8fE-IWRySMA2PpMW8orICwT0BDYxOxN4,681
+airflow_provider_snowservices/triggers/__init__.py,sha256=voanwQoYu8Pws4luDiHz-Ir7mLJhHsY0-J1QNwMaG8k,1086
+airflow_provider_snowservices-0.0.0a0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_provider_snowservices-0.0.0a0.dist-info/METADATA,sha256=4rS7QJ4n2yKSWzmLSYZz1A7eY93z49RwJQCXmecqrcE,1420
+airflow_provider_snowservices-0.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+airflow_provider_snowservices-0.0.0a0.dist-info/top_level.txt,sha256=H20pdFNUOLr0hFGOMw0MxI4YVOgnSSH8l38VoWyEUrQ,30
+airflow_provider_snowservices-0.0.0a0.dist-info/RECORD,,
