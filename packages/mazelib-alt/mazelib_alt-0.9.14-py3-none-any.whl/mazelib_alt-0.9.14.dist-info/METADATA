@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mazelib-alt
+Version: 0.9.14
+Summary: A Python API for creating and solving mazes. Modified to have less strict dependency versions.
+Home-page: https://github.com/john-science/mazelib
+Author: John Stilley
+License: GPLv3
+Keywords: game mathematics algorithms maze mazes math games algorithm
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cython (>=0.27.0)
+Requires-Dist: numpy (>=1.13.1)
+
+A Python library for creating and solving mazes.
