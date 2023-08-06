@@ -1,0 +1,4 @@
+numpy
+pygfx>=0.1.10
+jupyterlab
+jupyter-rfb
