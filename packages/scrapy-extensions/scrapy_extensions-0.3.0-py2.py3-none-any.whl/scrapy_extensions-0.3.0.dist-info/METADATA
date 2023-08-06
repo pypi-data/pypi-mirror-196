@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: scrapy-extensions
+Version: 0.3.0
+Summary: A collection of Scrapy extensions and other utilities
+Home-page: https://gitlab.com/mshepherd/scrapy-extensions
+Author: Markus Shepherd
+Author-email: markus.r.shepherd@gmail.com
+License: MIT
+Project-URL: Documentation, https://gitlab.com/mshepherd/scrapy-extensions/blob/master/README.md
+Project-URL: Source, https://gitlab.com/mshepherd/scrapy-extensions
+Project-URL: Tracker, https://gitlab.com/mshepherd/scrapy-extensions/issues
+Keywords: Scrapy,extension,extensions,utilities,items,loaders,loggers,middleware,pipelines,blurhash
+Classifier: Framework :: Scrapy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: itemadapter
+Requires-Dist: jmespath
+Requires-Dist: pytility
+Requires-Dist: Scrapy
+Requires-Dist: Twisted
+Requires-Dist: w3lib
+Provides-Extra: articles
+Requires-Dist: html2text ; extra == 'articles'
+Requires-Dist: readability-lxml ; extra == 'articles'
+Provides-Extra: geo
+Requires-Dist: python-geohash ; extra == 'geo'
+Provides-Extra: images
+Requires-Dist: blurhash-numba[pillow] ; extra == 'images'
+Requires-Dist: numpy ; extra == 'images'
+Requires-Dist: Pillow (>=4.0.0) ; extra == 'images'
+
+
+# scrapy-extensions
+
+A collection of Scrapy extensions and other utilities. Install it from
+[PyPI](https://pypi.org/project/scrapy-extensions/):
+
+```bash
+pip install scrapy-extensions
+```
