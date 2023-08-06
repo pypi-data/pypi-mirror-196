@@ -1,0 +1,81 @@
+[tool.poetry]
+name = 'reddit-get'
+version = "1.1.0"
+description = 'A CLI to get reddit content'
+authors = ['Michael Lane <mikelane@gmail.com>']
+license = 'MIT'
+readme = 'README.md'
+homepage = 'https://github.com/mikelane/reddit-get'
+repository = 'https://github.com/mikelane/reddit-get'
+keywords = ['reddit', 'cli']
+classifiers = [
+    'Environment :: Console',
+]
+include = [
+    'LICENSE',
+]
+
+[tool.poetry.scripts]
+reddit-get = 'reddit_get.cli:main'
+
+[tool.poetry.dependencies]
+python = '>=3.8.0, <4.0.0'
+fire = "^0.5.0"
+praw = "^7.7.0"
+toml = "^0.10.2"
+titlecase = "^2.4"
+typing-extensions = "^4.5.0"
+
+[tool.poetry.dev-dependencies]
+black = { version = "^23.1.0", allow-prereleases = true }
+mypy = { version = "^1.1.1", allow-prereleases = true }
+pytest = "^7.2.2"
+pytest-black = { version = "^0.3.12", allow-prereleases = true }
+pytest-console-scripts = "^1.3.1"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+pytest-picked = "^0.4.6"
+pytest-sugar = "^0.9.6"
+pytest-xdist = "^3.2.0"
+tox = "^4.4.6"
+isort = "^5.12.0"
+pytest-isort = "^3.1.0"
+pydantic = "^1.10.6"
+pytest-mypy = {version = "^0.10.3", allow-prereleases = true}
+types-toml = "^0.10.8.5"
+
+[tool.pytest.ini_options]
+minversion = '6.0'
+addopts = '-ra -vvv'
+testpaths = ['tests']
+python_functions = ['test_*', 'it_*']
+
+[tool.black]
+line-length = 110
+skip-string-normalization = true
+include = '.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+force_grid_wrap = 2
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
