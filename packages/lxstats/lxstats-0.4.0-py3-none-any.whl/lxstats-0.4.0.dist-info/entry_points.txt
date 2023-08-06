@@ -1,0 +1,2 @@
+[console_scripts]
+procs = lxstats.scripts.procs:script
