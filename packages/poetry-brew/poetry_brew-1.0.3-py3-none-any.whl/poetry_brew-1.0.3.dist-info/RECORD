@@ -1,0 +1,8 @@
+poetry_brew/__init__.py,sha256=Ab371AXCHK-sLQ9vpQ3qz0WnuNm3iqo_bzdjX6zribA,81
+poetry_brew/plugin.py,sha256=3MN-Y5Kn9gI4_qJl3ZnbyTLT3aOtijJSINipS8gtGlg,4415
+poetry_brew/templates.py,sha256=frEUB82U9_EbVBycYF6mrCymX7dhiMOEseAYbNY-yaw,992
+poetry_brew-1.0.3.dist-info/entry_points.txt,sha256=HGQh9JLJkfSggraqTdJUO__SHRNNKqgSvLhQN7JWHQA,70
+poetry_brew-1.0.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+poetry_brew-1.0.3.dist-info/METADATA,sha256=gajYYOZ26S58sw7J6Vajm9MsqCg0zD3nCdWeUwYa0CE,2913
+poetry_brew-1.0.3.dist-info/LICENSE.md,sha256=Exm-SSSOGRHQ6zarmSG92rkWFyTSlwhkjm450OrOhtM,1120
+poetry_brew-1.0.3.dist-info/RECORD,,
