@@ -1,0 +1,9 @@
+setup.py
+img2char/__init__.py
+img2char/main.py
+img2char.egg-info/PKG-INFO
+img2char.egg-info/SOURCES.txt
+img2char.egg-info/dependency_links.txt
+img2char.egg-info/entry_points.txt
+img2char.egg-info/requires.txt
+img2char.egg-info/top_level.txt
