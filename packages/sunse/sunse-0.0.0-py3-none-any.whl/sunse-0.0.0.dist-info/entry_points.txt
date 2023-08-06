@@ -1,0 +1,2 @@
+[console_scripts]
+sunse = sunse.__main__:main
