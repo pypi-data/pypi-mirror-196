@@ -1,0 +1,116 @@
+Introduction
+============
+
+This project provides some tools to access data from the FDIC public API
+and data resources.
+
+Work in progress; more docs coming soon.
+
+Usage
+=====
+
+To try out these tools, install via ``pip install fdic`` or download the
+source code from GitHub. Then start a python interpreter and do
+something like the following:
+
+First we import various modules and set ftool to be the tool we want:
+
+.. code:: python
+
+   >>> import fdic.query, json
+   >>> ftool = fdic.query.FDICTools
+
+Now we can get the institutional data from the FDIC and sort it first by
+assets and then by deposits. We print the result in JSON format as a
+sanity check and see the largest 3 banks by assets:
+
+.. code:: python
+
+   >>> inst_data = ftool.get_sorted_inst_data()
+   >>> top_3_by_assets = inst_data[:3]
+   >>> print(json.dumps({i['NAME']: {n: i[n] for n in ['ASSET', 'DEP']}
+   ...      for i in top_3_by_assets}, indent=2))
+   {
+     "JPMorgan Chase Bank, National Association": {
+       "ASSET": "3201942000",
+       "DEP": "2440722000"
+     },
+     "Bank of America, National Association": {
+       "ASSET": "2418508000",
+       "DEP": "2042255000"
+     },
+     "Citibank, National Association": {
+       "ASSET": "1766752000",
+       "DEP": "1399631000"
+     }
+   }
+
+Next we pull in the Uniform Bank Performance Report data. Note that you
+will have to download a zip file with this data first. If you don't, you
+will get a NeedUBPRZipFile exception telling you how to download the
+necessary file.
+
+To save time in parsing, we can provide an rssd\ :sub:`filter` to just
+get data for the top 200 banks by assets. After getting the data, we
+sort by the UBPRE569 field (unrealized losses as a percent of tier 1
+capital for held-to-maturity assets) and then print the data:
+
+.. code:: python
+
+   >>> ubpr_data = ftool.get_ubpr_inst_data(rssd_filter={
+   ...     i['FED_RSSD'] for i in inst_data[:50]})
+   >>> htm_data = list(sorted(ubpr_data, key=lambda i: i['UBPRE569']))
+   >>> print(json.dumps({i['NAME']: {n: i[n] for n in ['NAME', 'UBPRE569']}
+   ...      for i in htm_data[:3]}, indent=2))
+   {
+     "Silicon Valley Bank": {
+       "NAME": "Silicon Valley Bank",
+       "UBPRE569": -89.2
+     },
+     "Bank of America, National Association": {
+       "NAME": "Bank of America, National Association",
+       "UBPRE569": -59.95
+     },
+     "Charles Schwab Bank, SSB": {
+       "NAME": "Charles Schwab Bank, SSB",
+       "UBPRE569": -46.87
+     }
+   }
+
+You can find a list of the UBPR codes at the `Federal
+Reserve <https://www.federalreserve.gov/apps/mdrm/data-dictionary/search/series?sid=1388&show_short_title=False&show_conf=False&rep_status=All&rep_state=Opened&rep_period=Before&date_start=20160912&date_end=20160912>`__.
+For example if you are interested in both ``UBPRE569`` (unrealized
+losses on the held-to-maturity portfolio as percent of tier 1 capital)
+as well as ``UBPRM037`` (appreciation in available for sale securities /
+percent of available for sale securities), you could do something like
+the following:
+
+.. code:: python
+
+   >>> codes = {
+   ...    'UBPRE569': {'convert': float},
+   ...    'UBPRM037': {'convert': float},
+   ... }
+   >>> ubpr_data = ftool.get_ubpr_inst_data(rssd_filter={
+   ...     i['FED_RSSD'] for i in inst_data[:50]}, codes=codes)
+   >>> htm_data = list(sorted(ubpr_data, key=lambda i: i['UBPRE569']))
+   >>> print(json.dumps({i['NAME']: {n: i[n] for n in (['NAME']+list(codes))}
+   ...      for i in htm_data[:3]}, indent=2))
+   {
+     "Silicon Valley Bank": {
+       "NAME": "Silicon Valley Bank",
+       "UBPRE569": -89.2,
+       "UBPRM037": -8.86
+     },
+     "Bank of America, National Association": {
+       "NAME": "Bank of America, National Association",
+       "UBPRE569": -59.95,
+       "UBPRM037": -2.0
+     },
+     "Charles Schwab Bank, SSB": {
+       "NAME": "Charles Schwab Bank, SSB",
+       "UBPRE569": -46.87,
+       "UBPRM037": -8.17
+     }
+   }
+

@@ -1,0 +1,10 @@
+README.rst
+setup.py
+fdic/__init__.py
+fdic/query.py
+fdic.egg-info/PKG-INFO
+fdic.egg-info/SOURCES.txt
+fdic.egg-info/dependency_links.txt
+fdic.egg-info/entry_points.txt
+fdic.egg-info/requires.txt
+fdic.egg-info/top_level.txt
