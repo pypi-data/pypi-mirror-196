@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ThisIsAnExamplePackage3.egg-info/PKG-INFO
+ThisIsAnExamplePackage3.egg-info/SOURCES.txt
+ThisIsAnExamplePackage3.egg-info/dependency_links.txt
+ThisIsAnExamplePackage3.egg-info/requires.txt
+ThisIsAnExamplePackage3.egg-info/top_level.txt
+examplePackage/__init__.py
+examplePackage/example.py
