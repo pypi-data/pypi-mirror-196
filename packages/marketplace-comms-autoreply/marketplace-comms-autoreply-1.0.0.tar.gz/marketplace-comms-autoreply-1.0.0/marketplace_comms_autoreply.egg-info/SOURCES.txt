@@ -1,0 +1,6 @@
+README.md
+setup.py
+marketplace_comms_autoreply.egg-info/PKG-INFO
+marketplace_comms_autoreply.egg-info/SOURCES.txt
+marketplace_comms_autoreply.egg-info/dependency_links.txt
+marketplace_comms_autoreply.egg-info/top_level.txt
