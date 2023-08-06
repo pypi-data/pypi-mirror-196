@@ -1,0 +1,10 @@
+janscalckernel/__init__.py,sha256=3TXtGr5kY3fQCtREXFDoM3InU42_dBXWSnf0tk5a8SE,44
+janscalckernel/__main__.py,sha256=K5vwbQyoZiy_NpdHj907LWpshOR6OhLngf9kXHdVySE,158
+janscalckernel/install_kernelspec.py,sha256=6z1l2zDeZLb9YYwt9xJiTAgHXSs3-2E8-svrEInFdR8,11076
+janscalckernel/kernel.py,sha256=1PB2tbyZ7ZEriNR__Zb88Jy-hpOORLXUAS86WREnnGM,1337
+janscalckernel-1.0.1.dist-info/LICENSE,sha256=TloRXvTqTVFM_h8RqCTIxWgpkMe---jdV1FtRygowKc,1072
+janscalckernel-1.0.1.dist-info/METADATA,sha256=p5BupnxbpArg-oVlTcnsYdlqZNANNWz2nMVGXBjQHWU,1370
+janscalckernel-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+janscalckernel-1.0.1.dist-info/entry_points.txt,sha256=0FcGQer9lURh3J6zcrX3n29pU6xvz2qivuNpySsMHys,88
+janscalckernel-1.0.1.dist-info/top_level.txt,sha256=3iM_1Zk0zhVaKU04Mmqo87Au1vr9_wuudK-nUHMEkXQ,15
+janscalckernel-1.0.1.dist-info/RECORD,,
