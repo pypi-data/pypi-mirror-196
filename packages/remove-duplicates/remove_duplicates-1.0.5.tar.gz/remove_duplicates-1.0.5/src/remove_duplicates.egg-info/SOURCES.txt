@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/remove_duplicates/__init__.py
+src/remove_duplicates/internationalization.py
+src/remove_duplicates/my_utils.py
+src/remove_duplicates/remove_dup.py
+src/remove_duplicates/str_with_trans.py
+src/remove_duplicates/translated.csv
+src/remove_duplicates.egg-info/PKG-INFO
+src/remove_duplicates.egg-info/SOURCES.txt
+src/remove_duplicates.egg-info/dependency_links.txt
+src/remove_duplicates.egg-info/entry_points.txt
+src/remove_duplicates.egg-info/top_level.txt
