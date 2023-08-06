@@ -1,0 +1,13 @@
+serverless_sdk/__init__.py,sha256=gJ9eoQQ1vtR5ZU32Ull_TV9xHH7HiK9IKBa434tM1wM,1186
+serverless_sdk/base.py,sha256=2Q0lmvO1ovbOAbqEHS41_GyshfXLkGOoffSwREg7f4A,739
+serverless_sdk/exceptions.py,sha256=vvpAhqfPJnkQ3QV0kfsJHZQ0xIwe0XcR8gfPafTr1Qw,717
+serverless_sdk/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk/lib/id.py,sha256=XABzpznkIIinQqXh4_Yj1oHdqS6-KdPWIhSBHnAxwuI,326
+serverless_sdk/lib/name.py,sha256=Sbkdh9PP7nwOA-IrFbf0BE-phbiZ2UO0-iotw1in5mQ,986
+serverless_sdk/lib/tags.py,sha256=22iKYDOV3joKPqoh9IlNppXPo41OLhOTTSQO5iTiMqE,4112
+serverless_sdk/lib/timing.py,sha256=fi2vBMDd8UuYSV0ePccQk8-CU2AVkWVyVe0jEs2u0_w,273
+serverless_sdk/lib/trace.py,sha256=j90D42K_Si1yaGtMzrDEl1HAMVS-PSfpeC-PJmn3E5I,7226
+serverless_sdk-0.2.0.dist-info/METADATA,sha256=STXW4heVz5JInvmyoIlXnTvGLUx_qLin76XGhYjEvF4,2299
+serverless_sdk-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+serverless_sdk-0.2.0.dist-info/top_level.txt,sha256=qJv7MyDUcDobCxwHxLnwvEjYn-JfetLIWahUEFTX-P0,15
+serverless_sdk-0.2.0.dist-info/RECORD,,
