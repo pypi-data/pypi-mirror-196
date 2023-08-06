@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cushy_serial/__init__.py
+cushy_serial/_core.py
+cushy_serial.egg-info/PKG-INFO
+cushy_serial.egg-info/SOURCES.txt
+cushy_serial.egg-info/dependency_links.txt
+cushy_serial.egg-info/top_level.txt
+tests/test_core.py
