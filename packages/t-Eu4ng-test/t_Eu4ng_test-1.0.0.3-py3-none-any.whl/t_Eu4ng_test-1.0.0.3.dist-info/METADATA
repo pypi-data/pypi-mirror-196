@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: t-Eu4ng-test
+Version: 1.0.0.3
+Summary: Test Package
+Home-page: https://eu4ng.tistory.com
+Author: plogds
+Author-email: merds@naver.com
+License: MIT
+Requires-Python: >=3
+
