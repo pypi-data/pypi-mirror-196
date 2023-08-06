@@ -1,0 +1,13 @@
+mypytoolkit/__init__.py,sha256=Imfjc2kwokCWzilYFRVz4DrP9Ud9dbSQ01GfP1Fm3A8,372
+mypytoolkit/backoff.py,sha256=2jECdAStO3ED1t0d8YRBmpmH6hV7hgCG_w-lkC40cB8,2119
+mypytoolkit/dates.py,sha256=s_KiJir_bwXJHv01aqnvbm59g_tTYmaRRfzUeYhMODs,2371
+mypytoolkit/files.py,sha256=weFLOwaDl4zQeZGJBOm1IGLVT915sz3GXErIUkOLs-g,2132
+mypytoolkit/finance.py,sha256=Zc-EgfrMixR5fLwkcpydFIfYzA9RKbsVRt4UHV-dOpg,2056
+mypytoolkit/math.py,sha256=F2fLqEGKccr1ffFkYjvNve8L_m5J7x_LuHT_qzV6-g0,445
+mypytoolkit/pyfuncs.py,sha256=Q0o4JCl1dOVL4SzXBLTfTpweAaJiXhmQttNNTGhiBFk,2057
+mypytoolkit/threadtools.py,sha256=OWxPTfYhlbX79Kf9Uw2dOmXFagxXqG3F3CoIMn9hB30,2170
+mypytoolkit/web.py,sha256=h8ZLVHoTBViOxj5kchbqMY5soNALa0LV55HNas9SpW0,633
+mypytoolkit-1.6.1.dist-info/METADATA,sha256=3RjaVl1yYvYlh2HVDMCwdifMeorahBe5J7o2Ivzhg0k,7738
+mypytoolkit-1.6.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mypytoolkit-1.6.1.dist-info/top_level.txt,sha256=Z2XJAlTEDrpr5KWrBTnga18UDtvNn47CaBKadSLu5Gs,12
+mypytoolkit-1.6.1.dist-info/RECORD,,
