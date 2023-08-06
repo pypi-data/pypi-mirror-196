@@ -1,0 +1,10 @@
+aster/__init__.py,sha256=CwkAIxXZDFJg810la8w29atfxk9uweOPI4PJYbVZBgQ,394
+aster/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aster/errors.py,sha256=I80C_Fj58hMpFaUne6_YInjYnU-qhcVuSjMJ5zijwTA,664
+aster/http.py,sha256=kEYGHuPGllG5VWtjgLNsAYzAhuy93m07VD1qtkOlENg,5076
+aster/wrapper.py,sha256=1EbeKGOE_hywl3v7qpOjBBxlEjDokn_fg0sxeMSPHF0,1943
+aster.db-0.0.1.dist-info/LICENSE,sha256=LtAHM4LBDNNO8X-7hmi0uu2dVjhyc_-vetUXHnncMZI,1063
+aster.db-0.0.1.dist-info/METADATA,sha256=Ahd2ope_LGJRSNXMjREkZGoEPODbUixOXQ-zGTDgz-k,1395
+aster.db-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aster.db-0.0.1.dist-info/top_level.txt,sha256=EOZdR4JDqWkVWZyx7Z57ekMijNAtObg8ioJtFLRLe7s,6
+aster.db-0.0.1.dist-info/RECORD,,
