@@ -1,0 +1,3 @@
+[console_scripts]
+aqimon=aqimon.server:start
+
