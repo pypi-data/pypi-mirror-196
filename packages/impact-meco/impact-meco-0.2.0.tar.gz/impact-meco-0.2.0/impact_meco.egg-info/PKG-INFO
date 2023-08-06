@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: impact-meco
+Version: 0.2.0
+Summary: DIRAC MPC
+Home-page: https://gitlab.kuleuven.be/meco/projects/sbo_dirac/impact
+Author: MECO-Group
+Author-email: joris.gillis@kuleuven.be
+License: LICENSE
+Download-URL: https://gitlab.kuleuven.be/meco/projects/sbo_dirac/impact/-/archive/v0.2.0/impact-v0.2.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
