@@ -1,0 +1,4 @@
+SQLAlchemy>=2.0
+
+[yaml]
+PyYAML>=5.4
