@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hg-xExample
+Version: 0.3
+Requires-Python: >=3.10
+Requires-Dist: click
+Requires-Dist: chardet
+Requires-Dist: rich
+Requires-Dist: typing
+
