@@ -1,0 +1,11 @@
+few_shot_priming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+few_shot_priming/conf.yaml,sha256=LhxIWQg0-Fyn6S7cdtt17enL0vn9P-GkOoVElasgLQY,502
+few_shot_priming/few_shot_stance.py,sha256=5ZD3zN8mn1Tf3wRwm4B6E5Vw6rh1Cz8_2f3KxSzyyjg,12602
+few_shot_priming/data/claim_stance_dataset_v1.csv,sha256=8bIwWvKIPnQGNzTqrhHvidKpN478vOF1ZBQzLuxjrcg,1017422
+few_shot_priming/experiment/test.csv,sha256=w7FbPgLdLbWlenjHftFUsNQ2KenxL3inkWoTEtyKQks,518571
+few_shot_priming/experiment/train.csv,sha256=5DFZjmGZY1dlAcfF2Lnz1U8T8gaL67VVorXhnrE7Xpk,240003
+few_shot_priming/experiment/validation.csv,sha256=B2Myom84yS40faRcMGyytPV2j-Af3YMa1IPtzjizLko,178874
+few_shot_priming-0.0.62.dist-info/METADATA,sha256=7D5RgSq6CJinL06LviJ_35N6C0QjI59qgGt3FTzS0X0,6860
+few_shot_priming-0.0.62.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+few_shot_priming-0.0.62.dist-info/top_level.txt,sha256=incVNauAhdZ1aJWVERG4ifiKeG4bmLKy6tdy4Li4rdY,17
+few_shot_priming-0.0.62.dist-info/RECORD,,
