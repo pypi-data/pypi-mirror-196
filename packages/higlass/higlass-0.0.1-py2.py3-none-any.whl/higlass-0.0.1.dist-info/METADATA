@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: higlass
+Version: 0.0.1
+Summary: Python bindings for HiGlass
+Project-URL: homepage, https://github.com/higlass/higlass-python
+Author-email: Fritz Lekschas <code@lekschas.de>, Nezar Abdennur <nabdennur@gmail.com>, Peter Kerpdjiev <pkerpedjiev@gmail.com>, Trevor Manz <trevor.j.manz@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: higlass-schema
+Requires-Dist: higlass-widget
+Requires-Dist: jinja2
+Requires-Dist: jupyter-server-proxy
+Requires-Dist: portpicker
+Requires-Dist: starlette
+Requires-Dist: uvicorn
+Provides-Extra: dev
+Requires-Dist: black[jupyter]; extra == 'dev'
+Requires-Dist: jupyterlab; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: markupsafe==2.0.1; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-autobuild; extra == 'docs'
+Requires-Dist: sphinx-js; extra == 'docs'
+Provides-Extra: fuse
+Requires-Dist: fusepy; extra == 'fuse'
+Requires-Dist: simple-httpfs; extra == 'fuse'
