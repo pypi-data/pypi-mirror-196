@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: reverser
+Version: 2.0.0
+Summary: A small reverser package to reverse a list, tuple, string, int, or dict
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: My GitHub, https://github.com/beastboixdna
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Beast Boi <beastboigithub89@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# reverser
+
+Reverser is a Python package for reversing strings, lists, tuples, dictionaries, and integers.
+
+## Installation
+
+To install _reverser_, simply use pip:
+
+## Usage
+
+To use Reverser, first import the `Reverser` class from the `reverser` module:
+
+Then, create an instance of the `Reverser` class:
+
+### Reversing a string, list, or tuple
+
+You can use the `reverse` method of the `Reverser` class to reverse a string, list, dict, number or tuple:
+
+## License
+
+This package is released under the MIT License. See the LICENSE file for details.
