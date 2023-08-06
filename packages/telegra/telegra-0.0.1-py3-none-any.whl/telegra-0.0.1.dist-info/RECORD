@@ -1,0 +1,13 @@
+telegra/__init__.py,sha256=P0RPIzc7rwtTODsm3TXlo_sLrfBeicYRW3TpW4_3d7M,431
+telegra/core.py,sha256=qVcGE7lnA0eR8fdJ0tiNFXBZEUAzGiHqYIGxQaEfi8A,3398
+telegra/drive.py,sha256=QxFguicX_qzsgt8NntcqQDb8KqHnEt5G1zvhE_H5Hiw,3904
+telegra/utils.py,sha256=BxXpleKMM-f-fqygH3y3ZIfWsj3lofRvzdSx9t9CDDw,3297
+telegra/__metadata__/DISCLAIMER.md,sha256=Eh9dhFWbvRMm27jxKYRZqQp_Lb8PkhbYWYQyLoMSrHg,4785
+telegra/__metadata__/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+telegra/__metadata__/README.md,sha256=rBp-LiX6kULfK-3Pfu8cFSh31xrODjtRXLIxPqP_sss,936
+telegra/__metadata__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegra/__metadata__/requirements.txt,sha256=1g4Z6qE1WB45Zu3gaokg7KusYWanwfdVHsjFIBwDR5I,89
+telegra-0.0.1.dist-info/METADATA,sha256=JmWAfb4Y6WfXyjLJcUTfIu5UH2xER37OJkmZv-sayDc,2200
+telegra-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+telegra-0.0.1.dist-info/top_level.txt,sha256=NJQTnPGoVYjHTMk1dJxJglVN9F2W5chM6zCOKmJrEPo,8
+telegra-0.0.1.dist-info/RECORD,,
