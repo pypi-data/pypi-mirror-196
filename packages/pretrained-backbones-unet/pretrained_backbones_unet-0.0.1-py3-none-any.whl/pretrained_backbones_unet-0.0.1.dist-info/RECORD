@@ -1,0 +1,13 @@
+backbones_unet/__init__.py,sha256=TIvvX4wAQSrH_4LhaWXi34vkyaLkkQbC61mx0xMSwkk,8866
+backbones_unet/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backbones_unet/model/losses.py,sha256=9TCu35vn-EVWxXjZwk1xE-g0hhprNWEEhWbaAOjGBkI,2575
+backbones_unet/model/unet.py,sha256=3R0mN1yVNq0nbAJKb-BZ76R6OV6yT_TuXlIN5-z4gDc,12555
+backbones_unet/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backbones_unet/utils/dataset.py,sha256=Lax1jJuj93-hH8c5anKOB9YQxehSEAV-J9XF5iALFJA,5130
+backbones_unet/utils/reproducibility.py,sha256=Rsw5zdgzUrNpMWhDqa5rxrja06rkJMeoxXxQNrYloO4,1298
+backbones_unet/utils/trainer.py,sha256=tYussc2zI7331LRAKQIeIjKGIwdITz4j3GWzljumrXM,4945
+pretrained_backbones_unet-0.0.1.dist-info/LICENSE,sha256=GWx9GNlFXglNsnCdYOS7-d-QPSYgqHVfx2yi7ucA1YQ,1089
+pretrained_backbones_unet-0.0.1.dist-info/METADATA,sha256=TkofNWiYu9KEkx0jTaSqwJ8KTkke-JjmwzB23Jvhk0k,4879
+pretrained_backbones_unet-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pretrained_backbones_unet-0.0.1.dist-info/top_level.txt,sha256=Q1BI4CdM2V8v54uaP9OrIUQf1NS48Vi_o376YRzo33s,15
+pretrained_backbones_unet-0.0.1.dist-info/RECORD,,
