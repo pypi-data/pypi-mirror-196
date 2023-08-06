@@ -1,0 +1,17 @@
+edman/__init__.py,sha256=HrSiGstslA7XqMjK9NHCFtvai5RTKMxT-vMz4lrpHyc,167
+edman/config.py,sha256=0kUvNHVoRXppKWvon6fZLZt6fQUj1SxGIp8ZvgOx72w,1211
+edman/convert.py,sha256=HRm5BaBL5pmci7dSyw0t1L8-8JXGACwqF6JROLrMvZg,17057
+edman/db.py,sha256=CexqTdXVNAKiFj7-OKqC6TAtnQb0qqUay1_yS0zyzRE,48104
+edman/exceptions.py,sha256=De3ahPe1McovLbbTa4F6rxaWjhCUQSfstCfJQ0qwhTY,644
+edman/file.py,sha256=zmjc8-3gwWOQUG9TyICZW4sUQJnxFTGZLHvtABIAAwk,20285
+edman/json_manager.py,sha256=mrQWO6TJW2japf3sfZwQWniN5DWt1ls3WZsA-vxNDXE,1520
+edman/search.py,sha256=Xu8XBuAy7nIgft_ul1M31QDV8SgR2itXrRR-S2bC7R0,12578
+edman/utils.py,sha256=n24ImOOX27_uxbm55KuC_nlTn_hK0Ri9EYsPtUxxAz4,10958
+venv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+venv/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+venv/lib64/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edman-2023.3.9.dist-info/LICENSE.txt,sha256=sJCrhOM0cxyIz-CtzhUdsazCMhOHIIb6DfAjfCHeiG0,1115
+edman-2023.3.9.dist-info/METADATA,sha256=i1epEktR4AF_BHpeIotkTuHJnJiYI-x8nJ2aLn6eBlA,6487
+edman-2023.3.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+edman-2023.3.9.dist-info/top_level.txt,sha256=Gf1Otc3royOVvPtLcgpNl2DLSqwu7qfVtGxGqa-KSjo,6
+edman-2023.3.9.dist-info/RECORD,,
