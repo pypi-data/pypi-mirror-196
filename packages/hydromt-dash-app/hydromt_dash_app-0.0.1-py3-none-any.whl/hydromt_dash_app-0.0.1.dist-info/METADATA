@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hydromt-dash-app
+Version: 0.0.1
+Summary: HydroMT dashboard: A dashboard interface to the HydroMT environment
+Author-email: Tjalling de Jong <tjalling.dejong@deltares.nl>, Dirk Eilander <dirk.eilander@deltares.nl>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: hydromt
+Requires-Dist: dash>=2.6.2
+Requires-Dist: dash-bootstrap-components>=1.2.0
+Requires-Dist: visdcc
+Requires-Dist: dash-extensions>=0.0.71
+Requires-Dist: dash-leaflet>=0.1.23
+Requires-Dist: geojson
+Project-URL: Home, https://github.com/Deltares/hydromt_dash
+
+# HydroMT Dashboard
+A dashboard user interface for building spatial geoscientific models with a focus on water systems models.
+
+### Local development
+Develop pip install this repository.
+Use the following command line argument inside your environment to run the dashboard in debug mode: 
+```
+hydromt_dash_dev
+```
+To run the main version of the dashboard use:
+
+```
+hydromt_dash
+```

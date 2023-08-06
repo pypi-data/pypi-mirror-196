@@ -1,0 +1,4 @@
+[console_scripts]
+hydromt_dash=hydromt_dash_app.run_app:main
+hydromt_dash_dev=hydromt_dash_app.run_app:dev
+
