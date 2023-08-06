@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: audig
+Version: 0.1.0
+Summary: Reprodutor de áudio para estudo de inglês.
+Author: Oseiasdfarias
+Author-email: oseias.dfarias@gmail.com
+Requires-Python: >=3.8.1,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: audioread (>=3.0.0,<4.0.0)
+Requires-Dist: pygame (>=2.2.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# AudIng
+
