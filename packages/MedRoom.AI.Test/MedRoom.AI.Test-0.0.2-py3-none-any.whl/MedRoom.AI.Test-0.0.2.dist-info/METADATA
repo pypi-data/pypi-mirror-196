@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: MedRoom.AI.Test
+Version: 0.0.2
+Summary: A Natural Language Processing Model
+Home-page: https://github.com/EneasJr-Rodrigues/MedRoom.AI.Test
+Author: Eneas Rodrigues
+Author-email: eneas.rodrigues25@gmail.com
+License: Copyright 2023 Eneas Rodrigues        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: PyYAML (==5.1)
+Requires-Dist: coverage (==5.5)
+Requires-Dist: cython
+Requires-Dist: gensim (==3.8.0)
+Requires-Dist: hypopt (>=1.0.9)
+Requires-Dist: importlib-metadata
+Requires-Dist: joblib (>=1.0.1)
+Requires-Dist: jupyterthemes (>=0.20.0)
+Requires-Dist: kneebow
+Requires-Dist: matplotlib (>=3.1.1)
+Requires-Dist: nltk (==3.6.6)
+Requires-Dist: openpyxl (>=3.0.9)
+Requires-Dist: papermill
+Requires-Dist: pendulum (==2.0.5)
+Requires-Dist: pyLDAvis
+Requires-Dist: pygments (>=2.7.4)
+Requires-Dist: pyparsing (==2.4.2)
+Requires-Dist: pytest
+Requires-Dist: python-Levenshtein (==0.12.2)
+Requires-Dist: regex
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: scikit-learn (>=0.24.2)
+Requires-Dist: seaborn (==0.11.1)
+Requires-Dist: twine
+Requires-Dist: urllib3 (>=1.26.5)
+Requires-Dist: wordcloud (>=1.8.1)
+
+UNKNOWN
+
