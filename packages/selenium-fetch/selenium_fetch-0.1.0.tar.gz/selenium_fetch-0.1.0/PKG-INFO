@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: selenium-fetch
+Version: 0.1.0
+Summary: access `fetch()` with selenium!
+Home-page: https://github.com/aprilahijriyan/selenium-fetch
+License: MIT
+Keywords: selenium,fetch,undetected-chromedriver,cloudflare
+Author: aprilahijriyan
+Author-email: hijriyan23@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.6,<2.0.0)
+Requires-Dist: selenium (>=4.8.2,<5.0.0)
+Project-URL: Repository, https://github.com/aprilahijriyan/selenium-fetch
+Description-Content-Type: text/markdown
+
+# selenium-fetch
+
+A simple module that lets you access the `fetch` API with selenium!
+
+> _Why do I make this? just annoyed with cloudflare. It works best with [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)._
+
+## Installation
+
+```
+pip install selenium-fetch undetected-chromedriver
+```
+
+## Example
+
+```python
+from undetected_chromedriver import Chrome
+from selenium_fetch import fetch, Options, get_browser_user_agent
+
+LOGIN_PAGE_URL = "https://smekdong.com/login"
+LOGIN_API_URL = "https://smekdong.com/api/login"
+driver = Chrome(headless=False)
+driver.get(LOGIN_PAGE_URL)
+post_data = {
+    'username': 'blaabla',
+    'password': 'xxxx'
+}
+headers = {
+    "user-agent": get_browser_user_agent(driver),
+    'origin': 'https://smekdong.com',
+    'referer': 'https://smekdong.com/',
+}
+options = Options(method="POST", headers=headers, body=post_data)
+response = fetch(driver, LOGIN_API_URL, options)
+print("Response:", response)
+```
+
