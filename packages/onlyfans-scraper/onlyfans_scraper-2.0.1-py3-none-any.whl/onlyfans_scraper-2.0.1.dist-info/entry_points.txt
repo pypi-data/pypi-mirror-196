@@ -1,0 +1,3 @@
+[console_scripts]
+onlyfans-scraper = onlyfans_scraper.scraper:main
+
