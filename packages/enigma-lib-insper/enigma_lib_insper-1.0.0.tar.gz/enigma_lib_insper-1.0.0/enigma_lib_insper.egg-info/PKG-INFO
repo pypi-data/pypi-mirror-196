@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: enigma-lib-insper
+Version: 1.0.0
+Summary: Uma biblioteca para encriptar e decriptar mensagens com o Enigma
+Home-page: https://github.com/alanmath/ENIGMA
+Author: Alan e Esdras
+Author-email: alanm2@al.insper.edu.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

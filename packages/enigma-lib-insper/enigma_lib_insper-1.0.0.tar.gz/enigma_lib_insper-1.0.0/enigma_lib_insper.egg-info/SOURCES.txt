@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+enigma_lib_insper/__init__.py
+enigma_lib_insper/enigma_lib_insper.py
+enigma_lib_insper.egg-info/PKG-INFO
+enigma_lib_insper.egg-info/SOURCES.txt
+enigma_lib_insper.egg-info/dependency_links.txt
+enigma_lib_insper.egg-info/requires.txt
+enigma_lib_insper.egg-info/top_level.txt
