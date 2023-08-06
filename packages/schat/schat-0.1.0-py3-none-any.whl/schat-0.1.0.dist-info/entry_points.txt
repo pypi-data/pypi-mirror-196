@@ -1,0 +1,3 @@
+[console_scripts]
+schat=simple_chat.__main__:main
+
