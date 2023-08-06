@@ -1,0 +1,6 @@
+prettytable
+toolrack>=2.0.1
+
+[testing]
+pytest
+pytest-mock
