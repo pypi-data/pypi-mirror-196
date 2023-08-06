@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cmon
+Version: 0.1.0
+Summary: cmon is a utility that will monitor for any changes in your code and automatically restart them
+Home-page: https://github.com/NicRiv/cmon
+Author: nicriv
+Author-email: nicriv.dev@gmail.com
+License: MIT
+Keywords: utilities,testing,c,cpp,monitor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+
+# cmon
+
+cmon is a utility that will monitor for any changes in your Python code and automatically restart them.
+
+## Start
+```
+cmon -f index.py
+```
+
