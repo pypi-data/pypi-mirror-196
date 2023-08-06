@@ -1,0 +1,6 @@
+nester_garbage.py
+setup.py
+nester_garbage.egg-info/PKG-INFO
+nester_garbage.egg-info/SOURCES.txt
+nester_garbage.egg-info/dependency_links.txt
+nester_garbage.egg-info/top_level.txt
