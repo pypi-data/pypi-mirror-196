@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+py_parallel_processing/__init__.py
+py_parallel_processing/__version__.py
+py_parallel_processing/main.py
+py_parallel_processing.egg-info/PKG-INFO
+py_parallel_processing.egg-info/SOURCES.txt
+py_parallel_processing.egg-info/dependency_links.txt
+py_parallel_processing.egg-info/top_level.txt
