@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pycolorings/__init__.py
+pycolorings/color.py
+pycolorings.egg-info/PKG-INFO
+pycolorings.egg-info/SOURCES.txt
+pycolorings.egg-info/dependency_links.txt
+pycolorings.egg-info/top_level.txt
