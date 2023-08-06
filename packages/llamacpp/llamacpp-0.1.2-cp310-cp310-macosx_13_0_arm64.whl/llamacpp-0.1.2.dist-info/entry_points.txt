@@ -1,0 +1,3 @@
+[console_scripts]
+llamacpp-quantize=llamacpp.quantize:main
+
