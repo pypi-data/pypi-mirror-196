@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_imbot_dc.egg-info/PKG-INFO
+shopee_imbot_dc.egg-info/SOURCES.txt
+shopee_imbot_dc.egg-info/dependency_links.txt
+shopee_imbot_dc.egg-info/top_level.txt
