@@ -1,0 +1,10 @@
+eth-ape
+py-huffc
+
+[dev]
+black
+build
+flake8
+isort
+pre-commit
+twine
