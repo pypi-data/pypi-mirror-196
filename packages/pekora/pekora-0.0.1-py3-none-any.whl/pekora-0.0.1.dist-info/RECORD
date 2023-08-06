@@ -1,0 +1,16 @@
+LICENSE.md,sha256=xwFmdYR0KBSDI7xnWNd5CSj7icrwt1tWWP9C50ORkcM,1099
+pekora/__init__.py,sha256=Ab371AXCHK-sLQ9vpQ3qz0WnuNm3iqo_bzdjX6zribA,81
+pekora/callbacks.py,sha256=-c44lfc33icSiIvwhBGbEd1uoE0Lk_w9K-e0u18Pr2Q,1462
+pekora/cli.py,sha256=kWl_KGwTXuWZf3HZDtb4MneowC4SxCGkgzgvTrQcbio,9111
+pekora/context.py,sha256=0rPgahkBCxtTds2Woa_ZxZ88BUMsszuAap_HrkZFRD0,247
+pekora/exceptions.py,sha256=zAJtSzRbUon_ZqFZOOr1HMet2OOGyHUm3TsypVaTgbU,824
+pekora/models.py,sha256=xRmmUleKZeOBlGQREtJTSSaMSnf4XJDJwgd4kGIzJGs,2166
+pekora/peko.py,sha256=2v9LBjlLMZerjPe8QpxuHWuVhOBOoxD98_MgakGJpM0,1812
+pekora/prefs.py,sha256=jNySGDdU6tnkxtXXHQVJmGMoZzj5uKImjaUJ5cubL-A,648
+pekora/prompts.py,sha256=4Ero0D4emedm9gVYZvCPreekxXhMG5bQSX9P8yPk3XY,1665
+pekora/utils.py,sha256=YQ6uwWxLGwb8-p9GU7YaAzIzmc0mjSU8PcxIATxvAl4,2134
+pekora-0.0.1.dist-info/LICENSE.md,sha256=xwFmdYR0KBSDI7xnWNd5CSj7icrwt1tWWP9C50ORkcM,1099
+pekora-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pekora-0.0.1.dist-info/entry_points.txt,sha256=ZsguX0C6C_Vs4P9TUqZdHfv7R5xOESgo6xRHy6KQ6y8,41
+pekora-0.0.1.dist-info/METADATA,sha256=eM4c9FpWYdbm4Uio4_CMThdrWWUB75WG_SLhSVSykic,1795
+pekora-0.0.1.dist-info/RECORD,,
