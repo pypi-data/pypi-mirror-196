@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mtdd/__init__.py
+mtdd/core.py
+mtdd.egg-info/PKG-INFO
+mtdd.egg-info/SOURCES.txt
+mtdd.egg-info/dependency_links.txt
+mtdd.egg-info/requires.txt
+mtdd.egg-info/top_level.txt
