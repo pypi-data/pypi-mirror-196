@@ -1,0 +1,2 @@
+jsonschema
+rok4>=1.4.4
