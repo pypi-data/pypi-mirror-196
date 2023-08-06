@@ -1,0 +1,11 @@
+genai/__init__.py,sha256=RZry5g628-jmCpW6xSEvorCkss9bIEmJqnEtBzmildw,538
+genai/_version.py,sha256=7tBM6u9xObtdF-zcyKhVH344pB2QUHupMyyek_jJRrc,30
+genai/components.py,sha256=PgqskInKi9b5puUYWtt7tOeU3HeHgLxH3VqNB9p0AOE,1626
+genai/context.py,sha256=Iu257pWH7nmx00yseepQ6nuQcZABMusIXnRVbGz-JgY,2083
+genai/generate.py,sha256=c_gtV2qgHCPpg7Awp2tbnH_R4a8rQJInrd1TstdDyW8,2871
+genai/magics.py,sha256=EouyZgrJuVeGtOzsFnbbfRU-1OteG29rWd3Vy0wdUos,3214
+genai/suggestions.py,sha256=01s3-stXNEStKvcrg13tFn835EOmRHbB5VnKq_ZrL7g,4444
+genai-0.12.0b1.dist-info/LICENSE,sha256=aazEttnr18ZR8zWLtTQtGCuIUGzBOpUJG6qDLY2FkYw,1495
+genai-0.12.0b1.dist-info/METADATA,sha256=yEEeNda4FQsl5fv2IcVtGfu-KB8wq1m4q19GTfnQfGQ,6183
+genai-0.12.0b1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+genai-0.12.0b1.dist-info/RECORD,,
