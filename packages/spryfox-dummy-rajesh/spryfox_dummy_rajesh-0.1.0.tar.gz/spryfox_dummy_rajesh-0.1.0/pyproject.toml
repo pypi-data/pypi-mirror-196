@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "spryfox-dummy-rajesh"
+version = "0.1.0"
+description = "python dummy packages with poetry by rajesh"
+authors = ["06rajesh <abhi.crushefix@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spryfox-dummy-rajesh"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
+DateTime = "^5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
