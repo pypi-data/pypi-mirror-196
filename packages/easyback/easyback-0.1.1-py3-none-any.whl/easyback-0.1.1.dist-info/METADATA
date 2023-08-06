@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: easyback
+Version: 0.1.1
+Summary: 简易回测框架
+Home-page: https://gitee.com/wy2629/easyback
+Author: easyback
+Author-email: 915164739@qq.com
+License: BSD
+Platform: all
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+一个简易的回测框架,欢迎使用!
+
+
+
+
