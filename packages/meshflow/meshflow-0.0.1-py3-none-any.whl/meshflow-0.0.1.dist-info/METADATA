@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: meshflow
+Version: 0.0.1
+Summary: Efficient Automatic Training System for Super-Large Models
+Home-page: https://github.com/shenggan/meshflow
+Author: Shenggan Cheng
+Author-email: shenggan.c@u.nus.edu
+Description-Content-Type: text/markdown
+
+# MeshFlow
