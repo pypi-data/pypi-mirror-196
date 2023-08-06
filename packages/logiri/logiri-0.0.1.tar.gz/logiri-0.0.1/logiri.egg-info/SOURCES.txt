@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+logiri/__init__.py
+logiri/logger_factory.py
+logiri/py.typed
+logiri.egg-info/PKG-INFO
+logiri.egg-info/SOURCES.txt
+logiri.egg-info/dependency_links.txt
+logiri.egg-info/top_level.txt
