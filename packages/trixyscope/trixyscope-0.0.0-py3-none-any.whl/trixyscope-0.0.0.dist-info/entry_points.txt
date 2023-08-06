@@ -1,0 +1,3 @@
+[console_scripts]
+trixyscope=trixyscope.__main__:launch
+
