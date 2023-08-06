@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gcp-ng-helpers
+Version: 0.0.2
+Summary: Various helper function for Google Cloud services
+Home-page: https://github.com/NGhostClub/gcp-helpers
+Author: Dmitriy Tischenko aka NGhost
+Author-email: nghostik@gmail.com
+Project-URL: Source, https://github.com/NGhostClub/gcp-helpers
+Project-URL: Bug Tracker, https://github.com/NGhostClub/gcp-helpers/issues
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
