@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+VertSpliNN_saf/__init__.py
+VertSpliNN_saf/vert_splitNN.py
+vertsplitNN_saf.egg-info/PKG-INFO
+vertsplitNN_saf.egg-info/SOURCES.txt
+vertsplitNN_saf.egg-info/dependency_links.txt
+vertsplitNN_saf.egg-info/requires.txt
+vertsplitNN_saf.egg-info/top_level.txt
