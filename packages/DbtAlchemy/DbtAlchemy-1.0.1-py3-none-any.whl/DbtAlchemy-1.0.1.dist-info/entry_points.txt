@@ -1,0 +1,6 @@
+[sqlalchemy.dialects]
+Dbt = DbtAlchemy.DbtPy:DbtDialect_DbtPy
+Dbt.DbtPy = DbtAlchemy.DbtPy:DbtDialect_DbtPy
+DbtAlchemy = DbtAlchemy.DbtPy:DbtDialect_DbtPy
+DbtAlchemy.pyodbc = DbtAlchemy.pyodbc:DbtDialect_pyodbc
+

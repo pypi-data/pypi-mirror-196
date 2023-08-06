@@ -1,0 +1,12 @@
+DbtAlchemy/DbtPy.py,sha256=8z_-_9lfcI6vdG6Lvk5AiEZeJbeT-3J90Ol6y1BbuM8,8243
+DbtAlchemy/__init__.py,sha256=leXtXpBj4VmzqbTVdPicyJZViIZ6EZwCYn2QMF4oIh8,395
+DbtAlchemy/base.py,sha256=1kiMU5DAlN22WXKv71FuBszieHj__pvYazffSKQnd5M,31699
+DbtAlchemy/pyodbc.py,sha256=Y1i0sy7pZgK5LvwWaJeEC73yCWO0kVHxmpr758FCEww,4617
+DbtAlchemy/reflection.py,sha256=kZP_1OhdVhyKR4gqf1zAHONnqHBmiyBUUrpxj8OoZR4,19660
+DbtAlchemy/requirements.py,sha256=6DCZcuWybnv7OeF0B8KMOyMfLlGqRIzJ1IZa9eKUOo0,2295
+DbtAlchemy-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+DbtAlchemy-1.0.1.dist-info/METADATA,sha256=TY95Nj9yIU6h17yinrsNhae0YLgto9lhflVOIYbm5bs,2645
+DbtAlchemy-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DbtAlchemy-1.0.1.dist-info/entry_points.txt,sha256=JAd918s4F8wzKMY-YB7rBpnsCjozpMJz34cyW8qVZO8,212
+DbtAlchemy-1.0.1.dist-info/top_level.txt,sha256=J58SCx87a5-NSabEtCvS4tvZos5w4Cf_Dfe1bCFWjdI,11
+DbtAlchemy-1.0.1.dist-info/RECORD,,
