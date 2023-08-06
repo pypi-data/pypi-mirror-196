@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+MpMatrix/MpMatrix.py
+MpMatrix/MpMatrix_tests.py
+MpMatrix.egg-info/PKG-INFO
+MpMatrix.egg-info/SOURCES.txt
+MpMatrix.egg-info/dependency_links.txt
+MpMatrix.egg-info/entry_points.txt
+MpMatrix.egg-info/top_level.txt
