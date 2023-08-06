@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "crappackage"
+version = "0.1.0"
+description = ""
+authors = ["alexrembridge <a.rembridge@hotmail.co.uk>"]
+readme = "README.md"
+packages = [{include = "crappackage", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+packages = [
+    { include = "crappackage", from = "src" }
+]
+
+[tool.poetry.scripts]
+crappackage = "crappackage.unhelpful:main"
