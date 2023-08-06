@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: analytics-lib
+Version: 0.0.1
+Summary: A package for psychotyping by text
+Home-page: https://github.com/lyoshamipt/bortnik_psychometry
+Author: Pokhachevskiy Vsevolod
+Author-email: pokhachevskiy@gmail.com
+Description-Content-Type: text/markdown
+
+# Библиотека для анализа текстов
+
+## Установка (требуется Python 3.8 и новее)   
+
+```
+git clone https://github.com/lyoshamipt/bortnik_psychometry.git
+
+cd bortnik_psychometry
+
+python3 -m pip install -r requirements.txt
+
+python -m dostoevsky download fasttext-social-network-model
+
+python3 -m spacy download ru_core_news_sm 
+```
+
+    # Далее следует скопировать из папки Soft-Skill-Dev/21_nov
+    # https://drive.google.com/drive/folders/1T1NuaU1qPQsyAM_i55AsJPrsGA28EZ5j?usp=sharing
+    # на Google Drive папку stanza_resources/
+    # в папку клонированного репозитория:
+    # ./analytics_lib/notebooks/
+
+    # Также следует скачать ресурсы для elmo модели
+    # по ссылке http://vectors.nlpl.eu/repository/20/212.zip,
+    # разархивировать их и поместить в ./analytics_lib/notebooks/elmo_resources
+
+
+## Документация
+
+Пользовательскую документацию можно получить по [ссылке](./analytics_lib/docs/index.md).
+
+
+## Структура репозитория
+
+    ├── analytics_lib       <- основная папка с проектом
+        |
+        ├── data                <- кэш-файлы, необходимые для запуска ноутбуков
+        |
+        ├── docs                <- документация к проекту
+        │
+        |
+        ├── nlp_texts           <- скрипты для обработки текстов
+        │
+        ├── notebooks           <- ноутбуки с экспериментами по текстам
+
+
+## Использование
+
+С признаками, извлекаемыми из конкретного текста, можно ознакомиться в ноутбуке [psychotyping_by_text.ipynb](./analytics_lib/notebooks/psychotyping_by_text.ipynb)
+
+
+## Возможные ошибки
+
+С путями решения возможных ошибок при установке и использовании библиотеки можно ознакомиться в [FAQ](./analytics_lib/docs/FAQ.md)
