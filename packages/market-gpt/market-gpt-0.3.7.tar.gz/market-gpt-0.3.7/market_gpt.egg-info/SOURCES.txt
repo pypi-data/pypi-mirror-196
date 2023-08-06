@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+market_gpt/__init__.py
+market_gpt/_marketgpt_scripts.py
+market_gpt/chatgpt.py
+market_gpt/prompt.py
+market_gpt.egg-info/PKG-INFO
+market_gpt.egg-info/SOURCES.txt
+market_gpt.egg-info/dependency_links.txt
+market_gpt.egg-info/entry_points.txt
+market_gpt.egg-info/requires.txt
+market_gpt.egg-info/top_level.txt
+market_gpt.egg-info/zip-safe
+market_gpt/tests/__init__.py
