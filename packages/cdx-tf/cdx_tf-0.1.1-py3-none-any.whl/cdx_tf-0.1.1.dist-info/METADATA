@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cdx-tf
+Version: 0.1.1
+Summary: Basic Tensorflow Python tools
+Home-page: https://github.com/hansbuehler/cdx_tf
+Author: Hans Buehler
+Author-email: github@buehler.london
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cdxbasics
+Requires-Dist: tensorflow (>=2.10)
+Requires-Dist: tensorflow-probability (>=0.14)
+Requires-Dist: ray
+
+# cdx_tf
+Basic utilities for TensorFlow, following the Deep Hedging usage pattern

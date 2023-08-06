@@ -1,0 +1,12 @@
+cdx_tf/__init__.py,sha256=qNNFfQByVNxMGF04BZ03a9DkD05Nu0iMrwTBHRiznck,126
+cdx_tf/clip.py,sha256=aTaqTQ8NNL2bsz-KKMStlgtqa292w_TmfHW_QHiCD0E,5299
+cdx_tf/gym.py,sha256=jaNd7srsIhQpC2QKWTEmZ6gze8P0TmytDn3dD-GhCBU,38664
+cdx_tf/layers.py,sha256=LPh2qaNI2K1RophIONiqKLjRRFIcC9yEhjImL4VQumc,3863
+cdx_tf/monetary_utility.py,sha256=B1Gfp1_QfZq9JoAzo6IrRe96OUsevvC4JAE6e0RuKVw,5651
+cdx_tf/optimizer.py,sha256=zLQNecZbej18MxqmjiJbK6LnM26jHx8uZPPqjZjwT5M,2345
+cdx_tf/util.py,sha256=d7cuJljdDzJyXDHs0YSfNnIEcOw9x7JTNdJN-jUKX8A,9622
+cdx_tf-0.1.1.dist-info/LICENSE,sha256=yMjCEaGO47_5bwgM74Pab6qvDDWpnUyghAs_9n-JZmU,1090
+cdx_tf-0.1.1.dist-info/METADATA,sha256=Dsz34pAATK7izp7MRdF4BcpJaZEPH0bWkAI0323SfTU,655
+cdx_tf-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cdx_tf-0.1.1.dist-info/top_level.txt,sha256=zbFGKto3ARPTc8WMsxNlydrYDJTJMK88qzcMGbo-aBU,7
+cdx_tf-0.1.1.dist-info/RECORD,,
