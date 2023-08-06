@@ -1,0 +1,6 @@
+README.md
+setup.py
+dpvs_metrics.egg-info/PKG-INFO
+dpvs_metrics.egg-info/SOURCES.txt
+dpvs_metrics.egg-info/dependency_links.txt
+dpvs_metrics.egg-info/top_level.txt
