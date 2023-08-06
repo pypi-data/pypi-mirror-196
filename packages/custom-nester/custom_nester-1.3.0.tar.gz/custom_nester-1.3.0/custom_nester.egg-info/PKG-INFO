@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: custom-nester
+Version: 1.3.0
+Summary: A simple printer of nested lists
+Home-page: https://github.com/arielden/
+Author: arielden
+Author-email: arieldenaro@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+custom_nester
+=======
+
+What is this?
+--------------
+
+This is a module created basically for test and learning purposes.
+
+    print_lol function takes a positional argument called 'the_list', which is any python list
+    (of, possibly nested lists). Each data item in the provided list is recursively printed
+    to the screen on its own line. (or into a file)
+    
+    ---Arguments----------(default value)
+    1st - 'the_list'
+    2nd - 'indent' is used to activate the indentation. (False)
+    3rd - 'level' is used to insert tab-stops when a nested list is encontered. (0)
+    4th - 'print_in' gives us the ability to print the output in separated files or screen. (sys.stdout)
+
+
+
+Requirements
+------------
+
+* python >= 3.9
+
+
+Credits
+------------
+
+Ariel Denaro
+
