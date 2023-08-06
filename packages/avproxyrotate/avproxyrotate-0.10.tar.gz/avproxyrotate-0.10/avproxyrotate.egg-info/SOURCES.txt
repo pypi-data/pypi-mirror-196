@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+avproxyrotate/LICENSE
+avproxyrotate/README.MD
+avproxyrotate/__init__.py
+avproxyrotate/requirements.txt
+avproxyrotate/thirdparty.json
+avproxyrotate.egg-info/PKG-INFO
+avproxyrotate.egg-info/SOURCES.txt
+avproxyrotate.egg-info/dependency_links.txt
+avproxyrotate.egg-info/requires.txt
+avproxyrotate.egg-info/top_level.txt

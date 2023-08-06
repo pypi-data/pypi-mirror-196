@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: avproxyrotate
+Version: 0.10
+Summary: Rotates Avast proxy servers
+Home-page: https://github.com/hansalemaos/avproxyrotate
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: avast,proxy,rotate
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Rotates Avast proxy servers
+
+## pip install avproxyrotate
+
+### Disable ipv6:
+
+#### https://networking.grok.lsu.edu/Article.aspx?articleid=17573
+
+```python
+from avproxyrotate import start_avast
+start_avast(
+    sleeptime_reconnect=3,
+    hotkey_change="ctrl+alt+m",  # Changes the proxy server via hotkey
+    hotkey_stop="ctrl+alt+n",  # Kills the script
+    dns="100.122.0.0",
+    rotate_server_each_n_seconds=15,  # changes IP each n seconds
+    clear_used_ips_after_n_seconds=3600,  # clears already used IPs during proxy rotation
+    path_app=r"C:\Program Files\Avast Software\SecureLine VPN",  # install folder
+    path_data=r"C:\ProgramData\Avast Software\SecureLine VPN",  # App data - IPs and tlsdomain are extracted from log files, that means, before you use this function, you have to connect to some avast servers using their app
+)
+```

@@ -1,0 +1,4 @@
+include avproxyrotate/requirements.txt
+include avproxyrotate/thirdparty.json
+include avproxyrotate/README.MD
+include avproxyrotate/LICENSE
