@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cadCAD-legacy-devel
+Version: 0.4.29
+Summary: cadCAD: tweaked version
+Home-page: https://github.com/cadCAD-org/cadCAD-legacy-devel
+Author: Danilo Lessa Bernardineli
+Author-email: danilo.lessa@gmail.com
+License: LICENSE.txt
+Requires-Python: >=3.10.0
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+
+This is a tweaked version of cadCAD, use at your own peril.
