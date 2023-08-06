@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+dzmymod.egg-info/PKG-INFO
+dzmymod.egg-info/SOURCES.txt
+dzmymod.egg-info/dependency_links.txt
+dzmymod.egg-info/top_level.txt
+module/__init__.py
+module/dzmymod.py

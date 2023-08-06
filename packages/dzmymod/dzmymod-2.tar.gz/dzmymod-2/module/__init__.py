@@ -1,0 +1,1 @@
+from dzmymod import *
