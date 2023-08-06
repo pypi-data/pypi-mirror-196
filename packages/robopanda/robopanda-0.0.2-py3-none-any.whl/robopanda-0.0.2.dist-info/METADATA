@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: robopanda
+Version: 0.0.2
+Summary: This package provides helper functions for typical pandas workflows.
+Home-page: https://github.com/sammaule/robopanda
+Author: Sam Maule
+Author-email: "Sam Maule" <sam.maule@gmail.com>
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Robopanda
+
+A simple python library to automate some common tasks in Pandas.
+
+## Installation
+
+```bash
+$ python -m pip install robopanda
+```
