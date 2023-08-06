@@ -1,0 +1,17 @@
+ToMiddleChinese/ToMiddleChinese.py,sha256=gH587r3bbPmWtBALgD2gwTWaV2M93umeHWfzMojtwtw,2474
+ToMiddleChinese/__init__.py,sha256=awwYDCbeq5mQ5nuc_GtET7NpmR1S9k7k-tlpDeVrOrg,89
+ToMiddleChinese/utils.py,sha256=m6ZFghMRrwHXK59NR4_D56fLTr41dUlFiYGmsHefc9E,5835
+ToMiddleChinese/version.py,sha256=Uf2J0fmcUVPSZEopn-T5gAOXKOIqIEJxBE28nIT7mQY,47
+ToMiddleChinese/dict/HKVariantsRev.txt,sha256=EPA6WVzjjCuualxxdPDBDjUOppNegm9zIM6JRS8WMjo,532
+ToMiddleChinese/dict/HKVariantsRevPhrases.txt,sha256=wtowmvp_3ZBh8gRmQDnTOwAKTcoOyuTnSA3L-eIPZY4,2709
+ToMiddleChinese/dict/dict.big.txt,sha256=sWARJ1xClVzNgfwa3syTpZ27eSavadk_yV1JQ9QPaq0,8583143
+ToMiddleChinese/dict/hk2t.json,sha256=6Z260zfa7IFaOxQH__fUMwWzTt0ZkdSFB2U-6h_l1Q4,448
+ToMiddleChinese/dict/kyonh.dict.yaml,sha256=PXaFWfMoDXE9Ux-iHsoDD_rNY2mIaaEbX5-cEukdshI,1169851
+ToMiddleChinese/dict/pos.dict.yaml,sha256=CyKjfJf8zvhhrHdKawLZn9WG5Zzx08p6ncSMHVLGc2I,2529898
+ToMiddleChinese/dict/tupa.dict.yaml,sha256=9EyxovVNql4esRJxpRLetNN--pcVDevZ_sXcu1vK8I0,1200445
+ToMiddleChinese/dict/unt.dict.yaml,sha256=3G7xdcxYYIHJROsfSIotXk7eC7OQDX_57ExicXCjha0,1337990
+ToMiddleChinese-0.2.2.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+ToMiddleChinese-0.2.2.dist-info/METADATA,sha256=-7cucTtxQe5zWBv0jxcJ9EuLl-tT-FpF0KIEXFHRUG0,4301
+ToMiddleChinese-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ToMiddleChinese-0.2.2.dist-info/top_level.txt,sha256=APmHcqYdBKSlw4rweBlOMQfA4jaIsjrwaRJH6B0l9FE,16
+ToMiddleChinese-0.2.2.dist-info/RECORD,,
