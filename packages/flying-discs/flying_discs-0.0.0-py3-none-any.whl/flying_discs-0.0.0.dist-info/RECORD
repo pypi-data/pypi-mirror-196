@@ -1,0 +1,16 @@
+flying_discs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flying_discs/disc.py,sha256=JSBunuLDzy7D9MYRzDaWmVjMhFvDFXMyo3w45cswZQ4,3019
+flying_discs/disc_position.py,sha256=nZK7GErW71RB-vCgsWdb3b5XVeb7xQyYQToAMz0PO6o,748
+flying_discs/disc_state.py,sha256=nxMPLoJCx6tuulBdvB3u8mdZFmZ3wa5Bw5RWLMZZ9xU,94
+flying_discs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flying_discs/utils.py,sha256=jQItjudEBSvMZOPWxYlKN4nFOvEKYigKFSSuS9fhuno,4018
+flying_discs/morrison/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flying_discs/morrison/disc_morrison_base.py,sha256=EYPqwIxWsQdtwfqe5jUj9cwWtcUzo0RiM-5Q77-208c,2700
+flying_discs/morrison/disc_morrison_bezier.py,sha256=u1ZUi1E67DMa6bQbqk-lVYE-BDzO6qZbsJ4kh0uQ7gc,3194
+flying_discs/morrison/disc_morrison_linear.py,sha256=QssSt2I_5ejLpL3QmY-Ufs0ToA5azmyP1psVHxNnCHY,3479
+flying_discs/morrison/morrison_constants.py,sha256=XJrLKO50asJyvAwsRZrX-KLeGrne0u63mRLx6aiGRJY,926
+flying_discs/morrison/morrison_position.py,sha256=2MGB_Ip43zx3Jvvdh0YHlpdSlmv23HuODk5UWD6mddU,359
+flying_discs-0.0.0.dist-info/METADATA,sha256=Wn__rcrIOJfXvU45BoZ7RZzegOV3CVud7WE1z6x3E7E,4586
+flying_discs-0.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+flying_discs-0.0.0.dist-info/licenses/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+flying_discs-0.0.0.dist-info/RECORD,,
