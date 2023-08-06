@@ -1,0 +1,40 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Site UniFi Network deja configurat"
+        },
+        "error": {
+            "service_unavailable": "Nu a reu\u0219it sa se conecteze"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "password": "Parola",
+                    "port": "Port",
+                    "site": "ID site",
+                    "username": "Utilizator",
+                    "verify_ssl": "Verifica certificat SSL"
+                },
+                "title": "Configureaz\u0103 re\u021bea UniFi"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "device_tracker": {
+                "data": {
+                    "detection_time": "Timpul \u00een secunde care trebuie s\u0103 treac\u0103 p\u00e2n\u0103 este considerat plecat",
+                    "track_clients": "Urm\u0103re\u0219te clien\u021bii de re\u021bea",
+                    "track_devices": "Urm\u0103ri\u021bi dispozitivele de re\u021bea (dispozitive Ubiquiti)",
+                    "track_wired_clients": "Include\u021bi clien\u021bi de re\u021bea cu fir"
+                }
+            },
+            "statistics_sensors": {
+                "data": {
+                    "allow_bandwidth_sensors": "Utilizare l\u0103\u021bime de band\u0103 pentru clien\u021bii de re\u021bea"
+                }
+            }
+        }
+    }
+}

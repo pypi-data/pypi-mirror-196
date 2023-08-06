@@ -1,0 +1,22 @@
+{
+    "config": {
+        "abort": {
+            "already_setup": "A fost deja configurat. Doar o singura configurare este posibila.",
+            "authorize_url_timeout": "\u00cent\u00e2rziere generata de autorizarea URL-ului",
+            "missing_configuration": "Componenta Soma nu este configurat\u0103. Te rug\u0103m s\u0103 urmezi documenta\u021bia."
+        },
+        "create_entry": {
+            "default": "Autentificare realizata cu succes"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "port": "Port"
+                },
+                "description": "Te rug\u0103m introdu configura\u021bia de conexiune al SOMA Connect",
+                "title": "SOMA Connect"
+            }
+        }
+    }
+}
