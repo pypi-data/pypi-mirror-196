@@ -1,0 +1,8 @@
+LICENSE
+README.md
+emailExtractorMBOX.py
+pyproject.toml
+EmailAddressExtractor_DS.egg-info/PKG-INFO
+EmailAddressExtractor_DS.egg-info/SOURCES.txt
+EmailAddressExtractor_DS.egg-info/dependency_links.txt
+EmailAddressExtractor_DS.egg-info/top_level.txt
