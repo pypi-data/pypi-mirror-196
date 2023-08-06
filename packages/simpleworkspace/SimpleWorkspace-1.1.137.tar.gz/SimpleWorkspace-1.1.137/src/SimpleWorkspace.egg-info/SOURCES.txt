@@ -1,0 +1,7 @@
+pyproject.toml
+src/SimpleWorkspace.egg-info/PKG-INFO
+src/SimpleWorkspace.egg-info/SOURCES.txt
+src/SimpleWorkspace.egg-info/dependency_links.txt
+src/SimpleWorkspace.egg-info/top_level.txt
+src/SimpleWorkspace/ExtLibs/appdirs.py
+test/test_general.py
