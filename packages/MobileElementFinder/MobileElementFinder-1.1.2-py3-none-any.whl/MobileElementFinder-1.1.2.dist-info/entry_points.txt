@@ -1,0 +1,3 @@
+[console_scripts]
+mefinder = me_finder.cli:cli
+
