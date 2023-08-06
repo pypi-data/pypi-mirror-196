@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ModifiedSapGuiLibrary"
+version = "1.0.1"
+authors = [
+  { name="IT Dev HOTD Python Developer"},
+]
+description = "Modified Package For SapGuiLibrary"
+requires-python = ">=3.7"
+dependencies = ["keyboard>=0.13.5"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.package-data]
+mypkg = ["*.py"]
