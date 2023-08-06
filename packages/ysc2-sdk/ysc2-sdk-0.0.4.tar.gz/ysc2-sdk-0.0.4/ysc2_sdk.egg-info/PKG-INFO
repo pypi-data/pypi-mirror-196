@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ysc2-sdk
+Version: 0.0.4
+Summary: A simple API for Yeaosound Chain
+Home-page: https://gitlab.yeaosound.com/yeaosound/ysc/public/ysc-sdk-python
+Author: Yang
+Author-email: yangruoyu000@live.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: OpenSSL
+
+# The API Client for the Yeaosound Chain
+
+--------
+
+## Installation
+
+### Install from respository
+
+```bash
+python3 -m pip install ysc2-sdk
+```
+
+> Note: You need to enter your username and password for the gitlab.yeaosound.com when you install from the repository.
+
+## How to start
+
+For a user who has an account with single privatekey, you can use the following code to start:
+
+```python
+from ysc2 import ysc
+myaccount = ysc("__YOUR_ACCOUNT_ADDRESS__","__YOUR_ACCOUNT_PRIVATEKEY_CID__","__YSC_ENDPOINT_URL__")
+myaccount.getuserinfo()  #Get the user information of the account
+#return a dict
+{'status': True, 'uid': 'YsAxxxxx', 'latest_block': 'bafybxxxx|1234', 'last_update_time': 1677634486, 'last_important_update_block': 'bafybxxxx|2345', 'role': 'user', 'boss': 'YsAxxxxx', 'joined': [], 'balance': 114514}
+myaccount.getbalance()   #Get the balance of the account
+#return a integer
+114514
+myaccount.getheadblock() #Get the head block of the chain
+# return a dict
+{'status': True, 'msg': 'Success', 'data': {'block': 'bafybxxxxx', 'data':{
+    # the block data shown as a dict
+}}
+myaccount.getblock("__BLOCK_CID__")    #Get the block with the block CID
+myaccount.gettrade("__BLOCK_CID__",__TRADE_OFFSET__)    #Get the trade with the trade format "bafxxx|0" where "bafxxx" is the block CID and 0 is the trade offset, the offset should be an integer.
+myaccount.getusertrade(__DEPTH__)   #Get the last __DEPTH__ trades of the account with a depth, the depth should be an integer.
+myaccount.createdeal("__DESTINATION_ACCOUNT_CID__",__AMOUNT__,strict_waiting=False)   #Create a deal with the destination account CID and the amount, the amount should be an integer.
+#The strict_waiting is an optional parameter, if it is set to True, the function will wait until the deal is confirmed, otherwise it will return immediately.
+```
+
+For a user who has an account with multi privatekey, it is such different and very complex. The method is only for the advanced user. You can use the following code to start:
+
+```python
+from ysc2 import muysc
+myaccount = muysc("__YOUR_ACCOUNT_ADDRESS__","__ONE_OF_YOUR_ACCOUNT_PRIVATEKEY_CID__","__YSC_ENDPOINT_URL__")
+```
+
+> Note: The multi privatekey account is currently not supported by the official Yeaosound Chain, it is only for the advanced user who has the ability to create and manage a multi privatekey account.
+
+### Tips
+
+To set a custom IPFS node, you can use the following code:
+
+```python
+from ysc2.utils.ipfs import apihelper as ipfshelper
+ipfshelper.IPFS_GW = "http://127.0.0.1:8080"
+ipfshelper.IPFS_API = "http://127.0.0.1:5001"
+```
