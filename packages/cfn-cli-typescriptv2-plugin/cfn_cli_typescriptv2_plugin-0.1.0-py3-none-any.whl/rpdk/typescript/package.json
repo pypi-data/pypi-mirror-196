@@ -1,0 +1,92 @@
+{
+  "name": "@richicoder/cloudformation-cli-typescriptv2-lib",
+  "version": "0.1.0",
+  "description": "The CloudFormation Resource Provider Development Kit (RPDK) allows you to author your own resource providers that can be used by CloudFormation. This plugin library helps to provide runtime bindings for the execution of your providers by CloudFormation.",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "bin/*",
+    "dist/"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsup",
+    "build": "tsup",
+    "changeset": "changeset",
+    "sync-versions": "tsx scripts/sync-versions.mts",
+    "release": "changeset publish"
+  },
+  "bin": {
+    "cfn-js": "./bin/cfn-js.js"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./dist/config/tsconfig.json": "./dist/config/tsconfig.json",
+    "./*": "./dist/*.js",
+    "./package.json": "./package.json"
+  },
+  "tsup": {
+    "entry": [
+      "src/**/*"
+    ],
+    "format": [
+      "esm"
+    ],
+    "platform": "node",
+    "dts": true,
+    "bundle": false,
+    "clean": true,
+    "sourcemap": true,
+    "publicDir": "include"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richicoder1/cloudformation-cli-typescriptv2-plugin.git"
+  },
+  "author": "Amazon Web Services",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/richicoder1/cloudformation-cli-typescriptv2-plugin/issues"
+  },
+  "homepage": "https://github.com/richicoder1/cloudformation-cli-typescriptv2-plugin#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@tsconfig/node18": "^1.0.1",
+    "@types/aws-lambda": "^8.10.111",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.6",
+    "@types/yargs": "^17.0.22",
+    "exit-hook": "^3.2.0",
+    "fs-extra": "^11.1.0",
+    "suretype": "^3.2.1",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5",
+    "zx": "^7.2.0"
+  },
+  "peerDependencies": {
+    "suretype": "^3.2.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.282.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.282.0",
+    "json-ptr": "^3.1.1",
+    "p-queue": "^7.3.4",
+    "p-retry": "^5.1.2",
+    "pino": "^8.11.0",
+    "pino-lambda": "^4.1.0",
+    "quicktype-core": "^23.0.11",
+    "ts-dedent": "^2.2.0",
+    "type-fest": "^3.6.1",
+    "typeconv": "^2.1.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.1"
+  }
+}
