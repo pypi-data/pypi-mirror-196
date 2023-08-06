@@ -1,0 +1,61 @@
+: 1674490534:0;pip install hatch
+: 1674490601:0;hatch new --init
+: 1674490835:0;hatch version "0.1.3"
+: 1674490915:0;hatch version
+: 1674491627:0;git commit -m "Added hatch as build-system to publish to pypi"
+: 1674493486:0;hatch version patch
+: 1674496282:0;hatch build
+: 1674496360:0;hatch publish
+: 1674569654:0;hatch env create --help
+: 1674570225:0;hatch test
+: 1674570257:0;hatch env create test
+: 1674570353:0;hatch env run
+: 1674570362:0;hatch env run test .
+: 1674570369:0;hatch env run test --help
+: 1674570397:0;hatch env run test test:pytest
+: 1674570424:0;hatch shell
+: 1674570426:0;source "/home/laroo/.local/share/hatch/env/virtual/django-restapi-engine/5Qh4TlXS/django-restapi-engine/bin/activate"
+: 1674570437:0;hatch
+: 1674570453:0;hatch status
+: 1674570507:0;hatch run python -c "import sys;print(sys.executable)"
+: 1674570525:0;hatch run test -VV
+: 1674570538:0;hatch env show --ascii
+: 1674570916:0;hatch env
+: 1674570931:0;hatch env remove
+: 1674570934:0;hatch env remove default
+: 1674570942:0;hatch env create
+: 1674570999:0;pip install hatch-containers
+: 1674571168:0;hatch env run test
+: 1674571245:0;hatch run test
+: 1674571295:0;hatch env run test:test
+: 1674571298:0;hatch env run all:test
+: 1674571461:0;hatch env prune
+: 1674571474:0;hatch env remove all.py3.7-3.2
+: 1674571483:0;hatch env remove all.py3.7-4.0
+: 1674571646:0;hatch env remove all.*
+: 1674571797:0;hatch env remove all
+: 1674571800:0;hatch env create all
+: 1674572036:0;hatch run all:test
+: 1674572042:0;hatch run all:test -V
+: 1674572047:0;hatch run all:test -v
+: 1674572053:0;hatch run all:test -vv
+: 1674572059:0;hatch run all:test -vv -x
+: 1674574622:0;wget https://raw.githubusercontent.com/ofek/hatch-showcase/master/.github/workflows/test.yml
+: 1674575387:0;wget https://raw.githubusercontent.com/ofek/hatch-mypyc/master/.github/workflows/build.yml
+: 1675350265:0;hatch env show
+: 1675350850:0;hatch run all:test -vvv -x -s
+: 1675351790:0;hatch run all:test -vvv -s
+: 1675351872:0;hatch run all:test -v -s
+: 1675352127:0;hatch run all:test -vv -s
+: 1675352139:0;hatch run all:test -vv -s --reuse-db
+: 1678317591:0;hatch env show
+: 1678317686:0;hatch env show
+: 1678317699:0;hatch run all:test -vv -s
+: 1678317810:0;hatch run all:test -vvv -s
+: 1678317856:0;hatch run all:test -vvv -s tests/test_django_model.py
+: 1678317878:0;hatch run all:test -vvv -s tests/test_rest_api_handler.py
+: 1678318011:0;hatch run all:test -vvv -s
+: 1678319178:0;hatch version
+: 1678319358:0;hatch version patch
+: 1678319489:0;cat ~/.zhistory| grep hatch
+: 1678319501:0;cat ~/.zhistory| grep hatch > hatch_history.txt

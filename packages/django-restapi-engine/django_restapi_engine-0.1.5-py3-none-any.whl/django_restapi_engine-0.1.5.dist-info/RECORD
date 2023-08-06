@@ -1,0 +1,10 @@
+django_restapi_engine/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+django_restapi_engine/base.py,sha256=z6k5Y7HYSX4b-ilGW580lw95kWKsNWYeKE8dsgRfYFk,2368
+django_restapi_engine/compiler.py,sha256=9GCYdDLVuGAjtlG5e3N1gTHei188_BWxT90knCtqhEY,4246
+django_restapi_engine/hatch_all_history.txt,sha256=BHKpfj__LPqfEa9cPBvGbG0q7coorDc8irmhssBrxHc,700812
+django_restapi_engine/hatch_history.txt,sha256=aWJ2YrzU88OlUCF0ecKwCaLh6i6zpKUrnk3z4hGwsgM,2600
+django_restapi_engine/rest_api_handler.py,sha256=p4DUVv6bz8eH4A2pZKfdSAns4gSVZ5EbFztj82-kc_4,431
+django_restapi_engine-0.1.5.dist-info/METADATA,sha256=PKdDKEaYOdaWArwMIwGJyn34jc_h6qoDHE4a9FkR-pc,4644
+django_restapi_engine-0.1.5.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+django_restapi_engine-0.1.5.dist-info/licenses/LICENSE,sha256=A67Fqi1XfWDqmmq_Yzj2kZd4aBgj4gd3p-GkcQs7Fv8,1070
+django_restapi_engine-0.1.5.dist-info/RECORD,,
