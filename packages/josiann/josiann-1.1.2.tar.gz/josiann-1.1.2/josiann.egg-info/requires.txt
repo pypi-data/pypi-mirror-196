@@ -1,0 +1,13 @@
+numpy
+attrs
+tqdm
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+nbsphinx
+IPython
+sphinx-rtd-theme
+
+[plot]
+plotly
