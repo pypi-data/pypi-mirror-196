@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tonoi
+Version: 0.2.0
+Summary: A playable implementation of towers of hanoi
+Home-page: https://www.github.com/Justaus3r/tonoi
+Author: Justaus3r
+License: GPLV3
+Project-URL: Homepage, https://www.github.com/Justaus3r/tonoi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+
+A playable implementation of towers of hanoi
