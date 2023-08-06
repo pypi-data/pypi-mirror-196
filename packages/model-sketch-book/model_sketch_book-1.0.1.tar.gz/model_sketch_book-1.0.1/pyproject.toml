@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "model_sketch_book"
+version = "1.0.1"
+description = "A package for sketching ML models"
+authors = ["Michelle Lam"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.16"
+openai = "^0.27.1"
+altair = "^4.2.2"
+nltk = "^3.8.1"
+torch = "^1.13.1"
+open-clip-torch = "^2.16.0"
+pillow = "^9.4.0"
+requests = "^2.28.2"
+ipywidgets = "^8.0.4"
+validators = "^0.20.0"
+scikit-learn = "1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
