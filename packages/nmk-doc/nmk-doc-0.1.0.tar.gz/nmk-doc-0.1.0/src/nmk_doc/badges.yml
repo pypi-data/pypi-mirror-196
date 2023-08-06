@@ -1,0 +1,7 @@
+# Documentation badges configuration
+config:
+    badges:
+      - alt: "Documentation Status"
+        img: https://readthedocs.org/projects/${projectName}/badge/?version=latest
+        url: https://${projectName}.readthedocs.io/en/latest/?badge=latest
+        if: ${docInputs}
