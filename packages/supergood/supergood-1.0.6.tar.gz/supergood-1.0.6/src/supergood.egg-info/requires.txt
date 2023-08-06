@@ -1,0 +1,9 @@
+pydash
+python-dotenv
+requests
+jsonpickle
+asyncio
+aiohttp
+pytest_httpserver
+Werkzeug
+setuptools
