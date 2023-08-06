@@ -1,0 +1,9 @@
+emantis/__init__.py,sha256=ePlI_c4P8WKx5XFCWBtJsdnaXth_-6m2EiMfR_qekac,44
+emantis/cosmo_params.txt,sha256=NqE7p2Hg8kpeD2okiIisMKXsGtxFlpPQ-ToNCbYdJnE,8309
+emantis/kbins.h5,sha256=XKm_sWRlc6OCIMQ_b1_0g1h_cQAH7oXjro2hKJarPiQ,3496
+emantis/power_boosts_train.h5,sha256=zwN27ltSKrayfKGtAIAfapbX5T-wuSeU5VuRDwJPpUM,1515040
+emantis/powerspectrum_matter.py,sha256=5QV67AYlo5Hi3v2wgRC-IyoeX4JFw14TO1C17jZdNU8,16939
+emantis-1.0.1.dist-info/METADATA,sha256=V0159giBk_m8ECQp12bG-N0pPgSX46h9GoSzUhvQKSM,3018
+emantis-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+emantis-1.0.1.dist-info/top_level.txt,sha256=-DNrmW4VGGslPHEcc_z_x7rJSWvCQKeNw249nUi9ccQ,8
+emantis-1.0.1.dist-info/RECORD,,
