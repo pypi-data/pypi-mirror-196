@@ -1,0 +1,2 @@
+[console_scripts]
+linlog = linlog.cli:main
