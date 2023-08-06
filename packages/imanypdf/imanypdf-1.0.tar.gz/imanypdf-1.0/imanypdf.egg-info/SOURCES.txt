@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+imanypdf/__init__.py
+imanypdf/pdf2image.py
+imanypdf/pdf2text.py
+imanypdf.egg-info/PKG-INFO
+imanypdf.egg-info/SOURCES.txt
+imanypdf.egg-info/dependency_links.txt
+imanypdf.egg-info/top_level.txt
