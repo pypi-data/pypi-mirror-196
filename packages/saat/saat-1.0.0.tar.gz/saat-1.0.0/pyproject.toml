@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "SAAT"
+version = "1.0.0"
+description = "Simulated annealing group allocation"
+authors = ["Samuel Weller"]
+readme = "README.md"
+
+packages = [
+    { include = "lib" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+simanneal = "^0.5.0"
+pandas = "^1.5.3"
+pytest = "^7.2.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
