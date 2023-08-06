@@ -1,0 +1,3 @@
+[console_scripts]
+wydyf=wydyf.__main__:main
+
