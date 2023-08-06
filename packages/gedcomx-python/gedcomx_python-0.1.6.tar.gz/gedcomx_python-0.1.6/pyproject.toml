@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "gedcomx-python"
+version = "0.1.6"
+description = "GEDCOM X Python is the Python implementation of [GEDCOM X](http://www.gedcomx.org)."
+authors = ["Simon Bragg <36492124+maiorsi@users.noreply.github.com>"]
+license = "MIT"
+packages = [
+    { include = "gedcomx" },
+]
+readme = "README.rst"
+repository = "https://github.com/maiorsi/pyGedcomX"
+keywords = ["genealogy"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Topic :: Sociology :: Genealogy",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+importlib-metadata = {version = "^1.0", python = "<3.8"}
+pendulum = "^2.1.2"
+pydantic = "^1.9.1"
+language-tags = "^1.1.0"
+lark-parser = "^0.12.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.15.0"
+black = "^22.3.0"
+ipython = "^8.3.0"
+ipdb = "^0.13.9"
+rstcheck = "^5.0.0"
+Sphinx = "^4.5.0"
+pyupgrade = "^2.32.1"
+autoflake = "^1.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.2"
+
+[tool.isort]
+profile = "black"
+src_paths = ["gedcomx", "tests"]
+
+[tool.poetry-version-plugin]
+source = "init"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.masonry.api"
