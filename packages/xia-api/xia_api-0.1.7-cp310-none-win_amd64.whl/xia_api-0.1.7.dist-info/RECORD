@@ -1,0 +1,9 @@
+xia_api/__init__.py,sha256=f67pfacp-Fmnt9oA4TSn3hkdaTHPnMIYu7TmjrE9FTs,497
+xia_api/auth_client.cp310-win_amd64.pyd,sha256=rQAXw_X7fuj8YhkIFrYpsUT6Q5IeA0MQZQlZQMd20wY,241664
+xia_api/message.cp310-win_amd64.pyd,sha256=kCGFaXq7_q1ABfQHkfZp7dOCo9J51IIBKO1hIRK3_74,288768
+xia_api/rest.cp310-win_amd64.pyd,sha256=ECYoRxOF-1IRwHxnQDZymd8asgnyAeirDNHrZNozXdE,451072
+xia_api-0.1.7.dist-info/LICENSE.txt,sha256=hxPR04Gu87DDUI5drgmeS7DmKKrZ3oegg3N-QQeTg8k,152
+xia_api-0.1.7.dist-info/METADATA,sha256=KrUnolx2ZI66_6VxsvFBF6bPr9SkVvSxQ_KhNI0-7d4,638
+xia_api-0.1.7.dist-info/WHEEL,sha256=xKD-W076Kxa9P8HVHMBFDAZ44LgNHrPjF081MKvpixU,100
+xia_api-0.1.7.dist-info/top_level.txt,sha256=krL7__RbzvbaNfgnuF-oCqAnr2y3Yy6whD8CBZyVXyw,8
+xia_api-0.1.7.dist-info/RECORD,,
