@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: Peter Pentchev <roam@ringlet.net>
+# SPDX-License-Identifier: BSD-2-Clause
+
+include CHANGES.md
+recursive-include config pyproject.toml
+include .editorconfig
+include HACKING.md
+include LICENSES/BSD-2-Clause.txt
+recursive-include nix *.nix *.sh
+include tox.ini
+recursive-include unit_tests *.py

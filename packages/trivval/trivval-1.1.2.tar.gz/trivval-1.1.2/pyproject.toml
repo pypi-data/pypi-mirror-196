@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: Peter Pentchev <roam@ringlet.net>
+# SPDX-License-Identifier: BSD-2-Clause
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target-version = ["py37", "py38", "py39", "py310", "py311"]
+line-length = 100
+
+[tool.mypy]
+strict = true
+python_version = "3.7"
+
+[tool.pylint.main]
+py-version = "3.7"
+
+[tool.test-stages]
+stages = ["ruff and not @manual", "@check and not @manual", "@tests and not @manual"]
