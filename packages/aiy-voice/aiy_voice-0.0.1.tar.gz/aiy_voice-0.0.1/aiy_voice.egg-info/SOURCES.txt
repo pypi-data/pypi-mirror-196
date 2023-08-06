@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+aiy_voice/.board.py.kate-swp
+aiy_voice/__init__.py
+aiy_voice/board.py
+aiy_voice/leds.py
+aiy_voice/pins.py
+aiy_voice/version.py
+aiy_voice.egg-info/PKG-INFO
+aiy_voice.egg-info/SOURCES.txt
+aiy_voice.egg-info/dependency_links.txt
+aiy_voice.egg-info/requires.txt
+aiy_voice.egg-info/top_level.txt
