@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "pytest"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimod-cache"
+authors = [
+    {name = "Janus", email = "janus@insignificancegalore.net"},
+]
+description = "A replay cache for the `dimod.Sampler`-class."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["dimod", "cache"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "dimod",
+    "numpy",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+
+[project.scripts]
+
+[tool.setuptools_scm]
