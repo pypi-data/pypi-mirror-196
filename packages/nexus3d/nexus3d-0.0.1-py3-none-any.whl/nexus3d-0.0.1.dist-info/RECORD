@@ -1,0 +1,16 @@
+nexus3d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus3d/coordinate_systems.py,sha256=mhCR2MGya_9oS-SQ1SWCt_S3BUVkMtSTQOmcIAWILq0,1795
+nexus3d/matrix.py,sha256=iD3PpwuPp2X7drO97zW6f3dykK-sS_zdzVyAVYiu0kc,1742
+nexus3d/nexus_transformations.py,sha256=niGBXFpu7ItHENiB63nMjN6AfA7s30sdNtWZB7BDb5U,7571
+nexus3d/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus3d/formats/cube_mesh.py,sha256=Z_Cb3Zw7gcs2S3y4H3tgy78itQE3344LpAABQwnY804,1825
+nexus3d/formats/gltf_cube_mesh.py,sha256=M5fdkbax7Z0MzZDQ_zhkt_ZJ74ARqAXGPSv3vZctEwY,9772
+nexus3d/formats/gltf_test_files.py,sha256=1KIdqvs5A1tV8xi7qw8j_IAsH0Lmv0elw-ZOsXe7OZU,1676
+nexus3d/formats/interfaces.py,sha256=uBdkcbAxHHc5oi2cdtgTyfkIQUaImCPbXxbBuWHt8KE,535
+nexus3d/formats/stl_cube_mesh.py,sha256=78Ia0WXqNhkPio0SgykNlfcbG3Z_T4HXGBjgAHJbuHo,2334
+nexus3d-0.0.1.dist-info/LICENSE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+nexus3d-0.0.1.dist-info/METADATA,sha256=4bPFapcBd2YQ1n3N3BbyHB-2DxcBQrGBTrOksyRS5Ns,16896
+nexus3d-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nexus3d-0.0.1.dist-info/entry_points.txt,sha256=bYXh2E9Ib6D85xNb7PRlLZ1U0F6FWTWstabquaSuA9Q,62
+nexus3d-0.0.1.dist-info/top_level.txt,sha256=ElyMC8xtTe3O0Qa0RnDcS0hNeTLCeApg64BlIO4Ebjc,8
+nexus3d-0.0.1.dist-info/RECORD,,
