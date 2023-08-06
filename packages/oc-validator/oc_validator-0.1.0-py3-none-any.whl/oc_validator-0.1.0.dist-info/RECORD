@@ -1,0 +1,12 @@
+oc_validator/__init__.py,sha256=3iZLjuPU57FWgsOwpqeXnTcdWaUmHTenlXVbVXn1B9Q,797
+oc_validator/csv_wellformedness.py,sha256=O93MWuV5iG_Ilh0qCN2GbI2lxfwLB84r7S8FsjeAO1o,22216
+oc_validator/helper.py,sha256=67gNZhux8apwmm-E1Qe2HN9He_xpYuOZwoMoeGW-6ZI,6435
+oc_validator/id_existence.py,sha256=JlT-bNqTdZpfGtxgDfO-4OVVqcVaO7MM2deGPYau9r4,2974
+oc_validator/id_syntax.py,sha256=HU44RBWOLP3Ty3Z_CXNFk9GF78V21kIEiEP6i1WpgyM,2545
+oc_validator/id_type_alignment.json,sha256=z9NC8lBA3Ve0dwKwL3FubGFw-SFRmH-0TtsV1FGSESc,1837
+oc_validator/main.py,sha256=x3hHE3AHHu5TiIp0B5NPZe5u9RFeL_qyofCuOB5hrHo,38800
+oc_validator/messages.yaml,sha256=OVJ8WSiZw0sFcPPbrCr8LpOgAYxZQjTUtQSlp1CAPHs,5797
+oc_validator/semantics.py,sha256=qvpejZ3NpOHX5KU65FawsJ3ANww7gIdVJIyiOo5mnRA,1906
+oc_validator-0.1.0.dist-info/METADATA,sha256=3Z32LBCt8EGbLyxG4qJTETxJivc_U-0yNeMV5hd_wLk,2456
+oc_validator-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+oc_validator-0.1.0.dist-info/RECORD,,
