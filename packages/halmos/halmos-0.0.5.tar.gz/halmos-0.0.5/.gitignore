@@ -1,0 +1,22 @@
+# Byte-compiled / optimized
+__pycache__/
+
+# Distribution / packaging
+*.egg-info/
+
+# Pyre type checker
+.pyre/
+
+# Vim tmp files:
+*~
+*.swp
+*.swo
+
+# Environments
+.env
+.venv
+venv/
+
+# Foundry build files
+*/cache/
+*/out/
