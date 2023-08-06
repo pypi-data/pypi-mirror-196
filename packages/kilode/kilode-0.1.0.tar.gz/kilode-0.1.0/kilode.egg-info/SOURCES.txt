@@ -1,0 +1,8 @@
+LICENSE
+LICENSE.md
+README.md
+setup.py
+kilode.egg-info/PKG-INFO
+kilode.egg-info/SOURCES.txt
+kilode.egg-info/dependency_links.txt
+kilode.egg-info/top_level.txt
