@@ -1,0 +1,46 @@
+{
+   "string":[
+      "string",
+      "nan",
+      " ",
+      ""
+   ],
+   "decimal":[
+      "decimal"
+   ],
+   "float":[
+      "float"
+   ],
+   "double":[
+      "double"
+   ],
+   "integer":[
+      "integer",
+      "int",
+      "number"
+   ],
+   "boolean":[
+      "boolean",
+      "bool"
+   ],
+   "date":[
+      "date",
+   ],
+   "time":[
+      "time"
+   ],
+   "dateTime":[
+      "datetime"
+   ],
+   "anyURI":[
+      "anyuri",
+      "iri",
+      "uri",
+      "url"
+   ],
+   "BlankNode":[
+      "blanknode",
+      "blank node",
+      "bn"
+   ]
+}
