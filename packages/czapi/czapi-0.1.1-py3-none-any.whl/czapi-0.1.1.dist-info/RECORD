@@ -1,0 +1,16 @@
+czapi/__init__.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+czapi/_nbdev.py,sha256=uB6V088BkEFTRNi1RCfYuG8TA9QOoq-Om7_E796k-fg,1094
+czapi/api.py,sha256=gMH5rXG-4l6Imm3bHuTVWISWcgnkZ2T0E1h4ovh750s,206
+czapi/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+czapi/core/errors.py,sha256=o40wR8aZBrn-kirDGQwxLP1e51ZuEWwYkSfTn6-V1xc,802
+czapi/core/scraping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+czapi/core/scraping/base.py,sha256=ysiF69Mg_UGFdF_UZmTHN3-RS4HsCC23QlHRJ2kP6js,8631
+czapi/core/scraping/constants.py,sha256=OOokDj_fAo5WUsZeotN6oGrN4LK1rvKWYp6FtTrnGXI,344
+czapi/core/scraping/event.py,sha256=eHrHdf-wm0a5tVdffGKfQucd3potwzlLqMMQp9QARxI,5635
+czapi/core/scraping/linescore.py,sha256=baj43-N6BJaa0lszThzdByCAW2b0eOZ-bGsd9hIIHJM,14143
+czapi-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+czapi-0.1.1.dist-info/METADATA,sha256=T2O09kanLVXdH9IAY1HtqpigsE3oIAW24ax9o1PZGE0,14200
+czapi-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+czapi-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+czapi-0.1.1.dist-info/top_level.txt,sha256=dswicRBIxcryxErbzAh9HxzbWLcNHhVsJHjJ7wLqK7c,6
+czapi-0.1.1.dist-info/RECORD,,
