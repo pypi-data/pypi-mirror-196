@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python-circe
+Version: 0.0.4
+Summary: Python wrapper for Circe
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jpype1 (==1.4.1)
+
+Python wrapper for Circe
